@@ -1,0 +1,530 @@
+{
+  "Type selectors": {
+    "syntax": "element",
+    "groups": [
+      "Basic Selectors"
+    ],
+    "status": "standard"
+  },
+  "Class selectors": {
+    "syntax": ".class",
+    "groups": [
+      "Basic Selectors"
+    ],
+    "status": "standard"
+  },
+  "ID selectors": {
+    "syntax": "#id",
+    "groups": [
+      "Basic Selectors"
+    ],
+    "status": "standard"
+  },
+  "Universal selectors": {
+    "syntax": "*",
+    "groups": [
+      "Basic Selectors"
+    ],
+    "status": "standard"
+  },
+  "Attribute selectors": {
+    "syntax": "[attr=value]",
+    "groups": [
+      "Basic Selectors"
+    ],
+    "status": "standard"
+  },
+  "Adjacent sibling selectors": {
+    "syntax": "A + B",
+    "groups": [
+      "Combinators"
+    ],
+    "status": "standard"
+  },
+  "General sibling selectors": {
+    "syntax": "A ~ B",
+    "groups": [
+      "Combinators"
+    ],
+    "status": "standard"
+  },
+  "Child selectors": {
+    "syntax": "A &gt; B",
+    "groups": [
+      "Combinators"
+    ],
+    "status": "standard"
+  },
+  "Descendant selectors": {
+    "syntax": "A B",
+    "groups": [
+      "Combinators"
+    ],
+    "status": "standard"
+  },
+  ":active": {
+    "syntax": ":active { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":any": {
+    "syntax": ":-moz-any( &lt;selector&gt;# ) { <var>style properties</var> }\n:-webkit-any( &lt;selector&gt;# ) { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "experimental"
+  },
+  ":any-link": {
+    "syntax": ":any-link( <var>style properties</var> ) { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "experimental"
+  },
+  ":checked": {
+    "syntax": ":checked { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":default": {
+    "syntax": ":default { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":dir": {
+    "syntax": ":dir( ltr | rtl ) { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":disabled": {
+    "syntax": ":disabled { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":empty": {
+    "syntax": ":empty { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":enabled": {
+    "syntax": ":enabled { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":first": {
+    "syntax": ":first { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":first-child": {
+    "syntax": ":first-child { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":first-of-type": {
+    "syntax": ":first-of-type { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":fullscreen": {
+    "syntax": ":fullscreen { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":focus": {
+    "syntax": ":focus { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":focus-within": {
+    "syntax": ":focus-within { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "experimental"
+  },
+  ":hover": {
+    "syntax": ":hover { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":indeterminate": {
+    "syntax": ":indeterminate { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":in-range": {
+    "syntax": ":in-range { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":invalid": {
+    "syntax": ":invalid { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":lang": {
+    "syntax": ":lang( &lt;language-code&gt; ) { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":last-child": {
+    "syntax": ":last-child { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":last-of-type": {
+    "syntax": ":last-of-type { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":left": {
+    "syntax": ":left { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes",
+      "CSS Pages"
+    ],
+    "status": "standard"
+  },
+  ":link": {
+    "syntax": ":link { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":not": {
+    "syntax": ":not( &lt;selector&gt;# ) { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":nth-child": {
+    "syntax": ":nth-child( &lt;an-plus-b&gt; [ of &lt;selector&gt# ]? ) { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":nth-last-child": {
+    "syntax": ":nth-last-child( &lt;an-plus-b&gt; [ of &lt;selector&gt# ]? ) { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":nth-last-of-type": {
+    "syntax": ":nth-last-of-type( &lt;an-plus-b&gt; ) { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":nth-of-type": {
+    "syntax": ":nth-of-type( &lt;an-plus-b&gt; ) { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":only-child": {
+    "syntax": ":only-child { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":only-of-type": {
+    "syntax": ":only-of-type { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":optional": {
+    "syntax": ":optional { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":out-of-range": {
+    "syntax": ":out-of-range { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":placeholder-shown": {
+    "syntax": ":placeholder-shown { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "experimental"
+  },
+  ":read-only": {
+    "syntax": ":read-only { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":read-write": {
+    "syntax": ":read-write { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":required": {
+    "syntax": ":required { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":right": {
+    "syntax": ":right { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes",
+      "CSS Pages"
+    ],
+    "status": "standard"
+  },
+  ":root": {
+    "syntax": ":root { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes",
+      "CSS Pages"
+    ],
+    "status": "standard"
+  },
+  ":scope": {
+    "syntax": ":scope { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":target": {
+    "syntax": ":target { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":unresolved": {
+    "syntax": ":unresolved { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":valid": {
+    "syntax": ":valid { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  ":visited": {
+    "syntax": ":visited { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-classes"
+    ],
+    "status": "standard"
+  },
+  "::-moz-progress-bar": {
+    "syntax": "::-moz-progress-bar { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-elements",
+      "Mozilla Extensions"
+    ],
+    "status": "nonstandard"
+  },
+  "::-moz-range-progress": {
+    "syntax": "::-moz-range-progress { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-elements",
+      "Mozilla Extensions"
+    ],
+    "status": "nonstandard"
+  },
+  "::-moz-range-thumb": {
+    "syntax": "::-moz-range-thumb { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-elements",
+      "Mozilla Extensions"
+    ],
+    "status": "nonstandard"
+  },
+  "::-moz-range-track": {
+    "syntax": "::-moz-range-track { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-elements",
+      "Mozilla Extensions"
+    ],
+    "status": "nonstandard"
+  },
+  "::-ms-fill": {
+    "syntax": "::-ms-fill { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-elements",
+      "Microsoft Extensions"
+    ],
+    "status": "nonstandard"
+  },
+  "::-ms-fill-lower": {
+    "syntax": "::-ms-fill-lower { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-elements",
+      "Microsoft Extensions"
+    ],
+    "status": "nonstandard"
+  },
+  "::-ms-fill-upper": {
+    "syntax": "::-ms-fill-upper { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-elements",
+      "Microsoft Extensions"
+    ],
+    "status": "nonstandard"
+  },
+  "::-ms-thumb": {
+    "syntax": "::-ms-thumb { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-elements",
+      "Microsoft Extensions"
+    ],
+    "status": "nonstandard"
+  },
+  "::-ms-track": {
+    "syntax": "::-ms-track { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-elements",
+      "Microsoft Extensions"
+    ],
+    "status": "nonstandard"
+  },
+  "::-webkit-progress-bar": {
+    "syntax": "::-webkit-progress-bar { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-elements",
+      "WebKit Extensions"
+    ],
+    "status": "nonstandard"
+  },
+  "::-webkit-progress-inner-value": {
+    "syntax": "::-webkit-progress-inner-value { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-elements",
+      "WebKit Extensions"
+    ],
+    "status": "nonstandard"
+  },
+  "::-webkit-progress-value": {
+    "syntax": "::-webkit-progress-value { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-elements",
+      "WebKit Extensions"
+    ],
+    "status": "nonstandard"
+  },
+  "::-webkit-slider-runnable-track": {
+    "syntax": "::-webkit-slider-runnable-track { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-elements",
+      "WebKit Extensions"
+    ],
+    "status": "nonstandard"
+  },
+  "::-webkit-slider-thumb": {
+    "syntax": "::-webkit-slider-thumb { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-elements",
+      "WebKit Extensions"
+    ],
+    "status": "nonstandard"
+  },
+  "::after": {
+    "syntax": "/* CSS3 syntax */\n::after { <var>style properties</var> }\n\n/* CSS2 syntax */\n:after { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-elements"
+    ],
+    "status": "standard"
+  },
+  "::backdrop": {
+    "syntax": "::backdrop { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-elements"
+    ],
+    "status": "standard"
+  },
+  "::before": {
+    "syntax": "/* CSS3 syntax */\n::before { <var>style properties</var> }\n\n/* CSS2 syntax */\n:before { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-elements"
+    ],
+    "status": "standard"
+  },
+  "::first-letter": {
+    "syntax": "/* CSS3 syntax */\n::first-letter { <var>style properties</var> }\n\n/* CSS2 syntax */\n:first-letter { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-elements"
+    ],
+    "status": "standard"
+  },
+  "::first-line": {
+    "syntax": "/* CSS3 syntax */\n::first-line { <var>style properties</var> }\n\n/* CSS2 syntax */\n:first-line { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-elements"
+    ],
+    "status": "standard"
+  },
+  "::selection": {
+    "syntax": "::selection { <var>style properties</var> }",
+    "groups": [
+      "Pseudo-elements"
+    ],
+    "status": "standard"
+  }
+}
