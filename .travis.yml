@@ -1,0 +1,7 @@
+language: node_js
+before_script:
+  - npm install jsonlint -g
+script:
+  - find . -name \*.json  | xargs -I {} jsonlint -q {}
+notifications:
+email: false
