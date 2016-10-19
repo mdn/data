@@ -55,6 +55,7 @@
   "fixed-breadth": "&lt;length-percentage&gt;",
   "fixed-repeat": "repeat( [ &lt;positive-integer&gt; ] , [ &lt;line-names&gt;? &lt;fixed-size&gt; ]+ &lt;line-names&gt;? )",
   "fixed-size": "&lt;fixed-breadth&gt; | minmax( &lt;fixed-breadth&gt; , &lt;track-breadth&gt; ) | minmax( &lt;inflexible-breadth&gt; , &lt;fixed-breadth&gt; )",
+  "font-family-name-list": "&lt;family-name&gt;#",
   "font-variant-css21": "[ normal | small-caps ]",
   "frequency-percentage": "&lt;frequency&gt; | &lt;percentage&gt;",
   "generic-family": "serif | sans-serif | cursive | fantasy | monospace",
