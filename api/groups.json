@@ -1801,7 +1801,7 @@
                         "NotificationEvent" ],
         "methods":    [ "ServiceWorkerRegistration.showNotification()",
                         "ServiceWorkerRegistration.getNotifications()" ],
-        "properties": [ "ServiceWorkerRegistration.onnotificationclick"],
+        "properties": [ "ServiceWorkerGlobalScope.onnotificationclick"],
         "events":     [ "error",
                         "click",
                         "close",
