@@ -230,7 +230,7 @@
     "status": "standard"
   },
   "@keyframes": {
-    "syntax": "@keyframes &lt;identifier&gt; {\n  [ [ from | to | &lt;percentage&gt; ] [, from | to | &lt;percentage&gt; ]* block ]*\n}",
+    "syntax": "@keyframes &lt;keyframes-name&gt; {\n  &lt;keyframe-block-list&gt;\n}",
     "interfaces": [
       "CSSKeyframeRule",
       "CSSKeyframesRule"
