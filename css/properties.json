@@ -900,7 +900,7 @@
     "status": "standard"
   },
   "animation-name": {
-    "syntax": "&lt;single-animation-name&gt;#",
+    "syntax": "[ none | &lt;keyframes-name&gt; ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
