@@ -48,6 +48,12 @@
     ],
     "status": "standard"
   },
+  "<ident>": {
+    "groups": [
+      "CSS Types"
+    ],
+    "status": "standard"
+  },
   "<image>": {
     "groups": [
       "CSS Images",
