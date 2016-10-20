@@ -213,7 +213,7 @@
     "status": "standard"
   },
   "@font-feature-values": {
-    "syntax": "@font-feature-values &lt;font-family-name-list&gt; {\n  [ @swash | @ornaments | @annotation | @stylistic | @styleset | @character-variant\n  {\n    [ &lt;IDENT&gt;: &lt;integer&gt;+ ]?\n  }\n  ]?\n}",
+    "syntax": "@font-feature-values &lt;family-name&gt;# {\n  &lt;feature-value-block-list&gt;\n}",
     "interfaces": [
       "CSSFontFeatureValuesRule"
     ],
