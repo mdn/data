@@ -48,7 +48,7 @@
   "family-name": "&lt;string&gt; | &lt;custom-ident&gt;+",
   "feature-tag-value": "&lt;string&gt; [ &lt;integer&gt; | on | off ]?",
   "feature-type": "@stylistic | @historical-forms | @styleset | @character-variant | @swash | @ornaments | @annotation",
-  "feature-value-block": "&lt;feature-type&gt; { &gt;feature-value-declaration-list&lt; }",
+  "feature-value-block": "&lt;feature-type&gt; { &lt;feature-value-declaration-list&gt; }",
   "feature-value-block-list": "&lt;feature-value-block&gt;+",
   "feature-value-declaration": "&lt;custom-ident&gt;: &lt;integer&gt;+",
   "feature-value-declaration-list": "&lt;feature-value-declaration&gt;",
