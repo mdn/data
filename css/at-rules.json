@@ -262,7 +262,7 @@
     "status": "standard"
   },
   "@page": {
-    "syntax": "@page &lt;page-selector-list&gt; {\n  &lt;group-rule-body&gt;\n}",
+    "syntax": "@page &lt;page-selector-list&gt; {\n  &lt;page-body&gt;\n},",
     "interfaces": [
       "CSSPageRule"
     ],
