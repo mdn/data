@@ -158,7 +158,7 @@
   "shape": "rect(&lt;top&gt;, &lt;right&gt;, &lt;bottom&gt;, &lt;left&gt;)",
   "shape-box": "&lt;box&gt; | margin-box",
   "side-or-corner": "[ left | right ] || [ top | bottom ]",
-  "single-animation": "&lt;time&gt; || &lt;single-timing-function&gt; || &lt;time&gt; || &lt;single-animation-iteration-count&gt; || &lt;single-animation-direction&gt; || &lt;single-animation-fill-mode&gt; || &lt;single-animation-play-state&gt; || &lt;single-animation-name&gt;",
+  "single-animation": "&lt;time&gt; || &lt;single-timing-function&gt; || &lt;time&gt; || &lt;single-animation-iteration-count&gt; || &lt;single-animation-direction&gt; || &lt;single-animation-fill-mode&gt; || &lt;single-animation-play-state&gt; || [ none | &lt;keyframes-name&gt; ]",
   "single-animation-direction": "normal | reverse | alternate | alternate-reverse",
   "single-animation-fill-mode": "none | forwards | backwards | both",
   "single-animation-iteration-count": "infinite | &lt;number&gt;",
