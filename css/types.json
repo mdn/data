@@ -35,6 +35,13 @@
     ],
     "status": "standard"
   },
+  "<flex>": {
+    "groups": [
+      "CSS Grid",
+      "CSS Types"
+    ],
+    "status": "standard"
+  },
   "<frequency>": {
     "groups": [
       "CSS Types"

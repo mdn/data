@@ -55,6 +55,14 @@
     ],
     "status": "standard"
   },
+  "fr": {
+    "groups": [
+      "CSS Units",
+      "CSS Lengths",
+      "CSS Grid"
+    ],
+    "status": "standard"
+  },
   "grad": {
     "groups": [
       "CSS Units",
@@ -104,13 +112,6 @@
     ],
     "status": "standard"
   },
-  "q": {
-    "groups": [
-      "CSS Units",
-      "CSS Lengths"
-    ],
-    "status": "standard"
-  },
   "pt": {
     "groups": [
       "CSS Units",
@@ -119,6 +120,13 @@
     "status": "standard"
   },
   "px": {
+    "groups": [
+      "CSS Units",
+      "CSS Lengths"
+    ],
+    "status": "standard"
+  },
+  "q": {
     "groups": [
       "CSS Units",
       "CSS Lengths"
