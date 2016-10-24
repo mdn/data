@@ -46,7 +46,7 @@
     "status": "nonstandard"
   },
   "-moz-binding": {
-    "syntax": "&lt;uri&gt; | none",
+    "syntax": "&lt;url&gt; | none",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2792,7 +2792,7 @@
     "status": "experimental"
   },
   "content": {
-    "syntax": "normal | none | [ &lt;string&gt; | &lt;uri&gt; | &lt;counter&gt; | attr() | open-quote | close-quote | no-open-quote | no-close-quote ]+",
+    "syntax": "normal | none | [ &lt;string&gt; | &lt;url&gt; | &lt;counter&gt; | attr() | open-quote | close-quote | no-open-quote | no-close-quote ]+",
     "media": "all",
     "inherited": false,
     "animationType": "discrete",
@@ -2837,7 +2837,7 @@
     "status": "standard"
   },
   "cursor": {
-    "syntax": "[ [ &lt;uri&gt; [ &lt;x&gt; &lt;y&gt; ]? , ]* [ auto | default | none | context-menu | help | pointer | progress | wait | cell | crosshair | text | vertical-text | alias | copy | move | no-drop | not-allowed | e-resize | n-resize | ne-resize | nw-resize | s-resize | se-resize | sw-resize | w-resize | ew-resize | ns-resize | nesw-resize | nwse-resize | col-resize | row-resize | all-scroll | zoom-in | zoom-out | grab | grabbing ] ]",
+    "syntax": "[ [ &lt;url&gt; [ &lt;x&gt; &lt;y&gt; ]? , ]* [ auto | default | none | context-menu | help | pointer | progress | wait | cell | crosshair | text | vertical-text | alias | copy | move | no-drop | not-allowed | e-resize | n-resize | ne-resize | nw-resize | s-resize | se-resize | sw-resize | w-resize | ew-resize | ns-resize | nesw-resize | nwse-resize | col-resize | row-resize | all-scroll | zoom-in | zoom-out | grab | grabbing ] ]",
     "media": "visual, interactive",
     "inherited": true,
     "animationType": "discrete",
@@ -4074,7 +4074,7 @@
     "status": "standard"
   },
   "list-style-image": {
-    "syntax": "&lt;uri&gt; | none",
+    "syntax": "&lt;url&gt; | none",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
