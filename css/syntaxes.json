@@ -13,6 +13,7 @@
   "bg-layer": "&lt;bg-image&gt; || &lt;position&gt; [ / &lt;bg-size&gt; ]? || &lt;repeat-style&gt; || &lt;attachment&gt; || &lt;box&gt;{1,2}",
   "bg-size": "[ &lt;length-percentage&gt; | auto ]{1,2} | cover | contain",
   "blur()": "blur( &lt;length&gt; )",
+  "blend-mode": "normal | multiply | screen | overlay | darken | lighten | color-dodge | color-burn | hard-light | soft-light | difference | exclusion | hue | saturation | color | luminosity",
   "box": "border-box | padding-box | content-box",
   "br-style": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset",
   "br-width": "&lt;length&gt; | thin | medium | thick",
