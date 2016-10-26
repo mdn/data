@@ -120,7 +120,7 @@
     "status": "nonstandard"
   },
   "@font-face": {
-    "syntax": "@font-face {\n  [ font-family: &lt;family-name&gt;; ] ||\n  [ src: [ &lt;uri&gt; [ format(&lt;string&gt;#) ]? | &lt;font-face-name&gt; ]#; ] ||\n  [ unicode-range: &lt;urange&gt;#; ] ||\n  [ font-variant: &lt;font-variant&gt;; ] ||\n  [ font-feature-settings: normal | &lt;feature-tag-value&gt;#; ] ||\n  [ font-stretch: &lt;font-stretch&gt;; ] ||\n  [ font-weight: &lt;weight&gt;; ] ||\n  [ font-style: &lt;style&gt;; ]\n}",
+    "syntax": "@font-face {\n  [ font-family: &lt;family-name&gt;; ] ||\n  [ src: [ &lt;url&gt; [ format(&lt;string&gt;#) ]? | &lt;font-face-name&gt; ]#; ] ||\n  [ unicode-range: &lt;urange&gt;#; ] ||\n  [ font-variant: &lt;font-variant&gt;; ] ||\n  [ font-feature-settings: normal | &lt;feature-tag-value&gt;#; ] ||\n  [ font-stretch: &lt;font-stretch&gt;; ] ||\n  [ font-weight: &lt;weight&gt;; ] ||\n  [ font-style: &lt;style&gt;; ]\n}",
     "interfaces": [
       "CSSFontFaceRule"
     ],
@@ -255,7 +255,7 @@
     "status": "standard"
   },
   "@namespace": {
-    "syntax": "@namespace &lt;namespace-prefix&gt;? [ &lt;string&gt; | &lt;uri&gt; ];",
+    "syntax": "@namespace &lt;namespace-prefix&gt;? [ &lt;string&gt; | &lt;url&gt; ];",
     "groups": [
       "CSS Namespaces"
     ],
