@@ -930,7 +930,7 @@
     "status": "standard"
   },
   "animation-timing-function": {
-    "syntax": "&lt;timing-function&gt;#",
+    "syntax": "&lt;single-timing-function&gt;#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",

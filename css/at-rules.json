@@ -349,7 +349,7 @@
         "status": "standard"
       },
       "max-zoom": {
-        "syntax": "auto | &lt;number-percentage&gt;",
+        "syntax": "auto | &lt;number&gt; | &lt;percentage&gt;",
         "media": "visual, continuous",
         "initial": "<code>auto</code>",
         "percentages": "the zoom factor itself",
@@ -376,7 +376,7 @@
         "status": "standard"
       },
       "min-zoom": {
-        "syntax": "auto | &lt;number-percentage&gt;",
+        "syntax": "auto | &lt;number&gt; | &lt;percentage&gt;",
         "media": "visual, continuous",
         "initial": "<code>auto</code>",
         "percentages": "the zoom factor itself",
@@ -421,7 +421,7 @@
         "status": "standard"
       },
       "zoom": {
-        "syntax": "auto | &lt;number-percentage&gt;",
+        "syntax": "auto | &lt;number&gt; | &lt;percentage&gt;",
         "media": "visual, continuous",
         "initial": "<code>auto</code>",
         "percentages": "the zoom factor itself",
