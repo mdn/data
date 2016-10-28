@@ -555,7 +555,7 @@
     "status": "nonstandard"
   },
   "-webkit-mask-position": {
-    "syntax": "&lt;mask-position&gt; [ , &lt;mask-position&gt; ]#",
+    "syntax": "&lt;mask-position&gt;#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
