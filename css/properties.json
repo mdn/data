@@ -1194,7 +1194,7 @@
     "status": "standard"
   },
   "background-position-x": {
-    "syntax": "[ center | [ left | right | x-start | x-end ] &lt;length-percentage&gt;? ]#",
+    "syntax": "[ center | [ left | right | x-start | x-end ]? &lt;length-percentage&gt;? ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -1209,7 +1209,7 @@
     "status": "experimental"
   },
   "background-position-y": {
-    "syntax": "[ center | [ top | bottom | y-start | y-end ] &lt;length-percentage&gt;? ]#",
+    "syntax": "[ center | [ top | bottom | y-start | y-end ]? &lt;length-percentage&gt;? ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
