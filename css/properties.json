@@ -555,7 +555,7 @@
     "status": "nonstandard"
   },
   "-webkit-mask-position": {
-    "syntax": "&lt;mask-position&gt; [, &lt;mask-position&gt; ]#",
+    "syntax": "&lt;mask-position&gt;#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -1194,7 +1194,7 @@
     "status": "standard"
   },
   "background-position-x": {
-    "syntax": "[ center | [ left | right | x-start | x-end ] &lt;length-percentage&gt;? ]#",
+    "syntax": "[ center | [ left | right | x-start | x-end ]? &lt;length-percentage&gt;? ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -1209,7 +1209,7 @@
     "status": "experimental"
   },
   "background-position-y": {
-    "syntax": "[ center | [ top | bottom | y-start | y-end ] &lt;length-percentage&gt;? ]#",
+    "syntax": "[ center | [ top | bottom | y-start | y-end ]? &lt;length-percentage&gt;? ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -5738,7 +5738,7 @@
     "status": "standard"
   },
   "text-indent": {
-    "syntax": "&lt;length-percentage&gt; &amp;&amp; [ hanging || each-line ]",
+    "syntax": "&lt;length-percentage&gt; &amp;&amp; hanging? &amp;&amp; each-line?",
     "media": "visual",
     "inherited": true,
     "animationType": "lpc",
