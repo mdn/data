@@ -5366,7 +5366,7 @@
     "status": "standard"
   },
   "scroll-snap-points-x": {
-    "syntax": "none | repeat( &lt;length&gt; )",
+    "syntax": "none | repeat( &lt;length-percentage&gt; )",
     "media": "interactive",
     "inherited": false,
     "animationType": "discrete",
@@ -5381,7 +5381,7 @@
     "status": "obsolete"
   },
   "scroll-snap-points-y": {
-    "syntax": "none | repeat( &lt;length&gt; )",
+    "syntax": "none | repeat( &lt;length-percentage&gt; )",
     "media": "interactive",
     "inherited": false,
     "animationType": "discrete",
