@@ -997,16 +997,20 @@
                         "started",
                         "devicechange" ]
     },
-    "Media Recorder API": {
-        "overview":   [ "MediaRecorder API" ],
-        "interfaces": [ "MediaRecorder" ],
+    "MediaStream Recording": {
+        "overview":   [ "MediaStream Recording API" ],
+        "guides":     [ { "url": "/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API",
+                          "title": "Using the MediaStream recording API" } ],
+        "interfaces": [ "MediaRecorder",
+                        "BlobEvent" ],
         "methods":    [],
         "properties": [],
-        "events":     [ "start_(MediaRecorder)",
+        "events":     [ "start",
                         "stop",
                         "dataavailable",
                         "pause",
-                        "resume" ]
+                        "resume",
+                        "error" ]
     },
     "Media Source Extensions": {
         "interfaces": [ "MediaSource",
