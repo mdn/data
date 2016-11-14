@@ -2792,7 +2792,7 @@
     "status": "experimental"
   },
   "content": {
-    "syntax": "normal | none | [ &lt;string&gt; | &lt;url&gt; | &lt;counter&gt; | attr() | open-quote | close-quote | no-open-quote | no-close-quote ]+",
+    "syntax": "[ &lt;image&gt; , ]* [ normal | none | &lt;content-list&gt; ] [/ &lt;string&gt; ]?",
     "media": "all",
     "inherited": false,
     "animationType": "discrete",
