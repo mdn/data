@@ -262,12 +262,6 @@
                         "error",
                         "contactchange" ]
     },
-    "Console API": {
-        "interfaces": [ "Console" ],
-        "methods": [],
-        "properties": [],
-        "events": []
-    },
     "CSS Counter Styles": {
         "overview":   [ "CSS Counter Styles" ],
         "interfaces": [ "CSSCounterStyleRule" ],
@@ -1363,6 +1357,16 @@
         "methods":    [],
         "properties": [],
         "events":     [ "speakerforcedchange" ]
+    },
+    "Storage": {
+        "overview":   [ "Storage API" ],
+        "interfaces": [ "StorageManager",
+                        "NavigatorStorage",
+                        "StorageEstimate" ],
+        "methods":    [],
+        "properties": [ "Navigator.storage",
+                        "WorkerNavigator.storage" ],
+        "events":     []
     },
     "SVG": {
         "interfaces": [ "SVGAElement",
