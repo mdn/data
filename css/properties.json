@@ -670,15 +670,16 @@
     ],
     "initial": "<code>currentcolor</code>",
     "appliesto": "allElements",
-    "computed": "asSpecified",
+    "computed": "'color'",
     "order": "uniqueOrder",
     "status": "nonstandard"
   },
   "-webkit-text-stroke": {
-    "syntax": "&lt;length&gt; &lt;color&gt;",
+    "syntax": "&lt;length&gt; || &lt;color&gt;",
     "media": "visual",
     "inherited": true,
     "animationType": [
+      "-webkit-text-stroke-width",
       "-webkit-text-stroke-color"
     ],
     "percentages": "no",
@@ -690,8 +691,11 @@
       "-webkit-text-stroke-color"
     ],
     "appliesto": "allElements",
-    "computed": "asSpecified",
-    "order": "uniqueOrder",
+    "computed": [
+      "-webkit-text-stroke-width",
+      "-webkit-text-stroke-color"
+    ],
+    "order": "canonicalOrder",
     "status": "nonstandard"
   },
   "-webkit-text-stroke-color": {
@@ -703,9 +707,9 @@
     "groups": [
       "WebKit Extensions"
     ],
-    "initial": "<code>rgb(0, 0, 0)</code>",
+    "initial": "<code>currentColor</code>",
     "appliesto": "allElements",
-    "computed": "asSpecified",
+    "computed": "'color'",
     "order": "uniqueOrder",
     "status": "nonstandard"
   },
@@ -720,7 +724,7 @@
     ],
     "initial": "<code>0</code>",
     "appliesto": "allElements",
-    "computed": "asSpecified",
+    "computed": "absoluteWidth",
     "order": "uniqueOrder",
     "status": "nonstandard"
   },
