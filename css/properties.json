@@ -707,7 +707,7 @@
     "groups": [
       "WebKit Extensions"
     ],
-    "initial": "<code>currentColor</code>",
+    "initial": "<code>currentcolor</code>",
     "appliesto": "allElements",
     "computed": "'color'",
     "order": "uniqueOrder",
@@ -1487,7 +1487,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>currentColor</code>",
+    "initial": "<code>currentcolor</code>",
     "appliesto": "allElements",
     "computed": "'color'",
     "order": "uniqueOrder",
@@ -1920,7 +1920,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>currentColor</code>",
+    "initial": "<code>currentcolor</code>",
     "appliesto": "allElements",
     "computed": "'color'",
     "order": "uniqueOrder",
@@ -2037,7 +2037,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>currentColor</code>",
+    "initial": "<code>currentcolor</code>",
     "appliesto": "allElements",
     "computed": "'color'",
     "order": "uniqueOrder",
@@ -2164,7 +2164,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>currentColor</code>",
+    "initial": "<code>currentcolor</code>",
     "appliesto": "allElements",
     "computed": "'color'",
     "order": "uniqueOrder",
@@ -2690,7 +2690,7 @@
     "groups": [
       "CSS Columns"
     ],
-    "initial": "<code>currentColor</code>",
+    "initial": "<code>currentcolor</code>",
     "appliesto": "multicolElements",
     "computed": "'color'",
     "order": "uniqueOrder",
@@ -5608,7 +5608,7 @@
     "groups": [
       "CSS Text Decoration"
     ],
-    "initial": "<code>currentColor</code>",
+    "initial": "<code>currentcolor</code>",
     "appliesto": "allElements",
     "computed": "'color'",
     "order": "uniqueOrder",
@@ -5707,7 +5707,7 @@
     "groups": [
       "CSS Text Decoration"
     ],
-    "initial": "<code>currentColor</code>",
+    "initial": "<code>currentcolor</code>",
     "appliesto": "allElements",
     "computed": "'color'",
     "order": "uniqueOrder",
