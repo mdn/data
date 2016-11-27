@@ -1165,10 +1165,7 @@
     "ru": "абсолютная {{cssxref(\"length\")}}"
   },
   "absoluteWidth": {
-    "en-US": "absolute {{cssxref(\"width\")}}",
-    "fr": "une longueur (type {{cssxref(\"width\")}}) absolue",
-    "de": "absolute {{cssxref(\"width\")}}",
-    "ru": "абсолютная {{cssxref(\"width\")}}"
+    "en-US": "absolute width"
   },
   "absoluteLengthZeroIfBorderStyleNoneOrHidden": {
     "en-US": "absolute length; <code>0</code> if the border style is <code>none</code> or <code>hidden</code>",
