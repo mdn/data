@@ -5493,7 +5493,7 @@
     "syntax": "&lt;integer&gt; | &lt;length&gt;",
     "media": "visual",
     "inherited": true,
-    "animationType": "discrete",
+    "animationType": "length",
     "percentages": "no",
     "groups": [
       "CSS Text"
