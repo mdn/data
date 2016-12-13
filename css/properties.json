@@ -724,7 +724,7 @@
     ],
     "initial": "<code>0</code>",
     "appliesto": "allElements",
-    "computed": "absoluteWidth",
+    "computed": "absoluteLength",
     "order": "uniqueOrder",
     "status": "nonstandard"
   },

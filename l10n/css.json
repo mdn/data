@@ -1164,9 +1164,6 @@
     "de": "absolute {{cssxref(\"length\")}}",
     "ru": "абсолютная {{cssxref(\"length\")}}"
   },
-  "absoluteWidth": {
-    "en-US": "absolute width"
-  },
   "absoluteLengthZeroIfBorderStyleNoneOrHidden": {
     "en-US": "absolute length; <code>0</code> if the border style is <code>none</code> or <code>hidden</code>",
     "de": "absolute Länge; <code>0</code>, falls der Rahmenstil <code>none</code> oder <code>hidden</code> ist",
