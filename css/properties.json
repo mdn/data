@@ -5890,7 +5890,7 @@
     "status": "standard"
   },
   "touch-action": {
-    "syntax": "auto | none | [ [ pan-x | pan-left | pan-right ] || [ pan-y | pan-up | pan-down ] ] | manipulation",
+    "syntax": "auto | none | [ [ pan-x | pan-left | pan-right ] || [ pan-y | pan-up | pan-down ] || pinch-zoom ] | manipulation",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
