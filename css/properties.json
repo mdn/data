@@ -6075,7 +6075,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>none</code>",
+    "initial": "<code>auto</code>",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
