@@ -2544,6 +2544,21 @@
     "order": "uniqueOrder",
     "status": "standard"
   },
+  "caret-color": {
+    "syntax": "auto | &lt;color&gt;",
+    "media": "interactive",
+    "inherited": true,
+    "animationType": "color",
+    "percentages": "no",
+    "groups": [
+      "CSS User Interface"
+    ],
+    "initial": "<code>auto</code>",
+    "appliesto": "allElements",
+    "computed": "asAutoOrColor",
+    "order": "perGrammar",
+    "status": "standard"
+  },
   "clear": {
     "syntax": "none | left | right | both | inline-start | inline-end",
     "media": "visual",

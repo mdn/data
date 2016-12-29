@@ -1152,6 +1152,10 @@
     "fr": "identiques aux propriétés qui décalent les boîtes : {{cssxref(\"top\")}}, {{cssxref(\"right\")}}, {{cssxref(\"bottom\")}}, {{cssxref(\"left\")}} sauf que ces directions sont logiques",
     "ru": "также как смещение блоков свойствами: {{cssxref(\"top\")}}, {{cssxref(\"right\")}}, {{cssxref(\"bottom\")}}, {{cssxref(\"left\")}}, кроме того направления логичны"
   },
+  "asAutoOrColor": {
+    "en-US": "<code>auto</code> is computed as specified and <code>&lt;color&gt;</code> values are computed as defined for the {{cssxref(\"color\")}} property.",
+    "de": "<code>auto</code> wird wie angegeben berechnet und <code>&lt;color&gt;</code> Werte werden wie für die {{cssxref(\"color\")}} Eigenschaft berechnet."
+  },
   "asLength": {
     "en-US": "as {{cssxref(\"length\")}}",
     "de": "als {{cssxref(\"length\")}}",
