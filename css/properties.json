@@ -321,7 +321,7 @@
     "status": "nonstandard"
   },
   "-moz-user-input": {
-    "syntax": "none | enabled | disabled",
+    "syntax": "auto | none | enabled | disabled",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -329,7 +329,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>none</code>",
+    "initial": "<code>auto</code>",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
