@@ -963,6 +963,10 @@
     "inh": "Event",
     "impl": []
   },
+  "IdleDeadline": {
+    "inh": "",
+    "impl": []
+  },
   "ImageCapture": {
     "inh": "EventTarget",
     "impl": []
