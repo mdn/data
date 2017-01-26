@@ -45,6 +45,10 @@
     "inh": "Event",
     "impl": []
   },
+  "AudioScheduledSourceNode": {
+    "inh":  "AudioNode",
+    "impl": []
+  },
   "AudioStreamTrack": {
     "inh": "MediaStreamTrack",
     "impl": []
@@ -62,6 +66,10 @@
     "impl": [
       "LegacyQueryInterface"
     ]
+  },
+  "BaseAudioContext": {
+    "inh": "EventTarget",
+    "impl": []
   },
   "BatteryManager": {
     "inh": "EventTarget",
@@ -261,6 +269,10 @@
   },
   "CompositionEvent": {
     "inh": "UIEvent",
+    "impl": []
+  },
+  "ConstantSourceNode": {
+    "inh":  "AudioScheduledSourceNode",
     "impl": []
   },
   "ContactManager": {
