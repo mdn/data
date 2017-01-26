@@ -64,6 +64,14 @@
                         "mozinterruptbegin",
                         "mozinterruptend" ]
     },
+    "Background Tasks": {
+      "overview":     [ "Cooperative Scheduling of Background Tasks API" ],
+      "interfaces":   [ "IdleDeadline" ],
+      "methods":      [ "Window.cancelIdleCallback()",
+                        "Window.requestIdleCallback()" ],
+      "properties":   [],
+      "events":       []
+    },
     "Battery API": {
         "overview":   [ "Battery Status API" ],
         "guides":     [ { "url":   "/Apps/Build/gather_and_modify_data/retrieving_battery_status_information",
