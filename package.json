@@ -1,0 +1,21 @@
+{
+  "name": "mdn-data",
+  "version": "1.0.0",
+  "description": "Open Web data by the Mozilla Developer Network",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdn/data.git"
+  },
+  "keywords": [
+    "data",
+    "mdn",
+    "mozilla",
+    "css"
+  ],
+  "author": "Mozilla Developer Network",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/mdn/data/issues"
+  },
+  "homepage": "https://developer.mozilla.org"
+}
