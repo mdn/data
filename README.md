@@ -20,10 +20,6 @@ There's a top-level directory for each broad area covered: for example, "api",
 "css", "svg". Inside each of these directories is one or more
 JSON files containing the data.
 
-### api
- Contains data about:
-* Web API interface inheritance
-* Web API groups
 
 ### css
  Contains data about:
@@ -34,9 +30,6 @@ JSON files containing the data.
 * CSS types
 * CSS units
 
-### svg
- Contains data about:
-* SVG elements
 
 ### l10n
 The l10n folder contains localization strings that are used in the various
