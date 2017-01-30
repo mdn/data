@@ -736,7 +736,7 @@
     "status": "nonstandard"
   },
   "align-content": {
-    "syntax": "flex-start | flex-end | center | space-between | space-around | stretch",
+    "syntax": "flex-start | flex-end | center | space-between | space-around | space-evenly | stretch",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -3986,7 +3986,7 @@
     "status": "standard"
   },
   "justify-content": {
-    "syntax": "flex-start | flex-end | center | space-between | space-around",
+    "syntax": "flex-start | flex-end | center | space-between | space-around | space-evenly",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
