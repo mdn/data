@@ -4734,7 +4734,7 @@
       "offset-path",
       "offset-distance",
       "offset-rotation",
-      "offset-anchor
+      "offset-anchor"
     ],
     "order": "orderOfAppearance",
     "stacking": true,
