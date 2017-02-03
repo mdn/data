@@ -93,7 +93,7 @@
   "line-names": "'[' &lt;custom-ident&gt;* ']'",
   "line-name-list": "[ &lt;line-names&gt; | &lt;name-repeat&gt; ]+",
   "linear-gradient()": "linear-gradient( [ &lt;angle&gt; | to &lt;side-or-corner&gt; ]? , &lt;color-stop-list&gt; )",
-  "mask-layer": "&lt;mask-reference&gt; &lt;masking-mode&gt;? || &lt;position&gt; [ / &lt;bg-size&gt; ]? || &lt;repeat-style&gt; || &lt;geometry-box&gt; || [ &lt;geometry-box&gt; | no-clip ] || &lt;compositing-operator&gt;",
+  "mask-layer": "&lt;mask-reference&gt; || &lt;position&gt; [ / &lt;bg-size&gt; ]? || &lt;repeat-style&gt; || &lt;geometry-box&gt; || [ &lt;geometry-box&gt; | no-clip ] || &lt;compositing-operator&gt; || &lt;masking-mode&gt;",
   "mask-position": "[ &lt;length-percentage&gt; | left | center | right ] [ &lt;length-percentage&gt; | top | center | bottom ]?",
   "mask-reference": "none | &lt;image&gt; | &lt;mask-source&gt;",
   "mask-source": "&lt;url&gt;",
