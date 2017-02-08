@@ -33,7 +33,7 @@
   "composite-style": "clear | copy | source-over | source-in | source-out | source-atop | destination-over | destination-in | destination-out | destination-atop | xor",
   "compositing-operator": "add | subtract | intersect | exclude",
   "contextual-alt-values": "[ contextual | no-contextual ]",
-  "content-list": "[ &lt;string&gt; | contents | &lt;url&gt; | &lt;quote&gt; | document-url | &lt;target&gt; | &lt;leader()&gt; ]+",
+  "content-list": "[ &lt;string&gt; | contents | &lt;url&gt; | &lt;quote&gt; | &lt;target&gt; | &lt;leader()&gt; ]+",
   "contrast()": "contrast( [ &lt;number-percentage&gt; ] )",
   "counter-style": "&lt;counter-style-name&gt; | symbols()",
   "counter-style-name": "&lt;custom-ident&gt;",
