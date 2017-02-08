@@ -4653,7 +4653,7 @@
     ],
     "percentages": [
       "offset-position",
-      "offset-distance"
+      "offset-distance",
       "offset-anchor",
     ],
     "groups": [
