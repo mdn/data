@@ -4641,30 +4641,40 @@
     "status": "standard"
   },
   "offset": {
-    "syntax": "&lt;'offset-path'&gt; &amp;&amp; &lt;'offset-distance'&gt; &amp;&amp; &lt;'offset-rotation'&gt; &amp;&amp; &lt;'offset-anchor'&gt;",
+    "syntax": "[ &lt;'offset-position'&gt;? [ &lt;'offset-path'&gt; [ &lt;'offset-distance'&gt; || &lt;'offset-rotate'&gt; ]? ]? ]! [ / &lt;'offset-anchor'&gt; ]?",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": [
+      "offset-position",
+      "offset-path",
+      "offset-distance",
+      "offset-anchor",
+      "offset-rotate"
+    ],
     "percentages": [
+      "offset-position",
       "offset-distance"
+      "offset-anchor",
     ],
     "groups": [
       "CSS Motion"
     ],
     "initial": [
+      "offset-position",
       "offset-path",
       "offset-distance",
-      "offset-rotation",
-      "offset-anchor"
+      "offset-anchor",
+      "offset-rotate"
     ],
-    "appliesto": "allElementsSVGContainerElements",
+    "appliesto": "transformableElements",
     "computed": [
+      "offset-position",
       "offset-path",
       "offset-distance",
-      "offset-rotation",
-      "offset-anchor"
+      "offset-anchor",
+      "offset-rotate"
     ],
-    "order": "orderOfAppearance",
+    "order": "perGrammar",
     "stacking": true,
     "status": "experimental"
   },
@@ -4677,7 +4687,7 @@
     "groups": [
       "CSS Motion"
     ],
-    "initial": "auto",
+    "initial": "<code>auto</code>",
     "appliesto": "transformableElements",
     "computed": "forLengthAbsoluteValueOtherwisePercentage",
     "order": "perGrammar",
@@ -4753,40 +4763,40 @@
       "CSS Motion"
     ],
     "initial": "<code>0</code>",
-    "appliesto": "allElementsSVGContainerElements",
-    "computed": "asSpecified",
-    "order": "uniqueOrder",
+    "appliesto": "transformableElements",
+    "computed": "forLengthAbsoluteValueOtherwisePercentage",
+    "order": "perGrammar",
     "status": "experimental"
   },
   "offset-path": {
-    "syntax": "&lt;url&gt; | [ &lt;basic-shape&gt; | &lt;path()&gt; ] || &lt;geometry-box&gt; | none",
+    "syntax": "none | ray( [ &lt;angle&gt; && &lt;size&gt;? && contain? ] ) | &lt;path()&gt; | &lt;url&gt; | [ &lt;basic-shape&gt; || &lt;geometry-box&gt; ]",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "AsAngleBasicshapeOrPath",
     "percentages": "no",
     "groups": [
       "CSS Motion"
     ],
     "initial": "<code>none</code>",
-    "appliesto": "allElementsSVGContainerElements",
+    "appliesto": "transformableElements",
     "computed": "asSpecified",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "stacking": true,
     "status": "experimental"
   },
-  "offset-rotation": {
-    "syntax": "[ auto | reverse ] &amp;&amp; &lt;angle&gt;",
+  "offset-rotate": {
+    "syntax": "[ auto | reverse ] || &lt;angle&gt;",
     "media": "visual",
     "inherited": false,
-    "animationType": "number",
+    "animationType": "angle",
     "percentages": "no",
     "groups": [
       "CSS Motion"
     ],
     "initial": "<code>auto</code>",
-    "appliesto": "allElementsSVGContainerElements",
+    "appliesto": "transformableElements",
     "computed": "asSpecified",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "experimental"
   },
   "opacity": {
