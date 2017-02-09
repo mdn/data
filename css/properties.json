@@ -4654,7 +4654,7 @@
     "percentages": [
       "offset-position",
       "offset-distance",
-      "offset-anchor",
+      "offset-anchor"
     ],
     "groups": [
       "CSS Motion"
