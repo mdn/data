@@ -151,7 +151,7 @@
     "status": "nonstandard"
   },
   "-moz-image-region": {
-    "syntax": "&lt;shape&gt;",
+    "syntax": "&lt;shape&gt; | auto",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
