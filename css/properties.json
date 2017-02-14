@@ -4423,7 +4423,7 @@
     "groups": [
       "CSS Masks"
     ],
-    "initial": "<code>center</code>",
+    "initial": "<code>0%</code>",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "consistsOfTwoKeywordsForOriginAndOffsets",
     "order": "uniqueOrder",
@@ -4438,7 +4438,7 @@
     "groups": [
       "CSS Masks"
     ],
-    "initial": "<code>no-repeat</code>",
+    "initial": "<code>repeat</code>",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "consistsOfTwoDimensionKeywords",
     "order": "uniqueOrder",
