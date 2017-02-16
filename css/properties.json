@@ -3240,6 +3240,26 @@
     ],
     "status": "standard"
   },
+  "font-variation-settings": {
+    "syntax": "normal | [ &lt;string&gt; &lt;number&gt; ] #",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Fonts"
+    ],
+    "initial": "<code>normal</code>",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "alsoAppliesTo": [
+      "::first-letter",
+      "::first-line",
+      "::placeholder"
+    ],
+    "status": "standard"
+  },
   "font-size": {
     "syntax": "&lt;absolute-size&gt; | &lt;relative-size&gt; | &lt;length-percentage&gt;",
     "media": "visual",
