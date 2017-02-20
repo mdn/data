@@ -12,7 +12,7 @@
     "ru": "всё"
   },
   "asTransform" : {
-    "en-US": "Animating <code>font-variation-settings</code> is possible using a mechanism similar to animating <a href=\"/en-US/docs/Web/CSS/transform\">transform</a>: Two declarations can be animated if they feature the same set of items.",
+    "en-US": "Animating <code>font-variation-settings</code> is possible using a mechanism similar to animating <a href=\"/en-US/docs/Web/CSS/transform\">transform</a>: Two declarations can be animated if they feature the same set of items."
   },
   "visual": {
     "en-US": "visual",
