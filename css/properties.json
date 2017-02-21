@@ -4507,7 +4507,7 @@
     "appliesto": "sameAsWidthAndHeight",
     "computed": "sameAsMaxWidthAndMaxHeight",
     "order": "uniqueOrder",
-    "status": "standard"
+    "status": "experimental"
   },
   "max-height": {
     "syntax": "&lt;length&gt; | &lt;percentage&gt; | none | max-content | min-content | fit-content | fill-available",
@@ -4537,7 +4537,7 @@
     "appliesto": "sameAsWidthAndHeight",
     "computed": "sameAsMaxWidthAndMaxHeight",
     "order": "uniqueOrder",
-    "status": "standard"
+    "status": "experimental"
   },
   "max-width": {
     "syntax": "&lt;length&gt; | &lt;percentage&gt; | none | max-content | min-content | fit-content | fill-available",
