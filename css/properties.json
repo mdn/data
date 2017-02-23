@@ -4423,7 +4423,7 @@
     "groups": [
       "CSS Masks"
     ],
-    "initial": "<code>0%</code>",
+    "initial": "<code>0% 0%</code>",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "consistsOfTwoKeywordsForOriginAndOffsets",
     "order": "uniqueOrder",
