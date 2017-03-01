@@ -27,7 +27,7 @@
       "fallback": {
         "syntax": "<counter-style-name>",
         "media": "all",
-        "initial": "<code>decimal</code>",
+        "initial": "decimal",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -45,7 +45,7 @@
       "pad": {
         "syntax": "<integer> && <symbol>",
         "media": "all",
-        "initial": "<code>0 \"\"</code>",
+        "initial": "0 \"\"",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -63,7 +63,7 @@
       "range": {
         "syntax": "[ [ <integer> | infinite ]{2} ]# | auto",
         "media": "all",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
@@ -72,7 +72,7 @@
       "speak-as": {
         "syntax": "auto | bullets | numbers | words | spell-out | <counter-style-name>",
         "media": "all",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -99,7 +99,7 @@
       "system": {
         "syntax": "cyclic | numeric | alphabetic | symbolic | additive | [ fixed <integer>? ] | [ extends <counter-style-name> ]",
         "media": "all",
-        "initial": "<code>symbolic</code>",
+        "initial": "symbolic",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -149,7 +149,7 @@
       "font-feature-settings": {
         "syntax": "normal | <feature-tag-value>#",
         "media": "all",
-        "initial": "<code>normal</code>",
+        "initial": "normal",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
@@ -158,7 +158,7 @@
       "font-stretch": {
         "syntax": "normal | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded",
         "media": "all",
-        "initial": "<code>normal</code>",
+        "initial": "normal",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -167,7 +167,7 @@
       "font-style": {
         "syntax": "normal | italic | oblique",
         "media": "all",
-        "initial": "<code>normal</code>",
+        "initial": "normal",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -176,7 +176,7 @@
       "font-weight": {
         "syntax": "normal | bold | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900",
         "media": "all",
-        "initial": "<code>normal</code>",
+        "initial": "normal",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -185,7 +185,7 @@
       "font-variant": {
         "syntax": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> || stylistic(<feature-value-name>) || historical-forms || styleset(<feature-value-name>#) || character-variant(<feature-value-name>#) || swash(<feature-value-name>) || ornaments(<feature-value-name>) || annotation(<feature-value-name>) || [ small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps ] || <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero || <east-asian-variant-values> || <east-asian-width-values> || ruby ]",
         "media": "all",
-        "initial": "<code>normal</code>",
+        "initial": "normal",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
@@ -203,7 +203,7 @@
       "unicode-range": {
         "syntax": "<unicode-range>#",
         "media": "all",
-        "initial": "<code>U+0-10FFFF</code>",
+        "initial": "U+0-10FFFF",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
@@ -273,7 +273,7 @@
       "bleed": {
         "syntax": "auto | <length>",
         "media": "visual, paged",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -282,7 +282,7 @@
       "marks": {
         "syntax": "none | [ crop || cross ]",
         "media": "visual, paged",
-        "initial": "<code>none</code>",
+        "initial": "none",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
@@ -333,7 +333,7 @@
       "max-height": {
         "syntax": "<viewport-length>",
         "media": "visual, continuous",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "referToHeightOfInitialViewport",
         "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
         "order": "uniqueOrder",
@@ -342,7 +342,7 @@
       "max-width": {
         "syntax": "<viewport-length>",
         "media": "visual, continuous",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "referToWidthOfInitialViewport",
         "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
         "order": "uniqueOrder",
@@ -351,7 +351,7 @@
       "max-zoom": {
         "syntax": "auto | <number> | <percentage>",
         "media": "visual, continuous",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "the zoom factor itself",
         "computed": "autoNonNegativeOrPercentage",
         "order": "uniqueOrder",
@@ -360,7 +360,7 @@
       "min-height": {
         "syntax": "<viewport-length>",
         "media": "visual, continuous",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "referToHeightOfInitialViewport",
         "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
         "order": "uniqueOrder",
@@ -369,7 +369,7 @@
       "min-width": {
         "syntax": "<viewport-length>",
         "media": "visual, continuous",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "referToWidthOfInitialViewport",
         "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
         "order": "uniqueOrder",
@@ -378,7 +378,7 @@
       "min-zoom": {
         "syntax": "auto | <number> | <percentage>",
         "media": "visual, continuous",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "the zoom factor itself",
         "computed": "autoNonNegativeOrPercentage",
         "order": "uniqueOrder",
@@ -387,7 +387,7 @@
       "orientation": {
         "syntax": "auto | portrait | landscape",
         "media": "visual, continuous",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "referToSizeOfBoundingBox",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -396,7 +396,7 @@
       "user-zoom": {
         "syntax": "zoom | fixed",
         "media": "visual, continuous",
-        "initial": "<code>zoom</code>",
+        "initial": "zoom",
         "percentages": "referToSizeOfBoundingBox",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -423,7 +423,7 @@
       "zoom": {
         "syntax": "auto | <number> | <percentage>",
         "media": "visual, continuous",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "the zoom factor itself",
         "computed": "autoNonNegativeOrPercentage",
         "order": "uniqueOrder",

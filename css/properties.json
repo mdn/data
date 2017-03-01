@@ -23,7 +23,7 @@
     "groups": [
       "Microsoft Extensions"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -54,7 +54,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElementsExceptGeneratedContentOrPseudoElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -69,7 +69,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -84,7 +84,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -99,7 +99,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -114,7 +114,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -129,7 +129,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>content-box</code>",
+    "initial": "content-box",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -144,7 +144,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "images",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -159,7 +159,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "xulImageElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -174,7 +174,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>inline</code>",
+    "initial": "inline",
     "appliesto": "anyElementEffectOnProgressAndMeter",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -224,7 +224,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -239,7 +239,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -254,7 +254,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -269,7 +269,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -284,7 +284,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>stretch-to-fit</code>",
+    "initial": "stretch-to-fit",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -299,7 +299,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -314,7 +314,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -329,7 +329,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -344,7 +344,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>read-only</code>",
+    "initial": "read-only",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -359,7 +359,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>default</code>",
+    "initial": "default",
     "appliesto": "allElementsCreatingNativeWindows",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -399,7 +399,7 @@
     "groups": [
       "WebKit Extensions"
     ],
-    "initial": "<code>currentcolor</code>",
+    "initial": "currentcolor",
     "appliesto": "allElements",
     "computed": "computedColor",
     "order": "uniqueOrder",
@@ -414,7 +414,7 @@
     "groups": [
       "WebKit Extensions"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -429,7 +429,7 @@
     "groups": [
       "WebKit Extensions"
     ],
-    "initial": "<code>medium</code>",
+    "initial": "medium",
     "appliesto": "allElements",
     "computed": "absoluteLengthZeroIfBorderStyleNoneOrHidden",
     "order": "uniqueOrder",
@@ -444,7 +444,7 @@
     "groups": [
       "WebKit Extensions"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -488,7 +488,7 @@
     "groups": [
       "WebKit Extensions"
     ],
-    "initial": "<code>scroll</code>",
+    "initial": "scroll",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
@@ -503,7 +503,7 @@
     "groups": [
       "WebKit Extensions"
     ],
-    "initial": "<code>border</code>",
+    "initial": "border",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
@@ -518,7 +518,7 @@
     "groups": [
       "WebKit Extensions"
     ],
-    "initial": "<code>source-over</code>",
+    "initial": "source-over",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
@@ -533,7 +533,7 @@
     "groups": [
       "WebKit Extensions"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "absoluteURIOrNone",
     "order": "orderOfAppearance",
@@ -548,7 +548,7 @@
     "groups": [
       "WebKit Extensions"
     ],
-    "initial": "<code>padding</code>",
+    "initial": "padding",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
@@ -563,7 +563,7 @@
     "groups": [
       "WebKit Extensions"
     ],
-    "initial": "<code>0% 0%</code>",
+    "initial": "0% 0%",
     "appliesto": "allElements",
     "computed": "absoluteLengthOrPercentage",
     "order": "orderOfAppearance",
@@ -578,7 +578,7 @@
     "groups": [
       "WebKit Extensions"
     ],
-    "initial": "<code>0%</code>",
+    "initial": "0%",
     "appliesto": "allElements",
     "computed": "absoluteLengthOrPercentage",
     "order": "orderOfAppearance",
@@ -593,7 +593,7 @@
     "groups": [
       "WebKit Extensions"
     ],
-    "initial": "<code>0%</code>",
+    "initial": "0%",
     "appliesto": "allElements",
     "computed": "absoluteLengthOrPercentage",
     "order": "orderOfAppearance",
@@ -608,7 +608,7 @@
     "groups": [
       "WebKit Extensions"
     ],
-    "initial": "<code>repeat</code>",
+    "initial": "repeat",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
@@ -623,7 +623,7 @@
     "groups": [
       "WebKit Extensions"
     ],
-    "initial": "<code>repeat</code>",
+    "initial": "repeat",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
@@ -638,7 +638,7 @@
     "groups": [
       "WebKit Extensions"
     ],
-    "initial": "<code>repeat</code>",
+    "initial": "repeat",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
@@ -653,7 +653,7 @@
     "groups": [
       "WebKit Extensions"
     ],
-    "initial": "<code>black</code>",
+    "initial": "black",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -668,7 +668,7 @@
     "groups": [
       "WebKit Extensions"
     ],
-    "initial": "<code>currentcolor</code>",
+    "initial": "currentcolor",
     "appliesto": "allElements",
     "computed": "'color'",
     "order": "uniqueOrder",
@@ -707,7 +707,7 @@
     "groups": [
       "WebKit Extensions"
     ],
-    "initial": "<code>currentcolor</code>",
+    "initial": "currentcolor",
     "appliesto": "allElements",
     "computed": "'color'",
     "order": "uniqueOrder",
@@ -722,7 +722,7 @@
     "groups": [
       "WebKit Extensions"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElements",
     "computed": "absoluteLength",
     "order": "uniqueOrder",
@@ -744,7 +744,7 @@
     "groups": [
       "CSS Flexible Box Layout"
     ],
-    "initial": "<code>stretch</code>",
+    "initial": "stretch",
     "appliesto": "multilineFlexContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -759,7 +759,7 @@
     "groups": [
       "CSS Flexible Box Layout"
     ],
-    "initial": "<code>stretch</code>",
+    "initial": "stretch",
     "appliesto": "flexContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -774,7 +774,7 @@
     "groups": [
       "CSS Flexible Box Layout"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "flexItemsAndInFlowPseudos",
     "computed": "autoOnAbsolutelyPositionedElementsValueOfAlignItemsOnParent",
     "order": "uniqueOrder",
@@ -837,7 +837,7 @@
     "groups": [
       "CSS Animations"
     ],
-    "initial": "<code>0s</code>",
+    "initial": "0s",
     "appliesto": "allElementsAndPseudos",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -852,7 +852,7 @@
     "groups": [
       "CSS Animations"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElementsAndPseudos",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -867,7 +867,7 @@
     "groups": [
       "CSS Animations"
     ],
-    "initial": "<code>0s</code>",
+    "initial": "0s",
     "appliesto": "allElementsAndPseudos",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -882,7 +882,7 @@
     "groups": [
       "CSS Animations"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElementsAndPseudos",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -897,7 +897,7 @@
     "groups": [
       "CSS Animations"
     ],
-    "initial": "<code>1</code>",
+    "initial": "1",
     "appliesto": "allElementsAndPseudos",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -912,7 +912,7 @@
     "groups": [
       "CSS Animations"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElementsAndPseudos",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -927,7 +927,7 @@
     "groups": [
       "CSS Animations"
     ],
-    "initial": "<code>running</code>",
+    "initial": "running",
     "appliesto": "allElementsAndPseudos",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -942,7 +942,7 @@
     "groups": [
       "CSS Animations"
     ],
-    "initial": "<code>ease</code>",
+    "initial": "ease",
     "appliesto": "allElementsAndPseudos",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -972,7 +972,7 @@
     "groups": [
       "CSS Speech"
     ],
-    "initial": "<code>center</code>",
+    "initial": "center",
     "appliesto": "allElements",
     "computed": "normalizedAngle",
     "order": "orderOfAppearance",
@@ -987,7 +987,7 @@
     "groups": [
       "Filter Effects"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -1002,7 +1002,7 @@
     "groups": [
       "CSS Transforms"
     ],
-    "initial": "<code>visible</code>",
+    "initial": "visible",
     "appliesto": "transformableElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -1066,7 +1066,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>scroll</code>",
+    "initial": "scroll",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -1086,7 +1086,7 @@
     "groups": [
       "Compositing and Blending"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElementsSVGContainerGraphicsAndGraphicsReferencingElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -1106,7 +1106,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>border-box</code>",
+    "initial": "border-box",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -1126,7 +1126,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>transparent</code>",
+    "initial": "transparent",
     "appliesto": "allElements",
     "computed": "'color'",
     "order": "uniqueOrder",
@@ -1146,7 +1146,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecifiedURIsAbsolute",
     "order": "uniqueOrder",
@@ -1166,7 +1166,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>padding-box</code>",
+    "initial": "padding-box",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -1186,7 +1186,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>0% 0%</code>",
+    "initial": "0% 0%",
     "appliesto": "allElements",
     "computed": "listEachItemTwoKeywordsOriginOffsets",
     "order": "uniqueOrder",
@@ -1206,7 +1206,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>left</code>",
+    "initial": "left",
     "appliesto": "allElements",
     "computed": "listEachItemConsistingOfAbsoluteLengthPercentageAndOrigin",
     "order": "uniqueOrder",
@@ -1221,7 +1221,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>top</code>",
+    "initial": "top",
     "appliesto": "allElements",
     "computed": "listEachItemConsistingOfAbsoluteLengthPercentageAndOrigin",
     "order": "uniqueOrder",
@@ -1236,7 +1236,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>repeat</code>",
+    "initial": "repeat",
     "appliesto": "allElements",
     "computed": "listEachItemHasTwoKeywordsOnePerDimension",
     "order": "uniqueOrder",
@@ -1256,7 +1256,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>auto auto</code>",
+    "initial": "auto auto",
     "appliesto": "allElements",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
@@ -1276,7 +1276,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "sameAsWidthAndHeight",
     "computed": "sameAsWidthAndHeight",
     "order": "uniqueOrder",
@@ -1344,7 +1344,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>currentcolor</code>",
+    "initial": "currentcolor",
     "appliesto": "allElements",
     "computed": "computedColor",
     "order": "uniqueOrder",
@@ -1359,7 +1359,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -1374,7 +1374,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>medium</code>",
+    "initial": "medium",
     "appliesto": "allElements",
     "computed": "absoluteLengthZeroIfBorderStyleNoneOrHidden",
     "order": "uniqueOrder",
@@ -1412,7 +1412,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>currentcolor</code>",
+    "initial": "currentcolor",
     "appliesto": "allElements",
     "computed": "computedColor",
     "order": "uniqueOrder",
@@ -1427,7 +1427,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -1442,7 +1442,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>medium</code>",
+    "initial": "medium",
     "appliesto": "allElements",
     "computed": "absoluteLengthZeroIfBorderStyleNoneOrHidden",
     "order": "uniqueOrder",
@@ -1487,7 +1487,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>currentcolor</code>",
+    "initial": "currentcolor",
     "appliesto": "allElements",
     "computed": "'color'",
     "order": "uniqueOrder",
@@ -1505,7 +1505,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElementsUAsNotRequiredWhenCollapse",
     "computed": "twoAbsoluteLengthOrPercentages",
     "order": "uniqueOrder",
@@ -1523,7 +1523,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElementsUAsNotRequiredWhenCollapse",
     "computed": "twoAbsoluteLengthOrPercentages",
     "order": "uniqueOrder",
@@ -1541,7 +1541,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -1559,7 +1559,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>medium</code>",
+    "initial": "medium",
     "appliesto": "allElements",
     "computed": "absoluteLengthOr0IfBorderBottomStyleNoneOrHidden",
     "order": "uniqueOrder",
@@ -1577,7 +1577,7 @@
     "groups": [
       "CSS Table"
     ],
-    "initial": "<code>separate</code>",
+    "initial": "separate",
     "appliesto": "tableElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -1664,7 +1664,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>0s</code>",
+    "initial": "0s",
     "appliesto": "allElementsExceptTableElementsWhenCollapse",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
@@ -1682,7 +1682,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>stretch</code>",
+    "initial": "stretch",
     "appliesto": "allElementsExceptTableElementsWhenCollapse",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -1700,7 +1700,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>100%</code>",
+    "initial": "100%",
     "appliesto": "allElementsExceptTableElementsWhenCollapse",
     "computed": "oneToFourPercentagesOrAbsoluteLengthsPlusFill",
     "order": "percentagesOrLengthsFollowedByFill",
@@ -1718,7 +1718,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElementsExceptTableElementsWhenCollapse",
     "computed": "noneOrImageWithAbsoluteURI",
     "order": "uniqueOrder",
@@ -1736,7 +1736,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>1</code>",
+    "initial": "1",
     "appliesto": "allElementsExceptTableElementsWhenBorderCollapseCollapse",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
@@ -1777,7 +1777,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>currentcolor</code>",
+    "initial": "currentcolor",
     "appliesto": "allElements",
     "computed": "computedColor",
     "order": "uniqueOrder",
@@ -1792,7 +1792,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -1807,7 +1807,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>medium</code>",
+    "initial": "medium",
     "appliesto": "allElements",
     "computed": "absoluteLengthZeroIfBorderStyleNoneOrHidden",
     "order": "uniqueOrder",
@@ -1845,7 +1845,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>currentcolor</code>",
+    "initial": "currentcolor",
     "appliesto": "allElements",
     "computed": "computedColor",
     "order": "uniqueOrder",
@@ -1860,7 +1860,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -1875,7 +1875,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>medium</code>",
+    "initial": "medium",
     "appliesto": "allElements",
     "computed": "absoluteLengthZeroIfBorderStyleNoneOrHidden",
     "order": "uniqueOrder",
@@ -1920,7 +1920,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>currentcolor</code>",
+    "initial": "currentcolor",
     "appliesto": "allElements",
     "computed": "'color'",
     "order": "uniqueOrder",
@@ -1938,7 +1938,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -1956,7 +1956,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>medium</code>",
+    "initial": "medium",
     "appliesto": "allElements",
     "computed": "absoluteLengthOr0IfBorderLeftStyleNoneOrHidden",
     "order": "uniqueOrder",
@@ -2037,7 +2037,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>currentcolor</code>",
+    "initial": "currentcolor",
     "appliesto": "allElements",
     "computed": "'color'",
     "order": "uniqueOrder",
@@ -2055,7 +2055,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2073,7 +2073,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>medium</code>",
+    "initial": "medium",
     "appliesto": "allElements",
     "computed": "absoluteLengthOr0IfBorderRightStyleNoneOrHidden",
     "order": "uniqueOrder",
@@ -2091,7 +2091,7 @@
     "groups": [
       "CSS Table"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "tableElements",
     "computed": "twoAbsoluteLengths",
     "order": "uniqueOrder",
@@ -2164,7 +2164,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>currentcolor</code>",
+    "initial": "currentcolor",
     "appliesto": "allElements",
     "computed": "'color'",
     "order": "uniqueOrder",
@@ -2182,7 +2182,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElementsUAsNotRequiredWhenCollapse",
     "computed": "twoAbsoluteLengthOrPercentages",
     "order": "uniqueOrder",
@@ -2200,7 +2200,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElementsUAsNotRequiredWhenCollapse",
     "computed": "twoAbsoluteLengthOrPercentages",
     "order": "uniqueOrder",
@@ -2218,7 +2218,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2236,7 +2236,7 @@
     "groups": [
       "CSS Background and Borders"
     ],
-    "initial": "<code>medium</code>",
+    "initial": "medium",
     "appliesto": "allElements",
     "computed": "absoluteLengthOr0IfBorderTopStyleNoneOrHidden",
     "order": "uniqueOrder",
@@ -2287,7 +2287,7 @@
     "groups": [
       "CSS Positioning"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "positionedElements",
     "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
     "order": "uniqueOrder",
@@ -2303,7 +2303,7 @@
       "Mozilla Extensions",
       "WebKit Extensions"
     ],
-    "initial": "<code>stretch</code>",
+    "initial": "stretch",
     "appliesto": "elementsWithDisplayBoxOrInlineBox",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2318,7 +2318,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "<code>slice</code>",
+    "initial": "slice",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2334,7 +2334,7 @@
       "Mozilla Extensions",
       "WebKit Extensions"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "elementsWithDisplayBoxOrInlineBox",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2350,7 +2350,7 @@
       "Mozilla Extensions",
       "WebKit Extensions"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "directChildrenOfElementsWithDisplayMozBoxMozInlineBox",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2366,7 +2366,7 @@
       "Mozilla Extensions",
       "WebKit Extensions"
     ],
-    "initial": "<code>1</code>",
+    "initial": "1",
     "appliesto": "inFlowChildrenOfBoxElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2382,7 +2382,7 @@
       "Mozilla Extensions",
       "WebKit Extensions"
     ],
-    "initial": "<code>single</code>",
+    "initial": "single",
     "appliesto": "boxElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2398,7 +2398,7 @@
       "Mozilla Extensions",
       "WebKit Extensions"
     ],
-    "initial": "<code>1</code>",
+    "initial": "1",
     "appliesto": "childrenOfBoxElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2430,7 +2430,7 @@
       "Mozilla Extensions",
       "WebKit Extensions"
     ],
-    "initial": "<code>start</code>",
+    "initial": "start",
     "appliesto": "elementsWithDisplayMozBoxMozInlineBox",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2445,7 +2445,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "absoluteLengthsSpecifiedColorAsSpecified",
     "order": "uniqueOrder",
@@ -2463,7 +2463,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "<code>content-box</code>",
+    "initial": "content-box",
     "appliesto": "allElementsAcceptingWidthOrHeight",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2478,7 +2478,7 @@
     "groups": [
       "CSS Display"
     ],
-    "initial": "<code>show</code>",
+    "initial": "show",
     "appliesto": "allElements",
     "computed": "seeProse",
     "order": "uniqueOrder",
@@ -2493,7 +2493,7 @@
     "groups": [
       "CSS Columns"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "blockLevelElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2508,7 +2508,7 @@
     "groups": [
       "CSS Columns"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "blockLevelElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2523,7 +2523,7 @@
     "groups": [
       "CSS Columns"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "blockLevelElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2538,7 +2538,7 @@
     "groups": [
       "CSS Table"
     ],
-    "initial": "<code>top</code>",
+    "initial": "top",
     "appliesto": "tableCaptionElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2553,7 +2553,7 @@
     "groups": [
       "CSS User Interface"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "allElements",
     "computed": "asAutoOrColor",
     "order": "perGrammar",
@@ -2568,7 +2568,7 @@
     "groups": [
       "CSS Positioning"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "blockLevelElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2583,7 +2583,7 @@
     "groups": [
       "CSS Miscellaneous"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "absolutelyPositionedElements",
     "computed": "autoOrRectangle",
     "order": "uniqueOrder",
@@ -2598,7 +2598,7 @@
     "groups": [
       "CSS Miscellaneous"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecifiedURLsAbsolute",
     "order": "uniqueOrder",
@@ -2633,7 +2633,7 @@
     "groups": [
       "CSS Columns"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "nonReplacedBlockElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2648,7 +2648,7 @@
     "groups": [
       "CSS Columns"
     ],
-    "initial": "<code>balance</code>",
+    "initial": "balance",
     "appliesto": "multicolElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2663,7 +2663,7 @@
     "groups": [
       "CSS Columns"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "multicolElements",
     "computed": "absoluteLengthOrNormal",
     "order": "uniqueOrder",
@@ -2705,7 +2705,7 @@
     "groups": [
       "CSS Columns"
     ],
-    "initial": "<code>currentcolor</code>",
+    "initial": "currentcolor",
     "appliesto": "multicolElements",
     "computed": "'color'",
     "order": "uniqueOrder",
@@ -2720,7 +2720,7 @@
     "groups": [
       "CSS Columns"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "multicolElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2735,7 +2735,7 @@
     "groups": [
       "CSS Columns"
     ],
-    "initial": "<code>medium</code>",
+    "initial": "medium",
     "appliesto": "multicolElements",
     "computed": "absoluteLength0IfColumnRuleStyleNoneOrHidden",
     "order": "uniqueOrder",
@@ -2750,7 +2750,7 @@
     "groups": [
       "CSS Columns"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "inFlowBlockLevelElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2765,7 +2765,7 @@
     "groups": [
       "CSS Columns"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "nonReplacedBlockElements",
     "computed": "absoluteLengthZeroOrLarger",
     "order": "uniqueOrder",
@@ -2819,7 +2819,7 @@
     "groups": [
       "CSS Generated Content"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "beforeAndAfterPseudos",
     "computed": "normalOnElementsForPseudosNoneAbsoluteURIStringOrAsSpecified",
     "order": "uniqueOrder",
@@ -2834,7 +2834,7 @@
     "groups": [
       "CSS Lists and Counters"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2849,7 +2849,7 @@
     "groups": [
       "CSS Lists and Counters"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2864,7 +2864,7 @@
     "groups": [
       "CSS User Interface"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "allElements",
     "computed": "asSpecifiedURIsAbsolute",
     "order": "uniqueOrder",
@@ -2879,7 +2879,7 @@
     "groups": [
       "CSS Writing Modes"
     ],
-    "initial": "<code>ltr</code>",
+    "initial": "ltr",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2894,7 +2894,7 @@
     "groups": [
       "CSS Miscellaneous"
     ],
-    "initial": "<code>inline</code>",
+    "initial": "inline",
     "appliesto": "allElements",
     "computed": "asSpecifiedExceptPositionedFloatingAndRootElementsKeywordMaybeDifferent",
     "order": "uniqueOrder",
@@ -2909,7 +2909,7 @@
     "groups": [
       "CSS Display"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2924,7 +2924,7 @@
     "groups": [
       "CSS Display"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2939,7 +2939,7 @@
     "groups": [
       "CSS Display"
     ],
-    "initial": "<code>inline-level</code>",
+    "initial": "inline-level",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2954,7 +2954,7 @@
     "groups": [
       "CSS Table"
     ],
-    "initial": "<code>show</code>",
+    "initial": "show",
     "appliesto": "tableCellElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -2969,7 +2969,7 @@
     "groups": [
       "Filter Effects"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3011,7 +3011,7 @@
     "groups": [
       "CSS Flexible Box Layout"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "flexItemsAndInFlowPseudos",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "lengthOrPercentageBeforeKeywordIfBothPresent",
@@ -3026,7 +3026,7 @@
     "groups": [
       "CSS Flexible Box Layout"
     ],
-    "initial": "<code>row</code>",
+    "initial": "row",
     "appliesto": "flexContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3062,7 +3062,7 @@
     "groups": [
       "CSS Flexible Box Layout"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "flexItemsAndInFlowPseudos",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3077,7 +3077,7 @@
     "groups": [
       "CSS Flexible Box Layout"
     ],
-    "initial": "<code>1</code>",
+    "initial": "1",
     "appliesto": "flexItemsAndInFlowPseudos",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3092,7 +3092,7 @@
     "groups": [
       "CSS Flexible Box Layout"
     ],
-    "initial": "<code>nowrap</code>",
+    "initial": "nowrap",
     "appliesto": "flexContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3107,7 +3107,7 @@
     "groups": [
       "CSS Positioning"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElementsNoEffectIfDisplayNone",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3189,7 +3189,7 @@
     "groups": [
       "CSS Fonts"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3209,7 +3209,7 @@
     "groups": [
       "CSS Fonts"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3229,7 +3229,7 @@
     "groups": [
       "CSS Fonts"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3249,7 +3249,7 @@
     "groups": [
       "CSS Fonts"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "perGrammar",
@@ -3269,7 +3269,7 @@
     "groups": [
       "CSS Fonts"
     ],
-    "initial": "<code>medium</code>",
+    "initial": "medium",
     "appliesto": "allElements",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
@@ -3289,7 +3289,7 @@
     "groups": [
       "CSS Fonts"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3309,7 +3309,7 @@
     "groups": [
       "CSS Fonts"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3329,7 +3329,7 @@
     "groups": [
       "CSS Fonts"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3349,7 +3349,7 @@
     "groups": [
       "CSS Fonts"
     ],
-    "initial": "<code>weight style</code>",
+    "initial": "weight style",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
@@ -3369,7 +3369,7 @@
     "groups": [
       "CSS Fonts"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3389,7 +3389,7 @@
     "groups": [
       "CSS Fonts"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
@@ -3409,7 +3409,7 @@
     "groups": [
       "CSS Fonts"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3429,7 +3429,7 @@
     "groups": [
       "CSS Fonts"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
@@ -3449,7 +3449,7 @@
     "groups": [
       "CSS Fonts"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
@@ -3469,7 +3469,7 @@
     "groups": [
       "CSS Fonts"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
@@ -3489,7 +3489,7 @@
     "groups": [
       "CSS Fonts"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3509,7 +3509,7 @@
     "groups": [
       "CSS Fonts"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElements",
     "computed": "keywordOrNumericalValueBolderLighterTransformedToRealValue",
     "order": "uniqueOrder",
@@ -3592,7 +3592,7 @@
     "groups": [
       "CSS Grid Layout"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "gridContainers",
     "computed": "seeGridTemplateRowsColumns",
     "order": "uniqueOrder",
@@ -3607,7 +3607,7 @@
     "groups": [
       "CSS Grid Layout"
     ],
-    "initial": "<code>row</code>",
+    "initial": "row",
     "appliesto": "gridContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3622,7 +3622,7 @@
     "groups": [
       "CSS Grid Layout"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "gridContainers",
     "computed": "seeGridTemplateRowsColumns",
     "order": "uniqueOrder",
@@ -3658,7 +3658,7 @@
     "groups": [
       "CSS Grid Layout"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "gridItemsAndBoxesWithinGridContainer",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3673,7 +3673,7 @@
     "groups": [
       "CSS Grid Layout"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "gridContainers",
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
@@ -3688,7 +3688,7 @@
     "groups": [
       "CSS Grid Layout"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "gridItemsAndBoxesWithinGridContainer",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3748,7 +3748,7 @@
     "groups": [
       "CSS Grid Layout"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "gridItemsAndBoxesWithinGridContainer",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3763,7 +3763,7 @@
     "groups": [
       "CSS Grid Layout"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "gridContainers",
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
@@ -3778,7 +3778,7 @@
     "groups": [
       "CSS Grid Layout"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "gridItemsAndBoxesWithinGridContainer",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3819,7 +3819,7 @@
     "groups": [
       "CSS Grid Layout"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "gridContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3834,7 +3834,7 @@
     "groups": [
       "CSS Grid Layout"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "gridContainers",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
@@ -3849,7 +3849,7 @@
     "groups": [
       "CSS Grid Layout"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "gridContainers",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
@@ -3864,7 +3864,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "allElementsButNonReplacedAndTableColumns",
     "computed": "percentageAutoOrAbsoluteLength",
     "order": "uniqueOrder",
@@ -3879,7 +3879,7 @@
     "groups": [
       "CSS Text"
     ],
-    "initial": "<code>manual</code>",
+    "initial": "manual",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3894,7 +3894,7 @@
     "groups": [
       "CSS Images"
     ],
-    "initial": "<code>0deg</code>",
+    "initial": "0deg",
     "appliesto": "allElements",
     "computed": "angleRoundedToNextQuarter",
     "order": "uniqueOrder",
@@ -3909,7 +3909,7 @@
     "groups": [
       "CSS Images"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3924,7 +3924,7 @@
     "groups": [
       "CSS Images"
     ],
-    "initial": "<code>1dppx</code>",
+    "initial": "1dppx",
     "appliesto": "allElements",
     "computed": "asSpecifiedWithExceptionOfResolution",
     "order": "uniqueOrder",
@@ -3939,7 +3939,7 @@
     "groups": [
       "CSS Miscellaneous"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "textFields",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3954,7 +3954,7 @@
     "groups": [
       "CSS Inline"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "firstLetterPseudoElementsAndInlineLevelFirstChildren",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3969,7 +3969,7 @@
     "groups": [
       "CSS Inline"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "firstLetterPseudoElementsAndInlineLevelFirstChildren",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -3984,7 +3984,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "sameAsWidthAndHeight",
     "computed": "sameAsWidthAndHeight",
     "order": "uniqueOrder",
@@ -3999,7 +3999,7 @@
     "groups": [
       "Compositing and Blending"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "allElementsSVGContainerGraphicsAndGraphicsReferencingElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -4014,7 +4014,7 @@
     "groups": [
       "CSS Flexible Box Layout"
     ],
-    "initial": "<code>flex-start</code>",
+    "initial": "flex-start",
     "appliesto": "flexContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -4029,7 +4029,7 @@
     "groups": [
       "CSS Positioning"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "positionedElements",
     "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
     "order": "uniqueOrder",
@@ -4044,7 +4044,7 @@
     "groups": [
       "CSS Text"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElements",
     "computed": "optimumValueOfAbsoluteLengthOrNormal",
     "order": "uniqueOrder",
@@ -4063,7 +4063,7 @@
     "groups": [
       "CSS Text"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -4078,7 +4078,7 @@
     "groups": [
       "CSS Fonts"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElements",
     "computed": "absoluteLengthOrAsSpecified",
     "order": "uniqueOrder",
@@ -4121,7 +4121,7 @@
     "groups": [
       "CSS Lists and Counters"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "listItems",
     "computed": "noneOrImageWithAbsoluteURI",
     "order": "uniqueOrder",
@@ -4136,7 +4136,7 @@
     "groups": [
       "CSS Lists and Counters"
     ],
-    "initial": "<code>outside</code>",
+    "initial": "outside",
     "appliesto": "listItems",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -4151,7 +4151,7 @@
     "groups": [
       "CSS Lists and Counters"
     ],
-    "initial": "<code>disc</code>",
+    "initial": "disc",
     "appliesto": "listItems",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -4194,7 +4194,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "sameAsMargin",
     "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
     "order": "uniqueOrder",
@@ -4209,7 +4209,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "sameAsMargin",
     "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
     "order": "uniqueOrder",
@@ -4224,7 +4224,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElementsExceptTableDisplayTypes",
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
@@ -4242,7 +4242,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "sameAsMargin",
     "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
     "order": "uniqueOrder",
@@ -4257,7 +4257,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "sameAsMargin",
     "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
     "order": "uniqueOrder",
@@ -4272,7 +4272,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElementsExceptTableDisplayTypes",
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
@@ -4290,7 +4290,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElementsExceptTableDisplayTypes",
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
@@ -4308,7 +4308,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElementsExceptTableDisplayTypes",
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
@@ -4326,7 +4326,7 @@
     "groups": [
       "CSS Generated Content"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "elementsWithDisplayMarker",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -4368,7 +4368,7 @@
     "groups": [
       "CSS Masks"
     ],
-    "initial": "<code>border-box</code>",
+    "initial": "border-box",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -4383,7 +4383,7 @@
     "groups": [
       "CSS Masks"
     ],
-    "initial": "<code>add</code>",
+    "initial": "add",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -4398,7 +4398,7 @@
     "groups": [
       "CSS Masks"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecifiedURIsAbsolute",
     "order": "uniqueOrder",
@@ -4413,7 +4413,7 @@
     "groups": [
       "CSS Masks"
     ],
-    "initial": "<code>match-source</code>",
+    "initial": "match-source",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -4428,7 +4428,7 @@
     "groups": [
       "CSS Masks"
     ],
-    "initial": "<code>border-box</code>",
+    "initial": "border-box",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -4443,7 +4443,7 @@
     "groups": [
       "CSS Masks"
     ],
-    "initial": "<code>0% 0%</code>",
+    "initial": "0% 0%",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "consistsOfTwoKeywordsForOriginAndOffsets",
     "order": "uniqueOrder",
@@ -4458,7 +4458,7 @@
     "groups": [
       "CSS Masks"
     ],
-    "initial": "<code>repeat</code>",
+    "initial": "repeat",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "consistsOfTwoDimensionKeywords",
     "order": "uniqueOrder",
@@ -4473,7 +4473,7 @@
     "groups": [
       "CSS Masks"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
@@ -4488,7 +4488,7 @@
     "groups": [
       "CSS Masks"
     ],
-    "initial": "<code>luminance</code>",
+    "initial": "luminance",
     "appliesto": "maskElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -4503,7 +4503,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "sameAsWidthAndHeight",
     "computed": "sameAsMaxWidthAndMaxHeight",
     "order": "uniqueOrder",
@@ -4518,7 +4518,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElementsButNonReplacedAndTableColumns",
     "computed": "percentageAsSpecifiedAbsoluteLengthOrNone",
     "order": "uniqueOrder",
@@ -4533,7 +4533,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "sameAsWidthAndHeight",
     "computed": "sameAsMaxWidthAndMaxHeight",
     "order": "uniqueOrder",
@@ -4548,7 +4548,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElementsButNonReplacedAndTableRows",
     "computed": "percentageAsSpecifiedAbsoluteLengthOrNone",
     "order": "uniqueOrder",
@@ -4563,7 +4563,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "sameAsWidthAndHeight",
     "computed": "sameAsMinWidthAndMinHeight",
     "order": "uniqueOrder",
@@ -4578,7 +4578,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElementsButNonReplacedAndTableColumns",
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
@@ -4593,7 +4593,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "sameAsWidthAndHeight",
     "computed": "sameAsMinWidthAndMinHeight",
     "order": "uniqueOrder",
@@ -4608,7 +4608,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElementsButNonReplacedAndTableRows",
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
@@ -4623,7 +4623,7 @@
     "groups": [
       "Compositing and Blending"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allHTMLElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -4639,7 +4639,7 @@
     "groups": [
       "CSS Images"
     ],
-    "initial": "<code>fill</code>",
+    "initial": "fill",
     "appliesto": "replacedElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -4654,7 +4654,7 @@
     "groups": [
       "CSS Images"
     ],
-    "initial": "<code>50% 50%</code>",
+    "initial": "50% 50%",
     "appliesto": "replacedElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -4707,7 +4707,7 @@
     "groups": [
       "CSS Motion"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "transformableElements",
     "computed": "forLengthAbsoluteValueOtherwisePercentage",
     "order": "perGrammar",
@@ -4722,7 +4722,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "positionedElements",
     "computed": "sameAsBoxOffsets",
     "order": "uniqueOrder",
@@ -4737,7 +4737,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "positionedElements",
     "computed": "sameAsBoxOffsets",
     "order": "uniqueOrder",
@@ -4752,7 +4752,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "positionedElements",
     "computed": "sameAsBoxOffsets",
     "order": "uniqueOrder",
@@ -4767,7 +4767,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "positionedElements",
     "computed": "sameAsBoxOffsets",
     "order": "uniqueOrder",
@@ -4782,7 +4782,7 @@
     "groups": [
       "CSS Motion"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "transformableElements",
     "computed": "forLengthAbsoluteValueOtherwisePercentage",
     "order": "perGrammar",
@@ -4797,7 +4797,7 @@
     "groups": [
       "CSS Motion"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "transformableElements",
     "computed": "asSpecified",
     "order": "perGrammar",
@@ -4813,7 +4813,7 @@
     "groups": [
       "CSS Motion"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "transformableElements",
     "computed": "asSpecified",
     "order": "perGrammar",
@@ -4828,7 +4828,7 @@
     "groups": [
       "CSS Colors"
     ],
-    "initial": "<code>1.0</code>",
+    "initial": "1.0",
     "appliesto": "allElements",
     "computed": "specifiedValueClipped0To1",
     "order": "uniqueOrder",
@@ -4846,7 +4846,7 @@
     "groups": [
       "CSS Flexible Box Layout"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "flexItemsAndAbsolutelyPositionedFlexContainerChildren",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -4861,7 +4861,7 @@
     "groups": [
       "CSS Pages"
     ],
-    "initial": "<code><code>2</code></code>",
+    "initial": "2",
     "appliesto": "blockContainerElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -4918,7 +4918,7 @@
     "groups": [
       "CSS User Interface"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElements",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
@@ -4933,7 +4933,7 @@
     "groups": [
       "CSS User Interface"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -4948,7 +4948,7 @@
     "groups": [
       "CSS User Interface"
     ],
-    "initial": "<code>medium</code>",
+    "initial": "medium",
     "appliesto": "allElements",
     "computed": "absoluteLength0ForNone",
     "order": "uniqueOrder",
@@ -4963,7 +4963,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "<code>visible</code>",
+    "initial": "visible",
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -4978,7 +4978,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>padding-box</code>",
+    "initial": "padding-box",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -4993,7 +4993,7 @@
     "groups": [
       "CSS Text"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5008,7 +5008,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "<code>visible</code>",
+    "initial": "visible",
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5023,7 +5023,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "<code>visible</code>",
+    "initial": "visible",
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5066,7 +5066,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElements",
     "computed": "asLength",
     "order": "uniqueOrder",
@@ -5081,7 +5081,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElements",
     "computed": "asLength",
     "order": "uniqueOrder",
@@ -5096,7 +5096,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElementsExceptInternalTableDisplayTypes",
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
@@ -5114,7 +5114,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElements",
     "computed": "asLength",
     "order": "uniqueOrder",
@@ -5129,7 +5129,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElements",
     "computed": "asLength",
     "order": "uniqueOrder",
@@ -5144,7 +5144,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElementsExceptInternalTableDisplayTypes",
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
@@ -5162,7 +5162,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElementsExceptInternalTableDisplayTypes",
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
@@ -5180,7 +5180,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "allElementsExceptInternalTableDisplayTypes",
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
@@ -5198,7 +5198,7 @@
     "groups": [
       "CSS Pages"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "blockElementsInNormalFlow",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5213,7 +5213,7 @@
     "groups": [
       "CSS Pages"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "blockElementsInNormalFlow",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5228,7 +5228,7 @@
     "groups": [
       "CSS Pages"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "blockElementsInNormalFlow",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5243,7 +5243,7 @@
     "groups": [
       "CSS Transforms"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "transformableElements",
     "computed": "absoluteLengthOrNone",
     "order": "uniqueOrder",
@@ -5259,7 +5259,7 @@
     "groups": [
       "CSS Transforms"
     ],
-    "initial": "<code>50% 50%</code>",
+    "initial": "50% 50%",
     "appliesto": "transformableElements",
     "computed": "forLengthAbsoluteValueOtherwisePercentage",
     "order": "oneOrTwoValuesLengthAbsoluteKeywordsPercentages",
@@ -5274,7 +5274,7 @@
     "groups": [
       "Pointer Events"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5289,7 +5289,7 @@
     "groups": [
       "CSS Positioning"
     ],
-    "initial": "<code>static</code>",
+    "initial": "static",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5320,7 +5320,7 @@
     "groups": [
       "CSS User Interface"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "elementsWithOverflowNotVisibleAndReplacedElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5335,7 +5335,7 @@
     "groups": [
       "CSS Positioning"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "positionedElements",
     "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
     "order": "uniqueOrder",
@@ -5350,7 +5350,7 @@
     "groups": [
       "CSS Ruby"
     ],
-    "initial": "<code>space-around</code>",
+    "initial": "space-around",
     "appliesto": "rubyBasesAnnotationsBaseAnnotationContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5365,7 +5365,7 @@
     "groups": [
       "CSS Ruby"
     ],
-    "initial": "<code>separate</code>",
+    "initial": "separate",
     "appliesto": "rubyAnnotationsContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5380,7 +5380,7 @@
     "groups": [
       "CSS Ruby"
     ],
-    "initial": "<code>over</code>",
+    "initial": "over",
     "appliesto": "rubyAnnotationsContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5395,7 +5395,7 @@
     "groups": [
       "CSSOM View"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "scrollingBoxes",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5410,7 +5410,7 @@
     "groups": [
       "CSS Scroll Snap Points"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
@@ -5425,7 +5425,7 @@
     "groups": [
       "CSS Scroll Snap Points"
     ],
-    "initial": "<code>0px 0px</code>",
+    "initial": "0px 0px",
     "appliesto": "scrollContainers",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
@@ -5440,7 +5440,7 @@
     "groups": [
       "CSS Scroll Snap Points"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "scrollContainers",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
@@ -5455,7 +5455,7 @@
     "groups": [
       "CSS Scroll Snap Points"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "scrollContainers",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
@@ -5470,7 +5470,7 @@
     "groups": [
       "CSS Scroll Snap Points"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "scrollContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5485,7 +5485,7 @@
     "groups": [
       "CSS Scroll Snap Points"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "scrollContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5500,7 +5500,7 @@
     "groups": [
       "CSS Scroll Snap Points"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "scrollContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5515,7 +5515,7 @@
     "groups": [
       "CSS Shapes"
     ],
-    "initial": "<code>0.0</code>",
+    "initial": "0.0",
     "appliesto": "floats",
     "computed": "specifiedValueNumberClipped0To1",
     "order": "uniqueOrder",
@@ -5530,7 +5530,7 @@
     "groups": [
       "CSS Shapes"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "floats",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
@@ -5545,7 +5545,7 @@
     "groups": [
       "CSS Shapes"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "floats",
     "computed": "asDefinedForBasicShapeWithAbsoluteURIOtherwiseAsSpecified",
     "order": "uniqueOrder",
@@ -5560,7 +5560,7 @@
     "groups": [
       "CSS Text"
     ],
-    "initial": "<code>8</code>",
+    "initial": "8",
     "appliesto": "blockContainers",
     "computed": "specifiedIntegerOrAbsoluteLength",
     "order": "uniqueOrder",
@@ -5575,7 +5575,7 @@
     "groups": [
       "CSS Table"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "tableElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5608,7 +5608,7 @@
     "groups": [
       "CSS Text"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "blockContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5623,7 +5623,7 @@
     "groups": [
       "CSS Writing Modes"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "nonReplacedInlineElements",
     "computed": "keywordPlusIntegerIfDigits",
     "order": "uniqueOrder",
@@ -5670,7 +5670,7 @@
     "groups": [
       "CSS Text Decoration"
     ],
-    "initial": "<code>currentcolor</code>",
+    "initial": "currentcolor",
     "appliesto": "allElements",
     "computed": "'color'",
     "order": "uniqueOrder",
@@ -5690,7 +5690,7 @@
     "groups": [
       "CSS Text Decoration"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
@@ -5710,7 +5710,7 @@
     "groups": [
       "CSS Text Decoration"
     ],
-    "initial": "<code>objects</code>",
+    "initial": "objects",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
@@ -5725,7 +5725,7 @@
     "groups": [
       "CSS Text Decoration"
     ],
-    "initial": "<code>solid</code>",
+    "initial": "solid",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5769,7 +5769,7 @@
     "groups": [
       "CSS Text Decoration"
     ],
-    "initial": "<code>currentcolor</code>",
+    "initial": "currentcolor",
     "appliesto": "allElements",
     "computed": "'color'",
     "order": "uniqueOrder",
@@ -5784,7 +5784,7 @@
     "groups": [
       "CSS Text Decoration"
     ],
-    "initial": "<code>over right</code>",
+    "initial": "over right",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5797,7 +5797,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": ["CSS Text Decoration"],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5812,7 +5812,7 @@
     "groups": [
       "CSS Text"
     ],
-    "initial": "<code>0</code>",
+    "initial": "0",
     "appliesto": "blockContainers",
     "computed": "percentageOrAbsoluteLengthPlusKeywords",
     "order": "lengthOrPercentageBeforeKeywords",
@@ -5827,7 +5827,7 @@
     "groups": [
       "CSS Writing Modes"
     ],
-    "initial": "<code>mixed</code>",
+    "initial": "mixed",
     "appliesto": "allElementsExceptTableRowGroupsRowsColumnGroupsAndColumns",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5842,7 +5842,7 @@
     "groups": [
       "CSS User Interface"
     ],
-    "initial": "<code>clip</code>",
+    "initial": "clip",
     "appliesto": "blockContainerElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5860,7 +5860,7 @@
     "groups": [
       "CSS Miscellaneous"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "textElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5875,7 +5875,7 @@
     "groups": [
       "CSS Text Decoration"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "colorPlusThreeAbsoluteLengths",
     "order": "uniqueOrder",
@@ -5910,7 +5910,7 @@
     "groups": [
       "CSS Text"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5930,7 +5930,7 @@
     "groups": [
       "CSS Text Decoration"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
@@ -5945,7 +5945,7 @@
     "groups": [
       "CSS Positioning"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "positionedElements",
     "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
     "order": "uniqueOrder",
@@ -5960,7 +5960,7 @@
     "groups": [
       "Pointer Events"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "allElementsExceptNonReplacedInlineElementsTableRowsColumnsRowColumnGroups",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -5975,7 +5975,7 @@
     "groups": [
       "CSS Transforms"
     ],
-    "initial": "<code>none</code>",
+    "initial": "none",
     "appliesto": "transformableElements",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
@@ -5991,7 +5991,7 @@
     "groups": [
       "CSS Transforms"
     ],
-    "initial": "<code>border-box </code>",
+    "initial": "border-box ",
     "appliesto": "transformableElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -6006,7 +6006,7 @@
     "groups": [
       "CSS Transforms"
     ],
-    "initial": "<code>50% 50% 0</code>",
+    "initial": "50% 50% 0",
     "appliesto": "transformableElements",
     "computed": "forLengthAbsoluteValueOtherwisePercentage",
     "order": "oneOrTwoValuesLengthAbsoluteKeywordsPercentages",
@@ -6021,7 +6021,7 @@
     "groups": [
       "CSS Transforms"
     ],
-    "initial": "<code>flat</code>",
+    "initial": "flat",
     "appliesto": "transformableElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -6062,7 +6062,7 @@
     "groups": [
       "CSS Transitions"
     ],
-    "initial": "<code>0s</code>",
+    "initial": "0s",
     "appliesto": "allElementsAndPseudos",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -6077,7 +6077,7 @@
     "groups": [
       "CSS Transitions"
     ],
-    "initial": "<code>0s</code>",
+    "initial": "0s",
     "appliesto": "allElementsAndPseudos",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -6092,7 +6092,7 @@
     "groups": [
       "CSS Transitions"
     ],
-    "initial": "<code>all</code>",
+    "initial": "all",
     "appliesto": "allElementsAndPseudos",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -6107,7 +6107,7 @@
     "groups": [
       "CSS Transitions"
     ],
-    "initial": "<code>ease</code>",
+    "initial": "ease",
     "appliesto": "allElementsAndPseudos",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -6122,7 +6122,7 @@
     "groups": [
       "CSS Writing Modes"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElementsSomeValuesNoEffectOnNonInlineElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -6137,7 +6137,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -6152,7 +6152,7 @@
     "groups": [
       "CSS Table"
     ],
-    "initial": "<code>baseline</code>",
+    "initial": "baseline",
     "appliesto": "inlineLevelAndTableCellElements",
     "computed": "absoluteLengthOrKeyword",
     "order": "uniqueOrder",
@@ -6172,7 +6172,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "<code>visible</code>",
+    "initial": "visible",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -6187,7 +6187,7 @@
     "groups": [
       "CSS Text"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -6202,7 +6202,7 @@
     "groups": [
       "CSS Pages"
     ],
-    "initial": "<code><code>2</code></code>",
+    "initial": "2",
     "appliesto": "blockContainerElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -6217,7 +6217,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "allElementsButNonReplacedAndTableRows",
     "computed": "percentageAutoOrAbsoluteLength",
     "order": "lengthOrPercentageBeforeKeywordIfBothPresent",
@@ -6232,7 +6232,7 @@
     "groups": [
       "CSS Miscellaneous"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -6247,7 +6247,7 @@
     "groups": [
       "CSS Text"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -6262,7 +6262,7 @@
     "groups": [
       "CSS Text"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElements",
     "computed": "optimumMinAndMaxValueOfAbsoluteLengthPercentageOrNormal",
     "order": "uniqueOrder",
@@ -6282,7 +6282,7 @@
     "groups": [
       "CSS Text"
     ],
-    "initial": "<code>normal</code>",
+    "initial": "normal",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -6297,7 +6297,7 @@
     "groups": [
       "CSS Writing Modes"
     ],
-    "initial": "<code>horizontal-tb</code>",
+    "initial": "horizontal-tb",
     "appliesto": "allElementsExceptTableRowColumnGroupsTableRowsColumns",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -6312,7 +6312,7 @@
     "groups": [
       "CSS Positioning"
     ],
-    "initial": "<code>auto</code>",
+    "initial": "auto",
     "appliesto": "positionedElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
