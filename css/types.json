@@ -1,4 +1,10 @@
 {
+  "<an-plus-b>": {
+    "groups": [
+      "CSS Selectors"
+    ],
+    "status": "standard"
+  },
   "<angle>": {
     "groups": [
       "CSS Types"
