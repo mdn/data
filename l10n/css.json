@@ -1432,5 +1432,17 @@
     "de": "Erstellt <a href=\"/de/docs/Web/CSS/CSS_Positioning/z_index_verstehen/Der_Stackingkontext\">Stapelkontext</a>",
     "fr": "Crée un <a href=\"/fr/docs/Web/CSS/Comprendre_z-index/L'empilement_de_couches\">contexte d'empilement</a>",
     "ru": "Создаёт <a href=\"/ru/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context\">контекст наложения</a>"
+  },
+  "AsAngleBasicshapeOrPath": {
+    "en-US": "as &lt;angle&gt;, &lt;basic-shape&gt; or &lt;path()&gt;",
+    "de": "als &lt;angle&gt;, &lt;basic-shape&gt; oder &lt;path()&gt;",
+    "fr": "comme &lt;angle&gt;, &lt;basic-shape&gt; ou &lt;path()&gt;",
+    "ru": "как &lt;angle&gt;, &lt;basic-shape&gt; или &lt;path()&gt;"
+  },
+  "angle": {
+    "en-US": "angle",
+    "de": "Winkel",
+    "fr": "angle",
+    "ru": "угол"
   }
 }

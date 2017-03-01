@@ -2886,7 +2886,7 @@
     "status": "standard"
   },
   "display": {
-    "syntax": "none | inline | block | list-item | inline-list-item | inline-block | inline-table | table | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex | grid | inline-grid | run-in | ruby | ruby-base | ruby-text | ruby-base-container | ruby-text-container | contents",
+    "syntax": "[ &lt;display-outside&gt; || &lt;display-inside&gt; ] | &lt;display-listitem&gt; | &lt;display-internal&gt; | &lt;display-box&gt; | &lt;display-legacy&gt;",
     "media": "all",
     "inherited": false,
     "animationType": "discrete",
@@ -4443,7 +4443,7 @@
     "groups": [
       "CSS Masks"
     ],
-    "initial": "<code>center</code>",
+    "initial": "<code>0% 0%</code>",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "consistsOfTwoKeywordsForOriginAndOffsets",
     "order": "uniqueOrder",
@@ -4458,7 +4458,7 @@
     "groups": [
       "CSS Masks"
     ],
-    "initial": "<code>no-repeat</code>",
+    "initial": "<code>repeat</code>",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "consistsOfTwoDimensionKeywords",
     "order": "uniqueOrder",
@@ -4630,78 +4630,6 @@
     "stacking": true,
     "status": "standard"
   },
-  "motion": {
-    "syntax": "&lt;'motion-path'&gt; &amp;&amp; &lt;'motion-offset'&gt; &amp;&amp; &lt;'motion-rotation'&gt;",
-    "media": "visual",
-    "inherited": false,
-    "animationType": "discrete",
-    "percentages": [
-      "motion-offset"
-    ],
-    "groups": [
-      "CSS Motion"
-    ],
-    "initial": [
-      "motion-path",
-      "motion-offset",
-      "motion-rotation"
-    ],
-    "appliesto": "allElementsSVGContainerElements",
-    "computed": [
-      "motion-path",
-      "motion-offset",
-      "motion-rotation"
-    ],
-    "order": "orderOfAppearance",
-    "stacking": true,
-    "status": "experimental"
-  },
-  "motion-offset": {
-    "syntax": "&lt;length-percentage&gt;",
-    "media": "visual",
-    "inherited": false,
-    "animationType": "lpc",
-    "percentages": "referToTotalPathLength",
-    "groups": [
-      "CSS Motion"
-    ],
-    "initial": "<code>0</code>",
-    "appliesto": "allElementsSVGContainerElements",
-    "computed": "asSpecified",
-    "order": "uniqueOrder",
-    "status": "experimental"
-  },
-  "motion-path": {
-    "syntax": "&lt;url&gt; | [ &lt;basic-shape&gt; | &lt;path()&gt; ] || &lt;geometry-box&gt; | none",
-    "media": "visual",
-    "inherited": false,
-    "animationType": "discrete",
-    "percentages": "no",
-    "groups": [
-      "CSS Motion"
-    ],
-    "initial": "<code>none</code>",
-    "appliesto": "allElementsSVGContainerElements",
-    "computed": "asSpecified",
-    "order": "uniqueOrder",
-    "stacking": true,
-    "status": "experimental"
-  },
-  "motion-rotation": {
-    "syntax": "[ auto | reverse ] &amp;&amp; &lt;angle&gt;",
-    "media": "visual",
-    "inherited": false,
-    "animationType": "number",
-    "percentages": "no",
-    "groups": [
-      "CSS Motion"
-    ],
-    "initial": "<code>auto</code>",
-    "appliesto": "allElementsSVGContainerElements",
-    "computed": "asSpecified",
-    "order": "uniqueOrder",
-    "status": "experimental"
-  },
   "object-fit": {
     "syntax": "fill | contain | cover | none | scale-down",
     "media": "visual",
@@ -4731,6 +4659,59 @@
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "standard"
+  },
+  "offset": {
+    "syntax": "[ &lt;'offset-position'&gt;? [ &lt;'offset-path'&gt; [ &lt;'offset-distance'&gt; || &lt;'offset-rotate'&gt; ]? ]? ]! [ / &lt;'offset-anchor'&gt; ]?",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "offset-position",
+      "offset-path",
+      "offset-distance",
+      "offset-anchor",
+      "offset-rotate"
+    ],
+    "percentages": [
+      "offset-position",
+      "offset-distance",
+      "offset-anchor"
+    ],
+    "groups": [
+      "CSS Motion"
+    ],
+    "initial": [
+      "offset-position",
+      "offset-path",
+      "offset-distance",
+      "offset-anchor",
+      "offset-rotate"
+    ],
+    "appliesto": "transformableElements",
+    "computed": [
+      "offset-position",
+      "offset-path",
+      "offset-distance",
+      "offset-anchor",
+      "offset-rotate"
+    ],
+    "order": "perGrammar",
+    "stacking": true,
+    "status": "experimental"
+  },
+  "offset-anchor": {
+    "syntax": "auto | &lt;position&gt;",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "position",
+    "percentages": "relativeToWidthAndHeight",
+    "groups": [
+      "CSS Motion"
+    ],
+    "initial": "<code>auto</code>",
+    "appliesto": "transformableElements",
+    "computed": "forLengthAbsoluteValueOtherwisePercentage",
+    "order": "perGrammar",
+    "status": "experimental"
   },
   "offset-block-end": {
     "syntax": "&lt;'left'&gt;",
@@ -4791,6 +4772,52 @@
     "computed": "sameAsBoxOffsets",
     "order": "uniqueOrder",
     "status": "standard"
+  },
+  "offset-distance": {
+    "syntax": "&lt;length-percentage&gt;",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "lpc",
+    "percentages": "referToTotalPathLength",
+    "groups": [
+      "CSS Motion"
+    ],
+    "initial": "<code>0</code>",
+    "appliesto": "transformableElements",
+    "computed": "forLengthAbsoluteValueOtherwisePercentage",
+    "order": "perGrammar",
+    "status": "experimental"
+  },
+  "offset-path": {
+    "syntax": "none | ray( [ &lt;angle&gt; && &lt;size&gt;? && contain? ] ) | &lt;path()&gt; | &lt;url&gt; | [ &lt;basic-shape&gt; || &lt;geometry-box&gt; ]",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "AsAngleBasicshapeOrPath",
+    "percentages": "no",
+    "groups": [
+      "CSS Motion"
+    ],
+    "initial": "<code>none</code>",
+    "appliesto": "transformableElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "stacking": true,
+    "status": "experimental"
+  },
+  "offset-rotate": {
+    "syntax": "[ auto | reverse ] || &lt;angle&gt;",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "angle",
+    "percentages": "no",
+    "groups": [
+      "CSS Motion"
+    ],
+    "initial": "<code>auto</code>",
+    "appliesto": "transformableElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental"
   },
   "opacity": {
     "syntax": "&lt;number&gt;",
