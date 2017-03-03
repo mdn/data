@@ -1,6 +1,6 @@
 {
   "absolute-size": "xx-small | x-small | small | medium | large | x-large | xx-large",
-  "alpha-value": "<number>, | <percentage>",
+  "alpha-value": "<number> | <percentage>",
   "angle-percentage": "<angle> | <percentage>",
   "animateable-feature": "scroll-position | contents | <custom-ident>",
   "attachment": "scroll | fixed | local",
