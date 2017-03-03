@@ -1,6 +1,6 @@
 {
   "absolute-size": "xx-small | x-small | small | medium | large | x-large | xx-large",
-  "alpha-value": "&lt;number&gt;, | &lt;percentage&gt;",
+  "alpha-value": "&lt;number&gt; | &lt;percentage&gt;",
   "an-plus-b": "<var>A</var>n+<var>B</var> | even | odd",
   "angle-percentage": "&lt;angle&gt; | &lt;percentage&gt;",
   "animateable-feature": "scroll-position | contents | &lt;custom-ident&gt;",
