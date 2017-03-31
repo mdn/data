@@ -26,7 +26,7 @@
   "cf-mixing-image": "&lt;percentage&gt;? &amp;&amp; &lt;image&gt;",
   "circle()": "circle( [ &lt;shape-radius&gt; ]? [ at &lt;position&gt; ]? )",
   "clip-source": "&lt;url&gt;",
-  "color": "&lt;rgb()&gt; | &lt;rgba()&gt; | &lt;hsl()&gt; | &lt;hsla()&gt; | &lt;hex-color&gt; | &lt;named-color&gt; | currentcolor | &lt;deprecated-system-color&gt;",
+  "color": "&lt;rgb()&gt; | &lt;rgba()&gt; | &lt;hsl()&gt; | &lt;hsla()&gt; | &lt;hex-color&gt; | &lt;named-color&gt; | currentColor | &lt;deprecated-system-color&gt;",
   "color-stop": "&lt;color&gt; &lt;length-percentage&gt;?",
   "color-stop-list": "&lt;color-stop&gt;{2,}",
   "common-lig-values": "[ common-ligatures | no-common-ligatures ]",
