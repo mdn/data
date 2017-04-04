@@ -27,7 +27,7 @@
   "clip-source": "<url>",
   "color": "<rgb()> | <rgba()> | <hsl()> | <hsla()> | <hex-color> | <named-color> | currentcolor | <deprecated-system-color>",
   "color-stop": "<color> <length-percentage>?",
-  "color-stop-list": "<color-stop>{2,}",
+  "color-stop-list": "<color-stop>#{2,}",
   "common-lig-values": "[ common-ligatures | no-common-ligatures ]",
   "composite-style": "clear | copy | source-over | source-in | source-out | source-atop | destination-over | destination-in | destination-out | destination-atop | xor",
   "compositing-operator": "add | subtract | intersect | exclude",
