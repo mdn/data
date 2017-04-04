@@ -1,13 +1,13 @@
 {
   "@charset": {
-    "syntax": "@charset \"&lt;charset&gt;\";",
+    "syntax": "@charset \"<charset>\";",
     "groups": [
       "CSS Charsets"
     ],
     "status": "standard"
   },
   "@counter-style": {
-    "syntax": "@counter-style &lt;counter-style-name&gt; {\n  [ system: &lt;counter-system&gt;; ] ||\n  [ symbols: &lt;counter-symbols&gt;; ] ||\n  [ additive-symbols: &lt;additive-symbols&gt;; ] ||\n  [ negative: &lt;negative-symbol&gt;; ] ||\n  [ prefix: &lt;prefix&gt;; ] ||\n  [ suffix: &lt;suffix&gt;; ] ||\n  [ range: &lt;range&gt;; ] ||\n  [ pad: &lt;padding&gt;; ] ||\n  [ speak-as: &lt;speak-as&gt;; ] ||\n  [ fallback: &lt;counter-style-name&gt;; ]\n}",
+    "syntax": "@counter-style <counter-style-name> {\n  [ system: <counter-system>; ] ||\n  [ symbols: <counter-symbols>; ] ||\n  [ additive-symbols: <additive-symbols>; ] ||\n  [ negative: <negative-symbol>; ] ||\n  [ prefix: <prefix>; ] ||\n  [ suffix: <suffix>; ] ||\n  [ range: <range>; ] ||\n  [ pad: <padding>; ] ||\n  [ speak-as: <speak-as>; ] ||\n  [ fallback: <counter-style-name>; ]\n}",
     "interfaces": [
       "CSSCounterStyleRule"
     ],
@@ -16,7 +16,7 @@
     ],
     "descriptors": {
       "additive-symbols": {
-        "syntax": "[ &lt;integer&gt; &amp;&amp; &lt;symbol&gt; ]#",
+        "syntax": "[ <integer> && <symbol> ]#",
         "media": "all",
         "initial": "N/A",
         "percentages": "no",
@@ -25,16 +25,16 @@
         "status": "standard"
       },
       "fallback": {
-        "syntax": "&lt;counter-style-name&gt;",
+        "syntax": "<counter-style-name>",
         "media": "all",
-        "initial": "<code>decimal</code>",
+        "initial": "decimal",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
         "status": "standard"
       },
       "negative": {
-        "syntax": "&lt;symbol&gt; &lt;symbol&gt;?",
+        "syntax": "<symbol> <symbol>?",
         "media": "all",
         "initial": "\"-\" hyphen-minus",
         "percentages": "no",
@@ -43,16 +43,16 @@
         "status": "standard"
       },
       "pad": {
-        "syntax": "&lt;integer&gt; &amp;&amp; &lt;symbol&gt;",
+        "syntax": "<integer> && <symbol>",
         "media": "all",
-        "initial": "<code>0 \"\"</code>",
+        "initial": "0 \"\"",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
         "status": "standard"
       },
       "prefix": {
-        "syntax": "&lt;symbol&gt;",
+        "syntax": "<symbol>",
         "media": "all",
         "initial": "the empty string",
         "percentages": "no",
@@ -61,25 +61,25 @@
         "status": "standard"
       },
       "range": {
-        "syntax": "[ [ &lt;integer&gt; | infinite ]{2} ]# | auto",
+        "syntax": "[ [ <integer> | infinite ]{2} ]# | auto",
         "media": "all",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
         "status": "standard"
       },
       "speak-as": {
-        "syntax": "auto | bullets | numbers | words | spell-out | &lt;counter-style-name&gt;",
+        "syntax": "auto | bullets | numbers | words | spell-out | <counter-style-name>",
         "media": "all",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
         "status": "standard"
       },
       "suffix": {
-        "syntax": "&lt;symbol&gt;",
+        "syntax": "<symbol>",
         "media": "all",
         "initial": "\".\" full stop followed by a space",
         "percentages": "no",
@@ -88,7 +88,7 @@
         "status": "standard"
       },
       "symbols": {
-        "syntax": "&lt;symbol&gt;+",
+        "syntax": "<symbol>+",
         "media": "all",
         "initial": "N/A",
         "percentages": "no",
@@ -97,9 +97,9 @@
         "status": "standard"
       },
       "system": {
-        "syntax": "cyclic | numeric | alphabetic | symbolic | additive | [ fixed &lt;integer&gt;? ] | [ extends &lt;counter-style-name&gt; ]",
+        "syntax": "cyclic | numeric | alphabetic | symbolic | additive | [ fixed <integer>? ] | [ extends <counter-style-name> ]",
         "media": "all",
-        "initial": "<code>symbolic</code>",
+        "initial": "symbolic",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -109,7 +109,7 @@
     "status": "standard"
   },
   "@document": {
-    "syntax": "@document [ &lt;url&gt; | url-prefix(&lt;string&gt;) | domain(&lt;string&gt;) | regexp(&lt;string&gt;) ]# {\n  &lt;group-rule-body&gt;\n}",
+    "syntax": "@document [ <url> | url-prefix(<string>) | domain(<string>) | regexp(<string>) ]# {\n  <group-rule-body>\n}",
     "interfaces": [
       "CSSGroupingRule",
       "CSSConditionRule"
@@ -120,7 +120,7 @@
     "status": "nonstandard"
   },
   "@font-face": {
-    "syntax": "@font-face {\n  [ font-family: &lt;family-name&gt;; ] ||\n  [ src: [ &lt;url&gt; [ format(&lt;string&gt;#) ]? | &lt;font-face-name&gt; ]#; ] ||\n  [ unicode-range: &lt;urange&gt;#; ] ||\n  [ font-variant: &lt;font-variant&gt;; ] ||\n  [ font-feature-settings: normal | &lt;feature-tag-value&gt;#; ] ||\n  [ font-stretch: &lt;font-stretch&gt;; ] ||\n  [ font-weight: &lt;weight&gt;; ] ||\n  [ font-style: &lt;style&gt;; ]\n}",
+    "syntax": "@font-face {\n  [ font-family: <family-name>; ] ||\n  [ src: [ <url> [ format(<string>#) ]? | <font-face-name> ]#; ] ||\n  [ unicode-range: <urange>#; ] ||\n  [ font-variant: <font-variant>; ] ||\n  [ font-feature-settings: normal | <feature-tag-value>#; ] ||\n  [ font-stretch: <font-stretch>; ] ||\n  [ font-weight: <weight>; ] ||\n  [ font-style: <style>; ]\n}",
     "interfaces": [
       "CSSFontFaceRule"
     ],
@@ -138,7 +138,7 @@
         "status": "experimental"
       },
       "font-family": {
-        "syntax": "&lt;family-name&gt;",
+        "syntax": "<family-name>",
         "media": "all",
         "initial": "n/a (required)",
         "percentages": "no",
@@ -147,9 +147,9 @@
         "status": "standard"
       },
       "font-feature-settings": {
-        "syntax": "normal | &lt;feature-tag-value&gt;#",
+        "syntax": "normal | <feature-tag-value>#",
         "media": "all",
-        "initial": "<code>normal</code>",
+        "initial": "normal",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
@@ -158,7 +158,7 @@
       "font-stretch": {
         "syntax": "normal | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded",
         "media": "all",
-        "initial": "<code>normal</code>",
+        "initial": "normal",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -167,7 +167,7 @@
       "font-style": {
         "syntax": "normal | italic | oblique",
         "media": "all",
-        "initial": "<code>normal</code>",
+        "initial": "normal",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -176,23 +176,23 @@
       "font-weight": {
         "syntax": "normal | bold | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900",
         "media": "all",
-        "initial": "<code>normal</code>",
+        "initial": "normal",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
         "status": "standard"
       },
       "font-variant": {
-        "syntax": "normal | none | [ &lt;common-lig-values&gt; || &lt;discretionary-lig-values&gt; || &lt;historical-lig-values&gt; || &lt;contextual-alt-values&gt; || stylistic(&lt;feature-value-name&gt;) || historical-forms || styleset(&lt;feature-value-name&gt;#) || character-variant(&lt;feature-value-name&gt;#) || swash(&lt;feature-value-name&gt;) || ornaments(&lt;feature-value-name&gt;) || annotation(&lt;feature-value-name&gt;) || [ small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps ] || &lt;numeric-figure-values&gt; || &lt;numeric-spacing-values&gt; || &lt;numeric-fraction-values&gt; || ordinal || slashed-zero || &lt;east-asian-variant-values&gt; || &lt;east-asian-width-values&gt; || ruby ]",
+        "syntax": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> || stylistic(<feature-value-name>) || historical-forms || styleset(<feature-value-name>#) || character-variant(<feature-value-name>#) || swash(<feature-value-name>) || ornaments(<feature-value-name>) || annotation(<feature-value-name>) || [ small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps ] || <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero || <east-asian-variant-values> || <east-asian-width-values> || ruby ]",
         "media": "all",
-        "initial": "<code>normal</code>",
+        "initial": "normal",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
         "status": "standard"
       },
       "src": {
-        "syntax": "[ &lt;url&gt; format(&lt;string&gt;#)? | local(&lt;family-name&gt;) ]#",
+        "syntax": "[ <url> format(<string>#)? | local(<family-name>) ]#",
         "media": "all",
         "initial": "n/a (required)",
         "percentages": "no",
@@ -201,9 +201,9 @@
         "status": "standard"
       },
       "unicode-range": {
-        "syntax": "&lt;unicode-range&gt;#",
+        "syntax": "<unicode-range>#",
         "media": "all",
-        "initial": "<code>U+0-10FFFF</code>",
+        "initial": "U+0-10FFFF",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
@@ -213,7 +213,7 @@
     "status": "standard"
   },
   "@font-feature-values": {
-    "syntax": "@font-feature-values &lt;family-name&gt;# {\n  &lt;feature-value-block-list&gt;\n}",
+    "syntax": "@font-feature-values <family-name># {\n  <feature-value-block-list>\n}",
     "interfaces": [
       "CSSFontFeatureValuesRule"
     ],
@@ -223,14 +223,14 @@
     "status": "standard"
   },
   "@import": {
-    "syntax": "@import [ &lt;string&gt; | &lt;url&gt; ] [ &lt;media-query-list&gt; ]?;",
+    "syntax": "@import [ <string> | <url> ] [ <media-query-list> ]?;",
     "groups": [
       "Media Queries"
     ],
     "status": "standard"
   },
   "@keyframes": {
-    "syntax": "@keyframes &lt;keyframes-name&gt; {\n  &lt;keyframe-block-list&gt;\n}",
+    "syntax": "@keyframes <keyframes-name> {\n  <keyframe-block-list>\n}",
     "interfaces": [
       "CSSKeyframeRule",
       "CSSKeyframesRule"
@@ -241,7 +241,7 @@
     "status": "standard"
   },
   "@media": {
-    "syntax": "@media &lt;media-query-list&gt; {\n  &lt;group-rule-body&gt;\n}",
+    "syntax": "@media <media-query-list> {\n  <group-rule-body>\n}",
     "interfaces": [
       "CSSGroupingRule",
       "CSSConditionRule",
@@ -255,14 +255,14 @@
     "status": "standard"
   },
   "@namespace": {
-    "syntax": "@namespace &lt;namespace-prefix&gt;? [ &lt;string&gt; | &lt;url&gt; ];",
+    "syntax": "@namespace <namespace-prefix>? [ <string> | <url> ];",
     "groups": [
       "CSS Namespaces"
     ],
     "status": "standard"
   },
   "@page": {
-    "syntax": "@page &lt;page-selector-list&gt; {\n  &lt;page-body&gt;\n}",
+    "syntax": "@page <page-selector-list> {\n  <page-body>\n}",
     "interfaces": [
       "CSSPageRule"
     ],
@@ -271,9 +271,9 @@
     ],
     "descriptors": {
       "bleed": {
-        "syntax": "auto | &lt;length&gt;",
+        "syntax": "auto | <length>",
         "media": "visual, paged",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -282,7 +282,7 @@
       "marks": {
         "syntax": "none | [ crop || cross ]",
         "media": "visual, paged",
-        "initial": "<code>none</code>",
+        "initial": "none",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
@@ -292,7 +292,7 @@
     "status": "standard"
   },
   "@supports": {
-    "syntax": "@supports &lt;supports-condition&gt; {\n  &lt;group-rule-body&gt;\n}",
+    "syntax": "@supports <supports-condition> {\n  <group-rule-body>\n}",
     "interfaces": [
       "CSSGroupingRule",
       "CSSConditionRule",
@@ -304,7 +304,7 @@
     "status": "standard"
   },
   "@viewport": {
-    "syntax": "@viewport {\n  &lt;group-rule-body&gt;\n}",
+    "syntax": "@viewport {\n  <group-rule-body>\n}",
     "interfaces": [
       "CSSViewportRule"
     ],
@@ -313,7 +313,7 @@
     ],
     "descriptors": {
       "height": {
-        "syntax": "&lt;viewport-length&gt;{1,2}",
+        "syntax": "<viewport-length>{1,2}",
         "media": "visual, continuous",
         "initial": [
           "min-height",
@@ -331,54 +331,54 @@
         "status": "standard"
       },
       "max-height": {
-        "syntax": "&lt;viewport-length&gt;",
+        "syntax": "<viewport-length>",
         "media": "visual, continuous",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "referToHeightOfInitialViewport",
         "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
         "order": "uniqueOrder",
         "status": "standard"
       },
       "max-width": {
-        "syntax": "&lt;viewport-length&gt;",
+        "syntax": "<viewport-length>",
         "media": "visual, continuous",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "referToWidthOfInitialViewport",
         "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
         "order": "uniqueOrder",
         "status": "standard"
       },
       "max-zoom": {
-        "syntax": "auto | &lt;number&gt; | &lt;percentage&gt;",
+        "syntax": "auto | <number> | <percentage>",
         "media": "visual, continuous",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "the zoom factor itself",
         "computed": "autoNonNegativeOrPercentage",
         "order": "uniqueOrder",
         "status": "standard"
       },
       "min-height": {
-        "syntax": "&lt;viewport-length&gt;",
+        "syntax": "<viewport-length>",
         "media": "visual, continuous",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "referToHeightOfInitialViewport",
         "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
         "order": "uniqueOrder",
         "status": "standard"
       },
       "min-width": {
-        "syntax": "&lt;viewport-length&gt;",
+        "syntax": "<viewport-length>",
         "media": "visual, continuous",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "referToWidthOfInitialViewport",
         "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
         "order": "uniqueOrder",
         "status": "standard"
       },
       "min-zoom": {
-        "syntax": "auto | &lt;number&gt; | &lt;percentage&gt;",
+        "syntax": "auto | <number> | <percentage>",
         "media": "visual, continuous",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "the zoom factor itself",
         "computed": "autoNonNegativeOrPercentage",
         "order": "uniqueOrder",
@@ -387,7 +387,7 @@
       "orientation": {
         "syntax": "auto | portrait | landscape",
         "media": "visual, continuous",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "referToSizeOfBoundingBox",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -396,14 +396,14 @@
       "user-zoom": {
         "syntax": "zoom | fixed",
         "media": "visual, continuous",
-        "initial": "<code>zoom</code>",
+        "initial": "zoom",
         "percentages": "referToSizeOfBoundingBox",
         "computed": "asSpecified",
         "order": "uniqueOrder",
         "status": "standard"
       },
       "width": {
-        "syntax": "&lt;viewport-length&gt;{1,2}",
+        "syntax": "<viewport-length>{1,2}",
         "media": "visual, continuous",
         "initial": [
           "min-width",
@@ -421,9 +421,9 @@
         "status": "standard"
       },
       "zoom": {
-        "syntax": "auto | &lt;number&gt; | &lt;percentage&gt;",
+        "syntax": "auto | <number> | <percentage>",
         "media": "visual, continuous",
-        "initial": "<code>auto</code>",
+        "initial": "auto",
         "percentages": "the zoom factor itself",
         "computed": "autoNonNegativeOrPercentage",
         "order": "uniqueOrder",
