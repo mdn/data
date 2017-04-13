@@ -4804,6 +4804,21 @@
     "stacking": true,
     "status": "experimental"
   },
+  "offset-position": {
+    "syntax": "auto | <position>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "position",
+    "percentages": "referToSizeOfContainingBlock",
+    "groups": [
+      "CSS Motion"
+    ],
+    "initial": "auto",
+    "appliesto": "transformableElements",
+    "computed": "forLengthAbsoluteValueOtherwisePercentage",
+    "order": "perGrammar",
+    "status": "experimental"
+  },
   "offset-rotate": {
     "syntax": "[ auto | reverse ] || <angle>",
     "media": "visual",
