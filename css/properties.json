@@ -960,7 +960,7 @@
     "initial": "auto",
     "appliesto": "allElements",
     "computed": "As specified",
-    "order": "per grammar",
+    "order": "perGrammar",
     "status": "experimental"
   },
   "azimuth": {
@@ -2807,7 +2807,7 @@
     "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
-    "order": "per grammar",
+    "order": "perGrammar",
     "status": "experimental"
   },
   "content": {
