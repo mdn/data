@@ -670,7 +670,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "status": "nonstandard"
   },
@@ -709,7 +709,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "status": "nonstandard"
   },
@@ -1128,7 +1128,7 @@
     ],
     "initial": "transparent",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter",
@@ -1489,7 +1489,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter"
@@ -1922,7 +1922,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter"
@@ -2039,7 +2039,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter"
@@ -2166,7 +2166,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter"
@@ -2707,7 +2707,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "multicolElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "status": "standard"
   },
@@ -5687,7 +5687,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter",
@@ -5786,7 +5786,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "status": "standard"
   },
