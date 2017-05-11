@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/mdn/data/issues"
   },
-  "homepage": "https://developer.mozilla.org"
+  "homepage": "https://developer.mozilla.org",
+  "devDependencies": {
+    "ajv": "^5.0.1"
+  },
+  "scripts": {
+    "test": "node test/validate-schema"
+  }
 }

@@ -1,0 +1,31 @@
+{
+    "type": "object",
+    "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+            "syntax": {
+                "type": "string"
+            },
+            "groups": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            },
+            "status": {
+                "type": "string",
+                "enum": [
+                    "standard",
+                    "nonstandard",
+                    "experimental"
+                ]
+            }
+        },
+        "required": [
+            "syntax",
+            "groups",
+            "status"
+        ]
+    }
+}

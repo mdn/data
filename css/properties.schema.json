@@ -1,0 +1,92 @@
+{
+    "definitions": {
+        "stringOrArrayOfString": {
+            "oneOf": [
+                { "type": "string" },
+                { "type": "array", "items": { "type": "string" } }
+            ]
+        }
+    },
+
+    "type": "object",
+    "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+            "syntax": {
+                "type": "string"
+            },
+            "media": {
+                "type": "string"
+            },
+            "inherited": {
+                "type": "boolean"
+            },
+            "animationType": {
+                "$ref": "#/definitions/stringOrArrayOfString"
+            },
+            "percentages": {
+                "$ref": "#/definitions/stringOrArrayOfString"
+            },
+            "groups": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            },
+            "initial": {
+                "$ref": "#/definitions/stringOrArrayOfString"
+            },
+            "appliesto": {
+                "$ref": "#/definitions/stringOrArrayOfString"
+            },
+            "alsoAppliesTo": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            },
+            "computed": {
+                "$ref": "#/definitions/stringOrArrayOfString"
+            },
+            "order": {
+                "type": "string",
+                "enum": [
+                    "canonicalOrder",
+                    "lengthOrPercentageBeforeKeywordIfBothPresent",
+                    "lengthOrPercentageBeforeKeywords",
+                    "oneOrTwoValuesLengthAbsoluteKeywordsPercentages",
+                    "orderOfAppearance",
+                    "percentagesOrLengthsFollowedByFill",
+                    "perGrammar",
+                    "uniqueOrder"
+                ]
+            },
+            "stacking": {
+                "type": "boolean"
+            },
+            "status": {
+                "type": "string",
+                "enum": [
+                    "standard",
+                    "nonstandard",
+                    "experimental",
+                    "obsolete"
+                ]
+            }
+        },
+        "required": [
+            "syntax",
+            "media",
+            "inherited",
+            "animationType",
+            "percentages",
+            "groups",
+            "initial",
+            "appliesto",
+            "computed",
+            "order",
+            "status"
+        ]
+    }
+}

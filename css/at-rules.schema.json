@@ -1,0 +1,94 @@
+{
+    "definitions": {
+        "stringOrArrayOfString": {
+            "oneOf": [
+                { "type": "string" },
+                { "type": "array", "items": { "type": "string" } }
+            ]
+        }
+    },
+
+    "type": "object",
+    "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+            "syntax": {
+                "type": "string"
+            },
+            "interfaces": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            },
+            "groups": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            },
+            "descriptors": {
+                "type": "object",
+                "additionalProperties": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                        "syntax": {
+                            "type": "string"
+                        },
+                        "media": {
+                            "type": "string"
+                        },
+                        "initial": {
+                            "$ref": "#/definitions/stringOrArrayOfString"
+                        },
+                        "percentages": {
+                            "$ref": "#/definitions/stringOrArrayOfString"
+                        },
+                        "computed": {
+                            "$ref": "#/definitions/stringOrArrayOfString"
+                        },
+                        "order": {
+                            "type": "string",
+                            "enum": [
+                                "orderOfAppearance",
+                                "uniqueOrder"
+                            ]
+                        },
+                        "status": {
+                            "type": "string",
+                            "enum": [
+                                "standard",
+                                "nonstandard",
+                                "experimental"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "syntax",
+                        "media",
+                        "initial",
+                        "percentages",
+                        "computed",
+                        "order",
+                        "status"
+                    ]
+                }
+            },
+            "status": {
+                "type": "string",
+                "enum": [
+                    "standard",
+                    "nonstandard",
+                    "experimental"
+                ]
+            }
+        },
+        "required": [
+            "syntax",
+            "groups",
+            "status"
+        ]
+    }
+}
