@@ -4633,7 +4633,7 @@
   "object-fit": {
     "syntax": "fill | contain | cover | none | scale-down",
     "media": "visual",
-    "inherited": true,
+    "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
@@ -4802,6 +4802,21 @@
     "computed": "asSpecified",
     "order": "perGrammar",
     "stacking": true,
+    "status": "experimental"
+  },
+  "offset-position": {
+    "syntax": "auto | <position>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "position",
+    "percentages": "referToSizeOfContainingBlock",
+    "groups": [
+      "CSS Motion"
+    ],
+    "initial": "auto",
+    "appliesto": "transformableElements",
+    "computed": "forLengthAbsoluteValueOtherwisePercentage",
+    "order": "perGrammar",
     "status": "experimental"
   },
   "offset-rotate": {
@@ -5816,6 +5831,21 @@
     "appliesto": "blockContainers",
     "computed": "percentageOrAbsoluteLengthPlusKeywords",
     "order": "lengthOrPercentageBeforeKeywords",
+    "status": "standard"
+  },
+  "text-justify": {
+    "syntax": "auto | inter-character | inter-word | none",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Text"
+    ],
+    "initial": "auto",
+    "appliesto": "inlineLevelAndTableCellElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
     "status": "standard"
   },
   "text-orientation": {
