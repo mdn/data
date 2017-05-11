@@ -2443,7 +2443,7 @@
     "animationType": "shadowList",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Background and Borders"
     ],
     "initial": "none",
     "appliesto": "allElements",
