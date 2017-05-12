@@ -1635,13 +1635,7 @@
       "border-image-outset",
       "border-image-repeat"
     ],
-    "appliesto": [
-      "border-image-outset",
-      "border-image-repeat",
-      "border-image-slice",
-      "border-image-source",
-      "border-image-width"
-    ],
+    "appliesto": "allElementsExceptTableElementsWhenCollapse",
     "computed": [
       "border-image-outset",
       "border-image-repeat",
@@ -1737,7 +1731,7 @@
       "CSS Background and Borders"
     ],
     "initial": "1",
-    "appliesto": "allElementsExceptTableElementsWhenBorderCollapseCollapse",
+    "appliesto": "allElementsExceptTableElementsWhenCollapse",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -4624,7 +4618,7 @@
       "Compositing and Blending"
     ],
     "initial": "normal",
-    "appliesto": "allHTMLElements",
+    "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "stacking": true,
