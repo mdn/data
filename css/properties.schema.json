@@ -1,9 +1,18 @@
 {
     "definitions": {
-        "stringOrArrayOfString": {
+        "propertyList": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+                "type": "string",
+                "property-reference": { "$data": "/" }
+            }
+        },
+        "stringOrPropertyList": {
             "oneOf": [
                 { "type": "string" },
-                { "type": "array", "items": { "type": "string" } }
+                { "$ref": "#/definitions/propertyList" }
             ]
         }
     },
@@ -23,10 +32,37 @@
                 "type": "boolean"
             },
             "animationType": {
-                "$ref": "#/definitions/stringOrArrayOfString"
+                "oneOf": [
+                    {
+                        "enum": [
+                            "angle",
+                            "angleOrBasicShapeOrPath",
+                            "basicShapeOtherwiseNo",
+                            "color",
+                            "discrete",
+                            "eachOfShorthandPropertiesExceptUnicodeBiDiAndDirection",
+                            "filterList",
+                            "fontStretch",
+                            "fontWeight",
+                            "integer",
+                            "length",
+                            "lpc",
+                            "numberOrLength",
+                            "number",
+                            "position",
+                            "rectangle",
+                            "repeatableListOfSimpleListOfLpc",
+                            "shadowList",
+                            "simpleListOfLpc",
+                            "transform",
+                            "visibility"
+                        ]
+                    },
+                    { "$ref": "#/definitions/propertyList" }
+                ]
             },
             "percentages": {
-                "$ref": "#/definitions/stringOrArrayOfString"
+                "$ref": "#/definitions/stringOrPropertyList"
             },
             "groups": {
                 "type": "array",
@@ -35,10 +71,10 @@
                 }
             },
             "initial": {
-                "$ref": "#/definitions/stringOrArrayOfString"
+                "$ref": "#/definitions/stringOrPropertyList"
             },
             "appliesto": {
-                "$ref": "#/definitions/stringOrArrayOfString"
+                "$ref": "#/definitions/stringOrPropertyList"
             },
             "alsoAppliesTo": {
                 "type": "array",
@@ -47,10 +83,9 @@
                 }
             },
             "computed": {
-                "$ref": "#/definitions/stringOrArrayOfString"
+                "$ref": "#/definitions/stringOrPropertyList"
             },
             "order": {
-                "type": "string",
                 "enum": [
                     "canonicalOrder",
                     "lengthOrPercentageBeforeKeywordIfBothPresent",
@@ -66,7 +101,6 @@
                 "type": "boolean"
             },
             "status": {
-                "type": "string",
                 "enum": [
                     "standard",
                     "nonstandard",

@@ -1,11 +1,24 @@
 var fs = require('fs');
 var path = require('path');
 var Ajv = require('ajv');
-var ajv = new Ajv({ allErrors: true });
+var ajv = new Ajv({ $data: true, allErrors: true });
 var dictPaths = ['css'];
 var hasErrors = false;
 
-function validateDir(dir) {
+ajv.addKeyword('property-reference', {
+    $data: true,
+    metaSchema: { type: 'object' },
+    validate: function(schema, data, parentSchema) {
+        var valid = schema.hasOwnProperty(data);
+        if (!valid) {
+            // TODO: make a verbose message when invalid
+            // throw new Error('wrong reference')
+        }
+        return valid;
+    }
+});
+
+dictPaths.forEach(function(dir) {
     var absDir = path.resolve(path.join(__dirname, '..', dir));
 
     fs.readdirSync(absDir).forEach(function(filename) {
@@ -36,9 +49,7 @@ function validateDir(dir) {
             console.log();
         }
     });
-}
-
-dictPaths.forEach(validateDir);
+});
 
 if (hasErrors) {
     process.exit(1);

@@ -1,9 +1,19 @@
 {
     "definitions": {
-        "stringOrArrayOfString": {
+        "stringOrPropertyList": {
             "oneOf": [
-                { "type": "string" },
-                { "type": "array", "items": { "type": "string" } }
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array",
+                    "minItems": 1,
+                    "uniqueItems": true,
+                    "items": {
+                        "type": "string",
+                        "property-reference": { "$data": "3" }
+                    }
+                }
             ]
         }
     },
@@ -41,23 +51,21 @@
                             "type": "string"
                         },
                         "initial": {
-                            "$ref": "#/definitions/stringOrArrayOfString"
+                            "$ref": "#/definitions/stringOrPropertyList"
                         },
                         "percentages": {
-                            "$ref": "#/definitions/stringOrArrayOfString"
+                            "$ref": "#/definitions/stringOrPropertyList"
                         },
                         "computed": {
-                            "$ref": "#/definitions/stringOrArrayOfString"
+                            "$ref": "#/definitions/stringOrPropertyList"
                         },
                         "order": {
-                            "type": "string",
                             "enum": [
                                 "orderOfAppearance",
                                 "uniqueOrder"
                             ]
                         },
                         "status": {
-                            "type": "string",
                             "enum": [
                                 "standard",
                                 "nonstandard",
@@ -77,7 +85,6 @@
                 }
             },
             "status": {
-                "type": "string",
                 "enum": [
                     "standard",
                     "nonstandard",
