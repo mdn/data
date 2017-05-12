@@ -730,9 +730,17 @@
   },
   "-webkit-touch-callout": {
     "syntax": "default | none",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
     "groups": [
       "WebKit Extensions"
     ],
+    "initial": "default",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
     "status": "nonstandard"
   },
   "align-content": {
