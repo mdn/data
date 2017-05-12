@@ -951,7 +951,7 @@
   "appearance": {
     "syntax": "auto | none",
     "media": "all",
-    "inherited": "no",
+    "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
@@ -2798,7 +2798,7 @@
   "contain": {
     "syntax": "none | strict | content | [ size || layout || style || paint ]",
     "media": "all",
-    "inherited": "false",
+    "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
@@ -6161,7 +6161,7 @@
   "user-select": {
     "syntax": "auto | text | none | contain | all",
     "media": "visual",
-    "inherited": "no",
+    "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
