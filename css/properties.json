@@ -959,7 +959,7 @@
     ],
     "initial": "auto",
     "appliesto": "allElements",
-    "computed": "As specified",
+    "computed": "asSpecified",
     "order": "perGrammar",
     "status": "experimental"
   },
