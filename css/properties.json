@@ -220,7 +220,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
-    "percentages": "yes",
+    "percentages": "referToDimensionOfBorderBox",
     "groups": [
       "Mozilla Extensions"
     ],
@@ -235,7 +235,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
-    "percentages": "yes",
+    "percentages": "referToDimensionOfBorderBox",
     "groups": [
       "Mozilla Extensions"
     ],
@@ -250,7 +250,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
-    "percentages": "yes",
+    "percentages": "referToDimensionOfBorderBox",
     "groups": [
       "Mozilla Extensions"
     ],
@@ -265,7 +265,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
-    "percentages": "yes",
+    "percentages": "referToDimensionOfBorderBox",
     "groups": [
       "Mozilla Extensions"
     ],
@@ -3669,7 +3669,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "length",
-    "percentages": "yes, as the dimension of the element",
+    "percentages": "referToDimensionOfContentArea",
     "groups": [
       "CSS Grid Layout"
     ],
@@ -3759,7 +3759,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "length",
-    "percentages": "yes, as the dimension of the element",
+    "percentages": "referToDimensionOfContentArea",
     "groups": [
       "CSS Grid Layout"
     ],
