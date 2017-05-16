@@ -502,12 +502,6 @@
     "ja": "\u975e\u7f6e\u63db\u30a4\u30f3\u30e9\u30a4\u30f3\u8981\u7d20",
     "ru": "не заменяемые строчные элементы"
   },
-  "seeGridTemplateRowsColumns": {
-    "en-US": "see {{cssxref(\"grid-template-rows\")}} or {{cssxref(\"grid-template-columns\")}}",
-    "de"   : "siehe {{cssxref(\"grid-template-rows\")}} oder {{cssxref(\"grid-template-columns\")}}",
-    "fr": "voir {{cssxref(\"grid-template-rows\")}} ou {{cssxref(\"grid-template-columns\")}}",
-    "ru": "смотрите {{cssxref(\"grid-template-rows\")}} или {{cssxref(\"grid-template-columns\")}}"
-  },
   "allElementsAcceptingWidthOrHeight": {
     "en-US": "all elements that accept width or height",
     "de": "alle Elemente, die Breite oder Höhe akzeptieren",

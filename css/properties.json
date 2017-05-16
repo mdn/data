@@ -3590,13 +3590,13 @@
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
-    "percentages": "seeGridTemplateRowsColumns",
+    "percentages": "referToDimensionOfContentArea",
     "groups": [
       "CSS Grid Layout"
     ],
     "initial": "auto",
     "appliesto": "gridContainers",
-    "computed": "seeGridTemplateRowsColumns",
+    "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
     "status": "standard"
   },
@@ -3620,13 +3620,13 @@
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
-    "percentages": "seeGridTemplateRowsColumns",
+    "percentages": "referToDimensionOfContentArea",
     "groups": [
       "CSS Grid Layout"
     ],
     "initial": "auto",
     "appliesto": "gridContainers",
-    "computed": "seeGridTemplateRowsColumns",
+    "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
     "status": "standard"
   },
