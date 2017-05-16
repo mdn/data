@@ -502,12 +502,6 @@
     "ja": "\u975e\u7f6e\u63db\u30a4\u30f3\u30e9\u30a4\u30f3\u8981\u7d20",
     "ru": "не заменяемые строчные элементы"
   },
-  "allElementsExceptTableElementsWhenBorderCollapseCollapse": {
-    "en-US": "all elements, except table elements when {{cssxref(\"border-collapse\")}} is <code>collapse<\/code>",
-    "de": "Alle Elemente außer Tabellenelemente, falls {{cssxref(\"border-collapse\")}} <code>collapse<\/code> ist",
-    "fr": "tous les \u00e9l\u00e9ments sauf les \u00e9l\u00e9ments de table lorsque {{cssxref(\"border-collapse\")}} vaut <code>collapse<\/code>",
-    "ru": "все элементы, кроме табличных, когда {{cssxref(\"border-collapse\")}}:<code>collapse<\/code>"
-  },
   "allElementsAcceptingWidthOrHeight": {
     "en-US": "all elements that accept width or height",
     "de": "alle Elemente, die Breite oder Höhe akzeptieren",
@@ -1308,11 +1302,11 @@
     "ru": "{{xref_cssangle}}, с округлением до следующей четверти оборота от <code>0deg<\/code> и нормализованный так, что значение - <code>1 поворот<\/code>"
   },
   "invertForTranslucentColorRGBAOtherwiseRGB": {
-    "en-US": "For the keyword <code>invert<\/code>, the computed value is <code>invert<\/code>. For the color value, if the value is translucent, the computed value will be the <code>rgba()<\/code> corresponding one. If it isn't, it will be the <code>rgb()<\/code> corresponding one. The <code>transparent<\/code> keyword maps to <code>rgb(0,0,0)<\/code>.",
-    "de": "Für das Schlüsselwort <code>invert<\/code> ist der berechnete Wert <code>invert<\/code>. Für den Farbwert, falls der Wert durchscheinend ist, ist der berechnete Wert der entsprechende <code>rgba()<\/code> Wert. Falls nicht, ist er der entsprechende <code>rgb()<\/code> Wert. Das Schlüsselwort <code>transparent<\/code> wird zu <code>rgb(0,0,0)<\/code>.",
-    "fr": "Pour le mot-clé <code>invert<\/code>, la valeur calculée est <code>invert<\/code>. Pour la valeur de la couleur, si la valeur est transparente, la valeur calculée sera la valeur <code>rgba()<\/code> correspondante. S'il n'y en a pas, ce sera la valeur <code>rgb()<\/code> correspondante. Le mot-clé <code>transparent<\/code> correspondra à <code>rgb(0,0,0)<\/code>.",
-    "ja": "キーワード <code>invert<\/code> が指定されると計算値も <code>invert<\/code>。色が指定されると、半透明なら、計算値はそれに一致する<code>rbga()<\/code> で、不透明なら、それに一致する <code>rgb()<\/code>。キーワード <code>transparent<\/code> は <code>rgb(0,0,0)<\/code> にマップされます",
-    "ru": "Для ключевого слова <code>invert<\/code>, значение - <code>invert<\/code>. Для значения цвета, если значение имеет прозрачность, соответственно, значение будет через <code>rgba()<\/code>. Если это не так, это будет <code>rgb()<\/code>. Ключевое слово <code>transparent<\/code> отображается, как <code>rgb(0,0,0)<\/code>."
+    "en-US": "For the keyword <code>invert<\/code>, the computed value is <code>invert<\/code>. For the color value, if the value is translucent, the computed value will be the <code>rgba()<\/code> corresponding one. If it isn't, it will be the <code>rgb()<\/code> corresponding one. The <code>transparent<\/code> keyword maps to <code>rgba(0,0,0,0)<\/code>.",
+    "de": "Für das Schlüsselwort <code>invert<\/code> ist der berechnete Wert <code>invert<\/code>. Für den Farbwert, falls der Wert durchscheinend ist, ist der berechnete Wert der entsprechende <code>rgba()<\/code> Wert. Falls nicht, ist er der entsprechende <code>rgb()<\/code> Wert. Das Schlüsselwort <code>transparent<\/code> wird zu <code>rgba(0,0,0,0)<\/code>.",
+    "fr": "Pour le mot-clé <code>invert<\/code>, la valeur calculée est <code>invert<\/code>. Pour la valeur de la couleur, si la valeur est transparente, la valeur calculée sera la valeur <code>rgba()<\/code> correspondante. S'il n'y en a pas, ce sera la valeur <code>rgb()<\/code> correspondante. Le mot-clé <code>transparent<\/code> correspondra à <code>rgba(0,0,0,0)<\/code>.",
+    "ja": "キーワード <code>invert<\/code> が指定されると計算値も <code>invert<\/code>。色が指定されると、半透明なら、計算値はそれに一致する<code>rbga()<\/code> で、不透明なら、それに一致する <code>rgb()<\/code>。キーワード <code>transparent<\/code> は <code>rgba(0,0,0,0)<\/code> にマップされます",
+    "ru": "Для ключевого слова <code>invert<\/code>, значение - <code>invert<\/code>. Для значения цвета, если значение имеет прозрачность, соответственно, значение будет через <code>rgba()<\/code>. Если это не так, это будет <code>rgb()<\/code>. Ключевое слово <code>transparent<\/code> отображается, как <code>rgba(0,0,0,0)<\/code>."
   },
   "absoluteLength0ForNone": {
     "en-US": "an absolute length; if the keyword <code>none<\/code> is specified, the computed value is <code>0<\/code>",

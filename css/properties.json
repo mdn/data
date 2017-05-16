@@ -220,7 +220,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
-    "percentages": "yes",
+    "percentages": "referToDimensionOfBorderBox",
     "groups": [
       "Mozilla Extensions"
     ],
@@ -235,7 +235,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
-    "percentages": "yes",
+    "percentages": "referToDimensionOfBorderBox",
     "groups": [
       "Mozilla Extensions"
     ],
@@ -250,7 +250,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
-    "percentages": "yes",
+    "percentages": "referToDimensionOfBorderBox",
     "groups": [
       "Mozilla Extensions"
     ],
@@ -265,7 +265,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
-    "percentages": "yes",
+    "percentages": "referToDimensionOfBorderBox",
     "groups": [
       "Mozilla Extensions"
     ],
@@ -730,9 +730,17 @@
   },
   "-webkit-touch-callout": {
     "syntax": "default | none",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
     "groups": [
       "WebKit Extensions"
     ],
+    "initial": "default",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
     "status": "nonstandard"
   },
   "align-content": {
@@ -959,7 +967,7 @@
     ],
     "initial": "auto",
     "appliesto": "allElements",
-    "computed": "As specified",
+    "computed": "asSpecified",
     "order": "perGrammar",
     "status": "experimental"
   },
@@ -1635,13 +1643,7 @@
       "border-image-outset",
       "border-image-repeat"
     ],
-    "appliesto": [
-      "border-image-outset",
-      "border-image-repeat",
-      "border-image-slice",
-      "border-image-source",
-      "border-image-width"
-    ],
+    "appliesto": "allElementsExceptTableElementsWhenCollapse",
     "computed": [
       "border-image-outset",
       "border-image-repeat",
@@ -1737,7 +1739,7 @@
       "CSS Background and Borders"
     ],
     "initial": "1",
-    "appliesto": "allElementsExceptTableElementsWhenBorderCollapseCollapse",
+    "appliesto": "allElementsExceptTableElementsWhenCollapse",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -3669,7 +3671,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "length",
-    "percentages": "yes, as the dimension of the element",
+    "percentages": "referToDimensionOfContentArea",
     "groups": [
       "CSS Grid Layout"
     ],
@@ -3759,7 +3761,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "length",
-    "percentages": "yes, as the dimension of the element",
+    "percentages": "referToDimensionOfContentArea",
     "groups": [
       "CSS Grid Layout"
     ],
@@ -4624,7 +4626,7 @@
       "Compositing and Blending"
     ],
     "initial": "normal",
-    "appliesto": "allHTMLElements",
+    "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "stacking": true,
