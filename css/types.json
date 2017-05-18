@@ -1,37 +1,37 @@
 {
-  "<an-plus-b>": {
+  "an-plus-b": {
     "groups": [
       "CSS Selectors"
     ],
     "status": "standard"
   },
-  "<angle>": {
+  "angle": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard"
   },
-  "<basic-shape>": {
+  "basic-shape": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard"
   },
-  "<blend-mode>": {
-    "groups": [
-      "CSS Colors",
-      "CSS Types"
-    ],
-    "status": "standard"
-  },
-  "<color>": {
+  "blend-mode": {
     "groups": [
       "CSS Colors",
       "CSS Types"
     ],
     "status": "standard"
   },
-  "<custom-ident>": {
+  "color": {
+    "groups": [
+      "CSS Colors",
+      "CSS Types"
+    ],
+    "status": "standard"
+  },
+  "custom-ident": {
     "groups": [
       "CSS Will Change",
       "CSS Counter Styles 3",
@@ -41,100 +41,100 @@
     ],
     "status": "standard"
   },
-  "<flex>": {
+  "flex": {
     "groups": [
       "CSS Grid",
       "CSS Types"
     ],
     "status": "standard"
   },
-  "<frequency>": {
+  "frequency": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard"
   },
-  "<gradient>": {
-    "groups": [
-      "CSS Images",
-      "CSS Types"
-    ],
-    "status": "standard"
-  },
-  "<ident>": {
-    "groups": [
-      "CSS Types"
-    ],
-    "status": "standard"
-  },
-  "<image>": {
+  "gradient": {
     "groups": [
       "CSS Images",
       "CSS Types"
     ],
     "status": "standard"
   },
-  "<integer>": {
+  "ident": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard"
   },
-  "<length>": {
+  "image": {
+    "groups": [
+      "CSS Images",
+      "CSS Types"
+    ],
+    "status": "standard"
+  },
+  "integer": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard"
   },
-  "<number>": {
+  "length": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard"
   },
-  "<percentage>": {
+  "number": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard"
   },
-  "<position>": {
+  "percentage": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard"
   },
-  "<ratio>": {
+  "position": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard"
   },
-  "<resolution>": {
+  "ratio": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard"
   },
-  "<shape>": {
+  "resolution": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard"
   },
-  "<string>": {
+  "shape": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard"
   },
-  "<time>": {
+  "string": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard"
   },
-  "<timing-function>": {
+  "time": {
+    "groups": [
+      "CSS Types"
+    ],
+    "status": "standard"
+  },
+  "timing-function": {
     "groups": [
       "CSS Animations",
       "CSS Transitions",
@@ -142,14 +142,14 @@
     ],
     "status": "standard"
   },
-  "<transform-function>": {
+  "transform-function": {
     "groups": [
       "CSS Transforms",
       "CSS Types"
     ],
     "status": "standard"
   },
-  "<url>": {
+  "url": {
     "groups": [
       "CSS Types"
     ],
