@@ -11,9 +11,6 @@
     "fr": "tous",
     "ru": "всё"
   },
-  "asTransform" : {
-    "en-US": "Animating <code>font-variation-settings</code> is possible using a mechanism similar to animating <a href=\"/en-US/docs/Web/CSS/transform\">transform</a>: Two declarations can be animated if they feature the same set of items."
-  },
   "visual": {
     "en-US": "visual",
     "de": "visuell",
@@ -1433,7 +1430,7 @@
     "fr": "Crée un <a href=\"/fr/docs/Web/CSS/Comprendre_z-index/L'empilement_de_couches\">contexte d'empilement</a>",
     "ru": "Создаёт <a href=\"/ru/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context\">контекст наложения</a>"
   },
-  "AsAngleBasicshapeOrPath": {
+  "angleOrBasicShapeOrPath": {
     "en-US": "as &lt;angle&gt;, &lt;basic-shape&gt; or &lt;path()&gt;",
     "de": "als &lt;angle&gt;, &lt;basic-shape&gt; oder &lt;path()&gt;",
     "fr": "comme &lt;angle&gt;, &lt;basic-shape&gt; ou &lt;path()&gt;",
@@ -1444,5 +1441,15 @@
     "de": "Winkel",
     "fr": "angle",
     "ru": "угол"
+  },
+  "numberOrLength": {
+    "en-US": "either number or length",
+    "ru": "число или длина"
+  },
+  "simpleListOfLpc": {
+    "en-US": "simple list of length, percentage, or calc"
+  },
+  "repeatableListOfSimpleListOfLpc": {
+    "en-US": "repeatable list of simple list of length, percentage, or calc"
   }
 }
