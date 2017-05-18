@@ -220,7 +220,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
-    "percentages": "yes",
+    "percentages": "referToDimensionOfBorderBox",
     "groups": [
       "Mozilla Extensions"
     ],
@@ -235,7 +235,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
-    "percentages": "yes",
+    "percentages": "referToDimensionOfBorderBox",
     "groups": [
       "Mozilla Extensions"
     ],
@@ -250,7 +250,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
-    "percentages": "yes",
+    "percentages": "referToDimensionOfBorderBox",
     "groups": [
       "Mozilla Extensions"
     ],
@@ -265,7 +265,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
-    "percentages": "yes",
+    "percentages": "referToDimensionOfBorderBox",
     "groups": [
       "Mozilla Extensions"
     ],
@@ -670,7 +670,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "status": "nonstandard"
   },
@@ -709,7 +709,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "status": "nonstandard"
   },
@@ -730,9 +730,17 @@
   },
   "-webkit-touch-callout": {
     "syntax": "default | none",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
     "groups": [
       "WebKit Extensions"
     ],
+    "initial": "default",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
     "status": "nonstandard"
   },
   "align-content": {
@@ -951,7 +959,7 @@
   "appearance": {
     "syntax": "auto | none",
     "media": "all",
-    "inherited": "no",
+    "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
@@ -959,8 +967,8 @@
     ],
     "initial": "auto",
     "appliesto": "allElements",
-    "computed": "As specified",
-    "order": "per grammar",
+    "computed": "asSpecified",
+    "order": "perGrammar",
     "status": "experimental"
   },
   "azimuth": {
@@ -1128,7 +1136,7 @@
     ],
     "initial": "transparent",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter",
@@ -1489,7 +1497,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter"
@@ -1635,13 +1643,7 @@
       "border-image-outset",
       "border-image-repeat"
     ],
-    "appliesto": [
-      "border-image-outset",
-      "border-image-repeat",
-      "border-image-slice",
-      "border-image-source",
-      "border-image-width"
-    ],
+    "appliesto": "allElementsExceptTableElementsWhenCollapse",
     "computed": [
       "border-image-outset",
       "border-image-repeat",
@@ -1737,7 +1739,7 @@
       "CSS Background and Borders"
     ],
     "initial": "1",
-    "appliesto": "allElementsExceptTableElementsWhenBorderCollapseCollapse",
+    "appliesto": "allElementsExceptTableElementsWhenCollapse",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -1922,7 +1924,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter"
@@ -2039,7 +2041,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter"
@@ -2166,7 +2168,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter"
@@ -2443,7 +2445,7 @@
     "animationType": "shadowList",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Background and Borders"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -2707,7 +2709,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "multicolElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "status": "standard"
   },
@@ -2798,7 +2800,7 @@
   "contain": {
     "syntax": "none | strict | content | [ size || layout || style || paint ]",
     "media": "all",
-    "inherited": "false",
+    "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
@@ -2807,7 +2809,7 @@
     "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
-    "order": "per grammar",
+    "order": "perGrammar",
     "status": "experimental"
   },
   "content": {
@@ -3588,13 +3590,13 @@
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
-    "percentages": "seeGridTemplateRowsColumns",
+    "percentages": "referToDimensionOfContentArea",
     "groups": [
       "CSS Grid Layout"
     ],
     "initial": "auto",
     "appliesto": "gridContainers",
-    "computed": "seeGridTemplateRowsColumns",
+    "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
     "status": "standard"
   },
@@ -3618,13 +3620,13 @@
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
-    "percentages": "seeGridTemplateRowsColumns",
+    "percentages": "referToDimensionOfContentArea",
     "groups": [
       "CSS Grid Layout"
     ],
     "initial": "auto",
     "appliesto": "gridContainers",
-    "computed": "seeGridTemplateRowsColumns",
+    "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
     "status": "standard"
   },
@@ -3669,7 +3671,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "length",
-    "percentages": "yes, as the dimension of the element",
+    "percentages": "referToDimensionOfContentArea",
     "groups": [
       "CSS Grid Layout"
     ],
@@ -3759,7 +3761,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "length",
-    "percentages": "yes, as the dimension of the element",
+    "percentages": "referToDimensionOfContentArea",
     "groups": [
       "CSS Grid Layout"
     ],
@@ -4624,7 +4626,7 @@
       "Compositing and Blending"
     ],
     "initial": "normal",
-    "appliesto": "allHTMLElements",
+    "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "stacking": true,
@@ -5687,7 +5689,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter",
@@ -5786,7 +5788,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "status": "standard"
   },
@@ -6161,7 +6163,7 @@
   "user-select": {
     "syntax": "auto | text | none | contain | all",
     "media": "visual",
-    "inherited": "no",
+    "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
