@@ -2471,21 +2471,6 @@
     "order": "uniqueOrder",
     "status": "standard"
   },
-  "box-suppress": {
-    "syntax": "show | discard | hide",
-    "media": "all",
-    "inherited": false,
-    "animationType": "discrete",
-    "percentages": "no",
-    "groups": [
-      "CSS Display"
-    ],
-    "initial": "show",
-    "appliesto": "allElements",
-    "computed": "seeProse",
-    "order": "uniqueOrder",
-    "status": "experimental"
-  },
   "break-after": {
     "syntax": "auto | avoid | avoid-page | page | left | right | recto | verso | avoid-column | column | avoid-region | region",
     "media": "paged",
