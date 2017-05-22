@@ -965,7 +965,7 @@
     "groups": [
       "CSS User Interface"
     ],
-    "initial": "auto",
+    "initial": "noneButOverriddenInUserAgentCSS",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "perGrammar",
