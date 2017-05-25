@@ -121,7 +121,7 @@
     "status": "nonstandard"
   },
   "-moz-context-properties": {
-    "syntax": "fill || stroke",
+    "syntax": "none | [ fill | stroke ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
