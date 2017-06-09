@@ -220,7 +220,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
-    "percentages": "yes",
+    "percentages": "referToDimensionOfBorderBox",
     "groups": [
       "Mozilla Extensions"
     ],
@@ -235,7 +235,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
-    "percentages": "yes",
+    "percentages": "referToDimensionOfBorderBox",
     "groups": [
       "Mozilla Extensions"
     ],
@@ -250,7 +250,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
-    "percentages": "yes",
+    "percentages": "referToDimensionOfBorderBox",
     "groups": [
       "Mozilla Extensions"
     ],
@@ -265,7 +265,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
-    "percentages": "yes",
+    "percentages": "referToDimensionOfBorderBox",
     "groups": [
       "Mozilla Extensions"
     ],
@@ -670,7 +670,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "status": "nonstandard"
   },
@@ -709,7 +709,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "status": "nonstandard"
   },
@@ -730,9 +730,17 @@
   },
   "-webkit-touch-callout": {
     "syntax": "default | none",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
     "groups": [
       "WebKit Extensions"
     ],
+    "initial": "default",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
     "status": "nonstandard"
   },
   "align-content": {
@@ -951,7 +959,7 @@
   "appearance": {
     "syntax": "auto | none",
     "media": "all",
-    "inherited": "no",
+    "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
@@ -959,8 +967,8 @@
     ],
     "initial": "auto",
     "appliesto": "allElements",
-    "computed": "As specified",
-    "order": "per grammar",
+    "computed": "asSpecified",
+    "order": "perGrammar",
     "status": "experimental"
   },
   "azimuth": {
@@ -1128,7 +1136,7 @@
     ],
     "initial": "transparent",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter",
@@ -1181,7 +1189,7 @@
     "syntax": "<position>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "repeatableList simpleList lpc",
+    "animationType": "repeatableListOfSimpleListOfLpc",
     "percentages": "referToSizeOfBackgroundPositioningAreaMinusBackgroundImageSize",
     "groups": [
       "CSS Background and Borders"
@@ -1251,7 +1259,7 @@
     "syntax": "<bg-size>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "repeatableList simpleList lpc keywords",
+    "animationType": "repeatableListOfSimpleListOfLpc",
     "percentages": "relativeToBackgroundPositioningArea",
     "groups": [
       "CSS Background and Borders"
@@ -1489,7 +1497,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter"
@@ -1635,13 +1643,7 @@
       "border-image-outset",
       "border-image-repeat"
     ],
-    "appliesto": [
-      "border-image-outset",
-      "border-image-repeat",
-      "border-image-slice",
-      "border-image-source",
-      "border-image-width"
-    ],
+    "appliesto": "allElementsExceptTableElementsWhenCollapse",
     "computed": [
       "border-image-outset",
       "border-image-repeat",
@@ -1737,7 +1739,7 @@
       "CSS Background and Borders"
     ],
     "initial": "1",
-    "appliesto": "allElementsExceptTableElementsWhenBorderCollapseCollapse",
+    "appliesto": "allElementsExceptTableElementsWhenCollapse",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -1922,7 +1924,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter"
@@ -2039,7 +2041,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter"
@@ -2166,7 +2168,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter"
@@ -2443,7 +2445,7 @@
     "animationType": "shadowList",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Background and Borders"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -2468,21 +2470,6 @@
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "standard"
-  },
-  "box-suppress": {
-    "syntax": "show | discard | hide",
-    "media": "all",
-    "inherited": false,
-    "animationType": "discrete",
-    "percentages": "no",
-    "groups": [
-      "CSS Display"
-    ],
-    "initial": "show",
-    "appliesto": "allElements",
-    "computed": "seeProse",
-    "order": "uniqueOrder",
-    "status": "experimental"
   },
   "break-after": {
     "syntax": "auto | avoid | avoid-page | page | left | right | recto | verso | avoid-column | column | avoid-region | region",
@@ -2707,7 +2694,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "multicolElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "status": "standard"
   },
@@ -2798,7 +2785,7 @@
   "contain": {
     "syntax": "none | strict | content | [ size || layout || style || paint ]",
     "media": "all",
-    "inherited": "false",
+    "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
@@ -2807,7 +2794,7 @@
     "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
-    "order": "per grammar",
+    "order": "perGrammar",
     "status": "experimental"
   },
   "content": {
@@ -3244,7 +3231,7 @@
     "syntax": "normal | [ <string> <number> ]#",
     "media": "visual",
     "inherited": true,
-    "animationType": "asTransform",
+    "animationType": "transform",
     "percentages": "no",
     "groups": [
       "CSS Fonts"
@@ -3588,13 +3575,13 @@
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
-    "percentages": "seeGridTemplateRowsColumns",
+    "percentages": "referToDimensionOfContentArea",
     "groups": [
       "CSS Grid Layout"
     ],
     "initial": "auto",
     "appliesto": "gridContainers",
-    "computed": "seeGridTemplateRowsColumns",
+    "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
     "status": "standard"
   },
@@ -3618,13 +3605,13 @@
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
-    "percentages": "seeGridTemplateRowsColumns",
+    "percentages": "referToDimensionOfContentArea",
     "groups": [
       "CSS Grid Layout"
     ],
     "initial": "auto",
     "appliesto": "gridContainers",
-    "computed": "seeGridTemplateRowsColumns",
+    "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
     "status": "standard"
   },
@@ -3669,7 +3656,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "length",
-    "percentages": "yes, as the dimension of the element",
+    "percentages": "referToDimensionOfContentArea",
     "groups": [
       "CSS Grid Layout"
     ],
@@ -3759,7 +3746,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "length",
-    "percentages": "yes, as the dimension of the element",
+    "percentages": "referToDimensionOfContentArea",
     "groups": [
       "CSS Grid Layout"
     ],
@@ -4073,7 +4060,7 @@
     "syntax": "normal | <number> | <length> | <percentage>",
     "media": "visual",
     "inherited": true,
-    "animationType": "number length",
+    "animationType": "numberOrLength",
     "percentages": "referToElementFontSize",
     "groups": [
       "CSS Fonts"
@@ -4438,7 +4425,7 @@
     "syntax": "<position>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "repeatableList simpleList lpc",
+    "animationType": "repeatableListOfSimpleListOfLpc",
     "percentages": "referToSizeOfMaskPaintingArea",
     "groups": [
       "CSS Masks"
@@ -4468,7 +4455,7 @@
     "syntax": "<bg-size>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "repeatableList simpleList lpc",
+    "animationType": "repeatableListOfSimpleListOfLpc",
     "percentages": "no",
     "groups": [
       "CSS Masks"
@@ -4624,7 +4611,7 @@
       "Compositing and Blending"
     ],
     "initial": "normal",
-    "appliesto": "allHTMLElements",
+    "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "stacking": true,
@@ -4649,7 +4636,7 @@
     "syntax": "<position>",
     "media": "visual",
     "inherited": true,
-    "animationType": "repeatableList simpleList lpc",
+    "animationType": "repeatableListOfSimpleListOfLpc",
     "percentages": "referToWidthAndHeightOfElement",
     "groups": [
       "CSS Images"
@@ -4792,7 +4779,7 @@
     "syntax": "none | ray( [ <angle> && <size>? && contain? ] ) | <path()> | <url> | [ <basic-shape> || <geometry-box> ]",
     "media": "visual",
     "inherited": false,
-    "animationType": "AsAngleBasicshapeOrPath",
+    "animationType": "angleOrBasicShapeOrPath",
     "percentages": "no",
     "groups": [
       "CSS Motion"
@@ -5269,7 +5256,7 @@
     "syntax": "<position>",
     "media": "visual",
     "inherited": false,
-    "animationType": "simpleList lpc",
+    "animationType": "simpleListOfLpc",
     "percentages": "referToSizeOfBoundingBox",
     "groups": [
       "CSS Transforms"
@@ -5555,7 +5542,7 @@
     "syntax": "none | <shape-box> || <basic-shape> | <image>",
     "media": "visual",
     "inherited": false,
-    "animationType": "basic-shape",
+    "animationType": "basicShapeOtherwiseNo",
     "percentages": "no",
     "groups": [
       "CSS Shapes"
@@ -5687,7 +5674,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter",
@@ -5786,7 +5773,7 @@
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
-    "computed": "'color'",
+    "computed": "computedColor",
     "order": "uniqueOrder",
     "status": "standard"
   },
@@ -6031,7 +6018,7 @@
     "syntax": "[ <length-percentage> | left | center | right | top | bottom ] | [ [ <length-percentage> | left | center | right ] && [ <length-percentage> | top | center | bottom ] ] <length>?",
     "media": "visual",
     "inherited": false,
-    "animationType": "simpleList lpc",
+    "animationType": "simpleListOfLpc",
     "percentages": "referToSizeOfBoundingBox",
     "groups": [
       "CSS Transforms"
@@ -6161,7 +6148,7 @@
   "user-select": {
     "syntax": "auto | text | none | contain | all",
     "media": "visual",
-    "inherited": "no",
+    "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [

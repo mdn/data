@@ -11,9 +11,6 @@
     "fr": "tous",
     "ru": "всё"
   },
-  "asTransform" : {
-    "en-US": "Animating <code>font-variation-settings</code> is possible using a mechanism similar to animating <a href=\"/en-US/docs/Web/CSS/transform\">transform</a>: Two declarations can be animated if they feature the same set of items."
-  },
   "visual": {
     "en-US": "visual",
     "de": "visuell",
@@ -501,18 +498,6 @@
     "fr": "les éléments en ligne non remplacés",
     "ja": "\u975e\u7f6e\u63db\u30a4\u30f3\u30e9\u30a4\u30f3\u8981\u7d20",
     "ru": "не заменяемые строчные элементы"
-  },
-  "seeGridTemplateRowsColumns": {
-    "en-US": "see {{cssxref(\"grid-template-rows\")}} or {{cssxref(\"grid-template-columns\")}}",
-    "de"   : "siehe {{cssxref(\"grid-template-rows\")}} oder {{cssxref(\"grid-template-columns\")}}",
-    "fr": "voir {{cssxref(\"grid-template-rows\")}} ou {{cssxref(\"grid-template-columns\")}}",
-    "ru": "смотрите {{cssxref(\"grid-template-rows\")}} или {{cssxref(\"grid-template-columns\")}}"
-  },
-  "allElementsExceptTableElementsWhenBorderCollapseCollapse": {
-    "en-US": "all elements, except table elements when {{cssxref(\"border-collapse\")}} is <code>collapse<\/code>",
-    "de": "Alle Elemente außer Tabellenelemente, falls {{cssxref(\"border-collapse\")}} <code>collapse<\/code> ist",
-    "fr": "tous les \u00e9l\u00e9ments sauf les \u00e9l\u00e9ments de table lorsque {{cssxref(\"border-collapse\")}} vaut <code>collapse<\/code>",
-    "ru": "все элементы, кроме табличных, когда {{cssxref(\"border-collapse\")}}:<code>collapse<\/code>"
   },
   "allElementsAcceptingWidthOrHeight": {
     "en-US": "all elements that accept width or height",
@@ -1314,11 +1299,11 @@
     "ru": "{{xref_cssangle}}, с округлением до следующей четверти оборота от <code>0deg<\/code> и нормализованный так, что значение - <code>1 поворот<\/code>"
   },
   "invertForTranslucentColorRGBAOtherwiseRGB": {
-    "en-US": "For the keyword <code>invert<\/code>, the computed value is <code>invert<\/code>. For the color value, if the value is translucent, the computed value will be the <code>rgba()<\/code> corresponding one. If it isn't, it will be the <code>rgb()<\/code> corresponding one. The <code>transparent<\/code> keyword maps to <code>rgb(0,0,0)<\/code>.",
-    "de": "Für das Schlüsselwort <code>invert<\/code> ist der berechnete Wert <code>invert<\/code>. Für den Farbwert, falls der Wert durchscheinend ist, ist der berechnete Wert der entsprechende <code>rgba()<\/code> Wert. Falls nicht, ist er der entsprechende <code>rgb()<\/code> Wert. Das Schlüsselwort <code>transparent<\/code> wird zu <code>rgb(0,0,0)<\/code>.",
-    "fr": "Pour le mot-clé <code>invert<\/code>, la valeur calculée est <code>invert<\/code>. Pour la valeur de la couleur, si la valeur est transparente, la valeur calculée sera la valeur <code>rgba()<\/code> correspondante. S'il n'y en a pas, ce sera la valeur <code>rgb()<\/code> correspondante. Le mot-clé <code>transparent<\/code> correspondra à <code>rgb(0,0,0)<\/code>.",
-    "ja": "キーワード <code>invert<\/code> が指定されると計算値も <code>invert<\/code>。色が指定されると、半透明なら、計算値はそれに一致する<code>rbga()<\/code> で、不透明なら、それに一致する <code>rgb()<\/code>。キーワード <code>transparent<\/code> は <code>rgb(0,0,0)<\/code> にマップされます",
-    "ru": "Для ключевого слова <code>invert<\/code>, значение - <code>invert<\/code>. Для значения цвета, если значение имеет прозрачность, соответственно, значение будет через <code>rgba()<\/code>. Если это не так, это будет <code>rgb()<\/code>. Ключевое слово <code>transparent<\/code> отображается, как <code>rgb(0,0,0)<\/code>."
+    "en-US": "For the keyword <code>invert<\/code>, the computed value is <code>invert<\/code>. For the color value, if the value is translucent, the computed value will be the <code>rgba()<\/code> corresponding one. If it isn't, it will be the <code>rgb()<\/code> corresponding one. The <code>transparent<\/code> keyword maps to <code>rgba(0,0,0,0)<\/code>.",
+    "de": "Für das Schlüsselwort <code>invert<\/code> ist der berechnete Wert <code>invert<\/code>. Für den Farbwert, falls der Wert durchscheinend ist, ist der berechnete Wert der entsprechende <code>rgba()<\/code> Wert. Falls nicht, ist er der entsprechende <code>rgb()<\/code> Wert. Das Schlüsselwort <code>transparent<\/code> wird zu <code>rgba(0,0,0,0)<\/code>.",
+    "fr": "Pour le mot-clé <code>invert<\/code>, la valeur calculée est <code>invert<\/code>. Pour la valeur de la couleur, si la valeur est transparente, la valeur calculée sera la valeur <code>rgba()<\/code> correspondante. S'il n'y en a pas, ce sera la valeur <code>rgb()<\/code> correspondante. Le mot-clé <code>transparent<\/code> correspondra à <code>rgba(0,0,0,0)<\/code>.",
+    "ja": "キーワード <code>invert<\/code> が指定されると計算値も <code>invert<\/code>。色が指定されると、半透明なら、計算値はそれに一致する<code>rbga()<\/code> で、不透明なら、それに一致する <code>rgb()<\/code>。キーワード <code>transparent<\/code> は <code>rgba(0,0,0,0)<\/code> にマップされます",
+    "ru": "Для ключевого слова <code>invert<\/code>, значение - <code>invert<\/code>. Для значения цвета, если значение имеет прозрачность, соответственно, значение будет через <code>rgba()<\/code>. Если это не так, это будет <code>rgb()<\/code>. Ключевое слово <code>transparent<\/code> отображается, как <code>rgba(0,0,0,0)<\/code>."
   },
   "absoluteLength0ForNone": {
     "en-US": "an absolute length; if the keyword <code>none<\/code> is specified, the computed value is <code>0<\/code>",
@@ -1433,7 +1418,7 @@
     "fr": "Crée un <a href=\"/fr/docs/Web/CSS/Comprendre_z-index/L'empilement_de_couches\">contexte d'empilement</a>",
     "ru": "Создаёт <a href=\"/ru/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context\">контекст наложения</a>"
   },
-  "AsAngleBasicshapeOrPath": {
+  "angleOrBasicShapeOrPath": {
     "en-US": "as &lt;angle&gt;, &lt;basic-shape&gt; or &lt;path()&gt;",
     "de": "als &lt;angle&gt;, &lt;basic-shape&gt; oder &lt;path()&gt;",
     "fr": "comme &lt;angle&gt;, &lt;basic-shape&gt; ou &lt;path()&gt;",
@@ -1444,5 +1429,15 @@
     "de": "Winkel",
     "fr": "angle",
     "ru": "угол"
+  },
+  "numberOrLength": {
+    "en-US": "either number or length",
+    "ru": "число или длина"
+  },
+  "simpleListOfLpc": {
+    "en-US": "simple list of length, percentage, or calc"
+  },
+  "repeatableListOfSimpleListOfLpc": {
+    "en-US": "repeatable list of simple list of length, percentage, or calc"
   }
 }
