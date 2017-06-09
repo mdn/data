@@ -7,6 +7,7 @@
       "items": {
         "type": "string",
         "property-reference": {
+          "comment": "That's a non-standart extension to JSON Schema validator. It tests value is an existing key in root object (i.e. defined property). See test/validate-schema.js for extension implementation details",
           "$data": "/"
         }
       }
