@@ -1189,7 +1189,7 @@
     "syntax": "<position>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "repeatableList simpleList lpc",
+    "animationType": "repeatableListOfSimpleListOfLpc",
     "percentages": "referToSizeOfBackgroundPositioningAreaMinusBackgroundImageSize",
     "groups": [
       "CSS Background and Borders"
@@ -1259,7 +1259,7 @@
     "syntax": "<bg-size>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "repeatableList simpleList lpc keywords",
+    "animationType": "repeatableListOfSimpleListOfLpc",
     "percentages": "relativeToBackgroundPositioningArea",
     "groups": [
       "CSS Background and Borders"
@@ -2471,21 +2471,6 @@
     "order": "uniqueOrder",
     "status": "standard"
   },
-  "box-suppress": {
-    "syntax": "show | discard | hide",
-    "media": "all",
-    "inherited": false,
-    "animationType": "discrete",
-    "percentages": "no",
-    "groups": [
-      "CSS Display"
-    ],
-    "initial": "show",
-    "appliesto": "allElements",
-    "computed": "seeProse",
-    "order": "uniqueOrder",
-    "status": "experimental"
-  },
   "break-after": {
     "syntax": "auto | avoid | avoid-page | page | left | right | recto | verso | avoid-column | column | avoid-region | region",
     "media": "paged",
@@ -3246,7 +3231,7 @@
     "syntax": "normal | [ <string> <number> ]#",
     "media": "visual",
     "inherited": true,
-    "animationType": "asTransform",
+    "animationType": "transform",
     "percentages": "no",
     "groups": [
       "CSS Fonts"
@@ -4075,7 +4060,7 @@
     "syntax": "normal | <number> | <length> | <percentage>",
     "media": "visual",
     "inherited": true,
-    "animationType": "number length",
+    "animationType": "numberOrLength",
     "percentages": "referToElementFontSize",
     "groups": [
       "CSS Fonts"
@@ -4440,7 +4425,7 @@
     "syntax": "<position>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "repeatableList simpleList lpc",
+    "animationType": "repeatableListOfSimpleListOfLpc",
     "percentages": "referToSizeOfMaskPaintingArea",
     "groups": [
       "CSS Masks"
@@ -4470,7 +4455,7 @@
     "syntax": "<bg-size>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "repeatableList simpleList lpc",
+    "animationType": "repeatableListOfSimpleListOfLpc",
     "percentages": "no",
     "groups": [
       "CSS Masks"
@@ -4651,7 +4636,7 @@
     "syntax": "<position>",
     "media": "visual",
     "inherited": true,
-    "animationType": "repeatableList simpleList lpc",
+    "animationType": "repeatableListOfSimpleListOfLpc",
     "percentages": "referToWidthAndHeightOfElement",
     "groups": [
       "CSS Images"
@@ -4794,7 +4779,7 @@
     "syntax": "none | ray( [ <angle> && <size>? && contain? ] ) | <path()> | <url> | [ <basic-shape> || <geometry-box> ]",
     "media": "visual",
     "inherited": false,
-    "animationType": "AsAngleBasicshapeOrPath",
+    "animationType": "angleOrBasicShapeOrPath",
     "percentages": "no",
     "groups": [
       "CSS Motion"
@@ -5271,7 +5256,7 @@
     "syntax": "<position>",
     "media": "visual",
     "inherited": false,
-    "animationType": "simpleList lpc",
+    "animationType": "simpleListOfLpc",
     "percentages": "referToSizeOfBoundingBox",
     "groups": [
       "CSS Transforms"
@@ -5557,7 +5542,7 @@
     "syntax": "none | <shape-box> || <basic-shape> | <image>",
     "media": "visual",
     "inherited": false,
-    "animationType": "basic-shape",
+    "animationType": "basicShapeOtherwiseNo",
     "percentages": "no",
     "groups": [
       "CSS Shapes"
@@ -6033,7 +6018,7 @@
     "syntax": "[ <length-percentage> | left | center | right | top | bottom ] | [ [ <length-percentage> | left | center | right ] && [ <length-percentage> | top | center | bottom ] ] <length>?",
     "media": "visual",
     "inherited": false,
-    "animationType": "simpleList lpc",
+    "animationType": "simpleListOfLpc",
     "percentages": "referToSizeOfBoundingBox",
     "groups": [
       "CSS Transforms"
