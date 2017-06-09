@@ -1156,7 +1156,7 @@
     ],
     "initial": "none",
     "appliesto": "allElements",
-    "computed": "asSpecifiedURIsAbsolute",
+    "computed": "asSpecifiedURLsAbsolute",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter",
@@ -2853,7 +2853,7 @@
     ],
     "initial": "auto",
     "appliesto": "allElements",
-    "computed": "asSpecifiedURIsAbsolute",
+    "computed": "asSpecifiedURLsAbsolute",
     "order": "uniqueOrder",
     "status": "standard"
   },
@@ -4387,7 +4387,7 @@
     ],
     "initial": "none",
     "appliesto": "allElementsSVGContainerElements",
-    "computed": "asSpecifiedURIsAbsolute",
+    "computed": "asSpecifiedURLsAbsolute",
     "order": "uniqueOrder",
     "status": "standard"
   },
