@@ -30,6 +30,8 @@ JSON files containing the data.
 * CSS types
 * CSS units
 
+Read more about [CSS data](https://github.com/mdn/data/blob/master/css/readme.md) and the format of the files.
+
 
 ### l10n
 The l10n folder contains localization strings that are used in the various
@@ -42,7 +44,7 @@ If you find a problem, please [file an issue](https://github.com/mdn/data/issues
 ## Contributing
 
 We're very happy to accept contributions to this data. Please familiarize yourself
-with the schema for the data you're editing, and send us a pull request.
+with the schema for the data you're editing, and send us a pull request. See also the [Contributing file](https://github.com/mdn/data/blob/master/CONTRIBUTING.md) for more information.
 
 ## See also
 * [https://github.com/mdn/browser-compat-data](https://github.com/mdn/browser-compat-data)
