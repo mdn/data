@@ -1434,7 +1434,7 @@
   "repeatableListOfSimpleListOfLpc": {
     "en-US": "repeatable list of simple list of length, percentage, or calc"
   },
-  "referenceBoxWhenSpecifiedOtherwiseBorderBox": {
+  "referToReferenceBoxWhenSpecifiedOtherwiseBorderBox": {
     "en-US": "refer to reference box when specified, otherwise border-box"
   }
 }

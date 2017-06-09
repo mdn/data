@@ -12,7 +12,7 @@
           "items": {
             "type": "string",
             "property-reference": {
-              "comment": "That's a non-standart extension to JSON Schema validator. It tests value is an existing key in `descriptors`. See test/validate-schema.js for extension implementation details",
+              "comment": "property-reference is an extension to the JSON schema validator. Here it jumps 3 levels up in the hierarchy and tests if a value is an existing key in descriptors. See test/validate-schema.js for implementation details.",
               "$data": "3"
             }
           }

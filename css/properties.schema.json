@@ -7,7 +7,7 @@
       "items": {
         "type": "string",
         "property-reference": {
-          "comment": "That's a non-standart extension to JSON Schema validator. It tests value is an existing key in root object (i.e. defined property). See test/validate-schema.js for extension implementation details",
+          "comment": "property-reference is an extension to the JSON schema validator. Here it jumps to the root level of the hierarchy and tests if a value is an existing key there (i.e a defined property). See test/validate-schema.js for implementation details.",
           "$data": "/"
         }
       }
@@ -75,6 +75,7 @@
         "referToWidthOfBackgroundPositioningAreaMinusBackgroundImageHeight",
         "referToWidthOfContainingBlock",
         "referToWidthOrHeightOfBorderImageArea",
+        "referToReferenceBoxWhenSpecifiedOtherwiseBorderBox",
         "regardingHeightOfGeneratedBoxContainingBlockPercentages0",
         "regardingHeightOfGeneratedBoxContainingBlockPercentagesNone",
         "regardingHeightOfGeneratedBoxContainingBlockPercentagesRelativeToContainingBlock",
@@ -110,7 +111,6 @@
         "asSpecifiedExceptMatchParent",
         "asSpecifiedExceptPositionedFloatingAndRootElementsKeywordMaybeDifferent",
         "asSpecifiedRelativeToAbsoluteLengths",
-        "asSpecifiedURIsAbsolute",
         "asSpecifiedURLsAbsolute",
         "asSpecifiedWithExceptionOfResolution",
         "asSpecifiedWithVarsSubstituted",

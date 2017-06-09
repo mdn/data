@@ -2581,7 +2581,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "basicShapeOtherwiseNo",
-    "percentages": "referenceBoxWhenSpecifiedOtherwiseBorderBox",
+    "percentages": "referToReferenceBoxWhenSpecifiedOtherwiseBorderBox",
     "groups": [
       "CSS Miscellaneous"
     ],
