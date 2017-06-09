@@ -1201,12 +1201,6 @@
     "fr": "<code>auto<\/code> sera calculé comme <code>auto<\/code> pour les éléments positionnés de façon absolue, sera calculé comme {{cssxref(\"align-items\")}} sur le parent (excepté les mots-clés historiques utilisés) de toutes les autres boîtes ou comme <code>start<\/code> si la boîte n'a pas de parent. Son comportement dépend du modèle de disposition, décrit dans {{cssxref(\"justify-self\")}}, sinon ce sera la valeur spécifiée.",
     "ru": "при <code>auto<\/code> абсолютно позиционированные элементы вычисляют сами и вычисленное значение {{cssxref(\"align-items\")}} для родителя (кроме ключевых слов) на остальных блоках, или <code>start<\/code>, если у блока нет родителя. Его поведение зависит от модели макета, описываемой {{cssxref(\"justify-self\")}}. Иначе указанное значение."
   },
-  "asSpecifiedURIsAbsolute": {
-    "en-US": "as specified, but with URIs made absolute",
-    "de": "wie angegeben, aber URIs absolut gemacht",
-    "fr": "comme spécifié mais avec une URI relative convertie en une URI absolue",
-    "ru": "как указано, но с абсолютным URI"
-  },
   "asSpecifiedURLsAbsolute": {
     "en-US": "as specified, but with {{cssxref(\"url\")}} values made absolute",
     "de": "wie angegeben, aber mit absoluten {{cssxref(\"url\")}} Werten",
@@ -1439,5 +1433,8 @@
   },
   "repeatableListOfSimpleListOfLpc": {
     "en-US": "repeatable list of simple list of length, percentage, or calc"
+  },
+  "referenceBoxWhenSpecifiedOtherwiseBorderBox": {
+    "en-US": "refer to reference box when specified, otherwise border-box"
   }
 }
