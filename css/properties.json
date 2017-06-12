@@ -2813,7 +2813,7 @@
     "status": "experimental"
   },
   "content": {
-    "syntax": "[ <image> , ]* [ normal | none | <content-list> ] [/ <string> ]?",
+    "syntax": "normal | none | [ <content-replacement> | <content-list> ] [/ <string> ]?",
     "media": "all",
     "inherited": false,
     "animationType": "discrete",
@@ -5314,7 +5314,7 @@
     "status": "standard"
   },
   "quotes": {
-    "syntax": "[ <string> <string> ]+ | none",
+    "syntax": "none | [ <string> <string> ]+",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
