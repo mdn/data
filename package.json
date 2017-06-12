@@ -20,13 +20,11 @@
   },
   "homepage": "https://developer.mozilla.org",
   "devDependencies": {
-    "ajv": "^5.0.1",
-    "jsonlint": "~1.6.2"
+    "ajv": "^5.0.1"
   },
   "scripts": {
-    "validate-schema": "node test/validate-schema",
-    "lint-json": "find css l10n -name \\*.json | xargs -I {} jsonlint -q {}",
+    "lint": "node test/lint",
     "travis": "npm test",
-    "test": "npm run lint-json && npm run validate-schema"
+    "test": "npm run lint"
   }
 }

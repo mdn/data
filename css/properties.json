@@ -5798,7 +5798,9 @@
     "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
-    "groups": ["CSS Text Decoration"],
+    "groups": [
+      "CSS Text Decoration"
+    ],
     "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
