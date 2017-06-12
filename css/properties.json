@@ -120,6 +120,21 @@
     "order": "uniqueOrder",
     "status": "nonstandard"
   },
+  "-moz-context-properties": {
+    "syntax": "none | [ fill | stroke ]#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Mozilla Extensions"
+    ],
+    "initial": "none",
+    "appliesto": "replacedElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
   "-moz-float-edge": {
     "syntax": "border-box | content-box | margin-box | padding-box",
     "media": "visual",
