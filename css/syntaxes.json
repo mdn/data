@@ -99,7 +99,10 @@
     "syntax": "[ contextual | no-contextual ]"
   },
   "content-list": {
-    "syntax": "[ <string> | contents | <url> | <quote> | <target> | <leader()> ]+"
+    "syntax": "[ <string> | contents | <image> | <quote> | <target> | <leader()> ]+"
+  },
+  "content-replacement": {
+    "syntax": "<image>"
   },
   "contrast()": {
     "syntax": "contrast( [ <number-percentage> ] )"
@@ -112,6 +115,9 @@
   },
   "cross-fade()": {
     "syntax": "cross-fade( <cf-mixing-image> , <cf-final-image>? )"
+  },
+  "cubic-bezier-timing-function": {
+    "syntax": "ease | ease-in | ease-out | ease-in-out | cubic-bezier(<number>, <number>, <number>, <number>)"
   },
   "deprecated-system-color": {
     "syntax": "ActiveBorder | ActiveCaption | AppWorkspace | Background | ButtonFace | ButtonHighlight | ButtonShadow | ButtonText | CaptionText | GrayText | Highlight | HighlightText | InactiveBorder | InactiveCaption | InactiveCaptionText | InfoBackground | InfoText | Menu | MenuText | Scrollbar | ThreeDDarkShadow | ThreeDFace | ThreeDHighlight | ThreeDLightShadow | ThreeDShadow | Window | WindowFrame | WindowText"
@@ -209,6 +215,9 @@
   "font-variant-css21": {
     "syntax": "[ normal | small-caps ]"
   },
+  "frames-timing-function": {
+    "syntax": "frames(<integer>)"
+  },
   "frequency-percentage": {
     "syntax": "<frequency> | <percentage>"
   },
@@ -282,7 +291,10 @@
     "syntax": "from | to | <percentage>"
   },
   "leader()": {
-    "syntax": "leader( dotted | solid | space | <string> )"
+    "syntax": "leader( <leader-type> )"
+  },
+  "leader-type": {
+    "syntax": "dotted | solid | space | <string>"
   },
   "length-percentage": {
     "syntax": "<length> | <percentage>"
@@ -519,19 +531,22 @@
     "syntax": "running | paused"
   },
   "single-timing-function": {
-    "syntax": "<single-transition-timing-function>"
+    "syntax": "linear | <cubic-bezier-timing-function> | <step-timing-function> | <frames-timing-function>"
   },
   "single-transition": {
     "syntax": "[ none | <single-transition-property> ] || <time> || <single-transition-timing-function> || <time>"
   },
   "single-transition-timing-function": {
-    "syntax": "ease | linear | ease-in | ease-out | ease-in-out | step-start | step-end | steps( <integer> [, [ start | end ] ]? ) | cubic-bezier( <number>, <number>, <number>, <number> )"
+    "syntax": "<single-timing-function>"
   },
   "single-transition-property": {
     "syntax": "all | <custom-ident>"
   },
   "size": {
     "syntax": "closest-side | farthest-side | closest-corner | farthest-corner | <length> | <length-percentage>{2}"
+  },
+  "step-timing-function": {
+    "syntax": "step-start | step-end | steps(<integer>[, [ start | end ] ]?)"
   },
   "symbol": {
     "syntax": "<string> | <image> | <ident>"
@@ -540,13 +555,13 @@
     "syntax": "<target-counter()> | <target-counters()> | <target-text()>"
   },
   "target-counter()": {
-    "syntax": "target-counter( [ <string> | <url> ] , <custom-ident> [, <counter-style> ]? )"
+    "syntax": "target-counter( [ <string> | <url> ] , <custom-ident> , <counter-style>? )"
   },
   "target-counters()": {
-    "syntax": "target-counters( [ <string> | <url> ] , <custom-ident> , <string> [, <counter-style> ]? )"
+    "syntax": "target-counters( [ <string> | <url> ] , <custom-ident> , <string> , <counter-style>? )"
   },
   "target-text()": {
-    "syntax": "target-text( [ <string> | <url> ] [, [ content | before | after | first-letter ] ]? )"
+    "syntax": "target-text( [ <string> | <url> ] , [ content | before | after | first-letter ]? )"
   },
   "time-percentage": {
     "syntax": "<time> | <percentage>"
