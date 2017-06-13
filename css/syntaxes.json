@@ -176,7 +176,7 @@
   "single-animation-play-state": "running | paused",
   "single-timing-function": "linear | <cubic-bezier-timing-function> | <step-timing-function> | <frames-timing-function>",
   "single-transition": "[ none | <single-transition-property> ] || <time> || <single-transition-timing-function> || <time>",
-  "single-transition-timing-function": "ease | linear | ease-in | ease-out | ease-in-out | step-start | step-end | frames( <integer> ) | steps( <integer> [, [ start | end ] ]? ) | cubic-bezier( <number>, <number>, <number>, <number> )",
+  "single-transition-timing-function": "<single-timing-function>",
   "single-transition-property": "all | <custom-ident>",
   "size": "closest-side | farthest-side | closest-corner | farthest-corner | <length> | <length-percentage>{2}",
   "step-timing-function": "step-start | step-end | steps(<integer>[, [ start | end ] ]?)",
