@@ -466,7 +466,7 @@
     "status": "nonstandard"
   },
   "-webkit-mask": {
-    "syntax": "<mask-image> [ <mask-repeat> || <mask-attachment> || <mask-position> || <mask-origin> || <mask-clip> ]*",
+    "syntax": "<mask-image> [ <'-webkit-mask-repeat'> || <'-webkit-mask-attachment'> || <'-webkit-mask-position'> || <'-webkit-mask-origin'> || <'-webkit-mask-clip'> ]*",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -510,7 +510,7 @@
     "status": "nonstandard"
   },
   "-webkit-mask-clip": {
-    "syntax": "<clip-style> [, <clip-style> ]*",
+    "syntax": "<-webkit-mask-clip-style> [, <-webkit-mask-clip-style> ]*",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
