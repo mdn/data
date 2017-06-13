@@ -510,7 +510,7 @@
     "status": "nonstandard"
   },
   "-webkit-mask-clip": {
-    "syntax": "<-webkit-mask-clip-style> [, <-webkit-mask-clip-style> ]*",
+    "syntax": "[ border | border-box | padding | padding-box | content | content-box | text ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
