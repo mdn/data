@@ -34,6 +34,9 @@ A long-hand property might look like this:
 
 There are 11 required properties in this object:
 * `syntax` (string): This is the formal syntax of the property and is usually given in the specification. It might contain references to [syntax data](https://github.com/mdn/data/blob/master/css/syntaxes.md).
+For more information see also
+[Value definition syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Value_definition_syntax)
+on MDN and the [CSS Values and Units](https://www.w3.org/TR/css3-values/#value-defs) specification.
 * `media` (string): The media groups like "all, visual" (multiple are comma separated).
 * `inherited` (boolean): Whether or not the property is inherited. See [inheritance](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance) for details.
 * `animationType`(enum or array of property names):
