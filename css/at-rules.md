@@ -64,11 +64,11 @@ The `descriptors` object consists of 7 required properties:
 * `media` (string): The media groups like "all, visual" (multiple are comma separated).
 * `percentages` (string or array of strings): 
   * If an array, the elements are other descriptors this descriptor is taking the percentages from (array elements must be in descriptors list).
-  * If a string, it is of the `percentages` enums (need link here).
+  * If a string, it indicates the percentage value of the descriptor.
 * `initial` (string or array of strings):
-  * If an array, the elements are other descriptors this descriptor is taking the initial values from. (array elements must be in descriptors list)
+  * If an array, the elements are other descriptors this descriptor is taking the initial values from (array elements must be in descriptors list).
   * If a string, it indicates the initial value of the descriptor.
 * `computed` (string or array of strings):
- * If an array, the elements are other descriptors this descriptor is computed from. (array elements must be in descriptors list)
- * If a string, it is of the `computed` enums (need link here).
+  * If an array, the elements are other descriptors this descriptor is computed from (array elements must be in descriptors list).
+  * If a string, it indicates the computed value of the descriptor.
 * `order` (enum string): Either `orderOfAppearance` or `uniqueOrder`.
