@@ -526,5 +526,12 @@
       "Pseudo-elements"
     ],
     "status": "standard"
+  },
+  "::cue": {
+    "syntax": "::cue | ::cue( <selector> )",
+    "groups": [
+      "Pseudo-elements"
+    ],
+    "status": "standard"
   }
 }
