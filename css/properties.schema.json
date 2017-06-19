@@ -170,6 +170,7 @@
         "allElementsSomeValuesNoEffectOnNonInlineElements",
         "allElementsSVGContainerElements",
         "allElementsSVGContainerGraphicsAndGraphicsReferencingElements",
+        "allElementsThatCanReferenceImages",
         "allElementsUAsNotRequiredWhenCollapse",
         "anyElementEffectOnProgressAndMeter",
         "beforeAndAfterPseudos",
