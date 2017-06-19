@@ -130,7 +130,7 @@
       "Mozilla Extensions"
     ],
     "initial": "none",
-    "appliesto": "blockLevelElements",
+    "appliesto": "allElementsThatCanReferenceImages",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "nonstandard"
