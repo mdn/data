@@ -345,6 +345,9 @@
     "ja": "全要素. In SVG, it applies to container elements, graphics elements, and graphics referencing elements.",
     "ru": "Все элементы. В SVG это применяется к контейнерам, графическим элементам и элементам графической отсылки."
   },
+  "allElementsThatCanReferenceImages": {
+    "en-US": "Any element that can have an image applied to it, for example as a {{cssxref(\"background-image\")}}, {{cssxref(\"border-image\")}}, or {{cssxref(\"list-style-image\")}}."
+  },
   "nonReplacedBlockElements": {
     "en-US": "non-replaced <code>block</code> elements (except <code>table</code> elements), <code>table-cell</code> or <code>inline-block</code> elements",
     "de": "Nicht ersetzte <code>block</code>-Elemente (außer <code>table</code>-Elemente), <code>table-cell</code>- oder <code>inline-block</code>-Elemente",

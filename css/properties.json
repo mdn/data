@@ -121,16 +121,16 @@
     "status": "nonstandard"
   },
   "-moz-context-properties": {
-    "syntax": "none | [ fill | stroke ]#",
+    "syntax": "none | [ fill | fill-opacity | stroke | stroke-opacity ]#",
     "media": "visual",
-    "inherited": false,
+    "inherited": true,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
       "Mozilla Extensions"
     ],
     "initial": "none",
-    "appliesto": "replacedElements",
+    "appliesto": "allElementsThatCanReferenceImages",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "nonstandard"
