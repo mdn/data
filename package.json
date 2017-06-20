@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "Open Web data by the Mozilla Developer Network",
   "main": "index.js",
+  "files": [
+    "css/*.json",
+    "l10n/*.json"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/mdn/data.git"
