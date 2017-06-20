@@ -346,7 +346,7 @@
     "ru": "Все элементы. В SVG это применяется к контейнерам, графическим элементам и элементам графической отсылки."
   },
   "allElementsThatCanReferenceImages": {
-    "en-US": "Any element that can have an image applied to it, for example as a {{cssxref(\"background-image\")}}, {{cssxref(\"border-image\")}}, or {{cssxref(\"list-style-image\")}}.",
+    "en-US": "Any element that can have an image applied to it, for example as a {{cssxref(\"background-image\")}}, {{cssxref(\"border-image\")}}, or {{cssxref(\"list-style-image\")}}."
   },
   "nonReplacedBlockElements": {
     "en-US": "non-replaced <code>block</code> elements (except <code>table</code> elements), <code>table-cell</code> or <code>inline-block</code> elements",
