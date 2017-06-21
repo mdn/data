@@ -3,7 +3,7 @@
 [data](https://github.com/mdn/data/blob/master/css/properties.json) |
 [schema](https://github.com/mdn/data/blob/master/css/properties.schema.json)
 
-In its core, CSS consists of [properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index).
+At its core, CSS consists of [properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index).
 
 ## Structure for long-hand properties
 A long-hand property might look like this:
@@ -33,31 +33,31 @@ A long-hand property might look like this:
 ## Properties of a `Property` object
 
 There are 11 required properties in this object:
-* `syntax` (string): This is the formal syntax of the property and is usually given in the specification. It might contain references to [syntax data](https://github.com/mdn/data/blob/master/css/syntaxes.md).
+* `syntax` (string): This is the formal syntax of the property and is usually found in the specification. It might contain references to [syntax data](https://github.com/mdn/data/blob/master/css/syntaxes.md).
 For more information see also
 [Value definition syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Value_definition_syntax)
 on MDN and the [CSS Values and Units](https://www.w3.org/TR/css3-values/#value-defs) specification.
-* `media` (string): The media groups like "all, visual" (multiple are comma separated).
+* `media` (string): The media groups this property applies to, e.g. "all, visual" (multiple values are comma-separated).
 * `inherited` (boolean): Whether or not the property is inherited. See [inheritance](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance) for details.
-* `animationType`(enum or array of property names):
-  * If an enum (for long-hand properties), this is the animation type of the property.
-  * If an array (for short-hand properties), these are the properties the animation type taken from.
-* `percentages`(enum or array of property names):
-  * If an enum (for long-hand properties), this is what the percentage of the property refers to.
-  * If an array (for short-hand properties), these are the properties the percentages refer to.
-* `groups` (array of unique strings with at least 1 entry): CSS is organized in modules like "CSS Fonts" or "CSS Animations". MDN organizes features in these groups as well.
-* `initial`(string or array of property names):
-  * If a string (for long-hand properties), this is the initial value of the property.
-  * If an array (for short-hand properties), these are the properties the initial value is taken from.
-* `appliesto`(enum): To which elements the property applies to. See the schema for [a list of enums](https://github.com/mdn/data/blob/master/css/syntaxes.schema.json#L153)
-* `computed`(enum or array of property names):
-  * If an enum (for long-hand properties), this is the computed value of the property. See the schema for [a list of enums](https://github.com/mdn/data/blob/master/css/syntaxes.schema.json#L87).
-  * If an array (for short-hand properties), these are the properties the value computed from.
-* `order`(enum): The canonical order. See the schema for [a list of enums](https://github.com/mdn/data/blob/master/css/syntaxes.schema.json#L234).
+* `animationType` (enum or array of property names):
+  * If it is an enum (appropriate for long-hand properties), this is the animation type of the property.
+  * If it is an array (appropriate for short-hand properties), these are the properties the animation type is taken from.
+* `percentages` (enum or array of property names):
+  * If it is an enum (appropriate for long-hand properties), this is what the percentage of the property refers to.
+  * If it is an array (appropriate for short-hand properties), these are the properties the percentages refer to.
+* `groups` (array of unique strings with at least 1 entry): CSS is organized in modules like "CSS Fonts" or "CSS Animations". MDN organizes features in these groups as well — `groups` should contain the name of the module(s) the property is defined in.
+* `initial` (string or array of property names):
+  * If it is a string (appropriate for long-hand properties), this is the initial value of the property.
+  * If it is an array (appropriate for short-hand properties), these are the properties the initial value is taken from.
+* `appliesto` (enum): To which elements the property can be applied to. See the schema for [a list of enums](https://github.com/mdn/data/blob/master/css/syntaxes.schema.json#L153)
+* `computed` (enum or array of property names):
+  * If it is an enum (appropriate for long-hand properties), this is the computed value of the property. See the schema for [a list of enums](https://github.com/mdn/data/blob/master/css/syntaxes.schema.json#L87).
+  * If it is an array (appropriate for short-hand properties), these are the properties the value is computed from.
+* `order` (enum): The canonical order. See the schema for [a list of enums](https://github.com/mdn/data/blob/master/css/syntaxes.schema.json#L234).
 * `status` (enum): This is either `standard`, `nonstandard`, or `experimental` depending on the standardization status of the feature.
 
 There are 2 more properties that are optional:
-* `stacking` (boolean): Whether or not the property is creates a stacking context. See [stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) for details.
+* `stacking` (boolean): Whether or not the property creates a stacking context. See [stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) for details.
 * `alsoAppliesTo` (enum): To which elements the property also applies to. See the schema for [a list of enums](https://github.com/mdn/data/blob/master/css/syntaxes.schema.json#L222)
 
 ## Structure for short-hand properties

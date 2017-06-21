@@ -1,12 +1,12 @@
 # MDN CSS data
 
-This folder contains data about [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS).
+This folder contains data about the different features of the [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) language.
 
 ## Different types of CSS data
 
 The CSS data is split into these parts:
 
-* **at-rules**: 
+* **at-rules**:
 [data](https://github.com/mdn/data/blob/master/css/at-rules.json) |
 [schema](https://github.com/mdn/data/blob/master/css/at-rules.schema.json) |
 [docs](https://github.com/mdn/data/blob/master/css/at-rules.md)
@@ -27,6 +27,6 @@ The CSS data is split into these parts:
 [schema](https://github.com/mdn/data/blob/master/css/types.schema.json) |
 [docs](https://github.com/mdn/data/blob/master/css/types.md)
 * **units**:
-[data](https://github.com/mdn/data/blob/master/css/units.json) | 
+[data](https://github.com/mdn/data/blob/master/css/units.json) |
 [schema](https://github.com/mdn/data/blob/master/css/units.schema.json) |
 [docs](https://github.com/mdn/data/blob/master/css/units,md)
