@@ -26,7 +26,7 @@ The 3 properties seen above are all required:
 * `status` (enum string): This is either `standard`, `nonstandard`, or `experimental` depending on the standardization status of the feature.
 
 There are 2 more properties that are optional:
-* `interfaces` (array of strings): These are the [CSSOM](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model) interfaces that belong the the at-rule.
+* `interfaces` (array of strings): These are the [CSSOM](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model) interfaces that belong to the at-rule.
 * `descriptors` (object): see below
 
 ## Structure for at-rules with descriptors
