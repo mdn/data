@@ -7,10 +7,10 @@
 
 ## Structure for types
 
-A type object looks like the following example. The angle brackets are required. _(update if #81 gets merged)_
+A type object looks like the following example.
 
 ```json
-"<length>": {
+"length": {
   "groups": [
     "CSS Types"
   ],
