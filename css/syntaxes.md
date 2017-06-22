@@ -5,7 +5,7 @@
 
 [CSS value definition syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Value_definition_syntax) is used for the formal syntax of CSS properties. The syntaxes.json file defines many of these CSS syntaxes.
 
-For example, the `background-attachment` property has the following syntax where `<attachment>` is referring to a syntax that is defined in this file.
+For example, the `background-attachment` property has the following syntax where `<attachment>` is referring to a syntax that is defined in syntaxes.json.
 
 Definition of `background-attachment` in properties.json:
 
@@ -33,7 +33,7 @@ CSS syntaxes might be more complex than just keywords separated by a pipe (`|`).
 },
 ```
 
-Or, syntaxes might reference other syntaxes that are defined in this file:
+Or, syntaxes might reference other syntaxes that are also defined in syntaxes.json:
 
 ```json
 "length-percentage": {
