@@ -3,7 +3,7 @@
 [data](https://github.com/mdn/data/blob/master/css/at-rules.json) |
 [schema](https://github.com/mdn/data/blob/master/css/at-rules.schema.json)
 
-An [at-rule](https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule) is a CSS statement beginning with an at sign (@) and instructs CSS how to behave. There are several available identifiers for what CSS should do in certain situations. 
+An [at-rule](https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule) is a CSS statement beginning with an at sign (@) that instructs CSS how to behave. There are several available identifiers defining what CSS should do in certain situations.
 
 ## Structure for simple at-rules
 
@@ -19,18 +19,20 @@ A simple at-rule object might look like this:
 },
 ```
 
-The 3 properties `syntax`, `groups` and `status` are required.
-* `syntax` (string): This is the formal syntax of the at-rule and is usually given in the specification.
-* `groups` (array of strings): CSS is organized in modules like "CSS Fonts" or "CSS Animations". MDN organizes features in these groups as well.
+The 3 properties seen above are all required:
+
+* `syntax` (string): This is the formal syntax of the at-rule and is usually found in the specification.
+* `groups` (array of strings): CSS is organized in modules like "CSS Fonts" or "CSS Animations". MDN organizes features in these groups as well — `groups` should contain the name of the module(s) the at-rule is defined in.
 * `status` (enum string): This is either `standard`, `nonstandard`, or `experimental` depending on the standardization status of the feature.
 
 There are 2 more properties that are optional:
-* `interfaces` (array of strings): These are the [CSSOM](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model) interfaces that belong the the at-rule. 
+* `interfaces` (array of strings): These are the [CSSOM](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model) interfaces that belong to the at-rule.
 * `descriptors` (object): see below
 
 ## Structure for at-rules with descriptors
 
-An at-rule with a `descriptors` object is `@font-face`, for example.
+The `descriptors` object (when included) contains one or more objects that describe the different descriptors available on the at-rule. Look at `@font-face`, for example:
+
 ```json
 "@font-face": {
   "syntax": "...",
@@ -59,16 +61,17 @@ An at-rule with a `descriptors` object is `@font-face`, for example.
   "status": "standard"
 }
 ```
-The `descriptors` object consists of 7 required properties:
+
+Each `descriptors` object consists of 7 required properties:
 * `syntax` (string): The syntax / possible values of the descriptor.
-* `media` (string): The media groups like "all, visual" (multiple are comma separated).
-* `percentages` (string or array of strings): 
-  * If an array, the elements are other descriptors this descriptor is taking the percentages from (array elements must be in descriptors list).
-  * If a string, it indicates the percentage value of the descriptor.
+* `media` (string): The media groups the descriptor applies to, e.g. "all, visual" (multiple values are comma-separated).
+* `percentages` (string or array of strings):
+  * If it is an array, the elements are the other descriptors this descriptor is taking the percentages from (array elements must be in a descriptors list).
+  * If it is a string, it indicates the percentage value of the descriptor.
 * `initial` (string or array of strings):
-  * If an array, the elements are other descriptors this descriptor is taking the initial values from (array elements must be in descriptors list).
-  * If a string, it indicates the initial value of the descriptor.
+  * If it is an array, the elements are the other descriptors this descriptor is taking the initial values from (array elements must be in a descriptors list).
+  * If it is a string, it indicates the initial value of the descriptor.
 * `computed` (string or array of strings):
-  * If an array, the elements are other descriptors this descriptor is computed from (array elements must be in descriptors list).
-  * If a string, it indicates the computed value of the descriptor.
+  * If it is an array, the elements are the other descriptors this descriptor is computed from (array elements must be in a descriptors list).
+  * If it is a string, it indicates the computed value of the descriptor.
 * `order` (enum string): Either `orderOfAppearance` or `uniqueOrder`.

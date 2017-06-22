@@ -7,10 +7,10 @@
 
 ## Structure for types
 
-A type object looks like the following. The angle brackets are required. _(update if #81 gets merged)_
+A type object looks like the following example.
 
 ```json
-"<length>": {
+"length": {
   "groups": [
     "CSS Types"
   ],
@@ -18,6 +18,6 @@ A type object looks like the following. The angle brackets are required. _(updat
 },
 ```
 
-The 2 properties `groups` and `status` are required.
-* `groups` (array of strings): CSS is organized in modules like "CSS Types" or "CSS Color". MDN organizes features in these groups as well.
+The 2 properties are both required.
+* `groups` (array of strings): CSS is organized in modules like "CSS Types" or "CSS Color". MDN organizes features in these groups as well — `groups` should contain the name of the module(s) the type is defined in.
 * `status` (enum string): This is either `standard`, `nonstandard`, or `experimental` depending on the standardization status of the feature.
