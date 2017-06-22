@@ -12,6 +12,8 @@ or [sidebar navigation](https://developer.mozilla.org/en-US/docs/Web/API/Window)
 External tools have started to make use of this data as well.
 For example, the [CSSTree](https://github.com/csstree/csstree/) CSS parser.
 
+
+[![NPM version](https://img.shields.io/npm/v/mdn-data.svg)](https://www.npmjs.com/package/mdn-data)
 [![Build Status](https://travis-ci.org/mdn/data.svg?branch=master)](https://travis-ci.org/mdn/data)
 
 ## Repository contents
