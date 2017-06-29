@@ -2493,6 +2493,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
+      "CSS Break",
       "CSS Columns"
     ],
     "initial": "auto",
@@ -2508,6 +2509,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
+      "CSS Break",
       "CSS Columns"
     ],
     "initial": "auto",
@@ -2523,6 +2525,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
+      "CSS Break",
       "CSS Columns"
     ],
     "initial": "auto",
@@ -4876,7 +4879,8 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Pages"
+      "CSS Break",
+      "CSS Columns"
     ],
     "initial": "2",
     "appliesto": "blockContainerElements",
@@ -6234,7 +6238,8 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Pages"
+      "CSS Break",
+      "CSS Columns"
     ],
     "initial": "2",
     "appliesto": "blockContainerElements",
