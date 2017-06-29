@@ -2664,13 +2664,13 @@
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
-    "percentages": "asSpecifiedWithLengthsMadeAbsolute",
+    "percentages": "referToContentWidthOfMulticolElement",
     "groups": [
       "CSS Columns"
     ],
     "initial": "normal",
     "appliesto": "multicolElements",
-    "computed": "referToContentWidthOfMulticolElement",
+    "computed": "asSpecifiedWithLengthsMadeAbsolute",
     "order": "perGrammar",
     "status": "standard"
   },
