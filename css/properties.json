@@ -2630,7 +2630,7 @@
     "status": "standard"
   },
   "column-count": {
-    "syntax": "<number> | auto",
+    "syntax": "<integer> | auto",
     "media": "visual",
     "inherited": false,
     "animationType": "integer",
@@ -2639,13 +2639,13 @@
       "CSS Columns"
     ],
     "initial": "auto",
-    "appliesto": "nonReplacedBlockElements",
+    "appliesto": "blockContainersExceptTableWrappers",
     "computed": "asSpecified",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "standard"
   },
   "column-fill": {
-    "syntax": "auto | balance",
+    "syntax": "auto | balance | balance-all",
     "media": "visualInContinuousMediaNoEffectInOverflowColumns",
     "inherited": false,
     "animationType": "discrete",
@@ -2656,22 +2656,22 @@
     "initial": "balance",
     "appliesto": "multicolElements",
     "computed": "asSpecified",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "standard"
   },
   "column-gap": {
-    "syntax": "<length> | normal",
+    "syntax": "<length-percentage> | normal",
     "media": "visual",
     "inherited": false,
-    "animationType": "length",
-    "percentages": "no",
+    "animationType": "lpc",
+    "percentages": "asSpecifiedWithLengthsMadeAbsolute",
     "groups": [
       "CSS Columns"
     ],
     "initial": "normal",
     "appliesto": "multicolElements",
-    "computed": "absoluteLengthOrNormal",
-    "order": "uniqueOrder",
+    "computed": "referToContentWidthOfMulticolElement",
+    "order": "perGrammar",
     "status": "standard"
   },
   "column-rule": {
@@ -2698,7 +2698,7 @@
       "column-rule-style",
       "column-rule-width"
     ],
-    "order": "orderOfAppearance",
+    "order": "perGrammar",
     "status": "standard"
   },
   "column-rule-color": {
@@ -2713,11 +2713,11 @@
     "initial": "currentcolor",
     "appliesto": "multicolElements",
     "computed": "computedColor",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "standard"
   },
   "column-rule-style": {
-    "syntax": "<br-style>",
+    "syntax": "<'border-style'>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2728,11 +2728,11 @@
     "initial": "none",
     "appliesto": "multicolElements",
     "computed": "asSpecified",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "standard"
   },
   "column-rule-width": {
-    "syntax": "<br-width>",
+    "syntax": "<'border-width'>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -2743,7 +2743,7 @@
     "initial": "medium",
     "appliesto": "multicolElements",
     "computed": "absoluteLength0IfColumnRuleStyleNoneOrHidden",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "standard"
   },
   "column-span": {
@@ -2758,7 +2758,7 @@
     "initial": "none",
     "appliesto": "inFlowBlockLevelElements",
     "computed": "asSpecified",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "standard"
   },
   "column-width": {
@@ -2771,9 +2771,9 @@
       "CSS Columns"
     ],
     "initial": "auto",
-    "appliesto": "nonReplacedBlockElements",
+    "appliesto": "blockContainersExceptTableWrappers",
     "computed": "absoluteLengthZeroOrLarger",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "standard"
   },
   "columns": {
@@ -2792,12 +2792,12 @@
       "column-width",
       "column-count"
     ],
-    "appliesto": "nonReplacedBlockElements",
+    "appliesto": "blockContainersExceptTableWrappers",
     "computed": [
       "column-width",
       "column-count"
     ],
-    "order": "orderOfAppearance",
+    "order": "perGrammar",
     "status": "standard"
   },
   "contain": {
@@ -4874,7 +4874,7 @@
   },
   "orphans": {
     "syntax": "<integer>",
-    "media": "visual, paged",
+    "media": "visual",
     "inherited": true,
     "animationType": "discrete",
     "percentages": "no",
@@ -4885,7 +4885,7 @@
     "initial": "2",
     "appliesto": "blockContainerElements",
     "computed": "asSpecified",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "standard"
   },
   "outline": {
@@ -6233,7 +6233,7 @@
   },
   "widows": {
     "syntax": "<integer>",
-    "media": "visual, paged",
+    "media": "visual",
     "inherited": true,
     "animationType": "discrete",
     "percentages": "no",
@@ -6244,7 +6244,7 @@
     "initial": "2",
     "appliesto": "blockContainerElements",
     "computed": "asSpecified",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "standard"
   },
   "width": {
