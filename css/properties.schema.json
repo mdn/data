@@ -12,55 +12,6 @@
         }
       }
     },
-    "groupList": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "items": {
-        "type": "string",
-        "enum": [
-          "CSS Animations",
-          "CSS Background and Borders",
-          "CSS Box Model",
-          "CSS Colors",
-          "CSS Columns",
-          "CSS Containment",
-          "CSS Display",
-          "CSS Flexible Box Layout",
-          "CSS Fonts",
-          "CSS Generated Content",
-          "CSS Grid Layout",
-          "CSS Images",
-          "CSS Inline",
-          "CSS Lists and Counters",
-          "CSS Logical Properties",
-          "CSS Masks",
-          "CSS Miscellaneous",
-          "CSS Motion",
-          "CSS Pages",
-          "CSS Positioning",
-          "CSS Ruby",
-          "CSS Scroll Snap Points",
-          "CSS Shapes",
-          "CSS Speech",
-          "CSS Table",
-          "CSS Text",
-          "CSS Text Decoration",
-          "CSS Transforms",
-          "CSS Transitions",
-          "CSS User Interface",
-          "CSS Variables",
-          "CSS Writing Modes",
-          "CSSOM View",
-          "Compositing and Blending",
-          "Filter Effects",
-          "Microsoft Extensions",
-          "Mozilla Extensions",
-          "Pointer Events",
-          "WebKit Extensions"
-        ]
-      }
-    },
     "animationType": {
       "enum": [
         "angle",
