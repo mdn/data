@@ -36,8 +36,10 @@
       },
       "groups": {
         "type": "array",
+        "minitems": 1,
+        "uniqueItems": true,
         "items": {
-          "type": "string"
+          "$ref": "definitions.json#/groupList"
         }
       },
       "descriptors": {

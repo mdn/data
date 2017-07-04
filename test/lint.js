@@ -18,6 +18,8 @@ ajv.addKeyword('property-reference', {
   }
 });
 
+ajv.addSchema(require('../css/definitions.json'), 'definitions.json');
+
 function jsonDiff(actual, expected) {
   var actualLines = actual.split(/\n/);
   var expectedLines = expected.split(/\n/);

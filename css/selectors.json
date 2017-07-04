@@ -2,217 +2,248 @@
   "Type selectors": {
     "syntax": "element",
     "groups": [
-      "Basic Selectors"
+      "Basic Selectors",
+      "Selectors"
     ],
     "status": "standard"
   },
   "Class selectors": {
     "syntax": ".class",
     "groups": [
-      "Basic Selectors"
+      "Basic Selectors",
+      "Selectors"
     ],
     "status": "standard"
   },
   "ID selectors": {
     "syntax": "#id",
     "groups": [
-      "Basic Selectors"
+      "Basic Selectors",
+      "Selectors"
     ],
     "status": "standard"
   },
   "Universal selectors": {
     "syntax": "*",
     "groups": [
-      "Basic Selectors"
+      "Basic Selectors",
+      "Selectors"
     ],
     "status": "standard"
   },
   "Attribute selectors": {
     "syntax": "[attr=value]",
     "groups": [
-      "Basic Selectors"
+      "Basic Selectors",
+      "Selectors"
     ],
     "status": "standard"
   },
   "Adjacent sibling selectors": {
     "syntax": "A + B",
     "groups": [
-      "Combinators"
+      "Combinators",
+      "Selectors"
     ],
     "status": "standard"
   },
   "General sibling selectors": {
     "syntax": "A ~ B",
     "groups": [
-      "Combinators"
+      "Combinators",
+      "Selectors"
     ],
     "status": "standard"
   },
   "Child selectors": {
     "syntax": "A > B",
     "groups": [
-      "Combinators"
+      "Combinators",
+      "Selectors"
     ],
     "status": "standard"
   },
   "Descendant selectors": {
     "syntax": "A B",
     "groups": [
-      "Combinators"
+      "Combinators",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":active": {
     "syntax": ":active",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":any": {
     "syntax": ":-moz-any( <selector># )\n:-webkit-any( <selector># )",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "experimental"
   },
   ":any-link": {
     "syntax": ":any-link",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "experimental"
   },
   ":checked": {
     "syntax": ":checked",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":default": {
     "syntax": ":default",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":dir": {
     "syntax": ":dir( ltr | rtl )",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":disabled": {
     "syntax": ":disabled",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":empty": {
     "syntax": ":empty",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":enabled": {
     "syntax": ":enabled",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":first": {
     "syntax": ":first",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":first-child": {
     "syntax": ":first-child",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":first-of-type": {
     "syntax": ":first-of-type",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":fullscreen": {
     "syntax": ":fullscreen",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":focus": {
     "syntax": ":focus",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":focus-within": {
     "syntax": ":focus-within",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "experimental"
   },
   ":hover": {
     "syntax": ":hover",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":indeterminate": {
     "syntax": ":indeterminate",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":in-range": {
     "syntax": ":in-range",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":invalid": {
     "syntax": ":invalid",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":lang": {
     "syntax": ":lang( <language-code> )",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":last-child": {
     "syntax": ":last-child",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":last-of-type": {
     "syntax": ":last-of-type",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
@@ -220,6 +251,7 @@
     "syntax": ":left",
     "groups": [
       "Pseudo-classes",
+      "Selectors",
       "CSS Pages"
     ],
     "status": "standard"
@@ -227,98 +259,112 @@
   ":link": {
     "syntax": ":link",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":not": {
     "syntax": ":not( <selector># )",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":nth-child": {
     "syntax": ":nth-child( <nth> [ of <selector># ]? )",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":nth-last-child": {
     "syntax": ":nth-last-child( <nth> [ of <selector># ]? )",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":nth-last-of-type": {
     "syntax": ":nth-last-of-type( <nth> )",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":nth-of-type": {
     "syntax": ":nth-of-type( <nth> )",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":only-child": {
     "syntax": ":only-child",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":only-of-type": {
     "syntax": ":only-of-type",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":optional": {
     "syntax": ":optional",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":out-of-range": {
     "syntax": ":out-of-range",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":placeholder-shown": {
     "syntax": ":placeholder-shown",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "experimental"
   },
   ":read-only": {
     "syntax": ":read-only",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":read-write": {
     "syntax": ":read-write",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":required": {
     "syntax": ":required",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
@@ -326,6 +372,7 @@
     "syntax": ":right",
     "groups": [
       "Pseudo-classes",
+      "Selectors",
       "CSS Pages"
     ],
     "status": "standard"
@@ -334,6 +381,7 @@
     "syntax": ":root",
     "groups": [
       "Pseudo-classes",
+      "Selectors",
       "CSS Pages"
     ],
     "status": "standard"
@@ -341,35 +389,40 @@
   ":scope": {
     "syntax": ":scope",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":target": {
     "syntax": ":target",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":unresolved": {
     "syntax": ":unresolved",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":valid": {
     "syntax": ":valid",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
   ":visited": {
     "syntax": ":visited",
     "groups": [
-      "Pseudo-classes"
+      "Pseudo-classes",
+      "Selectors"
     ],
     "status": "standard"
   },
@@ -377,6 +430,7 @@
     "syntax": "::-moz-progress-bar",
     "groups": [
       "Pseudo-elements",
+      "Selectors",
       "Mozilla Extensions"
     ],
     "status": "nonstandard"
@@ -385,6 +439,7 @@
     "syntax": "::-moz-range-progress",
     "groups": [
       "Pseudo-elements",
+      "Selectors",
       "Mozilla Extensions"
     ],
     "status": "nonstandard"
@@ -393,6 +448,7 @@
     "syntax": "::-moz-range-thumb",
     "groups": [
       "Pseudo-elements",
+      "Selectors",
       "Mozilla Extensions"
     ],
     "status": "nonstandard"
@@ -401,6 +457,7 @@
     "syntax": "::-moz-range-track",
     "groups": [
       "Pseudo-elements",
+      "Selectors",
       "Mozilla Extensions"
     ],
     "status": "nonstandard"
@@ -409,6 +466,7 @@
     "syntax": "::-ms-fill",
     "groups": [
       "Pseudo-elements",
+      "Selectors",
       "Microsoft Extensions"
     ],
     "status": "nonstandard"
@@ -417,6 +475,7 @@
     "syntax": "::-ms-fill-lower",
     "groups": [
       "Pseudo-elements",
+      "Selectors",
       "Microsoft Extensions"
     ],
     "status": "nonstandard"
@@ -425,6 +484,7 @@
     "syntax": "::-ms-fill-upper",
     "groups": [
       "Pseudo-elements",
+      "Selectors",
       "Microsoft Extensions"
     ],
     "status": "nonstandard"
@@ -433,6 +493,7 @@
     "syntax": "::-ms-thumb",
     "groups": [
       "Pseudo-elements",
+      "Selectors",
       "Microsoft Extensions"
     ],
     "status": "nonstandard"
@@ -441,6 +502,7 @@
     "syntax": "::-ms-track",
     "groups": [
       "Pseudo-elements",
+      "Selectors",
       "Microsoft Extensions"
     ],
     "status": "nonstandard"
@@ -449,6 +511,7 @@
     "syntax": "::-webkit-progress-bar",
     "groups": [
       "Pseudo-elements",
+      "Selectors",
       "WebKit Extensions"
     ],
     "status": "nonstandard"
@@ -457,6 +520,7 @@
     "syntax": "::-webkit-progress-inner-value",
     "groups": [
       "Pseudo-elements",
+      "Selectors",
       "WebKit Extensions"
     ],
     "status": "nonstandard"
@@ -465,6 +529,7 @@
     "syntax": "::-webkit-progress-value",
     "groups": [
       "Pseudo-elements",
+      "Selectors",
       "WebKit Extensions"
     ],
     "status": "nonstandard"
@@ -473,6 +538,7 @@
     "syntax": "::-webkit-slider-runnable-track",
     "groups": [
       "Pseudo-elements",
+      "Selectors",
       "WebKit Extensions"
     ],
     "status": "nonstandard"
@@ -481,6 +547,7 @@
     "syntax": "::-webkit-slider-thumb",
     "groups": [
       "Pseudo-elements",
+      "Selectors",
       "WebKit Extensions"
     ],
     "status": "nonstandard"
@@ -488,49 +555,56 @@
   "::after": {
     "syntax": "/* CSS3 syntax */\n::after\n\n/* CSS2 syntax */\n:after",
     "groups": [
-      "Pseudo-elements"
+      "Pseudo-elements",
+      "Selectors"
     ],
     "status": "standard"
   },
   "::backdrop": {
     "syntax": "::backdrop",
     "groups": [
-      "Pseudo-elements"
+      "Pseudo-elements",
+      "Selectors"
     ],
     "status": "standard"
   },
   "::before": {
     "syntax": "/* CSS3 syntax */\n::before\n\n/* CSS2 syntax */\n:before",
     "groups": [
-      "Pseudo-elements"
+      "Pseudo-elements",
+      "Selectors"
     ],
     "status": "standard"
   },
   "::first-letter": {
     "syntax": "/* CSS3 syntax */\n::first-letter\n\n/* CSS2 syntax */\n:first-letter",
     "groups": [
-      "Pseudo-elements"
+      "Pseudo-elements",
+      "Selectors"
     ],
     "status": "standard"
   },
   "::first-line": {
     "syntax": "/* CSS3 syntax */\n::first-line\n\n/* CSS2 syntax */\n:first-line",
     "groups": [
-      "Pseudo-elements"
+      "Pseudo-elements",
+      "Selectors"
     ],
     "status": "standard"
   },
   "::selection": {
     "syntax": "::selection",
     "groups": [
-      "Pseudo-elements"
+      "Pseudo-elements",
+      "Selectors"
     ],
     "status": "standard"
   },
   "::cue": {
     "syntax": "::cue | ::cue( <selector> )",
     "groups": [
-      "Pseudo-elements"
+      "Pseudo-elements",
+      "Selectors"
     ],
     "status": "standard"
   }

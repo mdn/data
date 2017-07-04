@@ -12,14 +12,6 @@
         }
       }
     },
-    "stringList": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "items": {
-        "type": "string"
-      }
-    },
     "animationType": {
       "enum": [
         "angle",
@@ -304,7 +296,12 @@
         ]
       },
       "groups": {
-        "$ref": "#/definitions/stringList"
+        "type": "array",
+        "minitems": 1,
+        "uniqueItems": true,
+        "items": {
+          "$ref": "definitions.json#/groupList"
+        }
       },
       "initial": {
         "oneOf": [

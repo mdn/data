@@ -1,7 +1,7 @@
 {
   "an-plus-b": {
     "groups": [
-      "CSS Selectors"
+      "Selectors"
     ],
     "status": "standard"
   },
@@ -34,7 +34,7 @@
   "custom-ident": {
     "groups": [
       "CSS Will Change",
-      "CSS Counter Styles 3",
+      "CSS Counter Styles",
       "CSS Lists and Counters",
       "CSS Animations",
       "CSS Types"
@@ -43,7 +43,7 @@
   },
   "flex": {
     "groups": [
-      "CSS Grid",
+      "CSS Grid Layout",
       "CSS Types"
     ],
     "status": "standard"
