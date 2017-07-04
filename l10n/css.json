@@ -348,6 +348,10 @@
   "allElementsThatCanReferenceImages": {
     "en-US": "Any element that can have an image applied to it, for example as a {{cssxref(\"background-image\")}}, {{cssxref(\"border-image\")}}, or {{cssxref(\"list-style-image\")}}."
   },
+  "blockContainersExceptTableWrappers": {
+    "en-US": "Block containers except table wrapper boxes",
+    "de": "Blockcontainer außer Tabellen umgebende Boxen"
+  },
   "nonReplacedBlockElements": {
     "en-US": "non-replaced <code>block</code> elements (except <code>table</code> elements), <code>table-cell</code> or <code>inline-block</code> elements",
     "de": "Nicht ersetzte <code>block</code>-Elemente (außer <code>table</code>-Elemente), <code>table-cell</code>- oder <code>inline-block</code>-Elemente",
@@ -602,6 +606,10 @@
     "fr": "pour une valeur de type {{xref_csslength}} sa valeur absolue, sinon un pourcentage",
     "ja": "{{xref_csslength}} の場合は絶対的な値、さもなくばパーセンテージ",
     "ru": "для {{xref_csslength}} абсолютное значение, иначе процент"
+  },
+  "referToContentWidthOfMulticolElement": {
+    "en-US": "refer to the content width of the multi-column element",
+    "de": "beziehen sich auf die Inhaltsbreite des mehrspaltigen Elements"
   },
   "consistsOfTwoDimensionKeywords": {
     "en-US": "Consists of two keywords, one per dimension",
@@ -996,6 +1004,10 @@
     "en-US": "as specified with variables substituted",
     "de": "wie angegeben, wobei Variablen ersetzt werden",
     "fr": "tel que spécifié avec les variables échangées"
+  },
+  "asSpecifiedWithLengthsMadeAbsolute": {
+    "en-US": "as specified with lengths made absolute",
+    "de": "wie angegeben, wobei Längen in absolute Werte umgewandelt werden"
   },
   "logicalHeightOfContainingBlock": {
     "en-US": "logical-height of containing block",
