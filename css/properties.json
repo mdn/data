@@ -4094,6 +4094,21 @@
     ],
     "status": "standard"
   },
+  "line-height-step": {
+    "syntax": " none | <length> ",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "",
+    "percentages": "no",
+    "groups": [
+      "CSS Fonts"
+    ],
+    "initial": "none",
+    "appliesto": "blockContainerElements",
+    "computed": "absoluteLength0ForNone",
+    "order": "perGrammar",
+    "status": "nonstandard"
+  },
   "list-style": {
     "syntax": "<'list-style-type'> || <'list-style-position'> || <'list-style-image'>",
     "media": "visual",
