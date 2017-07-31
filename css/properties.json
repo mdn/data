@@ -4107,7 +4107,7 @@
     "appliesto": "blockContainerElements",
     "computed": "absoluteLength0ForNone",
     "order": "perGrammar",
-    "status": "standard"
+    "status": "experimental"
   },
   "list-style": {
     "syntax": "<'list-style-type'> || <'list-style-position'> || <'list-style-image'>",
