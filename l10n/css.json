@@ -1000,6 +1000,12 @@
     "de": "beziehen sich auf die Größe des Maskenzeichenbereichs minus der Größe des Maskenebenenbildes (siehe den Text zu {{cssxref(\"background-position\")}})",
     "ru": "относятся к размеру маски области рисования минус размер маски слоя изображения (смотрите статью о {{cssxref(\"background-position\")}})"
   },
+  "referToSizeOfMaskBorderImage": {
+    "en-US": "refer to size of the mask border image"
+  },
+  "relativeToMaskBorderImageArea": {
+    "en-US": "relative to width/height of the mask border image area"
+  },
   "asSpecifiedWithVarsSubstituted": {
     "en-US": "as specified with variables substituted",
     "de": "wie angegeben, wobei Variablen ersetzt werden",
