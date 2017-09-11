@@ -592,6 +592,14 @@
     ],
     "status": "standard"
   },
+  "::placeholder": {
+    "syntax": "::placeholder",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors"
+    ],
+    "status": "standard"
+  },
   "::selection": {
     "syntax": "::selection",
     "groups": [
