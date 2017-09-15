@@ -1049,7 +1049,7 @@
       "background-size"
     ],
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": [
       "background-image",
@@ -1087,7 +1087,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "scroll",
     "appliesto": "allElements",
@@ -1127,7 +1127,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "border-box",
     "appliesto": "allElements",
@@ -1147,7 +1147,7 @@
     "animationType": "color",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "transparent",
     "appliesto": "allElements",
@@ -1167,7 +1167,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -1187,7 +1187,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "padding-box",
     "appliesto": "allElements",
@@ -1207,7 +1207,7 @@
     "animationType": "repeatableListOfSimpleListOfLpc",
     "percentages": "referToSizeOfBackgroundPositioningAreaMinusBackgroundImageSize",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "0% 0%",
     "appliesto": "allElements",
@@ -1227,7 +1227,7 @@
     "animationType": "discrete",
     "percentages": "referToWidthOfBackgroundPositioningAreaMinusBackgroundImageHeight",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "left",
     "appliesto": "allElements",
@@ -1242,7 +1242,7 @@
     "animationType": "discrete",
     "percentages": "referToHeightOfBackgroundPositioningAreaMinusBackgroundImageHeight",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "top",
     "appliesto": "allElements",
@@ -1257,7 +1257,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "repeat",
     "appliesto": "allElements",
@@ -1277,7 +1277,7 @@
     "animationType": "repeatableListOfSimpleListOfLpc",
     "percentages": "relativeToBackgroundPositioningArea",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "auto auto",
     "appliesto": "allElements",
@@ -1316,7 +1316,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": [
       "border-width",
@@ -1482,7 +1482,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": [
       "border-bottom-width",
@@ -1508,7 +1508,7 @@
     "animationType": "color",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
@@ -1526,7 +1526,7 @@
     "animationType": "lpc",
     "percentages": "referToDimensionOfBorderBox",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "0",
     "appliesto": "allElementsUAsNotRequiredWhenCollapse",
@@ -1544,7 +1544,7 @@
     "animationType": "lpc",
     "percentages": "referToDimensionOfBorderBox",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "0",
     "appliesto": "allElementsUAsNotRequiredWhenCollapse",
@@ -1562,7 +1562,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -1580,7 +1580,7 @@
     "animationType": "length",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "medium",
     "appliesto": "allElements",
@@ -1618,7 +1618,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": [
       "border-top-color",
@@ -1649,7 +1649,7 @@
       "border-image-width"
     ],
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": [
       "border-image-source",
@@ -1679,7 +1679,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "0s",
     "appliesto": "allElementsExceptTableElementsWhenCollapse",
@@ -1697,7 +1697,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "stretch",
     "appliesto": "allElementsExceptTableElementsWhenCollapse",
@@ -1715,7 +1715,7 @@
     "animationType": "discrete",
     "percentages": "referToSizeOfBorderImage",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "100%",
     "appliesto": "allElementsExceptTableElementsWhenCollapse",
@@ -1733,7 +1733,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "none",
     "appliesto": "allElementsExceptTableElementsWhenCollapse",
@@ -1751,7 +1751,7 @@
     "animationType": "discrete",
     "percentages": "referToWidthOrHeightOfBorderImageArea",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "1",
     "appliesto": "allElementsExceptTableElementsWhenCollapse",
@@ -1909,7 +1909,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": [
       "border-left-width",
@@ -1935,7 +1935,7 @@
     "animationType": "color",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
@@ -1953,7 +1953,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -1971,7 +1971,7 @@
     "animationType": "length",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "medium",
     "appliesto": "allElements",
@@ -1994,7 +1994,7 @@
     ],
     "percentages": "referToDimensionOfBorderBox",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": [
       "border-top-left-radius",
@@ -2026,7 +2026,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": [
       "border-right-width",
@@ -2052,7 +2052,7 @@
     "animationType": "color",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
@@ -2070,7 +2070,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -2088,7 +2088,7 @@
     "animationType": "length",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "medium",
     "appliesto": "allElements",
@@ -2121,7 +2121,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": [
       "border-top-style",
@@ -2153,7 +2153,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": [
       "border-top-width",
@@ -2179,7 +2179,7 @@
     "animationType": "color",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
@@ -2197,7 +2197,7 @@
     "animationType": "lpc",
     "percentages": "referToDimensionOfBorderBox",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "0",
     "appliesto": "allElementsUAsNotRequiredWhenCollapse",
@@ -2215,7 +2215,7 @@
     "animationType": "lpc",
     "percentages": "referToDimensionOfBorderBox",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "0",
     "appliesto": "allElementsUAsNotRequiredWhenCollapse",
@@ -2233,7 +2233,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -2251,7 +2251,7 @@
     "animationType": "length",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "medium",
     "appliesto": "allElements",
@@ -2274,7 +2274,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": [
       "border-top-width",
@@ -2460,7 +2460,7 @@
     "animationType": "shadowList",
     "percentages": "no",
     "groups": [
-      "CSS Background and Borders"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "none",
     "appliesto": "allElements",
