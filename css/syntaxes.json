@@ -549,7 +549,7 @@
     "syntax": "step-start | step-end | steps(<integer>[, [ start | end ] ]?)"
   },
   "symbol": {
-    "syntax": "<string> | <image> | <ident>"
+    "syntax": "<string> | <image> | <custom-ident>"
   },
   "target": {
     "syntax": "<target-counter()> | <target-counters()> | <target-text()>"
