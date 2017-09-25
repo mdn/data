@@ -3870,7 +3870,7 @@
       "CSS Text"
     ],
     "initial": "none",
-    "appliesto": "inlineElements",
+    "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "standard"
