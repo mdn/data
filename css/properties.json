@@ -659,6 +659,21 @@
     "order": "orderOfAppearance",
     "status": "nonstandard"
   },
+  "-webkit-overflow-scrolling": {
+    "syntax": "auto | touch",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "WebKit Extensions"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollingBoxes",
+    "computed": "asSpecified",
+    "order": "orderOfAppearance",
+    "status": "nonstandard"
+  },
   "-webkit-tap-highlight-color": {
     "syntax": "<color>",
     "media": "visual",
