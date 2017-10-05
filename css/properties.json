@@ -3978,7 +3978,7 @@
     "appliesto": "textFields",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "standard"
+    "status": "obsolete"
   },
   "initial-letter": {
     "syntax": "normal | [ <number> <integer>? ]",
