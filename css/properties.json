@@ -1330,7 +1330,7 @@
     "computed": [
       "border-width",
       "border-style",
-      "color"
+      "border-block-end-color"
     ],
     "order": "uniqueOrder",
     "status": "standard"
@@ -1398,7 +1398,7 @@
     "computed": [
       "border-width",
       "border-style",
-      "color"
+      "border-block-start-color"
     ],
     "order": "uniqueOrder",
     "status": "standard"
@@ -1763,7 +1763,7 @@
     "computed": [
       "border-width",
       "border-style",
-      "color"
+      "border-inline-end-color"
     ],
     "order": "uniqueOrder",
     "status": "standard"
@@ -1831,7 +1831,7 @@
     "computed": [
       "border-width",
       "border-style",
-      "color"
+      "border-inline-start-color"
     ],
     "order": "uniqueOrder",
     "status": "standard"
