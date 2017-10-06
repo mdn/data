@@ -2348,7 +2348,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Fragmentation"
     ],
     "initial": "slice",
     "appliesto": "allElements",
@@ -2508,8 +2508,9 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Break",
-      "CSS Columns"
+      "CSS Columns",
+      "CSS Fragmentation",
+      "CSS Regions"
     ],
     "initial": "auto",
     "appliesto": "blockLevelElements",
@@ -2524,8 +2525,9 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Break",
-      "CSS Columns"
+      "CSS Columns",
+      "CSS Fragmentation",
+      "CSS Regions"
     ],
     "initial": "auto",
     "appliesto": "blockLevelElements",
@@ -2540,8 +2542,9 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Break",
-      "CSS Columns"
+      "CSS Columns",
+      "CSS Fragmentation",
+      "CSS Regions"
     ],
     "initial": "auto",
     "appliesto": "blockLevelElements",
@@ -4924,8 +4927,8 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Break",
-      "CSS Columns"
+      "CSS Columns",
+      "CSS Fragmentation"
     ],
     "initial": "2",
     "appliesto": "blockContainerElements",
@@ -6283,8 +6286,8 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Break",
-      "CSS Columns"
+      "CSS Columns",
+      "CSS Fragmentation"
     ],
     "initial": "2",
     "appliesto": "blockContainerElements",
