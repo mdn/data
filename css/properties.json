@@ -4435,7 +4435,7 @@
     ],
     "order": "perGrammar",
     "stacking": true,
-    "status": "standard"
+    "status": "experimental"
   },
   "mask-border-mode": {
     "syntax": "luminance | alpha",
@@ -4450,7 +4450,7 @@
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "standard"
+    "status": "experimental"
   },
   "mask-border-outset": {
     "syntax": "[ <length> | <number> ]{1,4}",
@@ -4465,7 +4465,7 @@
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "perGrammar",
-    "status": "standard"
+    "status": "experimental"
   },
   "mask-border-repeat": {
     "syntax": "[ stretch | repeat | round | space ]{1,2}",
@@ -4480,7 +4480,7 @@
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "standard"
+    "status": "experimental"
   },
   "mask-border-slice": {
     "syntax": "<number-percentage>{1,4} fill?",
@@ -4495,7 +4495,7 @@
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "standard"
+    "status": "experimental"
   },
   "mask-border-source": {
     "syntax": "none | <image>",
@@ -4510,7 +4510,7 @@
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecifiedURLsAbsolute",
     "order": "perGrammar",
-    "status": "standard"
+    "status": "experimental"
   },
   "mask-border-width": {
     "syntax": "[ <length-percentage> | <number> | auto ]{1,4}",
@@ -4525,7 +4525,7 @@
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "perGrammar",
-    "status": "standard"
+    "status": "experimental"
   },
   "mask-clip": {
     "syntax": "[ <geometry-box> | no-clip ]#",
