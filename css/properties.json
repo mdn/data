@@ -4390,8 +4390,14 @@
     "media": "visual",
     "inherited": false,
     "animationType": [
+      "mask-image",
+      "mask-mode",
+      "mask-repeat",
       "mask-position",
-      "mask-size"
+      "mask-clip",
+      "mask-origin",
+      "mask-size",
+      "mask-composite"
     ],
     "percentages": [
       "mask-position"
@@ -4400,17 +4406,159 @@
       "CSS Masks"
     ],
     "initial": [
+      "mask-image",
+      "mask-mode",
+      "mask-repeat",
+      "mask-position",
+      "mask-clip",
       "mask-origin",
-      "mask-clip"
+      "mask-size",
+      "mask-composite"
     ],
     "appliesto": "allElementsSVGContainerElements",
     "computed": [
+      "mask-image",
+      "mask-mode",
+      "mask-repeat",
+      "mask-position",
+      "mask-clip",
       "mask-origin",
-      "mask-clip"
+      "mask-size",
+      "mask-composite"
     ],
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "stacking": true,
     "status": "standard"
+  },
+  "mask-border": {
+    "syntax": "<'mask-border-source'> || <'mask-border-slice'> [ / <'mask-border-width'>? [ / <'mask-border-outset'> ]? ]? || <'mask-border-repeat'> || <'mask-border-mode'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "mask-border-mode",
+      "mask-border-outset",
+      "mask-border-repeat",
+      "mask-border-slice",
+      "mask-border-source",
+      "mask-border-width"
+    ],
+    "percentages": [
+      "mask-border-slice",
+      "mask-border-width"
+    ],
+    "groups": [
+      "CSS Masks"
+    ],
+    "initial": [
+      "mask-border-mode",
+      "mask-border-outset",
+      "mask-border-repeat",
+      "mask-border-slice",
+      "mask-border-source",
+      "mask-border-width"
+    ],
+    "appliesto": "allElementsSVGContainerElements",
+    "computed": [
+      "mask-border-mode",
+      "mask-border-outset",
+      "mask-border-repeat",
+      "mask-border-slice",
+      "mask-border-source",
+      "mask-border-width"
+    ],
+    "order": "perGrammar",
+    "stacking": true,
+    "status": "experimental"
+  },
+  "mask-border-mode": {
+    "syntax": "luminance | alpha",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Masks"
+    ],
+    "initial": "alpha",
+    "appliesto": "allElementsSVGContainerElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental"
+  },
+  "mask-border-outset": {
+    "syntax": "[ <length> | <number> ]{1,4}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Masks"
+    ],
+    "initial": "0",
+    "appliesto": "allElementsSVGContainerElements",
+    "computed": "asSpecifiedRelativeToAbsoluteLengths",
+    "order": "perGrammar",
+    "status": "experimental"
+  },
+  "mask-border-repeat": {
+    "syntax": "[ stretch | repeat | round | space ]{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Masks"
+    ],
+    "initial": "stretch",
+    "appliesto": "allElementsSVGContainerElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental"
+  },
+  "mask-border-slice": {
+    "syntax": "<number-percentage>{1,4} fill?",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "referToSizeOfMaskBorderImage",
+    "groups": [
+      "CSS Masks"
+    ],
+    "initial": "0",
+    "appliesto": "allElementsSVGContainerElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental"
+  },
+  "mask-border-source": {
+    "syntax": "none | <image>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Masks"
+    ],
+    "initial": "none",
+    "appliesto": "allElementsSVGContainerElements",
+    "computed": "asSpecifiedURLsAbsolute",
+    "order": "perGrammar",
+    "status": "experimental"
+  },
+  "mask-border-width": {
+    "syntax": "[ <length-percentage> | <number> | auto ]{1,4}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "relativeToMaskBorderImageArea",
+    "groups": [
+      "CSS Masks"
+    ],
+    "initial": "auto",
+    "appliesto": "allElementsSVGContainerElements",
+    "computed": "asSpecifiedRelativeToAbsoluteLengths",
+    "order": "perGrammar",
+    "status": "experimental"
   },
   "mask-clip": {
     "syntax": "[ <geometry-box> | no-clip ]#",
@@ -4424,7 +4572,7 @@
     "initial": "border-box",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecified",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "standard"
   },
   "mask-composite": {
@@ -4439,7 +4587,7 @@
     "initial": "add",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecified",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "standard"
   },
   "mask-image": {
@@ -4454,7 +4602,7 @@
     "initial": "none",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecifiedURLsAbsolute",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "standard"
   },
   "mask-mode": {
@@ -4469,7 +4617,7 @@
     "initial": "match-source",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecified",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "standard"
   },
   "mask-origin": {
@@ -4484,7 +4632,7 @@
     "initial": "border-box",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecified",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "standard"
   },
   "mask-position": {
@@ -4496,10 +4644,10 @@
     "groups": [
       "CSS Masks"
     ],
-    "initial": "0% 0%",
+    "initial": "center",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "consistsOfTwoKeywordsForOriginAndOffsets",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "standard"
   },
   "mask-repeat": {
@@ -4511,10 +4659,10 @@
     "groups": [
       "CSS Masks"
     ],
-    "initial": "repeat",
+    "initial": "no-repeat",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "consistsOfTwoDimensionKeywords",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "standard"
   },
   "mask-size": {
@@ -4529,7 +4677,7 @@
     "initial": "auto",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "standard"
   },
   "mask-type": {
@@ -4544,7 +4692,7 @@
     "initial": "luminance",
     "appliesto": "maskElements",
     "computed": "asSpecified",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "standard"
   },
   "max-block-size": {

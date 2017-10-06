@@ -61,6 +61,7 @@
         "referToSizeOfContainingBlock",
         "referToSizeOfElement",
         "referToSizeOfFont",
+        "referToSizeOfMaskBorderImage",
         "referToSizeOfMaskPaintingArea",
         "referToTotalPathLength",
         "referToWidthAndHeightOfElement",
@@ -73,6 +74,7 @@
         "regardingHeightOfGeneratedBoxContainingBlockPercentagesNone",
         "regardingHeightOfGeneratedBoxContainingBlockPercentagesRelativeToContainingBlock",
         "relativeToBackgroundPositioningArea",
+        "relativeToMaskBorderImageArea",
         "relativeToScrollContainerPaddingBoxAxis",
         "relativeToWidthAndHeight"
       ]
