@@ -128,6 +128,12 @@
     ],
     "status": "standard"
   },
+  "shape-box": {
+    "groups": [
+      "CSS Types"
+    ],
+    "status": "standard"
+  },
   "string": {
     "groups": [
       "CSS Types"
