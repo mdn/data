@@ -192,7 +192,7 @@
     "syntax": "nonzero | evenodd"
   },
   "filter-function": {
-    "syntax": "<blur()> | <brightness()> | <contrast()> | <drop-shadow()> | <grayscale()> | <hue-rotate()> | <invert()> | <opacity()> | <sepia()> | <saturate()>"
+    "syntax": "<blur()> | <brightness()> | <contrast()> | <drop-shadow()> | <grayscale()> | <hue-rotate()> | <invert()> | <opacity()> | <saturate()> | <sepia()>"
   },
   "filter-function-list": {
     "syntax": "[ <filter-function> | <url> ]+"
