@@ -41,6 +41,12 @@
     ],
     "status": "standard"
   },
+  "filter-function": {
+    "groups": [
+      "Filter Effects"
+    ],
+    "status": "standard"
+  },
   "flex": {
     "groups": [
       "CSS Grid Layout",
