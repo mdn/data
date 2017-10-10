@@ -5,7 +5,15 @@
     "additionalProperties": false,
     "properties": {
       "inherits": {
-        "type": "string"
+        "oneOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "string",
+            "minLength": 1
+          }
+        ]
       },
       "implements": {
         "minItems": 0,

@@ -29,13 +29,13 @@
     "implements": []
   },
   "CSSStyleDeclaration": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
   },
   "Selection": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -60,7 +60,7 @@
     "implements": []
   },
   "BrowserElement": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "BrowserElementCommon",
       "BrowserElementPrivileged"
@@ -157,7 +157,7 @@
     "implements": []
   },
   "Exception": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "ExceptionMembers"
     ]
@@ -185,7 +185,7 @@
     "implements": []
   },
   "PseudoElement": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "GeometryUtils"
     ]
@@ -195,13 +195,13 @@
     "implements": []
   },
   "MutationObserver": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
   },
   "NodeList": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -226,7 +226,7 @@
     "implements": []
   },
   "SVGPathSegList": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -244,7 +244,7 @@
     ]
   },
   "Performance": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -338,7 +338,7 @@
     "implements": []
   },
   "SVGPoint": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -348,7 +348,7 @@
     "implements": []
   },
   "Window": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface",
       "GlobalEventHandlers",
@@ -458,7 +458,7 @@
     "implements": []
   },
   "InstallTrigger": {
-    "inherits": "",
+    "inherits": null,
     "implements": []
   },
   "MutationEvent": {
@@ -484,7 +484,7 @@
     "implements": []
   },
   "SVGAnimatedInteger": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -504,13 +504,13 @@
     "implements": []
   },
   "Crypto": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
   },
   "Response": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "Body"
     ]
@@ -540,7 +540,7 @@
     "implements": []
   },
   "DOMStringMap": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -574,7 +574,7 @@
     "implements": []
   },
   "NodeIterator": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -602,7 +602,7 @@
     ]
   },
   "FileList": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -621,7 +621,7 @@
     ]
   },
   "SVGAnimatedEnumeration": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -704,7 +704,7 @@
     "implements": []
   },
   "WorkerNavigator": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "NavigatorID",
       "NavigatorLanguage",
@@ -754,7 +754,7 @@
     "implements": []
   },
   "SVGPointList": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -790,13 +790,13 @@
     "implements": []
   },
   "Plugin": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
   },
   "SVGStringList": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -810,7 +810,7 @@
     "implements": []
   },
   "History": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -832,7 +832,7 @@
     "implements": []
   },
   "Range": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -872,7 +872,7 @@
     "implements": []
   },
   "SVGLengthList": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -912,7 +912,7 @@
     "implements": []
   },
   "XPathEvaluator": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -954,7 +954,7 @@
     ]
   },
   "ValidityState": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -982,13 +982,13 @@
     "implements": []
   },
   "StyleSheet": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
   },
   "URL": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "URLUtils",
       "URLUtilsSearchParams"
@@ -1051,7 +1051,7 @@
     "implements": []
   },
   "NamedNodeMap": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -1164,7 +1164,7 @@
     "implements": []
   },
   "SVGPreserveAspectRatio": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -1216,7 +1216,7 @@
     "implements": []
   },
   "BoxObject": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -1232,7 +1232,7 @@
     ]
   },
   "PaintRequestList": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -1278,7 +1278,7 @@
     "implements": []
   },
   "SVGAnimatedString": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -1296,7 +1296,7 @@
     "implements": []
   },
   "MutationRecord": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -1336,7 +1336,7 @@
     "implements": []
   },
   "HTMLCollection": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -1362,7 +1362,7 @@
     "implements": []
   },
   "Navigator": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface",
       "NavigatorID",
@@ -1386,7 +1386,7 @@
     "implements": []
   },
   "SVGAnimatedPreserveAspectRatio": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -1415,7 +1415,7 @@
     "implements": []
   },
   "SVGTransformList": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -1473,7 +1473,7 @@
     ]
   },
   "Event": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -1583,7 +1583,7 @@
     "implements": []
   },
   "TreeColumns": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -1649,7 +1649,7 @@
     "implements": []
   },
   "WorkerLocation": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "URLUtilsReadOnly"
     ]
@@ -1681,7 +1681,7 @@
     "implements": []
   },
   "TouchList": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -1699,7 +1699,7 @@
     "implements": []
   },
   "DOMParser": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -1739,7 +1739,7 @@
     "implements": []
   },
   "DOMException": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "ExceptionMembers"
     ]
@@ -1782,7 +1782,7 @@
     "implements": []
   },
   "Location": {
-    "inherits": "",
+    "inherits": null,
     "implements": []
   },
   "FontFaceSet": {
@@ -1794,7 +1794,7 @@
     "implements": []
   },
   "Touch": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -1912,7 +1912,7 @@
     "implements": []
   },
   "PluginArray": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -1928,7 +1928,7 @@
     "implements": []
   },
   "SVGNumberList": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -1944,7 +1944,7 @@
     ]
   },
   "CaretPosition": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -1954,13 +1954,13 @@
     "implements": []
   },
   "Request": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "Body"
     ]
   },
   "SVGAnimatedNumber": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -1972,13 +1972,13 @@
     ]
   },
   "TreeWalker": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
   },
   "BarProp": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -2073,7 +2073,7 @@
     "implements": []
   },
   "SVGAnimatedNumberList": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -2083,7 +2083,7 @@
     "implements": []
   },
   "PaintRequest": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -2127,13 +2127,13 @@
     "implements": []
   },
   "UndoManager": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
   },
   "XMLSerializer": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -2153,7 +2153,7 @@
     "implements": []
   },
   "DOMImplementation": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -2177,7 +2177,7 @@
     "implements": []
   },
   "Rect": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -2287,7 +2287,7 @@
     ]
   },
   "MimeTypeArray": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -2300,7 +2300,7 @@
     ]
   },
   "FormData": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -2320,7 +2320,7 @@
     "implements": []
   },
   "DOMTokenList": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]
@@ -2376,7 +2376,7 @@
     "implements": []
   },
   "SVGRect": {
-    "inherits": "",
+    "inherits": null,
     "implements": [
       "LegacyQueryInterface"
     ]

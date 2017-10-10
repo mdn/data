@@ -23,7 +23,8 @@ There's a top-level directory for each broad area covered: for example, "api",
 JSON files containing the data.
 
 ### api
-Contains information about inheritance hierarchy, and about which interfaces implement which mixins.
+Contains data about Web APIs:
+* API inheritance (interface inheritance and mixin implementations)
 
 ### css
  Contains data about:
