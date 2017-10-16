@@ -2,7 +2,7 @@ var fs = require('fs');
 var path = require('path');
 var Ajv = require('ajv');
 var ajv = new Ajv({ $data: true, allErrors: true });
-var dictPaths = ['css', 'l10n'];
+var dictPaths = ['api', 'css', 'l10n'];
 var hasErrors = false;
 
 ajv.addKeyword('property-reference', {
@@ -38,7 +38,7 @@ function jsonDiff(actual, expected) {
 function checkStyle(filename) {
   var actual = fs.readFileSync(filename, 'utf-8').trim();
   var expected = JSON.stringify(JSON.parse(actual), null, 2);
-  
+
   if (actual === expected) {
     console.log('  Style – OK');
   } else {

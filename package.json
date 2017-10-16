@@ -4,6 +4,7 @@
   "description": "Open Web data by the Mozilla Developer Network",
   "main": "index.js",
   "files": [
+    "api/*.json",
     "css/*.json",
     "l10n/*.json"
   ],
