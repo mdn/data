@@ -365,6 +365,21 @@
     "order": "uniqueOrder",
     "status": "nonstandard"
   },
+  "-moz-window-dragging": {
+    "syntax": "drag | no-drag",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Mozilla Extensions"
+    ],
+    "initial": "drag",
+    "appliesto": "allElementsCreatingNativeWindows",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
   "-moz-window-shadow": {
     "syntax": "default | menu | tooltip | sheet | none",
     "media": "visual",
