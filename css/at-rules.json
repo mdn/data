@@ -120,7 +120,7 @@
     "status": "nonstandard"
   },
   "@font-face": {
-    "syntax": "@font-face {\n  [ font-family: <family-name>; ] ||\n  [ src: [ <url> [ format(<string>#) ]? | <font-face-name> ]#; ] ||\n  [ unicode-range: <urange>#; ] ||\n  [ font-variant: <font-variant>; ] ||\n  [ font-feature-settings: normal | <feature-tag-value>#; ] ||\n  [ font-stretch: <font-stretch>; ] ||\n  [ font-weight: <weight>; ] ||\n  [ font-style: <style>; ]\n}",
+    "syntax": "@font-face {\n  [ font-family: <family-name>; ] ||\n  [ src: [ <url> [ format(<string>#) ]? | <font-face-name> ]#; ] ||\n  [ unicode-range: <urange>#; ] ||\n  [ font-variant: <font-variant>; ] ||\n  [ font-feature-settings: normal | <feature-tag-value>#; ] ||\n  [ font-variation-settings: normal | [ <string> <number>] # ||\n [ font-stretch: <font-stretch>; ] ||\n  [ font-weight: <weight>; ] ||\n  [ font-style: <style>; ]\n}",
     "interfaces": [
       "CSSFontFaceRule"
     ],
@@ -148,6 +148,15 @@
       },
       "font-feature-settings": {
         "syntax": "normal | <feature-tag-value>#",
+        "media": "all",
+        "initial": "normal",
+        "percentages": "no",
+        "computed": "asSpecified",
+        "order": "orderOfAppearance",
+        "status": "standard"
+      },
+      "font-variation-settings": {
+        "syntax": "normal | [ <string> <number>] #",
         "media": "all",
         "initial": "normal",
         "percentages": "no",
