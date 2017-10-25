@@ -2619,7 +2619,7 @@
     "animationType": "rectangle",
     "percentages": "no",
     "groups": [
-      "CSS Miscellaneous"
+      "CSS Masks"
     ],
     "initial": "auto",
     "appliesto": "absolutelyPositionedElements",
@@ -2634,7 +2634,7 @@
     "animationType": "basicShapeOtherwiseNo",
     "percentages": "referToReferenceBoxWhenSpecifiedOtherwiseBorderBox",
     "groups": [
-      "CSS Miscellaneous"
+      "CSS Masks"
     ],
     "initial": "none",
     "appliesto": "allElementsSVGContainerElements",
