@@ -58,7 +58,7 @@
   "fr": {
     "groups": [
       "CSS Units",
-      "CSS Lengths",
+      "CSS Flexible Lengths",
       "CSS Grid Layout"
     ],
     "status": "standard"
