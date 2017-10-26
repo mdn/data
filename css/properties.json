@@ -3990,7 +3990,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Miscellaneous"
+      "CSS User Interface"
     ],
     "initial": "auto",
     "appliesto": "textFields",
