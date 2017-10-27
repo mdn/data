@@ -13,8 +13,8 @@
   },
   "basic-shape": {
     "groups": [
-      "CSS Types",
-      "CSS Shapes"
+      "CSS Shapes",
+      "CSS Types"
     ],
     "status": "standard"
   },
