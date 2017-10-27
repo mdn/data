@@ -6384,7 +6384,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "Mozilla Extensions"
+      "CSS User Interface"
     ],
     "initial": "auto",
     "appliesto": "allElements",
