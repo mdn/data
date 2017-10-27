@@ -2930,7 +2930,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Miscellaneous"
+      "CSS Display"
     ],
     "initial": "inline",
     "appliesto": "allElements",
