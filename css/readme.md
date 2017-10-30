@@ -29,4 +29,4 @@ The CSS data is split into these parts:
 * **units**:
 [data](https://github.com/mdn/data/blob/master/css/units.json) |
 [schema](https://github.com/mdn/data/blob/master/css/units.schema.json) |
-[docs](https://github.com/mdn/data/blob/master/css/units,md)
+[docs](https://github.com/mdn/data/blob/master/css/units.md)
