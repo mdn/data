@@ -4385,21 +4385,6 @@
     ],
     "status": "standard"
   },
-  "marker-offset": {
-    "syntax": "<length> | auto",
-    "media": "visual",
-    "inherited": false,
-    "animationType": "discrete",
-    "percentages": "no",
-    "groups": [
-      "CSS Generated Content"
-    ],
-    "initial": "auto",
-    "appliesto": "elementsWithDisplayMarker",
-    "computed": "asSpecified",
-    "order": "uniqueOrder",
-    "status": "nonstandard"
-  },
   "mask": {
     "syntax": "<mask-layer>#",
     "media": "visual",
