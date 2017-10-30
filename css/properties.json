@@ -2619,7 +2619,7 @@
     "animationType": "rectangle",
     "percentages": "no",
     "groups": [
-      "CSS Masks"
+      "CSS Masking"
     ],
     "initial": "auto",
     "appliesto": "absolutelyPositionedElements",
@@ -2634,7 +2634,7 @@
     "animationType": "basicShapeOtherwiseNo",
     "percentages": "referToReferenceBoxWhenSpecifiedOtherwiseBorderBox",
     "groups": [
-      "CSS Masks"
+      "CSS Masking"
     ],
     "initial": "none",
     "appliesto": "allElementsSVGContainerElements",
@@ -4418,7 +4418,7 @@
       "mask-position"
     ],
     "groups": [
-      "CSS Masks"
+      "CSS Masking"
     ],
     "initial": [
       "mask-image",
@@ -4462,7 +4462,7 @@
       "mask-border-width"
     ],
     "groups": [
-      "CSS Masks"
+      "CSS Masking"
     ],
     "initial": [
       "mask-border-mode",
@@ -4492,7 +4492,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Masks"
+      "CSS Masking"
     ],
     "initial": "alpha",
     "appliesto": "allElementsSVGContainerElements",
@@ -4507,7 +4507,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Masks"
+      "CSS Masking"
     ],
     "initial": "0",
     "appliesto": "allElementsSVGContainerElements",
@@ -4522,7 +4522,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Masks"
+      "CSS Masking"
     ],
     "initial": "stretch",
     "appliesto": "allElementsSVGContainerElements",
@@ -4537,7 +4537,7 @@
     "animationType": "discrete",
     "percentages": "referToSizeOfMaskBorderImage",
     "groups": [
-      "CSS Masks"
+      "CSS Masking"
     ],
     "initial": "0",
     "appliesto": "allElementsSVGContainerElements",
@@ -4552,7 +4552,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Masks"
+      "CSS Masking"
     ],
     "initial": "none",
     "appliesto": "allElementsSVGContainerElements",
@@ -4567,7 +4567,7 @@
     "animationType": "discrete",
     "percentages": "relativeToMaskBorderImageArea",
     "groups": [
-      "CSS Masks"
+      "CSS Masking"
     ],
     "initial": "auto",
     "appliesto": "allElementsSVGContainerElements",
@@ -4582,7 +4582,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Masks"
+      "CSS Masking"
     ],
     "initial": "border-box",
     "appliesto": "allElementsSVGContainerElements",
@@ -4597,7 +4597,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Masks"
+      "CSS Masking"
     ],
     "initial": "add",
     "appliesto": "allElementsSVGContainerElements",
@@ -4612,7 +4612,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Masks"
+      "CSS Masking"
     ],
     "initial": "none",
     "appliesto": "allElementsSVGContainerElements",
@@ -4627,7 +4627,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Masks"
+      "CSS Masking"
     ],
     "initial": "match-source",
     "appliesto": "allElementsSVGContainerElements",
@@ -4642,7 +4642,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Masks"
+      "CSS Masking"
     ],
     "initial": "border-box",
     "appliesto": "allElementsSVGContainerElements",
@@ -4657,7 +4657,7 @@
     "animationType": "repeatableListOfSimpleListOfLpc",
     "percentages": "referToSizeOfMaskPaintingArea",
     "groups": [
-      "CSS Masks"
+      "CSS Masking"
     ],
     "initial": "center",
     "appliesto": "allElementsSVGContainerElements",
@@ -4672,7 +4672,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Masks"
+      "CSS Masking"
     ],
     "initial": "no-repeat",
     "appliesto": "allElementsSVGContainerElements",
@@ -4687,7 +4687,7 @@
     "animationType": "repeatableListOfSimpleListOfLpc",
     "percentages": "no",
     "groups": [
-      "CSS Masks"
+      "CSS Masking"
     ],
     "initial": "auto",
     "appliesto": "allElementsSVGContainerElements",
@@ -4702,7 +4702,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Masks"
+      "CSS Masking"
     ],
     "initial": "luminance",
     "appliesto": "maskElements",
