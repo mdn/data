@@ -834,7 +834,7 @@
     "status": "standard"
   },
   "all": {
-    "syntax": "initial | inherit | unset",
+    "syntax": "initial | inherit | unset | revert",
     "media": "noPracticalMedia",
     "inherited": false,
     "animationType": "eachOfShorthandPropertiesExceptUnicodeBiDiAndDirection",
