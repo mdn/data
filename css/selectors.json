@@ -576,6 +576,14 @@
     ],
     "status": "standard"
   },
+  "::cue": {
+    "syntax": "::cue | ::cue( <selector> )",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors"
+    ],
+    "status": "standard"
+  },
   "::first-letter": {
     "syntax": "/* CSS3 syntax */\n::first-letter\n\n/* CSS2 syntax */\n:first-letter",
     "groups": [
@@ -591,6 +599,14 @@
       "Selectors"
     ],
     "status": "standard"
+  },
+  "::grammar-error": {
+    "syntax": "::grammar-error",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors"
+    ],
+    "status": "experimental"
   },
   "::placeholder": {
     "syntax": "::placeholder",
@@ -608,12 +624,12 @@
     ],
     "status": "standard"
   },
-  "::cue": {
-    "syntax": "::cue | ::cue( <selector> )",
+  "::spelling-error": {
+    "syntax": "::spelling-error",
     "groups": [
       "Pseudo-elements",
       "Selectors"
     ],
-    "status": "standard"
+    "status": "experimental"
   }
 }
