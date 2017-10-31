@@ -20,14 +20,14 @@
   },
   "blend-mode": {
     "groups": [
-      "CSS Colors",
+      "CSS Color",
       "CSS Types"
     ],
     "status": "standard"
   },
   "color": {
     "groups": [
-      "CSS Colors",
+      "CSS Color",
       "CSS Types"
     ],
     "status": "standard"
