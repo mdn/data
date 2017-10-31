@@ -2870,7 +2870,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Lists and Counters"
+      "CSS Counter Styles"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -2885,7 +2885,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Lists and Counters"
+      "CSS Counter Styles"
     ],
     "initial": "none",
     "appliesto": "allElements",
