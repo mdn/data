@@ -5640,7 +5640,7 @@
     "animationType": "position",
     "percentages": "referToBorderBox",
     "groups": [
-      "CSS Scroll Snap Points"
+      "CSS Scroll Snap"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -5655,7 +5655,7 @@
     "animationType": "position",
     "percentages": "relativeToScrollContainerPaddingBoxAxis",
     "groups": [
-      "CSS Scroll Snap Points"
+      "CSS Scroll Snap"
     ],
     "initial": "0px 0px",
     "appliesto": "scrollContainers",
@@ -5670,7 +5670,7 @@
     "animationType": "discrete",
     "percentages": "relativeToScrollContainerPaddingBoxAxis",
     "groups": [
-      "CSS Scroll Snap Points"
+      "CSS Scroll Snap"
     ],
     "initial": "none",
     "appliesto": "scrollContainers",
@@ -5685,7 +5685,7 @@
     "animationType": "discrete",
     "percentages": "relativeToScrollContainerPaddingBoxAxis",
     "groups": [
-      "CSS Scroll Snap Points"
+      "CSS Scroll Snap"
     ],
     "initial": "none",
     "appliesto": "scrollContainers",
@@ -5700,7 +5700,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Scroll Snap Points"
+      "CSS Scroll Snap"
     ],
     "initial": "none",
     "appliesto": "scrollContainers",
@@ -5715,7 +5715,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Scroll Snap Points"
+      "CSS Scroll Snap"
     ],
     "initial": "none",
     "appliesto": "scrollContainers",
@@ -5730,7 +5730,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Scroll Snap Points"
+      "CSS Scroll Snap"
     ],
     "initial": "none",
     "appliesto": "scrollContainers",
