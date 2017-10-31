@@ -1008,7 +1008,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS User Interface"
+      "CSS Basic User Interface"
     ],
     "initial": "auto",
     "appliesto": "allElements",
@@ -2589,7 +2589,7 @@
     "animationType": "color",
     "percentages": "no",
     "groups": [
-      "CSS User Interface"
+      "CSS Basic User Interface"
     ],
     "initial": "auto",
     "appliesto": "allElements",
@@ -2900,7 +2900,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS User Interface"
+      "CSS Basic User Interface"
     ],
     "initial": "auto",
     "appliesto": "allElements",
@@ -3990,7 +3990,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS User Interface"
+      "CSS Basic User Interface"
     ],
     "initial": "auto",
     "appliesto": "textFields",
@@ -5110,7 +5110,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS User Interface"
+      "CSS Basic User Interface"
     ],
     "initial": [
       "outline-color",
@@ -5133,7 +5133,7 @@
     "animationType": "color",
     "percentages": "no",
     "groups": [
-      "CSS User Interface"
+      "CSS Basic User Interface"
     ],
     "initial": "invertOrCurrentColor",
     "appliesto": "allElements",
@@ -5148,7 +5148,7 @@
     "animationType": "length",
     "percentages": "no",
     "groups": [
-      "CSS User Interface"
+      "CSS Basic User Interface"
     ],
     "initial": "0",
     "appliesto": "allElements",
@@ -5163,7 +5163,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS User Interface"
+      "CSS Basic User Interface"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -5178,7 +5178,7 @@
     "animationType": "length",
     "percentages": "no",
     "groups": [
-      "CSS User Interface"
+      "CSS Basic User Interface"
     ],
     "initial": "medium",
     "appliesto": "allElements",
@@ -5550,7 +5550,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS User Interface"
+      "CSS Basic User Interface"
     ],
     "initial": "none",
     "appliesto": "elementsWithOverflowNotVisibleAndReplacedElements",
@@ -6089,7 +6089,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS User Interface"
+      "CSS Basic User Interface"
     ],
     "initial": "clip",
     "appliesto": "blockContainerElements",
@@ -6384,7 +6384,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS User Interface"
+      "CSS Basic User Interface"
     ],
     "initial": "auto",
     "appliesto": "allElements",
