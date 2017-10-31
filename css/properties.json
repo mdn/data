@@ -2649,7 +2649,7 @@
     "animationType": "color",
     "percentages": "no",
     "groups": [
-      "CSS Colors"
+      "CSS Color"
     ],
     "initial": "variesFromBrowserToBrowser",
     "appliesto": "allElements",
@@ -5057,7 +5057,7 @@
     "animationType": "number",
     "percentages": "no",
     "groups": [
-      "CSS Colors"
+      "CSS Color"
     ],
     "initial": "1.0",
     "appliesto": "allElements",
