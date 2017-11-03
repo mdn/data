@@ -111,6 +111,14 @@
     ],
     "status": "standard"
   },
+  ":defined": {
+    "syntax": ":defined",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "experimental"
+  },
   ":dir": {
     "syntax": ":dir( ltr | rtl )",
     "groups": [
@@ -396,14 +404,6 @@
   },
   ":target": {
     "syntax": ":target",
-    "groups": [
-      "Pseudo-classes",
-      "Selectors"
-    ],
-    "status": "standard"
-  },
-  ":unresolved": {
-    "syntax": ":unresolved",
     "groups": [
       "Pseudo-classes",
       "Selectors"
