@@ -20,7 +20,7 @@
   },
   "blend-mode": {
     "groups": [
-      "CSS Color",
+      "Compositing and Blending",
       "CSS Types"
     ],
     "status": "standard"
