@@ -5919,7 +5919,7 @@
     "status": "standard"
   },
   "text-decoration-skip": {
-    "syntax": "none | [ objects || spaces || ink || edges || box-decoration ]",
+    "syntax": "none | [ objects || [ spaces | [ leading-spaces || trailing-spaces ] ] || edges || box-decoration ]",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -5928,6 +5928,21 @@
       "CSS Text Decoration"
     ],
     "initial": "objects",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "orderOfAppearance",
+    "status": "experimental"
+  },
+  "text-decoration-skip-ink": {
+    "syntax": "auto | none",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Text Decoration"
+    ],
+    "initial": "auto",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
