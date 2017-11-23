@@ -1378,7 +1378,7 @@
     ]
   },
   "OfflineAudioContext": {
-    "inherits": "AudioContext",
+    "inherits": "BaseAudioContext",
     "implements": []
   },
   "SVGPathSegCurvetoCubicSmoothRel": {
@@ -1557,7 +1557,7 @@
     "implements": []
   },
   "AudioContext": {
-    "inherits": "EventTarget",
+    "inherits": "BaseAudioContext",
     "implements": []
   },
   "RTCPeerConnectionIdentityEvent": {
