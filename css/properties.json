@@ -14,6 +14,21 @@
     "order": "perGrammar",
     "status": "experimental"
   },
+  "-ms-accelerator": {
+    "syntax": "false | true",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft CSS Extensions"
+    ],
+    "initial": "false",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
   "-ms-overflow-style": {
     "syntax": "auto | none | scrollbar | -ms-autohiding-scrollbar",
     "media": "interactive",
@@ -21,7 +36,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "Microsoft Extensions"
+      "Microsoft CSS Extensions"
     ],
     "initial": "auto",
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
