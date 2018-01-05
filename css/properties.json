@@ -21,9 +21,279 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "Microsoft CSS Extensions"
+      "Microsoft Extensions"
     ],
     "initial": "false",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-block-progression": {
+    "syntax": "tb | rl | bt | lr",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "false",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-content-zoom-chaining": {
+    "syntax": "none | chained",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "false",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-content-zooming": {
+    "syntax": "none | zoom",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "zoomForTheTopLevelNoneForTheRest",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-content-zoom-limit": {
+    "syntax": "<'-ms-content-zoom-limit-min'> <'-ms-content-zoom-limit-max'>",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": [
+      "-ms-content-zoom-limit-max",
+      "-ms-content-zoom-limit-min"
+    ],
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": [
+      "-ms-content-zoom-limit-max",
+      "-ms-content-zoom-limit-min"
+    ],
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": [
+      "-ms-content-zoom-limit-max",
+      "-ms-content-zoom-limit-min"
+    ],
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-content-zoom-limit-max": {
+    "syntax": "<percentage>",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "maxZoomFactor",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "400%",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-content-zoom-limit-min": {
+    "syntax": "<percentage>",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "minZoomFactor",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "100%",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-content-zoom-snap": {
+    "syntax": "<'-ms-content-zoom-snap-type'> || <'-ms-content-zoom-snap-points'>",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": [
+      "-ms-content-zoom-snap-type",
+      "-ms-content-zoom-snap-points"
+    ],
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": [
+      "-ms-content-zoom-snap-type",
+      "-ms-content-zoom-snap-points"
+    ],
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-content-zoom-snap-points": {
+    "syntax": "snapInterval(<start zoomfactors>, <step zoomfactors>) | snapList(<list zoomfactors>)",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "false",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-content-zoom-snap-type": {
+    "syntax": "none | proximity | mandatory",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "false",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-filter": {
+    "syntax": "filtertype1 (parameter1, parameter2,...) | filtertype2 (parameter1, parameter2,...)",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "false",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-flow-from": {
+    "syntax": "none | identifier [ , none | identifier ] *",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "false",
+    "appliesto": "nonReplacedElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-flow-into": {
+    "syntax": "none | identifier [ , none | identifier ] *",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "false",
+    "appliesto": "iframeElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-high-contrast-adjust": {
+    "syntax": "auto | none",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "auto",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-hyphenate-limit-chars": {
+    "syntax": "auto | <integer> {1,3}",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "auto",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-hyphenate-limit-lines": {
+    "syntax": "no-limit | <integer>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "no-limit",
+    "appliesto": "blockContainerElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-hyphenate-limit-zone": {
+    "syntax": "<percentage> | <length>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "referToLineBox",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "0",
+    "appliesto": "blockContainerElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-ime-align": {
+    "syntax": "auto | after",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "auto",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -36,10 +306,364 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "Microsoft CSS Extensions"
+      "Microsoft Extensions"
     ],
     "initial": "auto",
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scrollbar-3dlight-color": {
+    "syntax": "variant",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "false",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scrollbar-darkshadow-color": {
+    "syntax": "variant",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "false",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scrollbar-shadow-color": {
+    "syntax": "variant",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "false",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-chaining": {
+    "syntax": "chained | none",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "chained",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-limit": {
+    "syntax": "<'-ms-scroll-limit-x-min'> <'-ms-scroll-limit-y-min'> '<-ms-scroll-limit-x-max'> <'-ms-scroll-limit-y-max'>",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": [
+      "-ms-scroll-limit-x-min",
+      "-ms-scroll-limit-y-min",
+      "-ms-scroll-limit-x-max",
+      "-ms-scroll-limit-y-max"
+    ],
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": [
+      "-ms-scroll-limit-x-min",
+      "-ms-scroll-limit-y-min",
+      "-ms-scroll-limit-x-max",
+      "-ms-scroll-limit-y-max"
+    ],
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-limit-x-max": {
+    "syntax": "auto | <length> ",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "0",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-limit-x-min": {
+    "syntax": "<length>",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "0",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-limit-y-max": {
+    "syntax": "auto | <length> ",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "0",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-limit-y-min": {
+    "syntax": "<length>",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "false",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-rails": {
+    "syntax": "none | railed",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "railed",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-snap-points-x": {
+    "syntax": "snapInterval(<start length>, <step length>) | snapList(<list lengths>)",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "lengthsAsPercentages",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "snapInterval(0px, 100%);",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-snap-points-y": {
+    "syntax": "snapInterval(<start length>, <step length>) | snapList(<list lengths>)",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "lengthsAsPercentages",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "snapInterval(0px, 100%);",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-snap-type": {
+    "syntax": "none | proximity | mandatory",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "false",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-snap-x": {
+    "syntax": "<'-ms-scroll-snap-type'> <'-ms-scroll-snap-points-x'>",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": [ 
+       "-ms-scroll-snap-points-x"
+    ],
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": [ 
+      "-ms-scroll-snap-type",
+      "-ms-scroll-snap-points-x"
+    ],
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": [ 
+      "-ms-scroll-snap-points-x"
+    ],
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-snap-y": {
+    "syntax": "<'-ms-scroll-snap-type'> <'-ms-scroll-snap-points-y'>",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": [ 
+      "-ms-scroll-snap-points-y"
+    ],
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": [ 
+      "-ms-scroll-snap-type",
+      "-ms-scroll-snap-points-y"
+    ],
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": [ 
+      "-ms-scroll-snap-points-y"
+    ],
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-translation": {
+    "syntax": "vertical-to-horizontal | none | inherit",
+    "media": "interactive",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "inherit",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-text-autospace": {
+    "syntax": "none | ideograph-alpha | ideograph-numeric | ideograph-parenthesis | ideograph-space",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "false",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-touch-select": {
+    "syntax": "grippers | none",
+    "media": "interactive",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "grippers",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-user-select": {
+    "syntax": "none | element | text",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "text",
+    "appliesto": "nonReplacedElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-wrap-flow": {
+    "syntax": "auto | both | start | end | maximum | clear",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "auto",
+    "appliesto": "blockLevelElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-wrap-margin": {
+    "syntax": "<length>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "0",
+    "appliesto": "exclusionElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-wrap-through": {
+    "syntax": "wrap | none",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "wrap",
+    "appliesto": "blockLevelElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "nonstandard"
