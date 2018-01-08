@@ -524,13 +524,13 @@
     "media": "interactive",
     "inherited": false,
     "animationType": "discrete",
-    "percentages": [ 
+    "percentages": [
        "-ms-scroll-snap-points-x"
     ],
     "groups": [
       "Microsoft Extensions"
     ],
-    "initial": [ 
+    "initial": [
       "-ms-scroll-snap-type",
       "-ms-scroll-snap-points-x"
     ],
