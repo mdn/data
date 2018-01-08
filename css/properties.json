@@ -535,7 +535,7 @@
       "-ms-scroll-snap-points-x"
     ],
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
-    "computed": [ 
+    "computed": [
       "-ms-scroll-snap-points-x"
     ],
     "order": "uniqueOrder",
@@ -546,18 +546,18 @@
     "media": "interactive",
     "inherited": false,
     "animationType": "discrete",
-    "percentages": [ 
+    "percentages": [
       "-ms-scroll-snap-points-y"
     ],
     "groups": [
       "Microsoft Extensions"
     ],
-    "initial": [ 
+    "initial": [
       "-ms-scroll-snap-type",
       "-ms-scroll-snap-points-y"
     ],
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
-    "computed": [ 
+    "computed": [
       "-ms-scroll-snap-points-y"
     ],
     "order": "uniqueOrder",
