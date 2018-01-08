@@ -525,7 +525,7 @@
     "inherited": false,
     "animationType": "discrete",
     "percentages": [
-       "-ms-scroll-snap-points-x"
+      "-ms-scroll-snap-points-x"
     ],
     "groups": [
       "Microsoft Extensions"
