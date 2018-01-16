@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "url": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "required": [
+      "name",
+      "url"
+    ]
+  }
+}

@@ -2,7 +2,7 @@ var fs = require('fs');
 var path = require('path');
 var Ajv = require('ajv');
 var ajv = new Ajv({ $data: true, allErrors: true });
-var dictPaths = ['api', 'css', 'l10n'];
+var dictPaths = ['api', 'css', 'l10n', 'specs'];
 var hasErrors = false;
 
 ajv.addKeyword('property-reference', {
