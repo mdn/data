@@ -1711,7 +1711,7 @@
     "groups": [
       "CSS Backgrounds and Borders"
     ],
-    "initial": "0s",
+    "initial": "0",
     "appliesto": "allElementsExceptTableElementsWhenCollapse",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
