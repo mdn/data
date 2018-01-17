@@ -1231,7 +1231,7 @@
     "status": "standard"
   },
   "background-position": {
-    "syntax": "<position>#",
+    "syntax": "<bg-position>#",
     "media": "visual",
     "inherited": false,
     "animationType": "repeatableListOfSimpleListOfLpc",
