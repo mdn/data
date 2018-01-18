@@ -54,7 +54,7 @@
       "prefix": {
         "syntax": "<symbol>",
         "media": "all",
-        "initial": "the empty string",
+        "initial": "\" \" (the empty string)",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -81,7 +81,7 @@
       "suffix": {
         "syntax": "<symbol>",
         "media": "all",
-        "initial": "\".\" full stop followed by a space",
+        "initial": "\". \" (full stop followed by a space)",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
