@@ -6489,7 +6489,7 @@
     "status": "standard"
   },
   "word-break": {
-    "syntax": "normal | break-all | keep-all",
+    "syntax": "normal | break-all | keep-all | break-word",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
