@@ -5246,6 +5246,51 @@
     "order": "uniqueOrder",
     "status": "standard"
   },
+  "overscroll-behavior": {
+    "syntax": "[ contain | none | auto ]{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Box Model"
+    ],
+    "initial": "auto",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "overscroll-behavior-x": {
+    "syntax": "contain | none | auto",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Box Model"
+    ],
+    "initial": "auto",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "overscroll-behavior-y": {
+    "syntax": "contain | none | auto",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Box Model"
+    ],
+    "initial": "auto",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
   "padding": {
     "syntax": "[ <length> | <percentage> ]{1,4}",
     "media": "visual",
