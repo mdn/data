@@ -1457,5 +1457,11 @@
   },
   "referToReferenceBoxWhenSpecifiedOtherwiseBorderBox": {
     "en-US": "refer to reference box when specified, otherwise border-box"
+  },
+  "\" \"": {
+    "en-US": "\" \" (the empty string)"
+  },
+  "\". \"": {
+    "en-US": "\". \" (full stop followed by a space)"
   }
 }
