@@ -624,6 +624,14 @@
     ],
     "status": "standard"
   },
+  "::slotted": {
+    "syntax": "::slotted(<compound-selector-list>)",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors"
+    ],
+    "status": "standard"
+  },
   "::spelling-error": {
     "syntax": "::spelling-error",
     "groups": [

@@ -98,6 +98,12 @@
   "compositing-operator": {
     "syntax": "add | subtract | intersect | exclude"
   },
+  "compound-selector": {
+    "syntax": "[ <type-selector>? <subclass-selector>*[ <pseudo-element-selector> <pseudo-class-selector>* ]* ]!"
+  },
+  "compound-selector-list": {
+    "syntax": "<compound-selector>#"
+  },
   "contextual-alt-values": {
     "syntax": "[ contextual | no-contextual ]"
   },
