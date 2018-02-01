@@ -387,7 +387,7 @@
     "syntax": "<ms-transition-barn()> | <ms-transition-blinds()> | <ms-transition-checkerboard()> | <ms-transition-fade()> | <ms-transition-gradientwipe()> | <ms-transition-inset()> | <ms-transition-iris()> | <ms-transition-pixelate()> | <ms-transition-radialwipe()> | <ms-transition-randombars()> | <ms-transition-randomdissolve()> | <ms-transition-slide()> | <ms-transition-spiral()> | <ms-transition-stretch()> | <ms-transition-strips()> | <ms-transition-wheel()> | <ms-transition-zigzag()>"
   },
   "ms-proceduralsurface": {
-      "syntax": "<ms-proceduralsurface-alphaimageloader()> | <ms-proceduralsurface-gradient()> "
+    "syntax": "<ms-proceduralsurface-alphaimageloader()> | <ms-proceduralsurface-gradient()>"
   },
   "ms-filter-alpha()": {
     "syntax": "progid:DXImageTransform.Microsoft.Alpha( <ms-filter-property-specification> )"
