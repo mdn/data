@@ -462,55 +462,55 @@
     "syntax": "progid:DXImageTransform.Microsoft.Xray( <ms-filter-property-specification> )"
   },
   "ms-transition-barn()": {
-      "syntax": "progid:DXImageTransform.Microsoft.Barn( <ms-filter-property-specification> )"
+    "syntax": "progid:DXImageTransform.Microsoft.Barn( <ms-filter-property-specification> )"
   },
   "ms-transition-blinds()": {
-      "syntax": "progid:DXImageTransform.Microsoft.Blinds( <ms-filter-property-specification> )"
+    "syntax": "progid:DXImageTransform.Microsoft.Blinds( <ms-filter-property-specification> )"
   },
   "ms-transition-checkerboard()": {
-      "syntax": "progid:DXImageTransform.Microsoft.CheckerBoard( <ms-filter-property-specification> )"
+    "syntax": "progid:DXImageTransform.Microsoft.CheckerBoard( <ms-filter-property-specification> )"
   },
   "ms-transition-fade()": {
-      "syntax": "progid:DXImageTransform.Microsoft.Fade( <ms-filter-property-specification> )"
+    "syntax": "progid:DXImageTransform.Microsoft.Fade( <ms-filter-property-specification> )"
   },
   "ms-transition-gradientwipe()": {
-      "syntax": "progid:DXImageTransform.Microsoft.GradientWipe( <ms-filter-property-specification> )"
+    "syntax": "progid:DXImageTransform.Microsoft.GradientWipe( <ms-filter-property-specification> )"
   },
   "ms-transition-inset()": {
-      "syntax": "progid:DXImageTransform.Microsoft.Inset( <ms-filter-property-specification> )"
+    "syntax": "progid:DXImageTransform.Microsoft.Inset( <ms-filter-property-specification> )"
   },
   "ms-transition-iris()": {
-      "syntax": "progid:DXImageTransform.Microsoft.Iris( <ms-filter-property-specification> )"
+    "syntax": "progid:DXImageTransform.Microsoft.Iris( <ms-filter-property-specification> )"
   },
   "ms-transition-pixelate()": {
-      "syntax": "progid:DXImageTransform.Microsoft.Pixelate( <ms-filter-property-specification> )"
+    "syntax": "progid:DXImageTransform.Microsoft.Pixelate( <ms-filter-property-specification> )"
   },
   "ms-transition-radialwipe()": {
-      "syntax": "progid:DXImageTransform.Microsoft.RadialWipe( <ms-filter-property-specification> )"
+    "syntax": "progid:DXImageTransform.Microsoft.RadialWipe( <ms-filter-property-specification> )"
   },
   "ms-transition-randombars()": {
-      "syntax": "progid:DXImageTransform.Microsoft.RandomBars( <ms-filter-property-specification> )"
+    "syntax": "progid:DXImageTransform.Microsoft.RandomBars( <ms-filter-property-specification> )"
   },
   "ms-transition-randomdissolve()": {
-      "syntax": "progid:DXImageTransform.Microsoft.RandomDissolve( <ms-filter-property-specification> )"
+    "syntax": "progid:DXImageTransform.Microsoft.RandomDissolve( <ms-filter-property-specification> )"
   },
   "ms-transition-slide()": {
-      "syntax": "progid:DXImageTransform.Microsoft.Slide( <ms-filter-property-specification> )"
+    "syntax": "progid:DXImageTransform.Microsoft.Slide( <ms-filter-property-specification> )"
   },
   "ms-transition-spiral()": {
-      "syntax": "progid:DXImageTransform.Microsoft.Spiral( <ms-filter-property-specification> )"
+    "syntax": "progid:DXImageTransform.Microsoft.Spiral( <ms-filter-property-specification> )"
   },
   "ms-transition-stretch()": {
-      "syntax": "progid:DXImageTransform.Microsoft.Stretch( <ms-filter-property-specification> )"
+    "syntax": "progid:DXImageTransform.Microsoft.Stretch( <ms-filter-property-specification> )"
   },
   "ms-transition-strips()": {
-      "syntax": "progid:DXImageTransform.Microsoft.Strips( <ms-filter-property-specification> )"
+    "syntax": "progid:DXImageTransform.Microsoft.Strips( <ms-filter-property-specification> )"
   },
   "ms-transition-wheel()": {
-      "syntax": "progid:DXImageTransform.Microsoft.Wheel( <ms-filter-property-specification> )"
+    "syntax": "progid:DXImageTransform.Microsoft.Wheel( <ms-filter-property-specification> )"
   },
   "ms-transition-zigzag()": {
-      "syntax": "progid:DXImageTransform.Microsoft.Zigzag( <ms-filter-property-specification> )"
+    "syntax": "progid:DXImageTransform.Microsoft.Zigzag( <ms-filter-property-specification> )"
   },
   "ms-proceduralsurface-alphaimageloader()": {
     "syntax": "progid:DXImageTransform.Microsoft.AlphaImageLoader( <ms-filter-property-specification> )"
