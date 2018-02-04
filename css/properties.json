@@ -2508,7 +2508,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Basic User Interface"
     ],
     "initial": "content-box",
     "appliesto": "allElementsAcceptingWidthOrHeight",
