@@ -2938,51 +2938,6 @@
     "order": "uniqueOrder",
     "status": "standard"
   },
-  "display-inside": {
-    "syntax": "auto | block | table | flex | grid | ruby",
-    "media": "all",
-    "inherited": false,
-    "animationType": "discrete",
-    "percentages": "no",
-    "groups": [
-      "CSS Display"
-    ],
-    "initial": "auto",
-    "appliesto": "allElements",
-    "computed": "asSpecified",
-    "order": "uniqueOrder",
-    "status": "experimental"
-  },
-  "display-list": {
-    "syntax": "none | list-item",
-    "media": "all",
-    "inherited": false,
-    "animationType": "discrete",
-    "percentages": "no",
-    "groups": [
-      "CSS Display"
-    ],
-    "initial": "none",
-    "appliesto": "allElements",
-    "computed": "asSpecified",
-    "order": "uniqueOrder",
-    "status": "experimental"
-  },
-  "display-outside": {
-    "syntax": "block-level | inline-level | run-in | contents | none | table-row-group | table-header-group | table-footer-group | table-row | table-cell | table-column-group | table-column | table-caption | ruby-base | ruby-text | ruby-base-container | ruby-text-container",
-    "media": "all",
-    "inherited": false,
-    "animationType": "discrete",
-    "percentages": "no",
-    "groups": [
-      "CSS Display"
-    ],
-    "initial": "inline-level",
-    "appliesto": "allElements",
-    "computed": "asSpecified",
-    "order": "uniqueOrder",
-    "status": "experimental"
-  },
   "empty-cells": {
     "syntax": "show | hide",
     "media": "visual",
