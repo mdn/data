@@ -199,6 +199,30 @@
     ],
     "status": "experimental"
   },
+  ":host": {
+    "syntax": ":host",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "standard"
+  },
+  ":host()": {
+    "syntax": ":host( <compound-selector-list> )",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "experimental"
+  },
+  ":host-context()": {
+    "syntax": ":host-context(  <compound-selector-list> )",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "experimental"
+  },
   ":hover": {
     "syntax": ":hover",
     "groups": [
