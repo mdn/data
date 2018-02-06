@@ -23,6 +23,9 @@
   "auto-track-list": {
     "syntax": "[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>? <auto-repeat>\n[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>?"
   },
+  "baseline-position": {
+    "syntax": "[ first | last ]? baseline"
+  },
   "basic-shape": {
     "syntax": "<inset()> | <circle()> | <ellipse()> | <polygon()>"
   },
@@ -404,6 +407,9 @@
   "opacity()": {
     "syntax": "opacity( [ <number-percentage> ] )"
   },
+  "overflow-position": {
+    "syntax": "unsafe | safe"
+  },
   "page-body": {
     "syntax": "<declaration>? [ ; <page-body> ]? | <page-margin-box> <page-body>"
   },
@@ -487,6 +493,9 @@
   },
   "scaleZ()": {
     "syntax": "scaleZ( <number> )"
+  },
+  "self-position": {
+    "syntax": "center | start | end | self-start | self-end | flex-start | flex-end"
   },
   "shape-radius": {
     "syntax": "<length-percentage> | closest-side | farthest-side"
