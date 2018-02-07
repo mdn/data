@@ -462,42 +462,6 @@
     ],
     "status": "nonstandard"
   },
-  "::-ms-browse": {
-    "syntax": "::-ms-browse",
-    "groups": [
-      "Pseudo-elements",
-      "Selectors",
-      "Microsoft Extensions"
-    ],
-    "status": "nonstandard"
-  },
-  "::-ms-check": {
-    "syntax": "::-ms-check",
-    "groups": [
-      "Pseudo-elements",
-      "Selectors",
-      "Microsoft Extensions"
-    ],
-    "status": "nonstandard"
-  },
-  "::-ms-clear": {
-    "syntax": "::-ms-clear",
-    "groups": [
-      "Pseudo-elements",
-      "Selectors",
-      "Microsoft Extensions"
-    ],
-    "status": "nonstandard"
-  },
-  "::-ms-expand": {
-    "syntax": "::-ms-clear",
-    "groups": [
-      "Pseudo-elements",
-      "Selectors",
-      "Microsoft Extensions"
-    ],
-    "status": "nonstandard"
-  },
   "::-ms-fill": {
     "syntax": "::-ms-fill",
     "groups": [
@@ -525,15 +489,6 @@
     ],
     "status": "nonstandard"
   },
-  "::-ms-reveal": {
-    "syntax": "::-ms-reveal",
-    "groups": [
-      "Pseudo-elements",
-      "Selectors",
-      "Microsoft Extensions"
-    ],
-    "status": "nonstandard"
-  },
   "::-ms-thumb": {
     "syntax": "::-ms-thumb",
     "groups": [
@@ -543,44 +498,8 @@
     ],
     "status": "nonstandard"
   },
-  "::-ms-ticks-after": {
-    "syntax": "::-ms-ticks-after",
-    "groups": [
-      "Pseudo-elements",
-      "Selectors",
-      "Microsoft Extensions"
-    ],
-    "status": "nonstandard"
-  },
-  "::-ms-ticks-before": {
-    "syntax": "::-ms-ticks-before",
-    "groups": [
-      "Pseudo-elements",
-      "Selectors",
-      "Microsoft Extensions"
-    ],
-    "status": "nonstandard"
-  },
-  "::-ms-tooltip": {
-    "syntax": "::-ms-tooltip",
-    "groups": [
-      "Pseudo-elements",
-      "Selectors",
-      "Microsoft Extensions"
-    ],
-    "status": "nonstandard"
-  },
   "::-ms-track": {
     "syntax": "::-ms-track",
-    "groups": [
-      "Pseudo-elements",
-      "Selectors",
-      "Microsoft Extensions"
-    ],
-    "status": "nonstandard"
-  },
-  "::-ms-value": {
-    "syntax": "::-ms-value",
     "groups": [
       "Pseudo-elements",
       "Selectors",
