@@ -5781,6 +5781,36 @@
     "status": "standard"
   },
   "overflow-clip-box": {
+    "syntax": "padding-box || content-box",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Mozilla Extensions"
+    ],
+    "initial": "padding-box",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "overflow-clip-box-block": {
+    "syntax": "padding-box | content-box",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Mozilla Extensions"
+    ],
+    "initial": "padding-box",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "overflow-clip-box-inline": {
     "syntax": "padding-box | content-box",
     "media": "visual",
     "inherited": false,
