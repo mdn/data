@@ -303,7 +303,7 @@
     "ru": "<code>inline-axis</code> (<code>horizontal</code> в <a href=\"/ru/docs/Mozilla/Tech/XUL\">XUL</a>)"
   },
   "noneButOverriddenInUserAgentCSS": {
-    "en-US": "<code>none</code> (but this value is overriden in the user agent CSS)",
+    "en-US": "<code>none</code> (but this value is overridden in the user agent CSS)",
     "de": "<code>none</code> (aber dieser Wert wird im User Agent CSS überschrieben)",
     "fr": "<code>none</code> (cette valeur est surchargée par le CSS de l'agent utilisateur)",
     "ru": "<code>none</code> (но это значение перезаписано в дефолтном CSS браузера)"
@@ -1463,5 +1463,29 @@
   },
   "\". \"": {
     "en-US": "\". \" (full stop followed by a space)"
+  },
+  "zoomForTheTopLevelNoneForTheRest": {
+    "en-US": "zoom for the top level element, none for all other elements"
+  },
+  "maxZoomFactor": {
+    "en-US": "The maximum zoom factor"
+  },
+  "minZoomFactor": {
+    "en-US": "The minimum zoom factor"
+  },
+  "nonReplacedElements": {
+    "en-US": "non-replaced elements"
+  },
+  "iframeElements": {
+    "en-US": "iframe elements"
+  },
+  "referToLineBox": {
+    "en-US": "Calculated with respect to the line box"
+  },
+  "lengthsAsPercentages": {
+    "en-US": "The lengths may be specified as percentages"
+  },
+  "exclusionElements": {
+    "en-US": "exclusion elements"
   }
 }
