@@ -1417,7 +1417,7 @@
     "en-US": "order of appearance in the formal grammar of the values",
     "de": "Reihenfolge des Auftretens in der formalen Grammatik der Werte",
     "fr": "l'ordre d'apparition dans la grammaire formelle des valeurs",
-    "en-US": "形式文法における値の出現順",
+    "ja": "形式文法における値の出現順",
     "ru": "порядок появления в формальной грамматике значений"
   },
   "lengthOrPercentageBeforeKeywords": {
