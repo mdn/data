@@ -70,7 +70,7 @@
     ],
     "status": "standard"
   },
-  "Hz": {
+  "hz": {
     "groups": [
       "CSS Units",
       "CSS Frequencies"
@@ -84,7 +84,7 @@
     ],
     "status": "standard"
   },
-  "kHz": {
+  "khz": {
     "groups": [
       "CSS Units",
       "CSS Frequencies"
@@ -126,7 +126,7 @@
     ],
     "status": "standard"
   },
-  "Q": {
+  "q": {
     "groups": [
       "CSS Units",
       "CSS Lengths"

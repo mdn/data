@@ -1462,10 +1462,10 @@
     "en-US": "zoom for the top level element, none for all other elements"
   },
   "maxZoomFactor": {
-    "en-US": "The maximum zoom factor"
+    "en-US": "the largest allowed zoom factor, a percentage relative to the initial viewport"
   },
   "minZoomFactor": {
-    "en-US": "The minimum zoom factor"
+    "en-US": "the smallest allowed zoom factor, a percentage relative to the initial viewport"
   },
   "nonReplacedElements": {
     "en-US": "non-replaced elements"
@@ -1474,12 +1474,12 @@
     "en-US": "iframe elements"
   },
   "referToLineBox": {
-    "en-US": "Calculated with respect to the line box"
+    "en-US": "Calculated with respect to the width of the line box"
   },
   "lengthsAsPercentages": {
     "en-US": "The lengths may be specified as percentages"
   },
   "exclusionElements": {
-    "en-US": "exclusion elements"
+    "en-US": "exclusion elements (created by -ms-wrap-flow)"
   }
 }
