@@ -315,6 +315,360 @@
     "status": "nonstandard"
   },
   "-ms-scrollbar-3dlight-color": {
+    "syntax": "variant",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "false",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scrollbar-darkshadow-color": {
+    "syntax": "variant",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "false",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scrollbar-shadow-color": {
+    "syntax": "variant",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "false",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-chaining": {
+    "syntax": "chained | none",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "chained",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-limit": {
+    "syntax": "<'-ms-scroll-limit-x-min'> <'-ms-scroll-limit-y-min'> <'-ms-scroll-limit-x-max'> <'-ms-scroll-limit-y-max'>",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": [
+      "-ms-scroll-limit-x-min",
+      "-ms-scroll-limit-y-min",
+      "-ms-scroll-limit-x-max",
+      "-ms-scroll-limit-y-max"
+    ],
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": [
+      "-ms-scroll-limit-x-min",
+      "-ms-scroll-limit-y-min",
+      "-ms-scroll-limit-x-max",
+      "-ms-scroll-limit-y-max"
+    ],
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-limit-x-max": {
+    "syntax": "auto | <length>",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "0",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-limit-x-min": {
+    "syntax": "<length>",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "0",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-limit-y-max": {
+    "syntax": "auto | <length>",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "0",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-limit-y-min": {
+    "syntax": "<length>",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "false",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-rails": {
+    "syntax": "none | railed",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "railed",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-snap-points-x": {
+    "syntax": "snapInterval( <length-percentage>, <length-percentage> ) | snapList( <length-percentage># )",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "lengthsAsPercentages",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "snapInterval(0px, 100%);",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-snap-points-y": {
+    "syntax": "snapInterval( <length-percentage>, <length-percentage> ) | snapList( <length-percentage># )",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "lengthsAsPercentages",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "snapInterval(0px, 100%);",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-snap-type": {
+    "syntax": "none | proximity | mandatory",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "false",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-snap-x": {
+    "syntax": "<'-ms-scroll-snap-type'> <'-ms-scroll-snap-points-x'>",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": [
+      "-ms-scroll-snap-points-x"
+    ],
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": [
+      "-ms-scroll-snap-type",
+      "-ms-scroll-snap-points-x"
+    ],
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": [
+      "-ms-scroll-snap-points-x"
+    ],
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-snap-y": {
+    "syntax": "<'-ms-scroll-snap-type'> <'-ms-scroll-snap-points-y'>",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": [
+      "-ms-scroll-snap-points-y"
+    ],
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": [
+      "-ms-scroll-snap-type",
+      "-ms-scroll-snap-points-y"
+    ],
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": [
+      "-ms-scroll-snap-points-y"
+    ],
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scroll-translation": {
+    "syntax": "vertical-to-horizontal | none | inherit",
+    "media": "interactive",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "inherit",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-text-autospace": {
+    "syntax": "none | ideograph-alpha | ideograph-numeric | ideograph-parenthesis | ideograph-space",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "false",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-touch-select": {
+    "syntax": "grippers | none",
+    "media": "interactive",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "grippers",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-user-select": {
+    "syntax": "none | element | text",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "text",
+    "appliesto": "nonReplacedElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-wrap-flow": {
+    "syntax": "auto | both | start | end | maximum | clear",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "auto",
+    "appliesto": "blockLevelElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-wrap-margin": {
+    "syntax": "<length>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "0",
+    "appliesto": "exclusionElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-wrap-through": {
+    "syntax": "wrap | none",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Microsoft Extensions"
+    ],
+    "initial": "wrap",
+    "appliesto": "blockLevelElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-ms-scrollbar-3dlight-color": {
     "syntax": "<color>",
     "media": "visual",
     "inherited": true,
@@ -1441,7 +1795,7 @@
     "status": "standard"
   },
   "align-items": {
-    "syntax": "flex-start | flex-end | center | baseline | stretch",
+    "syntax": "normal | stretch | <baseline-position> | [ <overflow-position>? <self-position> ]",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -1868,7 +2222,7 @@
     "status": "standard"
   },
   "background-position": {
-    "syntax": "<position>#",
+    "syntax": "<bg-position>#",
     "media": "visual",
     "inherited": false,
     "animationType": "repeatableListOfSimpleListOfLpc",
@@ -2348,7 +2702,7 @@
     "groups": [
       "CSS Backgrounds and Borders"
     ],
-    "initial": "0s",
+    "initial": "0",
     "appliesto": "allElementsExceptTableElementsWhenCollapse",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
@@ -3145,7 +3499,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Basic User Interface"
     ],
     "initial": "content-box",
     "appliesto": "allElementsAcceptingWidthOrHeight",
@@ -3574,51 +3928,6 @@
     "computed": "asSpecifiedExceptPositionedFloatingAndRootElementsKeywordMaybeDifferent",
     "order": "uniqueOrder",
     "status": "standard"
-  },
-  "display-inside": {
-    "syntax": "auto | block | table | flex | grid | ruby",
-    "media": "all",
-    "inherited": false,
-    "animationType": "discrete",
-    "percentages": "no",
-    "groups": [
-      "CSS Display"
-    ],
-    "initial": "auto",
-    "appliesto": "allElements",
-    "computed": "asSpecified",
-    "order": "uniqueOrder",
-    "status": "experimental"
-  },
-  "display-list": {
-    "syntax": "none | list-item",
-    "media": "all",
-    "inherited": false,
-    "animationType": "discrete",
-    "percentages": "no",
-    "groups": [
-      "CSS Display"
-    ],
-    "initial": "none",
-    "appliesto": "allElements",
-    "computed": "asSpecified",
-    "order": "uniqueOrder",
-    "status": "experimental"
-  },
-  "display-outside": {
-    "syntax": "block-level | inline-level | run-in | contents | none | table-row-group | table-header-group | table-footer-group | table-row | table-cell | table-column-group | table-column | table-caption | ruby-base | ruby-text | ruby-base-container | ruby-text-container",
-    "media": "all",
-    "inherited": false,
-    "animationType": "discrete",
-    "percentages": "no",
-    "groups": [
-      "CSS Display"
-    ],
-    "initial": "inline-level",
-    "appliesto": "allElements",
-    "computed": "asSpecified",
-    "order": "uniqueOrder",
-    "status": "experimental"
   },
   "empty-cells": {
     "syntax": "show | hide",
@@ -5883,6 +6192,51 @@
     "order": "uniqueOrder",
     "status": "standard"
   },
+  "overscroll-behavior": {
+    "syntax": "[ contain | none | auto ]{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Box Model"
+    ],
+    "initial": "auto",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "overscroll-behavior-x": {
+    "syntax": "contain | none | auto",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Box Model"
+    ],
+    "initial": "auto",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "overscroll-behavior-y": {
+    "syntax": "contain | none | auto",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Box Model"
+    ],
+    "initial": "auto",
+    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
   "padding": {
     "syntax": "[ <length> | <percentage> ]{1,4}",
     "media": "visual",
@@ -7126,7 +7480,7 @@
     "status": "standard"
   },
   "word-break": {
-    "syntax": "normal | break-all | keep-all",
+    "syntax": "normal | break-all | keep-all | break-word",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
