@@ -4737,7 +4737,7 @@
     "status": "standard"
   },
   "line-height-step": {
-    "syntax": " none | <length> ",
+    "syntax": "none | <length>",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
