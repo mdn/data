@@ -104,8 +104,14 @@
   "contextual-alt-values": {
     "syntax": "[ contextual | no-contextual ]"
   },
+  "content-distribution": {
+    "syntax": "space-between | space-around | space-evenly | stretch"
+  },
   "content-list": {
     "syntax": "[ <string> | contents | <image> | <quote> | <target> | <leader()> ]+"
+  },
+  "content-position": {
+    "syntax": "center | start | end | flex-start | flex-end"
   },
   "content-replacement": {
     "syntax": "<image>"
