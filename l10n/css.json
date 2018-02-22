@@ -3,12 +3,14 @@
     "en-US": "Related <a href=\"/en-US/docs/Web/CSS/At-rule\">at-rule</a>",
     "de": "Zugehörige <a href=\"/de/docs/Web/CSS/At-Regel\">@-Regel</a>",
     "fr": "En lien avec les <a href=\"/fr/docs/Web/CSS/Règles_%40\">règles @</a>",
+    "ja": "関連する <a href=\"/ja/docs/Web/CSS/At-rule\">@規則</a>",
     "ru": "Связано с <a href=\"/ru/docs/Web/CSS/At-rule\">@-правила</a>"
   },
   "all": {
     "en-US": "all",
     "de": "alle",
     "fr": "tous",
+    "ja": "すべて",
     "ru": "всё"
   },
   "visual": {
@@ -38,7 +40,8 @@
   "animationType": {
     "en-US": "Animation type",
     "de": "Animationstyp",
-    "fr": "Type d'animation"
+    "fr": "Type d'animation",
+    "ja": "アニメーションの種類"
   },
   "asSpecified": {
     "en-US": "as specified",
@@ -53,7 +56,7 @@
     "en-US": "a <a href=\"/en-US/docs/Web/CSS/color_value#Interpolation\" title=\"Values of the <color> CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.\">color</a>",
     "de": "<a href=\"/de/docs/Web/CSS/color_value#Interpolation\">Farbe</a>",
     "fr": "une <a href=\"/fr/docs/Web/CSS/color_value#Interpolation\" title=\"Les valeurs de type <couleur> sont interpolées sur chacune des composantes rouge, bleue et verte, considérées chacunes comme un nombre réel à virgule flottante. Notez que l'interpolation des couleurs a lieu dans l'espace couleur sRGBA pré-multiplié pour éviter l'apparition de teintes grises non désirées.\">couleur</a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/color_value#Interpolation\" title=\"Values of the <color> CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.\">color</a>",
+    "ja": "<a href=\"/ja/docs/Web/CSS/color_value#Interpolation\" title=\"CSS の <color> データ型の値は、赤、緑、青のそれぞれの値ごとに、浮動小数点の実数として扱われて補間されます。なお、アルファ事前混合 sRGBA 色空間で色の補間を行うと、予期せずに灰色が現れることがあります。\">色</a>",
     "ru": "<a href=\"/ru/docs/Web/CSS/color_value#Interpolation\" title=\"Значения типа данных CSS <цвет> интерполируются по каждой компоненте - красной, зелёной и голубой - как вещественные числа с плавающей запятой. Обратите внимание, что интерполяция цветов происходит в цветовом пространстве sRGBA, учитывающем прозрачность, для предотвращения появления неожиданных серых цветов.\">цвет</a>"
   },
   "yes": {
@@ -86,7 +89,7 @@
     "en-US": "Percentages",
     "de": "Prozentwerte",
     "fr": "Pourcentages",
-    "ja": "相対値の基準",
+    "ja": "パーセンテージ",
     "ru": "Проценты"
   },
   "appliesTo": {
@@ -112,6 +115,7 @@
     "en-US": "$1$. It also applies to $2$.",
     "de": "$1$. Auch anwendbar auf $2$.",
     "fr": "$1$. S'applique aussi à $2$.",
+    "ja": "$1$。 $2$ にも適用されます。",
     "ru": "$1$. Это также применяется к $2$."
   },
   "andInEnumeration": {
@@ -124,7 +128,7 @@
     "en-US": "as each of the properties of the shorthand:",
     "de": "wie die jeweiligen Kurzschreibweisen:",
     "fr": "pour chaque propriété individuelle de la propriété raccourcie&nbsp;:",
-    "ja": "以下の各プロパティのショートハンドとして補完します:",
+    "ja": "以下の一括指定の各プロパティとして",
     "ru": "как и у каждого из подсвойств этого свойства:"
   },
   "repeatableList": {
@@ -158,7 +162,8 @@
   "discrete": {
     "en-US": "discrete",
     "de": "diskret",
-    "fr": "discrète"
+    "fr": "discrète",
+    "ja": "個別"
   },
   "length": {
     "en-US": "a <a href=\"/en-US/docs/Web/CSS/length#Interpolation\" title=\"Values of the <length> CSS data type are interpolated as real, floating-point numbers.\">length</a>",
@@ -1107,24 +1112,28 @@
     "en-US": "the absolute length or <code>0</code> if {{cssxref(\"border-bottom-style\")}} is <code>none</code> or <code>hidden</code>",
     "de": "die absolute Länge; <code>0</code> falls {{cssxref(\"border-bottom-style\")}} <code>none</code> oder <code>hidden</code> ist",
     "fr": "la longueur absolue ou <code>0</code> si {{cssxref(\"border-bottom-style\")}} vaut <code>none</code> ou <code>hidden</code>",
+    "ja": "絶対的な長さ、または {{cssxref(\"border-bottom-style\")}} が <code>none</code> または <code>hidden</code> の場合は <code>0</code>",
     "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-bottom-style\")}} - <code>none</code> или <code>hidden</code>"
   },
   "absoluteLengthOr0IfBorderLeftStyleNoneOrHidden": {
     "en-US": "the absolute length or <code>0</code> if {{cssxref(\"border-left-style\")}} is <code>none</code> or <code>hidden</code>",
     "de": "die absolute Länge; <code>0</code> falls {{cssxref(\"border-left-style\")}} <code>none</code> oder <code>hidden</code> ist",
     "fr": "la longueur absolue ou <code>0</code> si {{cssxref(\"border-left-style\")}} vaut <code>none</code> ou <code>hidden</code>",
+    "ja": "絶対的な長さ、または {{cssxref(\"border-left-style\")}} が <code>none</code> または <code>hidden</code> の場合は <code>0</code>",
     "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-left-style\")}} - <code>none</code> или <code>hidden</code>"
   },
   "absoluteLengthOr0IfBorderRightStyleNoneOrHidden": {
     "en-US": "the absolute length or <code>0</code> if {{cssxref(\"border-right-style\")}} is <code>none</code> or <code>hidden</code>",
     "de": "die absolute Länge; <code>0</code> falls {{cssxref(\"border-right-style\")}} <code>none</code> oder <code>hidden</code> ist",
     "fr": "la longueur absolue ou <code>0</code> si {{cssxref(\"border-right-style\")}} vaut <code>none</code> ou <code>hidden</code>",
+    "ja": "絶対的な長さ、または {{cssxref(\"border-right-style\")}} が <code>none</code> または <code>hidden</code> の場合は <code>0</code>",
     "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-right-style\")}} - <code>none</code> или <code>hidden</code>"
   },
   "absoluteLengthOr0IfBorderTopStyleNoneOrHidden": {
     "en-US": "the absolute length or <code>0</code> if {{cssxref(\"border-top-style\")}} is <code>none</code> or <code>hidden</code>",
     "de": "die absolute Länge; <code>0</code> falls {{cssxref(\"border-top-style\")}} <code>none</code> oder <code>hidden</code> ist",
     "fr": "la longueur absolue ou <code>0</code> si {{cssxref(\"border-top-style\")}} vaut <code>none</code> ou <code>hidden</code>",
+    "ja": "絶対的な長さ、または {{cssxref(\"border-top-style\")}} が <code>none</code> または <code>hidden</code> の場合は <code>0</code>",
     "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-top-style\")}} - <code>none</code> или <code>hidden</code>"
   },
   "specifiedIntegerOrAbsoluteLength": {
@@ -1193,6 +1202,7 @@
     "en-US": "computed color",
     "de": "berechnete Farbe",
     "fr": "couleur calculée",
+    "ja": "計算された色",
     "ru": "вычисленный цвет"
   },
   "optimumMinAndMaxValueOfAbsoluteLengthPercentageOrNormal": {
@@ -1407,6 +1417,7 @@
     "en-US": "order of appearance in the formal grammar of the values",
     "de": "Reihenfolge des Auftretens in der formalen Grammatik der Werte",
     "fr": "l'ordre d'apparition dans la grammaire formelle des valeurs",
+    "ja": "形式文法における値の出現順",
     "ru": "порядок появления в формальной грамматике значений"
   },
   "lengthOrPercentageBeforeKeywords": {
