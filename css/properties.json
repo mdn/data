@@ -1428,7 +1428,7 @@
     "status": "nonstandard"
   },
   "align-content": {
-    "syntax": "flex-start | flex-end | center | space-between | space-around | space-evenly | stretch",
+    "syntax": "normal | <baseline-position> | <content-distribution> | <overflow-position> ? <content-position>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -1436,7 +1436,7 @@
     "groups": [
       "CSS Flexible Box Layout"
     ],
-    "initial": "stretch",
+    "initial": "normal",
     "appliesto": "multilineFlexContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -4653,7 +4653,7 @@
     "status": "standard"
   },
   "justify-content": {
-    "syntax": "flex-start | flex-end | center | space-between | space-around | space-evenly",
+    "syntax": "normal | <content-distribution> | <overflow-position> ? [ <content-position> | left | right ]",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -4661,7 +4661,7 @@
     "groups": [
       "CSS Flexible Box Layout"
     ],
-    "initial": "flex-start",
+    "initial": "normal",
     "appliesto": "flexContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -6134,6 +6134,21 @@
     "appliesto": "transformableElements",
     "computed": "forLengthAbsoluteValueOtherwisePercentage",
     "order": "oneOrTwoValuesLengthAbsoluteKeywordsPercentages",
+    "status": "standard"
+  },
+  "place-content": {
+    "syntax": "<'align-content'> <'justify-content'>?",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Flexible Box Layout"
+    ],
+    "initial": "normal",
+    "appliesto": "multilineFlexContainers",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
     "status": "standard"
   },
   "pointer-events": {
