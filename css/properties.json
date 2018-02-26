@@ -1451,14 +1451,14 @@
     "groups": [
       "CSS Flexible Box Layout"
     ],
-    "initial": "stretch",
-    "appliesto": "flexContainers",
+    "initial": "normal",
+    "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "standard"
   },
   "align-self": {
-    "syntax": "auto | flex-start | flex-end | center | baseline | stretch",
+    "syntax": "auto | normal | stretch | <baseline-position> | <overflow-position>? <self-position>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
