@@ -6227,6 +6227,22 @@
     "order": "uniqueOrder",
     "status": "standard"
   },
+  "rotate": {
+    "syntax": "none | [ x | y | z | <number>{3} ]? && <angle>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "transform",
+    "percentages": "no",
+    "groups": [
+      "CSS Transforms"
+    ],
+    "initial": "none",
+    "appliesto": "transformableElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "stacking": true,
+    "status": "standard"
+  },
   "ruby-align": {
     "syntax": "start | center | space-between | space-around",
     "media": "visual",
@@ -6270,6 +6286,22 @@
     "appliesto": "rubyAnnotationsContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
+    "status": "standard"
+  },
+  "scale": {
+    "syntax": "none | <number>{1,3}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "transform",
+    "percentages": "no",
+    "groups": [
+      "CSS Transforms"
+    ],
+    "initial": "none",
+    "appliesto": "transformableElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "stacking": true,
     "status": "standard"
   },
   "scroll-behavior": {
@@ -7029,6 +7061,22 @@
     "appliesto": "allElementsAndPseudos",
     "computed": "asSpecified",
     "order": "uniqueOrder",
+    "status": "standard"
+  },
+  "translate": {
+    "syntax": "none | <length-percentage> [ <length-percentage> <length>? ]?",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "transform",
+    "percentages": "referToSizeOfBoundingBox",
+    "groups": [
+      "CSS Transforms"
+    ],
+    "initial": "none",
+    "appliesto": "transformableElements",
+    "computed": "asSpecifiedRelativeToAbsoluteLengths",
+    "order": "perGrammar",
+    "stacking": true,
     "status": "standard"
   },
   "unicode-bidi": {
