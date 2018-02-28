@@ -4667,6 +4667,21 @@
     "order": "uniqueOrder",
     "status": "standard"
   },
+  "justify-items": {
+    "syntax": "normal | stretch | <baseline-position> | [ <overflow-position>? <self-position> ] | [ legacy || [ left | right | center ] ]",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Box Alignment Module"
+    ],
+    "initial": "legacy",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "standard"
+  },
   "left": {
     "syntax": "<length> | <percentage> | auto",
     "media": "visual",
