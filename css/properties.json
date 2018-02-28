@@ -4674,7 +4674,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Alignment Module"
+      "CSS Box Alignment"
     ],
     "initial": "legacy",
     "appliesto": "allElements",
