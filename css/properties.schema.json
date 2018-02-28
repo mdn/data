@@ -179,6 +179,7 @@
         "blockContainersExceptTableWrappers",
         "blockElementsInNormalFlow",
         "blockLevelElements",
+        "blockLevelBoxesAndAbsolutelyPositionedBoxesAndGridItems",
         "boxElements",
         "childrenOfBoxElements",
         "directChildrenOfElementsWithDisplayMozBoxMozInlineBox",

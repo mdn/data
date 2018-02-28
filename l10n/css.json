@@ -1492,5 +1492,8 @@
   },
   "exclusionElements": {
     "en-US": "exclusion elements"
+  },
+  "blockLevelBoxesAndAbsolutelyPositionedBoxesAndGridItems": {
+    "en-US": "block-level boxes, absolutely-positioned boxes, and grid items"
   }
 }
