@@ -4667,6 +4667,21 @@
     "order": "uniqueOrder",
     "status": "standard"
   },
+  "justify-self": {
+    "syntax": "auto | normal | stretch | <baseline-position> | <overflow-position>? [ <self-position> | left | right ]",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Box Alignment Module"
+    ],
+    "initial": "auto",
+    "appliesto": ["gridItemsAndBoxesWithinGridContainer", "boxElements"],
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "standard"
+  },
   "left": {
     "syntax": "<length> | <percentage> | auto",
     "media": "visual",
