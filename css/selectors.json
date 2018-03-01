@@ -273,7 +273,7 @@
     "status": "standard"
   },
   ":matches()": {
-    "syntax": ":matches( selector[, selector]* )",
+    "syntax": ":matches( <selector-list> )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
