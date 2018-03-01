@@ -12,7 +12,7 @@
     "syntax": "scroll-position | contents | <custom-ident>"
   },
   "any-value": {
-    "[!]+"
+    "syntax": "[!]+"
   },
   "attachment": {
     "syntax": "scroll | fixed | local"
