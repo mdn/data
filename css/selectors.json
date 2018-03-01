@@ -272,7 +272,7 @@
     ],
     "status": "standard"
   },
-  ":matches()": {
+  ":matches": {
     "syntax": ":matches( <selector-list> )",
     "groups": [
       "Pseudo-classes",
