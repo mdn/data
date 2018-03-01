@@ -307,7 +307,7 @@
   },
   "ident-token": {
     "syntax": "[0-10FFFF]*"
-  }
+  },
   "image": {
     "syntax": "<url> | <image()> | <image-set()> | <element()> | <cross-fade()> | <gradient>"
   },
@@ -601,7 +601,7 @@
   },
   "ns-prefix": {
     "syntax": "[ <ident-token> | '*' ]? '|'"
-  }
+  },
   "opacity()": {
     "syntax": "opacity( [ <number-percentage> ] )"
   },
