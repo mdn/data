@@ -1467,7 +1467,7 @@
       "CSS Flexible Box Layout"
     ],
     "initial": "auto",
-    "appliesto": "flexItemsAndInFlowPseudos",
+    "appliesto": "flexItemsGridItemsAndAbsolutelyPositionedBoxes",
     "computed": "autoOnAbsolutelyPositionedElementsValueOfAlignItemsOnParent",
     "order": "uniqueOrder",
     "status": "standard"

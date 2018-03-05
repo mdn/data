@@ -405,6 +405,9 @@
     "fr": "éléments flexibles, y compris les pseudo-éléments intégrés dans le flux",
     "ru": "flex-элементы, в том числе в потоке псевдоэлементов"
   },
+  "flexItemsGridItemsAndAbsolutelyPositionedBoxes": {
+    "en-US": "flex items, grid items, and absolutely-positioned boxes"
+  }
   "allElementsUAsNotRequiredWhenCollapse": {
     "en-US": "all elements; but User Agents are not required to apply to <code>table</code> and <code>inline-table</code> elements when {{cssxref(\"border-collapse\")}} is <code>collapse</code>. The behavior on internal table elements is undefined for the moment.",
     "de": "alle Elemente; aber User Agents sind nicht gezwungen dies auf <code>table</code> und <code>inline-table</code> Elemente anzuwenden, falls {{cssxref(\"border-collapse\")}} <code>collapse</code> ist. Das Verhalten bei internen Tabellenelementen ist momentan undefiniert.",
