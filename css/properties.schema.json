@@ -56,7 +56,7 @@
         "referToElementFontSize",
         "referToFlexContainersInnerMainSize",
         "referToHeightOfBackgroundPositioningAreaMinusBackgroundImageHeight",
-        "referToLineBox",
+        "referToLineBoxWidth",
         "referToLineHeight",
         "referToParentElementsFontSize",
         "referToSizeOfBackgroundPositioningAreaMinusBackgroundImageSize",
