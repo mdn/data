@@ -1428,7 +1428,7 @@
     "status": "nonstandard"
   },
   "align-content": {
-    "syntax": "normal | <baseline-position> | <content-distribution> | <overflow-position> ? <content-position>",
+    "syntax": "normal | <baseline-position> | <content-distribution> | <overflow-position>? <content-position>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -4653,7 +4653,7 @@
     "status": "standard"
   },
   "justify-content": {
-    "syntax": "normal | <content-distribution> | <overflow-position> ? [ <content-position> | left | right ]",
+    "syntax": "normal | <content-distribution> | <overflow-position>? [ <content-position> | left | right ]",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
