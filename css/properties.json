@@ -4668,7 +4668,7 @@
     "status": "standard"
   },
   "justify-items": {
-    "syntax": "normal | stretch | <baseline-position> | [ <overflow-position>? <self-position> ] | [ legacy || [ left | right | center ] ]",
+    "syntax": "normal | stretch | <baseline-position> | <overflow-position>? [ <self-position> | left | right ] | legacy | legacy && [ left | right | center ]",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -4679,7 +4679,7 @@
     "initial": "legacy",
     "appliesto": "allElements",
     "computed": "asSpecified",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "standard"
   },
   "left": {
