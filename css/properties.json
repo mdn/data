@@ -4239,8 +4239,8 @@
       "CSS Box Alignment"
     ],
     "initial": [
-      "0",
-      "0"
+      "row-gap",
+      "column-gap"
     ],
     "appliesto": "gridContainers",
     "computed": [
