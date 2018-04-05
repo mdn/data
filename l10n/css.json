@@ -629,6 +629,9 @@
     "fr": "éléments flexibles, y compris les pseudo-éléments intégrés dans le flux",
     "ru": "flex-элементы, в том числе в потоке псевдоэлементов"
   },
+  "flexItemsGridItemsAndAbsolutelyPositionedBoxes": {
+    "en-US": "flex items, grid items, and absolutely-positioned boxes"
+  },
   "floats": {
     "de": "Flusselemente",
     "en-US": "floats",
