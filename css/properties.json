@@ -3387,7 +3387,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "nonstandard"
+    "status": "standard"
   },
   "column-count": {
     "syntax": "<integer> | auto",
