@@ -588,6 +588,14 @@
     ],
     "status": "nonstandard"
   },
+  "::slotted": {
+    "syntax": "::slotted",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors"
+    ],
+    "status": "experimental"
+  },
   "::-webkit-progress-bar": {
     "syntax": "::-webkit-progress-bar",
     "groups": [
