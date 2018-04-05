@@ -192,6 +192,7 @@
         "flexContainers",
         "flexItemsAndAbsolutelyPositionedFlexContainerChildren",
         "flexItemsAndInFlowPseudos",
+        "flexItemsGridItemsAndAbsolutelyPositionedBoxes",
         "floats",
         "gridContainers",
         "gridItemsAndBoxesWithinGridContainer",
