@@ -630,6 +630,90 @@
     "fr": "éléments flexibles, y compris les pseudo-éléments intégrés dans le flux",
     "ru": "flex-элементы, в том числе в потоке псевдоэлементов"
   },
+  "flexItemsGridItemsAndAbsolutelyPositionedBoxes": {
+    "en-US": "flex items, grid items, and absolutely-positioned boxes"
+  },
+  "allElementsUAsNotRequiredWhenCollapse": {
+    "en-US": "all elements; but User Agents are not required to apply to <code>table</code> and <code>inline-table</code> elements when {{cssxref(\"border-collapse\")}} is <code>collapse</code>. The behavior on internal table elements is undefined for the moment.",
+    "de": "alle Elemente; aber User Agents sind nicht gezwungen dies auf <code>table</code> und <code>inline-table</code> Elemente anzuwenden, falls {{cssxref(\"border-collapse\")}} <code>collapse</code> ist. Das Verhalten bei internen Tabellenelementen ist momentan undefiniert.",
+    "fr": "tous les éléments, mais les agents utilisateurs ne sont pas tenus de l'appliquer aux éléments de type <code>table</code> ou <code>inline-table</code> lorsque {{cssxref(\"border-collapse\")}} vaut <code>collapse</code>. Le comportement sur les éléments de type table interne est pour l'instant indéfini.",
+    "ru": "все элементы, но браузеры не применяют к элементам <code>table</code> и <code>inline-table</code>, когда {{cssxref(\"border-collapse\")}}:<code>collapse</code>. Поведение на внутритабличных элементах не определено."
+  },
+  "allElementsExceptTableElementsWhenCollapse": {
+    "en-US": "all elements, except internal table elements when {{cssxref(\"border-collapse\")}} is <code>collapse</code>",
+    "de": "Alle Elemente, außer interne Tabellenelemente, falls {{cssxref(\"border-collapse\")}} <code>collapse</code> ist",
+    "fr": "tous les éléments sauf les éléments de table internes lorsque {{cssxref(\"border-collapse\")}} vaut <code>collapse</code>",
+    "ja": "全要素。ただし <code>border-collapse</code> が <code>collapse</code> のときはテーブル要素内部にあるものを除く",
+    "ru": "все элементы, кроме внутренних табличных элементов, когда {{cssxref(\"border-collapse\")}}:<code>collapse</code>"
+  },
+  "allElementsExceptTableDisplayTypes": {
+    "en-US": "all elements, except elements with table {{cssxref(\"display\")}} types other than <code>table-caption</code>, <code>table</code> and <code>inline-table</code>",
+    "de": "alle Elemente außer Elemente mit Tabellen-{{cssxref(\"display\")}}-Typen, die nicht <code>table-caption</code>, <code>table</code> und <code>inline-table</code> entsprechen",
+    "fr": "tous les éléments exceptés ceux dont les types {{cssxref(\"display\")}} pour les  tableaux ne sont pas <code>table-caption</code>, <code>table</code> et <code>inline-table</code>",
+    "ja": "テーブル系要素を除く全ての要素。ただし、<code>table-caption</code>、<code>table</code>、<code>inline-table</code> には適用できます。",
+    "ru": "все элементы, кроме элементов с табличным типом {{cssxref(\"display\")}}, отличным от <code>table-caption</code>, <code>table</code> и <code>inline-table</code>"
+  },
+  "allElementsExceptInternalTableDisplayTypes": {
+    "en-US": "all elements, except <code>table-row-group</code>, <code>table-header-group</code>, <code>table-footer-group</code>, <code>table-row</code>, <code>table-column-group</code> and <code>table-column</code>",
+    "de": "alle Elemente außer <code>table-row-group</code>, <code>table-header-group</code>, <code>table-footer-group</code>, <code>table-row</code>, <code>table-column-group</code> und <code>table-column</code>",
+    "fr": "tous les éléments exceptés <code>table-row-group</code>, <code>table-header-group</code>, <code>table-footer-group</code>, <code>table-row</code>, <code>table-column-group</code> et <code>table-column</code>",
+    "ru": "все элементы, кроме <code>table-row-group</code>, <code>table-header-group</code>, <code>table-footer-group</code>, <code>table-row</code>, <code>table-column-group</code> и <code>table-column</code>"
+  },
+  "allElementsButNonReplacedAndTableColumns": {
+    "en-US": "all elements but non-replaced inline elements, table columns, and column groups",
+    "de": "alle Elemente außer nicht ersetzte Inlineelemente, Tabellenspalten und Spaltengruppen",
+    "es": "elementos de bloque o remplazados",
+    "fr": "tous les éléments sauf les éléments en ligne non remplacés, les colonnes de tableaux et les groupes de colonnes",
+    "ja": "次の要素を除く全要素：非置換インライン要素、テーブルの列、列グループ",
+    "ru": "все элементы, кроме незаменяемых строчных элементов, табличных колонок и групп колонок"
+  },
+  "allElementsButNonReplacedAndTableRows": {
+    "en-US": "all elements but non-replaced inline elements, table rows, and row groups",
+    "de": "alle Elemente außer nicht ersetzte Inlineelemente, Tabellenzeilen und Zeilengruppen",
+    "fr": "tous les éléments sauf les éléments en ligne non remplacés, les lignes de tableaux et les groupes de lignes",
+    "ru": "все элементы, кроме незаменяемых строчных элементов, табличных строк и групп строк"
+  },
+  "nonReplacedBlockAndInlineBlockElements": {
+    "en-US": "non-replaced block-level elements and non-replaced inline-block elements",
+    "de": "nicht ersetzte Blocklevel Elemente und nicht ersetzte Inlineblock Elemente",
+    "fr": "les éléments de bloc non remplacés et les éléments en bloc en ligne et en bloc (inline-block)",
+    "ja": "非置換ブロックレベル要素と非置換インラインブロック要素",
+    "ru": "не заменяемые блочные и inline-block элементы"
+  },
+  "tableElements": {
+    "en-US": "<code>table</code> and <code>inline-table</code> elements",
+    "de": "<code>table</code>- und <code>inline-table</code>-Elemente",
+    "fr": "des éléments <code>table</code> and <code>inline-table</code>",
+    "ja": "<code>table</code> および <code>inline-table</code> 要素",
+    "ru": "<code>table</code> и <code>inline-table</code> элементы"
+  },
+  "positionedElements": {
+    "en-US": "positioned elements",
+    "de": "positionierte Elemente",
+    "fr": "éléments positionnés",
+    "ja": "配置された要素",
+    "ru": "позиционированные элементы"
+  },
+  "listItems": {
+    "en-US": "list items",
+    "de": "Listenelemente",
+    "fr": "éléments de liste",
+    "ja": " リスト項目",
+    "ru": "список элементов"
+  },
+  "blockContainerElements": {
+    "en-US": "block container elements",
+    "de": "Blockcontainerelemente",
+    "fr": "les éléments conteneurs de blocs",
+    "ja": "ブロックコンテナ要素",
+    "ru": "блочные контейнеры"
+  },
+  "blockElementsInNormalFlow": {
+    "en-US": "block-level elements in the normal flow of the root element. User agents may also apply it to other elements like <code>table-row</code> elements.",
+    "de": "Blocklevelelemente in normalem Fluss des Wurzelelements. User Agents können es auch auf andere Elemente wie <code>table-row</code>-Elemente anwenden.",
+    "fr": "les éléments de bloc dans le flux normal de l'élément racine. Les agents utilisateurs peuvent également l'appliquer sur d'autres éléments comme <code>table-row</code>.",
+    "ru": "блочные элементы в нормальном потоке родительского элемента. Браузеры могут также применять это к другим элементам типа <code>table-row</code>."
+  },
   "floats": {
     "de": "Flusselemente",
     "en-US": "floats",
