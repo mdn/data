@@ -281,7 +281,7 @@
     "descriptors": {
       "bleed": {
         "syntax": "auto | <length>",
-        "media": "visual, paged",
+        "media": ["visual", "paged"],
         "initial": "auto",
         "percentages": "no",
         "computed": "asSpecified",
@@ -290,7 +290,7 @@
       },
       "marks": {
         "syntax": "none | [ crop || cross ]",
-        "media": "visual, paged",
+        "media": ["visual", "paged"],
         "initial": "none",
         "percentages": "no",
         "computed": "asSpecified",
@@ -323,7 +323,7 @@
     "descriptors": {
       "height": {
         "syntax": "<viewport-length>{1,2}",
-        "media": "visual, continuous",
+        "media": ["visual", "continuous"],
         "initial": [
           "min-height",
           "max-height"
@@ -341,7 +341,7 @@
       },
       "max-height": {
         "syntax": "<viewport-length>",
-        "media": "visual, continuous",
+        "media": ["visual", "continuous"],
         "initial": "auto",
         "percentages": "referToHeightOfInitialViewport",
         "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
@@ -350,7 +350,7 @@
       },
       "max-width": {
         "syntax": "<viewport-length>",
-        "media": "visual, continuous",
+        "media": ["visual", "continuous"],
         "initial": "auto",
         "percentages": "referToWidthOfInitialViewport",
         "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
@@ -359,7 +359,7 @@
       },
       "max-zoom": {
         "syntax": "auto | <number> | <percentage>",
-        "media": "visual, continuous",
+        "media": ["visual", "continuous"],
         "initial": "auto",
         "percentages": "the zoom factor itself",
         "computed": "autoNonNegativeOrPercentage",
@@ -368,7 +368,7 @@
       },
       "min-height": {
         "syntax": "<viewport-length>",
-        "media": "visual, continuous",
+        "media": ["visual", "continuous"],
         "initial": "auto",
         "percentages": "referToHeightOfInitialViewport",
         "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
@@ -377,7 +377,7 @@
       },
       "min-width": {
         "syntax": "<viewport-length>",
-        "media": "visual, continuous",
+        "media": ["visual", "continuous"],
         "initial": "auto",
         "percentages": "referToWidthOfInitialViewport",
         "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
@@ -386,7 +386,7 @@
       },
       "min-zoom": {
         "syntax": "auto | <number> | <percentage>",
-        "media": "visual, continuous",
+        "media": ["visual", "continuous"],
         "initial": "auto",
         "percentages": "the zoom factor itself",
         "computed": "autoNonNegativeOrPercentage",
@@ -395,7 +395,7 @@
       },
       "orientation": {
         "syntax": "auto | portrait | landscape",
-        "media": "visual, continuous",
+        "media": ["visual", "continuous"],
         "initial": "auto",
         "percentages": "referToSizeOfBoundingBox",
         "computed": "asSpecified",
@@ -404,7 +404,7 @@
       },
       "user-zoom": {
         "syntax": "zoom | fixed",
-        "media": "visual, continuous",
+        "media": ["visual", "continuous"],
         "initial": "zoom",
         "percentages": "referToSizeOfBoundingBox",
         "computed": "asSpecified",
@@ -413,7 +413,7 @@
       },
       "width": {
         "syntax": "<viewport-length>{1,2}",
-        "media": "visual, continuous",
+        "media": ["visual", "continuous"],
         "initial": [
           "min-width",
           "max-width"
@@ -431,7 +431,7 @@
       },
       "zoom": {
         "syntax": "auto | <number> | <percentage>",
-        "media": "visual, continuous",
+        "media": ["visual", "continuous"],
         "initial": "auto",
         "percentages": "the zoom factor itself",
         "computed": "autoNonNegativeOrPercentage",
