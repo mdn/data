@@ -1495,5 +1495,29 @@
   },
   "zoomForTheTopLevelNoneForTheRest": {
     "en-US": "zoom for the top level element, none for all other elements"
+  },
+  "maxZoomFactor": {
+    "en-US": "The largest allowed zoom factor. A zoom factor of 100% corresponds to no zooming. Larger values zoom in. Smaller values zoom out."
+  },
+  "minZoomFactor": {
+    "en-US": "The smallest allowed zoom factor. A zoom factor of 100% corresponds to no zooming. Larger values zoom in. Smaller values zoom out."
+  },
+  "nonReplacedElements": {
+    "en-US": "non-replaced elements"
+  },
+  "iframeElements": {
+    "en-US": "iframe elements"
+  },
+  "referToLineBoxWidth": {
+    "en-US": "calculated with respect to the width of the line box"
+  },
+  "lengthsAsPercentages": {
+    "en-US": "The lengths may be specified as percentages"
+  },
+  "exclusionElements": {
+    "en-US": "exclusion elements"
+  },
+  "blockLevelBoxesAndAbsolutelyPositionedBoxesAndGridItems": {
+    "en-US": "block-level boxes, absolutely-positioned boxes, and grid items"
   }
 }
