@@ -3607,7 +3607,7 @@
   },
   "cursor": {
     "syntax": "[ [ <url> [ <x> <y> ]? , ]* [ auto | default | none | context-menu | help | pointer | progress | wait | cell | crosshair | text | vertical-text | alias | copy | move | no-drop | not-allowed | e-resize | n-resize | ne-resize | nw-resize | s-resize | se-resize | sw-resize | w-resize | ew-resize | ns-resize | nesw-resize | nwse-resize | col-resize | row-resize | all-scroll | zoom-in | zoom-out | grab | grabbing ] ]",
-    "media": "visual, interactive",
+    "media": ["visual", "interactive"],
     "inherited": true,
     "animationType": "discrete",
     "percentages": "no",
@@ -5783,7 +5783,7 @@
   },
   "outline": {
     "syntax": "[ <'outline-color'> || <'outline-style'> || <'outline-width'> ]",
-    "media": "visual, interactive",
+    "media": ["visual", "interactive"],
     "inherited": false,
     "animationType": [
       "outline-color",
@@ -5810,7 +5810,7 @@
   },
   "outline-color": {
     "syntax": "<color> | invert",
-    "media": "visual, interactive",
+    "media": ["visual", "interactive"],
     "inherited": false,
     "animationType": "color",
     "percentages": "no",
@@ -5825,7 +5825,7 @@
   },
   "outline-offset": {
     "syntax": "<length>",
-    "media": "visual, interactive",
+    "media": ["visual", "interactive"],
     "inherited": false,
     "animationType": "length",
     "percentages": "no",
@@ -5840,7 +5840,7 @@
   },
   "outline-style": {
     "syntax": "auto | <br-style>",
-    "media": "visual, interactive",
+    "media": ["visual", "interactive"],
     "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
@@ -5855,7 +5855,7 @@
   },
   "outline-width": {
     "syntax": "<br-width>",
-    "media": "visual, interactive",
+    "media": ["visual", "interactive"],
     "inherited": false,
     "animationType": "length",
     "percentages": "no",
@@ -6150,7 +6150,7 @@
   },
   "page-break-after": {
     "syntax": "auto | always | avoid | left | right",
-    "media": "visual, paged",
+    "media": ["visual", "paged"],
     "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
@@ -6165,7 +6165,7 @@
   },
   "page-break-before": {
     "syntax": "auto | always | avoid | left | right",
-    "media": "visual, paged",
+    "media": ["visual", "paged"],
     "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
@@ -6180,7 +6180,7 @@
   },
   "page-break-inside": {
     "syntax": "auto | avoid",
-    "media": "visual, paged",
+    "media": ["visual", "paged"],
     "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
