@@ -248,34 +248,17 @@
     "fr": "tous les éléments, mais les agents utilisateurs ne sont pas tenus de l'appliquer aux éléments de type <code>table</code> ou <code>inline-table</code> lorsque {{cssxref(\"border-collapse\")}} vaut <code>collapse</code>. Le comportement sur les éléments de type table interne est pour l'instant indéfini.",
     "ru": "все элементы, но браузеры не применяют к элементам <code>table</code> и <code>inline-table</code>, когда {{cssxref(\"border-collapse\")}}:<code>collapse</code>. Поведение на внутритабличных элементах не определено."
   },
-  "allHTMLElements": {
-    "de": "alle HTML-Elemente",
-    "en-US": "all HTML elements",
-    "fr": "tous les éléments HTML",
-    "ru": "все HTML элементы"
-  },
-  "andInEnumeration": {
-    "de": " und ",
-    "en-US": " and ",
-    "fr": " et ",
-    "ru": " и "
-  },
   "angle": {
     "de": "Winkel",
     "en-US": "angle",
     "fr": "angle",
     "ru": "угол"
   },
-  "angleBasicShapeOrPath": {
-    "de": "{{cssxref(\"<angle>\"}}, {{cssxref(\"<basic-shape>\"}} oder {{cssxref(\"<path()>\"}}",
-    "en-US": "{{cssxref(\"<angle>\"}}, {{cssxref(\"<basic-shape>\"}} or {{cssxref(\"<path()>\"}}",
-    "fr": "{{cssxref(\"<angle>\"}}, {{cssxref(\"<basic-shape>\"}} ou {{cssxref(\"<path()>\"}}"
-  },
   "angleOrBasicShapeOrPath": {
     "de": "als &lt;angle&gt;, &lt;basic-shape&gt; oder &lt;path()&gt;",
     "en-US": "as &lt;angle&gt;, &lt;basic-shape&gt; or &lt;path()&gt;",
     "fr": "comme &lt;angle&gt;, &lt;basic-shape&gt; ou &lt;path()&gt;",
-    "ru": "как &lt;angle&gt;, &lt;basic-shape&gt; или &lt;path()&gt;"
+    "ru": "как &lt;angle&gt;,animationType &lt;basic-shape&gt; или &lt;path()&gt;"
   },
   "angleRoundedToNextQuarter": {
     "de": "ein {{xref_cssangle}}, auf den nächsten Viertel von <code>0deg</code> gerundet (üblicherweise  <code>1turn)</code>",
@@ -306,13 +289,6 @@
     "ru": "Применяется к",
     "zh-CN": "适用元素"
   },
-  "applyingToMultiple": {
-    "de": "$1$. Auch anwendbar auf $2$.",
-    "en-US": "$1$. It also applies to $2$.",
-    "fr": "$1$. S'applique aussi à $2$.",
-    "ja": "$1$。 $2$ にも適用されます。",
-    "ru": "$1$. Это также применяется к $2$."
-  },
   "asAutoOrColor": {
     "de": "<code>auto</code> wird wie angegeben berechnet und <code>&lt;color&gt;</code> Werte werden wie für die {{cssxref(\"color\")}} Eigenschaft berechnet.",
     "en-US": "<code>auto</code> is computed as specified and <code>&lt;color&gt;</code> values are computed as defined for the {{cssxref(\"color\")}} property."
@@ -328,13 +304,6 @@
     "en-US": "as {{cssxref(\"length\")}}",
     "fr": "comme {{cssxref(\"length\")}}",
     "ru": "как {{cssxref(\"length\")}}"
-  },
-  "asLonghands": {
-    "de": "wie die jeweiligen Kurzschreibweisen:",
-    "en-US": "as each of the properties of the shorthand:",
-    "fr": "pour chaque propriété individuelle de la propriété raccourcie&nbsp;:",
-    "ja": "以下の一括指定の各プロパティとして",
-    "ru": "как и у каждого из подсвойств этого свойства:"
   },
   "asSpecified": {
     "de": "wie angegeben",
@@ -417,12 +386,6 @@
     "fr": "<code>auto</code> si spécifié comme <code>auto</code>, sinon un rectangle avec quatre valeurs dont chacune vaut <code>auto</code> si elles sont spécifiées comme <code>auto</code> sinon, la longueur calculée",
     "ja": "auto 指定されていれば auto、それ以外は 4 つの値をともなう矩形。矩形の場合、各値は auto 指定されていれば auto、それ以外では計算値",
     "ru": "<code>auto</code>, если указано как <code>auto</code>, иначе прямоугольник с четырьмя значениями, каждое из которых <code>auto</code>, если указаны как <code>auto</code> или вычисленная длина в противном случае"
-  },
-  "basicShape": {
-    "de": "eine <a href=\"/de/docs/Web/CSS/shape-outside#Interpolation\" title=\"Werte des <basic-shape> CSS Datentyps interpolieren als einfache Liste. Die Listenwerte interpolieren als Länge, Prozentwert oder calc, wo möglich. Falls Listenwerte nicht einem dieser Typen entsprechen, aber identisch sind, werden diese Werte interpoliert.\">einfache Form</a>",
-    "en-US": "a <a href=\"/en-US/docs/Web/CSS/shape-outside#Interpolation\" title=\"Values of the <basic-shape> CSS data type interpolate as a simple list. The list values interpolate as length, percentage, or calc where possible. If list values are not one of those types but are identical, those values do interpolate.\">basic shape</a>",
-    "fr": "une <a href=\"/fr/docs/Web/CSS/shape-outside#Interpolation\" title=\"Les valeurs de type CSS <forme-basique> sont interpolées comme une liste simple. La liste de valeurs interpole la longueur, le pourcentage ou la valeur calculée. Si les valeurs de la liste ne sont pas de ces types mais sont identiques, les valeurs seront interpolées.\">forme basique (<code>basic-shape</code>)</a>",
-    "ru": "<a href=\"/ru/docs/Web/CSS/shape-outside#Interpolation\" title=\"Значения типа <базовая фигура> интерполируются как простой список. Список значений интерполируется как длина, проценты, или расчёт, где возможен. Если список значений не одинакового типа, эти значения интерполируются.\">базовая фигура</a>"
   },
   "basicShapeOtherwiseNo": {
     "de": "ja, wie angegeben für {{cssxref(\"basic-shape\")}}, ansonsten nein",
@@ -537,12 +500,6 @@
     "fr": "continu",
     "ru": "продолжительный"
   },
-  "createsStackingContext": {
-    "de": "Erstellt <a href=\"/de/docs/Web/CSS/CSS_Positioning/z_index_verstehen/Der_Stackingkontext\">Stapelkontext</a>",
-    "en-US": "Creates <a href=\"/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context\">stacking context</a>",
-    "fr": "Crée un <a href=\"/fr/docs/Web/CSS/Comprendre_z-index/L'empilement_de_couches\">contexte d'empilement</a>",
-    "ru": "Создаёт <a href=\"/ru/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context\">контекст наложения</a>"
-  },
   "dependsOnLayoutModel": {
     "de": "hängt vom Layoutmodell ab",
     "en-US": "depends on layout model",
@@ -600,6 +557,9 @@
   },
   "exclusionElements": {
     "en-US": "exclusion elements"
+  },
+  "experimental": {
+    "en-US": "experimental"
   },
   "filterList": {
     "de": "eine <a href=\"/de/docs/Web/CSS/filter#Interpolation\" title=\"Falls beide Filter Funktionslisten gleicher Länge ohne URLs haben, wird jede der Filterfunktionen nach ihren spezifischen Regeln interpoliert. Falls sie unterschiedliche Längen haben, werden die fehlenden äquivalenten Filterfunktionen der längeren Liste unter Verwendung der Standardwerte an das Ende der kürzeren Liste angehängt, anschließend werden alle Filterfunktionen entsprechend ihrer spezifischen Regeln interpoliert. Falls ein Filter 'none' ist, wird er durch die Filterfunktionsliste der anderen unter Verwendung der Standardwerte ersetzt, anschließend werden alle Filterfunktionen entsprechend ihrer spezifischen Regeln interpoliert. Ansonsten wird diskrete Interpolation verwendet.\">Filterfunktionsliste</a>",
@@ -807,13 +767,6 @@
     "ja": " リスト項目",
     "ru": "список элементов"
   },
-  "listSeparator": {
-    "de": ", ",
-    "en-US": ", ",
-    "fr": ", ",
-    "ja": "、",
-    "ru": ", "
-  },
   "logicalHeightOfContainingBlock": {
     "de": "logische Höhe des beinhaltenden Blocks",
     "en-US": "logical-height of containing block",
@@ -832,13 +785,6 @@
     "fr": "$1$, <a href=\"/fr/docs/Web/CSS/percentage#Interpolation\" title=\"Les valeurs du type <pourcentage> sont interpolées comme des nombres réels à virgule flottante.\">pourcentage</a> ou calc()&nbsp;;",
     "ja": "$1$ または <a href=\"/ja/docs/Web/CSS/percentage#Interpolation\" title=\"Values of the <percentage> CSS data type are interpolated as real, floating-point numbers.\">percentage</a>, calc();",
     "ru": "$1$, <a href=\"/ru/docs/Web/CSS/percentage#Interpolation\" title=\"Значения типа данных CSS <проценты> интерполируются как вещественные числа с плавающей запятой.\">проценты</a> или calc();"
-  },
-  "lpcNote": {
-    "de": " wenn beides Längenwerte sind, werden sie als Längenwerte gehandhabt. Wenn beides Prozentsätze sind, werden sie als Prozentsätze gehandhabt. Ansonsten werden beide Werte wie in einer <code>calc()</code> Funktion addiert (Wird ggf. zu Null). Und bei diesen <code>calc()</code> Funktionen wird jede Hälfte als Realzahl interpoliert. ",
-    "en-US": " when both values are lengths, they are interpolated as lengths; when both values are percentages, they are interpolated as percentages; otherwise, both values are converted into a <code>calc()</code> function that is the sum of a length and a percentage (each possibly zero), and these <code>calc()</code> functions have each half interpolated as real numbers. ",
-    "fr": " quand les deux valeurs sont des longueurs, elles sont interpolées comme des longueurs&nbsp;; quand les deux valeurs sont des pourcentages, elles sont interpolées comme des pourcentages ; sinon, les deux valeurs sont converties dans une fonction <code>calc()</code> qui est la somme d'une longueur et d'un pourcentage (chaque valeur pouvant être à zéro), et cette fonction <code>calc()</code> interpole chaque moitié comme un nombre réel. ",
-    "ja": "。両方の値が length の場合は、length 値として補完されます。両方の値が percentage の場合は、percentage 値として補完されます。それ以外の場合は、両方の値が calc() 関数にコンバートされ、length と percentage の合計になります (または各値が 0)。そして、これらの <code>calc()</code> 関数は、それぞれ半分ずつ補完された実数を持ちます",
-    "ru": " когда оба значения являются длинами, они интерполируются как длины; когда оба значения являются процентами, они интерполируются как проценты; в остальных случаях, оба значения преобразуются функцией <code>calc()</code> в сумму длины и процента (каждый из них может быть равен нулю), а затем эта функция интерполирует каждую половину как вещественные числа."
   },
   "maskElements": {
     "de": "{{SVGElement(\"mask\")}} Elemente",
@@ -932,6 +878,9 @@
     "fr": "Il n'y a pas de média pour cela.",
     "ru": "Для этого нет практического применения."
   },
+  "nonstandard": {
+    "en-US": "nonstandard"
+  },
   "normalizedAngle": {
     "de": "normalisierter Winkel",
     "en-US": "normalized angle",
@@ -955,6 +904,9 @@
   "numberOrLength": {
     "en-US": "either number or length",
     "ru": "число или длина"
+  },
+  "obsolete": {
+    "en-US": "obsolete"
   },
   "oneOrTwoValuesLengthAbsoluteKeywordsPercentages": {
     "de": "Einer oder mehrere Werte, mit absolut gemachten Längen und Schlüsselwörtern zu Prozentwerten umgewandelt",
@@ -1236,13 +1188,6 @@
     "ja": "パーセンテージは包含ブロックの高さ基準。包含ブロックの高さが明示されず（＝コンテンツの高さ依存の場合）、この要素が絶対位置指定されていないなら、値は <code>auto</code> になります。ルート要素で高さをパーセンテージ指定すると、初期包含ブロックに相対的になります。",
     "ru": "Процент для генерируемого блока рассчитывается по отношению к высоте содержащего блока. Если высота содержащего блока не задана явно (т.е. зависит от высоты содержимого), и этот этот элемент позиционирован не абсолютно, значение будет <code>auto</code>. Процентная высота на корневом элементе относительна первоначальному блоку."
   },
-  "relatedAtRule": {
-    "de": "Zugehörige <a href=\"/de/docs/Web/CSS/At-Regel\">@-Regel</a>",
-    "en-US": "Related <a href=\"/en-US/docs/Web/CSS/At-rule\">at-rule</a>",
-    "fr": "En lien avec les <a href=\"/fr/docs/Web/CSS/Règles_%40\">règles @</a>",
-    "ja": "関連する <a href=\"/ja/docs/Web/CSS/At-rule\">@規則</a>",
-    "ru": "Связано с <a href=\"/ru/docs/Web/CSS/At-rule\">@-правила</a>"
-  },
   "relativeToBackgroundPositioningArea": {
     "de": "bezieht sich auf den jeweiligen Bereich",
     "en-US": "relative to the background positioning area",
@@ -1257,13 +1202,6 @@
     "en-US": "relative to same axis of the padding-box of the scroll container",
     "fr": "relatif au même axe de la <code>padding-box</code> du conteneur d'ascenceur",
     "ru": "относительно той же оси и внутренних отступов прокручиваемого контейнера"
-  },
-  "repeatableList": {
-    "de": "mehrfache Werte der folgenden Eigenschaften: ",
-    "en-US": "a repeatable list of ",
-    "fr": "une liste répétable de ",
-    "ja": "の反復可能リスト",
-    "ru": "повторяющийся список из "
   },
   "repeatableListOfSimpleListOfLpc": {
     "en-US": "repeatable list of simple list of length, percentage, or calc"
@@ -1341,13 +1279,6 @@
     "ja": "shadow リスト",
     "ru": "<a href=\"/ru/docs/Web/CSS/box-shadow#Interpolation\" title=\"Цвет, абсцисса, ордината, размытие и распространение (если применено) списка теней интерполируются независимо. Если внутреннее значение какой-либо пары теней различается в обоих списках, интерполизуется весь список. Если один список меньше остальных, он дополняется прозрачностью теней со всей их длинной установленной в 0, а его внутреннее значение соответвует длинному списку.\">список теней</a>"
   },
-  "simpleList": {
-    "de": "ein einfacher Wert der folgenden Eigenschaften: ",
-    "en-US": "a simple list of ",
-    "fr": "une simple liste de ",
-    "ja": "の単純なリスト形式$1$",
-    "ru": "простой список из "
-  },
   "simpleListOfLpc": {
     "en-US": "simple list of length, percentage, or calc"
   },
@@ -1377,6 +1308,9 @@
     "fr": "<code>start</code>, ou une valeur non nommée se comportant comme <code>left</code> si {{cssxref(\"direction\")}} est <code>ltr</code>, <code>right</code> si {{cssxref(\"direction\")}} est <code>rtl</code> si <code>start</code> n'est pas supporté par le navigateur",
     "ja": "<code>start</code>。<code>start</code> をサポートしないブラウザでは、{{cssxref(\"direction\", \"文章の方向\")}}が <code>ltr</code> なら <code>left</code>、<code>rtl</code> なら <code>right</code> として動作する無名の値",
     "ru": "<code>start</code>, или неназванное значение, которое действует как <code>left</code>, если {{cssxref(\"direction\")}}: <code>ltr</code> или как <code>right</code>, если {{cssxref(\"direction\")}}: <code>rtl</code>, а если <code>start</code> не поддерживается браузером."
+  },
+  "standard": {
+    "en-US": "standard"
   },
   "tableCaptionElements": {
     "de": "table-caption Elemente",
@@ -1488,15 +1422,10 @@
     "fr": "éléments XUL {{XULElem(\"image\")}} et aux pseudo-éléments {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}} et {{cssxref(\":-moz-tree-checkbox\")}}. <strong>Note&nbsp;:</strong> <code>-moz-image-region</code> ne fonctionnera qu'avec les éléments {{XULElem(\"image\")}} où l'icône est définie avec {{cssxref(\"list-style-image\")}}. Cela ne fonctionnera pas avec l'<code>&lt;image src=\"url\" /&gt;</code> XUL.",
     "ru": "XUL {{XULElem(\"image\")}} элементы и {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}} и {{cssxref(\":-moz-tree-checkbox\")}} псевдоэлементы. <strong>Заметьте:</strong> <code>-moz-image-region</code> работает только с элементами {{XULElem(\"image\")}}, где иконка определяется использованием {{cssxref(\"list-style-image\")}}. Это не будет работать с XUL <code>&lt;image src=\"url\" /&gt;</code>."
   },
-  "yes": {
-    "de": "Ja",
-    "en-US": "yes",
-    "fr": "oui",
-    "ja": "継承する",
-    "pl": "tak",
-    "ru": "да"
-  },
   "zoomForTheTopLevelNoneForTheRest": {
     "en-US": "zoom for the top level element, none for all other elements"
+  },
+  "zoomFactorItself": {
+    "en-US": "the zoom factor itself"
   }
 }

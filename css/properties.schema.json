@@ -1,264 +1,4 @@
 {
-  "definitions": {
-    "propertyList": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "items": {
-        "type": "string",
-        "property-reference": {
-          "comment": "property-reference is an extension to the JSON schema validator. Here it jumps to the root level of the hierarchy and tests if a value is an existing key there (i.e a defined property). See test/validate-schema.js for implementation details.",
-          "$data": "/"
-        }
-      }
-    },
-    "animationType": {
-      "enum": [
-        "angle",
-        "angleOrBasicShapeOrPath",
-        "basicShapeOtherwiseNo",
-        "color",
-        "discrete",
-        "eachOfShorthandPropertiesExceptUnicodeBiDiAndDirection",
-        "filterList",
-        "fontStretch",
-        "fontWeight",
-        "integer",
-        "length",
-        "lpc",
-        "numberOrLength",
-        "number",
-        "position",
-        "rectangle",
-        "repeatableListOfSimpleListOfLpc",
-        "shadowList",
-        "simpleListOfLpc",
-        "transform",
-        "visibility"
-      ]
-    },
-    "percentages": {
-      "enum": [
-        "blockSizeOfContainingBlock",
-        "dependsOnLayoutModel",
-        "inlineSizeOfContainingBlock",
-        "lengthsAsPercentages",
-        "logicalHeightOfContainingBlock",
-        "logicalWidthOfContainingBlock",
-        "maxZoomFactor",
-        "minZoomFactor",
-        "no",
-        "referToBorderBox",
-        "referToContainingBlockHeight",
-        "referToContentWidthOfMulticolElement",
-        "referToDimensionOfBorderBox",
-        "referToDimensionOfContentArea",
-        "referToElementFontSize",
-        "referToFlexContainersInnerMainSize",
-        "referToHeightOfBackgroundPositioningAreaMinusBackgroundImageHeight",
-        "referToLineBoxWidth",
-        "referToLineHeight",
-        "referToParentElementsFontSize",
-        "referToSizeOfBackgroundPositioningAreaMinusBackgroundImageSize",
-        "referToSizeOfBorderImage",
-        "referToSizeOfBoundingBox",
-        "referToSizeOfContainingBlock",
-        "referToSizeOfElement",
-        "referToSizeOfFont",
-        "referToSizeOfMaskBorderImage",
-        "referToSizeOfMaskPaintingArea",
-        "referToTotalPathLength",
-        "referToWidthAndHeightOfElement",
-        "referToWidthOfAffectedGlyph",
-        "referToWidthOfBackgroundPositioningAreaMinusBackgroundImageHeight",
-        "referToWidthOfContainingBlock",
-        "referToWidthOrHeightOfBorderImageArea",
-        "referToReferenceBoxWhenSpecifiedOtherwiseBorderBox",
-        "regardingHeightOfGeneratedBoxContainingBlockPercentages0",
-        "regardingHeightOfGeneratedBoxContainingBlockPercentagesNone",
-        "regardingHeightOfGeneratedBoxContainingBlockPercentagesRelativeToContainingBlock",
-        "relativeToBackgroundPositioningArea",
-        "relativeToMaskBorderImageArea",
-        "relativeToScrollContainerPaddingBoxAxis",
-        "relativeToWidthAndHeight"
-      ]
-    },
-    "computed": {
-      "enum": [
-        "absoluteLength",
-        "absoluteLength0ForNone",
-        "absoluteLength0IfColumnRuleStyleNoneOrHidden",
-        "absoluteLengthOr0IfBorderBottomStyleNoneOrHidden",
-        "absoluteLengthOr0IfBorderLeftStyleNoneOrHidden",
-        "absoluteLengthOr0IfBorderRightStyleNoneOrHidden",
-        "absoluteLengthOr0IfBorderTopStyleNoneOrHidden",
-        "absoluteLengthOrAsSpecified",
-        "absoluteLengthOrKeyword",
-        "absoluteLengthOrNone",
-        "absoluteLengthOrNormal",
-        "absoluteLengthOrPercentage",
-        "absoluteLengthsSpecifiedColorAsSpecified",
-        "absoluteLengthZeroIfBorderStyleNoneOrHidden",
-        "absoluteLengthZeroOrLarger",
-        "absoluteURIOrNone",
-        "angleRoundedToNextQuarter",
-        "asAutoOrColor",
-        "asDefinedForBasicShapeWithAbsoluteURIOtherwiseAsSpecified",
-        "asLength",
-        "asSpecified",
-        "asSpecifiedAppliesToEachProperty",
-        "asSpecifiedExceptMatchParent",
-        "asSpecifiedExceptPositionedFloatingAndRootElementsKeywordMaybeDifferent",
-        "asSpecifiedRelativeToAbsoluteLengths",
-        "asSpecifiedURLsAbsolute",
-        "asSpecifiedWithExceptionOfResolution",
-        "asSpecifiedWithLengthsMadeAbsolute",
-        "asSpecifiedWithVarsSubstituted",
-        "autoOnAbsolutelyPositionedElementsValueOfAlignItemsOnParent",
-        "autoOrRectangle",
-        "colorPlusThreeAbsoluteLengths",
-        "computedColor",
-        "consistsOfTwoDimensionKeywords",
-        "consistsOfTwoKeywordsForOriginAndOffsets",
-        "forLengthAbsoluteValueOtherwisePercentage",
-        "invertForTranslucentColorRGBAOtherwiseRGB",
-        "keywordOrNumericalValueBolderLighterTransformedToRealValue",
-        "keywordPlusIntegerIfDigits",
-        "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
-        "listEachItemConsistingOfAbsoluteLengthPercentageAndOrigin",
-        "listEachItemHasTwoKeywordsOnePerDimension",
-        "listEachItemTwoKeywordsOriginOffsets",
-        "noneOrImageWithAbsoluteURI",
-        "normalizedAngle",
-        "normalOnElementsForPseudosNoneAbsoluteURIStringOrAsSpecified",
-        "oneToFourPercentagesOrAbsoluteLengthsPlusFill",
-        "optimumMinAndMaxValueOfAbsoluteLengthPercentageOrNormal",
-        "optimumValueOfAbsoluteLengthOrNormal",
-        "percentageAsSpecifiedAbsoluteLengthOrNone",
-        "percentageAsSpecifiedOrAbsoluteLength",
-        "percentageAutoOrAbsoluteLength",
-        "percentageOrAbsoluteLengthPlusKeywords",
-        "sameAsBoxOffsets",
-        "sameAsMaxWidthAndMaxHeight",
-        "sameAsMinWidthAndMinHeight",
-        "sameAsWidthAndHeight",
-        "specifiedIntegerOrAbsoluteLength",
-        "specifiedValueClipped0To1",
-        "specifiedValueNumberClipped0To1",
-        "translucentValuesRGBAOtherwiseRGB",
-        "twoAbsoluteLengthOrPercentages",
-        "twoAbsoluteLengths"
-      ]
-    },
-    "appliesto": {
-      "enum": [
-        "absolutelyPositionedElements",
-        "allElements",
-        "allElementsAcceptingWidthOrHeight",
-        "allElementsAndPseudos",
-        "allElementsButNonReplacedAndTableColumns",
-        "allElementsButNonReplacedAndTableRows",
-        "allElementsCreatingNativeWindows",
-        "allElementsExceptGeneratedContentOrPseudoElements",
-        "allElementsExceptInternalTableDisplayTypes",
-        "allElementsExceptNonReplacedInlineElementsTableRowsColumnsRowColumnGroups",
-        "allElementsExceptTableDisplayTypes",
-        "allElementsExceptTableElementsWhenCollapse",
-        "allElementsExceptTableRowColumnGroupsTableRowsColumns",
-        "allElementsExceptTableRowGroupsRowsColumnGroupsAndColumns",
-        "allElementsNoEffectIfDisplayNone",
-        "allElementsSomeValuesNoEffectOnNonInlineElements",
-        "allElementsSVGContainerElements",
-        "allElementsSVGContainerGraphicsAndGraphicsReferencingElements",
-        "allElementsThatCanReferenceImages",
-        "allElementsUAsNotRequiredWhenCollapse",
-        "anyElementEffectOnProgressAndMeter",
-        "beforeAndAfterPseudos",
-        "blockContainerElements",
-        "blockContainers",
-        "blockContainersExceptTableWrappers",
-        "blockElementsInNormalFlow",
-        "blockLevelElements",
-        "blockLevelBoxesAndAbsolutelyPositionedBoxesAndGridItems",
-        "boxElements",
-        "childrenOfBoxElements",
-        "directChildrenOfElementsWithDisplayMozBoxMozInlineBox",
-        "elementsWithDisplayBoxOrInlineBox",
-        "elementsWithDisplayMarker",
-        "elementsWithDisplayMozBoxMozInlineBox",
-        "elementsWithOverflowNotVisibleAndReplacedElements",
-        "exclusionElements",
-        "firstLetterPseudoElementsAndInlineLevelFirstChildren",
-        "flexContainers",
-        "flexItemsAndAbsolutelyPositionedFlexContainerChildren",
-        "flexItemsAndInFlowPseudos",
-        "flexItemsGridItemsAndAbsolutelyPositionedBoxes",
-        "floats",
-        "gridContainers",
-        "gridItemsAndBoxesWithinGridContainer",
-        "iframeElements",
-        "images",
-        "inFlowBlockLevelElements",
-        "inFlowChildrenOfBoxElements",
-        "inlineLevelAndTableCellElements",
-        "listItems",
-        "maskElements",
-        "multicolElements",
-        "multilineFlexContainers",
-        "nonReplacedBlockAndInlineBlockElements",
-        "nonReplacedBlockElements",
-        "nonReplacedElements",
-        "nonReplacedInlineElements",
-        "positionedElements",
-        "replacedElements",
-        "rubyAnnotationsContainers",
-        "rubyBasesAnnotationsBaseAnnotationContainers",
-        "sameAsMargin",
-        "sameAsWidthAndHeight",
-        "scrollContainers",
-        "scrollingBoxes",
-        "tableCaptionElements",
-        "tableCellElements",
-        "tableElements",
-        "textElements",
-        "textFields",
-        "transformableElements",
-        "xulImageElements"
-      ]
-    },
-    "alsoApplyTo": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "items": {
-        "enum": [
-          "::first-letter",
-          "::first-line",
-          "::placeholder"
-        ]
-      }
-    },
-    "order": {
-      "enum": [
-        "canonicalOrder",
-        "lengthOrPercentageBeforeKeywordIfBothPresent",
-        "lengthOrPercentageBeforeKeywords",
-        "oneOrTwoValuesLengthAbsoluteKeywordsPercentages",
-        "orderOfAppearance",
-        "percentagesOrLengthsFollowedByFill",
-        "perGrammar",
-        "uniqueOrder"
-      ]
-    },
-    "status": {
-      "enum": [
-        "standard",
-        "nonstandard",
-        "experimental",
-        "obsolete"
-      ]
-    }
-  },
   "type": "object",
   "additionalProperties": {
     "type": "object",
@@ -289,65 +29,68 @@
       "animationType": {
         "oneOf": [
           {
-            "$ref": "#/definitions/animationType"
+            "$ref": "definitions#/enums/text/animationType"
           },
           {
-            "$ref": "#/definitions/propertyList"
+            "$ref": "definitions#/propertyList"
           }
         ]
       },
       "percentages": {
         "oneOf": [
           {
-            "$ref": "#/definitions/percentages"
+            "$ref": "definitions#/enums/text/percentages"
           },
           {
-            "$ref": "#/definitions/propertyList"
+            "$ref": "definitions#/propertyList"
           }
         ]
       },
       "groups": {
         "type": "array",
-        "minitems": 1,
+        "minItems": 1,
         "uniqueItems": true,
         "items": {
-          "$ref": "definitions.json#/groupList"
+          "$ref": "definitions#/enums/names/groups"
         }
       },
       "initial": {
-        "oneOf": [
+        "anyOf": [
           {
-            "type": "string"
+            "$ref": "definitions#/enums/text/initial"
           },
           {
-            "$ref": "#/definitions/propertyList"
+            "$ref": "definitions#/propertyList"
+          },
+          {
+            "type": "string"
           }
         ]
       },
       "appliesto": {
-        "$ref": "#/definitions/appliesto"
+        "$ref": "definitions#/enums/text/appliesto"
       },
       "alsoAppliesTo": {
-        "$ref": "#/definitions/alsoApplyTo"
+        "$ref": "definitions#/alsoApplyTo"
       },
       "computed": {
         "oneOf": [
           {
-            "$ref": "#/definitions/computed"
+            "$ref": "definitions#/enums/text/computed"
           },
           {
-            "$ref": "#/definitions/propertyList"
+            "$ref": "definitions#/propertyList"
           }
         ]
       },
       "order": {
-        "$ref": "#/definitions/order"
+        "$ref": "definitions#/enums/text/order"
       },
       "stacking": {
         "type": "boolean"
       },
       "status": {
-        "$ref": "#/definitions/status"
+        "$ref": "definitions#/enums/text/status"
       }
     }
   }

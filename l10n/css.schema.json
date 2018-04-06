@@ -1,0 +1,70 @@
+{
+  "type": "object",
+  "propertyNames": {
+    "type": "string",
+    "pattern": "[a-z]+[a-zA-Z0-9]*",
+    "uniqueItems": true,
+    "anyOf": [
+      {
+        "$ref": "definitions#/enums/text/animationType"
+      },
+      {
+        "$ref": "definitions#/enums/text/appliesto"
+      },
+      {
+        "$ref": "definitions#/enums/text/computed"
+      },
+      {
+        "$ref": "definitions#/enums/text/initial"
+      },
+      {
+        "$ref": "definitions#/enums/text/media"
+      },
+      {
+        "$ref": "definitions#/enums/text/order"
+      },
+      {
+        "$ref": "definitions#/enums/text/percentages"
+      },
+      {
+        "$ref": "definitions#/enums/text/status"
+      },
+      {
+        "enum": [
+          "animationType",
+          "appliesTo",
+          "media",
+          "percentages"
+        ]
+      }
+    ]
+  },
+  "patternProperties": {
+    "^.*$": {
+      "additionalProperties": false,
+      "propertyNames": {
+        "uniqueItems": true,
+        "enum": [
+          "de",
+          "en-US",
+          "es",
+          "fr",
+          "ja",
+          "ko",
+          "pl",
+          "pt-BR",
+          "ru",
+          "zh-CN"
+        ]
+      },
+      "patternProperties": {
+        "^.*$": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "en-US"
+      ]
+    }
+  }
+}

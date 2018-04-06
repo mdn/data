@@ -361,7 +361,7 @@
         "syntax": "auto | <number> | <percentage>",
         "media": "visual, continuous",
         "initial": "auto",
-        "percentages": "the zoom factor itself",
+        "percentages": "zoomFactorItself",
         "computed": "autoNonNegativeOrPercentage",
         "order": "uniqueOrder",
         "status": "standard"
@@ -388,7 +388,7 @@
         "syntax": "auto | <number> | <percentage>",
         "media": "visual, continuous",
         "initial": "auto",
-        "percentages": "the zoom factor itself",
+        "percentages": "zoomFactorItself",
         "computed": "autoNonNegativeOrPercentage",
         "order": "uniqueOrder",
         "status": "standard"
@@ -433,7 +433,7 @@
         "syntax": "auto | <number> | <percentage>",
         "media": "visual, continuous",
         "initial": "auto",
-        "percentages": "the zoom factor itself",
+        "percentages": "zoomFactorItself",
         "computed": "autoNonNegativeOrPercentage",
         "order": "uniqueOrder",
         "status": "standard"
