@@ -4411,7 +4411,7 @@
     "appliesto": "gridContainers",
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
-    "status": "standard"
+    "status": "obsolete"
   },
   "grid-column-start": {
     "syntax": "<grid-line>",
@@ -4450,7 +4450,7 @@
       "grid-column-gap"
     ],
     "order": "uniqueOrder",
-    "status": "standard"
+    "status": "obsolete"
   },
   "grid-row": {
     "syntax": "<grid-line> [ / <grid-line> ]?",
@@ -4501,7 +4501,7 @@
     "appliesto": "gridContainers",
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
-    "status": "standard"
+    "status": "obsolete"
   },
   "grid-row-start": {
     "syntax": "<grid-line>",
