@@ -16,7 +16,6 @@
     "minItems": 1,
     "uniqueItems": true,
     "items": {
-      "type": "string",
       "$ref": "properties#/names"
     }
   },
@@ -301,7 +300,6 @@
         ]
       },
       "percentages": {
-        "type": "string",
         "enum": [
           "blockSizeOfContainingBlock",
           "dependsOnLayoutModel",

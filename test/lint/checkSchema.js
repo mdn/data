@@ -6,7 +6,7 @@ var definitions = require('../../css/definitions.json')
 var properties = require('../../css/properties.json')
 
 ajv.addSchema(definitions, 'definitions')
-ajv.addSchema({ names: { type: 'string', enum: Object.keys(properties) } }, 'properties')
+ajv.addSchema({ names: { enum: Object.keys(properties) } }, 'properties')
 
 function checkSchema (dataFilename) {
   var noErrors = true
