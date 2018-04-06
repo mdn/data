@@ -1109,9 +1109,6 @@
     "fr": "fait référence à la hauteur de la zone d'affichage (<i>viewport</i>) initiale",
     "ru": "относятся к высоте изначальной области просмотра"
   },
-  "referToLineBox": {
-    "en-US": "Calculated with respect to the line box"
-  },
   "referToLineBoxWidth": {
     "en-US": "calculated with respect to the width of the line box"
   },
