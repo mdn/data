@@ -384,9 +384,8 @@
     "fr": "telle que spécifiée, sauf avec &lt;resolution&gt; éventuellement modifiée lors du calcul par la valeur 'snap'",
     "ru": "как указано, за исключением &lt;resolution&gt; может изменить значением 'snap'"
   },
-  "asSpecifiedWithLengthsMadeAbsolute": {
-    "de": "wie angegeben, wobei Längen in absolute Werte umgewandelt werden",
-    "en-US": "as specified with lengths made absolute"
+  "asSpecifiedWithLengthsAbsoluteAndNormalComputingToZeroExceptMultiColumn": {
+    "en-US": "as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements"
   },
   "asSpecifiedWithVarsSubstituted": {
     "de": "wie angegeben, wobei Variablen ersetzt werden",
@@ -868,6 +867,9 @@
     "ja": "多段要素",
     "ru": "мультиколоночные элементы"
   },
+  "multiColumnElementsFlexContainersGridContainers": {
+    "en-US": "multi-column elements, flex containers, grid containers"
+  },
   "multilineFlexContainers": {
     "de": "mehrzeilige flexible Container",
     "en-US": "multi-line flex containers",
@@ -1067,10 +1069,6 @@
     "fr": "se rapporte à la hauteur du bloc contenant",
     "ja": "包含ブロックの高さ",
     "ru": "относятся к высоте содержащего блока"
-  },
-  "referToContentWidthOfMulticolElement": {
-    "de": "beziehen sich auf die Inhaltsbreite des mehrspaltigen Elements",
-    "en-US": "refer to the content width of the multi-column element"
   },
   "referToDimensionOfBorderBox": {
     "de": "bezieht sich auf die Größe der Border-Box",

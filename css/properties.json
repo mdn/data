@@ -3420,17 +3420,18 @@
     "status": "standard"
   },
   "column-gap": {
-    "syntax": "<length-percentage> | normal",
+    "syntax": "normal | <length-percentage>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
-    "percentages": "referToContentWidthOfMulticolElement",
+    "percentages": "referToDimensionOfContentArea",
     "groups": [
-      "CSS Columns"
+      "CSS Columns",
+      "CSS Box Alignment"
     ],
     "initial": "normal",
-    "appliesto": "multicolElements",
-    "computed": "asSpecifiedWithLengthsMadeAbsolute",
+    "appliesto": "multiColumnElementsFlexContainersGridContainers",
+    "computed": "asSpecifiedWithLengthsAbsoluteAndNormalComputingToZeroExceptMultiColumn",
     "order": "perGrammar",
     "status": "standard"
   },
@@ -4243,6 +4244,30 @@
     ],
     "status": "standard"
   },
+  "gap": {
+    "syntax": "<'row-gap'> <'column-gap'>?",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "row-gap",
+      "column-gap"
+    ],
+    "percentages": "no",
+    "groups": [
+      "CSS Box Alignment"
+    ],
+    "initial": [
+      "row-gap",
+      "column-gap"
+    ],
+    "appliesto": "gridContainers",
+    "computed": [
+      "row-gap",
+      "column-gap"
+    ],
+    "order": "uniqueOrder",
+    "status": "standard"
+  },
   "grid": {
     "syntax": "<'grid-template'> | <'grid-template-rows'> / [ auto-flow && dense? ] <'grid-auto-columns'>? | [ auto-flow && dense? ] <'grid-auto-rows'>? / <'grid-template-columns'>",
     "media": "visual",
@@ -4265,7 +4290,9 @@
       "grid-auto-columns",
       "grid-auto-flow",
       "grid-column-gap",
-      "grid-row-gap"
+      "grid-row-gap",
+      "column-gap",
+      "row-gap"
     ],
     "appliesto": "gridContainers",
     "computed": [
@@ -4276,7 +4303,9 @@
       "grid-auto-columns",
       "grid-auto-flow",
       "grid-column-gap",
-      "grid-row-gap"
+      "grid-row-gap",
+      "column-gap",
+      "row-gap"
     ],
     "order": "uniqueOrder",
     "status": "standard"
@@ -4400,7 +4429,7 @@
     "appliesto": "gridContainers",
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
-    "status": "standard"
+    "status": "obsolete"
   },
   "grid-column-start": {
     "syntax": "<grid-line>",
@@ -4439,7 +4468,7 @@
       "grid-column-gap"
     ],
     "order": "uniqueOrder",
-    "status": "standard"
+    "status": "obsolete"
   },
   "grid-row": {
     "syntax": "<grid-line> [ / <grid-line> ]?",
@@ -4490,7 +4519,7 @@
     "appliesto": "gridContainers",
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
-    "status": "standard"
+    "status": "obsolete"
   },
   "grid-row-start": {
     "syntax": "<grid-line>",
@@ -6386,6 +6415,21 @@
     "computed": "asSpecified",
     "order": "perGrammar",
     "stacking": true,
+    "status": "standard"
+  },
+  "row-gap": {
+    "syntax": "normal | <length-percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "lpc",
+    "percentages": "referToDimensionOfContentArea",
+    "groups": [
+      "CSS Box Alignment"
+    ],
+    "initial": "normal",
+    "appliesto": "multiColumnElementsFlexContainersGridContainers",
+    "computed": "asSpecifiedWithLengthsAbsoluteAndNormalComputingToZeroExceptMultiColumn",
+    "order": "perGrammar",
     "status": "standard"
   },
   "ruby-align": {
