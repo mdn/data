@@ -54,7 +54,7 @@
       "prefix": {
         "syntax": "<symbol>",
         "media": "all",
-        "initial": "\" \"",
+        "initial": "\"\"",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
