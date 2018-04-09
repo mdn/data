@@ -1434,7 +1434,7 @@
     "ru": "Если значение полупрозрачно, значение будет соответствовать <code>rgba()</code>. А если не будет полупрозрачным, то будет использоваться <code>rgb()</code>. Ключевое слово <code>transparent</code> интерпретируется в <code>rgba(0,0,0,0)</code>."
   },
   "\"\"": {
-    "en-US": "\" \" (the empty string)"
+    "en-US": "\"\" (the empty string)"
   },
   "\". \"": {
     "en-US": "\". \" (full stop followed by a space)"
