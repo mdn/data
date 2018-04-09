@@ -191,8 +191,32 @@
     ],
     "status": "standard"
   },
+  ":focus-visible": {
+    "syntax": ":focus",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "experimental"
+  },
   ":focus-within": {
     "syntax": ":focus-within",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "experimental"
+  },
+  ":host": {
+    "syntax": ":hover",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "experimental"
+  },
+  ":host-context": {
+    "syntax": ":hover",
     "groups": [
       "Pseudo-classes",
       "Selectors"
