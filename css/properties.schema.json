@@ -281,7 +281,35 @@
         "type": "string"
       },
       "media": {
-        "type": "string"
+        "oneOf": [
+          {
+            "type": "string",
+            "enum": [
+              "all",
+              "aural",
+              "continuous",
+              "interactive",
+              "none",
+              "noPracticalMedia",
+              "paged",
+              "visual",
+              "visualInContinuousMediaNoEffectInOverflowColumns"
+            ]
+          },
+          {
+            "type": "array",
+            "minItems": 2,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "enum": [
+                "interactive",
+                "paged",
+                "visual"
+              ]
+            }
+          }
+        ]
       },
       "inherited": {
         "type": "boolean"
