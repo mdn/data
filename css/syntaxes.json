@@ -48,7 +48,7 @@
     "syntax": "normal | multiply | screen | overlay | darken | lighten | color-dodge | color-burn | hard-light | soft-light | difference | exclusion | hue | saturation | color | luminosity"
   },
   "box": {
-    "syntax": "border-box | padding-box | content-box"
+    "syntax": "border-box | padding-box | content-box | text | border"
   },
   "br-style": {
     "syntax": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset"
