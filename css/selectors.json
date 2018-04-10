@@ -192,7 +192,7 @@
     "status": "standard"
   },
   ":focus-visible": {
-    "syntax": ":focus",
+    "syntax": "focus-visible",
     "groups": [
       "Pseudo-classes",
       "Selectors"
@@ -208,7 +208,7 @@
     "status": "experimental"
   },
   ":host": {
-    "syntax": ":hover",
+    "syntax": ":host",
     "groups": [
       "Pseudo-classes",
       "Selectors"
@@ -216,7 +216,7 @@
     "status": "experimental"
   },
   ":host-context": {
-    "syntax": ":hover",
+    "syntax": ":host-context",
     "groups": [
       "Pseudo-classes",
       "Selectors"
