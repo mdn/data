@@ -25,7 +25,7 @@
   },
   "homepage": "https://developer.mozilla.org",
   "devDependencies": {
-    "ajv": "^5.0.1"
+    "ajv": "^6.4.0"
   },
   "scripts": {
     "lint": "node test/lint",

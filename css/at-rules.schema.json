@@ -57,7 +57,7 @@
               ]
             },
             "initial": {
-              "oneOf": [
+              "anyOf": [
                 {
                   "$ref": "definitions#/propertyList"
                 },

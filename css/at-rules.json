@@ -18,7 +18,7 @@
       "additive-symbols": {
         "syntax": "[ <integer> && <symbol> ]#",
         "media": "all",
-        "initial": "N/A",
+        "initial": "notApplicable",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
@@ -54,7 +54,7 @@
       "prefix": {
         "syntax": "<symbol>",
         "media": "all",
-        "initial": "\"\"",
+        "initial": "emptyString",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -81,7 +81,7 @@
       "suffix": {
         "syntax": "<symbol>",
         "media": "all",
-        "initial": "\". \"",
+        "initial": "fullStopFollowedBySpace",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -90,7 +90,7 @@
       "symbols": {
         "syntax": "<symbol>+",
         "media": "all",
-        "initial": "N/A",
+        "initial": "notApplicable",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",

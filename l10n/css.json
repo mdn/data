@@ -258,7 +258,7 @@
     "de": "als &lt;angle&gt;, &lt;basic-shape&gt; oder &lt;path()&gt;",
     "en-US": "as &lt;angle&gt;, &lt;basic-shape&gt; or &lt;path()&gt;",
     "fr": "comme &lt;angle&gt;, &lt;basic-shape&gt; ou &lt;path()&gt;",
-    "ru": "как &lt;angle&gt;,animationType &lt;basic-shape&gt; или &lt;path()&gt;"
+    "ru": "как &lt;angle&gt;, &lt;basic-shape&gt; или &lt;path()&gt;"
   },
   "angleRoundedToNextQuarter": {
     "de": "ein {{xref_cssangle}}, auf den nächsten Viertel von <code>0deg</code> gerundet (üblicherweise  <code>1turn)</code>",
@@ -619,6 +619,12 @@
     "ja": "{{xref_csslength}} の場合は絶対的な値、さもなくばパーセンテージ",
     "ru": "для {{xref_csslength}} абсолютное значение, иначе процент"
   },
+  "emptyString": {
+    "en-US": "\"\" (the empty string)"
+  },
+  "fullStopFollowedBySpace": {
+    "en-US": "\". \" (full stop followed by a space)"
+  },
   "gridContainers": {
     "de": "Gridcontainer",
     "en-US": "grid containers",
@@ -895,6 +901,9 @@
     "fr": "Sur les éléments, le résultat du calcul est toujours <code>normal</code>. Sur {{cssxref(\"::before\")}} et {{cssxref(\"::after\")}}, si <code>normal</code> est spécifié, cela donnera <code>none</code>. Sinon, pour les valeurs d'URI, on aura l'URI absolue ; pour les valeurs <code>attr()</code>, on aura la chaine résultante ; pour les autres mots-clé, ce sera comme spécifié.",
     "ja": "通常要素で使われると常に <code>normal</code>。{{cssxref(\"::before\")}} 及び {{cssxref(\"::after\")}} では: <code>normal</code> の指定があれば計算値は <code>none</code>。指定がなければ、<ul><li>URI 値は、絶対的 URI となる</li><li><code>attr()</code> 値は、計算値の文字列となる</li><li>その他のキーワードについては指定どおり</li></ul>",
     "ru": "На элементах всегда вычисляется как <code>normal</code>. На {{cssxref(\"::before\")}} и {{cssxref(\"::after\")}}, если <code>normal</code> указано, интерпретируется как <code>none</code>. Иначе, для значений URI, абсолютного URI; для значений <code>attr()</code> - результирующая строка; для других ключевых слов, как указано."
+  },
+  "notApplicable": {
+    "en-US": "N/A"
   },
   "number": {
     "de": "<a href=\"/de/docs/Web/CSS/number#Interpolation\">Nummer</a>",
@@ -1366,12 +1375,6 @@
     "fr": "si la valeur est translucide, la valeur calculée est la fonction <code>rgba()</code>correspondante. Sinon, la fonction <code>rgb()</code>correspondante. Le mot-clé <code>transparent</code> devient <code>rgb(0,0,0)</code>.",
     "ja": "半透明の値なら、計算値はそれに対応する <code>rgba()</code>。さもなくばその値に対応する <code>rgb()</code>。<code>transparent</code> キーワードは <code>rgba(0,0,0,0)</code> にマップされます。",
     "ru": "Если значение полупрозрачно, значение будет соответствовать <code>rgba()</code>. А если не будет полупрозрачным, то будет использоваться <code>rgb()</code>. Ключевое слово <code>transparent</code> интерпретируется в <code>rgba(0,0,0,0)</code>."
-  },
-  "\"\"": {
-    "en-US": "\"\" (the empty string)"
-  },
-  "\". \"": {
-    "en-US": "\". \" (full stop followed by a space)"
   },
   "twoAbsoluteLengthOrPercentages": {
     "de": "zwei absolute {{cssxref(\"length\")}} oder {{cssxref(\"percentage\")}}",
