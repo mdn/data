@@ -187,7 +187,7 @@
   "allElementsExceptTableDisplayTypes": {
     "de": "alle Elemente außer Elemente mit Tabellen-{{cssxref(\"display\")}}-Typen, die nicht <code>table-caption</code>, <code>table</code> und <code>inline-table</code> entsprechen",
     "en-US": "all elements, except elements with table {{cssxref(\"display\")}} types other than <code>table-caption</code>, <code>table</code> and <code>inline-table</code>",
-    "fr": "tous les éléments exceptés ceux dont les types {{cssxref(\"display\")}} pour les  tableaux ne sont pas <code>table-caption</code>, <code>table</code> et <code>inline-table</code>",
+    "fr": "tous les éléments exceptés ceux dont les types {{cssxref(\"display\")}} pour les tableaux ne sont pas <code>table-caption</code>, <code>table</code> et <code>inline-table</code>",
     "ja": "テーブル系要素を除く全ての要素。ただし、<code>table-caption</code>、<code>table</code>、<code>inline-table</code> には適用できます。",
     "ru": "все элементы, кроме элементов с табличным типом {{cssxref(\"display\")}}, отличным от <code>table-caption</code>, <code>table</code> и <code>inline-table</code>"
   },
@@ -263,7 +263,7 @@
   "angleRoundedToNextQuarter": {
     "de": "ein {{xref_cssangle}}, auf den nächsten Viertel von <code>0deg</code> gerundet (üblicherweise  <code>1turn)</code>",
     "en-US": "an {{xref_cssangle}}, rounded to the next quarter turn from <code>0deg</code> and normalized, that is moduloing the value by <code>1turn</code>",
-    "fr": "un  {{xref_cssangle}}, arrondi au quart de tour supérieur (à partir de <code>0deg</code>) puis normalisé (modulo) pour obtenir l'angle relatif à un tour",
+    "fr": "un {{xref_cssangle}}, arrondi au quart de tour supérieur (à partir de <code>0deg</code>) puis normalisé (modulo) pour obtenir l'angle relatif à un tour",
     "ru": "{{xref_cssangle}}, с округлением до следующей четверти оборота от <code>0deg</code> и нормализованный так, что значение - <code>1 поворот</code>"
   },
   "animationType": {
@@ -296,7 +296,7 @@
   "asDefinedForBasicShapeWithAbsoluteURIOtherwiseAsSpecified": {
     "de": "wie definiert für {{cssxref(\"basic-shape\")}} (gefolgt von {{cssxref(\"shape-box\")}}, falls angegeben), dem {{cssxref(\"image\")}}, dessen URI absolut gemacht wurde, ansonsten wie angegeben.",
     "en-US": "as defined for {{cssxref(\"basic-shape\")}} (with {{cssxref(\"shape-box\")}} following, if supplied), the {{cssxref(\"image\")}} with its URI made absolute, otherwise as specified.",
-    "fr": "comme défini pour  {{cssxref(\"basic-shape\")}} (avec {{cssxref(\"shape-box\")}} qui suit s'il est utilisé), l'{{cssxref(\"image\")}} avec son URI rendue absolue, sinon, comme spécifié.",
+    "fr": "comme défini pour {{cssxref(\"basic-shape\")}} (avec {{cssxref(\"shape-box\")}} qui suit s'il est utilisé), l'{{cssxref(\"image\")}} avec son URI rendue absolue, sinon, comme spécifié.",
     "ru": "как определено для {{cssxref(\"basic-shape\")}} (c {{cssxref(\"shape-box\")}} последующим, если передается),  {{cssxref(\"image\")}} с его абсолютным URI, если другое не указано"
   },
   "asLength": {
@@ -353,9 +353,8 @@
     "fr": "telle que spécifiée, sauf avec &lt;resolution&gt; éventuellement modifiée lors du calcul par la valeur 'snap'",
     "ru": "как указано, за исключением &lt;resolution&gt; может изменить значением 'snap'"
   },
-  "asSpecifiedWithLengthsMadeAbsolute": {
-    "de": "wie angegeben, wobei Längen in absolute Werte umgewandelt werden",
-    "en-US": "as specified with lengths made absolute"
+  "asSpecifiedWithLengthsAbsoluteAndNormalComputingToZeroExceptMultiColumn": {
+    "en-US": "as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements"
   },
   "asSpecifiedWithVarsSubstituted": {
     "de": "wie angegeben, wobei Variablen ersetzt werden",
@@ -569,7 +568,7 @@
   "firstLetterPseudoElementsAndInlineLevelFirstChildren": {
     "de": "{{cssxref(\"::first-letter\")}} Pseudoelemente und Inline-Level-Elemente, die die ersten Kinder eines Blockcontainers sind",
     "en-US": "{{cssxref(\"::first-letter\")}} pseudo-elements and inline-level first child of a block container",
-    "fr": "pseudo-éléments {{cssxref(\"::first-letter\")}}  et le premier fils, en ligne (<i>inline</inline>) d'un conteneur de bloc",
+    "fr": "pseudo-éléments {{cssxref(\"::first-letter\")}} et le premier fils, en ligne (<i>inline</i>) d'un conteneur de bloc",
     "ru": "{{cssxref(\"::first-letter\")}} псевдоэлементы и первые строчные потомки блока"
   },
   "flexContainers": {
@@ -780,7 +779,7 @@
     "ru": "логическая высота содержащего блока"
   },
   "lpc": {
-    "de": "$1$, <a href=\"/de/docs/Web/CSS/percentage#Interpolation\">Prozentsatz</a> oder  <a href=\"/de/docs/Web/CSS/calc\"><code>calc()</code></a>;",
+    "de": "$1$, <a href=\"/de/docs/Web/CSS/percentage#Interpolation\">Prozentsatz</a> oder <a href=\"/de/docs/Web/CSS/calc\"><code>calc()</code></a>;",
     "en-US": "$1$, <a href=\"/en-US/docs/Web/CSS/percentage#Interpolation\" title=\"Values of the <percentage> CSS data type are interpolated as real, floating-point numbers.\">percentage</a> or calc();",
     "fr": "$1$, <a href=\"/fr/docs/Web/CSS/percentage#Interpolation\" title=\"Les valeurs du type <pourcentage> sont interpolées comme des nombres réels à virgule flottante.\">pourcentage</a> ou calc()&nbsp;;",
     "ja": "$1$ または <a href=\"/ja/docs/Web/CSS/percentage#Interpolation\" title=\"Values of the <percentage> CSS data type are interpolated as real, floating-point numbers.\">percentage</a>, calc();",
@@ -813,6 +812,9 @@
     "fr": "éléments sur plusieurs colonnes",
     "ja": "多段要素",
     "ru": "мультиколоночные элементы"
+  },
+  "multiColumnElementsFlexContainersGridContainers": {
+    "en-US": "multi-column elements, flex containers, grid containers"
   },
   "multilineFlexContainers": {
     "de": "mehrzeilige flexible Container",
@@ -1019,10 +1021,6 @@
     "fr": "se rapporte à la hauteur du bloc contenant",
     "ja": "包含ブロックの高さ",
     "ru": "относятся к высоте содержащего блока"
-  },
-  "referToContentWidthOfMulticolElement": {
-    "de": "beziehen sich auf die Inhaltsbreite des mehrspaltigen Elements",
-    "en-US": "refer to the content width of the multi-column element"
   },
   "referToDimensionOfBorderBox": {
     "de": "bezieht sich auf die Größe der Border-Box",
@@ -1368,6 +1366,12 @@
     "fr": "si la valeur est translucide, la valeur calculée est la fonction <code>rgba()</code>correspondante. Sinon, la fonction <code>rgb()</code>correspondante. Le mot-clé <code>transparent</code> devient <code>rgb(0,0,0)</code>.",
     "ja": "半透明の値なら、計算値はそれに対応する <code>rgba()</code>。さもなくばその値に対応する <code>rgb()</code>。<code>transparent</code> キーワードは <code>rgba(0,0,0,0)</code> にマップされます。",
     "ru": "Если значение полупрозрачно, значение будет соответствовать <code>rgba()</code>. А если не будет полупрозрачным, то будет использоваться <code>rgb()</code>. Ключевое слово <code>transparent</code> интерпретируется в <code>rgba(0,0,0,0)</code>."
+  },
+  "\"\"": {
+    "en-US": "\"\" (the empty string)"
+  },
+  "\". \"": {
+    "en-US": "\". \" (full stop followed by a space)"
   },
   "twoAbsoluteLengthOrPercentages": {
     "de": "zwei absolute {{cssxref(\"length\")}} oder {{cssxref(\"percentage\")}}",
