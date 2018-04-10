@@ -6211,7 +6211,7 @@
     "status": "standard"
   },
   "page-break-after": {
-    "syntax": "auto | always | avoid | left | right",
+    "syntax": "auto | always | avoid | left | right | recto | verso",
     "media": [
       "visual",
       "paged"
@@ -6229,7 +6229,7 @@
     "status": "standard"
   },
   "page-break-before": {
-    "syntax": "auto | always | avoid | left | right",
+    "syntax": "auto | always | avoid | left | right | recto | verso",
     "media": [
       "visual",
       "paged"
