@@ -5931,7 +5931,7 @@
     "status": "standard"
   },
   "overflow": {
-    "syntax": "visible | hidden | scroll | auto",
+    "syntax": "visible | hidden | clip | scroll | auto",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -5976,7 +5976,7 @@
     "status": "standard"
   },
   "overflow-x": {
-    "syntax": "visible | hidden | scroll | auto",
+    "syntax": "visible | hidden | clip | scroll | auto",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -5991,7 +5991,7 @@
     "status": "standard"
   },
   "overflow-y": {
-    "syntax": "visible | hidden | scroll | auto",
+    "syntax": "visible | hidden | clip | scroll | auto",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
