@@ -175,6 +175,7 @@
         "beforeAndAfterPseudos",
         "blockContainerElements",
         "blockContainers",
+        "blockContainersExceptMultiColumnContainers",
         "blockContainersExceptTableWrappers",
         "blockElementsInNormalFlow",
         "blockLevelElements",

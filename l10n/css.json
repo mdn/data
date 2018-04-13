@@ -451,6 +451,9 @@
     "ja": "ブロックコンテナ",
     "ru": "блочные контейнеры"
   },
+  "blockContainersExceptMultiColumnContainers": {
+    "en-US": "Block containers except multi-column containers"
+  },
   "blockContainersExceptTableWrappers": {
     "de": "Blockcontainer außer Tabellen umgebende Boxen",
     "en-US": "Block containers except table wrapper boxes"
