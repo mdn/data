@@ -416,6 +416,9 @@
   "overflow-position": {
     "syntax": "unsafe | safe"
   },
+  "outline-radius": {
+    "syntax": "<length> | <percentage>"
+  },
   "page-body": {
     "syntax": "<declaration>? [ ; <page-body> ]? | <page-margin-box> <page-body>"
   },
