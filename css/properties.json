@@ -1500,6 +1500,21 @@
     "order": "uniqueOrder",
     "status": "nonstandard"
   },
+  "-webkit-user-modify": {
+    "syntax": "read-only | read-write | read-write-plaintext-only",
+    "media": "interactive",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "WebKit Extensions"
+    ],
+    "initial": "read-only",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
   "align-content": {
     "syntax": "normal | <baseline-position> | <content-distribution> | <overflow-position>? <content-position>",
     "media": "visual",
