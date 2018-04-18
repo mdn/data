@@ -5945,6 +5945,21 @@
     "order": "uniqueOrder",
     "status": "standard"
   },
+  "overflow-anchor": {
+    "syntax": "auto | none",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Anchoring"
+    ],
+    "initial": "auto",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental"
+  },
   "overflow-clip-box": {
     "syntax": "padding-box | content-box",
     "media": "visual",
