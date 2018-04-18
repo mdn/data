@@ -188,7 +188,7 @@
     "groups": [
       "Microsoft Extensions"
     ],
-    "initial": "\"\"",
+    "initial": "emptyString",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",

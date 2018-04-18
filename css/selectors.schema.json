@@ -9,18 +9,14 @@
       },
       "groups": {
         "type": "array",
-        "minitems": 1,
+        "minItems": 1,
         "uniqueItems": true,
         "items": {
-          "$ref": "definitions.json#/groupList"
+          "$ref": "definitions#/enums/names/groups"
         }
       },
       "status": {
-        "enum": [
-          "standard",
-          "nonstandard",
-          "experimental"
-        ]
+        "$ref": "definitions#/enums/text/status"
       }
     },
     "required": [
