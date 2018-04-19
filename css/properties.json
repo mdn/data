@@ -1193,7 +1193,7 @@
     "status": "nonstandard"
   },
   "-webkit-mask": {
-    "syntax": "<mask-image> [ <'-webkit-mask-repeat'> || <'-webkit-mask-attachment'> || <'-webkit-mask-position'> || <'-webkit-mask-origin'> || <'-webkit-mask-clip'> ]*",
+    "syntax": "[ <mask-reference> || <position> [ / <bg-size> ]? || <repeat-style> || [ <box> | border | padding | content | text ] || [ <box> | border | padding | content ] ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -1222,7 +1222,7 @@
     "status": "nonstandard"
   },
   "-webkit-mask-attachment": {
-    "syntax": "<attachment> [, <attachment> ]*",
+    "syntax": "<attachment>#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -1237,7 +1237,7 @@
     "status": "nonstandard"
   },
   "-webkit-mask-clip": {
-    "syntax": "[ border | border-box | padding | padding-box | content | content-box | text ]#",
+    "syntax": "[ <box> | border | padding | content | text ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -1252,7 +1252,7 @@
     "status": "nonstandard"
   },
   "-webkit-mask-composite": {
-    "syntax": "<composite-style> [, <composite-style> ]*",
+    "syntax": "<composite-style>#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -1267,7 +1267,7 @@
     "status": "nonstandard"
   },
   "-webkit-mask-image": {
-    "syntax": "<mask-image> [, <mask-image> ]*",
+    "syntax": "<mask-reference>#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -1282,7 +1282,7 @@
     "status": "nonstandard"
   },
   "-webkit-mask-origin": {
-    "syntax": "[ padding | border | content ] [, [ border | padding | content ] ]*",
+    "syntax": "[ <box> | border | padding | content ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -1297,7 +1297,7 @@
     "status": "nonstandard"
   },
   "-webkit-mask-position": {
-    "syntax": "<mask-position>#",
+    "syntax": "<position>#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -1342,7 +1342,7 @@
     "status": "nonstandard"
   },
   "-webkit-mask-repeat": {
-    "syntax": "<repeat-style> [, <repeat-style> ]*",
+    "syntax": "<repeat-style>#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
