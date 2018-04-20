@@ -1382,6 +1382,21 @@
     ],
     "initial": "repeat",
     "appliesto": "allElements",
+    "computed": "absoluteLengthOrPercentage",
+    "order": "orderOfAppearance",
+    "status": "nonstandard"
+  },
+  "-webkit-mask-size": {
+    "syntax": "<bg-size>#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "relativeToBackgroundPositioningArea",
+    "groups": [
+      "WebKit Extensions"
+    ],
+    "initial": "auto auto",
+    "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "status": "nonstandard"
