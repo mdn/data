@@ -6000,7 +6000,7 @@
       "CSS Overflow"
     ],
     "initial": "visible",
-    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "appliesto": "blockContainersFlexContainersGridContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "standard"
@@ -6030,7 +6030,7 @@
       "CSS Overflow"
     ],
     "initial": "auto",
-    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "appliesto": "blockContainersFlexContainersGridContainers",
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "experimental"
@@ -6060,7 +6060,7 @@
       "CSS Overflow"
     ],
     "initial": "auto",
-    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "appliesto": "blockContainersFlexContainersGridContainers",
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "experimental"
@@ -6090,7 +6090,7 @@
       "CSS Overflow"
     ],
     "initial": "visible",
-    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "appliesto": "blockContainersFlexContainersGridContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "standard"
@@ -6105,7 +6105,7 @@
       "CSS Overflow"
     ],
     "initial": "visible",
-    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "appliesto": "blockContainersFlexContainersGridContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "standard"

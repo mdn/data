@@ -458,6 +458,9 @@
     "de": "Blockcontainer außer Tabellen umgebende Boxen",
     "en-US": "Block containers except table wrapper boxes"
   },
+  "blockContainersFlexContainersGridContainers": {
+    "en-US": "Block-containers, flex containers, and grid containers"
+  },
   "blockElementsInNormalFlow": {
     "de": "Blocklevelelemente in normalem Fluss des Wurzelelements. User Agents können es auch auf andere Elemente wie <code>table-row</code>-Elemente anwenden.",
     "en-US": "block-level elements in the normal flow of the root element. User agents may also apply it to other elements like <code>table-row</code> elements.",
