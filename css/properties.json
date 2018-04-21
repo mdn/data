@@ -5991,7 +5991,7 @@
     "status": "standard"
   },
   "overflow": {
-    "syntax": "visible | hidden | clip | scroll | auto",
+    "syntax": "[ visible | hidden | clip | scroll | auto ]{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
