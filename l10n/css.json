@@ -451,9 +451,15 @@
     "ja": "ブロックコンテナ",
     "ru": "блочные контейнеры"
   },
+  "blockContainersExceptMultiColumnContainers": {
+    "en-US": "Block containers except multi-column containers"
+  },
   "blockContainersExceptTableWrappers": {
     "de": "Blockcontainer außer Tabellen umgebende Boxen",
     "en-US": "Block containers except table wrapper boxes"
+  },
+  "blockContainersFlexContainersGridContainers": {
+    "en-US": "Block-containers, flex containers, and grid containers"
   },
   "blockElementsInNormalFlow": {
     "de": "Blocklevelelemente in normalem Fluss des Wurzelelements. User Agents können es auch auf andere Elemente wie <code>table-row</code>-Elemente anwenden.",

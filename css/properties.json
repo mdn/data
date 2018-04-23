@@ -2047,6 +2047,21 @@
     ],
     "status": "standard"
   },
+  "block-overflow": {
+    "syntax": "clip | ellipsis | <string>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Overflow"
+    ],
+    "initial": "clip",
+    "appliesto": "blockContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental"
+  },
   "block-size": {
     "syntax": "<'width'>",
     "media": "visual",
@@ -4881,6 +4896,21 @@
     "order": "uniqueOrder",
     "status": "standard"
   },
+  "line-clamp": {
+    "syntax": "none | <integer>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "integer",
+    "percentages": "no",
+    "groups": [
+      "CSS Overflow"
+    ],
+    "initial": "none",
+    "appliesto": "blockContainersExceptMultiColumnContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental"
+  },
   "line-height": {
     "syntax": "normal | <number> | <length> | <percentage>",
     "media": "visual",
@@ -5499,6 +5529,21 @@
     "order": "uniqueOrder",
     "status": "experimental"
   },
+  "max-lines": {
+    "syntax": "none | <integer>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "integer",
+    "percentages": "no",
+    "groups": [
+      "CSS Overflow"
+    ],
+    "initial": "none",
+    "appliesto": "blockContainersExceptMultiColumnContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental"
+  },
   "max-width": {
     "syntax": "<length> | <percentage> | none | max-content | min-content | fit-content | fill-available",
     "media": "visual",
@@ -5946,16 +5991,16 @@
     "status": "standard"
   },
   "overflow": {
-    "syntax": "visible | hidden | clip | scroll | auto",
+    "syntax": "[ visible | hidden | clip | scroll | auto ]{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Overflow"
     ],
     "initial": "visible",
-    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "appliesto": "blockContainersFlexContainersGridContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "standard"
@@ -5975,6 +6020,21 @@
     "order": "perGrammar",
     "status": "experimental"
   },
+  "overflow-block": {
+    "syntax": "<'overflow'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Overflow"
+    ],
+    "initial": "auto",
+    "appliesto": "blockContainersFlexContainersGridContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental"
+  },
   "overflow-clip-box": {
     "syntax": "padding-box | content-box",
     "media": "visual",
@@ -5989,6 +6049,21 @@
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "nonstandard"
+  },
+  "overflow-inline": {
+    "syntax": "<'overflow'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Overflow"
+    ],
+    "initial": "auto",
+    "appliesto": "blockContainersFlexContainersGridContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental"
   },
   "overflow-wrap": {
     "syntax": "normal | break-word",
@@ -6012,10 +6087,10 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Overflow"
     ],
     "initial": "visible",
-    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "appliesto": "blockContainersFlexContainersGridContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "standard"
@@ -6027,10 +6102,10 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Overflow"
     ],
     "initial": "visible",
-    "appliesto": "nonReplacedBlockAndInlineBlockElements",
+    "appliesto": "blockContainersFlexContainersGridContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "standard"
