@@ -4725,7 +4725,7 @@
     "appliesto": "allElements",
     "computed": "asSpecifiedWithExceptionOfResolution",
     "order": "uniqueOrder",
-    "status": "standard"
+    "status": "experimental"
   },
   "ime-mode": {
     "syntax": "auto | normal | active | inactive | disabled",
