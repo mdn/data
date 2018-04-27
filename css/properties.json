@@ -6550,7 +6550,7 @@
     "appliesto": "rubyBasesAnnotationsBaseAnnotationContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "standard"
+    "status": "experimental"
   },
   "ruby-merge": {
     "syntax": "separate | collapse | auto",
@@ -6565,7 +6565,7 @@
     "appliesto": "rubyAnnotationsContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "standard"
+    "status": "experimental"
   },
   "ruby-position": {
     "syntax": "over | under | inter-character",
@@ -6580,7 +6580,7 @@
     "appliesto": "rubyAnnotationsContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "standard"
+    "status": "experimental"
   },
   "scale": {
     "syntax": "none | <number>{1,3}",
