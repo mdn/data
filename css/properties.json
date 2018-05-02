@@ -6794,7 +6794,7 @@
     "status": "standard"
   },
   "text-align": {
-    "syntax": "start | end | left | right | center | justify | match-parent",
+    "syntax": "start | end | left | right | center | justify | justify-all | match-parent",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
