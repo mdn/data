@@ -150,7 +150,7 @@
     "syntax": "inline-block | inline-list-item | inline-table | inline-flex | inline-grid"
   },
   "display-listitem": {
-    "syntax": "list-item && <display-outside>? && [ flow | flow-root ]?"
+    "syntax": "<display-outside>? && [ flow | flow-root ]? && list-item"
   },
   "display-outside": {
     "syntax": "block | inline | run-in"
