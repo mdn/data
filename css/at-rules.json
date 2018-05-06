@@ -120,7 +120,7 @@
     "status": "nonstandard"
   },
   "@font-face": {
-    "syntax": "@font-face {\n  [ font-family: <family-name>; ] ||\n  [ src: [ <url> [ format(<string>#) ]? | <font-face-name> ]#; ] ||\n  [ unicode-range: <urange>#; ] ||\n  [ font-variant: <font-variant>; ] ||\n  [ font-feature-settings: normal | <feature-tag-value>#; ] ||\n  [ font-variation-settings: normal | [ <string> <number>] # ||\n [ font-stretch: <font-stretch>; ] ||\n  [ font-weight: <weight>; ] ||\n  [ font-style: <style>; ]\n}",
+    "syntax": "@font-face {\n  [ font-family: <family-name>; ] ||\n  [ src: <src>; ] ||\n  [ unicode-range: <unicode-range>; ] ||\n  [ font-variant: <font-variant>; ] ||\n  [ font-feature-settings: <font-feature-settings>; ] ||\n  [ font-variation-settings: <font-variation-settings>; ] ||\n  [ font-stretch: <font-stretch>; ] ||\n  [ font-weight: <font-weight>; ] ||\n  [ font-style: <font-style>; ]\n}",
     "interfaces": [
       "CSSFontFaceRule"
     ],
@@ -156,7 +156,7 @@
         "status": "standard"
       },
       "font-variation-settings": {
-        "syntax": "normal | [ <string> <number>] #",
+        "syntax": "normal | [ <string> <number> ]#",
         "media": "all",
         "initial": "normal",
         "percentages": "no",
@@ -201,7 +201,7 @@
         "status": "standard"
       },
       "src": {
-        "syntax": "[ <url> format(<string>#)? | local(<family-name>) ]#",
+        "syntax": "[ <url> [ format( <string># ) ]? | local( <family-name> ) ]#",
         "media": "all",
         "initial": "n/a (required)",
         "percentages": "no",
