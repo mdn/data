@@ -258,10 +258,10 @@
     "syntax": "[ historical-ligatures | no-historical-ligatures ]"
   },
   "hsl()": {
-    "syntax": "hsl( [ <hue> <percentage> <percentage> [ / <alpha-value> ]? ] | [ <hue>, <percentage>, <percentage>, <alpha-value>? ] )"
+    "syntax": "hsl( <hue> <percentage> <percentage> [ / <alpha-value> ]? ) | hsl( <hue>, <percentage>, <percentage>, <alpha-value>? )"
   },
   "hsla()": {
-    "syntax": "hsla( [ <hue> <percentage> <percentage> [ / <alpha-value> ]? ] | [ <hue>, <percentage>, <percentage>, <alpha-value>? ] )"
+    "syntax": "hsla( <hue> <percentage> <percentage> [ / <alpha-value> ]? ) | hsla( <hue>, <percentage>, <percentage>, <alpha-value>? )"
   },
   "hue": {
     "syntax": "<number> | <angle>"
@@ -465,10 +465,10 @@
     "syntax": "repeating-radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )"
   },
   "rgb()": {
-    "syntax": "rgb( [ [ <percentage>{3} | <number>{3} ] [ / <alpha-value> ]? ] | [ [ <percentage>#{3} | <number>#{3} ] , <alpha-value>? ] )"
+    "syntax": "rgb( <percentage>{3} [ / <alpha-value> ]? ) | rgb( <number>{3} [ / <alpha-value> ]? ) | rgb( <percentage>#{3} , <alpha-value>? ) | rgb( <number>#{3} , <alpha-value>? )"
   },
   "rgba()": {
-    "syntax": "rgba( [ [ <percentage>{3} | <number>{3} ] [ / <alpha-value> ]? ] | [ [ <percentage>#{3} | <number>#{3} ] , <alpha-value>? ] )"
+    "syntax": "rgba( <percentage>{3} [ / <alpha-value> ]? ) | rgba( <number>{3} [ / <alpha-value> ]? ) | rgba( <percentage>#{3} , <alpha-value>? ) | rgba( <number>#{3} , <alpha-value>? )"
   },
   "rotate()": {
     "syntax": "rotate( <angle> )"
