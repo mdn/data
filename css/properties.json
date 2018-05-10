@@ -3994,6 +3994,26 @@
     ],
     "status": "standard"
   },
+  "font-optical-sizing": {
+    "syntax": "auto | none",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Fonts"
+    ],
+    "initial": "auto",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter",
+      "::first-line",
+      "::placeholder"
+    ],
+    "status": "standard"
+  },
   "font-variation-settings": {
     "syntax": "normal | [ <string> <number> ]#",
     "media": "visual",
