@@ -4932,7 +4932,7 @@
     "status": "standard"
   },
   "line-height-step": {
-    "syntax": "none | <length>",
+    "syntax": "<length>",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -4940,9 +4940,9 @@
     "groups": [
       "CSS Fonts"
     ],
-    "initial": "none",
+    "initial": "0",
     "appliesto": "blockContainerElements",
-    "computed": "absoluteLength0ForNone",
+    "computed": "absoluteLength",
     "order": "perGrammar",
     "status": "experimental"
   },
