@@ -338,7 +338,7 @@
     "groups": [
       "Microsoft Extensions"
     ],
-    "initial": "dependsOnUserAgent",
+    "initial": "ButtonText",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -368,7 +368,7 @@
     "groups": [
       "Microsoft Extensions"
     ],
-    "initial": "dependsOnUserAgent",
+    "initial": "ThreeDDarkShadow",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -383,7 +383,7 @@
     "groups": [
       "Microsoft Extensions"
     ],
-    "initial": "dependsOnUserAgent",
+    "initial": "ThreeDFace",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -398,7 +398,7 @@
     "groups": [
       "Microsoft Extensions"
     ],
-    "initial": "dependsOnUserAgent",
+    "initial": "ThreeDHighlight",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -413,7 +413,7 @@
     "groups": [
       "Microsoft Extensions"
     ],
-    "initial": "dependsOnUserAgent",
+    "initial": "ThreeDDarkShadow",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -428,7 +428,7 @@
     "groups": [
       "Microsoft Extensions"
     ],
-    "initial": "dependsOnUserAgent",
+    "initial": "Scrollbar",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
