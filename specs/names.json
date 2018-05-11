@@ -1,0 +1,1174 @@
+{
+  "Alarm API": {
+    "name": "Web Alarms API",
+    "url": "https://www.w3.org/2012/sysapps/web-alarms/"
+  },
+  "AmbientLight": {
+    "name": "Ambient Light Sensor",
+    "url": "https://w3c.github.io/ambient-light/"
+  },
+  "ARIA": {
+    "name": "Accessible Rich Internet Applications (WAI-ARIA)",
+    "url": "https://www.w3.org/TR/wai-aria-1.1/"
+  },
+  "ARIA in HTML": {
+    "name": "ARIA in HTML",
+    "url": "https://w3c.github.io/html-aria/"
+  },
+  "Async Function": {
+    "name": "ECMAScript Async Functions",
+    "url": "https://tc39.github.io/ecmascript-asyncawait/"
+  },
+  "Audio Output": {
+    "name": "Audio Output Devices API",
+    "url": "https://w3c.github.io/mediacapture-output/"
+  },
+  "Background Sync": {
+    "name": "Web Background Synchronization",
+    "url": "https://wicg.github.io/BackgroundSync/spec/"
+  },
+  "Background Tasks": {
+    "name": "Cooperative Scheduling of Background Tasks",
+    "url": "https://www.w3.org/TR/requestidlecallback/"
+  },
+  "Basic Card Payment": {
+    "name": "Basic Card Payment",
+    "url": "https://w3c.github.io/payment-method-basic-card/"
+  },
+  "Battery API": {
+    "name": "Battery Status API",
+    "url": "https://w3c.github.io/battery/"
+  },
+  "Beacon": {
+    "name": "Beacon",
+    "url": "https://w3c.github.io/beacon/"
+  },
+  "Clipboard API": {
+    "name": "Clipboard API and events",
+    "url": "https://w3c.github.io/clipboard-apis/"
+  },
+  "Compat": {
+    "name": "Compatibility Standard",
+    "url": "https://compat.spec.whatwg.org"
+  },
+  "Compositing": {
+    "name": "Compositing and Blending Level 1",
+    "url": "https://drafts.fxtf.org/compositing-1/"
+  },
+  "Console API": {
+    "name": "Console API",
+    "url": "https://console.spec.whatwg.org/"
+  },
+  "Contacts": {
+    "name": "Contacts Manager API",
+    "url": "https://www.w3.org/2012/sysapps/contacts-manager-api/"
+  },
+  "Cookie Prefixes": {
+    "name": "Cookie Prefixes",
+    "url": "https://tools.ietf.org/html/draft-west-cookie-prefixes-05"
+  },
+  "Credential Management": {
+    "name": "Credential Management Level 1",
+    "url": "https://w3c.github.io/webappsec-credential-management"
+  },
+  "CSP 1.0": {
+    "name": "Content Security Policy 1.0",
+    "url": "https://www.w3.org/TR/CSP1/"
+  },
+  "CSP 1.1": {
+    "name": "Content Security Policy Level 2",
+    "url": "https://w3c.github.io/webappsec-csp/2/"
+  },
+  "CSP 3.0": {
+    "name": "Content Security Policy Level 3",
+    "url": "https://w3c.github.io/webappsec-csp/"
+  },
+  "CSP Embedded": {
+    "name": "Content Security Policy: Embedded Enforcement",
+    "url": "https://w3c.github.io/webappsec-csp/embedded/"
+  },
+  "CSS1": {
+    "name": "CSS Level&nbsp;1",
+    "url": "https://www.w3.org/TR/CSS1/"
+  },
+  "CSS2.1": {
+    "name": "CSS Level&nbsp;2 (Revision&nbsp;1)",
+    "url": "https://www.w3.org/TR/CSS2/"
+  },
+  "CSS2.2": {
+    "name": "CSS Level&nbsp;2 (Revision&nbsp;2)",
+    "url": "https://www.w3.org/TR/CSS22/"
+  },
+  "CSS3 Animations": {
+    "name": "CSS Animations",
+    "url": "https://drafts.csswg.org/css-animations/"
+  },
+  "CSS3 Backgrounds": {
+    "name": "CSS Backgrounds and Borders Module Level&nbsp;3",
+    "url": "https://drafts.csswg.org/css-backgrounds-3/"
+  },
+  "CSS3 Basic UI": {
+    "name": "CSS Basic User Interface Module Level&nbsp;3",
+    "url": "https://drafts.csswg.org/css-ui-3/"
+  },
+  "CSS3 Basic UI 4": {
+    "name": "CSS Basic User Interface Module Level&nbsp;4",
+    "url": "https://drafts.csswg.org/css-ui-4/"
+  },
+  "CSS3 Box": {
+    "name": "CSS Basic Box Model",
+    "url": "https://drafts.csswg.org/css-box-3/"
+  },
+  "CSS3 Box Alignment": {
+    "name": "CSS Box Alignment Module Level 3",
+    "url": "https://drafts.csswg.org/css-align-3/"
+  },
+  "CSS3 Cascade": {
+    "name": "CSS Cascading and Inheritance Level&nbsp;3",
+    "url": "https://drafts.csswg.org/css-cascade-3/"
+  },
+  "CSS3 Colors": {
+    "name": "CSS Color Module Level&nbsp;3",
+    "url": "https://drafts.csswg.org/css-color-3/"
+  },
+  "CSS3 Conditional": {
+    "name": "CSS Conditional Rules Module Level&nbsp;3",
+    "url": "https://drafts.csswg.org/css-conditional-3/"
+  },
+  "CSS3 Content": {
+    "name": "CSS Generated Content Module Level&nbsp;3",
+    "url": "https://drafts.csswg.org/css-content-3/"
+  },
+  "CSS3 Counter Styles": {
+    "name": "CSS Counter Styles Level&nbsp;3",
+    "url": "https://drafts.csswg.org/css-counter-styles-3/"
+  },
+  "CSS3 Device": {
+    "name": "CSS Device Adaptation",
+    "url": "https://drafts.csswg.org/css-device-adapt/"
+  },
+  "CSS3 Display": {
+    "name": "CSS Display Module Level&nbsp;3",
+    "url": "https://drafts.csswg.org/css-display/"
+  },
+  "CSS3 Font Loading": {
+    "name": "CSS Font Loading Module Level&nbsp;3",
+    "url": "https://drafts.csswg.org/css-font-loading/"
+  },
+  "CSS3 Fonts": {
+    "name": "CSS Fonts Module Level&nbsp;3",
+    "url": "https://drafts.csswg.org/css-fonts-3/"
+  },
+  "CSS3 Fragmentation": {
+    "name": "CSS Fragmentation Module Level&nbsp;3",
+    "url": "https://drafts.csswg.org/css-break-3/"
+  },
+  "CSS3 GCPM": {
+    "name": "CSS Generated Content for Paged Media Module",
+    "url": "https://drafts.csswg.org/css-gcpm-3/"
+  },
+  "CSS3 Images": {
+    "name": "CSS Images Module Level&nbsp;3",
+    "url": "https://drafts.csswg.org/css-images-3/"
+  },
+  "CSS3 Inline": {
+    "name": "CSS Inline Layout",
+    "url": "https://drafts.csswg.org/css-inline/"
+  },
+  "CSS3 Lists": {
+    "name": "CSS Lists Module Level&nbsp;3",
+    "url": "https://drafts.csswg.org/css-lists-3/"
+  },
+  "CSS3 Media Queries": {
+    "name": "Media Queries",
+    "url": "https://drafts.csswg.org/mediaqueries-3/"
+  },
+  "CSS3 Multicol": {
+    "name": "CSS Multi-column Layout Module",
+    "url": "https://drafts.csswg.org/css-multicol-1/"
+  },
+  "CSS3 Overflow": {
+    "name": "CSS Overflow Module Level 3",
+    "url": "https://drafts.csswg.org/css-overflow-3/"
+  },
+  "CSS3 Namespaces": {
+    "name": "CSS Namespaces Module",
+    "url": "https://drafts.csswg.org/css-namespaces-3/"
+  },
+  "CSS3 Paged Media": {
+    "name": "CSS Paged Media Module Level&nbsp;3",
+    "url": "https://drafts.csswg.org/css-page-3/"
+  },
+  "CSS3 Positioning": {
+    "name": "CSS Positioned Layout Module Level&nbsp;3",
+    "url": "https://drafts.csswg.org/css-position-3/"
+  },
+  "CSS3 Regions": {
+    "name": "CSS Regions Module Level&nbsp;1",
+    "url": "https://drafts.csswg.org/css-regions-1/"
+  },
+  "CSS3 Ruby": {
+    "name": "CSS Ruby Layout Module Level&nbsp;1",
+    "url": "https://drafts.csswg.org/css-ruby/"
+  },
+  "CSS3 Selectors": {
+    "name": "Selectors Level&nbsp;3",
+    "url": "https://drafts.csswg.org/selectors-3/"
+  },
+  "CSS3 Sizing": {
+    "name": "CSS Intrinsic &amp; Extrinsic Sizing Module Level&nbsp;3",
+    "url": "https://drafts.csswg.org/css-sizing-3/"
+  },
+  "CSS3 Speech": {
+    "name": "CSS Speech Module",
+    "url": "https://drafts.csswg.org/css-speech-1/"
+  },
+  "CSS3 Style": {
+    "name": "CSS Style Attributes",
+    "url": "https://drafts.csswg.org/css-style-attr/"
+  },
+  "CSS3 Syntax": {
+    "name": "CSS Syntax Level&nbsp;3",
+    "url": "https://drafts.csswg.org/css-syntax/"
+  },
+  "CSS3 Text": {
+    "name": "CSS Text Module Level&nbsp;3",
+    "url": "https://drafts.csswg.org/css-text-3/"
+  },
+  "CSS3 Text Decoration": {
+    "name": "CSS Text Decoration Module Level&nbsp;3",
+    "url": "https://drafts.csswg.org/css-text-decor-3/"
+  },
+  "CSS3 Transforms": {
+    "name": "CSS Transforms Level&nbsp;1",
+    "url": "https://drafts.csswg.org/css-transforms/"
+  },
+  "CSS3 Transitions": {
+    "name": "CSS Transitions",
+    "url": "https://drafts.csswg.org/css-transitions/"
+  },
+  "CSS3 Transitions Level 2": {
+    "name": "CSS Transitions Level 2",
+    "url": "https://drafts.csswg.org/css-transitions-2/"
+  },
+  "CSS3 Values": {
+    "name": "CSS Values and Units Module Level&nbsp;3",
+    "url": "https://drafts.csswg.org/css-values-3/"
+  },
+  "CSS3 Variables": {
+    "name": "CSS Custom Properties for Cascading Variables Module Level&nbsp;1",
+    "url": "https://drafts.csswg.org/css-variables/"
+  },
+  "CSS3 Writing Modes": {
+    "name": "CSS Writing Modes Module Level&nbsp;3",
+    "url": "https://drafts.csswg.org/css-writing-modes-3/"
+  },
+  "CSS4 Backgrounds": {
+    "name": "CSS Backgrounds and Borders Module Level&nbsp;4",
+    "url": "https://drafts.csswg.org/css-backgrounds-4/"
+  },
+  "CSS4 Basic UI": {
+    "name": "CSS Basic User Interface Module Level&nbsp;4",
+    "url": "https://drafts.csswg.org/css-ui-4/"
+  },
+  "CSS4 Cascade": {
+    "name": "CSS Cascading and Inheritance Level&nbsp;4",
+    "url": "https://drafts.csswg.org/css-cascade/"
+  },
+  "CSS4 Colors": {
+    "name": "CSS Color Module Level&nbsp;4",
+    "url": "https://drafts.csswg.org/css-color/"
+  },
+  "CSS4 Fonts": {
+    "name": "CSS Fonts Module Level&nbsp;4",
+    "url": "https://drafts.csswg.org/css-fonts-4/"
+  },
+  "CSS4 Images": {
+    "name": "CSS Images Module Level&nbsp;4",
+    "url": "https://drafts.csswg.org/css-images-4/"
+  },
+  "CSS4 Media Queries": {
+    "name": "Media Queries Level&nbsp;4",
+    "url": "https://drafts.csswg.org/mediaqueries-4/"
+  },
+  "CSS4 Pseudo-Elements": {
+    "name": "CSS Pseudo-Elements Level&nbsp;4",
+    "url": "https://drafts.csswg.org/css-pseudo-4/"
+  },
+  "CSS4 Selectors": {
+    "name": "Selectors Level&nbsp;4",
+    "url": "https://drafts.csswg.org/selectors-4/"
+  },
+  "CSS4 Sizing": {
+    "name": "CSS Intrinsic &amp; Extrinsic Sizing Module Level&nbsp;4",
+    "url": "https://drafts.csswg.org/css-sizing-4/"
+  },
+  "CSS4 Text": {
+    "name": "CSS Text Level&nbsp;4",
+    "url": "https://drafts.csswg.org/css-text-4/"
+  },
+  "CSS4 Text Decoration": {
+    "name": "CSS Text Decoration Module Level&nbsp;4",
+    "url": "https://drafts.csswg.org/css-text-decor-4/"
+  },
+  "CSS4 Values": {
+    "name": "CSS Values and Units Module Level&nbsp;4",
+    "url": "https://drafts.csswg.org/css-values-4/"
+  },
+  "CSS4 Writing Modes": {
+    "name": "CSS Writing Modes Level&nbsp;4",
+    "url": "https://drafts.csswg.org/css-writing-modes-4/"
+  },
+  "CSS Animation Worklet": {
+    "name": "CSS Animation Worklet API",
+    "url": "https://wicg.github.io/animation-worklet/"
+  },
+  "CSS Containment": {
+    "name": "CSS Containment Module Level 1",
+    "url": "https://drafts.csswg.org/css-containment/"
+  },
+  "CSS Exclusions": {
+    "name": "CSS Exclusions Module Level&nbsp;1",
+    "url": "https://drafts.csswg.org/css-exclusions/"
+  },
+  "CSS Flexbox": {
+    "name": "CSS Flexible Box Layout Module",
+    "url": "https://drafts.csswg.org/css-flexbox-1/"
+  },
+  "CSS Font Rendering": {
+    "name": "CSS Font Rendering Controls Module Level 1",
+    "url": "https://tabatkins.github.io/specs/css-font-display/"
+  },
+  "CSS Grid": {
+    "name": "CSS Grid Layout",
+    "url": "https://drafts.csswg.org/css-grid/"
+  },
+  "CSS Layout": {
+    "name": "CSS Layout API Level 1",
+    "url": "https://drafts.css-houdini.org/css-layout-api-1/"
+  },
+  "CSS Line Grid": {
+    "name": "CSS Line Grid Module Level&nbsp;1",
+    "url": "https://drafts.csswg.org/css-line-grid/"
+  },
+  "CSS Logical Properties": {
+    "name": "CSS Logical Properties and Values Level&nbsp;1",
+    "url": "https://drafts.csswg.org/css-logical-props/"
+  },
+  "CSS Masks": {
+    "name": "CSS Masking Module Level&nbsp;1",
+    "url": "https://drafts.fxtf.org/css-masking-1/"
+  },
+  "CSS Non-element Selectors": {
+    "name": "Non-element Selectors Module Level&nbsp;1",
+    "url": "https://drafts.csswg.org/selectors-nonelement/"
+  },
+  "CSS Painting API": {
+    "name": "CSS Painting API Level 1",
+    "url": "https://drafts.css-houdini.org/css-paint-api-1/"
+  },
+  "CSS Rhythmic Sizing": {
+    "name": "CSS Rhythmic Sizing",
+    "url": "https://drafts.csswg.org/css-rhythm/"
+  },
+  "CSS Round Display": {
+    "name": "CSS Round Display Level&nbsp;1",
+    "url": "https://drafts.csswg.org/css-round-display/"
+  },
+  "CSS Scope": {
+    "name": "CSS Scoping Module Level&nbsp;1",
+    "url": "http://drafts.csswg.org/css-scoping/"
+  },
+  "CSS Scroll Snap": {
+    "name": "CSS Scroll Snap Module Level&nbsp;1",
+    "url": "https://drafts.csswg.org/css-scroll-snap-1/"
+  },
+  "CSS Shapes": {
+    "name": "CSS Shapes Module Level&nbsp;1",
+    "url": "https://drafts.csswg.org/css-shapes/"
+  },
+  "CSS Text Size Adjust": {
+    "name": "CSS Mobile Text Size Adjustment Module Level&nbsp;1",
+    "url": "https://drafts.csswg.org/css-size-adjust/"
+  },
+  "CSS Timing 1": {
+    "name": "CSS Timing Functions Level&nbsp;1",
+    "url": "https://drafts.csswg.org/css-timing-1/"
+  },
+  "CSS Transforms 2": {
+    "name": "CSS Transforms Level&nbsp;2",
+    "url": "https://drafts.csswg.org/css-transforms-2/"
+  },
+  "CSS Will Change": {
+    "name": "CSS Will Change Module Level&nbsp;1",
+    "url": "https://drafts.csswg.org/css-will-change/"
+  },
+  "CSSOM": {
+    "name": "CSS Object Model (CSSOM)",
+    "url": "https://drafts.csswg.org/cssom/"
+  },
+  "CSSOM View": {
+    "name": "CSS Object Model (CSSOM) View Module",
+    "url": "https://drafts.csswg.org/cssom-view/"
+  },
+  "Custom Scroll Restoration": {
+    "name": "Custom Scroll Restoration - History-based API",
+    "url": "https://majido.github.io/scroll-restoration-proposal/history-based-api.html"
+  },
+  "Data Store API": {
+    "name": "Data Store API",
+    "url": "https://airpingu.github.io/data-store-api/index.html"
+  },
+  "Device Memory": {
+    "name": "Device Memory 1",
+    "url": "https://w3c.github.io/device-memory/"
+  },
+  "Device Orientation": {
+    "name": "Device Orientation Events",
+    "url": "https://w3c.github.io/deviceorientation/spec-source-orientation.html"
+  },
+  "DOM Parsing": {
+    "name": "DOM Parsing and Serialization",
+    "url": "https://w3c.github.io/DOM-Parsing/"
+  },
+  "DOM WHATWG": {
+    "name": "DOM",
+    "url": "https://dom.spec.whatwg.org/"
+  },
+  "DOM1": {
+    "name": "Document Object Model (DOM) Level 1 Specification",
+    "url": "https://www.w3.org/TR/REC-DOM-Level-1/"
+  },
+  "DOM2 Core": {
+    "name": "Document Object Model (DOM) Level 2 Core Specification",
+    "url": "https://www.w3.org/TR/DOM-Level-2-Core/"
+  },
+  "DOM2 Events": {
+    "name": "Document Object Model (DOM) Level 2 Events Specification",
+    "url": "https://www.w3.org/TR/DOM-Level-2-Events/events.html"
+  },
+  "DOM2 HTML": {
+    "name": "Document Object Model (DOM) Level 2 HTML Specification",
+    "url": "https://www.w3.org/TR/DOM-Level-2-HTML/"
+  },
+  "DOM2 Style": {
+    "name": "Document Object Model (DOM) Level 2 Style Specification",
+    "url": "https://www.w3.org/TR/DOM-Level-2-Style/"
+  },
+  "DOM2 Traversal_Range": {
+    "name": "Document Object Model (DOM) Level 2 Traversal and Range Specification",
+    "url": "https://www.w3.org/TR/DOM-Level-2-Traversal-Range/"
+  },
+  "DOM3 Core": {
+    "name": "Document Object Model (DOM) Level 3 Core Specification",
+    "url": "https://www.w3.org/TR/DOM-Level-3-Core/"
+  },
+  "DOM3 Events": {
+    "name": "Document Object Model (DOM) Level 3 Events Specification",
+    "url": "https://www.w3.org/TR/2014/WD-DOM-Level-3-Events-20140925/"
+  },
+  "DOM3 XPath": {
+    "name": "Document Object Model (DOM) Level 3 XPath Specification",
+    "url": "https://www.w3.org/TR/DOM-Level-3-XPath/"
+  },
+  "DOM4": {
+    "name": "DOM4",
+    "url": "https://www.w3.org/TR/dom/"
+  },
+  "Element Traversal": {
+    "name": "Element Traversal Specification",
+    "url": "https://www.w3.org/TR/ElementTraversal/"
+  },
+  "EME": {
+    "name": "Encrypted Media Extensions",
+    "url": "https://w3c.github.io/encrypted-media/"
+  },
+  "Encoding": {
+    "name": "Encoding",
+    "url": "https://encoding.spec.whatwg.org/"
+  },
+  "ES1": {
+    "name": "ECMAScript 1st Edition (ECMA-262)",
+    "url": "https://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%201st%20edition,%20June%201997.pdf"
+  },
+  "ES3": {
+    "name": "ECMAScript 3rd Edition (ECMA-262)",
+    "url": "https://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262,%203rd%20edition,%20December%201999.pdf"
+  },
+  "ES5.1": {
+    "name": "ECMAScript 5.1 (ECMA-262)",
+    "url": "https://www.ecma-international.org/ecma-262/5.1/"
+  },
+  "ES6": {
+    "name": "ECMAScript 2015 (6th Edition, ECMA-262)",
+    "url": "https://www.ecma-international.org/ecma-262/6.0/"
+  },
+  "ES2016": {
+    "name": "ECMAScript 2016 (ECMA-262)",
+    "url": "https://www.ecma-international.org/ecma-262/7.0/"
+  },
+  "ES2017": {
+    "name": "ECMAScript 2017 (ECMA-262)",
+    "url": "https://tc39.github.io/ecma262/2017/"
+  },
+  "ESDraft": {
+    "name": "ECMAScript Latest Draft (ECMA-262)",
+    "url": "https://tc39.github.io/ecma262/"
+  },
+  "ES Int 1.0": {
+    "name": "ECMAScript Internationalization API 1.0 (ECMA-402)",
+    "url": "https://www.ecma-international.org/ecma-402/1.0/"
+  },
+  "ES Int 2.0": {
+    "name": "ECMAScript Internationalization API 2.0 (ECMA-402)",
+    "url": "https://www.ecma-international.org/ecma-402/2.0/"
+  },
+  "ES Int Draft": {
+    "name": "ECMAScript Internationalization API 4.0 (ECMA-402)",
+    "url": "https://tc39.github.io/ecma402/"
+  },
+  "Feature Policy": {
+    "name": "Feature Policy",
+    "url": "https://wicg.github.io/feature-policy/"
+  },
+  "Fetch": {
+    "name": "Fetch",
+    "url": "https://fetch.spec.whatwg.org/"
+  },
+  "File API": {
+    "name": "File API",
+    "url": "https://w3c.github.io/FileAPI/"
+  },
+  "File System API": {
+    "name": "File and Directory Entries API",
+    "url": "https://wicg.github.io/entries-api/"
+  },
+  "FileSystem": {
+    "name": "FileSystem API",
+    "url": "https://w3c.github.io/filesystem-api/"
+  },
+  "Filters 1.0": {
+    "name": "Filter Effects Module Level 1",
+    "url": "https://drafts.fxtf.org/filter-effects/"
+  },
+  "Filters 2.0": {
+    "name": "Filter Effects Module Level 2",
+    "url": "https://drafts.fxtf.org/filter-effects-2/"
+  },
+  "Frame Timing": {
+    "name": "Frame Timing",
+    "url": "https://wicg.github.io/frame-timing/"
+  },
+  "Fullscreen": {
+    "name": "Fullscreen API",
+    "url": "https://fullscreen.spec.whatwg.org/"
+  },
+  "Gamepad": {
+    "name": "Gamepad",
+    "url": "https://w3c.github.io/gamepad/"
+  },
+  "GamepadExtensions": {
+    "name": "Gamepad Extensions",
+    "url": "https://w3c.github.io/gamepad/extensions.html"
+  },
+  "Geolocation": {
+    "name": "Geolocation API",
+    "url": "https://dev.w3.org/geo/api/spec-source.html"
+  },
+  "Geometry Interfaces": {
+    "name": "Geometry Interfaces Module Level 1",
+    "url": "https://drafts.fxtf.org/geometry/"
+  },
+  "Highres Time": {
+    "name": "High Resolution Time",
+    "url": "https://www.w3.org/TR/hr-time-1/"
+  },
+  "Highres Time Level 2": {
+    "name": "High Resolution Time Level 2",
+    "url": "https://www.w3.org/TR/hr-time/"
+  },
+  "Highres Time Level 3": {
+    "name": "High Resolution Time Level 3",
+    "url": "https://w3c.github.io/hr-time/"
+  },
+  "HSTS": {
+    "name": "HTTP Strict Transport Security (HSTS)",
+    "url": "https://tools.ietf.org/html/rfc6797"
+  },
+  "HTML Editing": {
+    "name": "HTML Editing APIs",
+    "url": "https://w3c.github.io/editing/"
+  },
+  "HTML Imports": {
+    "name": "HTML Imports",
+    "url": "https://w3c.github.io/webcomponents/spec/imports/"
+  },
+  "HTML Media Capture": {
+    "name": "HTML Media Capture",
+    "url": "https://w3c.github.io/html-media-capture/"
+  },
+  "HTML4.01": {
+    "name": "HTML 4.01 Specification",
+    "url": "https://www.w3.org/TR/html401/"
+  },
+  "HTML5 W3C": {
+    "name": "HTML5",
+    "url": "https://www.w3.org/TR/html5/"
+  },
+  "HTML5.1": {
+    "name": "HTML 5.1",
+    "url": "https://www.w3.org/TR/html51/"
+  },
+  "HTML5.2": {
+    "name": "HTML 5.2",
+    "url": "https://www.w3.org/TR/html52/"
+  },
+  "HTML WHATWG": {
+    "name": "HTML Living Standard",
+    "url": "https://html.spec.whatwg.org/multipage/"
+  },
+  "IndexedDB": {
+    "name": "Indexed Database API",
+    "url": "https://www.w3.org/TR/IndexedDB/"
+  },
+  "IndexedDB 2": {
+    "name": "Indexed Database API 2.0",
+    "url": "https://w3c.github.io/IndexedDB/"
+  },
+  "InputDeviceCapabilities": {
+    "name": "InputDeviceCapabilities",
+    "url": "https://wicg.github.io/InputDeviceCapabilities/"
+  },
+  "InputEvents2": {
+    "name": "Input Events Level 2",
+    "url": "https://w3c.github.io/input-events/index.html"
+  },
+  "IntersectionObserver": {
+    "name": "Intersection Observer",
+    "url": "https://w3c.github.io/IntersectionObserver/"
+  },
+  "Long Tasks": {
+    "name": "Long Tasks API 1",
+    "url": "https://w3c.github.io/longtasks/"
+  },
+  "Manifest": {
+    "name": "Web App Manifest",
+    "url": "https://w3c.github.io/manifest/"
+  },
+  "MathML2": {
+    "name": "MathML 2.0",
+    "url": "https://www.w3.org/TR/MathML2/"
+  },
+  "MathML3": {
+    "name": "MathML 3.0",
+    "url": "https://www.w3.org/TR/MathML3/"
+  },
+  "Media Capabilities": {
+    "name": "Media Capabilities",
+    "url": "https://wicg.github.io/media-capabilities"
+  },
+  "Media Capture": {
+    "name": "Media Capture and Streams",
+    "url": "https://w3c.github.io/mediacapture-main/"
+  },
+  "Media Capture DOM Elements": {
+    "name": "Media Capture from DOM Elements",
+    "url": "https://w3c.github.io/mediacapture-fromelement/"
+  },
+  "Media Session": {
+    "name": "Media Session Standard",
+    "url": "https://wicg.github.io/mediasession/"
+  },
+  "Media Source Extensions": {
+    "name": "Media Source Extensions",
+    "url": "https://w3c.github.io/media-source/"
+  },
+  "MediaStream Image": {
+    "name": "MediaStream Image Capture",
+    "url": "https://w3c.github.io/mediacapture-image/"
+  },
+  "MediaStream Recording": {
+    "name": "MediaStream Recording",
+    "url": "https://w3c.github.io/mediacapture-record/MediaRecorder.html"
+  },
+  "MediaStreamTrackHint": {
+    "name": "MediaStreamTrack Content Hints",
+    "url": "https://wicg.github.io/mst-content-hint"
+  },
+  "Messaging": {
+    "name": "Messaging API",
+    "url": "https://www.w3.org/2012/sysapps/messaging/"
+  },
+  "Mixed Content": {
+    "name": "Mixed Content",
+    "url": "https://w3c.github.io/webappsec-mixed-content/"
+  },
+  "Motion Path Level 1": {
+    "name": "Motion Path Module Level 1",
+    "url": "https://drafts.fxtf.org/motion-1/"
+  },
+  "Navigation Timing": {
+    "name": "Navigation Timing",
+    "url": "https://www.w3.org/TR/navigation-timing/"
+  },
+  "Navigation Timing Level 2": {
+    "name": "Navigation Timing Level 2",
+    "url": "https://w3c.github.io/navigation-timing/"
+  },
+  "Network Information": {
+    "name": "Network Information API",
+    "url": "https://w3c.github.io/netinfo/"
+  },
+  "OpenGL ES 2.0": {
+    "name": "OpenGL ES 2.0",
+    "url": "https://www.khronos.org/opengles/sdk/docs/man/xhtml/"
+  },
+  "OpenGL ES 3.0": {
+    "name": "OpenGL ES 3.0",
+    "url": "https://www.khronos.org/opengles/sdk/docs/man3/html/"
+  },
+  "Paint Timing": {
+    "name": "Paint Timing",
+    "url": "https://w3c.github.io/paint-timing"
+  },
+  "Page Visibility API": {
+    "name": "Page Visibility (Second Edition)",
+    "url": "https://www.w3.org/TR/page-visibility/"
+  },
+  "Payment": {
+    "name": "Payment Request API",
+    "url": "https://w3c.github.io/payment-request/"
+  },
+  "Payment Handler": {
+    "name": "Payment Handler API",
+    "url": "https://w3c.github.io/payment-handler/"
+  },
+  "Permissions API": {
+    "name": "Permissions",
+    "url": "https://w3c.github.io/permissions/"
+  },
+  "Performance Timeline": {
+    "name": "Performance Timeline",
+    "url": "https://www.w3.org/TR/performance-timeline/"
+  },
+  "Performance Timeline Level 2": {
+    "name": "Performance Timeline Time Level 2",
+    "url": "https://w3c.github.io/performance-timeline/"
+  },
+  "Pointer Events": {
+    "name": "Pointer Events",
+    "url": "https://www.w3.org/TR/pointerevents/"
+  },
+  "Pointer Events 2": {
+    "name": "Pointer Events – Level 2",
+    "url": "https://w3c.github.io/pointerevents/"
+  },
+  "Pointer Events 2 Ext": {
+    "name": "Pointer Events - Level 2 Extensions",
+    "url": "https://w3c.github.io/pointerevents/extension.html"
+  },
+  "Pointer Lock": {
+    "name": "Pointer Lock",
+    "url": "https://w3c.github.io/pointerlock/"
+  },
+  "Preload": {
+    "name": "Preload",
+    "url": "https://w3c.github.io/preload/"
+  },
+  "Presentation": {
+    "name": "Presentation API",
+    "url": "https://w3c.github.io/presentation-api/"
+  },
+  "Proximity Events": {
+    "name": "Proximity Events",
+    "url": "https://w3c.github.io/proximity/"
+  },
+  "Push API": {
+    "name": "Push API",
+    "url": "https://w3c.github.io/push-api/"
+  },
+  "Quota Management": {
+    "name": "Quota Management API",
+    "url": "https://w3c.github.io/quota-api/"
+  },
+  "Referrer Policy": {
+    "name": "Referrer Policy",
+    "url": "https://w3c.github.io/webappsec-referrer-policy/"
+  },
+  "Remote Playback": {
+    "name": "Remote Playback API",
+    "url": "https://w3c.github.io/remote-playback/"
+  },
+  "RequestAnimationFrame": {
+    "name": "Timing control for script-based animations",
+    "url": "https://www.w3.org/TR/animation-timing/"
+  },
+  "Resource Hints": {
+    "name": "Resource Hints",
+    "url": "https://www.w3.org/TR/resource-hints/"
+  },
+  "Resource Timing": {
+    "name": "Resource Timing Level 1",
+    "url": "https://www.w3.org/TR/resource-timing-1/"
+  },
+  "Resource Timing 2": {
+    "name": "Resource Timing Level 2",
+    "url": "https://www.w3.org/TR/resource-timing-2/"
+  },
+  "Resource Timing 3": {
+    "name": "Resource Timing Level 3",
+    "url": "https://w3c.github.io/resource-timing/"
+  },
+  "Screen Orientation": {
+    "name": "Screen Orientation API",
+    "url": "https://w3c.github.io/screen-orientation/"
+  },
+  "Scroll Anchoring": {
+    "name": "Scroll Anchoring",
+    "url": "https://wicg.github.io/ScrollAnchoring/"
+  },
+  "Secure Contexts": {
+    "name": "Secure Contexts",
+    "url": "https://w3c.github.io/webappsec-secure-contexts/"
+  },
+  "Selection API": {
+    "name": "Selection API",
+    "url": "https://w3c.github.io/selection-api/"
+  },
+  "Service Workers": {
+    "name": "Service Workers",
+    "url": "https://w3c.github.io/ServiceWorker/"
+  },
+  "Selectors API Level 1": {
+    "name": "Selectors API Level 1",
+    "url": "https://www.w3.org/TR/selectors-api/"
+  },
+  "Selectors API Level 2": {
+    "name": "Selectors API Level 2",
+    "url": "https://dev.w3.org/2006/webapi/selectors-api2/"
+  },
+  "Shadow DOM": {
+    "name": "Shadow DOM",
+    "url": "https://w3c.github.io/webcomponents/spec/shadow/"
+  },
+  "Shape Detection API": {
+    "name": "Accelerated Shape Detection in Images",
+    "url": "https://wicg.github.io/shape-detection-api/"
+  },
+  "SIMD": {
+    "name": "SIMD",
+    "url": "https://tc39.github.io/ecmascript_simd/"
+  },
+  "Static Range": {
+    "name": "Static Range",
+    "url": "https://w3c.github.io/staticrange/index.html"
+  },
+  "Storage": {
+    "name": "Storage",
+    "url": "https://storage.spec.whatwg.org/"
+  },
+  "Streams": {
+    "name": "Streams",
+    "url": "https://streams.spec.whatwg.org/"
+  },
+  "Subresource Integrity": {
+    "name": "Subresource Integrity",
+    "url": "https://w3c.github.io/webappsec/specs/subresourceintegrity/"
+  },
+  "SVG and HTML": {
+    "name": "Inline SVG in HTML5 and XHTML",
+    "url": "https://dev.w3.org/SVG/proposals/svg-html/svg-html-proposal.html"
+  },
+  "SVG Animations 2": {
+    "name": "SVG Animations Level&nbsp;2",
+    "url": "https://svgwg.org/specs/animations/"
+  },
+  "SVG Markers": {
+    "name": "SVG Markers",
+    "url": "https://svgwg.org/specs/markers/"
+  },
+  "SVG Paths": {
+    "name": "SVG Paths",
+    "url": "https://svgwg.org/specs/paths/"
+  },
+  "SVG Strokes": {
+    "name": "SVG Strokes",
+    "url": "https://svgwg.org/specs/strokes/"
+  },
+  "SVG1.1": {
+    "name": "Scalable Vector Graphics (SVG) 1.1 (Second Edition)",
+    "url": "https://www.w3.org/TR/SVG11/"
+  },
+  "SVG2": {
+    "name": "Scalable Vector Graphics (SVG) 2",
+    "url": "https://svgwg.org/svg2-draft/"
+  },
+  "Telephony API": {
+    "name": "Web Telephony API",
+    "url": "https://wiki.mozilla.org/WebAPI/WebTelephony"
+  },
+  "Touch Events": {
+    "name": "Touch Events",
+    "url": "https://www.w3.org/TR/touch-events/"
+  },
+  "Touch Events 2": {
+    "name": "Touch Events – Level 2",
+    "url": "https://w3c.github.io/touch-events/"
+  },
+  "Tracking": {
+    "name": "Tracking Preference Expression (DNT)",
+    "url": "https://www.w3.org/2011/tracking-protection/drafts/tracking-dnt.html"
+  },
+  "Typed Array": {
+    "name": "Typed Array Specification",
+    "url": "https://www.khronos.org/registry/typedarray/specs/latest/"
+  },
+  "UI Events": {
+    "name": "UI Events",
+    "url": "https://w3c.github.io/uievents/"
+  },
+  "Undo Manager": {
+    "name": "UndoManager and DOMTransaction",
+    "url": "https://dvcs.w3.org/hg/undomanager/raw-file/tip/undomanager.html"
+  },
+  "Upgrade Insecure Requests": {
+    "name": "Upgrade Insecure Requests",
+    "url": "https://w3c.github.io/webappsec/specs/upgrade/"
+  },
+  "URL": {
+    "name": "URL",
+    "url": "https://url.spec.whatwg.org/"
+  },
+  "User Timing": {
+    "name": "User Timing",
+    "url": "https://www.w3.org/TR/user-timing/"
+  },
+  "User Timing Level 2": {
+    "name": "User Timing Level 2",
+    "url": "https://w3c.github.io/user-timing/"
+  },
+  "vCard": {
+    "name": "vCard Format Specification",
+    "url": "https://tools.ietf.org/html/rfc6350"
+  },
+  "Vibration API": {
+    "name": "Vibration API",
+    "url": "https://dev.w3.org/2009/dap/vibration/"
+  },
+  "Visual Viewport": {
+    "name": "Visual Viewport API",
+    "url": "https://wicg.github.io/visual-viewport/"
+  },
+  "Web Animations": {
+    "name": "Web Animations",
+    "url": "https://drafts.csswg.org/web-animations/"
+  },
+  "WebAssembly Embedding": {
+    "name": "WebAssembly features for web embedding",
+    "url": "https://github.com/WebAssembly/design/blob/master/Web.md"
+  },
+  "WebAssembly JS": {
+    "name": "WebAssembly JavaScript API",
+    "url": "https://github.com/WebAssembly/design/blob/master/JS.md"
+  },
+  "Web Audio API": {
+    "name": "Web Audio API",
+    "url": "https://webaudio.github.io/web-audio-api/"
+  },
+  "Web Background Sync": {
+    "name": "Web Background Synchronization",
+    "url": "https://wicg.github.io/BackgroundSync/spec/"
+  },
+  "Web Bluetooth": {
+    "name": "Web Bluetooth",
+    "url": "https://webbluetoothcg.github.io/web-bluetooth/"
+  },
+  "Web Budget API": {
+    "name": "Web Budget API",
+    "url": "https://wicg.github.io/budget-api/"
+  },
+  "Web Crypto API": {
+    "name": "Web Cryptography API",
+    "url": "https://www.w3.org/TR/WebCryptoAPI/"
+  },
+  "WebGL": {
+    "name": "WebGL 1.0",
+    "url": "https://www.khronos.org/registry/webgl/specs/latest/1.0/"
+  },
+  "WebGL2": {
+    "name": "WebGL 2.0",
+    "url": "https://www.khronos.org/registry/webgl/specs/latest/2.0/"
+  },
+  "EXT_blend_minmax": {
+    "name": "EXT_blend_minmax",
+    "url": "https://www.khronos.org/registry/webgl/extensions/EXT_blend_minmax/"
+  },
+  "ANGLE_instanced_arrays": {
+    "name": "ANGLE_instanced_arrays",
+    "url": "https://www.khronos.org/registry/webgl/extensions/ANGLE_instanced_arrays/"
+  },
+  "EXT_color_buffer_float": {
+    "name": "EXT_color_buffer_float",
+    "url": "https://www.khronos.org/registry/webgl/extensions/EXT_color_buffer_float/"
+  },
+  "EXT_color_buffer_half_float": {
+    "name": "EXT_color_buffer_half_float",
+    "url": "https://www.khronos.org/registry/webgl/extensions/EXT_color_buffer_half_float/"
+  },
+  "EXT_disjoint_timer_query": {
+    "name": "EXT_disjoint_timer_query",
+    "url": "https://www.khronos.org/registry/webgl/extensions/EXT_disjoint_timer_query/"
+  },
+  "EXT_frag_depth": {
+    "name": "EXT_frag_depth",
+    "url": "https://www.khronos.org/registry/webgl/extensions/EXT_frag_depth/"
+  },
+  "EXT_shader_texture_lod": {
+    "name": "EXT_shader_texture_lod",
+    "url": "https://www.khronos.org/registry/webgl/extensions/EXT_shader_texture_lod/"
+  },
+  "EXT_sRGB": {
+    "name": "EXT_sRGB",
+    "url": "https://www.khronos.org/registry/webgl/extensions/EXT_sRGB/"
+  },
+  "EXT_texture_filter_anisotropic": {
+    "name": "EXT_texture_filter_anisotropic",
+    "url": "https://www.khronos.org/registry/webgl/extensions/EXT_texture_filter_anisotropic/"
+  },
+  "OES_element_index_uint": {
+    "name": "OES_element_index_uint",
+    "url": "https://www.khronos.org/registry/webgl/extensions/OES_element_index_uint/"
+  },
+  "OES_standard_derivatives": {
+    "name": "OES_standard_derivatives",
+    "url": "https://www.khronos.org/registry/webgl/extensions/OES_standard_derivatives/"
+  },
+  "OES_texture_float": {
+    "name": "OES_texture_float",
+    "url": "https://www.khronos.org/registry/webgl/extensions/OES_texture_float/"
+  },
+  "OES_texture_float_linear": {
+    "name": "OES_texture_float_linear",
+    "url": "https://www.khronos.org/registry/webgl/extensions/OES_texture_float_linear/"
+  },
+  "OES_texture_half_float": {
+    "name": "OES_texture_half_float",
+    "url": "https://www.khronos.org/registry/webgl/extensions/OES_texture_half_float/"
+  },
+  "OES_texture_half_float_linear": {
+    "name": "OES_texture_half_float_linear",
+    "url": "https://www.khronos.org/registry/webgl/extensions/OES_texture_half_float_linear/"
+  },
+  "OES_vertex_array_object": {
+    "name": "OES_vertex_array_object",
+    "url": "https://www.khronos.org/registry/webgl/extensions/OES_vertex_array_object/"
+  },
+  "WEBGL_color_buffer_float": {
+    "name": "WEBGL_color_buffer_float",
+    "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_color_buffer_float/"
+  },
+  "WEBGL_compressed_texture_s3tc": {
+    "name": "WEBGL_compressed_texture_s3tc",
+    "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_s3tc/"
+  },
+  "WEBGL_compressed_texture_s3tc_srgb": {
+    "name": "WEBGL_compressed_texture_s3tc_srgb",
+    "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_s3tc_srgb/"
+  },
+  "WEBGL_compressed_texture_etc": {
+    "name": "WEBGL_compressed_texture_etc",
+    "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_etc/"
+  },
+  "WEBGL_compressed_texture_pvrtc": {
+    "name": "WEBGL_compressed_texture_pvrtc",
+    "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_pvrtc/"
+  },
+  "WEBGL_compressed_texture_etc1": {
+    "name": "WEBGL_compressed_texture_etc1",
+    "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_etc1/"
+  },
+  "WEBGL_compressed_texture_astc": {
+    "name": "WEBGL_compressed_texture_astc",
+    "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_astc/"
+  },
+  "WEBGL_compressed_texture_atc": {
+    "name": "WEBGL_compressed_texture_atc",
+    "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_atc/"
+  },
+  "WEBGL_depth_texture": {
+    "name": "WEBGL_depth_texture",
+    "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_depth_texture/"
+  },
+  "WEBGL_debug_renderer_info": {
+    "name": "WEBGL_debug_renderer_info",
+    "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_debug_renderer_info/"
+  },
+  "WEBGL_debug_shaders": {
+    "name": "WEBGL_debug_shaders",
+    "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_debug_shaders/"
+  },
+  "WEBGL_draw_buffers": {
+    "name": "WEBGL_draw_buffers",
+    "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_draw_buffers/"
+  },
+  "WEBGL_lose_context": {
+    "name": "WEBGL_lose_context",
+    "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_lose_context/"
+  },
+  "WebIDL": {
+    "name": "Web IDL",
+    "url": "https://heycam.github.io/webidl/"
+  },
+  "WebMIDI API": {
+    "name": "Web MIDI API",
+    "url": "https://webaudio.github.io/web-midi-api/"
+  },
+  "Web Notifications": {
+    "name": "Notifications API",
+    "url": "https://notifications.spec.whatwg.org/"
+  },
+  "WebRTC 1.0": {
+    "name": "WebRTC 1.0: Real-time Communication Between Browsers",
+    "url": "https://w3c.github.io/webrtc-pc/"
+  },
+  "Web Share API": {
+    "name": "Web Share API",
+    "url": "https://wicg.github.io/web-share/"
+  },
+  "Web Speech API": {
+    "name": "Web Speech API",
+    "url": "https://dvcs.w3.org/hg/speech-api/raw-file/tip/webspeechapi.html"
+  },
+  "Web Telephony": {
+    "name": "Web Telephony",
+    "url": "https://wiki.mozilla.org/WebAPI/WebTelephony"
+  },
+  "Web USB": {
+    "name": "WebUSB",
+    "url": "https://reillyeon.github.io/webusb/"
+  },
+  "WebVR 1.1": {
+    "name": "WebVR 1.1",
+    "url": "https://w3c.github.io/webvr/spec/1.1/"
+  },
+  "WebVTT": {
+    "name": "WebVTT: The Web Video Text Tracks Format",
+    "url": "https://w3c.github.io/webvtt/"
+  },
+  "WOFF1.0": {
+    "name": "WOFF File Format 1.0",
+    "url": "https://www.w3.org/TR/WOFF/"
+  },
+  "WOFF2.0": {
+    "name": "WOFF File Format 2.0",
+    "url": "https://www.w3.org/TR/WOFF2/"
+  },
+  "Worklets": {
+    "name": "Worklets Level 1",
+    "url": "https://drafts.css-houdini.org/worklets/"
+  },
+  "XMLHttpRequest": {
+    "name": "XMLHttpRequest",
+    "url": "https://xhr.spec.whatwg.org"
+  }
+}

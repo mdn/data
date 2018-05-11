@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "patternProperties": {
+    ".*": {
+      "type": "string",
+      "enum": [
+        "ED",
+        "WD",
+        "CR",
+        "PR",
+        "REC",
+        "Draft",
+        "Living",
+        "Obsolete",
+        "Standard",
+        "RFC",
+        "Old-Transforms"
+      ]
+    }
+  }
+}
