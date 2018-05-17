@@ -11,11 +11,23 @@
   "animateable-feature": {
     "syntax": "scroll-position | contents | <custom-ident>"
   },
+  "any-value": {
+    "syntax": "[!]+"
+  },
   "attachment": {
     "syntax": "scroll | fixed | local"
   },
   "attr()": {
     "syntax": "attr( <attr-name> <type-or-unit>? [, <attr-fallback> ]? )"
+  },
+  "attr-matcher": {
+    "syntax": "[ '~' | '|' | '^' | '$' | '*' ]? '='"
+  },
+  "attr-modifier": {
+    "syntax": "i"
+  },
+  "attribute-selector": {
+    "syntax": "'[' <wq-name> ']' | '[' <wq-name> <attr-matcher> [ <string-token> | <ident-token> ] <attr-modifier>? ']'"
   },
   "auto-repeat": {
     "syntax": "repeat( [ auto-fill | auto-fit ] , [ <line-names>? <fixed-size> ]+ <line-names>? )"
@@ -83,6 +95,9 @@
   "clip-source": {
     "syntax": "<url>"
   },
+  "class-selector": {
+    "syntax": "'.' <ident-token>"
+  },
   "color": {
     "syntax": "<rgb()> | <rgba()> | <hsl()> | <hsla()> | <hex-color> | <named-color> | currentcolor | <deprecated-system-color>"
   },
@@ -92,14 +107,26 @@
   "color-stop-list": {
     "syntax": "<color-stop>#{2,}"
   },
+  "combinator": {
+    "syntax": "'>' | '+' | '~' | [ '||' ]"
+  },
   "common-lig-values": {
     "syntax": "[ common-ligatures | no-common-ligatures ]"
+  },
+  "complex-selector": {
+    "syntax": "<compound-selector> [ <combinator>? <compound-selector> ]*"
+  },
+  "complex-selector-list": {
+    "syntax": "<complex-selector>#"
   },
   "composite-style": {
     "syntax": "clear | copy | source-over | source-in | source-out | source-atop | destination-over | destination-in | destination-out | destination-atop | xor"
   },
   "compositing-operator": {
     "syntax": "add | subtract | intersect | exclude"
+  },
+  "compound-selector": {
+    "syntax": "[ <type-selector>? <subclass-selector>*[ <pseudo-element-selector> <pseudo-class-selector>* ]* ]!"
   },
   "contextual-alt-values": {
     "syntax": "[ contextual | no-contextual ]"
@@ -233,6 +260,9 @@
   "frequency-percentage": {
     "syntax": "<frequency> | <percentage>"
   },
+  "function-token": {
+    "syntax": "[0-10FFFF]*"
+  },
   "general-enclosed": {
     "syntax": "[ <function-token> <any-value> ) ] | ( <ident> <any-value> )"
   },
@@ -254,6 +284,9 @@
   "grid-line": {
     "syntax": "auto | <custom-ident> | [ <integer> && <custom-ident>? ] | [ span && [ <integer> || <custom-ident> ] ]"
   },
+  "hash-token": {
+    "syntax": "[0-10FFFF]*"
+  },
   "historical-lig-values": {
     "syntax": "[ historical-ligatures | no-historical-ligatures ]"
   },
@@ -268,6 +301,12 @@
   },
   "hue-rotate()": {
     "syntax": "hue-rotate( <angle> )"
+  },
+  "id-selector": {
+    "syntax": "<hash-token>"
+  },
+  "ident-token": {
+    "syntax": "[0-10FFFF]*"
   },
   "image": {
     "syntax": "<url> | <image()> | <image-set()> | <element()> | <cross-fade()> | <gradient>"
@@ -410,6 +449,9 @@
   "nth": {
     "syntax": "<an-plus-b> | even | odd"
   },
+  "ns-prefix": {
+    "syntax": "[ <ident-token> | '*' ]? '|'"
+  },
   "opacity()": {
     "syntax": "opacity( [ <number-percentage> ] )"
   },
@@ -442,6 +484,12 @@
   },
   "position": {
     "syntax": "[ [ left | center | right ] || [ top | center | bottom ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ]? | [ [ left | right ] <length-percentage> ] && [ [ top | bottom ] <length-percentage> ] ]"
+  },
+  "pseudo-class-selector": {
+    "syntax": "':' <ident-token> | ':' <function-token> <any-value> ')'"
+  },
+  "pseudo-element-selector": {
+    "syntax": "':' <pseudo-class-selector>"
   },
   "pseudo-page": {
     "syntax": ": [ left | right | first | blank ]"
@@ -502,6 +550,9 @@
   },
   "scaleZ()": {
     "syntax": "scaleZ( <number> )"
+  },
+  "selector-list": {
+    "syntax": "<complex-selector-list>"
   },
   "self-position": {
     "syntax": "center | start | end | self-start | self-end | flex-start | flex-end"
@@ -569,6 +620,12 @@
   "step-timing-function": {
     "syntax": "step-start | step-end | steps(<integer>[, [ start | end ] ]?)"
   },
+  "string-token": {
+    "syntax": "[0-10FFFF]*"
+  },
+  "subclass-selector": {
+    "syntax": "<id-selector> | <class-selector> | <attribute-selector> | <pseudo-class-selector>"
+  },
   "symbol": {
     "syntax": "<string> | <image> | <custom-ident>"
   },
@@ -623,10 +680,16 @@
   "type-or-unit": {
     "syntax": "string | integer | color | url | integer | number | length | angle | time | frequency | em | ex | px | rem | vw | vh | vmin | vmax | mm | q | cm | in | pt | pc | deg | grad | rad | ms | s | Hz | kHz | %"
   },
+  "type-selector": {
+    "syntax": "<wq-name> | <ns-prefix>? '*'"
+  },
   "var()": {
     "syntax": "var( <custom-property-name> [, <declaration-value> ]? )"
   },
   "viewport-length": {
     "syntax": "auto | <length-percentage>"
+  },
+  "wq-name": {
+    "syntax": "<ns-prefix>? <ident-token>"
   }
 }

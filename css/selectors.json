@@ -296,6 +296,14 @@
     ],
     "status": "standard"
   },
+  ":matches": {
+    "syntax": ":matches( <selector-list> )",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "standard"
+  },
   ":not": {
     "syntax": ":not( <selector># )",
     "groups": [
