@@ -228,7 +228,7 @@
     "syntax": "[ normal | small-caps ]"
   },
   "font-weight-absolute": {
-    "syntax": "[normal | bold | <number>]"
+    "syntax": "normal | bold | <number>"
   },
   "frames-timing-function": {
     "syntax": "frames(<integer>)"
