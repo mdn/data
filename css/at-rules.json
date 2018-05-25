@@ -120,7 +120,7 @@
     "status": "nonstandard"
   },
   "@font-face": {
-    "syntax": "@font-face {\n  [ font-family: <family-name>; ] ||\n  [ src: <src>; ] ||\n  [ unicode-range: <unicode-range>; ] ||\n  [ font-variant: <font-variant>; ] ||\n  [ font-feature-settings: <font-feature-settings>; ] ||\n  [ font-variation-settings: <font-variation-settings>; ] ||\n  [ font-stretch: <font-stretch>; ] ||\n  [ font-weight: <font-weight>; ] ||\n  [ font-style: <font-style>; ]\n}",
+    "syntax": "@font-face {\n  [ font-family: <family-name>; ] ||\n  [ src: <src>; ] ||\n  [ unicode-range: <unicode-range>; ] ||\n  [ font-variant: <font-variant>; ] ||\n  [ font-feature-settings: <font-feature-settings>; ] ||\n  [ font-variation-settings: <font-variation-settings>; ] ||\n  [ font-stretch: <font-stretch-absolute> <font-stretch-absolute>?; ] ||\n  [ font-weight: <font-weight-absolute> <font-weight-absolute>?; ] ||\n  [ font-style: normal | italic | oblique [ <angle> | <angle> <angle> ] ?; ]\n}",
     "interfaces": [
       "CSSFontFaceRule"
     ],
