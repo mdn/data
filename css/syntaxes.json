@@ -224,6 +224,9 @@
   "fixed-size": {
     "syntax": "<fixed-breadth> | minmax( <fixed-breadth> , <track-breadth> ) | minmax( <inflexible-breadth> , <fixed-breadth> )"
   },
+  "font-stretch-absolute": {
+    "syntax": "normal | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded | <percentage>"
+  },
   "font-variant-css21": {
     "syntax": "[ normal | small-caps ]"
   },

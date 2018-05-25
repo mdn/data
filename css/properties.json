@@ -4105,7 +4105,7 @@
     "status": "standard"
   },
   "font-stretch": {
-    "syntax": "normal | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded",
+    "syntax": "<font-stretch-absolute>",
     "media": "visual",
     "inherited": true,
     "animationType": "fontStretch",
