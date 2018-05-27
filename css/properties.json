@@ -4125,7 +4125,7 @@
     "status": "standard"
   },
   "font-style": {
-    "syntax": "normal | italic | oblique",
+    "syntax": "normal | italic | oblique <angle>?",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
