@@ -120,7 +120,7 @@
     "status": "nonstandard"
   },
   "@font-face": {
-    "syntax": "@font-face {\n  [ font-family: <family-name>; ] ||\n  [ src: <src>; ] ||\n  [ unicode-range: <unicode-range>; ] ||\n  [ font-variant: <font-variant>; ] ||\n  [ font-feature-settings: <font-feature-settings>; ] ||\n  [ font-variation-settings: <font-variation-settings>; ] ||\n  [ font-stretch: <font-stretch-absolute> <font-stretch-absolute>?; ] ||\n  [ font-weight: <font-weight-absolute> <font-weight-absolute>?; ] ||\n  [ font-style: normal | italic | oblique [ <angle> | <angle> <angle> ] ?; ]\n}",
+    "syntax": "@font-face {\n  [ font-family: <family-name>; ] ||\n  [ src: <src>; ] ||\n  [ unicode-range: <unicode-range>; ] ||\n  [ font-variant: <font-variant>; ] ||\n  [ font-feature-settings: <font-feature-settings>; ] ||\n  [ font-variation-settings: <font-variation-settings>; ] ||\n  [ font-stretch: <font-stretch>; ] ||\n  [ font-weight: <font-weight>; ] ||\n  [ font-style: <font-style>; ]\n}",
     "interfaces": [
       "CSSFontFaceRule"
     ],
@@ -165,7 +165,7 @@
         "status": "standard"
       },
       "font-stretch": {
-        "syntax": "normal | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded",
+        "syntax": "<font-stretch-absolute>{1,2}",
         "media": "all",
         "initial": "normal",
         "percentages": "no",
@@ -174,7 +174,7 @@
         "status": "standard"
       },
       "font-style": {
-        "syntax": "normal | italic | oblique",
+        "syntax": "normal | italic | oblique <angle>{0,2}",
         "media": "all",
         "initial": "normal",
         "percentages": "no",
@@ -183,7 +183,7 @@
         "status": "standard"
       },
       "font-weight": {
-        "syntax": "normal | bold | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900",
+        "syntax": "<font-weight-absolute>{1,2}",
         "media": "all",
         "initial": "normal",
         "percentages": "no",
