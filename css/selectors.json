@@ -215,8 +215,24 @@
     ],
     "status": "experimental"
   },
+  ":host()": {
+    "syntax": ":host( <compound-selector-list> )",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "experimental"
+  },
   ":host-context": {
     "syntax": ":host-context",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "experimental"
+  },
+  ":host-context()": {
+    "syntax": ":host-context( <compound-selector-list> )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
