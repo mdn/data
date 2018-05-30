@@ -42,17 +42,20 @@
         "blockSizeOfContainingBlock",
         "dependsOnLayoutModel",
         "inlineSizeOfContainingBlock",
+        "lengthsAsPercentages",
         "logicalHeightOfContainingBlock",
         "logicalWidthOfContainingBlock",
+        "maxZoomFactor",
+        "minZoomFactor",
         "no",
         "referToBorderBox",
         "referToContainingBlockHeight",
-        "referToContentWidthOfMulticolElement",
         "referToDimensionOfBorderBox",
         "referToDimensionOfContentArea",
         "referToElementFontSize",
         "referToFlexContainersInnerMainSize",
         "referToHeightOfBackgroundPositioningAreaMinusBackgroundImageHeight",
+        "referToLineBoxWidth",
         "referToLineHeight",
         "referToParentElementsFontSize",
         "referToSizeOfBackgroundPositioningAreaMinusBackgroundImageSize",
@@ -108,7 +111,7 @@
         "asSpecifiedRelativeToAbsoluteLengths",
         "asSpecifiedURLsAbsolute",
         "asSpecifiedWithExceptionOfResolution",
-        "asSpecifiedWithLengthsMadeAbsolute",
+        "asSpecifiedWithLengthsAbsoluteAndNormalComputingToZeroExceptMultiColumn",
         "asSpecifiedWithVarsSubstituted",
         "autoOnAbsolutelyPositionedElementsValueOfAlignItemsOnParent",
         "autoOrRectangle",
@@ -172,9 +175,12 @@
         "beforeAndAfterPseudos",
         "blockContainerElements",
         "blockContainers",
+        "blockContainersExceptMultiColumnContainers",
         "blockContainersExceptTableWrappers",
+        "blockContainersFlexContainersGridContainers",
         "blockElementsInNormalFlow",
         "blockLevelElements",
+        "blockLevelBoxesAndAbsolutelyPositionedBoxesAndGridItems",
         "boxElements",
         "childrenOfBoxElements",
         "directChildrenOfElementsWithDisplayMozBoxMozInlineBox",
@@ -182,13 +188,16 @@
         "elementsWithDisplayMarker",
         "elementsWithDisplayMozBoxMozInlineBox",
         "elementsWithOverflowNotVisibleAndReplacedElements",
+        "exclusionElements",
         "firstLetterPseudoElementsAndInlineLevelFirstChildren",
         "flexContainers",
         "flexItemsAndAbsolutelyPositionedFlexContainerChildren",
         "flexItemsAndInFlowPseudos",
+        "flexItemsGridItemsAndAbsolutelyPositionedBoxes",
         "floats",
         "gridContainers",
         "gridItemsAndBoxesWithinGridContainer",
+        "iframeElements",
         "images",
         "inFlowBlockLevelElements",
         "inFlowChildrenOfBoxElements",
@@ -196,9 +205,11 @@
         "listItems",
         "maskElements",
         "multicolElements",
+        "multiColumnElementsFlexContainersGridContainers",
         "multilineFlexContainers",
         "nonReplacedBlockAndInlineBlockElements",
         "nonReplacedBlockElements",
+        "nonReplacedElements",
         "nonReplacedInlineElements",
         "positionedElements",
         "replacedElements",
@@ -272,7 +283,35 @@
         "type": "string"
       },
       "media": {
-        "type": "string"
+        "oneOf": [
+          {
+            "type": "string",
+            "enum": [
+              "all",
+              "aural",
+              "continuous",
+              "interactive",
+              "none",
+              "noPracticalMedia",
+              "paged",
+              "visual",
+              "visualInContinuousMediaNoEffectInOverflowColumns"
+            ]
+          },
+          {
+            "type": "array",
+            "minItems": 2,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "enum": [
+                "interactive",
+                "paged",
+                "visual"
+              ]
+            }
+          }
+        ]
       },
       "inherited": {
         "type": "boolean"

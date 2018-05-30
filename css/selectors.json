@@ -191,6 +191,14 @@
     ],
     "status": "standard"
   },
+  ":focus-visible": {
+    "syntax": ":focus-visible",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "experimental"
+  },
   ":focus-within": {
     "syntax": ":focus-within",
     "groups": [
@@ -205,7 +213,7 @@
       "Pseudo-classes",
       "Selectors"
     ],
-    "status": "standard"
+    "status": "experimental"
   },
   ":host()": {
     "syntax": ":host( <compound-selector-list> )",
@@ -215,8 +223,16 @@
     ],
     "status": "experimental"
   },
+  ":host-context": {
+    "syntax": ":host-context",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "experimental"
+  },
   ":host-context()": {
-    "syntax": ":host-context(  <compound-selector-list> )",
+    "syntax": ":host-context( <compound-selector-list> )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
@@ -486,6 +502,42 @@
     ],
     "status": "nonstandard"
   },
+  "::-ms-browse": {
+    "syntax": "::-ms-browse",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors",
+      "Microsoft Extensions"
+    ],
+    "status": "nonstandard"
+  },
+  "::-ms-check": {
+    "syntax": "::-ms-check",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors",
+      "Microsoft Extensions"
+    ],
+    "status": "nonstandard"
+  },
+  "::-ms-clear": {
+    "syntax": "::-ms-clear",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors",
+      "Microsoft Extensions"
+    ],
+    "status": "nonstandard"
+  },
+  "::-ms-expand": {
+    "syntax": "::-ms-clear",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors",
+      "Microsoft Extensions"
+    ],
+    "status": "nonstandard"
+  },
   "::-ms-fill": {
     "syntax": "::-ms-fill",
     "groups": [
@@ -513,6 +565,15 @@
     ],
     "status": "nonstandard"
   },
+  "::-ms-reveal": {
+    "syntax": "::-ms-reveal",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors",
+      "Microsoft Extensions"
+    ],
+    "status": "nonstandard"
+  },
   "::-ms-thumb": {
     "syntax": "::-ms-thumb",
     "groups": [
@@ -522,8 +583,44 @@
     ],
     "status": "nonstandard"
   },
+  "::-ms-ticks-after": {
+    "syntax": "::-ms-ticks-after",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors",
+      "Microsoft Extensions"
+    ],
+    "status": "nonstandard"
+  },
+  "::-ms-ticks-before": {
+    "syntax": "::-ms-ticks-before",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors",
+      "Microsoft Extensions"
+    ],
+    "status": "nonstandard"
+  },
+  "::-ms-tooltip": {
+    "syntax": "::-ms-tooltip",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors",
+      "Microsoft Extensions"
+    ],
+    "status": "nonstandard"
+  },
   "::-ms-track": {
     "syntax": "::-ms-track",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors",
+      "Microsoft Extensions"
+    ],
+    "status": "nonstandard"
+  },
+  "::-ms-value": {
+    "syntax": "::-ms-value",
     "groups": [
       "Pseudo-elements",
       "Selectors",
@@ -642,6 +739,14 @@
   },
   "::selection": {
     "syntax": "::selection",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors"
+    ],
+    "status": "standard"
+  },
+  "::slotted": {
+    "syntax": "::slotted(<compound-selector-list>)",
     "groups": [
       "Pseudo-elements",
       "Selectors"

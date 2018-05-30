@@ -54,7 +54,7 @@
       "prefix": {
         "syntax": "<symbol>",
         "media": "all",
-        "initial": "the empty string",
+        "initial": "\"\"",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -81,7 +81,7 @@
       "suffix": {
         "syntax": "<symbol>",
         "media": "all",
-        "initial": "\".\" full stop followed by a space",
+        "initial": "\". \"",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -120,7 +120,7 @@
     "status": "nonstandard"
   },
   "@font-face": {
-    "syntax": "@font-face {\n  [ font-family: <family-name>; ] ||\n  [ src: [ <url> [ format(<string>#) ]? | <font-face-name> ]#; ] ||\n  [ unicode-range: <urange>#; ] ||\n  [ font-variant: <font-variant>; ] ||\n  [ font-feature-settings: normal | <feature-tag-value>#; ] ||\n  [ font-variation-settings: normal | [ <string> <number>] # ||\n [ font-stretch: <font-stretch>; ] ||\n  [ font-weight: <weight>; ] ||\n  [ font-style: <style>; ]\n}",
+    "syntax": "@font-face {\n  [ font-family: <family-name>; ] ||\n  [ src: <src>; ] ||\n  [ unicode-range: <unicode-range>; ] ||\n  [ font-variant: <font-variant>; ] ||\n  [ font-feature-settings: <font-feature-settings>; ] ||\n  [ font-variation-settings: <font-variation-settings>; ] ||\n  [ font-stretch: <font-stretch>; ] ||\n  [ font-weight: <font-weight>; ] ||\n  [ font-style: <font-style>; ]\n}",
     "interfaces": [
       "CSSFontFaceRule"
     ],
@@ -156,7 +156,7 @@
         "status": "standard"
       },
       "font-variation-settings": {
-        "syntax": "normal | [ <string> <number>] #",
+        "syntax": "normal | [ <string> <number> ]#",
         "media": "all",
         "initial": "normal",
         "percentages": "no",
@@ -201,7 +201,7 @@
         "status": "standard"
       },
       "src": {
-        "syntax": "[ <url> format(<string>#)? | local(<family-name>) ]#",
+        "syntax": "[ <url> [ format( <string># ) ]? | local( <family-name> ) ]#",
         "media": "all",
         "initial": "n/a (required)",
         "percentages": "no",
@@ -281,7 +281,10 @@
     "descriptors": {
       "bleed": {
         "syntax": "auto | <length>",
-        "media": "visual, paged",
+        "media": [
+          "visual",
+          "paged"
+        ],
         "initial": "auto",
         "percentages": "no",
         "computed": "asSpecified",
@@ -290,7 +293,10 @@
       },
       "marks": {
         "syntax": "none | [ crop || cross ]",
-        "media": "visual, paged",
+        "media": [
+          "visual",
+          "paged"
+        ],
         "initial": "none",
         "percentages": "no",
         "computed": "asSpecified",
@@ -323,7 +329,10 @@
     "descriptors": {
       "height": {
         "syntax": "<viewport-length>{1,2}",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": [
           "min-height",
           "max-height"
@@ -341,7 +350,10 @@
       },
       "max-height": {
         "syntax": "<viewport-length>",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": "auto",
         "percentages": "referToHeightOfInitialViewport",
         "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
@@ -350,7 +362,10 @@
       },
       "max-width": {
         "syntax": "<viewport-length>",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": "auto",
         "percentages": "referToWidthOfInitialViewport",
         "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
@@ -359,7 +374,10 @@
       },
       "max-zoom": {
         "syntax": "auto | <number> | <percentage>",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": "auto",
         "percentages": "the zoom factor itself",
         "computed": "autoNonNegativeOrPercentage",
@@ -368,7 +386,10 @@
       },
       "min-height": {
         "syntax": "<viewport-length>",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": "auto",
         "percentages": "referToHeightOfInitialViewport",
         "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
@@ -377,7 +398,10 @@
       },
       "min-width": {
         "syntax": "<viewport-length>",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": "auto",
         "percentages": "referToWidthOfInitialViewport",
         "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
@@ -386,7 +410,10 @@
       },
       "min-zoom": {
         "syntax": "auto | <number> | <percentage>",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": "auto",
         "percentages": "the zoom factor itself",
         "computed": "autoNonNegativeOrPercentage",
@@ -395,7 +422,10 @@
       },
       "orientation": {
         "syntax": "auto | portrait | landscape",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": "auto",
         "percentages": "referToSizeOfBoundingBox",
         "computed": "asSpecified",
@@ -404,7 +434,10 @@
       },
       "user-zoom": {
         "syntax": "zoom | fixed",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": "zoom",
         "percentages": "referToSizeOfBoundingBox",
         "computed": "asSpecified",
@@ -413,7 +446,10 @@
       },
       "width": {
         "syntax": "<viewport-length>{1,2}",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": [
           "min-width",
           "max-width"
@@ -431,7 +467,10 @@
       },
       "zoom": {
         "syntax": "auto | <number> | <percentage>",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": "auto",
         "percentages": "the zoom factor itself",
         "computed": "autoNonNegativeOrPercentage",
