@@ -111,7 +111,7 @@
     "syntax": "add | subtract | intersect | exclude"
   },
   "compound-selector": {
-    "syntax": "[ <type-selector>? <subclass-selector>*[ <pseudo-element-selector> <pseudo-class-selector>* ]* ]!"
+    "syntax": "[ <type-selector>? <subclass-selector>* [ <pseudo-element-selector> <pseudo-class-selector>* ]* ]!"
   },
   "compound-selector-list": {
     "syntax": "<compound-selector>#"
