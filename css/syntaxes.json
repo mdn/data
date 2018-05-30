@@ -245,6 +245,9 @@
   "font-variant-css21": {
     "syntax": "[ normal | small-caps ]"
   },
+  "font-weight-absolute": {
+    "syntax": "normal | bold | <number>"
+  },
   "frames-timing-function": {
     "syntax": "frames(<integer>)"
   },
