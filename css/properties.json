@@ -3295,9 +3295,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Columns",
-      "CSS Fragmentation",
-      "CSS Regions"
+      "CSS Fragmentation"
     ],
     "initial": "auto",
     "appliesto": "blockLevelElements",
@@ -3312,9 +3310,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Columns",
-      "CSS Fragmentation",
-      "CSS Regions"
+      "CSS Fragmentation"
     ],
     "initial": "auto",
     "appliesto": "blockLevelElements",
@@ -3329,9 +3325,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Columns",
-      "CSS Fragmentation",
-      "CSS Regions"
+      "CSS Fragmentation"
     ],
     "initial": "auto",
     "appliesto": "blockLevelElements",
@@ -3486,7 +3480,6 @@
     "animationType": "lpc",
     "percentages": "referToDimensionOfContentArea",
     "groups": [
-      "CSS Columns",
       "CSS Box Alignment"
     ],
     "initial": "normal",
@@ -5929,7 +5922,6 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Columns",
       "CSS Fragmentation"
     ],
     "initial": "2",
@@ -7510,7 +7502,6 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Columns",
       "CSS Fragmentation"
     ],
     "initial": "2",
