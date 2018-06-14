@@ -26,11 +26,12 @@
   "homepage": "https://developer.mozilla.org",
   "devDependencies": {
     "ajv": "^5.0.1",
-    "better-ajv-errors": "^0.5.1"
+    "better-ajv-errors": "^0.5.1",
+    "css-tree": "^1.0.0-alpha.29"
   },
   "scripts": {
     "lint": "node test/lint",
     "travis": "npm test",
-    "test": "npm run lint"
+    "test": "node test/test"
   }
 }
