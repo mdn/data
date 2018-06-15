@@ -10,18 +10,18 @@ function isBasicType(name) { return basicTypes.hasOwnProperty(name); }
 function isSyntax(name) { return syntaxes.hasOwnProperty(name); }
 function isProperty(name) { return properties.hasOwnProperty(name); }
 
-function validateGrammar(grammar, searchInProperties) {
-    switch (grammar.type) {
+function validateGrammar(grammar) {
+  switch (grammar.type) {
     case 'Group':
       return grammar.terms
-        .map(function(t) { return validateGrammar(t, searchInProperties); })
+        .map(validateGrammar)
         .reduce(function(a, b) { return a.concat(b); }, []);
     case 'Multiplier':
-      return validateGrammar(grammar.term, searchInProperties);
+      return validateGrammar(grammar.term);
     case 'Type':
       var typeName = grammar.name;
-      if (!(isBasicType(typeName) || isSyntax(typeName) || searchInProperties && isProperty(typeName))) {
-          return [typeName];
+      if (!(isBasicType(typeName) || isSyntax(typeName) || isProperty(typeName))) {
+        return [typeName];
       }
       return [];
     default:
@@ -29,10 +29,10 @@ function validateGrammar(grammar, searchInProperties) {
   }
 }
 
-function validateItem(name, item, searchInProperties) {
+function validateItem(name, item) {
   try {
     var syntax = parseGrammar(item.syntax);
-    var errs = validateGrammar(syntax, searchInProperties);
+    var errs = validateGrammar(syntax);
     if (errs.length > 0) {
       console.log('  ' + name + ':');
       errs.forEach(function (type) { console.log('    invalid type: ' + type); });
@@ -46,12 +46,12 @@ function validateItem(name, item, searchInProperties) {
   }
 }
 
-function validateItems(file, items, searchInProperties) {
+function validateItems(file, items) {
   console.log(file);
 
   itemsHaveErrors = false;
 
-  Object.keys(items).forEach(function(key) { validateItem(key, items[key], searchInProperties); });
+  Object.keys(items).forEach(function(key) { validateItem(key, items[key]); });
 
   if (itemsHaveErrors) {
     console.log('');
@@ -62,8 +62,8 @@ function validateItems(file, items, searchInProperties) {
   }
 }
 
-validateItems('css/properties.json', properties, true);
-validateItems('css/syntaxes.json', syntaxes, false);
+validateItems('css/properties.json', properties);
+validateItems('css/syntaxes.json', syntaxes);
 
 if (hasErrors) {
   process.exit(1);
