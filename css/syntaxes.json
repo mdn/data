@@ -312,7 +312,7 @@
     "syntax": "<length> | <percentage> | min-content | max-content | auto"
   },
   "inset()": {
-    "syntax": "inset( <length-percentage>{1,4} [ round <border-radius> ]? )"
+    "syntax": "inset( <length-percentage>{1,4} [ round <'border-radius'> ]? )"
   },
   "invert()": {
     "syntax": "invert( <number-percentage> )"
