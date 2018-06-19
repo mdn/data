@@ -165,7 +165,7 @@
         "status": "standard"
       },
       "font-stretch": {
-        "syntax": "normal | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded",
+        "syntax": "<font-stretch-absolute>{1,2}",
         "media": "all",
         "initial": "normal",
         "percentages": "no",
@@ -174,7 +174,7 @@
         "status": "standard"
       },
       "font-style": {
-        "syntax": "normal | italic | oblique",
+        "syntax": "normal | italic | oblique <angle>{0,2}",
         "media": "all",
         "initial": "normal",
         "percentages": "no",
@@ -183,7 +183,7 @@
         "status": "standard"
       },
       "font-weight": {
-        "syntax": "normal | bold | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900",
+        "syntax": "<font-weight-absolute>{1,2}",
         "media": "all",
         "initial": "normal",
         "percentages": "no",
