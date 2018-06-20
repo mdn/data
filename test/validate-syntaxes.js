@@ -20,8 +20,14 @@ function validateGrammar(grammar) {
       return validateGrammar(grammar.term);
     case 'Type':
       var typeName = grammar.name;
-      if (!(isBasicType(typeName) || isSyntax(typeName) || isProperty(typeName))) {
-        return [typeName];
+      if (!(isBasicType(typeName) || isSyntax(typeName))) {
+        return ['invalid type: ' + typeName];
+      }
+      return [];
+    case 'Property':
+      var typeName = grammar.name;
+      if (!isProperty(typeName)) {
+        return ['invalid property: ' + typeName];
       }
       return [];
     default:
@@ -35,7 +41,7 @@ function validateItem(name, item) {
     var errs = validateGrammar(syntax);
     if (errs.length > 0) {
       console.log('  ' + name + ':');
-      errs.forEach(function (type) { console.log('    invalid type: ' + type); });
+      errs.forEach(function (err) { console.log('    ' + err); });
       itemsHaveErrors = true;
     }
   }
