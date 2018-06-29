@@ -10,21 +10,27 @@ function isBasicType(name) { return basicTypes.hasOwnProperty(name); }
 function isSyntax(name) { return syntaxes.hasOwnProperty(name); }
 function isProperty(name) { return properties.hasOwnProperty(name); }
 
+// Checks that the syntaxes this grammar refers to exist.
+// Returns an array of errors (strings), one for each broken reference.
 function validateGrammar(grammar) {
   switch (grammar.type) {
     case 'Group':
+      // validate the nested grammars and collect all the errors
       return grammar.terms
         .map(validateGrammar)
         .reduce(function(a, b) { return a.concat(b); }, []);
     case 'Multiplier':
+      // validate the nested grammar
       return validateGrammar(grammar.term);
     case 'Type':
+      // validate basic types and non-terminal types, e.g. <length>, <bg-image>
       var typeName = grammar.name;
       if (!(isBasicType(typeName) || isSyntax(typeName))) {
         return ['invalid type: ' + typeName];
       }
       return [];
     case 'Property':
+      // validate references to properties, e.g. <'background-color'>
       var typeName = grammar.name;
       if (!isProperty(typeName)) {
         return ['invalid property: ' + typeName];
@@ -40,12 +46,14 @@ function validateItem(name, item) {
     var syntax = parseGrammar(item.syntax);
     var errs = validateGrammar(syntax);
     if (errs.length > 0) {
+      // print validation errors
       console.log('  ' + name + ':');
       errs.forEach(function (err) { console.log('    ' + err); });
       itemsHaveErrors = true;
     }
   }
   catch (err) {
+    // print parsing errors
     console.log('  ' + name + ':');
     console.log('    ' + err.message.replace(/\n/g, '\n    '));
     itemsHaveErrors = true;
