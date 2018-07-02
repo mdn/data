@@ -335,6 +335,9 @@
   "leader-type": {
     "syntax": "dotted | solid | space | <string>"
   },
+  "length-auto": {
+    "syntax": "<length> | auto"
+  },
   "length-percentage": {
     "syntax": "<length> | <percentage>"
   },
@@ -564,7 +567,7 @@
     "syntax": "[ <length>{2,3} && <color>? ]"
   },
   "shape": {
-    "syntax": "rect(<top>, <right>, <bottom>, <left>)"
+    "syntax": "rect(<length-auto>, <length-auto>, <length-auto>, <length-auto>)"
   },
   "shape-box": {
     "syntax": "<box> | margin-box"
