@@ -31,7 +31,8 @@
   },
   "scripts": {
     "lint": "node test/lint",
-    "travis": "npm test",
-    "test": "node test/test"
+    "validate-syntaxes": "node test/validate-syntaxes",
+    "test": "npm run lint && npm run validate-syntaxes",
+    "travis": "npm test"
   }
 }
