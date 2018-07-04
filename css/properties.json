@@ -6760,6 +6760,36 @@
     "order": "uniqueOrder",
     "status": "nonstandard"
   },
+  "scrollbar-face-color": {
+    "syntax": "auto | <color>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "color",
+    "percentages": "no",
+    "groups": [
+      "CSS Scrollbars"
+    ],
+    "initial": "auto",
+    "appliesto": "blockContainersFlexContainersGridContainers",
+    "computed": "asAutoOrColor",
+    "order": "perGrammar",
+    "status": "standard"
+  },
+  "scrollbar-track-color": {
+    "syntax": "auto | <color>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "color",
+    "percentages": "no",
+    "groups": [
+      "CSS Scrollbars"
+    ],
+    "initial": "auto",
+    "appliesto": "blockContainersFlexContainersGridContainers",
+    "computed": "asAutoOrColor",
+    "order": "perGrammar",
+    "status": "standard"
+  },
   "shape-image-threshold": {
     "syntax": "<number>",
     "media": "visual",
