@@ -188,5 +188,12 @@
       "CSS Lengths"
     ],
     "status": "standard"
+  },
+  "x": {
+    "groups": [
+      "CSS Units",
+      "CSS Resolutions"
+    ],
+    "status": "standard"
   }
 }
