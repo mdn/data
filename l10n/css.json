@@ -1324,12 +1324,14 @@
     "de": "Scrollcontainer",
     "en-US": "scroll containers",
     "fr": "conteneurs d'ascenseurs",
+    "ja": "スクロールコンテナー",
     "ru": "прокручиваемые контейнеры"
   },
   "scrollingBoxes": {
     "de": "scrollende Boxen",
     "en-US": "scrolling boxes",
     "fr": "boîtes défilantes",
+    "ja": "スクロールするボックス",
     "ru": "прокручиваемые блоки"
   },
   "seeProse": {
