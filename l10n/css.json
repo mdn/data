@@ -441,14 +441,14 @@
     "de": "Blockcontainerelemente",
     "en-US": "block container elements",
     "fr": "les éléments conteneurs de blocs",
-    "ja": "ブロックコンテナ要素",
+    "ja": "ブロックコンテナー要素",
     "ru": "блочные контейнеры"
   },
   "blockContainers": {
     "de": "Blockcontainer",
     "en-US": "block containers",
     "fr": "conteneurs de type bloc",
-    "ja": "ブロックコンテナ",
+    "ja": "ブロックコンテナー",
     "ru": "блочные контейнеры"
   },
   "blockContainersExceptMultiColumnContainers": {
@@ -459,7 +459,8 @@
     "en-US": "Block containers except table wrapper boxes"
   },
   "blockContainersFlexContainersGridContainers": {
-    "en-US": "Block-containers, flex containers, and grid containers"
+    "en-US": "Block-containers, flex containers, and grid containers",
+    "ja": "ブロックコンテナー, フレックスコンテナー, グリッドコンテナー"
   },
   "blockElementsInNormalFlow": {
     "de": "Blocklevelelemente in normalem Fluss des Wurzelelements. User Agents können es auch auf andere Elemente wie <code>table-row</code>-Elemente anwenden.",
@@ -1483,6 +1484,7 @@
     "de": "visuell",
     "en-US": "visual",
     "fr": "visuel",
+    "ja": "視覚",
     "ru": "визуальный"
   },
   "visualInContinuousMediaNoEffectInOverflowColumns": {
