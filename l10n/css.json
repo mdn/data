@@ -230,6 +230,7 @@
     "de": "alle Elemente; In SVG gilt betrifft dies Containerelemente mit Ausnahme des {{SVGElement(\"defs\")}} Elements und allen Grafikelementen",
     "en-US": "all elements; In SVG, it applies to container elements excluding the {{SVGElement(\"defs\")}} element and all graphics elements",
     "fr": "tous les éléments ; en SVG, cela s'applique aux éléments conteneurs à l'exception des éléments {{SVGElement(\"defs\")}} et des éléments graphiques",
+    "ja": "すべての要素。 SVG では、 {{SVGElement(\"defs\")}} 要素及びすべてのグラフィック要素を除いたコンテナー要素に適用されます。",
     "ru": "все элементы; в SVG, это применяется к контейнерам, исключая элемент {{SVGElement(\"defs\")}} и все графические элементы"
   },
   "allElementsSVGContainerGraphicsAndGraphicsReferencingElements": {
@@ -1041,7 +1042,8 @@
   "perGrammar": {
     "de": "nach Grammatik",
     "en-US": "per grammar",
-    "fr": "selon la grammaire"
+    "fr": "selon la grammaire",
+    "ja": "構文通り"
   },
   "position": {
     "de": "<a href=\"/de/docs/Web/CSS/number#Interpolation\" title=\"Werte des <position> Datentyps werden unabhängig für Abszisse und Ordinate interpoliert. Da die Geschwindigkeit für beide durch dieselbe <timing-function> bestimmt wird, wird der Punkt einer Linie folgen.\">Position</a>",
