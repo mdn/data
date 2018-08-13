@@ -259,6 +259,10 @@
         "experimental",
         "obsolete"
       ]
+    },
+    "mdn_url": {
+      "type": "string",
+      "pattern": "^https://developer.mozilla.org/docs/"
     }
   },
   "type": "object",
@@ -378,6 +382,9 @@
       },
       "status": {
         "$ref": "#/definitions/status"
+      },
+      "mdn_url": {
+        "$ref": "#/definitions/mdn_url"
       }
     }
   }
