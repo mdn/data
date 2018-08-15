@@ -6668,7 +6668,7 @@
     "appliesto": "allElements",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
-    "status": "standard"
+    "status": "obsolete"
   },
   "scroll-snap-destination": {
     "syntax": "<position>",
@@ -6683,7 +6683,7 @@
     "appliesto": "scrollContainers",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
-    "status": "standard"
+    "status": "obsolete"
   },
   "scroll-snap-points-x": {
     "syntax": "none | repeat( <length-percentage> )",
