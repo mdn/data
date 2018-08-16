@@ -1191,7 +1191,7 @@
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-appearance"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-appearance"
   },
   "-webkit-border-before": {
     "syntax": "<'border-width'> || <'border-style'> || <'color'>",
@@ -1308,7 +1308,7 @@
     ],
     "order": "uniqueOrder",
     "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-mask"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask"
   },
   "-webkit-mask-attachment": {
     "syntax": "<attachment>#",
@@ -1340,7 +1340,7 @@
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-clip"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-clip"
   },
   "-webkit-mask-composite": {
     "syntax": "<composite-style>#",
@@ -1372,7 +1372,7 @@
     "computed": "absoluteURIOrNone",
     "order": "orderOfAppearance",
     "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-image"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-image"
   },
   "-webkit-mask-origin": {
     "syntax": "[ <box> | border | padding | content ]#",
@@ -1388,7 +1388,7 @@
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-origin"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-origin"
   },
   "-webkit-mask-position": {
     "syntax": "<position>#",
@@ -1404,7 +1404,7 @@
     "computed": "absoluteLengthOrPercentage",
     "order": "orderOfAppearance",
     "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-position"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-position"
   },
   "-webkit-mask-position-x": {
     "syntax": "[ <length-percentage> | left | center | right ]#",
@@ -1452,7 +1452,7 @@
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-repeat"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-repeat"
   },
   "-webkit-mask-repeat-x": {
     "syntax": "repeat | no-repeat | space | round",
@@ -1500,7 +1500,7 @@
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-size"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-size"
   },
   "-webkit-overflow-scrolling": {
     "syntax": "auto | touch",
@@ -4751,7 +4751,7 @@
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
     "status": "obsolete",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid-column-gap"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/column-gap"
   },
   "grid-column-start": {
     "syntax": "<grid-line>",
@@ -4792,7 +4792,7 @@
     ],
     "order": "uniqueOrder",
     "status": "obsolete",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid-gap"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gap"
   },
   "grid-row": {
     "syntax": "<grid-line> [ / <grid-line> ]?",
@@ -4846,7 +4846,7 @@
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
     "status": "obsolete",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid-row-gap"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/row-gap"
   },
   "grid-row-start": {
     "syntax": "<grid-line>",
@@ -6426,7 +6426,7 @@
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow-clip-box"
+    "mdn_url": "https://developer.mozilla.org/docs/Mozilla/CSS/overflow-clip-box"
   },
   "overflow-inline": {
     "syntax": "<'overflow'>",
@@ -8014,7 +8014,7 @@
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/word-wrap"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow-wrap"
   },
   "writing-mode": {
     "syntax": "horizontal-tb | vertical-rl | vertical-lr | sideways-rl | sideways-lr",
