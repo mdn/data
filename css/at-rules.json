@@ -4,7 +4,8 @@
     "groups": [
       "CSS Charsets"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@charset"
   },
   "@counter-style": {
     "syntax": "@counter-style <counter-style-name> {\n  [ system: <counter-system>; ] ||\n  [ symbols: <counter-symbols>; ] ||\n  [ additive-symbols: <additive-symbols>; ] ||\n  [ negative: <negative-symbol>; ] ||\n  [ prefix: <prefix>; ] ||\n  [ suffix: <suffix>; ] ||\n  [ range: <range>; ] ||\n  [ pad: <padding>; ] ||\n  [ speak-as: <speak-as>; ] ||\n  [ fallback: <counter-style-name>; ]\n}",
@@ -106,7 +107,8 @@
         "status": "standard"
       }
     },
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style"
   },
   "@document": {
     "syntax": "@document [ <url> | url-prefix(<string>) | domain(<string>) | regexp(<string>) ]# {\n  <group-rule-body>\n}",
@@ -117,7 +119,8 @@
     "groups": [
       "CSS Conditional Rules"
     ],
-    "status": "nonstandard"
+    "status": "nonstandard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@document"
   },
   "@font-face": {
     "syntax": "@font-face {\n  [ font-family: <family-name>; ] ||\n  [ src: <src>; ] ||\n  [ unicode-range: <unicode-range>; ] ||\n  [ font-variant: <font-variant>; ] ||\n  [ font-feature-settings: <font-feature-settings>; ] ||\n  [ font-variation-settings: <font-variation-settings>; ] ||\n  [ font-stretch: <font-stretch>; ] ||\n  [ font-weight: <font-weight>; ] ||\n  [ font-style: <font-style>; ]\n}",
@@ -219,7 +222,8 @@
         "status": "standard"
       }
     },
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face"
   },
   "@font-feature-values": {
     "syntax": "@font-feature-values <family-name># {\n  <feature-value-block-list>\n}",
@@ -229,14 +233,16 @@
     "groups": [
       "CSS Fonts"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-feature-values"
   },
   "@import": {
     "syntax": "@import [ <string> | <url> ] [ <media-query-list> ]?;",
     "groups": [
       "Media Queries"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@import"
   },
   "@keyframes": {
     "syntax": "@keyframes <keyframes-name> {\n  <keyframe-block-list>\n}",
@@ -247,7 +253,8 @@
     "groups": [
       "CSS Animations"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@keyframes"
   },
   "@media": {
     "syntax": "@media <media-query-list> {\n  <group-rule-body>\n}",
@@ -261,14 +268,16 @@
       "CSS Conditional Rules",
       "Media Queries"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media"
   },
   "@namespace": {
     "syntax": "@namespace <namespace-prefix>? [ <string> | <url> ];",
     "groups": [
       "CSS Namespaces"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@namespace"
   },
   "@page": {
     "syntax": "@page <page-selector-list> {\n  <page-body>\n}",
@@ -304,7 +313,8 @@
         "status": "experimental"
       }
     },
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@page"
   },
   "@supports": {
     "syntax": "@supports <supports-condition> {\n  <group-rule-body>\n}",
@@ -316,7 +326,8 @@
     "groups": [
       "CSS Conditional Rules"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@supports"
   },
   "@viewport": {
     "syntax": "@viewport {\n  <group-rule-body>\n}",
@@ -478,6 +489,7 @@
         "status": "standard"
       }
     },
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@viewport"
   }
 }
