@@ -34,7 +34,7 @@
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value"
   },
   "custom-ident": {
     "groups": [
@@ -60,7 +60,7 @@
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flex"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flex_value"
   },
   "frequency": {
     "groups": [
@@ -124,7 +124,7 @@
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position_value"
   },
   "ratio": {
     "groups": [
