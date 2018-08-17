@@ -5939,7 +5939,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "0",
+    "initial": "auto",
     "appliesto": "allElementsButNonReplacedAndTableColumns",
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
@@ -5971,7 +5971,7 @@
     "groups": [
       "CSS Box Model"
     ],
-    "initial": "0",
+    "initial": "auto",
     "appliesto": "allElementsButNonReplacedAndTableRows",
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
