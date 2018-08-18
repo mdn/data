@@ -9,28 +9,32 @@
     "groups": [
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/angle"
   },
   "basic-shape": {
     "groups": [
       "CSS Shapes",
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/basic-shape"
   },
   "blend-mode": {
     "groups": [
       "Compositing and Blending",
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/blend-mode"
   },
   "color": {
     "groups": [
       "CSS Color",
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value"
   },
   "custom-ident": {
     "groups": [
@@ -40,33 +44,38 @@
       "CSS Animations",
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/custom-ident"
   },
   "filter-function": {
     "groups": [
       "Filter Effects"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function"
   },
   "flex": {
     "groups": [
       "CSS Grid Layout",
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flex_value"
   },
   "frequency": {
     "groups": [
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/frequency"
   },
   "gradient": {
     "groups": [
       "CSS Images",
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient"
   },
   "ident": {
     "groups": [
@@ -79,67 +88,78 @@
       "CSS Images",
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/image"
   },
   "integer": {
     "groups": [
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/integer"
   },
   "length": {
     "groups": [
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/length"
   },
   "number": {
     "groups": [
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/number"
   },
   "percentage": {
     "groups": [
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/percentage"
   },
   "position": {
     "groups": [
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position_value"
   },
   "ratio": {
     "groups": [
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ratio"
   },
   "resolution": {
     "groups": [
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/resolution"
   },
   "shape": {
     "groups": [
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape"
   },
   "string": {
     "groups": [
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/string"
   },
   "time": {
     "groups": [
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/time"
   },
   "timing-function": {
     "groups": [
@@ -147,19 +167,22 @@
       "CSS Transitions",
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/single-transition-timing-function"
   },
   "transform-function": {
     "groups": [
       "CSS Transforms",
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function"
   },
   "url": {
     "groups": [
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/url"
   }
 }
