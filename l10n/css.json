@@ -385,7 +385,8 @@
     "ru": "как указано, за исключением &lt;resolution&gt; может изменить значением 'snap'"
   },
   "asSpecifiedWithLengthsAbsoluteAndNormalComputingToZeroExceptMultiColumn": {
-    "en-US": "as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements"
+    "en-US": "as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements",
+    "ja": "指定通りで、 &lt;length&gt; は絶対長になり、 normal の計算値は段組み要素を除き 0 になる"
   },
   "asSpecifiedWithVarsSubstituted": {
     "de": "wie angegeben, wobei Variablen ersetzt werden",
@@ -870,11 +871,12 @@
     "de": "mehrspaltige Elemente",
     "en-US": "multicol elements",
     "fr": "éléments sur plusieurs colonnes",
-    "ja": "多段要素",
+    "ja": "段組み要素",
     "ru": "мультиколоночные элементы"
   },
   "multiColumnElementsFlexContainersGridContainers": {
-    "en-US": "multi-column elements, flex containers, grid containers"
+    "en-US": "multi-column elements, flex containers, grid containers",
+    "ja": "段組み要素, フレックスコンテナー, グリッドコンテナー"
   },
   "multilineFlexContainers": {
     "de": "mehrzeilige flexible Container",
@@ -1086,6 +1088,7 @@
     "de": "beziehen sich auf die entsprechende Dimension des Inhaltsbereichs",
     "en-US": "refer to corresponding dimension of the content area",
     "fr": "fait référence à la dimension correspondante de la zone de contenu",
+    "ja": "該当するコンテンツ領域の寸法を参照",
     "ru": "относятся к соответвующему размеру области содержимого"
   },
   "referToElementFontSize": {
