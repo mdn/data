@@ -6835,10 +6835,7 @@
     "syntax": "<'align-items'> <'justify-items'>?",
     "media": "visual",
     "inherited": false,
-    "animationType": [
-      "align-items",
-      "justify-items"
-    ],
+    "animationType": "discrete",
     "percentages": "no",
     "groups": [
       "CSS Box Alignment"
