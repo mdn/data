@@ -6850,7 +6850,8 @@
       "justify-items"
     ],
     "order": "uniqueOrder",
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/place-items"
   },
   "pointer-events": {
     "syntax": "auto | none | visiblePainted | visibleFill | visibleStroke | visible | painted | fill | stroke | all | inherit",
