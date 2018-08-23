@@ -3,20 +3,21 @@
     "de": "absolute {{cssxref(\"length\")}}",
     "en-US": "absolute {{cssxref(\"length\")}}",
     "fr": "une longueur (type {{cssxref(\"length\")}}) absolue",
+    "ja": "絶対的な{{cssxref(\"length\", \"長さ\")}}",
     "ru": "абсолютная {{cssxref(\"length\")}}"
   },
   "absoluteLength0ForNone": {
     "de": "eine absolute Länge; falls das Schlüsselwort <code>none</code> angegeben wurde, ist der berechnete Wert <code>0</code>",
     "en-US": "an absolute length; if the keyword <code>none</code> is specified, the computed value is <code>0</code>",
     "fr": "une longueur absolue ; si le mot-clé <code>none</code> est spécifié, la valeur calculée sera <code>0</code>",
-    "ja": "絶対的 length。キーワード <code>none</code> が指定されると計算値は <code>0</code> になります",
+    "ja": "絶対的な長さ、キーワード <code>none</code> が指定されると計算値は <code>0</code> になる",
     "ru": "абсолютная длина; если указано ключевое слово <code>none</code>, вычисленное значение - <code>0</code>"
   },
   "absoluteLength0IfColumnRuleStyleNoneOrHidden": {
     "de": "die absolute Länge; <code>0</code> falls {{cssxref(\"column-rule-style\")}} <code>none</code> oder <code>hidden</code> ist",
     "en-US": "the absolute length; <code>0</code> if the {{cssxref(\"column-rule-style\")}} is <code>none</code> or <code>hidden</code>",
     "fr": "une longueur absolue ou <code>0</code> si {{cssxref(\"column-rule-style\")}} vaut <code>none</code> ou <code>hidden</code>",
-    "ja": "絶対的な長さ。列の罫線のスタイルが <code>none</code> か <code>hidden</code> なら <code>0</code>",
+    "ja": "絶対的な長さ、列の罫線のスタイルが <code>none</code> か <code>hidden</code> なら <code>0</code>",
     "ru": "абсолютная длина; <code>0</code>, если {{cssxref(\"column-rule-style\")}} - <code>none</code> или <code>hidden</code>"
   },
   "absoluteLengthOr0IfBorderBottomStyleNoneOrHidden": {
@@ -79,6 +80,7 @@
     "de": "für {{cssxref(\"length\")}} der absolute Wert, ansonsten ein Prozentwert",
     "en-US": "for {{cssxref(\"length\")}} the absolute value, otherwise a percentage",
     "fr": "pour {{cssxref(\"length\")}}, la valeur absolue, sinon un pourcentage",
+    "ja": "{{cssxref(\"length\")}} の場合は絶対的な値、それ以外はパーセント値",
     "ru": "для {{cssxref(\"length\")}} абсолютного значения, иначе процент"
   },
   "absoluteLengthsSpecifiedColorAsSpecified": {
@@ -125,7 +127,7 @@
     "de": "alle Elemente",
     "en-US": "all elements",
     "fr": "tous les éléments",
-    "ja": "全要素",
+    "ja": "すべての要素",
     "pl": "wszystkich elementów",
     "ru": "все элементы"
   },
@@ -141,7 +143,7 @@
     "en-US": "all elements, {{cssxref(\"::before\")}} and {{cssxref(\"::after\")}} <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-elements</a>",
     "es": "todos los elementos y los <a href=\"/es/docs/Web/CSS/Pseudoelementos\">pseudoelementos</a> {{cssxref(\"::before\")}} y {{cssxref(\"::after\")}}",
     "fr": "tous les éléments, ainsi que les <a href=\"/fr/docs/Web/CSS/Pseudo-elements\">pseudo-elements</a> {{cssxref(\"::before\")}} et {{cssxref(\"::after\")}}",
-    "ja": "全要素、{{cssxref(\"::before\")}} / {{cssxref(\"::after\")}} <a href=\"/ja/docs/Web/CSS/Pseudo-elements\">疑似要素</a>",
+    "ja": "すべての要素、{{cssxref(\"::before\")}} / {{cssxref(\"::after\")}} <a href=\"/ja/docs/Web/CSS/Pseudo-elements\">疑似要素</a>",
     "ru": "все элементы, {{cssxref(\"::before\")}} и {{cssxref(\"::after\")}} <a href=\"/ru/docs/Web/CSS/Pseudo-elements\">псевдоэлементы</a>"
   },
   "allElementsButNonReplacedAndTableColumns": {
@@ -149,7 +151,7 @@
     "en-US": "all elements but non-replaced inline elements, table columns, and column groups",
     "es": "elementos de bloque o remplazados",
     "fr": "tous les éléments sauf les éléments en ligne non remplacés, les colonnes de tableaux et les groupes de colonnes",
-    "ja": "次の要素を除く全要素：非置換インライン要素、テーブルの列、列グループ",
+    "ja": "非置換インライン要素、テーブルの列、列グループを除くすべての要素",
     "ru": "все элементы, кроме незаменяемых строчных элементов, табличных колонок и групп колонок"
   },
   "allElementsButNonReplacedAndTableRows": {
@@ -168,7 +170,7 @@
     "de": "alle Elemente außer generierte Inhalte oder Pseudoelemente",
     "en-US": "all elements except generated content or pseudo-elements",
     "fr": "tous les éléments sauf le contenu généré ou les pseudo-éléments",
-    "ja": "全要素（※但し、 generated content 及び pseudo-elements を除く）",
+    "ja": "生成コンテンツ及び疑似要素を除くすべての要素",
     "ru": "все элементы, кроме сгенерированного контента и псевдоэлементов"
   },
   "allElementsExceptInternalTableDisplayTypes": {
@@ -181,49 +183,49 @@
     "de": "alle Elemente außer: nicht ersetzte Inlineelemente, Tabellenzeilen, Zeilengruppen, Tabellenspalten und Spaltengruppen",
     "en-US": "all elements except: non-replaced inline elements, table rows, row groups, table columns, and column groups",
     "fr": "tous les éléments sauf : les éléments en ligne non remplacés, les lignes, les groupes de lignes, les colonnes et les groupes de colonnes pour les tableaux",
-    "ja": "次を除く全要素: 非置換インライン要素およびテーブル行、行グループ、テーブル列、列グループ",
+    "ja": "非置換インライン要素、表の行、行グループ、表の列、列グループを除くすべての要素",
     "ru": "все элементы, кроме: незаменяемых строчных элементов, строк и колонок таблиц"
   },
   "allElementsExceptTableDisplayTypes": {
     "de": "alle Elemente außer Elemente mit Tabellen-{{cssxref(\"display\")}}-Typen, die nicht <code>table-caption</code>, <code>table</code> und <code>inline-table</code> entsprechen",
     "en-US": "all elements, except elements with table {{cssxref(\"display\")}} types other than <code>table-caption</code>, <code>table</code> and <code>inline-table</code>",
     "fr": "tous les éléments exceptés ceux dont les types {{cssxref(\"display\")}} pour les tableaux ne sont pas <code>table-caption</code>, <code>table</code> et <code>inline-table</code>",
-    "ja": "テーブル系要素を除く全ての要素。ただし、<code>table-caption</code>、<code>table</code>、<code>inline-table</code> には適用できます。",
+    "ja": "<code>table-caption</code>, <code>table</code>, <code>inline-table</code> 以外の表の {{cssxref(\"display\")}} 種別を除くすべての要素。",
     "ru": "все элементы, кроме элементов с табличным типом {{cssxref(\"display\")}}, отличным от <code>table-caption</code>, <code>table</code> и <code>inline-table</code>"
   },
   "allElementsExceptTableElementsWhenCollapse": {
     "de": "Alle Elemente, außer interne Tabellenelemente, falls {{cssxref(\"border-collapse\")}} <code>collapse</code> ist",
     "en-US": "all elements, except internal table elements when {{cssxref(\"border-collapse\")}} is <code>collapse</code>",
     "fr": "tous les éléments sauf les éléments de table internes lorsque {{cssxref(\"border-collapse\")}} vaut <code>collapse</code>",
-    "ja": "全要素。ただし <code>border-collapse</code> が <code>collapse</code> のときはテーブル要素内部にあるものを除く",
+    "ja": "すべての要素。ただし {{cssxref(\"border-collapse\")}} が <code>collapse</code> のときはテーブル要素内部にあるものを除く",
     "ru": "все элементы, кроме внутренних табличных элементов, когда {{cssxref(\"border-collapse\")}}:<code>collapse</code>"
   },
   "allElementsExceptTableRowColumnGroupsTableRowsColumns": {
     "de": "alle Elemente außer Tabellenzeilengruppen, Tabellenspaltengruppen, Tabellenzeilen und Tabellenspalten",
     "en-US": "all elements except table row groups, table column groups, table rows, and table columns",
     "fr": "tous les éléments exceptés les groupes de lignes, les groupes de colonnes des tableaux et les colonnes de tableaux",
-    "ja": "テーブル行グループ、テーブル列グループ、テーブル行、テーブル列を除く全要素",
+    "ja": "表の行グループ、表の列グループ、表の行、表の列を除くすべての要素",
     "ru": "все элементы, кроме групп табличных строк, групп табличных столбцов, табличных строк и табличных колонок"
   },
   "allElementsExceptTableRowGroupsRowsColumnGroupsAndColumns": {
     "de": "alle Elemente außer Tabellenzeilengruppen, Zeilen, Spaltengruppen und Spalten",
     "en-US": "all elements, except table row groups, rows, column groups, and columns",
     "fr": "tous les éléments exceptés les groupes de lignes, les lignes, les groupes de colonnes et les colonnes de tableaux",
-    "ja": "テーブル行グループ、テーブル列グループ、テーブル行、テーブル列を除く全要素",
+    "ja": "表の行グループ、列グループ、行、列を除くすべての要素",
     "ru": "все элементы, кроме групп табличных строк, столбцов, групп столбцов и столбцов"
   },
   "allElementsNoEffectIfDisplayNone": {
     "de": "alle Elemente, hat jedoch keinen Effekt, falls der Wert von {{cssxref(\"display\")}} <code>none</code> ist",
     "en-US": "all elements, but has no effect if the value of {{cssxref(\"display\")}} is <code>none</code>.",
     "fr": "tous les éléments mais n'a aucun effet si la valeur de <code>display</code> est <code>none</code>.",
-    "ja": "全要素。ただし {{cssxref(\"display\")}} が <code>none</code>なら効果を持ちません。",
+    "ja": "すべての要素。ただし {{cssxref(\"display\")}} が <code>none</code> なら効果を持ちません。",
     "ru": "все элементы, но не будет эффекта, если <code>display: none</code>"
   },
   "allElementsSomeValuesNoEffectOnNonInlineElements": {
     "de": "Alle Elemente, einige Werte haben keine Wirkung bei non-inline Elementen",
     "en-US": "all elements, though some values have no effect on non-inline elements",
     "fr": "tous les éléments bien que certaines valeurs n'aient pas d'effet sur les éléments qui ne sont pas en ligne",
-    "ja": "全要素。ただし一部の値はインラインでない要素には効果がありません",
+    "ja": "すべての要素。ただし一部の値はインラインでない要素には効果がありません",
     "ru": "все элементы, хотя некоторые значения не работают на не строчных элементах"
   },
   "allElementsSVGContainerElements": {
@@ -236,7 +238,7 @@
     "de": "Alle Elemente. In SVG wird er auf Containerelemente, Grafikelemente und Grafiken referenzierende Elemente angewandt.",
     "en-US": "All elements. In SVG, it applies to container elements, graphics elements, and graphics referencing elements.",
     "fr": "Tous les éléments. En SVG, cela s'applique aux éléments de conteneurs, aux éléments graphiques et aux éléments faisant référence à des éléments graphiques.",
-    "ja": "全要素. In SVG, it applies to container elements, graphics elements, and graphics referencing elements.",
+    "ja": "すべての要素。 SVG では、コンテナー要素、グラフィック要素、グラフィック参照要素に適用されます。",
     "ru": "Все элементы. В SVG это применяется к контейнерам, графическим элементам и элементам графической отсылки."
   },
   "allElementsThatCanReferenceImages": {
@@ -314,8 +316,9 @@
     "ru": "$1$. Это также применяется к $2$."
   },
   "asAutoOrColor": {
+    "en-US": "<code>auto</code> is computed as specified and <code>&lt;color&gt;</code> values are computed as defined for the {{cssxref(\"color\")}} property.",
     "de": "<code>auto</code> wird wie angegeben berechnet und <code>&lt;color&gt;</code> Werte werden wie für die {{cssxref(\"color\")}} Eigenschaft berechnet.",
-    "en-US": "<code>auto</code> is computed as specified and <code>&lt;color&gt;</code> values are computed as defined for the {{cssxref(\"color\")}} property."
+    "ja": "<code>auto</code> は仕様通りに計算され、 <code>&lt;color&gt;</code> 値は {{cssxref(\"color\")}} プロパティで定義されたように計算される。"
   },
   "asDefinedForBasicShapeWithAbsoluteURIOtherwiseAsSpecified": {
     "de": "wie definiert für {{cssxref(\"basic-shape\")}} (gefolgt von {{cssxref(\"shape-box\")}}, falls angegeben), dem {{cssxref(\"image\")}}, dessen URI absolut gemacht wurde, ansonsten wie angegeben.",
@@ -333,7 +336,7 @@
     "de": "wie die jeweiligen Kurzschreibweisen:",
     "en-US": "as each of the properties of the shorthand:",
     "fr": "pour chaque propriété individuelle de la propriété raccourcie&nbsp;:",
-    "ja": "以下の一括指定の各プロパティとして",
+    "ja": "一括指定の各プロパティとして",
     "ru": "как и у каждого из подсвойств этого свойства:"
   },
   "asSpecified": {
@@ -442,14 +445,14 @@
     "de": "Blockcontainerelemente",
     "en-US": "block container elements",
     "fr": "les éléments conteneurs de blocs",
-    "ja": "ブロックコンテナ要素",
+    "ja": "ブロックコンテナー要素",
     "ru": "блочные контейнеры"
   },
   "blockContainers": {
     "de": "Blockcontainer",
     "en-US": "block containers",
     "fr": "conteneurs de type bloc",
-    "ja": "ブロックコンテナ",
+    "ja": "ブロックコンテナー",
     "ru": "блочные контейнеры"
   },
   "blockContainersExceptMultiColumnContainers": {
@@ -522,7 +525,7 @@
     "de": "berechnete Farbe",
     "en-US": "computed color",
     "fr": "couleur calculée",
-    "ja": "計算された色",
+    "ja": "色の計算値",
     "ru": "вычисленный цвет"
   },
   "consistsOfTwoDimensionKeywords": {
@@ -559,7 +562,7 @@
     "de": "hängt vom User Agent ab",
     "en-US": "depends on user agent",
     "fr": "dépend de l'agent utilisateur",
-    "ja": "ユーザエージェントに依存する",
+    "ja": "ユーザエージェントに依存",
     "ru": "зависит от браузера"
   },
   "directChildrenOfElementsWithDisplayMozBoxMozInlineBox": {
@@ -743,7 +746,7 @@
     "de": "<code>invert</code> für Browser, die es unterstützen, <code>currentColor</code> für die anderen",
     "en-US": "<code>invert</code>, for browsers supporting it, <code>currentColor</code> for the other",
     "fr": "<code>invert</code>, pour les navigateurs le supportant, <code>currentColor</code> pour les autres",
-    "ja": "ブラウザが invert をサポートしていればinvert、それ以外では <code>currentColor</code>",
+    "ja": "ブラウザーが対応していれば <code>invert</code>、そうでなければ <code>currentColor</code>",
     "ru": "<code>invert</code> для браузеров поддерживающих это, <code>currentColor</code> для остальных"
   },
   "keywordOrNumericalValueBolderLighterTransformedToRealValue": {
@@ -1042,6 +1045,7 @@
   },
   "perGrammar": {
     "de": "nach Grammatik",
+    "ja": "構文通り",
     "en-US": "per grammar",
     "fr": "selon la grammaire"
   },
@@ -1452,7 +1456,7 @@
     "de": "zwei absolute {{cssxref(\"length\")}} oder {{cssxref(\"percentage\")}}",
     "en-US": "two absolute {{cssxref(\"length\")}}s or {{cssxref(\"percentage\")}}s",
     "fr": "deux {{cssxref(\"longueur\",\"longueurs\")}} absolues ou deux {{cssxref(\"pourcentage\",\"pourcentages\")}}",
-    "ja": "絶対的な長さかパーセンテージ値の 2 値",
+    "ja": "２つの絶対的な {{cssxref(\"length\")}} 又は {{cssxref(\"percentage\")}} 値",
     "ru": "две абсолютных {{cssxref(\"length\")}} или {{cssxref(\"percentage\")}}"
   },
   "twoAbsoluteLengths": {
