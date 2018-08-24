@@ -4989,7 +4989,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/hyphens"
   },
   "image-orientation": {
-    "syntax": "from-image | <angle> | [ <angle>? flip ]",
+    "syntax": "none | from-image",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -4997,9 +4997,9 @@
     "groups": [
       "CSS Images"
     ],
-    "initial": "0deg",
+    "initial": "none",
     "appliesto": "allElements",
-    "computed": "angleRoundedToNextQuarter",
+    "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/image-orientation"
