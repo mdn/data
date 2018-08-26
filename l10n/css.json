@@ -633,6 +633,7 @@
     "de": "flexible Elemente einschließlich In-Flow-Pseudo-Elemente",
     "en-US": "flex items, including in-flow pseudo-elements",
     "fr": "éléments flexibles, y compris les pseudo-éléments intégrés dans le flux",
+    "ja": "フロー内の疑似要素を含むフレックスアイテム",
     "ru": "flex-элементы, в том числе в потоке псевдоэлементов"
   },
   "flexItemsGridItemsAndAbsolutelyPositionedBoxes": {
