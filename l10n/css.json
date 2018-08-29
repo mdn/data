@@ -232,6 +232,7 @@
     "de": "alle Elemente; In SVG gilt betrifft dies Containerelemente mit Ausnahme des {{SVGElement(\"defs\")}} Elements und allen Grafikelementen",
     "en-US": "all elements; In SVG, it applies to container elements excluding the {{SVGElement(\"defs\")}} element and all graphics elements",
     "fr": "tous les éléments ; en SVG, cela s'applique aux éléments conteneurs à l'exception des éléments {{SVGElement(\"defs\")}} et des éléments graphiques",
+    "ja": "すべての要素。 SVG では、 {{SVGElement(\"defs\")}} 要素及びすべてのグラフィック要素を除いたコンテナー要素に適用されます。",
     "ru": "все элементы; в SVG, это применяется к контейнерам, исключая элемент {{SVGElement(\"defs\")}} и все графические элементы"
   },
   "allElementsSVGContainerGraphicsAndGraphicsReferencingElements": {
@@ -388,7 +389,8 @@
     "ru": "как указано, за исключением &lt;resolution&gt; может изменить значением 'snap'"
   },
   "asSpecifiedWithLengthsAbsoluteAndNormalComputingToZeroExceptMultiColumn": {
-    "en-US": "as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements"
+    "en-US": "as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements",
+    "ja": "指定通りで、 &lt;length&gt; は絶対長になり、 normal の計算値は段組み要素を除き 0 になる"
   },
   "asSpecifiedWithVarsSubstituted": {
     "de": "wie angegeben, wobei Variablen ersetzt werden",
@@ -874,11 +876,12 @@
     "de": "mehrspaltige Elemente",
     "en-US": "multicol elements",
     "fr": "éléments sur plusieurs colonnes",
-    "ja": "多段要素",
+    "ja": "段組み要素",
     "ru": "мультиколоночные элементы"
   },
   "multiColumnElementsFlexContainersGridContainers": {
-    "en-US": "multi-column elements, flex containers, grid containers"
+    "en-US": "multi-column elements, flex containers, grid containers",
+    "ja": "段組み要素, フレックスコンテナー, グリッドコンテナー"
   },
   "multilineFlexContainers": {
     "de": "mehrzeilige flexible Container",
@@ -1046,7 +1049,8 @@
     "de": "nach Grammatik",
     "ja": "構文通り",
     "en-US": "per grammar",
-    "fr": "selon la grammaire"
+    "fr": "selon la grammaire",
+    "ja": "構文通り"
   },
   "position": {
     "de": "<a href=\"/de/docs/Web/CSS/number#Interpolation\" title=\"Werte des <position> Datentyps werden unabhängig für Abszisse und Ordinate interpoliert. Da die Geschwindigkeit für beide durch dieselbe <timing-function> bestimmt wird, wird der Punkt einer Linie folgen.\">Position</a>",
@@ -1091,6 +1095,7 @@
     "de": "beziehen sich auf die entsprechende Dimension des Inhaltsbereichs",
     "en-US": "refer to corresponding dimension of the content area",
     "fr": "fait référence à la dimension correspondante de la zone de contenu",
+    "ja": "該当するコンテンツ領域の寸法を参照",
     "ru": "относятся к соответвующему размеру области содержимого"
   },
   "referToElementFontSize": {
@@ -1329,12 +1334,14 @@
     "de": "Scrollcontainer",
     "en-US": "scroll containers",
     "fr": "conteneurs d'ascenseurs",
+    "ja": "スクロールコンテナー",
     "ru": "прокручиваемые контейнеры"
   },
   "scrollingBoxes": {
     "de": "scrollende Boxen",
     "en-US": "scrolling boxes",
     "fr": "boîtes défilantes",
+    "ja": "スクロールするボックス",
     "ru": "прокручиваемые блоки"
   },
   "seeProse": {
@@ -1347,18 +1354,19 @@
     "de": "eine <a href=\"/de/docs/Web/CSS/box-shadow#Interpolation\" title=\"Die color, x, y, blur und spread (falls anwendbar) Komponenten einer Schattenliste werden unabhängig voneinander interpoliert. Falls sich der inset-Wert irgendeines Schattenpaares der beiden Listen unterscheidet, gilt die gesamte liste als nicht interpolierbar. Falls eine Liste kürzer ist als die andere, wird die kürzere mit transparenten Schatten aufgefüllt, deren Längen alle auf 0 gesetzt sind und deren inset-Wert der längeren Liste entspricht.\">Liste von Schatten</a>",
     "en-US": "a <a href=\"/en-US/docs/Web/CSS/box-shadow#Interpolation\" title=\"The color, x, y, blur and spread (if applicable) components of shadow lists are interpolated independently. If the inset value of any shadow pair differs between both lists, the whole list is uninterpolable. If one list is smaller than the other, it gets padded with transparent shadows with all their lengths set to 0 and its inset value matching the longer list.\">shadow list</a>",
     "fr": "une <a href=\"/fr/docs/Web/CSS/box-shadow#Interpolation\" title=\"Les composantes de couleur, coordonnées x, y, de flou et d'étalement (si applicable) des listes d'ombres sont interpolées indépendamment. Si la valeur inset de n'importe quelle ombre différe entre les deux listes, toute la liste ne pourra pas être interpolée. Si une liste est plus petite qu'une autre, elle sera complétée avec des ombres transparentes dont les longueurs sont nulles et dont les valeurs d'inset correspondent à celles de la liste plus longue.\">liste d'ombres</a>",
-    "ja": "shadow リスト",
+    "ja": "a <a href=\"/ja/docs/Web/CSS/box-shadow#Interpolation\" title=\"影のリストは、色の成分、 x、 y、 ぼかし、 (適切であれば) 広がりの成分で個別に補完されます。両方のリストで影の組の inset の値が異なる場合は、リスト全体は補完されません。一方のリストがもう一方より短い場合は、 transparent の色の影で補完し、すべての長さが 0 であり、 inset (の有無) が一致するものがあれば、より長いリストに一致します。\">影のリスト</a>",
     "ru": "<a href=\"/ru/docs/Web/CSS/box-shadow#Interpolation\" title=\"Цвет, абсцисса, ордината, размытие и распространение (если применено) списка теней интерполируются независимо. Если внутреннее значение какой-либо пары теней различается в обоих списках, интерполизуется весь список. Если один список меньше остальных, он дополняется прозрачностью теней со всей их длинной установленной в 0, а его внутреннее значение соответвует длинному списку.\">список теней</a>"
   },
   "simpleList": {
     "de": "ein einfacher Wert der folgenden Eigenschaften: ",
     "en-US": "a simple list of ",
     "fr": "une simple liste de ",
-    "ja": "の単純なリスト形式$1$",
+    "ja": "単純なリスト: ",
     "ru": "простой список из "
   },
   "simpleListOfLpc": {
-    "en-US": "simple list of length, percentage, or calc"
+    "en-US": "simple list of length, percentage, or calc",
+    "ja": "length, percentage, calc の単純なリスト"
   },
   "specifiedIntegerOrAbsoluteLength": {
     "de": "die angegebene Ganzzahl oder eine absolute Länge",
