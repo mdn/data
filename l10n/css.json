@@ -462,7 +462,8 @@
     "en-US": "Block containers except table wrapper boxes"
   },
   "blockContainersFlexContainersGridContainers": {
-    "en-US": "Block-containers, flex containers, and grid containers"
+    "en-US": "Block-containers, flex containers, and grid containers",
+    "ja": "ブロックコンテナー, フレックスコンテナー, グリッドコンテナー"
   },
   "blockElementsInNormalFlow": {
     "de": "Blocklevelelemente in normalem Fluss des Wurzelelements. User Agents können es auch auf andere Elemente wie <code>table-row</code>-Elemente anwenden.",
@@ -1487,6 +1488,7 @@
     "de": "visuell",
     "en-US": "visual",
     "fr": "visuel",
+    "ja": "視覚",
     "ru": "визуальный"
   },
   "visualInContinuousMediaNoEffectInOverflowColumns": {
