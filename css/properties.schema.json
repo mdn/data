@@ -263,6 +263,9 @@
     "mdn_url": {
       "type": "string",
       "pattern": "^https://developer.mozilla.org/docs/"
+    },
+    "shortDescription": {
+      "type": "string"
     }
   },
   "type": "object",
@@ -385,6 +388,9 @@
       },
       "mdn_url": {
         "$ref": "#/definitions/mdn_url"
+      },
+      "shortDescription": {
+        "$ref": "#/definitions/shortDescription"
       }
     }
   }
