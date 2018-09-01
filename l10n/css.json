@@ -358,9 +358,9 @@
     "ru": "как указанное значение, применяется к каждому свойству этой короткой записи."
   },
   "asSpecifiedButVisibleOrClipReplacedToAutoOrHiddenIfOtherValueDifferent": {
-    "en-US": "as specified, except with <code>visible</code>/<code>clip</code> computing to <code>auto</code>/<code>hidden</code> respectively if one of {{cssxref{\"overflow-x\"}}} or {{cssxref{\"overflow-y\"}}} is neither <code>visible</code> nor </code>hidden</code>",
-    "es": "como se especifica, excepto que si {{cssxref{\"overflow-x\"}}} o bien {{cssxref{\"overflow-y\"}}} es distinto de <code>visible</code> o <code>clip</code>, estos dos valores computan a <code>auto</code> o <code>hidden</code> respectivamente",
-    "ca": "com s'especifica, excepte que si {{cssxref{\"overflow-x\"}}} o bé {{cssxref{\"overflow-y\"}}} són diferents de <code>visible</code> o <code>clip</code>, aquests dos valors computen a <code>auto</code> o <code>hidden</code> respectivament"
+    "en-US": "as specified, except with <code>visible</code>/<code>clip</code> computing to <code>auto</code>/<code>hidden</code> respectively if one of {{cssxref(\"overflow-x\")}} or {{cssxref(\"overflow-y\")}} is neither <code>visible</code> nor </code>hidden</code>",
+    "es": "como se especifica, excepto que si {{cssxref(\"overflow-x\")}} o bien {{cssxref(\"overflow-y\")}} es distinto de <code>visible</code> o <code>clip</code>, estos dos valores computan a <code>auto</code> o <code>hidden</code> respectivamente",
+    "ca": "com s'especifica, excepte que si {{cssxref(\"overflow-x\")}} o bé {{cssxref(\"overflow-y\")}} són diferents de <code>visible</code> o <code>clip</code>, aquests dos valors computen a <code>auto</code> o <code>hidden</code> respectivament"
   },
   "asSpecifiedExceptMatchParent": {
     "de": "wie angegeben, außer für den <code>match-parent</code> Wert, welcher in Bezug auf den <code>direction</code> Wert des Elternelements berechnet wird und einen berechneten Wert von <code>left</code> oder <code>right</code> ergibt",
