@@ -442,6 +442,10 @@
       "SVGUnitTypes"
     ]
   },
+  "HTMLMarqueeElement": {
+    "inherits": "HTMLElement",
+    "implements": []
+  },
   "HTMLMetaElement": {
     "inherits": "HTMLElement",
     "implements": []
