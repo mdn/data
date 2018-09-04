@@ -1045,9 +1045,9 @@
   },
   "perGrammar": {
     "de": "nach Grammatik",
-    "ja": "構文通り",
     "en-US": "per grammar",
-    "fr": "selon la grammaire"
+    "fr": "selon la grammaire",
+    "ja": "構文通り"
   },
   "position": {
     "de": "<a href=\"/de/docs/Web/CSS/number#Interpolation\" title=\"Werte des <position> Datentyps werden unabhängig für Abszisse und Ordinate interpoliert. Da die Geschwindigkeit für beide durch dieselbe <timing-function> bestimmt wird, wird der Punkt einer Linie folgen.\">Position</a>",
