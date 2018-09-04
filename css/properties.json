@@ -5103,7 +5103,7 @@
     "syntax": "<'left'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "lpc",
     "percentages": "logicalHeightOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -5119,7 +5119,7 @@
     "syntax": "<'left'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "lpc",
     "percentages": "logicalHeightOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -5135,7 +5135,7 @@
     "syntax": "<'left'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "lpc",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -5151,7 +5151,7 @@
     "syntax": "<'left'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "lpc",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
