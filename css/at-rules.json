@@ -455,6 +455,18 @@
         "order": "uniqueOrder",
         "status": "standard"
       },
+      "viewport-fit": {
+        "syntax": "auto | contain | cover",
+        "media": [
+          "visual",
+          "continuous"
+        ],
+        "initial": "auto",
+        "percentages": "no",
+        "computed": "asSpecified",
+        "order": "uniqueOrder",
+        "status": "standard"
+      },
       "width": {
         "syntax": "<viewport-length>{1,2}",
         "media": [
