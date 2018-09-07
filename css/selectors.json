@@ -89,15 +89,6 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:active"
   },
-  ":any": {
-    "syntax": ":-moz-any( <selector># )\n:-webkit-any( <selector># )",
-    "groups": [
-      "Pseudo-classes",
-      "Selectors"
-    ],
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:matches"
-  },
   ":any-link": {
     "syntax": ":any-link",
     "groups": [
@@ -349,6 +340,15 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:link"
+  },
+  ":matches": {
+    "syntax": ":matches( <selector># )",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:matches"
   },
   ":not": {
     "syntax": ":not( <selector># )",
