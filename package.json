@@ -26,10 +26,13 @@
   "homepage": "https://developer.mozilla.org",
   "devDependencies": {
     "ajv": "^5.0.1",
-    "better-ajv-errors": "^0.5.1"
+    "better-ajv-errors": "^0.5.1",
+    "jsdom": "^12.0.0",
+    "request": "^2.88.0"
   },
   "scripts": {
     "lint": "node test/lint",
+    "lint-short-description": "node test/lint-short-description",
     "travis": "npm test",
     "test": "npm run lint"
   }
