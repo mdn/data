@@ -159,7 +159,7 @@
     "syntax": "contents | none"
   },
   "display-inside": {
-    "syntax": "flow | flow-root | table | flex | grid | subgrid | ruby"
+    "syntax": "flow | flow-root | table | flex | grid | ruby"
   },
   "display-internal": {
     "syntax": "table-row-group | table-header-group | table-footer-group | table-row | table-cell | table-column-group | table-column | table-caption | ruby-base | ruby-text | ruby-base-container | ruby-text-container"
