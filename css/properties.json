@@ -2231,7 +2231,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/block-size"
   },
   "border": {
-    "syntax": "<br-width> || <line-style> || <color>",
+    "syntax": "<line-width> || <line-style> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -6330,7 +6330,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/outline-offset"
   },
   "outline-style": {
-    "syntax": "auto | <border-style>",
+    "syntax": "auto | <'border-style'>",
     "media": [
       "visual",
       "interactive"
@@ -6349,7 +6349,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/outline-style"
   },
   "outline-width": {
-    "syntax": "<border-width>",
+    "syntax": "<line-width>",
     "media": [
       "visual",
       "interactive"
