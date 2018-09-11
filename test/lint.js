@@ -1,9 +1,14 @@
 var fs = require('fs');
 var path = require('path');
 var Ajv = require('ajv');
-var ajv = new Ajv({ $data: true, allErrors: true });
-var dictPaths = ['css', 'l10n'];
+var betterAjvErrors = require('better-ajv-errors');
+var dictPaths = ['api', 'css', 'l10n'];
 var hasErrors = false;
+var ajv = new Ajv({
+  $data: true,
+  allErrors: true,
+  jsonPointers: true
+});
 
 ajv.addKeyword('property-reference', {
   $data: true,
@@ -38,7 +43,7 @@ function jsonDiff(actual, expected) {
 function checkStyle(filename) {
   var actual = fs.readFileSync(filename, 'utf-8').trim();
   var expected = JSON.stringify(JSON.parse(actual), null, 2);
-  
+
   if (actual === expected) {
     console.log('  Style – OK');
   } else {
@@ -51,21 +56,27 @@ function checkSchema(dataFilename) {
   var schemaFilename = dataFilename.replace(/\.json/i, '.schema.json');
 
   if (fs.existsSync(schemaFilename)) {
-    var valid = ajv.validate(
-      require(schemaFilename),
-      require(dataFilename)
-    );
+    var schema = require(schemaFilename);
+    var data = require(dataFilename);
+    var valid = ajv.validate(schema, data);
 
     if (valid) {
       console.log('  JSON Schema – OK');
     } else {
       hasErrors = true;
-      console.log('  JSON Schema – ' + ajv.errors.length + ' error(s)\n    ' +
-        ajv.errorsText(ajv.errors, {
-          separator: '\n    ',
-          dataVar: 'item'
-        })
-      );
+      console.log('  JSON Schema – ' + ajv.errors.length + ' error(s)')
+      // console.log(betterAjvErrors(schema, data, ajv.errors, { indent: 2 }));
+
+      // Output messages by one since better-ajv-errors wrongly joins messages
+      // (see https://github.com/atlassian/better-ajv-errors/pull/21)
+      // Other issues with better-ajv-errors:
+      // - it feels better for performance to output messages one by one rather than a list
+      // - it seems to be losing some errors when output a list
+      ajv.errors.forEach(function(error) {
+        var message = betterAjvErrors(schema, data, [error], { indent: 2 });
+
+        console.log('\n    ' + message.replace(/\n/g, '\n    '));
+      });
     }
   }
 }

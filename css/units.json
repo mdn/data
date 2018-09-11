@@ -58,7 +58,7 @@
   "fr": {
     "groups": [
       "CSS Units",
-      "CSS Lengths",
+      "CSS Flexible Lengths",
       "CSS Grid Layout"
     ],
     "status": "standard"
@@ -70,7 +70,7 @@
     ],
     "status": "standard"
   },
-  "hz": {
+  "Hz": {
     "groups": [
       "CSS Units",
       "CSS Frequencies"
@@ -84,7 +84,7 @@
     ],
     "status": "standard"
   },
-  "khz": {
+  "kHz": {
     "groups": [
       "CSS Units",
       "CSS Frequencies"
@@ -126,7 +126,7 @@
     ],
     "status": "standard"
   },
-  "q": {
+  "Q": {
     "groups": [
       "CSS Units",
       "CSS Lengths"
@@ -186,6 +186,13 @@
     "groups": [
       "CSS Units",
       "CSS Lengths"
+    ],
+    "status": "standard"
+  },
+  "x": {
+    "groups": [
+      "CSS Units",
+      "CSS Resolutions"
     ],
     "status": "standard"
   }

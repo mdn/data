@@ -52,7 +52,30 @@
               "type": "string"
             },
             "media": {
-              "type": "string"
+              "oneOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "all",
+                    "continuous",
+                    "paged",
+                    "visual"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "minItems": 2,
+                  "uniqueItems": true,
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "continuous",
+                      "paged",
+                      "visual"
+                    ]
+                  }
+                }
+              ]
             },
             "initial": {
               "$ref": "#/definitions/stringOrPropertyList"
@@ -94,6 +117,10 @@
           "nonstandard",
           "experimental"
         ]
+      },
+      "mdn_url": {
+        "type": "string",
+        "pattern": "^https://developer.mozilla.org/docs/Web/CSS/"
       }
     },
     "required": [

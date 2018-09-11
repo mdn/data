@@ -22,6 +22,9 @@ There's a top-level directory for each broad area covered: for example, "api",
 "css", "svg". Inside each of these directories is one or more
 JSON files containing the data.
 
+### api
+Contains data about Web APIs:
+* API inheritance (interface inheritance and mixin implementations)
 
 ### css
  Contains data about:

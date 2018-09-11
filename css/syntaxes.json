@@ -17,11 +17,23 @@
   "attr()": {
     "syntax": "attr( <attr-name> <type-or-unit>? [, <attr-fallback> ]? )"
   },
+  "attr-matcher": {
+    "syntax": "[ '~' | '|' | '^' | '$' | '*' ]? '='"
+  },
+  "attr-modifier": {
+    "syntax": "i"
+  },
+  "attribute-selector": {
+    "syntax": "'[' <wq-name> ']' | '[' <wq-name> <attr-matcher> [ <string-token> | <ident-token> ] <attr-modifier>? ']'"
+  },
   "auto-repeat": {
     "syntax": "repeat( [ auto-fill | auto-fit ] , [ <line-names>? <fixed-size> ]+ <line-names>? )"
   },
   "auto-track-list": {
     "syntax": "[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>? <auto-repeat>\n[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>?"
+  },
+  "baseline-position": {
+    "syntax": "[ first | last ]? baseline"
   },
   "basic-shape": {
     "syntax": "<inset()> | <circle()> | <ellipse()> | <polygon()>"
@@ -30,7 +42,10 @@
     "syntax": "none | <image>"
   },
   "bg-layer": {
-    "syntax": "<bg-image> || <position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <box>{1,2}"
+    "syntax": "<bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <box> || <box>"
+  },
+  "bg-position": {
+    "syntax": "[ [ left | center | right | top | bottom | <length-percentage> ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ] | [ center | [ left | right ] <length-percentage>? ] && [ center | [ top | bottom ] <length-percentage>? ] ]"
   },
   "bg-size": {
     "syntax": "[ <length-percentage> | auto ]{1,2} | cover | contain"
@@ -74,6 +89,9 @@
   "circle()": {
     "syntax": "circle( [ <shape-radius> ]? [ at <position> ]? )"
   },
+  "class-selector": {
+    "syntax": "'.' <ident-token>"
+  },
   "clip-source": {
     "syntax": "<url>"
   },
@@ -95,11 +113,23 @@
   "compositing-operator": {
     "syntax": "add | subtract | intersect | exclude"
   },
+  "compound-selector": {
+    "syntax": "[ <type-selector>? <subclass-selector>* [ <pseudo-element-selector> <pseudo-class-selector>* ]* ]!"
+  },
+  "compound-selector-list": {
+    "syntax": "<compound-selector>#"
+  },
   "contextual-alt-values": {
     "syntax": "[ contextual | no-contextual ]"
   },
+  "content-distribution": {
+    "syntax": "space-between | space-around | space-evenly | stretch"
+  },
   "content-list": {
     "syntax": "[ <string> | contents | <image> | <quote> | <target> | <leader()> ]+"
+  },
+  "content-position": {
+    "syntax": "center | start | end | flex-start | flex-end"
   },
   "content-replacement": {
     "syntax": "<image>"
@@ -129,7 +159,7 @@
     "syntax": "contents | none"
   },
   "display-inside": {
-    "syntax": "flow | flow-root | table | flex | grid | subgrid | ruby"
+    "syntax": "flow | flow-root | table | flex | grid | ruby"
   },
   "display-internal": {
     "syntax": "table-row-group | table-header-group | table-footer-group | table-row | table-cell | table-column-group | table-column | table-caption | ruby-base | ruby-text | ruby-base-container | ruby-text-container"
@@ -138,7 +168,7 @@
     "syntax": "inline-block | inline-list-item | inline-table | inline-flex | inline-grid"
   },
   "display-listitem": {
-    "syntax": "list-item && <display-outside>? && [ flow | flow-root ]?"
+    "syntax": "<display-outside>? && [ flow | flow-root ]? && list-item"
   },
   "display-outside": {
     "syntax": "block | inline | run-in"
@@ -192,13 +222,13 @@
     "syntax": "nonzero | evenodd"
   },
   "filter-function": {
-    "syntax": "<blur()> | <brightness()> | <contrast()> | <drop-shadow()> | <grayscale()> | <hue-rotate()> | <invert()> | <opacity()> | <sepia()> | <saturate()>"
+    "syntax": "<blur()> | <brightness()> | <contrast()> | <drop-shadow()> | <grayscale()> | <hue-rotate()> | <invert()> | <opacity()> | <saturate()> | <sepia()>"
   },
   "filter-function-list": {
     "syntax": "[ <filter-function> | <url> ]+"
   },
   "final-bg-layer": {
-    "syntax": "<bg-image> || <position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <box> || <box> || <'background-color'>"
+    "syntax": "<'background-color'> || <bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <box> || <box>"
   },
   "fit-content()": {
     "syntax": "fit-content( [ <length> | <percentage> ] )"
@@ -212,8 +242,14 @@
   "fixed-size": {
     "syntax": "<fixed-breadth> | minmax( <fixed-breadth> , <track-breadth> ) | minmax( <inflexible-breadth> , <fixed-breadth> )"
   },
+  "font-stretch-absolute": {
+    "syntax": "normal | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded | <percentage>"
+  },
   "font-variant-css21": {
     "syntax": "[ normal | small-caps ]"
+  },
+  "font-weight-absolute": {
+    "syntax": "normal | bold | <number>"
   },
   "frames-timing-function": {
     "syntax": "frames(<integer>)"
@@ -246,16 +282,19 @@
     "syntax": "[ historical-ligatures | no-historical-ligatures ]"
   },
   "hsl()": {
-    "syntax": "hsl( [ <hue> <percentage> <percentage> [ / <alpha-value> ]? ] | [ <hue>, <percentage>, <percentage>, <alpha-value>? ] )"
+    "syntax": "hsl( <hue> <percentage> <percentage> [ / <alpha-value> ]? ) | hsl( <hue>, <percentage>, <percentage>, <alpha-value>? )"
   },
   "hsla()": {
-    "syntax": "hsla( [ <hue> <percentage> <percentage> [ / <alpha-value> ]? ] | [ <hue>, <percentage>, <percentage>, <alpha-value>? ] )"
+    "syntax": "hsla( <hue> <percentage> <percentage> [ / <alpha-value> ]? ) | hsla( <hue>, <percentage>, <percentage>, <alpha-value>? )"
   },
   "hue": {
     "syntax": "<number> | <angle>"
   },
   "hue-rotate()": {
     "syntax": "hue-rotate( <angle> )"
+  },
+  "id-selector": {
+    "syntax": "<hash-token>"
   },
   "image": {
     "syntax": "<url> | <image()> | <image-set()> | <element()> | <cross-fade()> | <gradient>"
@@ -273,7 +312,7 @@
     "syntax": "<length> | <percentage> | min-content | max-content | auto"
   },
   "inset()": {
-    "syntax": "inset( <length-percentage>{1,4} [ round <border-radius> ]? )"
+    "syntax": "inset( <length-percentage>{1,4} [ round <'border-radius'> ]? )"
   },
   "invert()": {
     "syntax": "invert( <number-percentage> )"
@@ -383,6 +422,9 @@
   "namespace-prefix": {
     "syntax": "<ident>"
   },
+  "ns-prefix": {
+    "syntax": "[ <ident-token> | '*' ]? '|'"
+  },
   "number-percentage": {
     "syntax": "<number> | <percentage>"
   },
@@ -400,6 +442,12 @@
   },
   "opacity()": {
     "syntax": "opacity( [ <number-percentage> ] )"
+  },
+  "overflow-position": {
+    "syntax": "unsafe | safe"
+  },
+  "outline-radius": {
+    "syntax": "<length> | <percentage>"
   },
   "page-body": {
     "syntax": "<declaration>? [ ; <page-body> ]? | <page-margin-box> <page-body>"
@@ -423,7 +471,13 @@
     "syntax": "polygon( <fill-rule>? , [ <length-percentage> <length-percentage> ]# )"
   },
   "position": {
-    "syntax": "[[ left | center | right | top | bottom | <length-percentage> ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ] | [ center | [ left | right ] <length-percentage>? ] && [ center | [ top | bottom ] <length-percentage>? ]]"
+    "syntax": "[ [ left | center | right ] || [ top | center | bottom ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ]? | [ [ left | right ] <length-percentage> ] && [ [ top | bottom ] <length-percentage> ] ]"
+  },
+  "pseudo-class-selector": {
+    "syntax": "':' <ident-token> | ':' <function-token> <any-value> ')'"
+  },
+  "pseudo-element-selector": {
+    "syntax": "':' <pseudo-class-selector>"
   },
   "pseudo-page": {
     "syntax": ": [ left | right | first | blank ]"
@@ -447,10 +501,10 @@
     "syntax": "repeating-radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )"
   },
   "rgb()": {
-    "syntax": "rgb( [ [ <percentage>{3} | <number>{3} ] [ / <alpha-value> ]? ] | [ [ <percentage>#{3} | <number>#{3} ] , <alpha-value>? ] )"
+    "syntax": "rgb( <percentage>{3} [ / <alpha-value> ]? ) | rgb( <number>{3} [ / <alpha-value> ]? ) | rgb( <percentage>#{3} , <alpha-value>? ) | rgb( <number>#{3} , <alpha-value>? )"
   },
   "rgba()": {
-    "syntax": "rgba( [ [ <percentage>{3} | <number>{3} ] [ / <alpha-value> ]? ] | [ [ <percentage>#{3} | <number>#{3} ] , <alpha-value>? ] )"
+    "syntax": "rgba( <percentage>{3} [ / <alpha-value> ]? ) | rgba( <number>{3} [ / <alpha-value> ]? ) | rgba( <percentage>#{3} , <alpha-value>? ) | rgba( <number>#{3} , <alpha-value>? )"
   },
   "rotate()": {
     "syntax": "rotate( <angle> )"
@@ -484,6 +538,9 @@
   },
   "scaleZ()": {
     "syntax": "scaleZ( <number> )"
+  },
+  "self-position": {
+    "syntax": "center | start | end | self-start | self-end | flex-start | flex-end"
   },
   "shape-radius": {
     "syntax": "<length-percentage> | closest-side | farthest-side"
@@ -548,8 +605,11 @@
   "step-timing-function": {
     "syntax": "step-start | step-end | steps(<integer>[, [ start | end ] ]?)"
   },
+  "subclass-selector": {
+    "syntax": "<id-selector> | <class-selector> | <attribute-selector> | <pseudo-class-selector>"
+  },
   "symbol": {
-    "syntax": "<string> | <image> | <ident>"
+    "syntax": "<string> | <image> | <custom-ident>"
   },
   "target": {
     "syntax": "<target-counter()> | <target-counters()> | <target-text()>"
@@ -579,7 +639,7 @@
     "syntax": "<track-breadth> | minmax( <inflexible-breadth> , <track-breadth> ) | fit-content( [ <length> | <percentage> ] )"
   },
   "transform-function": {
-    "syntax": "[ <matrix()> || <translate()> || <translateX()> || <translateY()> || <scale()> || <scaleX()> || <scaleY()> || <rotate()> || <skew()> || <skewX()> || <skewY()> || <matrix3d()> || <translate3d()> || <translateZ()> || <scale3d()> || <scaleZ()> || <rotate3d()> || <rotateX()> || <rotateY()> || <rotateZ()> || <perspective()> ]+"
+    "syntax": "<matrix()> | <translate()> | <translateX()> | <translateY()> | <scale()> | <scaleX()> | <scaleY()> | <rotate()> | <skew()> | <skewX()> | <skewY()> | <matrix3d()> | <translate3d()> | <translateZ()> | <scale3d()> | <scaleZ()> | <rotate3d()> | <rotateX()> | <rotateY()> | <rotateZ()> | <perspective()>"
   },
   "transform-list": {
     "syntax": "<transform-function>+"
@@ -602,10 +662,16 @@
   "type-or-unit": {
     "syntax": "string | integer | color | url | integer | number | length | angle | time | frequency | em | ex | px | rem | vw | vh | vmin | vmax | mm | q | cm | in | pt | pc | deg | grad | rad | ms | s | Hz | kHz | %"
   },
+  "type-selector": {
+    "syntax": "<wq-name> | <ns-prefix>? '*'"
+  },
   "var()": {
     "syntax": "var( <custom-property-name> [, <declaration-value> ]? )"
   },
   "viewport-length": {
     "syntax": "auto | <length-percentage>"
+  },
+  "wq-name": {
+    "syntax": "<ns-prefix>? <ident-token>"
   }
 }

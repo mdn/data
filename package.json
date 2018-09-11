@@ -1,9 +1,10 @@
 {
   "name": "mdn-data",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Open Web data by the Mozilla Developer Network",
   "main": "index.js",
   "files": [
+    "api/*.json",
     "css/*.json",
     "l10n/*.json"
   ],
@@ -24,7 +25,8 @@
   },
   "homepage": "https://developer.mozilla.org",
   "devDependencies": {
-    "ajv": "^5.0.1"
+    "ajv": "^5.0.1",
+    "better-ajv-errors": "^0.5.1"
   },
   "scripts": {
     "lint": "node test/lint",

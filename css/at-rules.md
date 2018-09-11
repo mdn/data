@@ -25,7 +25,8 @@ The 3 properties seen above are all required:
 * `groups` (array of strings): CSS is organized in modules like "CSS Fonts" or "CSS Animations". MDN organizes features in these groups as well — `groups` should contain the name of the module(s) the at-rule is defined in.
 * `status` (enum string): This is either `standard`, `nonstandard`, or `experimental` depending on the standardization status of the feature.
 
-There are 2 more properties that are optional:
+There are 3 more properties that are optional:
+* `mdn_url` (string): a URL linking to the at-rule's page on MDN. This URL must omit the localization part of the URL (such as `en-US/`).
 * `interfaces` (array of strings): These are the [CSSOM](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model) interfaces that belong to the at-rule.
 * `descriptors` (object): see below
 

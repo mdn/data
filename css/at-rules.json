@@ -4,7 +4,8 @@
     "groups": [
       "CSS Charsets"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@charset"
   },
   "@counter-style": {
     "syntax": "@counter-style <counter-style-name> {\n  [ system: <counter-system>; ] ||\n  [ symbols: <counter-symbols>; ] ||\n  [ additive-symbols: <additive-symbols>; ] ||\n  [ negative: <negative-symbol>; ] ||\n  [ prefix: <prefix>; ] ||\n  [ suffix: <suffix>; ] ||\n  [ range: <range>; ] ||\n  [ pad: <padding>; ] ||\n  [ speak-as: <speak-as>; ] ||\n  [ fallback: <counter-style-name>; ]\n}",
@@ -54,7 +55,7 @@
       "prefix": {
         "syntax": "<symbol>",
         "media": "all",
-        "initial": "the empty string",
+        "initial": "\"\"",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -81,7 +82,7 @@
       "suffix": {
         "syntax": "<symbol>",
         "media": "all",
-        "initial": "\".\" full stop followed by a space",
+        "initial": "\". \"",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
@@ -106,10 +107,11 @@
         "status": "standard"
       }
     },
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style"
   },
   "@document": {
-    "syntax": "@document [ <url> | url-prefix(<string>) | domain(<string>) | regexp(<string>) ]# {\n  <group-rule-body>\n}",
+    "syntax": "@document [ <url> | url-prefix(<string>) | domain(<string>) | media-document(<string>) | regexp(<string>) ]# {\n  <group-rule-body>\n}",
     "interfaces": [
       "CSSGroupingRule",
       "CSSConditionRule"
@@ -117,10 +119,11 @@
     "groups": [
       "CSS Conditional Rules"
     ],
-    "status": "nonstandard"
+    "status": "nonstandard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@document"
   },
   "@font-face": {
-    "syntax": "@font-face {\n  [ font-family: <family-name>; ] ||\n  [ src: [ <url> [ format(<string>#) ]? | <font-face-name> ]#; ] ||\n  [ unicode-range: <urange>#; ] ||\n  [ font-variant: <font-variant>; ] ||\n  [ font-feature-settings: normal | <feature-tag-value>#; ] ||\n  [ font-stretch: <font-stretch>; ] ||\n  [ font-weight: <weight>; ] ||\n  [ font-style: <style>; ]\n}",
+    "syntax": "@font-face {\n  [ font-family: <family-name>; ] ||\n  [ src: <src>; ] ||\n  [ unicode-range: <unicode-range>; ] ||\n  [ font-variant: <font-variant>; ] ||\n  [ font-feature-settings: <font-feature-settings>; ] ||\n  [ font-variation-settings: <font-variation-settings>; ] ||\n  [ font-stretch: <font-stretch>; ] ||\n  [ font-weight: <font-weight>; ] ||\n  [ font-style: <font-style>; ]\n}",
     "interfaces": [
       "CSSFontFaceRule"
     ],
@@ -155,8 +158,17 @@
         "order": "orderOfAppearance",
         "status": "standard"
       },
+      "font-variation-settings": {
+        "syntax": "normal | [ <string> <number> ]#",
+        "media": "all",
+        "initial": "normal",
+        "percentages": "no",
+        "computed": "asSpecified",
+        "order": "orderOfAppearance",
+        "status": "standard"
+      },
       "font-stretch": {
-        "syntax": "normal | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded",
+        "syntax": "<font-stretch-absolute>{1,2}",
         "media": "all",
         "initial": "normal",
         "percentages": "no",
@@ -165,7 +177,7 @@
         "status": "standard"
       },
       "font-style": {
-        "syntax": "normal | italic | oblique",
+        "syntax": "normal | italic | oblique <angle>{0,2}",
         "media": "all",
         "initial": "normal",
         "percentages": "no",
@@ -174,7 +186,7 @@
         "status": "standard"
       },
       "font-weight": {
-        "syntax": "normal | bold | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900",
+        "syntax": "<font-weight-absolute>{1,2}",
         "media": "all",
         "initial": "normal",
         "percentages": "no",
@@ -192,7 +204,7 @@
         "status": "standard"
       },
       "src": {
-        "syntax": "[ <url> format(<string>#)? | local(<family-name>) ]#",
+        "syntax": "[ <url> [ format( <string># ) ]? | local( <family-name> ) ]#",
         "media": "all",
         "initial": "n/a (required)",
         "percentages": "no",
@@ -210,7 +222,8 @@
         "status": "standard"
       }
     },
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face"
   },
   "@font-feature-values": {
     "syntax": "@font-feature-values <family-name># {\n  <feature-value-block-list>\n}",
@@ -220,14 +233,16 @@
     "groups": [
       "CSS Fonts"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-feature-values"
   },
   "@import": {
     "syntax": "@import [ <string> | <url> ] [ <media-query-list> ]?;",
     "groups": [
       "Media Queries"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@import"
   },
   "@keyframes": {
     "syntax": "@keyframes <keyframes-name> {\n  <keyframe-block-list>\n}",
@@ -238,7 +253,8 @@
     "groups": [
       "CSS Animations"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@keyframes"
   },
   "@media": {
     "syntax": "@media <media-query-list> {\n  <group-rule-body>\n}",
@@ -252,14 +268,16 @@
       "CSS Conditional Rules",
       "Media Queries"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media"
   },
   "@namespace": {
     "syntax": "@namespace <namespace-prefix>? [ <string> | <url> ];",
     "groups": [
       "CSS Namespaces"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@namespace"
   },
   "@page": {
     "syntax": "@page <page-selector-list> {\n  <page-body>\n}",
@@ -272,7 +290,10 @@
     "descriptors": {
       "bleed": {
         "syntax": "auto | <length>",
-        "media": "visual, paged",
+        "media": [
+          "visual",
+          "paged"
+        ],
         "initial": "auto",
         "percentages": "no",
         "computed": "asSpecified",
@@ -281,7 +302,10 @@
       },
       "marks": {
         "syntax": "none | [ crop || cross ]",
-        "media": "visual, paged",
+        "media": [
+          "visual",
+          "paged"
+        ],
         "initial": "none",
         "percentages": "no",
         "computed": "asSpecified",
@@ -289,7 +313,8 @@
         "status": "experimental"
       }
     },
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@page"
   },
   "@supports": {
     "syntax": "@supports <supports-condition> {\n  <group-rule-body>\n}",
@@ -301,7 +326,8 @@
     "groups": [
       "CSS Conditional Rules"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@supports"
   },
   "@viewport": {
     "syntax": "@viewport {\n  <group-rule-body>\n}",
@@ -314,7 +340,10 @@
     "descriptors": {
       "height": {
         "syntax": "<viewport-length>{1,2}",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": [
           "min-height",
           "max-height"
@@ -332,7 +361,10 @@
       },
       "max-height": {
         "syntax": "<viewport-length>",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": "auto",
         "percentages": "referToHeightOfInitialViewport",
         "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
@@ -341,7 +373,10 @@
       },
       "max-width": {
         "syntax": "<viewport-length>",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": "auto",
         "percentages": "referToWidthOfInitialViewport",
         "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
@@ -350,7 +385,10 @@
       },
       "max-zoom": {
         "syntax": "auto | <number> | <percentage>",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": "auto",
         "percentages": "the zoom factor itself",
         "computed": "autoNonNegativeOrPercentage",
@@ -359,7 +397,10 @@
       },
       "min-height": {
         "syntax": "<viewport-length>",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": "auto",
         "percentages": "referToHeightOfInitialViewport",
         "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
@@ -368,7 +409,10 @@
       },
       "min-width": {
         "syntax": "<viewport-length>",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": "auto",
         "percentages": "referToWidthOfInitialViewport",
         "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
@@ -377,7 +421,10 @@
       },
       "min-zoom": {
         "syntax": "auto | <number> | <percentage>",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": "auto",
         "percentages": "the zoom factor itself",
         "computed": "autoNonNegativeOrPercentage",
@@ -386,7 +433,10 @@
       },
       "orientation": {
         "syntax": "auto | portrait | landscape",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": "auto",
         "percentages": "referToSizeOfBoundingBox",
         "computed": "asSpecified",
@@ -395,7 +445,10 @@
       },
       "user-zoom": {
         "syntax": "zoom | fixed",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": "zoom",
         "percentages": "referToSizeOfBoundingBox",
         "computed": "asSpecified",
@@ -404,7 +457,10 @@
       },
       "width": {
         "syntax": "<viewport-length>{1,2}",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": [
           "min-width",
           "max-width"
@@ -422,7 +478,10 @@
       },
       "zoom": {
         "syntax": "auto | <number> | <percentage>",
-        "media": "visual, continuous",
+        "media": [
+          "visual",
+          "continuous"
+        ],
         "initial": "auto",
         "percentages": "the zoom factor itself",
         "computed": "autoNonNegativeOrPercentage",
@@ -430,6 +489,7 @@
         "status": "standard"
       }
     },
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@viewport"
   }
 }
