@@ -2231,7 +2231,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/block-size"
   },
   "border": {
-    "syntax": "<br-width> || <br-style> || <color>",
+    "syntax": "<line-width> || <line-style> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -2406,7 +2406,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start-width"
   },
   "border-bottom": {
-    "syntax": "<br-width> || <br-style> || <color>",
+    "syntax": "<line-width> || <line-style> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -2494,7 +2494,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-right-radius"
   },
   "border-bottom-style": {
-    "syntax": "<br-style>",
+    "syntax": "<line-style>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2513,7 +2513,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-style"
   },
   "border-bottom-width": {
-    "syntax": "<br-width>",
+    "syntax": "<line-width>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -2855,7 +2855,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start-width"
   },
   "border-left": {
-    "syntax": "<br-width> || <br-style> || <color>",
+    "syntax": "<line-width> || <line-style> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -2905,7 +2905,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-left-color"
   },
   "border-left-style": {
-    "syntax": "<br-style>",
+    "syntax": "<line-style>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2924,7 +2924,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-left-style"
   },
   "border-left-width": {
-    "syntax": "<br-width>",
+    "syntax": "<line-width>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -2977,7 +2977,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-radius"
   },
   "border-right": {
-    "syntax": "<br-width> || <br-style> || <color>",
+    "syntax": "<line-width> || <line-style> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -3027,7 +3027,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-right-color"
   },
   "border-right-style": {
-    "syntax": "<br-style>",
+    "syntax": "<line-style>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -3046,7 +3046,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-right-style"
   },
   "border-right-width": {
-    "syntax": "<br-width>",
+    "syntax": "<line-width>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -3081,7 +3081,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-spacing"
   },
   "border-style": {
-    "syntax": "<br-style>{1,4}",
+    "syntax": "<line-style>{1,4}",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -3110,7 +3110,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-style"
   },
   "border-top": {
-    "syntax": "<br-width> || <br-style> || <color>",
+    "syntax": "<line-width> || <line-style> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -3198,7 +3198,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-top-right-radius"
   },
   "border-top-style": {
-    "syntax": "<br-style>",
+    "syntax": "<line-style>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -3217,7 +3217,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-top-style"
   },
   "border-top-width": {
-    "syntax": "<br-width>",
+    "syntax": "<line-width>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -3236,7 +3236,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-top-width"
   },
   "border-width": {
-    "syntax": "<br-width>{1,4}",
+    "syntax": "<line-width>{1,4}",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -6330,7 +6330,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/outline-offset"
   },
   "outline-style": {
-    "syntax": "auto | <br-style>",
+    "syntax": "auto | <'border-style'>",
     "media": [
       "visual",
       "interactive"
@@ -6349,7 +6349,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/outline-style"
   },
   "outline-width": {
-    "syntax": "<br-width>",
+    "syntax": "<line-width>",
     "media": [
       "visual",
       "interactive"

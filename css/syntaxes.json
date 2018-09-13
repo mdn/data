@@ -59,12 +59,6 @@
   "box": {
     "syntax": "border-box | padding-box | content-box"
   },
-  "br-style": {
-    "syntax": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset"
-  },
-  "br-width": {
-    "syntax": "<length> | thin | medium | thick"
-  },
   "brightness()": {
     "syntax": "brightness( <number-percentage> )"
   },
@@ -343,6 +337,12 @@
   },
   "line-name-list": {
     "syntax": "[ <line-names> | <name-repeat> ]+"
+  },
+  "line-style": {
+    "syntax": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset"
+  },
+  "line-width": {
+    "syntax": "<length> | thin | medium | thick"
   },
   "linear-gradient()": {
     "syntax": "linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )"
