@@ -6162,7 +6162,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-distance"
   },
   "offset-path": {
-    "syntax": "none | ray( [ <angle> && <size>? && contain? ] ) | <path()> | <url> | [ <basic-shape> || <geometry-box> ]",
+    "syntax": "none | ray( [ <angle> && <size>? && contain? ] ) | <url> | [ <basic-shape> || <geometry-box> ]",
     "media": "visual",
     "inherited": false,
     "animationType": "angleOrBasicShapeOrPath",
