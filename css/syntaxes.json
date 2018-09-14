@@ -465,7 +465,7 @@
     "syntax": "<pseudo-page>+ | <ident> <pseudo-page>*"
   },
   "path()": {
-    "path( [ <fill-rule>, ]? <string> )"
+    "syntax": "path( [ <fill-rule>, ]? <string> )"
   },
   "perspective()": {
     "syntax": "perspective( <length> )"
