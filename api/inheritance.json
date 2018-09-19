@@ -2509,5 +2509,66 @@
   "PerformancePaintTiming": {
     "inherits": "PerformanceEntry",
     "implements": []
-  }
+  },
+  "Sensor": {
+    "inherits": "EventTarget",
+    "implements": [
+      "Accelerometer",
+      "AmbientLightSensor",
+      "Gyroscope",
+      "Magnetometer",
+      "OrientationSensor"
+    ]
+  },
+  "Accelerometer": {
+    "inherits": "Sensor",
+    "implements": [
+      "LinearAccelerationSensor"
+    ]
+  },
+  "AmbientLightSensor": {
+    "inherits": "Sensor",
+    "implements": []
+  },
+  "Gyroscope": {
+    "inherits": "Sensor",
+    "implements": []
+  },
+  "Magnetometer": {
+    "inherits": "Sensor",
+    "implements": []
+  },
+  "OrientationSensor": {
+    "inherits": "Sensor",
+    "implements": [
+      "AbsoluteOrientationSensor",
+      "RelativeOrientationSensor"
+    ]
+  },
+  "LinearAccelerationSensor": {
+    "inherits": "Accelerometer",
+    "implements": []
+  },
+  "AbsoluteOrientationSensor": {
+    "inherits": "OrientationSensor",
+    "implements": []
+  },
+  "RelativeOrientationSensor": {
+    "inherits": "OrientationSensor",
+    "implements": []
+  },
+  "SensorErrorEvent": {
+    "inherits": "Event",
+    "implements": []
+  },
+  "SensorOptions": {
+    "inherits": null,
+    "implements": [
+      "SpatialSensorOptions"
+    ]
+  },
+  "SpatialSensorOptions": {
+    "inherits": "SensorOptions",
+    "implements": []
+  },
 }
