@@ -215,15 +215,6 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:focus"
   },
-  ":focus-visible": {
-    "syntax": ":focus-visible",
-    "groups": [
-      "Pseudo-classes",
-      "Selectors"
-    ],
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:focus-visible"
-  },
   ":focus-within": {
     "syntax": ":focus-within",
     "groups": [
@@ -242,15 +233,6 @@
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:has"
   },
-  ":host": {
-    "syntax": ":host",
-    "groups": [
-      "Pseudo-classes",
-      "Selectors"
-    ],
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:host"
-  },
   ":host()": {
     "syntax": ":host( <compound-selector-list> )",
     "groups": [
@@ -259,14 +241,6 @@
     ],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:host()"
-  },
-  ":host-context": {
-    "syntax": ":host-context",
-    "groups": [
-      "Pseudo-classes",
-      "Selectors"
-    ],
-    "status": "experimental"
   },
   ":host-context()": {
     "syntax": ":host-context( <compound-selector-list> )",
