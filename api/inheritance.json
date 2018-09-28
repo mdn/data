@@ -2544,7 +2544,7 @@
       "CSSMathMin",
       "CSSMathNegate",
       "CSSMathProduct",
-      "CSSMathSum",
+      "CSSMathSum"
     ]
   },
   "CSSMathInvert": {
