@@ -2533,7 +2533,8 @@
   "CSSNumericValue": {
     "inherits": "CSSStyleValue",
     "implements": [
-      "CSSMathValue"
+      "CSSMathValue",
+      "CSSUnitValue"
     ]
   },
   "CSSMathValue": {
@@ -2571,15 +2572,15 @@
     "inherits": "CSSMathValue",
     "implements": []
   },
+  "CSSUnitValue": {
+    "inherits": "CSSNumericValue",
+    "implements": []
+  },
   "CSSPositionValue": {
     "inherits": "CSSStyleValue",
     "implements": []
   },
   "CSSTransformValue": {
-    "inherits": "CSSStyleValue",
-    "implements": []
-  },
-  "CSSUnitValue": {
     "inherits": "CSSStyleValue",
     "implements": []
   },
