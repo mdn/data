@@ -2570,5 +2570,5 @@
   "SpatialSensorOptions": {
     "inherits": "SensorOptions",
     "implements": []
-  },
+  }
 }
