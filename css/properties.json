@@ -6806,6 +6806,28 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/place-items"
   },
+  "place-self": {
+    "syntax": "<'align-self'> <'justify-self'>?",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Box Alignment"
+    ],
+    "initial": [
+      "align-self",
+      "justify-self"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "align-self",
+      "justify-self"
+    ],
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/place-self"
+  },
   "pointer-events": {
     "syntax": "auto | none | visiblePainted | visibleFill | visibleStroke | visible | painted | fill | stroke | all | inherit",
     "media": "visual",
