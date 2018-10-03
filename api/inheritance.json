@@ -2385,10 +2385,6 @@
       "LegacyQueryInterface"
     ]
   },
-  "DOMSettableTokenList": {
-    "inherits": "DOMTokenList",
-    "implements": []
-  },
   "HTMLImageElement": {
     "inherits": "HTMLElement",
     "implements": [
