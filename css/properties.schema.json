@@ -15,6 +15,7 @@
     "animationType": {
       "enum": [
         "angleBasicShapeOrPath",
+        "angleOrBasicShapeOrPath",
         "basicShapeOtherwiseNo",
         "color",
         "discrete",
