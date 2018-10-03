@@ -6253,7 +6253,7 @@
     "syntax": "[ auto | reverse ] || <angle>",
     "media": "visual",
     "inherited": false,
-    "animationType": "angle",
+    "animationType": "angleOrBasicShapeOrPath",
     "percentages": "no",
     "groups": [
       "CSS Motion"
