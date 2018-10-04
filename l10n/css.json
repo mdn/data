@@ -219,7 +219,7 @@
     "en-US": "all elements, but has no effect if the value of {{cssxref(\"display\")}} is <code>none</code>.",
     "fr": "tous les éléments mais n'a aucun effet si la valeur de <code>display</code> est <code>none</code>.",
     "ja": "すべての要素。ただし {{cssxref(\"display\")}} が <code>none</code> なら効果を持ちません。",
-    "ru": "все элементы, но не будет эффекта, если <code>display: none</code>"
+    "ru": "все элементы, но не будет эффекта, если {{cssxref(\"display\")}} <code>none</code>."
   },
   "allElementsSomeValuesNoEffectOnNonInlineElements": {
     "de": "Alle Elemente, einige Werte haben keine Wirkung bei non-inline Elementen",
@@ -244,7 +244,8 @@
   },
   "allElementsThatCanReferenceImages": {
     "en-US": "Any element that can have an image applied to it, for example as a {{cssxref(\"background-image\")}}, {{cssxref(\"border-image\")}}, or {{cssxref(\"list-style-image\")}}.",
-    "ja": "{{cssxref(\"background-image\")}}, {{cssxref(\"border-image\")}}, {{cssxref(\"list-style-image\")}} などで適用される画像を持つすべての要素。"
+    "ja": "{{cssxref(\"background-image\")}}, {{cssxref(\"border-image\")}}, {{cssxref(\"list-style-image\")}} などで適用される画像を持つすべての要素。",
+    "ru": "Все элементы которые могут иметь изображение, например как {{cssxref(\"background-image\")}}, {{cssxref(\"border-image\")}}, или {{cssxref(\"list-style-image\")}}."
   },
   "allElementsUAsNotRequiredWhenCollapse": {
     "de": "alle Elemente; aber User Agents sind nicht gezwungen dies auf <code>table</code> und <code>inline-table</code> Elemente anzuwenden, falls {{cssxref(\"border-collapse\")}} <code>collapse</code> ist. Das Verhalten bei internen Tabellenelementen ist momentan undefiniert.",
@@ -310,14 +311,14 @@
   "asAutoOrColor": {
     "en-US": "<code>auto</code> is computed as specified and <code>&lt;color&gt;</code> values are computed as defined for the {{cssxref(\"color\")}} property.",
     "de": "<code>auto</code> wird wie angegeben berechnet und <code>&lt;color&gt;</code> Werte werden wie für die {{cssxref(\"color\")}} Eigenschaft berechnet.",
-    "ja": "<code>auto</code> は仕様通りに計算され、 <code>&lt;color&gt;</code> 値は {{cssxref(\"color\")}} プロパティで定義されたように計算される。"
-    "ru": "<code>auto</code> вычисляется как указано, и <code>&lt;color&gt;</code> значения вычисляются так, как определено для {{cssxref(\"color\")}} свойства"
+    "ja": "<code>auto</code> は仕様通りに計算され、 <code>&lt;color&gt;</code> 値は {{cssxref(\"color\")}} プロパティで定義されたように計算される。",
+    "ru": "<code>auto</code> вычисляется как указано, и <code>&lt;color&gt;</code> значения вычисляются так, как определено для {{cssxref(\"color\")}} свойства."
   },
   "asDefinedForBasicShapeWithAbsoluteURIOtherwiseAsSpecified": {
     "de": "wie definiert für {{cssxref(\"basic-shape\")}} (gefolgt von {{cssxref(\"shape-box\")}}, falls angegeben), dem {{cssxref(\"image\")}}, dessen URI absolut gemacht wurde, ansonsten wie angegeben.",
     "en-US": "as defined for {{cssxref(\"basic-shape\")}} (with {{cssxref(\"shape-box\")}} following, if supplied), the {{cssxref(\"image\")}} with its URI made absolute, otherwise as specified.",
     "fr": "comme défini pour {{cssxref(\"basic-shape\")}} (avec {{cssxref(\"shape-box\")}} qui suit s'il est utilisé), l'{{cssxref(\"image\")}} avec son URI rendue absolue, sinon, comme spécifié.",
-    "ru": "как определено для {{cssxref(\"basic-shape\")}} (c {{cssxref(\"shape-box\")}} последующим, если передается),  {{cssxref(\"image\")}} с его абсолютным URI, если другое не указано"
+    "ru": "как определено для {{cssxref(\"basic-shape\")}} (c {{cssxref(\"shape-box\")}} последующим, если передается), {{cssxref(\"image\")}} с его абсолютным URI, если другое не указано."
   },
   "asLength": {
     "de": "als {{cssxref(\"length\")}}",
@@ -452,7 +453,7 @@
   },
   "blockContainersExceptMultiColumnContainers": {
     "en-US": "Block containers except multi-column containers",
-    "ru": "Блочные контейнеры, за исключением контейнеров с несколькими колоннами"
+    "ru": "Блочные контейнеры, за исключением мультиколоночных контейнеров"
   },
   "blockContainersExceptTableWrappers": {
     "de": "Blockcontainer außer Tabellen umgebende Boxen",
@@ -462,7 +463,7 @@
   "blockContainersFlexContainersGridContainers": {
     "en-US": "Block-containers, flex containers, and grid containers",
     "ja": "ブロックコンテナー, フレックスコンテナー, グリッドコンテナー",
-    "ru": "Блочные контейнеры, гибкие контейнеры и сеточные контейнеры" 
+    "ru": "Блочные контейнеры, флекс-контейнеры и грид-контейнеры" 
   },
   "blockElementsInNormalFlow": {
     "de": "Blocklevelelemente in normalem Fluss des Wurzelelements. User Agents können es auch auf andere Elemente wie <code>table-row</code>-Elemente anwenden.",
@@ -472,7 +473,7 @@
   },
   "blockLevelBoxesAndAbsolutelyPositionedBoxesAndGridItems": {
     "en-US": "block-level boxes, absolutely-positioned boxes, and grid items",
-    "ru": "уровневые блоки, абсолютно позиционированные блоки и элементы сетки"
+    "ru": "элементы блока, абсолютно позиционированные блоки и грид-элементы"
   },
   "blockLevelElements": {
     "de": "Blocklevel Elemente",
@@ -538,7 +539,7 @@
     "de": "Besteht aus zwei Schlüsselwörtern, die den Ursprung und die beiden Versätze vom Ursprung repräsentieren, wobei beide als absolute Länge angegeben werden (falls eine &lt;length&gt; angegeben wurde), ansonsten einen Prozentwert.",
     "en-US": "Consists of two keywords representing the origin and two offsets from that origin, each given as an absolute length (if given a &lt;length&gt;), otherwise as a percentage.",
     "fr": "Deux mots-clés décrivant l'origine et deux représentant les décalages par rapport à cette origine. Chaque valeur est fournie comme une longueur absolue ou comme un pourcentage.",
-    "ru": "Состоит из двух ключевых слов, представляющих начало координат и два смещения от этого начала, каждое из которых задаётся как абсолютная длина (если задана &lt;length&gt;), иначе как процент"
+    "ru": "Состоит из двух ключевых слов, представляющих начало координат и два смещения от этого начала, каждое из которых задаётся как абсолютная длина (если задана &lt;length&gt;), иначе как процент."
   },
   "continuous": {
     "de": "fortlaufend",
@@ -569,7 +570,7 @@
     "de": "Elemente, die direkte Kinder eines Elements mit einem CSS {{cssxref(\"display\")}} Wert von {{cssxref(\"-moz-box\")}} oder {{cssxref(\"-moz-inline-box\")}} oder {{cssxref(\"-webkit-box\")}} oder {{cssxref(\"-webkit-inline-box\")}} sind",
     "en-US": "elements that are direct children of an element with a CSS {{cssxref(\"display\")}} value of {{cssxref(\"-moz-box\")}} or {{cssxref(\"-moz-inline-box\")}} or {{cssxref(\"-webkit-box\")}} or {{cssxref(\"-webkit-inline-box\")}}",
     "fr": "éléments qui sont des fils direct d'un élément avec {{cssxref(\"display\")}} qui vaut {{cssxref(\"-moz-box\")}} ou {{cssxref(\"-moz-inline-box\")}} ou {{cssxref(\"-webkit-box\")}} ou {{cssxref(\"-webkit-inline-box\")}}",
-    "ru": "элементы, являющиеся прямыми потомками элемента со свойством {cssxref(\"display\")}} равным {{cssxref(\"-moz-box\")}}, {{cssxref(\"-moz-inline-box\")}}, {{cssxref(\"-webkit-box\")}} или {{cssxref(\"-webkit-inline-box\")}}"
+    "ru": "элементы, являющиеся прямыми потомками элемента со свойством {{cssxref(\"display\")}} равным {{cssxref(\"-moz-box\")}}, {{cssxref(\"-moz-inline-box\")}}, {{cssxref(\"-webkit-box\")}} или {{cssxref(\"-webkit-inline-box\")}}"
   },
   "discrete": {
     "de": "diskret",
@@ -611,12 +612,12 @@
   },
   "exclusionElements": {
     "en-US": "exclusion elements",
-    "ru": "элементы исключения"
+    "ru": "вытесняющие элементы"
   },
   "filterList": {
     "de": "eine <a href=\"/de/docs/Web/CSS/filter#Interpolation\" title=\"Falls beide Filter Funktionslisten gleicher Länge ohne URLs haben, wird jede der Filterfunktionen nach ihren spezifischen Regeln interpoliert. Falls sie unterschiedliche Längen haben, werden die fehlenden äquivalenten Filterfunktionen der längeren Liste unter Verwendung der Standardwerte an das Ende der kürzeren Liste angehängt, anschließend werden alle Filterfunktionen entsprechend ihrer spezifischen Regeln interpoliert. Falls ein Filter 'none' ist, wird er durch die Filterfunktionsliste der anderen unter Verwendung der Standardwerte ersetzt, anschließend werden alle Filterfunktionen entsprechend ihrer spezifischen Regeln interpoliert. Ansonsten wird diskrete Interpolation verwendet.\">Filterfunktionsliste</a>",
     "en-US": "a <a href=\"/en-US/docs/Web/CSS/filter#Interpolation\" title=\"If both filters have a function list of same length without URL, each of their filters functions is interpolated according to its specific rules. If they have different lengths, the missing equivalent filter functions from the longer list are added to the end of the shorter list using their default values, then all filter functions are interpolated according to their specific rules. If one filter is 'none', it is replaced with the filter functions list of the other one using the filter function default values, then all filter functions are interpolated according to their specific rules. Otherwise discrete interpolation is used.\">filter function list</a>",
-    "fr": "une <a href=\"/fr/docs/Web/CSS/filter#Interpolation\" title=\"Si les deux filtres ont une liste de fonctions de même longueur sans URL, chaque fonction de filtre est interpolée selon les règles qui lui sont propres. Si elles sont de longueur différente, les dernières fonctions de filtre de la liste la plus longue sont ajoutées à la liste la plus courte avec leurs valeurs par défaut et ensuite, toutes les fonctions de filtre sont interpolées entre elles selon leurs règles spécifiques. Dans les autres cas, c'est une interpolation discrète qui est utilisée.\">liste de fonctions de filtre</a>"
+    "fr": "une <a href=\"/fr/docs/Web/CSS/filter#Interpolation\" title=\"Si les deux filtres ont une liste de fonctions de même longueur sans URL, chaque fonction de filtre est interpolée selon les règles qui lui sont propres. Si elles sont de longueur différente, les dernières fonctions de filtre de la liste la plus longue sont ajoutées à la liste la plus courte avec leurs valeurs par défaut et ensuite, toutes les fonctions de filtre sont interpolées entre elles selon leurs règles spécifiques. Dans les autres cas, c'est une interpolation discrète qui est utilisée.\">liste de fonctions de filtre</a>",
     "ru": "<a href=\"/en-US/docs/Web/CSS/filter#Interpolation\" title=\"Если оба фильтра имеют список функций одинаковой длины без URL, каждая из фильтр функций интерполируется в соответствии с конкретными правилами. Если они имеют разную длину, отсутствующие эквивалентные фильтр функции из более длинного списка добавляются в конец более короткого списка используя значения по умолчанию, в этом случае все фильтр функции интерполируются в соответствии с  их конкретными правилами. Если один фильтр 'none', то он заменяется списком фильтр функций другого с использованием значений по умолчанию, затем все фильтр функции интерполируются в  соответствии с их конкретными правилами. В противном случае используется дискретная интерполяция.\">список фильтр функций</a>"
   },
   "firstLetterPseudoElementsAndInlineLevelFirstChildren": {
@@ -721,7 +722,7 @@
     "en-US": "inline-level and table-cell elements",
     "fr": "éléments en ligne et à ceux qui sont des cellules de tableau",
     "ja": "インラインレベルとテーブルセル要素",
-    "ru": "cтрочные и табличные элементы"
+    "ru": "cтрочные и ячеечные элементы"
   },
   "inlineSizeOfContainingBlock": {
     "de": "Inlinegröße des beinhaltenden Blocks",
@@ -864,7 +865,7 @@
     "ru": "{{SVGElement(\"mask\")}} элементы"
   },
   "maxZoomFactor": {
-    "en-US": "The largest allowed zoom factor. A zoom factor of 100% corresponds to no zooming. Larger values zoom in. Smaller values zoom out."
+    "en-US": "The largest allowed zoom factor. A zoom factor of 100% corresponds to no zooming. Larger values zoom in. Smaller values zoom out.",
     "ru": "Наибольший разрешённый коэффициент масштабирования. 100% коэффициент масштабирования, соответствует отсутствию масштабирования. Большие значения увеличивают масштаб. Значения меньше уменьшают масштаб"
   },
   "media": {
@@ -877,7 +878,7 @@
     "zh-CN": "适用媒体"
   },
   "minZoomFactor": {
-    "en-US": "The smallest allowed zoom factor. A zoom factor of 100% corresponds to no zooming. Larger values zoom in. Smaller values zoom out."
+    "en-US": "The smallest allowed zoom factor. A zoom factor of 100% corresponds to no zooming. Larger values zoom in. Smaller values zoom out.",
     "ru": "Наименьший разрешённый коэффициент масштабирования. 100% коэффициент масштабирования, соответствует отсутствию масштабирования. Большие значения увеличивают масштаб. Значения меньше уменьшают масштаб"
   },
   "multicolElements": {
@@ -890,7 +891,7 @@
   "multiColumnElementsFlexContainersGridContainers": {
     "en-US": "multi-column elements, flex containers, grid containers",
     "ja": "段組み要素, フレックスコンテナー, グリッドコンテナー",
-    "ru": "многоколонные элементы, flex-контейнеры, сеточные контейнеры"
+    "ru": "мультиколоночные элементы, flex-контейнеры, сеточные контейнеры"
   },
   "multilineFlexContainers": {
     "de": "mehrzeilige flexible Container",
@@ -949,7 +950,7 @@
     "de": "Es gibt keinen praktischen Initialwert dafür.",
     "en-US": "There is no practical initial value for it.",
     "fr": "Il n'y a pas de valeur initiale pour cela.",
-    "ru": "На практике начального значения нет."
+    "ru": "На практике нет начального значения."
   },
   "noPracticalMedia": {
     "de": "Es gibt kein praktisches Medium dafür.",
@@ -1026,7 +1027,7 @@
     "en-US": "the percentage as specified or the absolute length",
     "fr": "le pourcentage tel que spécifé ou une longeur absolue",
     "ja": "指定されたパーセンテージ値または絶対的な長さ",
-    "ru": "процент, как указан, или абсолютная длина"
+    "ru": "указанное значение в процентах или абсолютная длина"
   },
   "percentageAutoOrAbsoluteLength": {
     "de": "ein Prozentwert oder <code>auto</code> oder die absolute Länge",
@@ -1053,7 +1054,7 @@
     "de": "die Prozentwerte oder Längen gefolgt vom Schlüsselwort <code>fill</code>",
     "en-US": "the percentages or lengths, eventually followed by the keyword <code>fill</code>",
     "fr": "les pourcentages ou les longueurs, éventuellement suivis par le mot-clé <code>fill</code>",
-    "ru": "проценты или длины, следуемые за ключевым словом <code>fill</code>"
+    "ru": "проценты или длины, с возможно следующим за ключевым словом <code>fill</code>"
   },
   "perGrammar": {
     "de": "nach Grammatik",
@@ -1153,7 +1154,7 @@
   },
   "referToReferenceBoxWhenSpecifiedOtherwiseBorderBox": {
     "en-US": "refer to reference box when specified, otherwise border-box",
-    "ru": "относятся к относительному блоку когда указано, в противном случае к границе коробки"
+    "ru": "относятся к относительному блоку когда указано, в противном случае border-box"
   },
   "referToSizeOfBackgroundPositioningAreaMinusBackgroundImageSize": {
     "de": "bezieht sich auf die Größe des Hintergrundpositionsbereichs abzüglich der Größe des Hintergrundbilds; die Größe bezieht sich auf die vertikalen und horizontalen Verschiebungen",
@@ -1189,7 +1190,7 @@
   },
   "referToSizeOfMaskBorderImage": {
     "en-US": "refer to size of the mask border image",
-    "ru": "относятся к размеру маски рамки изображения"
+    "ru": "относятся к размеру изображения рамочной маски"
   },
   "referToSizeOfMaskPaintingArea": {
     "de": "beziehen sich auf die Größe des Maskenzeichenbereichs minus der Größe des Maskenebenenbildes (siehe den Text zu {{cssxref(\"background-position\")}})",
@@ -1277,7 +1278,8 @@
     "ru": "относительно области позиционирования фона"
   },
   "relativeToMaskBorderImageArea": {
-    "en-US": "relative to width/height of the mask border image area"
+    "en-US": "relative to width/height of the mask border image area",
+    "ru": "относительно ширины/высоты области изображения рамочной маски"
   },
   "relativeToScrollContainerPaddingBoxAxis": {
     "de": "relativ zur gleichen Achse der Innenabstandsbox des Scrollcontainers",
@@ -1294,7 +1296,7 @@
   },
   "repeatableListOfSimpleListOfLpc": {
     "en-US": "repeatable list of simple list of length, percentage, or calc",
-    "ru" "повторяющийся список, простых списков длинны, процентов или calc"
+    "ru" "повторяющийся список простых списков длин, процентных значений или calc"
   },
   "replacedElements": {
     "de": "ersetzte Elemente",
@@ -1381,7 +1383,7 @@
   "simpleListOfLpc": {
     "en-US": "simple list of length, percentage, or calc",
     "ja": "length, percentage, calc の単純なリスト",
-    "ru": "простой список длины, процентов, или calc"
+    "ru": "простой список длин, процентных значений или calc"
   },
   "specifiedIntegerOrAbsoluteLength": {
     "de": "die angegebene Ganzzahl oder eine absolute Länge",
@@ -1473,7 +1475,7 @@
   },
   "\". \"": {
     "en-US": "\". \" (full stop followed by a space)",
-    "ru": "\". \" (полная остановка, затем пробел)"
+    "ru": "\". \" (точка, затем пробел)"
   },
   "twoAbsoluteLengthOrPercentages": {
     "de": "zwei absolute {{cssxref(\"length\")}} oder {{cssxref(\"percentage\")}}",
@@ -1539,6 +1541,6 @@
   },
   "zoomForTheTopLevelNoneForTheRest": {
     "en-US": "zoom for the top level element, none for all other elements",
-    "ru": "Масштабирование для элемента верхнего уровня, нет для всех остальных элементов"
+    "ru": "Масштабирование для элемента верхнего уровня, none для всех остальных элементов"
   }
 }
