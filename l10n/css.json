@@ -1296,7 +1296,7 @@
   },
   "repeatableListOfSimpleListOfLpc": {
     "en-US": "repeatable list of simple list of length, percentage, or calc",
-    "ru" "повторяющийся список простых списков длин, процентных значений или calc"
+    "ru": "повторяющийся список простых списков длин, процентных значений или calc"
   },
   "replacedElements": {
     "de": "ersetzte Elemente",
