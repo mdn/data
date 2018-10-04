@@ -463,7 +463,7 @@
   "blockContainersFlexContainersGridContainers": {
     "en-US": "Block-containers, flex containers, and grid containers",
     "ja": "ブロックコンテナー, フレックスコンテナー, グリッドコンテナー",
-    "ru": "Блочные контейнеры, флекс-контейнеры и грид-контейнеры" 
+    "ru": "Блочные контейнеры, флекс-контейнеры и грид-контейнеры"
   },
   "blockElementsInNormalFlow": {
     "de": "Blocklevelelemente in normalem Fluss des Wurzelelements. User Agents können es auch auf andere Elemente wie <code>table-row</code>-Elemente anwenden.",
