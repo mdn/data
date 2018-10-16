@@ -84,7 +84,7 @@
     "syntax": "circle( [ <shape-radius> ]? [ at <position> ]? )"
   },
   "clamp()": {
-    "syntax": "clamp( [minimum <calc-sum>], <calc-sum>, [maximum <calc-sum>] )"
+    "syntax": "clamp( <calc-sum>#{3} )"
   },
   "class-selector": {
     "syntax": "'.' <ident-token>"
