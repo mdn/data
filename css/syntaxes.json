@@ -83,6 +83,9 @@
   "circle()": {
     "syntax": "circle( [ <shape-radius> ]? [ at <position> ]? )"
   },
+  "clamp()": {
+    "syntax": "clamp( <calc-sum>#{3} )"
+  },
   "class-selector": {
     "syntax": "'.' <ident-token>"
   },
@@ -368,6 +371,9 @@
   "matrix3d()": {
     "syntax": "matrix3d( <number> [, <number> ]{15,15} )"
   },
+  "max()": {
+    "syntax": "max( <calc-sum># )"
+  },
   "media-and": {
     "syntax": "<media-in-parens> [ and <media-in-parens> ]+"
   },
@@ -412,6 +418,9 @@
   },
   "mf-value": {
     "syntax": "<number> | <dimension> | <ident> | <ratio>"
+  },
+  "min()": {
+    "syntax": "min( <calc-sum># )"
   },
   "minmax()": {
     "syntax": "minmax( [ <length> | <percentage> | <flex> | min-content | max-content | auto ] , [ <length> | <percentage> | <flex> | min-content | max-content | auto ] )"
