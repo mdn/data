@@ -7016,6 +7016,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-behavior"
   },
+  "scroll-padding": {
+    "syntax": "[ <length> | <percentage> ]{1,4}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "referToCorrespondingDimensionOfScrollContainersViewport",
+    "groups": [
+      "CSS ScrollSnap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding"
+  },
   "scroll-snap-coordinate": {
     "syntax": "none | <position>#",
     "media": "interactive",
