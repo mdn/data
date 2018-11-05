@@ -7023,7 +7023,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "0",
     "appliesto": "allElements",
@@ -7039,7 +7039,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "0",
     "appliesto": "allElements",
@@ -7055,7 +7055,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "0",
     "appliesto": "allElements",
@@ -7071,7 +7071,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "0",
     "appliesto": "allElements",
@@ -7087,7 +7087,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "0",
     "appliesto": "allElements",
@@ -7103,7 +7103,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "0",
     "appliesto": "allElements",
@@ -7119,7 +7119,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "0",
     "appliesto": "allElements",
@@ -7135,7 +7135,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "0",
     "appliesto": "allElements",
@@ -7151,7 +7151,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "0",
     "appliesto": "allElements",
@@ -7167,7 +7167,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "0",
     "appliesto": "allElements",
@@ -7183,7 +7183,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "0",
     "appliesto": "allElements",
@@ -7199,7 +7199,7 @@
     "animationType": "byComputedValueType",
     "percentages": "referToCorrespondingDimensionOfScrollContainersViewport",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "auto",
     "appliesto": "scrollContainers",
@@ -7215,7 +7215,7 @@
     "animationType": "byComputedValueType",
     "percentages": "referToCorrespondingDimensionOfScrollContainersViewport",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "auto",
     "appliesto": "scrollContainers",
@@ -7231,7 +7231,7 @@
     "animationType": "byComputedValueType",
     "percentages": "referToCorrespondingDimensionOfScrollContainersViewport",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "auto",
     "appliesto": "scrollContainers",
@@ -7247,7 +7247,7 @@
     "animationType": "byComputedValueType",
     "percentages": "referToCorrespondingDimensionOfScrollContainersViewport",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "auto",
     "appliesto": "scrollContainers",
@@ -7263,7 +7263,7 @@
     "animationType": "byComputedValueType",
     "percentages": "referToCorrespondingDimensionOfScrollContainersViewport",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "auto",
     "appliesto": "scrollContainers",
@@ -7279,7 +7279,7 @@
     "animationType": "byComputedValueType",
     "percentages": "referToCorrespondingDimensionOfScrollContainersViewport",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "auto",
     "appliesto": "scrollContainers",
@@ -7295,7 +7295,7 @@
     "animationType": "byComputedValueType",
     "percentages": "referToCorrespondingDimensionOfScrollContainersViewport",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "auto",
     "appliesto": "scrollContainers",
@@ -7311,7 +7311,7 @@
     "animationType": "byComputedValueType",
     "percentages": "referToCorrespondingDimensionOfScrollContainersViewport",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "auto",
     "appliesto": "scrollContainers",
@@ -7327,7 +7327,7 @@
     "animationType": "byComputedValueType",
     "percentages": "relativeToTheScrollContainersScrollport",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "auto",
     "appliesto": "scrollContainers",
@@ -7343,7 +7343,7 @@
     "animationType": "byComputedValueType",
     "percentages": "relativeToTheScrollContainersScrollport",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "auto",
     "appliesto": "scrollContainers",
@@ -7359,7 +7359,7 @@
     "animationType": "byComputedValueType",
     "percentages": "relativeToTheScrollContainersScrollport",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "auto",
     "appliesto": "scrollContainers",
@@ -7375,7 +7375,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "none",
     "appliesto": "allElements",
