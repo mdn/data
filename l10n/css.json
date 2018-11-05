@@ -484,6 +484,9 @@
     "fr": "éléments de boîte",
     "ru": "блочные элементы"
   },
+  "byComputedValueType": {
+    "en-US": "by computed value type"
+  },
   "canonicalOrder": {
     "de": "Kanonische Reihenfolge",
     "en-US": "Canonical order",
@@ -1261,6 +1264,9 @@
     "en-US": "relative to same axis of the padding-box of the scroll container",
     "fr": "relatif au même axe de la <code>padding-box</code> du conteneur d'ascenceur",
     "ru": "относительно той же оси и внутренних отступов прокручиваемого контейнера"
+  },
+  "relativeToTheScrollContainersScrollport": {
+    "en-US": "relative to the scroll container's scrollport"
   },
   "repeatableList": {
     "de": "mehrfache Werte der folgenden Eigenschaften: ",
