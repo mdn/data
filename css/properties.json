@@ -5099,8 +5099,40 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inline-size"
   },
+  "inset": {
+    "syntax": "<'top'>{1,4}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "lpc",
+    "percentages": "logicalHeightOfContainingBlock",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "auto",
+    "appliesto": "positionedElements",
+    "computed": "sameAsBoxOffsets",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset"
+  },
+  "inset-block": {
+    "syntax": "<'top'>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "lpc",
+    "percentages": "logicalHeightOfContainingBlock",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "auto",
+    "appliesto": "positionedElements",
+    "computed": "sameAsBoxOffsets",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-block"
+  },
   "inset-block-end": {
-    "syntax": "<'left'>",
+    "syntax": "<'top'>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -5116,7 +5148,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-block-end"
   },
   "inset-block-start": {
-    "syntax": "<'left'>",
+    "syntax": "<'top'>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -5131,8 +5163,24 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-block-start"
   },
+  "inset-inline": {
+    "syntax": "<'top'>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "lpc",
+    "percentages": "logicalWidthOfContainingBlock",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "auto",
+    "appliesto": "positionedElements",
+    "computed": "sameAsBoxOffsets",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-inline"
+  },
   "inset-inline-end": {
-    "syntax": "<'left'>",
+    "syntax": "<'top'>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -5148,7 +5196,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-inline-end"
   },
   "inset-inline-start": {
-    "syntax": "<'left'>",
+    "syntax": "<'top'>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
