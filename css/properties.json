@@ -7197,7 +7197,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
-    "percentages": "referToCorrespondingDimensionOfScrollContainersViewport",
+    "percentages": "relativeToTheScrollContainersScrollport",
     "groups": [
       "CSS Scroll Snap"
     ],
@@ -7213,7 +7213,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
-    "percentages": "referToCorrespondingDimensionOfScrollContainersViewport",
+    "percentages": "relativeToTheScrollContainersScrollport",
     "groups": [
       "CSS Scroll Snap"
     ],
@@ -7229,7 +7229,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
-    "percentages": "referToCorrespondingDimensionOfScrollContainersViewport",
+    "percentages": "relativeToTheScrollContainersScrollport",
     "groups": [
       "CSS Scroll Snap"
     ],
@@ -7245,7 +7245,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
-    "percentages": "referToCorrespondingDimensionOfScrollContainersViewport",
+    "percentages": "relativeToTheScrollContainersScrollport",
     "groups": [
       "CSS Scroll Snap"
     ],
@@ -7261,7 +7261,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
-    "percentages": "referToCorrespondingDimensionOfScrollContainersViewport",
+    "percentages": "relativeToTheScrollContainersScrollport",
     "groups": [
       "CSS Scroll Snap"
     ],
@@ -7277,7 +7277,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
-    "percentages": "referToCorrespondingDimensionOfScrollContainersViewport",
+    "percentages": "relativeToTheScrollContainersScrollport",
     "groups": [
       "CSS Scroll Snap"
     ],
@@ -7293,7 +7293,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
-    "percentages": "referToCorrespondingDimensionOfScrollContainersViewport",
+    "percentages": "relativeToTheScrollContainersScrollport",
     "groups": [
       "CSS Scroll Snap"
     ],
@@ -7309,7 +7309,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
-    "percentages": "referToCorrespondingDimensionOfScrollContainersViewport",
+    "percentages": "relativeToTheScrollContainersScrollport",
     "groups": [
       "CSS Scroll Snap"
     ],
