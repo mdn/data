@@ -7455,7 +7455,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS ScrollSnap"
+      "CSS Scroll Snap"
     ],
     "initial": "normal",
     "appliesto": "allElements",
