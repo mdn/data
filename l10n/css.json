@@ -264,22 +264,10 @@
     "fr": " et ",
     "ru": " и "
   },
-  "angle": {
-    "de": "Winkel",
-    "en-US": "angle",
-    "fr": "angle",
-    "ru": "угол"
-  },
   "angleBasicShapeOrPath": {
     "de": "{{cssxref(\"<angle>\"}}, {{cssxref(\"<basic-shape>\"}} oder {{cssxref(\"<path()>\"}}",
     "en-US": "{{cssxref(\"<angle>\"}}, {{cssxref(\"<basic-shape>\"}} or {{cssxref(\"<path()>\"}}",
     "fr": "{{cssxref(\"<angle>\"}}, {{cssxref(\"<basic-shape>\"}} ou {{cssxref(\"<path()>\"}}"
-  },
-  "angleOrBasicShapeOrPath": {
-    "de": "als &lt;angle&gt;, &lt;basic-shape&gt; oder &lt;path()&gt;",
-    "en-US": "as &lt;angle&gt;, &lt;basic-shape&gt; or &lt;path()&gt;",
-    "fr": "comme &lt;angle&gt;, &lt;basic-shape&gt; ou &lt;path()&gt;",
-    "ru": "как &lt;angle&gt;, &lt;basic-shape&gt; или &lt;path()&gt;"
   },
   "angleRoundedToNextQuarter": {
     "de": "ein {{xref_cssangle}}, auf den nächsten Viertel von <code>0deg</code> gerundet (üblicherweise  <code>1turn)</code>",
@@ -496,6 +484,9 @@
     "fr": "éléments de boîte",
     "ru": "блочные элементы"
   },
+  "byComputedValueType": {
+    "en-US": "by computed value type"
+  },
   "canonicalOrder": {
     "de": "Kanonische Reihenfolge",
     "en-US": "Canonical order",
@@ -590,6 +581,7 @@
     "de": "Elemente mit einem CSS {{cssxref(\"display\")}} Wert von <code>box</code> oder <code>inline-box</code>",
     "en-US": "elements with a CSS {{cssxref(\"display\")}} value of <code>box</code> or <code>inline-box</code>",
     "fr": "éléments avec {{cssxref(\"display\")}} qui vaut <code>box</code> ou <code>inline-box</code>",
+    "ja": "CSS の {{cssxref(\"display\")}} の値が <code>box</code> または <code>inline-box</code> である要素",
     "ru": "элементы с значением свойства {{cssxref(\"display\")}} <code>box</code> или <code>inline-box</code>"
   },
   "elementsWithDisplayMarker": {
@@ -1272,6 +1264,9 @@
     "en-US": "relative to same axis of the padding-box of the scroll container",
     "fr": "relatif au même axe de la <code>padding-box</code> du conteneur d'ascenceur",
     "ru": "относительно той же оси и внутренних отступов прокручиваемого контейнера"
+  },
+  "relativeToTheScrollContainersScrollport": {
+    "en-US": "relative to the scroll container's scrollport"
   },
   "repeatableList": {
     "de": "mehrfache Werte der folgenden Eigenschaften: ",

@@ -2231,7 +2231,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/block-size"
   },
   "border": {
-    "syntax": "<br-width> || <br-style> || <color>",
+    "syntax": "<line-width> || <line-style> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -2406,7 +2406,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start-width"
   },
   "border-bottom": {
-    "syntax": "<br-width> || <br-style> || <color>",
+    "syntax": "<line-width> || <line-style> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -2494,7 +2494,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-right-radius"
   },
   "border-bottom-style": {
-    "syntax": "<br-style>",
+    "syntax": "<line-style>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2513,7 +2513,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-style"
   },
   "border-bottom-width": {
-    "syntax": "<br-width>",
+    "syntax": "<line-width>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -2855,7 +2855,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start-width"
   },
   "border-left": {
-    "syntax": "<br-width> || <br-style> || <color>",
+    "syntax": "<line-width> || <line-style> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -2905,7 +2905,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-left-color"
   },
   "border-left-style": {
-    "syntax": "<br-style>",
+    "syntax": "<line-style>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2924,7 +2924,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-left-style"
   },
   "border-left-width": {
-    "syntax": "<br-width>",
+    "syntax": "<line-width>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -2977,7 +2977,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-radius"
   },
   "border-right": {
-    "syntax": "<br-width> || <br-style> || <color>",
+    "syntax": "<line-width> || <line-style> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -3027,7 +3027,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-right-color"
   },
   "border-right-style": {
-    "syntax": "<br-style>",
+    "syntax": "<line-style>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -3046,7 +3046,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-right-style"
   },
   "border-right-width": {
-    "syntax": "<br-width>",
+    "syntax": "<line-width>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -3081,7 +3081,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-spacing"
   },
   "border-style": {
-    "syntax": "<br-style>{1,4}",
+    "syntax": "<line-style>{1,4}",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -3110,7 +3110,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-style"
   },
   "border-top": {
-    "syntax": "<br-width> || <br-style> || <color>",
+    "syntax": "<line-width> || <line-style> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -3198,7 +3198,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-top-right-radius"
   },
   "border-top-style": {
-    "syntax": "<br-style>",
+    "syntax": "<line-style>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -3217,7 +3217,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-top-style"
   },
   "border-top-width": {
-    "syntax": "<br-width>",
+    "syntax": "<line-width>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -3236,7 +3236,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-top-width"
   },
   "border-width": {
-    "syntax": "<br-width>{1,4}",
+    "syntax": "<line-width>{1,4}",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -5099,11 +5099,43 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inline-size"
   },
-  "inset-block-end": {
-    "syntax": "<'left'>",
+  "inset": {
+    "syntax": "<'top'>{1,4}",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "lpc",
+    "percentages": "logicalHeightOfContainingBlock",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "auto",
+    "appliesto": "positionedElements",
+    "computed": "sameAsBoxOffsets",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset"
+  },
+  "inset-block": {
+    "syntax": "<'top'>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "lpc",
+    "percentages": "logicalHeightOfContainingBlock",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "auto",
+    "appliesto": "positionedElements",
+    "computed": "sameAsBoxOffsets",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-block"
+  },
+  "inset-block-end": {
+    "syntax": "<'top'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "lpc",
     "percentages": "logicalHeightOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -5116,10 +5148,10 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-block-end"
   },
   "inset-block-start": {
-    "syntax": "<'left'>",
+    "syntax": "<'top'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "lpc",
     "percentages": "logicalHeightOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -5131,11 +5163,27 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-block-start"
   },
-  "inset-inline-end": {
-    "syntax": "<'left'>",
+  "inset-inline": {
+    "syntax": "<'top'>{1,2}",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "lpc",
+    "percentages": "logicalWidthOfContainingBlock",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "auto",
+    "appliesto": "positionedElements",
+    "computed": "sameAsBoxOffsets",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-inline"
+  },
+  "inset-inline-end": {
+    "syntax": "<'top'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "lpc",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -5148,10 +5196,10 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-inline-end"
   },
   "inset-inline-start": {
-    "syntax": "<'left'>",
+    "syntax": "<'top'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "lpc",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -5314,22 +5362,6 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/line-height"
-  },
-  "line-height-step": {
-    "syntax": "<length>",
-    "media": "visual",
-    "inherited": true,
-    "animationType": "discrete",
-    "percentages": "no",
-    "groups": [
-      "CSS Fonts"
-    ],
-    "initial": "0",
-    "appliesto": "blockContainerElements",
-    "computed": "absoluteLength",
-    "order": "perGrammar",
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/line-height-step"
   },
   "list-style": {
     "syntax": "<'list-style-type'> || <'list-style-position'> || <'list-style-image'>",
@@ -6059,6 +6091,78 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode"
   },
+  "motion": {
+    "syntax": "&lt;'motion-path'&gt; &amp;&amp; &lt;'motion-offset'&gt; &amp;&amp; &lt;'motion-rotation'&gt;",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": [
+      "motion-offset"
+    ],
+    "groups": [
+      "CSS Motion"
+    ],
+    "initial": [
+      "motion-path",
+      "motion-offset",
+      "motion-rotation"
+    ],
+    "appliesto": "allElementsSVGContainerElements",
+    "computed": [
+      "motion-path",
+      "motion-offset",
+      "motion-rotation"
+    ],
+    "order": "orderOfAppearance",
+    "stacking": true,
+    "status": "experimental"
+  },
+  "motion-offset": {
+    "syntax": "&lt;length-percentage&gt;",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "lpc",
+    "percentages": "referToTotalPathLength",
+    "groups": [
+      "CSS Motion"
+    ],
+    "initial": "<code>0</code>",
+    "appliesto": "allElementsSVGContainerElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "experimental"
+  },
+  "motion-path": {
+    "syntax": "&lt;url&gt; | [ &lt;basic-shape&gt; | &lt;path()&gt; ] || &lt;geometry-box&gt; | none",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Motion"
+    ],
+    "initial": "<code>none</code>",
+    "appliesto": "allElementsSVGContainerElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "stacking": true,
+    "status": "experimental"
+  },
+  "motion-rotation": {
+    "syntax": "[ auto | reverse ] &amp;&amp; &lt;angle&gt;",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "number",
+    "percentages": "no",
+    "groups": [
+      "CSS Motion"
+    ],
+    "initial": "<code>auto</code>",
+    "appliesto": "allElementsSVGContainerElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "experimental"
+  },
   "object-fit": {
     "syntax": "fill | contain | cover | none | scale-down",
     "media": "visual",
@@ -6091,93 +6195,6 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/object-position"
   },
-  "offset": {
-    "syntax": "[ <'offset-position'>? [ <'offset-path'> [ <'offset-distance'> || <'offset-rotate'> ]? ]? ]! [ / <'offset-anchor'> ]?",
-    "media": "visual",
-    "inherited": false,
-    "animationType": [
-      "offset-position",
-      "offset-path",
-      "offset-distance",
-      "offset-anchor",
-      "offset-rotate"
-    ],
-    "percentages": [
-      "offset-position",
-      "offset-distance",
-      "offset-anchor"
-    ],
-    "groups": [
-      "CSS Motion"
-    ],
-    "initial": [
-      "offset-position",
-      "offset-path",
-      "offset-distance",
-      "offset-anchor",
-      "offset-rotate"
-    ],
-    "appliesto": "transformableElements",
-    "computed": [
-      "offset-position",
-      "offset-path",
-      "offset-distance",
-      "offset-anchor",
-      "offset-rotate"
-    ],
-    "order": "perGrammar",
-    "stacking": true,
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset"
-  },
-  "offset-anchor": {
-    "syntax": "auto | <position>",
-    "media": "visual",
-    "inherited": false,
-    "animationType": "position",
-    "percentages": "relativeToWidthAndHeight",
-    "groups": [
-      "CSS Motion"
-    ],
-    "initial": "auto",
-    "appliesto": "transformableElements",
-    "computed": "forLengthAbsoluteValueOtherwisePercentage",
-    "order": "perGrammar",
-    "status": "experimental"
-  },
-  "offset-distance": {
-    "syntax": "<length-percentage>",
-    "media": "visual",
-    "inherited": false,
-    "animationType": "lpc",
-    "percentages": "referToTotalPathLength",
-    "groups": [
-      "CSS Motion"
-    ],
-    "initial": "0",
-    "appliesto": "transformableElements",
-    "computed": "forLengthAbsoluteValueOtherwisePercentage",
-    "order": "perGrammar",
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-distance"
-  },
-  "offset-path": {
-    "syntax": "none | ray( [ <angle> && <size>? && contain? ] ) | <path()> | <url> | [ <basic-shape> || <geometry-box> ]",
-    "media": "visual",
-    "inherited": false,
-    "animationType": "angleOrBasicShapeOrPath",
-    "percentages": "no",
-    "groups": [
-      "CSS Motion"
-    ],
-    "initial": "none",
-    "appliesto": "transformableElements",
-    "computed": "asSpecified",
-    "order": "perGrammar",
-    "stacking": true,
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-path"
-  },
   "offset-position": {
     "syntax": "auto | <position>",
     "media": "visual",
@@ -6192,22 +6209,6 @@
     "computed": "forLengthAbsoluteValueOtherwisePercentage",
     "order": "perGrammar",
     "status": "experimental"
-  },
-  "offset-rotate": {
-    "syntax": "[ auto | reverse ] || <angle>",
-    "media": "visual",
-    "inherited": false,
-    "animationType": "angle",
-    "percentages": "no",
-    "groups": [
-      "CSS Motion"
-    ],
-    "initial": "auto",
-    "appliesto": "transformableElements",
-    "computed": "asSpecified",
-    "order": "perGrammar",
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-rotate"
   },
   "opacity": {
     "syntax": "<number>",
@@ -6330,7 +6331,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/outline-offset"
   },
   "outline-style": {
-    "syntax": "auto | <br-style>",
+    "syntax": "auto | <'border-style'>",
     "media": [
       "visual",
       "interactive"
@@ -6349,7 +6350,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/outline-style"
   },
   "outline-width": {
-    "syntax": "<br-width>",
+    "syntax": "<line-width>",
     "media": [
       "visual",
       "interactive"
@@ -6903,7 +6904,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/quotes"
   },
   "resize": {
-    "syntax": "none | both | horizontal | vertical",
+    "syntax": "none | both | horizontal | vertical | block | inline",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -7063,6 +7064,374 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-behavior"
   },
+  "scroll-margin": {
+    "syntax": "[ auto | <length> ]{1,4}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin"
+  },
+  "scroll-margin-block": {
+    "syntax": "[ auto | <length> ]{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block"
+  },
+  "scroll-margin-block-start": {
+    "syntax": "auto | <length> ",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-start"
+  },
+  "scroll-margin-block-end": {
+    "syntax": "auto | <length>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-end"
+  },
+  "scroll-margin-bottom": {
+    "syntax": "auto | <length>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-bottom"
+  },
+  "scroll-margin-inline": {
+    "syntax": "[auto | <length> ]{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline"
+  },
+  "scroll-margin-inline-start": {
+    "syntax": "auto | <length>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-start"
+  },
+  "scroll-margin-inline-end": {
+    "syntax": "auto | <length>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-end"
+  },
+  "scroll-margin-left": {
+    "syntax": "auto | <length>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-left"
+  },
+  "scroll-margin-right": {
+    "syntax": "auto | <length>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-right"
+  },
+  "scroll-margin-top": {
+    "syntax": "auto | <length>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-top"
+  },
+  "scroll-padding": {
+    "syntax": "[ auto | <length> | <percentage> ]{1,4}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding"
+  },
+  "scroll-padding-block": {
+    "syntax": "[auto | <length> | <percentage> ]{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block"
+  },
+  "scroll-padding-block-start": {
+    "syntax": "auto | <length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-start"
+  },
+  "scroll-padding-block-end": {
+    "syntax": "auto | <length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-end"
+  },
+  "scroll-padding-bottom": {
+    "syntax": "auto | <length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-bottom"
+  },
+  "scroll-padding-inline": {
+    "syntax": "[auto | <length> | <percentage> ]{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline"
+  },
+  "scroll-padding-inline-start": {
+    "syntax": "auto | <length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-start"
+  },
+  "scroll-padding-inline-end": {
+    "syntax": "auto | <length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-end"
+  },
+  "scroll-padding-left": {
+    "syntax": "auto | <length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-left"
+  },
+  "scroll-padding-right": {
+    "syntax": "auto | <length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-right"
+  },
+  "scroll-padding-top": {
+    "syntax": "auto | <length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-top"
+  },
+  "scroll-snap-align": {
+    "syntax": "[ none | start | end | center ]{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-align"
+  },
   "scroll-snap-coordinate": {
     "syntax": "none | <position>#",
     "media": "interactive",
@@ -7127,8 +7496,24 @@
     "status": "obsolete",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-points-y"
   },
+  "scroll-snap-stop": {
+    "syntax": "normal | always",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "normal",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-stop"
+  },
   "scroll-snap-type": {
-    "syntax": "none | mandatory | proximity",
+    "syntax": "none | [ x | y | block | inline | both ] [ mandatory | proximity ]",
     "media": "interactive",
     "inherited": false,
     "animationType": "discrete",
@@ -7137,7 +7522,7 @@
       "CSS Scroll Snap"
     ],
     "initial": "none",
-    "appliesto": "scrollContainers",
+    "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "standard",

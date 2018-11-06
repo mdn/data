@@ -59,12 +59,6 @@
   "box": {
     "syntax": "border-box | padding-box | content-box"
   },
-  "br-style": {
-    "syntax": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset"
-  },
-  "br-width": {
-    "syntax": "<length> | thin | medium | thick"
-  },
   "brightness()": {
     "syntax": "brightness( <number-percentage> )"
   },
@@ -88,6 +82,9 @@
   },
   "circle()": {
     "syntax": "circle( [ <shape-radius> ]? [ at <position> ]? )"
+  },
+  "clamp()": {
+    "syntax": "clamp( <calc-sum>#{3} )"
   },
   "class-selector": {
     "syntax": "'.' <ident-token>"
@@ -159,7 +156,7 @@
     "syntax": "contents | none"
   },
   "display-inside": {
-    "syntax": "flow | flow-root | table | flex | grid | subgrid | ruby"
+    "syntax": "flow | flow-root | table | flex | grid | ruby"
   },
   "display-internal": {
     "syntax": "table-row-group | table-header-group | table-footer-group | table-row | table-cell | table-column-group | table-column | table-caption | ruby-base | ruby-text | ruby-base-container | ruby-text-container"
@@ -344,6 +341,12 @@
   "line-name-list": {
     "syntax": "[ <line-names> | <name-repeat> ]+"
   },
+  "line-style": {
+    "syntax": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset"
+  },
+  "line-width": {
+    "syntax": "<length> | thin | medium | thick"
+  },
   "linear-gradient()": {
     "syntax": "linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )"
   },
@@ -367,6 +370,9 @@
   },
   "matrix3d()": {
     "syntax": "matrix3d( <number> [, <number> ]{15,15} )"
+  },
+  "max()": {
+    "syntax": "max( <calc-sum># )"
   },
   "media-and": {
     "syntax": "<media-in-parens> [ and <media-in-parens> ]+"
@@ -412,6 +418,9 @@
   },
   "mf-value": {
     "syntax": "<number> | <dimension> | <ident> | <ratio>"
+  },
+  "min()": {
+    "syntax": "min( <calc-sum># )"
   },
   "minmax()": {
     "syntax": "minmax( [ <length> | <percentage> | <flex> | min-content | max-content | auto ] , [ <length> | <percentage> | <flex> | min-content | max-content | auto ] )"

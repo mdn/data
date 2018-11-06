@@ -14,9 +14,9 @@
     },
     "animationType": {
       "enum": [
-        "angle",
-        "angleOrBasicShapeOrPath",
+        "angleBasicShapeOrPath",
         "basicShapeOtherwiseNo",
+        "byComputedValueType",
         "color",
         "discrete",
         "eachOfShorthandPropertiesExceptUnicodeBiDiAndDirection",
@@ -79,6 +79,7 @@
         "relativeToBackgroundPositioningArea",
         "relativeToMaskBorderImageArea",
         "relativeToScrollContainerPaddingBoxAxis",
+        "relativeToTheScrollContainersScrollport",
         "relativeToWidthAndHeight"
       ]
     },
