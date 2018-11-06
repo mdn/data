@@ -7048,6 +7048,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-color"
   },
+  "scrollbar-width": {
+    "syntax": "auto | thin | none | <length>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "length",
+    "percentages": "no",
+    "groups": [
+      "CSS Scrollbars"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollingBoxes",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-width"
+  },
   "scroll-behavior": {
     "syntax": "auto | smooth",
     "media": "visual",
