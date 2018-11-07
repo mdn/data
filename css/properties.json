@@ -1645,7 +1645,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Flexible Box Layout"
+      "CSS Box Alignment"
     ],
     "initial": "normal",
     "appliesto": "multilineFlexContainers",
@@ -1661,7 +1661,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Flexible Box Layout"
+      "CSS Box Alignment"
     ],
     "initial": "normal",
     "appliesto": "allElements",
@@ -1677,7 +1677,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Flexible Box Layout"
+      "CSS Box Alignment"
     ],
     "initial": "auto",
     "appliesto": "flexItemsGridItemsAndAbsolutelyPositionedBoxes",
@@ -5234,7 +5234,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Flexible Box Layout"
+      "CSS Box Alignment"
     ],
     "initial": "normal",
     "appliesto": "flexContainers",
@@ -6823,7 +6823,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Flexible Box Layout"
+      "CSS Box Alignment"
     ],
     "initial": "normal",
     "appliesto": "multilineFlexContainers",
