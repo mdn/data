@@ -342,14 +342,14 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:link"
   },
-  ":matches": {
-    "syntax": ":matches( <selector># )",
+  ":is": {
+    "syntax": ":is( <selector># )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:matches"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:is"
   },
   ":not": {
     "syntax": ":not( <selector># )",
