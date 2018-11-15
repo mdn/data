@@ -343,7 +343,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:link"
   },
   ":is": {
-    "syntax": ":is( <selector># )",
+    "syntax": ":is( <complex-selector># )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
