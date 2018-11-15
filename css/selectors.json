@@ -342,7 +342,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:link"
   },
   ":matches": {
-    "syntax": ":matches( <complex-selector-list># )",
+    "syntax": ":matches( <selector># )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
@@ -351,7 +351,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:matches"
   },
   ":not": {
-    "syntax": ":not( <complex-selector-list># )",
+    "syntax": ":not( <complex-selector-list> )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
@@ -360,7 +360,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:not"
   },
   ":nth-child": {
-    "syntax": ":nth-child( <nth> [ of <selector># ]? )",
+    "syntax": ":nth-child( <nth> [ of <complex-selector-list> ]? )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
@@ -369,7 +369,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-child"
   },
   ":nth-last-child": {
-    "syntax": ":nth-last-child( <nth> [ of <selector># ]? )",
+    "syntax": ":nth-last-child( <nth> [ of <complex-selector-list> ]? )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
@@ -834,7 +834,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::selection"
   },
   "::slotted": {
-    "syntax": "::slotted(<compound-selector-list>)",
+    "syntax": "::slotted( <compound-selector-list> )",
     "groups": [
       "Pseudo-elements",
       "Selectors"
