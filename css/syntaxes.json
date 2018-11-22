@@ -101,6 +101,9 @@
   "color-stop-list": {
     "syntax": "<color-stop>#{2,}"
   },
+  "combinator": {
+    "syntax": "'>' | '+' | '~' | [ '||' ]"
+  },
   "common-lig-values": {
     "syntax": "[ common-ligatures | no-common-ligatures ]"
   },
@@ -115,6 +118,12 @@
   },
   "compound-selector-list": {
     "syntax": "<compound-selector>#"
+  },
+  "complex-selector": {
+    "syntax": "<compound-selector> [ <combinator>? <compound-selector> ]*"
+  },
+  "complex-selector-list": {
+    "syntax": "<complex-selector>#"
   },
   "contextual-alt-values": {
     "syntax": "[ contextual | no-contextual ]"
@@ -496,6 +505,12 @@
   },
   "radial-gradient()": {
     "syntax": "radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )"
+  },
+  "relative-selector": {
+    "syntax": "<combinator>? <complex-selector>"
+  },
+  "relative-selector-list": {
+    "syntax": "<relative-selector>#"
   },
   "relative-size": {
     "syntax": "larger | smaller"

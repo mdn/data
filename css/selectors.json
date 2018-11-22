@@ -352,7 +352,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:matches"
   },
   ":not": {
-    "syntax": ":not( <selector># )",
+    "syntax": ":not( <complex-selector-list> )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
@@ -361,7 +361,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:not"
   },
   ":nth-child": {
-    "syntax": ":nth-child( <nth> [ of <selector># ]? )",
+    "syntax": ":nth-child( <nth> [ of <complex-selector-list> ]? )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
@@ -370,7 +370,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-child"
   },
   ":nth-last-child": {
-    "syntax": ":nth-last-child( <nth> [ of <selector># ]? )",
+    "syntax": ":nth-last-child( <nth> [ of <complex-selector-list> ]? )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
@@ -835,7 +835,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::selection"
   },
   "::slotted": {
-    "syntax": "::slotted(<compound-selector-list>)",
+    "syntax": "::slotted( <compound-selector-list> )",
     "groups": [
       "Pseudo-elements",
       "Selectors"
