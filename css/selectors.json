@@ -44,41 +44,41 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Attribute_selectors"
   },
-  "Adjacent sibling selectors": {
+  "Adjacent sibling combinator": {
     "syntax": "A + B",
     "groups": [
       "Combinators",
       "Selectors"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Adjacent_sibling_selectors"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Adjacent_sibling_combinator"
   },
-  "General sibling selectors": {
+  "General sibling combinator": {
     "syntax": "A ~ B",
     "groups": [
       "Combinators",
       "Selectors"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/General_sibling_selectors"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/General_sibling_combinator"
   },
-  "Child selectors": {
+  "Child combinator": {
     "syntax": "A > B",
     "groups": [
       "Combinators",
       "Selectors"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Child_selectors"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Child_combinator"
   },
-  "Descendant selectors": {
+  "Descendant combinator": {
     "syntax": "A B",
     "groups": [
       "Combinators",
       "Selectors"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Descendant_selectors"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Descendant_combinator"
   },
   "Column combinator": {
     "syntax": "A || B",
