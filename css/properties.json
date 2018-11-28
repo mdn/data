@@ -2261,6 +2261,78 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border"
   },
+  "border-block": {
+    "syntax": "<'border-width'> || <'border-style'> || <'color'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": [
+      "border-top-width",
+      "border-top-style",
+      "border-top-color"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "border-top-width",
+      "border-top-style",
+      "border-top-color"
+    ],
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block"
+  },
+  "border-block-color": {
+    "syntax": "<'color'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "currentcolor",
+    "appliesto": "allElements",
+    "computed": "computedColor",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-color"
+  },
+  "border-block-style": {
+    "syntax": "<'border-style'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-style"
+  },
+  "border-block-width": {
+    "syntax": "<'border-width'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "logicalWidthOfContainingBlock",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "medium",
+    "appliesto": "allElements",
+    "computed": "absoluteLengthZeroIfBorderStyleNoneOrHidden",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-width"
+  },
   "border-block-end": {
     "syntax": "<'border-width'> || <'border-style'> || <'color'>",
     "media": "visual",
@@ -2271,15 +2343,15 @@
       "CSS Logical Properties"
     ],
     "initial": [
-      "border-width",
-      "border-style",
-      "color"
+      "border-top-width",
+      "border-top-style",
+      "border-top-color"
     ],
     "appliesto": "allElements",
     "computed": [
-      "border-width",
-      "border-style",
-      "border-block-end-color"
+      "border-top-width",
+      "border-top-style",
+      "border-top-color"
     ],
     "order": "uniqueOrder",
     "status": "standard",
@@ -2748,6 +2820,30 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-image-width"
   },
+  "border-inline": {
+    "syntax": "<'border-width'> || <'border-style'> || <'color'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": [
+      "border-top-width",
+      "border-top-style",
+      "border-top-color"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "border-top-width",
+      "border-top-style",
+      "border-top-color"
+    ],
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline"
+  },
   "border-inline-end": {
     "syntax": "<'border-width'> || <'border-style'> || <'color'>",
     "media": "visual",
@@ -2771,6 +2867,54 @@
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end"
+  },
+  "border-inline-color": {
+    "syntax": "<'color'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "currentcolor",
+    "appliesto": "allElements",
+    "computed": "computedColor",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-color"
+  },
+  "border-inline-style": {
+    "syntax": "<'border-style'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-style"
+  },
+  "border-inline-width": {
+    "syntax": "<'border-width'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "logicalWidthOfContainingBlock",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "medium",
+    "appliesto": "allElements",
+    "computed": "absoluteLengthZeroIfBorderStyleNoneOrHidden",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-width"
   },
   "border-inline-end-color": {
     "syntax": "<'color'>",
@@ -5540,6 +5684,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin"
   },
+  "margin-block": {
+    "syntax": "<'margin-left'>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "dependsOnLayoutModel",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "0",
+    "appliesto": "sameAsMargin",
+    "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-block"
+  },
   "margin-block-end": {
     "syntax": "<'margin-left'>",
     "media": "visual",
@@ -5590,6 +5750,22 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-bottom"
+  },
+  "margin-inline": {
+    "syntax": "<'margin-left'>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "dependsOnLayoutModel",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "0",
+    "appliesto": "sameAsMargin",
+    "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-inline"
   },
   "margin-inline-end": {
     "syntax": "<'margin-left'>",
@@ -6646,6 +6822,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding"
   },
+  "padding-block": {
+    "syntax": "<'padding-left'>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "logicalWidthOfContainingBlock",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asLength",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-block"
+  },
   "padding-block-end": {
     "syntax": "<'padding-left'>",
     "media": "visual",
@@ -6696,6 +6888,22 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-bottom"
+  },
+  "padding-inline": {
+    "syntax": "<'padding-left'>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "logicalWidthOfContainingBlock",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asLength",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-inline"
   },
   "padding-inline-end": {
     "syntax": "<'padding-left'>",
