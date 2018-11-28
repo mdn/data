@@ -296,6 +296,15 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:invalid"
   },
+  ":is": {
+    "syntax": ":is( <complex-selector-list> )",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:is"
+  },
   ":lang": {
     "syntax": ":lang( <language-code> )",
     "groups": [
@@ -341,15 +350,6 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:link"
-  },
-  ":is": {
-    "syntax": ":is( <complex-selector-list> )",
-    "groups": [
-      "Pseudo-classes",
-      "Selectors"
-    ],
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:is"
   },
   ":not": {
     "syntax": ":not( <selector># )",
