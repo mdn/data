@@ -1505,7 +1505,7 @@
   "-webkit-overflow-scrolling": {
     "syntax": "auto | touch",
     "media": "visual",
-    "inherited": false,
+    "inherited": true,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
