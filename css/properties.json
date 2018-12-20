@@ -2509,7 +2509,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom"
   },
   "border-bottom-color": {
-    "syntax": "<border-top-color>",
+    "syntax": "<'border-top-color'>",
     "media": "visual",
     "inherited": false,
     "animationType": "color",
