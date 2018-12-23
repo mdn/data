@@ -7333,10 +7333,10 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-color"
   },
   "scrollbar-width": {
-    "syntax": "auto | thin | none | <length>",
+    "syntax": "auto | thin | none",
     "media": "visual",
     "inherited": false,
-    "animationType": "length",
+    "animationType": "discrete",
     "percentages": "no",
     "groups": [
       "CSS Scrollbars"
