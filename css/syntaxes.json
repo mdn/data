@@ -21,7 +21,7 @@
     "syntax": "[ '~' | '|' | '^' | '$' | '*' ]? '='"
   },
   "attr-modifier": {
-    "syntax": "i"
+    "syntax": "i | s"
   },
   "attribute-selector": {
     "syntax": "'[' <wq-name> ']' | '[' <wq-name> <attr-matcher> [ <string-token> | <ident-token> ] <attr-modifier>? ']'"
