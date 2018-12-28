@@ -8,6 +8,12 @@
   "angle-percentage": {
     "syntax": "<angle> | <percentage>"
   },
+  "angular-color-stop": {
+    "syntax": "<color> && <color-stop-angle>?"
+  },
+  "angular-color-stop-list": {
+    "syntax": "[ <angular-color-stop> [, <angular-color-hint>]? ]# , <angular-color-stop>"
+  },
   "animateable-feature": {
     "syntax": "scroll-position | contents | <custom-ident>"
   },
@@ -98,6 +104,9 @@
   "color-stop": {
     "syntax": "<color> <length-percentage>?"
   },
+  "angular-color-angle": {
+    "syntax": "<angle-percentage>{1,2}"
+  },
   "color-stop-list": {
     "syntax": "<color-stop>#{2,}"
   },
@@ -124,6 +133,9 @@
   },
   "complex-selector-list": {
     "syntax": "<complex-selector>#"
+  },
+  "conic-gradient()": {
+    "syntax": "conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )"
   },
   "contextual-alt-values": {
     "syntax": "[ contextual | no-contextual ]"
