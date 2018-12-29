@@ -104,7 +104,7 @@
   "color-stop": {
     "syntax": "<color> <length-percentage>?"
   },
-  "angular-color-angle": {
+  "color-stop-angle": {
     "syntax": "<angle-percentage>{1,2}"
   },
   "color-stop-list": {
