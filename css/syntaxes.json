@@ -723,7 +723,7 @@
     "syntax": "<wq-name> | <ns-prefix>? '*'"
   },
   "var()": {
-    "syntax": "var( <custom-property-name> [, <declaration-value> ]? )"
+    "syntax": "var( <custom-property-name> , <declaration-value>? )"
   },
   "viewport-length": {
     "syntax": "auto | <length-percentage>"
