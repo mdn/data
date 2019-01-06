@@ -309,13 +309,19 @@
     "syntax": "<url> | <image()> | <image-set()> | <element()> | <cross-fade()> | <gradient>"
   },
   "image()": {
-    "syntax": "image( [ [ <image> | <string> ]? , <color>? ]! )"
+    "syntax": "image( <image-tags> [ <image-src>? , <color>? ]! )"
   },
   "image-set()": {
     "syntax": "image-set( <image-set-option># )"
   },
   "image-set-option": {
     "syntax": "[ <image> | <string> ] <resolution>"
+  },
+  "image-src": {
+    "syntax": "<url> | <string>"
+  },
+  "image-tags": {
+    "syntax": "ltr | rtl"
   },
   "inflexible-breadth": {
     "syntax": "<length> | <percentage> | min-content | max-content | auto"
