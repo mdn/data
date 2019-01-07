@@ -198,7 +198,7 @@
     "syntax": "circle | ellipse"
   },
   "env()": {
-    "syntax": "env( <custom-ident> [, <declaration-value> ]? )"
+    "syntax": "env( <custom-ident> , <declaration-value>? )"
   },
   "explicit-track-list": {
     "syntax": "[ <line-names>? <track-size> ]+ <line-names>?"
