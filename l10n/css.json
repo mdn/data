@@ -702,7 +702,7 @@
   "inlineAxisHorizontalInXUL": {
     "de": "<code>inline-axis</code> (<code>horizontal</code> in <a href=\"/de/docs/Mozilla/Tech/XUL\">XUL</a>)",
     "en-US": "<code>inline-axis</code> (<code>horizontal</code> in <a href=\"/en-US/docs/Mozilla/Tech/XUL\">XUL</a>)",
-    "fr": "<code>inline-axis</code> (<code>horizontal</code> en <a href=\"/fr/docs/XUL\">XUL</a>)",
+    "fr": "<code>inline-axis</code> (<code>horizontal</code> en <a href=\"/fr/docs/Mozilla/Tech/XUL\">XUL</a>)",
     "ru": "<code>inline-axis</code> (<code>horizontal</code> в <a href=\"/ru/docs/Mozilla/Tech/XUL\">XUL</a>)"
   },
   "inlineLevelAndTableCellElements": {
