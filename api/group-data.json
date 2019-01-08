@@ -3,22 +3,17 @@
     "overview":   [ "Alarm API"],
     "interfaces": [ "MozAlarmsManager" ],
     "methods":    [ "Navigator.mozSetMessageHandler()"],
-    "properties": [ "Navigator.mozAlarms" ],
-    "events":     []
+    "properties": [ "Navigator.mozAlarms" ]
   },
   "Ambient Light Events": {
     "overview":   [ "Ambient Light Events"],
     "interfaces": [ "DeviceLightEvent" ],
-    "methods":    [],
     "properties": [ "Window.ondevicelight" ],
     "events":     [ "devicelight" ]
   },
   "App Cache": {
-    "guides":     [ { "url":   "/en-US/docs/Web/HTML/Using_the_application_cache",
+    "guides":     [ { "url":   "/docs/Web/HTML/Using_the_application_cache",
                       "title": "Using the application cache" } ],
-    "interfaces": [],
-    "methods":    [],
-    "properties": [],
     "events":     [ "cached",
                     "checking",
                     "downloading",
@@ -27,34 +22,25 @@
                     "updateready" ]
   },
   "Application Compatibility Layer": {
-    "interfaces": [ "HTMLExtAppElement"],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+    "interfaces": [ "HTMLExtAppElement"]
   },
   "Apps": {
-    "guides":     [ { "url":   "/Apps/Build/JavaScript_API",
+    "guides":     [ { "url":   "/docs/Web/Apps/Build/JavaScript_API",
                       "title": "App Installation and Management APIs" } ],
     "interfaces": [ "DOMApplication",
                     "DOMApplicationsManager",
                     "DOMApplicationsRegistry",
                     "InstallTrigger" ],
-    "methods":    [],
-    "properties": [ "Navigator.mozApps"],
-    "events":     []
+    "properties": [ "Navigator.mozApps"]
   },
   "Archive API": {
     "interfaces": [ "ArchiveReader",
-                    "ArchiveRequest" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+                    "ArchiveRequest" ]
   },
   "Audio Channels API": {
     "overview":   [ "Audio Channels API" ],
     "interfaces": [ "MozAudioChannelManager",
                     "BrowserElementAudioChannel" ],
-    "methods":    [],
     "properties": [ "Navigator.mozAudioChannelManager",
                     "HTMLMediaElement.mozAudioChannelType",
                     "HTMLMediaElement.mozchannelpaused",
@@ -68,13 +54,11 @@
       "overview":     [ "Cooperative Scheduling of Background Tasks API" ],
       "interfaces":   [ "IdleDeadline" ],
       "methods":      [ "Window.cancelIdleCallback()",
-                        "Window.requestIdleCallback()" ],
-      "properties":   [],
-      "events":       []
+                        "Window.requestIdleCallback()" ]
   },
   "Battery API": {
     "overview":   [ "Battery Status API" ],
-    "guides":     [ { "url":   "/Apps/Build/gather_and_modify_data/retrieving_battery_status_information",
+    "guides":     [ { "url":   "/docs/Web/Apps/Build/gather_and_modify_data/retrieving_battery_status_information",
                       "title": "Retrieving battery status information" } ],
     "interfaces": [ "BatteryManager" ],
     "methods":    [ "Navigator.getBattery()"],
@@ -87,22 +71,16 @@
   "Beacon": {
     "overview":   [ "Beacon API" ],
     "interfaces": [ "Navigator",
-                    "WorkerNavigator" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+                    "WorkerNavigator" ]
   },
   "Broadcast Channel API": {
     "overview":   [ "Broadcast Channel API" ],
     "interfaces": [ "BroadcastChannel" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "message" ]
   },
   "Browser API": {
     "guides":     [ { "url":   "/docs/Web/API/Using_the_Browser_API",
                       "title": "Using the Browser API" } ],
-    "interfaces": [],
     "methods":    [ "HTMLIFrameElement.addNextPaintListener()",
                     "HTMLIFrameElement.clearMatch()",
                     "HTMLIFrameElement.download()",
@@ -135,7 +113,6 @@
                     "HTMLIFrameElement.stop()",
                     "HTMLIFrameElement.unmute()",
                     "HTMLIFrameElement.zoom()" ],
-    "properties": [],
     "events":     [ "mozbrowseractivitydone",
                     "mozbrowserasyncscroll",
                     "mozbrowseraudioplaybackchange",
@@ -186,10 +163,7 @@
                     "BluetoothPairingEvent",
                     "BluetoothPairingHandle",
                     "BluetoothPairingListener",
-                    "BluetoothStatusChangedEvent" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+                    "BluetoothStatusChangedEvent" ]
   },
   "Bluetooth API": {
     "overview":   [ "Web Bluetooth API" ],
@@ -198,19 +172,14 @@
                     "BluetoothGATTCharacteristic",
                     "BluetoothGATTDescriptor",
                     "BluetoothGATTRemoteServer",
-                    "BluetoothGATTService" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+                    "BluetoothGATTService" ]
   },
   "Camera API": {
     "overview":   [ "Camera API" ],
     "interfaces": [ "CameraCapabilities",
                     "CameraControl",
                     "CameraManager" ],
-    "methods":    [ "Navigator.mozCameras" ],
-    "properties": [],
-    "events":     []
+    "methods":    [ "Navigator.mozCameras" ]
   },
   "Canvas API": {
     "overview":   [ "Canvas API" ],
@@ -227,24 +196,17 @@
                     "OffscreenCanvas",
                     "Path2D",
                     "RenderingContext",
-                    "TextMetrics" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+                    "TextMetrics" ]
   },
   "Channel Messaging API": {
     "overview":   [ "Channel Messaging API" ],
     "interfaces": [ "MessageChannel",
                     "MessagePort",
                     "PortCollection" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "message" ]
   },
   "Clipboard API": {
     "interfaces": [ "ClipboardEvent" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "beforecopy",
                     "beforecut",
                     "beforepaste",
@@ -254,17 +216,14 @@
   },
   "Console API": {
     "interfaces": [ "Console" ],
-    "methods":    [],
     "properties": [ "Window.console",
-                    "WorkerGlobalScope.console" ],
-    "events":     []
+                    "WorkerGlobalScope.console" ]
   },
   "Contacts API": {
     "overview":   [ "Contacts API"],
     "interfaces": [ "ContactManager",
                     "MozContact",
                     "MozContactChangeEvent" ],
-    "methods":    [],
     "properties": [ "Navigator.mozContacts" ],
     "events":     [ "success",
                     "error",
@@ -275,17 +234,11 @@
     "interfaces": [ "Credential",
                     "CredentialsContainer",
                     "FederatedCredential",
-                    "PasswordCredential" ],
-    "methods":     [],
-    "properties":  [],
-    "events":       []
+                    "PasswordCredential" ]
   },
   "CSS Counter Styles": {
     "overview":   [ "CSS Counter Styles" ],
-    "interfaces": [ "CSSCounterStyleRule" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+    "interfaces": [ "CSSCounterStyleRule" ]
   },
   "CSS Font Loading API": {
     "overview":   [ "CSS Font Loading API" ],
@@ -293,8 +246,6 @@
                     "FontFaceSet",
                     "FontFaceSource",
                     "FontFaceSetLoadEvent" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "loading",
                     "loadingdone",
                     "loadingerror" ]
@@ -321,8 +272,6 @@
                     "StyleSheetList",
                     "TransitionEvent",
                     "AnimationEvent" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "animationstart",
                     "animationend",
                     "animationiteration",
@@ -332,8 +281,6 @@
     "interfaces": [ "MediaQueryList",
                     "MediaQueryListListener",
                     "Screen" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "resize",
                     "scroll" ]
   },
@@ -342,10 +289,7 @@
     "interfaces": [ "DataStore",
                     "DataStoreChangeEvent",
                     "DataStoreCursor",
-                    "DataStoreTask" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+                    "DataStoreTask" ]
   },
   "Device Orientation Events": {
     "guides":     [ { "url":   "/docs/Web/API/Detecting_device_orientation",
@@ -354,8 +298,6 @@
                     "DeviceMotionEvent",
                     "DeviceOrientationEvent",
                     "DeviceRotationRate" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "deviceorientation",
                     "compassneedscalibration",
                     "devicemotion" ]
@@ -366,7 +308,6 @@
                     "DeviceStorageChangeEvent" ],
     "methods":    [ "Navigator.getDeviceStorage()",
                     "Navigator.getDeviceStorages()" ],
-    "properties": [],
     "events":     [ "change" ]
   },
   "Directory Upload API": {
@@ -375,8 +316,7 @@
                     "HTMLInputElement.chooseDirectory()",
                     "DataTransfer.getFilesAndDirectories()" ],
     "properties": [ "HTMLInputElement.directory",
-                    "HTMLInputElement.isFilesAndDirectoriesSupported" ],
-    "events":     []
+                    "HTMLInputElement.isFilesAndDirectoriesSupported" ]
   },
   "DOM": {
     "overview":   [ "Document Object Model" ],
@@ -438,17 +378,11 @@
                     "TypeInfo",
                     "UserDataHandler",
                     "USVString",
-                    "XMLDocument" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+                    "XMLDocument" ]
   },
   "DOM (Non-standard)": {
     "interfaces": [ "DOMCursor",
-                    "DOMRequest" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+                    "DOMRequest" ]
   },
   "DOM Events": {
     "interfaces": [ "Event",
@@ -465,8 +399,6 @@
                     "ProgressEvent",
                     "UIEvent",
                     "WheelEvent" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "abort",
                     "beforeinput",
                     "blur",
@@ -501,17 +433,13 @@
     "interfaces": [ "DownloadEvent",
                     "DOMDownloadManager",
                     "DOMDownload" ],
-    "methods":    [],
     "properties": [ "Navigator.mozDownloadManager"],
     "events":     [ "statechange" ]
   },
   "Encoding API": {
     "overview":   [ "Encoding API"],
     "interfaces": [ "TextDecoder",
-                    "TextEncoder" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+                    "TextEncoder" ]
   },
   "Encrypted Media Extensions": {
     "overview":   [ "Encrypted Media Extensions API" ],
@@ -532,8 +460,6 @@
   },
   "Engineering Mode API": {
     "interfaces": [ "EngineeringMode" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "message" ]
   },
   "Fetch API": {
@@ -542,9 +468,7 @@
                     "Headers",
                     "Request",
                     "Response" ],
-    "methods":    [ "WindowOrWorkerGlobalScope.fetch()" ],
-    "properties": [],
-    "events":     []
+    "methods":    [ "WindowOrWorkerGlobalScope.fetch()" ]
   },
   "File API": {
     "guides":     [ { "url":   "/docs/Using_files_from_web_applications",
@@ -556,8 +480,6 @@
                     "FileReader",
                     "FileReaderSync",
                     "Blob" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "loadstart",
                     "progress",
                     "abort",
@@ -590,7 +512,6 @@
     "methods":    [ "Window.requestFileSystem()",
                     "Window.resolveLocalFileSystemURL()",
                     "WorkerGlobalScope.requestFileSystemSync()" ],
-    "properties": [],
     "events":     [ "error",
                     "writeend"
                   ]
@@ -599,15 +520,11 @@
     "interfaces": [ "MozAlarmsManager",
                     "MozMobileNetworkInfo",
                     "MozWifiP2pGroupOwner",
-                    "MozWifiP2pManager" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+                    "MozWifiP2pManager" ]
   },
   "FMRadio API": {
     "overview":   [ "WebFM API" ],
     "interfaces": [ "FMRadio" ],
-    "methods":    [],
     "properties": [ "Navigator.mozFMRadio" ],
     "events":     [ "antennaavailablechange",
                     "frequencychange",
@@ -616,7 +533,6 @@
   },
   "Fullscreen API": {
     "overview":   [ "Fullscreen API" ],
-    "interfaces": [],
     "methods":    [ "Document.exitFullscreen()",
                     "Element.requestFullscreen()" ],
     "properties": [ "Document.fullscreen",
@@ -631,10 +547,7 @@
     "interfaces": [ "Performance",
                     "PerformanceEntry",
                     "PerformanceFrameTiming",
-                    "PerformanceObserver" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+                    "PerformanceObserver" ]
   },
   "Gamepad API": {
     "overview":   [ "Gamepad API" ],
@@ -650,25 +563,20 @@
                     "gamepaddisconnected" ]
   },
   "Geolocation API": {
-    "guide":      [ { "url":   "/en-US/docs/Web/API/Geolocation/Using_geolocation",
+    "guides":     [ { "url":   "/docs/Web/API/Geolocation/Using_geolocation",
                       "title": "Using geolocation" } ],
     "interfaces": [ "Coordinates",
                     "Geolocation",
                     "Position",
                     "PositionError",
                     "PositionOptions" ],
-    "methods":    [],
-    "properties": [ "Navigator.geolocation" ],
-    "events":     []
+    "properties": [ "Navigator.geolocation" ]
   },
   "Geometry Interfaces": {
     "interfaces": [ "CSSMatrix",
                     "DOMMatrix",
                     "DOMMatrixReadOnly",
-                    "Point" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+                    "Point" ]
   },
   "High Resolution Time": {
     "overview":   [ "Performance API" ],
@@ -678,10 +586,7 @@
                     "PerformanceNavigation",
                     "PerformanceResourceTiming",
                     "PerformanceTiming",
-                    "DOMHighResTimeStamp" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+                    "DOMHighResTimeStamp" ]
   },
   "HTML DOM": {
     "interfaces": [ "BeforeUnloadEvent",
@@ -788,8 +693,6 @@
                     "WindowBase64",
                     "WindowEventHandlers",
                     "WindowTimers" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "abort",
                     "DOMContentLoaded",
                     "afterprint",
@@ -850,16 +753,14 @@
   },
   "HTML Drag and Drop API": {
     "overview":   [ "HTML Drag and Drop API" ],
-    "guides":     [ { "url":   "/en-US/docs/Web/Guide/HTML/Drag_and_drop",
+    "guides":     [ { "url":   "/docs/Web/Guide/HTML/Drag_and_drop",
                       "title": "Drag and drop" },
-                    { "url":   "/en-US/docs/Web/Guide/HTML/Drag_operations",
+                    { "url":   "/docs/Web/Guide/HTML/Drag_operations",
                       "title": "Drag operations" }],
     "interfaces": [ "DataTransfer",
                     "DataTransferItem",
                     "DataTransferItemList",
                     "DragEvent" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "dragstart",
                     "drag",
                     "dragenter",
@@ -877,36 +778,25 @@
                     "HTMLElement.itemScope",
                     "HTMLElement.itemType",
                     "HTMLElement.itemRef",
-                    "HTMLElement.itemProp" ],
-    "events":     []
+                    "HTMLElement.itemProp" ]
   },
   "HTML Undo Manager API": {
     "interfaces": [ "UndoManager" ],
-    "methods":    [],
     "properties": [ "Element.undoscope",
-                    "Element.undomanager" ],
-    "events":     []
+                    "Element.undomanager" ]
   },
   "Identity": {
     "interfaces": [ "IdentityManager" ],
-    "methods":    [],
-    "properties": [ "Navigator.mozId"],
-    "events":     []
+    "properties": [ "Navigator.mozId"]
   },
   "Idle API": {
     "overview":   [ "Idle API" ],
-    "interfaces": [],
     "methods":    [ "Navigator.addIdleObserver()",
-                    "Navigator.removeIdleObserver()" ],
-    "properties": [],
-    "events":     []
+                    "Navigator.removeIdleObserver()" ]
   },
   "Image Capture API": {
     "interfaces": [ "ImageCapture",
-                    "PhotoCapabilities" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+                    "PhotoCapabilities" ]
   },
   "IndexedDB": {
     "overview":   [ "IndexedDB API" ],
@@ -931,8 +821,6 @@
                     "IDBTransactionSync",
                     "IDBVersionChangeEvent",
                     "IDBVersionChangeRequest" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "upgradeneeded",
                     "complete",
                     "abort",
@@ -948,44 +836,30 @@
                     "HDMIInputPort",
                     "InputPort",
                     "InputPortManager" ],
-    "methods":    [],
-    "properties": [ "Navigator.inputPortManager" ],
-    "events":     []
+    "properties": [ "Navigator.inputPortManager" ]
   },
   "Inter-App Connection API": {
     "interfaces": [ "MozInterAppConnection",
                     "MozInterAppConnectionRequest",
                     "MozInterAppMessageEvent",
                     "MozInterAppMessagePort" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "message" ]
   },
   "Intersection Observer API": {
     "interfaces": [ "IntersectionObserver",
-                    "IntersectionObserverEntry" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+                    "IntersectionObserverEntry" ]
   },
   "Kill Switch API": {
     "interfaces": [ "KillSwitch" ],
-    "methods":    [],
-    "properties": [ "Navigator.mozKillSwitch" ],
-    "events":     []
+    "properties": [ "Navigator.mozKillSwitch" ]
   },
   "L10N API": {
     "interfaces": [ "L10n" ],
-    "methods":    [],
-    "properties": [ "Navigator.mozL10n" ],
-    "events":     []
+    "properties": [ "Navigator.mozL10n" ]
   },
   "Long Tasks": {
     "interfaces": [ "PerformanceLongTaskTiming",
-                    "TaskAttributionTiming" ],
-    "methods":    [],
-    "properties": [],
-    "events":      []
+                    "TaskAttributionTiming" ]
   },
   "Media Capabilities API": {
     "overview":   [ "Media Capabilities API" ],
@@ -995,8 +869,6 @@
                     "MediaCapabilitiesInfo" ],
     "methods":    [ "mediaCapabilities.decodingInfo()",
                     "mediaCapabilities.encodingInfo()"],
-    "properties": [],
-    "events":     [],
     "dictionaries": ["MediaConfiguration",
                     "VideoConfiguration",
                     "AudioConfiguration",
@@ -1005,7 +877,7 @@
   },
   "Media Capture and Streams": {
     "overview":   [ "Media Streams API" ],
-    "guides":     [ { "url":   "/en-US/docs/Web/API/Media_Streams_API/Constraints",
+    "guides":     [ { "url":   "/docs/Web/API/Media_Streams_API/Constraints",
                       "title": "Capabilities, constraints, and settings" } ],
     "interfaces": [ "AudioStreamTrack",
                     "BlobEvent",
@@ -1045,10 +917,7 @@
   "Media Session API": {
     "overview":   [ "Media Session API" ],
     "interfaces": [ "MediaMetadata",
-                    "MediaSession"],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+                    "MediaSession"]
   },
   "Media Source Extensions": {
     "interfaces": [ "MediaSource",
@@ -1077,8 +946,6 @@
     "interfaces": [ "MediaRecorder",
                     "MediaRecorderErrorEvent",
                     "BlobEvent" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "start",
                     "stop",
                     "dataavailable",
@@ -1104,7 +971,6 @@
                     "MozOtaStatusEvent",
                     "MozCellBroadcastEvent",
                     "USSDReceivedEvent" ],
-    "methods":    [],
     "properties": [ "Navigator.mozMobileConnections" ],
     "events":     [ "icccardlockerror",
                     "cardstatechange" ]
@@ -1120,7 +986,6 @@
                     "MozMmsMessage",
                     "MozMmsEvent",
                     "MozMobileMessageThread" ],
-    "methods":    [],
     "properties": [ "Navigator.mozMobileMessage",
                     "Navigator.mozSMS"],
     "events":     [ "open",
@@ -1137,17 +1002,13 @@
   },
   "Mozilla Payment API": {
     "interfaces": [ "PaymentProvider" ],
-    "methods":    [],
-    "properties": [ "Navigator.mozPaymentProvider" ],
-    "events":     []
+    "properties": [ "Navigator.mozPaymentProvider" ]
   },
   "MSISDN Verification API": {
     "interfaces": [ "NavigatorMobileId" ],
-    "methods":    [],
     "properties": [ "Navigator.oscpu",
                     "Navigator.vendor",
-                    "Navigator.vendorSub" ],
-    "events":     []
+                    "Navigator.vendorSub" ]
   },
   "Navigation Timing": {
     "overview":   [ "Navigation timing API" ],
@@ -1155,14 +1016,11 @@
                     "PerformanceNavigation",
                     "PerformanceTiming",
                     "PerformanceNavigationTiming" ],
-    "methods":    [],
-    "properties": [ "Window.performance" ],
-    "events":     []
+    "properties": [ "Window.performance" ]
   },
   "Network Information API": {
     "overview":   [ "Network Information API"],
     "interfaces": [ "NetworkInformation"],
-    "methods":    [],
     "properties": [ "Navigator.connection" ],
     "events":     [ "change" ]
   },
@@ -1171,9 +1029,7 @@
     "interfaces": [ "MozNetworkStats",
                     "MozNetworkStatsData",
                     "MozNetworkStatsManager" ],
-    "methods":    [],
-    "properties": [ "Navigator.mozNetworkStats" ],
-    "events":     []
+    "properties": [ "Navigator.mozNetworkStats" ]
   },
   "NFC API": {
     "overview":   [ "NFC API" ],
@@ -1181,14 +1037,10 @@
                     "MozNFC",
                     "MozNFCPeer",
                     "MozNFCTag" ],
-    "methods":    [],
-    "properties": [ "Navigator.mozNfc" ],
-    "events":     []
+    "properties": [ "Navigator.mozNfc" ]
   },
   "Page Visibility API": {
     "overview":   [ "Page Visibility API" ],
-    "interfaces": [],
-    "methods":    [],
     "properties": [ "Document.hidden",
                     "Document.visibilityState" ],
     "events":     [ "visibilitychange" ]
@@ -1201,7 +1053,6 @@
                     "PaymentResponse",
                     "BasicCardRequest",
                     "BasicCardResponse" ],
-    "methods":    [],
     "properties": ["HTMLIFrameElement.allowPaymentRequest",
                     "ServiceWorkerGlobalScope.onabortpayment",
                     "ServiceWorkerGlobalScope.oncanmakepayment",
@@ -1212,21 +1063,21 @@
   },
   "Performance API": {
     "overview":   [ "Performance API" ],
-    "guides":     [ { "url": "/en-US/docs/Web/API/Frame_timing_API",
+    "guides":     [ { "url": "/docs/Web/API/Frame_timing_API",
                       "title": "Frame Timing API" },
-                    { "url": "/en-US/docs/Web/API/Long_Tasks_API",
+                    { "url": "/docs/Web/API/Long_Tasks_API",
                       "title": "Long Tasks API" },
-                    { "url": "/en-US/docs/Web/API/Navigation_timing_API",
+                    { "url": "/docs/Web/API/Navigation_timing_API",
                       "title": "Navigation Timing API" },
-                    { "url": "/en-US/docs/Web/API/Performance_Timeline",
+                    { "url": "/docs/Web/API/Performance_Timeline",
                       "title": "Performance Timeline" },
-                    { "url": "/en-US/docs/Web/API/Performance_Timeline/Using_Performance_Timeline",
+                    { "url": "/docs/Web/API/Performance_Timeline/Using_Performance_Timeline",
                       "title": "Using Performance Timeline" },
-                    { "url": "/en-US/docs/Web/API/Resource_Timing_API",
+                    { "url": "/docs/Web/API/Resource_Timing_API",
                       "title": "Resource Timing API" },
-                    { "url": "/en-US/docs/Web/API/Resource_Timing_API/Using_the_Resource_Timing_API",
+                    { "url": "/docs/Web/API/Resource_Timing_API/Using_the_Resource_Timing_API",
                       "title": "Using the Resource Timing API" },
-                    { "url": "/en-US/docs/Web/API/User_timing_API",
+                    { "url": "/docs/Web/API/User_timing_API",
                       "title": "User Timing API" } ],
     "interfaces": [ "Performance",
                     "PerformanceEntry",
@@ -1239,8 +1090,6 @@
                     "PerformanceResourceTiming",
                     "TaskAttributionTiming",
                     "Window.performance" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "resourcetimingbufferfull" ]
   },
   "Performance Timeline API": {
@@ -1250,25 +1099,19 @@
                     "PerformanceObserver",
                     "PerformanceObserverEntryList",
                     "PerformanceResourceTiming" ],
-    "methods":    [],
-    "properties": [ "Window.performance" ],
-    "events":     []
+    "properties": [ "Window.performance" ]
   },
   "Permissions API": {
     "overview":   [ "Permissions API" ],
     "interfaces": [ "Permissions",
                     "PermissionStatus" ],
-    "methods":    [],
     "properties": [ "Navigator.permissions",
-                    "WorkerNavigator.permissions"],
-    "events":     []
+                    "WorkerNavigator.permissions"]
   },
   "Permissions API (Firefox OS)": {
     "overview":   [ "Permissions API (Firefox OS)" ],
     "interfaces": [ "PermissionSettings" ],
-    "methods":    [],
-    "properties": [ "Navigator.mozPermissionSettings"],
-    "events":     []
+    "properties": [ "Navigator.mozPermissionSettings"]
   },
   "Pointer Events": {
     "overview":   [ "Pointer events" ],
@@ -1299,7 +1142,6 @@
   },
   "Pointer Lock API": {
     "overview":   [ "Pointer Lock API" ],
-    "interfaces": [],
     "methods":    [ "Element.requestPointerLock()",
                     "Document.exitPointerLock()" ],
     "properties": [ "Document.pointerLockElement",
@@ -1311,9 +1153,7 @@
   "Power Management API": {
     "overview":   [ "Power Management API" ],
     "interfaces": [ "PowerManager" ],
-    "methods":    [],
-    "properties": [ "Navigator.mozPower" ],
-    "events":     []
+    "properties": [ "Navigator.mozPower" ]
   },
   "Presentation API": {
     "interfaces": [ "Presentation",
@@ -1322,7 +1162,6 @@
                     "PresentationRequest",
                     "PresentationSession",
                     "PresentationSessionConnectEvent" ],
-    "methods":    [],
     "properties": [ "Navigator.presentation",
                     "Navigator.mozPresentationDeviceInfo" ],
     "events":     [ "change",
@@ -1333,8 +1172,6 @@
     "overview":   [ "Proximity Events" ],
     "interfaces": [ "DeviceProximityEvent",
                     "UserProximityEvent" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "userproximity",
                     "deviceproximity" ]
   },
@@ -1344,7 +1181,6 @@
                     "PushSubscription",
                     "PushEvent",
                     "PushMessageData" ],
-    "methods":    [],
     "properties": [ "ServiceWorkerRegistration.pushManager",
                     "ServiceWorkerGlobalScope.onpush",
                     "ServiceWorkerGlobalScope.onpushsubscriptionchange" ],
@@ -1355,39 +1191,31 @@
     "interfaces": [ "RequestManager",
                     "RequestSyncTask",
                     "RequestSyncApp" ],
-    "methods":    [],
-    "properties": [ "Navigator.syncManager"],
-    "events":     []
+    "properties": [ "Navigator.syncManager"]
   },
   "Resource Statistics API": {
     "interfaces": [ "NetworkStatsData",
                     "PowerStatsData",
                     "ResourceStats",
                     "ResourceStatsManager",
-                    "ResourceStatsAlarm" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+                    "ResourceStatsAlarm" ]
   },
   "Resource Timing API": {
     "overview":   [ "Resource Timing API" ],
     "interfaces": [ "Performance",
                     "PerformanceEntry",
                     "PerformanceResourceTiming" ],
-    "methods":    [],
-    "properties": [ "Window.performance" ],
-    "events":     []
+    "properties": [ "Window.performance" ]
   },
   "Screen Orientation API": {
-    "guides":     [ { "url":   "/en-US/docs/Web/API/CSS_Object_Model/Managing_screen_orientation",
+    "guides":     [ { "url":   "/docs/Web/API/CSS_Object_Model/Managing_screen_orientation",
                       "title": "Managing screen orientation" } ],
     "interfaces": [ "ScreenOrientation" ],
-    "methods":    [],
     "properties": [ "Screen.orientation"],
     "events":     [ "change" ]
   },
   "Selection API": {
-    "interface":  [ "Selection" ],
+    "interfaces": [ "Selection" ],
     "properties": [ "Document.onselectionchange",
                     "GlobalEventHandlers.onselectstart" ],
     "methods":    [ "Document.getSelection()",
@@ -1398,8 +1226,6 @@
   "Server Sent Events": {
     "overview":   [ "Server-sent events" ],
     "interfaces": [ "EventSource" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "open",
                     "message",
                     "error" ]
@@ -1425,7 +1251,6 @@
                     "SyncManager",
                     "SyncRegistration",
                     "WindowClient" ],
-    "methods":    [],
     "properties": [ "Navigator.serviceWorker" ],
     "events":     [ "statechange",
                     "updatefound",
@@ -1443,28 +1268,21 @@
     "interfaces": [ "SettingsManager",
                     "MozSettingsEvent",
                     "SettingsLock" ],
-    "methods":    [],
     "properties": [ "Navigator.mozSettings" ],
     "events":     [ "settingchange"]
   },
   "Simple Push API": {
     "overview":   [ "Simple Push API" ],
     "interfaces": [ "PushManager" ],
-    "methods":    [],
     "properties": [ "Navigator.mozPush" ],
     "events":     [ "success",
                     "error" ]
   },
   "Social API": {
-    "interfaces": [ "MozSocial" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+    "interfaces": [ "MozSocial" ]
   },
   "Speaker Manager API": {
     "interfaces": [ "MozSpeakerManager" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "speakerforcedchange" ]
   },
   "Storage": {
@@ -1472,10 +1290,8 @@
     "interfaces": [ "StorageManager",
                     "NavigatorStorage",
                     "StorageEstimate" ],
-    "methods":    [],
     "properties": [ "Navigator.storage",
-                    "WorkerNavigator.storage" ],
-    "events":     []
+                    "WorkerNavigator.storage" ]
   },
   "Streams": {
     "overview":   [ "Streams API" ],
@@ -1491,8 +1307,7 @@
                     "WritableStreamDefaultController",
                     "WritableStreamDefaultWriter" ],
     "methods":    [ "WindowOrWorkerGlobalScope.fetch()" ],
-    "properties": [ "Body.body" ],
-    "events":     []
+    "properties": [ "Body.body" ]
   },
   "SVG": {
     "interfaces": [ "SVGAElement",
@@ -1638,8 +1453,6 @@
                     "SVGZoomAndPan",
                     "SVGZoomEvent",
                     "TimeEvent" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "focusin",
                     "focusout",
                     "activate",
@@ -1670,15 +1483,12 @@
   "System Update API": {
     "interfaces": [ "SystemUpdateProvider",
                     "SystemUpdateManager" ],
-    "methods":    [],
-    "properties": [ "Navigator.updateManager" ],
-    "events":     []
+    "properties": [ "Navigator.updateManager" ]
   },
   "TCP Socket API": {
     "overview":   [ "TCP Socket API" ],
     "interfaces": [ "TCPSocket",
                     "TCPServerSocket" ],
-    "methods":    [],
     "properties": [ "Navigator.mozTCPSocket"],
     "events":     [ "data",
                     "drain",
@@ -1688,7 +1498,6 @@
   "Time and Clock API": {
     "overview":   [ "Time and Clock API" ],
     "interfaces": [ "MozTimeManager" ],
-    "methods":    [],
     "properties": [ "Navigator.mozTime",
                     "Window.onmoztimechange" ],
     "events":     [ "moztimechange" ]
@@ -1698,8 +1507,6 @@
     "interfaces": [ "Touch",
                     "TouchEvent",
                     "TouchList" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "touchstart",
                     "touchend",
                     "touchmove",
@@ -1715,8 +1522,6 @@
                     "TVScanningStateChangedEvent",
                     "TVSource",
                     "TVTuner" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "currentsourcechanged",
                     "currentchannelchanged",
                     "eitbroadcasted",
@@ -1725,58 +1530,41 @@
   "UDP Socket API": {
     "interfaces": [ "UDPMessageEVent",
                     "UDPSocket" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "message" ]
   },
   "URL API": {
     "interfaces": [ "URL",
                     "URLSearchParams",
                     "HTMLHyperlinkElementUtils",
-                    "URLUtilsReadOnly" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+                    "URLUtilsReadOnly" ]
   },
   "User Timing API": {
     "interfaces": [ "Performance",
                     "PerformanceEntry",
                     "PerformanceMark",
-                    "PerformanceMeasure" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+                    "PerformanceMeasure" ]
   },
   "Vibration API": {
     "overview":   [ "Vibration API" ],
-    "interfaces": [],
-    "methods":    [ "Navigator.vibrate()" ],
-    "properties": [],
-    "events":     []
+    "methods":    [ "Navigator.vibrate()" ]
   },
   "Voicemail API": {
     "interfaces": [ "MozVoicemail",
                     "MozVoicemailStatus",
                     "MozVoicemailEvent" ],
-    "methods":    [],
-    "properties": [ "Navigator.mozVoicemail" ],
-    "events":     []
+    "properties": [ "Navigator.mozVoicemail" ]
   },
   "Wake Lock API": {
     "overview":   [ "Wake Lock API"],
     "interfaces": [ "MozWakeLock" ],
-    "methods":    [ "Navigator.requestWakeLock()"],
-    "properties": [],
-    "events":     []
+    "methods":    [ "Navigator.requestWakeLock()"]
   },
   "Web Activities": {
     "overview":   [ "Web Activities" ],
     "interfaces": [ "MozActivity",
                     "MozActivityRequestHandler",
                     "MozActivityOptions" ],
-    "methods":    [ "Navigator.mozSetMessageHandler()" ],
-    "properties": [],
-    "events":     []
+    "methods":    [ "Navigator.mozSetMessageHandler()" ]
   },
   "Web Animations": {
     "overview":   [ "Web Animations API" ],
@@ -1790,8 +1578,7 @@
                     "KeyframeEffect" ],
     "methods":    [ "Document.getAnimations()",
                     "Element.animate()"],
-    "properties": [ "Document.timeline" ],
-    "events":     [  ]
+    "properties": [ "Document.timeline" ]
   },
   "Web Audio API": {
     "guides": [ { "url":   "/docs/Web/API/Web_Audio_API/Basic_concepts_behind_Web_Audio_API",
@@ -1834,8 +1621,6 @@
                     "PeriodicWave",
                     "WaveShaperNode",
                     "StereoPannerNode" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "statechange",
                     "complete",
                     "ended",
@@ -1850,9 +1635,7 @@
                     "PublicKeyCredential",
                     "AuthenticatorResponse",
                     "AuthenticatorAttestationResponse",
-                    "AuthenticatorAssertionResponse" ],
-    "properties": [],
-    "events":     []
+                    "AuthenticatorAssertionResponse" ]
   },
   "Web Components": {
     "guides":       [
@@ -1894,9 +1677,7 @@
                     "CryptoKey",
                     "RandomSource",
                     "SubtleCrypto" ],
-    "methods":    [],
-    "properties": [ "Window.crypto" ],
-    "events":     []
+    "properties": [ "Window.crypto" ]
   },
   "WebGL": {
     "overview": [ "WebGL API" ],
@@ -1944,15 +1725,11 @@
                     "ANGLE_instanced_arrays",
                     "EXT_blend_minmax",
                     "EXT_disjoint_timer_query" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "webglcontextlost",
                     "webglcontextrestored",
                     "webglcontextcreationerror" ]
   },
   "Web Manifest": {
-    "interfaces": [],
-    "methods": [],
     "properties": ["Window.oninstall"],
     "events": [ "install"]
   },
@@ -1966,7 +1743,6 @@
                     "MIDIMessageEvent",
                     "MIDIConnectionEvent" ],
     "methods":    [ "Navigator.requestMIDIAccess()"],
-    "properties": [],
     "events":     [ "statechange",
                     "midimessage"]
   },
@@ -1984,23 +1760,23 @@
   },
   "WebRTC": {
     "overview":   [ "WebRTC API" ],
-    "guides":     [ { "url":   "/en-US/docs/Web/API/WebRTC_API/Protocols",
+    "guides":     [ { "url":   "/docs/Web/API/WebRTC_API/Protocols",
                       "title": "Introduction to WebRTC protocols" },
-                    { "url":   "/en-US/docs/Web/API/WebRTC_API/Connectivity",
+                    { "url":   "/docs/Web/API/WebRTC_API/Connectivity",
                       "title": "WebRTC connectivity" },
-                    { "url":   "/en-US/docs/Web/API/WebRTC_API/Session_lifetime",
+                    { "url":   "/docs/Web/API/WebRTC_API/Session_lifetime",
                       "title": "Lifetime of a WebRTC session" },
-                    { "url":   "/en-US/docs/Web/API/WebRTC_API/Signaling_and_video_calling",
+                    { "url":   "/docs/Web/API/WebRTC_API/Signaling_and_video_calling",
                       "title": "Signaling and video calling" },
-                    { "url":   "/en-US/docs/Web/API/WebRTC_API/Using_data_channels",
+                    { "url":   "/docs/Web/API/WebRTC_API/Using_data_channels",
                       "title": "Using WebRTC data channels" },
-                    { "url":   "/en-US/docs/Web/API/WebRTC_API/Using_DTMF",
+                    { "url":   "/docs/Web/API/WebRTC_API/Using_DTMF",
                       "title": "Using DTMF with WebRTC" },
-                    { "url":   "/en-US/docs/Web/API/WebRTC_API/adapter.js",
+                    { "url":   "/docs/Web/API/WebRTC_API/adapter.js",
                       "title": "Improving compatibility using WebRTC adapter.js" },
-                    { "url":   "/en-US/docs/Web/API/WebRTC_API/Taking_still_photos",
+                    { "url":   "/docs/Web/API/WebRTC_API/Taking_still_photos",
                       "title": "Taking still photos with WebRTC" },
-                    { "url":   "/en-US/docs/Web/API/WebRTC_API/Simple_RTCDataChannel_sample",
+                    { "url":   "/docs/Web/API/WebRTC_API/Simple_RTCDataChannel_sample",
                       "title": "A simple RTCDataChannel example" } ],
 
     "interfaces": [ "MediaStreamEvent",
@@ -2056,8 +1832,6 @@
     "interfaces": [ "WebSocket",
                     "CloseEvent",
                     "MessageEvent" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "open",
                     "message",
                     "error",
@@ -2077,8 +1851,6 @@
                     "SpeechSynthesisEvent",
                     "SpeechSynthesisUtterance",
                     "SpeechSynthesisVoice" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "audiostart",
                     "boundary",
                     "mark",
@@ -2102,7 +1874,6 @@
     "overview":   [ "Web Storage API" ],
     "interfaces": [ "Storage",
                     "StorageEvent" ],
-    "methods":    [],
     "properties": [ "Window.sessionStorage",
                     "Window.localStorage" ],
     "events":     [ "storage" ]
@@ -2115,7 +1886,6 @@
                     "CallEvent",
                     "CallGroup",
                     "MMICall" ],
-    "methods":    [],
     "properties": [ "Navigator.mozTelephony" ],
     "events":     [ "incoming" ]
   },
@@ -2130,18 +1900,15 @@
                     "Worker",
                     "WorkerGlobalScope",
                     "WorkerLocation",
-                    "WorkerNavigator" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+                    "WorkerNavigator" ]
   },
   "WebVR API": {
     "overview":   [ "WebVR API" ],
-    "guides":     [ { "url":   "/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API",
+    "guides":     [ { "url":   "/docs/Web/API/WebVR_API/Using_the_WebVR_API",
                       "title": "Using the WebVR API" },
-                    { "url":   "/en-US/docs/Web/API/WebVR_API/Concepts",
+                    { "url":   "/docs/Web/API/WebVR_API/Concepts",
                       "title": "WebVR concepts" },
-                    { "url":   "/en-US/docs/Web/API/WebVR_API/Using_VR_controllers_with_WebVR",
+                    { "url":   "/docs/Web/API/WebVR_API/Using_VR_controllers_with_WebVR",
                       "title": "Using VR controllers with WebVR" }],
     "interfaces": [ "VRDisplay",
                     "VRDisplayCapabilities",
@@ -2173,8 +1940,6 @@
                     "TextTrackCueList",
                     "TextTrackList",
                     "TrackEvent" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "change",
                     "addtrack",
                     "removetrack",
@@ -2193,7 +1958,6 @@
                     "MozWifiConnectionInfoEvent",
                     "MozWifiStationChangeEvent",
                     "MozWifiStatusChangeEvent" ],
-    "methods":    [],
     "properties": [ "Navigator.mozWifiManager" ],
     "events":     [ "statuschange",
                     "connectioninfoupdate" ]
@@ -2202,7 +1966,6 @@
     "interfaces": [ "MozWifiP2pGroupOwner",
                     "MozWifiP2pManager",
                     "MozWifiP2pStatusChangeEvent" ],
-    "methods":    [],
     "properties": [ "Navigator.mozWifiP2pManager"],
     "events":     [ "peerinfoupdate",
                     "statuschange",
@@ -2211,15 +1974,10 @@
   },
   "WiFi Tethering API": {
     "interfaces": [ "MozTetheringManager" ],
-    "methods":    [],
-    "properties": [ "Navigator.mozTetheringManager" ],
-    "events":     []
+    "properties": [ "Navigator.mozTetheringManager" ]
   },
   "XDomain": {
-    "interfaces": [ "XDomainrequest" ],
-    "methods":    [],
-    "properties": [],
-    "events":     []
+    "interfaces": [ "XDomainrequest" ]
   },
   "XMLHttpRequest": {
     "guides":     [ { "url":   "/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest",
@@ -2234,8 +1992,6 @@
                     "XMLHttpRequest",
                     "XMLHttpRequestEventTarget",
                     "XMLHttpRequestUpload" ],
-    "methods":    [],
-    "properties": [],
     "events":     [ "loadstart",
                     "progress",
                     "abort",

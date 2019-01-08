@@ -1,0 +1,43 @@
+{
+  "definitions": {
+    "arrayOfLinks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "anyOf": [
+          { "type": "string" },
+          { "$ref": "#/definitions/link" }
+        ]
+      }
+    },
+
+    "link": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "pattern": "^/docs/"
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "dictionaries": { "$ref": "#/definitions/arrayOfLinks" },
+      "events":       { "$ref": "#/definitions/arrayOfLinks" },
+      "guides":       { "$ref": "#/definitions/arrayOfLinks" },
+      "interfaces":   { "$ref": "#/definitions/arrayOfLinks" },
+      "methods":      { "$ref": "#/definitions/arrayOfLinks" },
+      "overview":     { "$ref": "#/definitions/arrayOfLinks" },
+      "properties":   { "$ref": "#/definitions/arrayOfLinks" }
+    },
+    "additionalProperties": false
+  }
+}
