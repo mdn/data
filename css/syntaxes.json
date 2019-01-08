@@ -309,7 +309,7 @@
     "syntax": "<url> | <image()> | <image-set()> | <element()> | <cross-fade()> | <gradient>"
   },
   "image()": {
-    "syntax": "image( <image-tags> [ <image-src>? , <color>? ]! )"
+    "syntax": "image( <image-tags>? [ <image-src>? , <color>? ]! )"
   },
   "image-set()": {
     "syntax": "image-set( <image-set-option># )"
