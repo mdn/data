@@ -30,6 +30,7 @@
   "additionalProperties": {
     "type": "object",
     "properties": {
+      "callbacks":    { "$ref": "#/definitions/arrayOfLinks" },
       "dictionaries": { "$ref": "#/definitions/arrayOfLinks" },
       "events":       { "$ref": "#/definitions/arrayOfLinks" },
       "guides":       { "$ref": "#/definitions/arrayOfLinks" },

@@ -1193,6 +1193,13 @@
                     "RequestSyncApp" ],
     "properties": [ "Navigator.syncManager"]
   },
+  "Resize Observer API": {
+    "overview":   [ "Resize Observer API" ],
+    "interfaces": [ "ResizeObservation",
+                    "ResizeObserver",
+                    "ResizeObserverEntry" ],
+    "callbacks":  [ "ResizeObserverCallback" ]
+  },
   "Resource Statistics API": {
     "interfaces": [ "NetworkStatsData",
                     "PowerStatsData",
