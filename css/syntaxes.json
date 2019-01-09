@@ -8,6 +8,9 @@
   "angle-percentage": {
     "syntax": "<angle> | <percentage>"
   },
+  "angular-color-hint": {
+    "syntax": "<angle-percentage>"
+  },
   "angular-color-stop": {
     "syntax": "<color> && <color-stop-angle>?"
   },
@@ -107,8 +110,11 @@
   "color-stop-angle": {
     "syntax": "<angle-percentage>{1,2}"
   },
+  "color-stop-length": {
+    "syntax": "<length-percentage>{1,2}" 
+  },
   "color-stop-list": {
-    "syntax": "<color-stop>#{2,}"
+    "syntax": "[ <linear-color-stop> [, <linear-color-hint>]? ]# , <linear-color-stop>" 
   },
   "combinator": {
     "syntax": "'>' | '+' | '~' | [ '||' ]"
@@ -370,6 +376,12 @@
   },
   "line-width": {
     "syntax": "<length> | thin | medium | thick"
+  },
+  "linear-color-hint": {
+    "syntax": "<length-percentage>"
+  },
+  "linear-color-stop": {
+    "syntax": "<color> && <color-stop-length>"
   },
   "linear-gradient()": {
     "syntax": "linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )"
