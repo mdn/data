@@ -111,10 +111,10 @@
     "syntax": "<angle-percentage>{1,2}"
   },
   "color-stop-length": {
-    "syntax": "<length-percentage>{1,2}" 
+    "syntax": "<length-percentage>{1,2}"
   },
   "color-stop-list": {
-    "syntax": "[ <linear-color-stop> [, <linear-color-hint>]? ]# , <linear-color-stop>" 
+    "syntax": "[ <linear-color-stop> [, <linear-color-hint>]? ]# , <linear-color-stop>"
   },
   "combinator": {
     "syntax": "'>' | '+' | '~' | [ '||' ]"
