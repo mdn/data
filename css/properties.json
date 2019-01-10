@@ -6447,6 +6447,93 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/object-position"
   },
+  "offset": {
+    "syntax": "[ <'offset-position'>? [ <'offset-path'> [ <'offset-distance'> || <'offset-rotate'> ]? ]? ]! [ / <'offset-anchor'> ]?",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "offset-position",
+      "offset-path",
+      "offset-distance",
+      "offset-anchor",
+      "offset-rotate"
+    ],
+    "percentages": [
+      "offset-position",
+      "offset-distance",
+      "offset-anchor"
+    ],
+    "groups": [
+      "CSS Motion"
+    ],
+    "initial": [
+      "offset-position",
+      "offset-path",
+      "offset-distance",
+      "offset-anchor",
+      "offset-rotate"
+    ],
+    "appliesto": "transformableElements",
+    "computed": [
+      "offset-position",
+      "offset-path",
+      "offset-distance",
+      "offset-anchor",
+      "offset-rotate"
+    ],
+    "order": "perGrammar",
+    "stacking": true,
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset"
+  },
+  "offset-anchor": {
+    "syntax": "auto | <position>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "position",
+    "percentages": "relativeToWidthAndHeight",
+    "groups": [
+      "CSS Motion"
+    ],
+    "initial": "auto",
+    "appliesto": "transformableElements",
+    "computed": "forLengthAbsoluteValueOtherwisePercentage",
+    "order": "perGrammar",
+    "status": "experimental"
+  },
+  "offset-distance": {
+    "syntax": "<length-percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "lpc",
+    "percentages": "referToTotalPathLength",
+    "groups": [
+      "CSS Motion"
+    ],
+    "initial": "0",
+    "appliesto": "transformableElements",
+    "computed": "forLengthAbsoluteValueOtherwisePercentage",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-distance"
+  },
+  "offset-path": {
+    "syntax": "none | ray( [ <angle> && <size>? && contain? ] ) | <path()> | <url> | [ <basic-shape> || <geometry-box> ]",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "angleOrBasicShapeOrPath",
+    "percentages": "no",
+    "groups": [
+      "CSS Motion"
+    ],
+    "initial": "none",
+    "appliesto": "transformableElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "stacking": true,
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-path"
+  },
   "offset-position": {
     "syntax": "auto | <position>",
     "media": "visual",
@@ -6461,6 +6548,22 @@
     "computed": "forLengthAbsoluteValueOtherwisePercentage",
     "order": "perGrammar",
     "status": "experimental"
+  },
+  "offset-rotate": {
+    "syntax": "[ auto | reverse ] || <angle>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "angleOrBasicShapeOrPath",
+    "percentages": "no",
+    "groups": [
+      "CSS Motion"
+    ],
+    "initial": "auto",
+    "appliesto": "transformableElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-rotate"
   },
   "opacity": {
     "syntax": "<number>",

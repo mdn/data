@@ -269,6 +269,12 @@
     "en-US": "{{cssxref(\"<angle>\"}}, {{cssxref(\"<basic-shape>\"}} or {{cssxref(\"<path()>\"}}",
     "fr": "{{cssxref(\"<angle>\"}}, {{cssxref(\"<basic-shape>\"}} ou {{cssxref(\"<path()>\"}}"
   },
+  "angleOrBasicShapeOrPath": {
+    "de": "als &lt;angle&gt;, &lt;basic-shape&gt; oder &lt;path()&gt;",
+    "en-US": "as &lt;angle&gt;, &lt;basic-shape&gt; or &lt;path()&gt;",
+    "fr": "comme &lt;angle&gt;, &lt;basic-shape&gt; ou &lt;path()&gt;",
+    "ru": "как &lt;angle&gt;, &lt;basic-shape&gt; или &lt;path()&gt;"
+  },
   "angleRoundedToNextQuarter": {
     "de": "ein {{xref_cssangle}}, auf den nächsten Viertel von <code>0deg</code> gerundet (üblicherweise  <code>1turn)</code>",
     "en-US": "an {{xref_cssangle}}, rounded to the next quarter turn from <code>0deg</code> and normalized, that is moduloing the value by <code>1turn</code>",
