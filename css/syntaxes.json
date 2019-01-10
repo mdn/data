@@ -105,7 +105,7 @@
     "syntax": "<rgb()> | <rgba()> | <hsl()> | <hsla()> | <hex-color> | <named-color> | currentcolor | <deprecated-system-color>"
   },
   "color-stop": {
-    "syntax": "<color> <length-percentage>?"
+    "syntax": "<color-stop-length> | <color-stop-angle>"
   },
   "color-stop-angle": {
     "syntax": "<angle-percentage>{1,2}"
