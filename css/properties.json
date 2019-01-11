@@ -6801,7 +6801,7 @@
     "status": "experimental"
   },
   "overflow-wrap": {
-    "syntax": "normal | break-word",
+    "syntax": "normal | break-word | anywhere",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
