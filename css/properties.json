@@ -3693,8 +3693,8 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/box-sizing"
   },
   "break-after": {
-    "syntax": "auto | avoid | avoid-page | page | left | right | recto | verso | avoid-column | column | avoid-region | region",
-    "media": "paged",
+    "syntax": "auto | avoid | always | all | avoid-page | page | left | right | recto | verso | avoid-column | column | avoid-region | region",
+    "media": "visual",
     "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
@@ -3709,8 +3709,8 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/break-after"
   },
   "break-before": {
-    "syntax": "auto | avoid | avoid-page | page | left | right | recto | verso | avoid-column | column | avoid-region | region",
-    "media": "paged",
+    "syntax": "auto | avoid | always | all | avoid-page | page | left | right | recto | verso | avoid-column | column | avoid-region | region",
+    "media": "visual",
     "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
@@ -3726,7 +3726,7 @@
   },
   "break-inside": {
     "syntax": "auto | avoid | avoid-page | avoid-column | avoid-region",
-    "media": "paged",
+    "media": "visual",
     "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
