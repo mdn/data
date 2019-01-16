@@ -278,9 +278,6 @@
   "font-weight-absolute": {
     "syntax": "normal | bold | <number>"
   },
-  "frames-timing-function": {
-    "syntax": "frames(<integer>)"
-  },
   "frequency-percentage": {
     "syntax": "<frequency> | <percentage>"
   },
@@ -630,7 +627,7 @@
     "syntax": "[ left | right ] || [ top | bottom ]"
   },
   "single-animation": {
-    "syntax": "<time> || <single-timing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ]"
+    "syntax": "<time> || <timing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ]"
   },
   "single-animation-direction": {
     "syntax": "normal | reverse | alternate | alternate-reverse"
@@ -644,14 +641,8 @@
   "single-animation-play-state": {
     "syntax": "running | paused"
   },
-  "single-timing-function": {
-    "syntax": "linear | <cubic-bezier-timing-function> | <step-timing-function> | <frames-timing-function>"
-  },
   "single-transition": {
-    "syntax": "[ none | <single-transition-property> ] || <time> || <single-transition-timing-function> || <time>"
-  },
-  "single-transition-timing-function": {
-    "syntax": "<single-timing-function>"
+    "syntax": "[ none | <single-transition-property> ] || <time> || <timing-function> || <time>"
   },
   "single-transition-property": {
     "syntax": "all | <custom-ident>"
@@ -659,8 +650,11 @@
   "size": {
     "syntax": "closest-side | farthest-side | closest-corner | farthest-corner | <length> | <length-percentage>{2}"
   },
+  "step-position": {
+    "syntax": "jump-start | jump-end | jump-none | jump-both | start | end"
+  },
   "step-timing-function": {
-    "syntax": "step-start | step-end | steps(<integer>[, [ start | end ] ]?)"
+    "syntax": "step-start | step-end | steps(<integer>[, <step-position>]?)"
   },
   "subclass-selector": {
     "syntax": "<id-selector> | <class-selector> | <attribute-selector> | <pseudo-class-selector>"
@@ -682,6 +676,9 @@
   },
   "time-percentage": {
     "syntax": "<time> | <percentage>"
+  },
+  "timing-function": {
+    "syntax": "linear | <cubic-bezier-timing-function> | <step-timing-function>"
   },
   "track-breadth": {
     "syntax": "<length-percentage> | <flex> | min-content | max-content | auto"

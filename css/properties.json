@@ -1849,7 +1849,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-play-state"
   },
   "animation-timing-function": {
-    "syntax": "<single-timing-function>#",
+    "syntax": "<timing-function>#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -8625,7 +8625,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transition-property"
   },
   "transition-timing-function": {
-    "syntax": "<single-transition-timing-function>#",
+    "syntax": "<timing-function>#",
     "media": "interactive",
     "inherited": false,
     "animationType": "discrete",
