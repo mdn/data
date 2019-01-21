@@ -224,6 +224,15 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:focus"
   },
+  ":focus-visible": {
+    "syntax": ":focus-visible",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:focus-visible"
+  },
   ":focus-within": {
     "syntax": ":focus-within",
     "groups": [
