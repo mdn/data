@@ -6819,7 +6819,7 @@
       "align-self",
       "justify-self"
     ],
-    "appliesto": "allElements",
+    "appliesto": "blockLevelBoxesAndAbsolutelyPositionedBoxesAndGridItems",
     "computed": [
       "align-self",
       "justify-self"
