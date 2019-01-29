@@ -231,7 +231,7 @@
     "syntax": "@stylistic | @historical-forms | @styleset | @character-variant | @swash | @ornaments | @annotation"
   },
   "feature-value-block": {
-    "syntax": "<feature-type> {\n  <feature-value-declaration-list>\n}"
+    "syntax": "<feature-type> '{' <feature-value-declaration-list> '}'"
   },
   "feature-value-block-list": {
     "syntax": "<feature-value-block>+"
@@ -504,7 +504,7 @@
     "syntax": "<declaration>? [ ; <page-body> ]? | <page-margin-box> <page-body>"
   },
   "page-margin-box": {
-    "syntax": "<page-margin-box-type> {\n  <declaration-list>\n}"
+    "syntax": "<page-margin-box-type> '{' <declaration-list> '}'"
   },
   "page-margin-box-type": {
     "syntax": "@top-left-corner | @top-left | @top-center | @top-right | @top-right-corner | @bottom-left-corner | @bottom-left | @bottom-center | @bottom-right | @bottom-right-corner | @left-top | @left-middle | @left-bottom | @right-top | @right-middle | @right-bottom"
