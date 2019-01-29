@@ -297,7 +297,7 @@
     "syntax": "<shape-box> | fill-box | stroke-box | view-box"
   },
   "gradient": {
-    "syntax": "<linear-gradient()> | <repeating-linear-gradient()> | <radial-gradient()> | <repeating-radial-gradient() | <conic-gradient()>"
+    "syntax": "<linear-gradient()> | <repeating-linear-gradient()> | <radial-gradient()> | <repeating-radial-gradient()> | <conic-gradient()>"
   },
   "grayscale()": {
     "syntax": "grayscale( <number-percentage> )"
