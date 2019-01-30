@@ -12,6 +12,13 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/angle"
   },
+  "angle-percentage": {
+    "groups": [
+      "CSS Types"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/angle-percentage"
+  },
   "basic-shape": {
     "groups": [
       "CSS Shapes",
@@ -46,6 +53,13 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/custom-ident"
+  },
+  "dimension": {
+    "groups": [
+      "CSS Display"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/dimension"
   },
   "display-outside": {
     "groups": [
@@ -111,6 +125,13 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/frequency"
   },
+  "frequency-percentage": {
+    "groups": [
+      "CSS Types"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/frequency-percentage"
+  },
   "gradient": {
     "groups": [
       "CSS Images",
@@ -146,6 +167,13 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/length"
+  },
+  "length-percentage": {
+    "groups": [
+      "CSS Types"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/length-percentage"
   },
   "number": {
     "groups": [
@@ -202,6 +230,13 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/time"
+  },
+  "time-percentage": {
+    "groups": [
+      "CSS Types"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/time-percentage"
   },
   "timing-function": {
     "groups": [
