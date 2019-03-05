@@ -1370,6 +1370,9 @@
     "en-US": "simple list of length, percentage, or calc",
     "ja": "length, percentage, calc の単純なリスト"
   },
+  "simpleListOfLpcDifferenceLpc": {
+    "en-US": "simple list of length, percentage, or calc, provided the only differences are in the values of the length, percentage, or calc components in the list"
+  },
   "specifiedIntegerOrAbsoluteLength": {
     "de": "die angegebene Ganzzahl oder eine absolute Länge",
     "en-US": "the specified integer or an absolute length",

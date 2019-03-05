@@ -5132,7 +5132,7 @@
     "syntax": "none | <track-list> | <auto-track-list>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "simpleListOfLpcDifferenceLpc",
     "percentages": "referToDimensionOfContentArea",
     "groups": [
       "CSS Grid Layout"
@@ -5148,7 +5148,7 @@
     "syntax": "none | <track-list> | <auto-track-list>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "simpleListOfLpcDifferenceLpc",
     "percentages": "referToDimensionOfContentArea",
     "groups": [
       "CSS Grid Layout"
