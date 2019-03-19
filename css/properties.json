@@ -1865,7 +1865,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timing-function"
   },
   "appearance": {
-    "syntax": "auto | none",
+    "syntax": "none | auto | button | textfield | <compat>",
     "media": "all",
     "inherited": false,
     "animationType": "discrete",
