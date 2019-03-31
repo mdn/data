@@ -675,10 +675,13 @@
     "syntax": "( <supports-condition> ) | <supports-feature> | <general-enclosed>"
   },
   "supports-feature": {
-    "syntax": "<supports-decl>"
+    "syntax": "<supports-decl> | <supports-selector-fn>"
   },
   "supports-decl": {
     "syntax": "( <declaration> )"
+  },
+  "supports-selector-fn": {
+    "syntax": "selector( <complex-selector> )"
   },
   "symbol": {
     "syntax": "<string> | <image> | <custom-ident>"
