@@ -442,6 +442,10 @@
       "SVGUnitTypes"
     ]
   },
+  "HTMLMarqueeElement": {
+    "inherits": "HTMLElement",
+    "implements": []
+  },
   "HTMLMetaElement": {
     "inherits": "HTMLElement",
     "implements": []
@@ -2508,6 +2512,139 @@
   },
   "PerformancePaintTiming": {
     "inherits": "PerformanceEntry",
+    "implements": []
+  },
+  "CSSStyleValue": {
+    "inherits": null,
+    "implements": [
+      "CSSImageValue",
+      "CSSKeywordValue",
+      "CSSNumericValue",
+      "CSSPositionValue",
+      "CSSTransformValue",
+      "CSSUnitValue",
+      "CSSUnparsedValue"
+    ]
+  },
+  "CSSImageValue": {
+    "inherits": "CSSStyleValue",
+    "implements": []
+  },
+  "CSSKeywordValue": {
+    "inherits": "CSSStyleValue",
+    "implements": []
+  },
+  "CSSNumericValue": {
+    "inherits": "CSSStyleValue",
+    "implements": [
+      "CSSMathValue",
+      "CSSUnitValue"
+    ]
+  },
+  "CSSMathValue": {
+    "inherits": "CSSNumericValue",
+    "implements": [
+      "CSSMathInvert",
+      "CSSMathMax",
+      "CSSMathMin",
+      "CSSMathNegate",
+      "CSSMathProduct",
+      "CSSMathSum"
+    ]
+  },
+  "CSSMathInvert": {
+    "inherits": "CSSMathValue",
+    "implements": []
+  },
+  "CSSMathMax": {
+    "inherits": "CSSMathValue",
+    "implements": []
+  },
+  "CSSMathMin": {
+    "inherits": "CSSMathValue",
+    "implements": []
+  },
+  "CSSMathNegate": {
+    "inherits": "CSSMathValue",
+    "implements": []
+  },
+  "CSSMathProduct": {
+    "inherits": "CSSMathValue",
+    "implements": []
+  },
+  "CSSMathSum": {
+    "inherits": "CSSMathValue",
+    "implements": []
+  },
+  "CSSUnitValue": {
+    "inherits": "CSSNumericValue",
+    "implements": []
+  },
+  "CSSPositionValue": {
+    "inherits": "CSSStyleValue",
+    "implements": []
+  },
+  "CSSTransformValue": {
+    "inherits": "CSSStyleValue",
+    "implements": []
+  },
+  "CSSUnparsedValue": {
+    "inherits": "CSSStyleValue",
+    "implements": []
+  },
+  "CSSTransformComponent": {
+    "inherits": null,
+    "implements": [
+      "CSSMatrixComponent",
+      "CSSPerspective",
+      "CSSRotate",
+      "CSSScale",
+      "CSSSkew",
+      "CSSSkewX",
+      "CSSSkewY",
+      "CSSTranslate"
+    ]
+  },
+  "CSSMatrixComponent": {
+    "inherits": "CSSTransformComponent",
+    "implements": []
+  },
+  "CSSPerspective": {
+    "inherits": "CSSTransformComponent",
+    "implements": []
+  },
+  "CSSRotate": {
+    "inherits": "CSSTransformComponent",
+    "implements": []
+  },
+  "CSSScale": {
+    "inherits": "CSSTransformComponent",
+    "implements": []
+  },
+  "CSSSkew": {
+    "inherits": "CSSTransformComponent",
+    "implements": []
+  },
+  "CSSSkewX": {
+    "inherits": "CSSTransformComponent",
+    "implements": []
+  },
+  "CSSSkewY": {
+    "inherits": "CSSTransformComponent",
+    "implements": []
+  },
+  "CSSTranslate": {
+    "inherits": "CSSTransformComponent",
+    "implements": []
+  },
+  "StylePropertyMapReadOnly": {
+    "inherits": null,
+    "implements": [
+      "StylePropertyMap"
+    ]
+  },
+  "StylePropertyMap": {
+    "inherits": "StylePropertyMapReadOnly",
     "implements": []
   }
 }

@@ -12,6 +12,13 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/angle"
   },
+  "angle-percentage": {
+    "groups": [
+      "CSS Types"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/angle-percentage"
+  },
   "basic-shape": {
     "groups": [
       "CSS Shapes",
@@ -47,6 +54,55 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/custom-ident"
   },
+  "dimension": {
+    "groups": [
+      "CSS Types"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/dimension"
+  },
+  "display-outside": {
+    "groups": [
+      "CSS Display"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-outside"
+  },
+  "display-inside": {
+    "groups": [
+      "CSS Display"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-inside"
+  },
+  "display-listitem": {
+    "groups": [
+      "CSS Display"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-listitem"
+  },
+  "display-internal": {
+    "groups": [
+      "CSS Display"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-internal"
+  },
+  "display-box": {
+    "groups": [
+      "CSS Display"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-box"
+  },
+  "display-legacy": {
+    "groups": [
+      "CSS Display"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-legacy"
+  },
   "filter-function": {
     "groups": [
       "Filter Effects"
@@ -68,6 +124,13 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/frequency"
+  },
+  "frequency-percentage": {
+    "groups": [
+      "CSS Types"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/frequency-percentage"
   },
   "gradient": {
     "groups": [
@@ -104,6 +167,13 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/length"
+  },
+  "length-percentage": {
+    "groups": [
+      "CSS Types"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/length-percentage"
   },
   "number": {
     "groups": [
@@ -160,6 +230,13 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/time"
+  },
+  "time-percentage": {
+    "groups": [
+      "CSS Types"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/time-percentage"
   },
   "timing-function": {
     "groups": [

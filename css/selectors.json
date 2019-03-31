@@ -44,41 +44,50 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Attribute_selectors"
   },
-  "Adjacent sibling selectors": {
+  "Adjacent sibling combinator": {
     "syntax": "A + B",
     "groups": [
       "Combinators",
       "Selectors"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Adjacent_sibling_selectors"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Adjacent_sibling_combinator"
   },
-  "General sibling selectors": {
+  "General sibling combinator": {
     "syntax": "A ~ B",
     "groups": [
       "Combinators",
       "Selectors"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/General_sibling_selectors"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/General_sibling_combinator"
   },
-  "Child selectors": {
+  "Child combinator": {
     "syntax": "A > B",
     "groups": [
       "Combinators",
       "Selectors"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Child_selectors"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Child_combinator"
   },
-  "Descendant selectors": {
+  "Descendant combinator": {
     "syntax": "A B",
     "groups": [
       "Combinators",
       "Selectors"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Descendant_selectors"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Descendant_combinator"
+  },
+  "Column combinator": {
+    "syntax": "A || B",
+    "groups": [
+      "Combinators",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Column_combinator"
   },
   ":active": {
     "syntax": ":active",
@@ -106,6 +115,15 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:checked"
+  },
+  ":blank": {
+    "syntax": ":blank",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:blank"
   },
   ":default": {
     "syntax": ":default",
@@ -224,14 +242,14 @@
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:focus-within"
   },
-  ":host": {
-    "syntax": ":host",
+  ":has": {
+    "syntax": ":has( <relative-selector-list> )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
     ],
     "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:host"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:has"
   },
   ":host()": {
     "syntax": ":host( <compound-selector-list> )",
@@ -241,14 +259,6 @@
     ],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:host()"
-  },
-  ":host-context": {
-    "syntax": ":host-context",
-    "groups": [
-      "Pseudo-classes",
-      "Selectors"
-    ],
-    "status": "experimental"
   },
   ":host-context()": {
     "syntax": ":host-context( <compound-selector-list> )",
@@ -294,6 +304,15 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:invalid"
+  },
+  ":is": {
+    "syntax": ":is( <complex-selector-list> )",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:is"
   },
   ":lang": {
     "syntax": ":lang( <language-code> )",
@@ -341,17 +360,8 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:link"
   },
-  ":matches": {
-    "syntax": ":matches( <selector># )",
-    "groups": [
-      "Pseudo-classes",
-      "Selectors"
-    ],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:matches"
-  },
   ":not": {
-    "syntax": ":not( <selector># )",
+    "syntax": ":not( <complex-selector-list> )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
@@ -360,7 +370,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:not"
   },
   ":nth-child": {
-    "syntax": ":nth-child( <nth> [ of <selector># ]? )",
+    "syntax": ":nth-child( <nth> [ of <complex-selector-list> ]? )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
@@ -369,7 +379,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-child"
   },
   ":nth-last-child": {
-    "syntax": ":nth-last-child( <nth> [ of <selector># ]? )",
+    "syntax": ":nth-last-child( <nth> [ of <complex-selector-list> ]? )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
@@ -522,6 +532,15 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:visited"
+  },
+  ":where": {
+    "syntax": ":where( <complex-selector-list> )",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:where"
   },
   "::-moz-progress-bar": {
     "syntax": "::-moz-progress-bar",
@@ -834,7 +853,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::selection"
   },
   "::slotted": {
-    "syntax": "::slotted(<compound-selector-list>)",
+    "syntax": "::slotted( <compound-selector-list> )",
     "groups": [
       "Pseudo-elements",
       "Selectors"

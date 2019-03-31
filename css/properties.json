@@ -1505,7 +1505,7 @@
   "-webkit-overflow-scrolling": {
     "syntax": "auto | touch",
     "media": "visual",
-    "inherited": false,
+    "inherited": true,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
@@ -1645,7 +1645,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Flexible Box Layout"
+      "CSS Box Alignment"
     ],
     "initial": "normal",
     "appliesto": "multilineFlexContainers",
@@ -1661,7 +1661,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Flexible Box Layout"
+      "CSS Box Alignment"
     ],
     "initial": "normal",
     "appliesto": "allElements",
@@ -1677,7 +1677,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Flexible Box Layout"
+      "CSS Box Alignment"
     ],
     "initial": "auto",
     "appliesto": "flexItemsGridItemsAndAbsolutelyPositionedBoxes",
@@ -1865,7 +1865,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timing-function"
   },
   "appearance": {
-    "syntax": "auto | none",
+    "syntax": "none | auto | button | textfield | <compat>",
     "media": "all",
     "inherited": false,
     "animationType": "discrete",
@@ -2231,7 +2231,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/block-size"
   },
   "border": {
-    "syntax": "<br-width> || <br-style> || <color>",
+    "syntax": "<line-width> || <line-style> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -2261,8 +2261,8 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border"
   },
-  "border-block-end": {
-    "syntax": "<'border-width'> || <'border-style'> || <'color'>",
+  "border-block": {
+    "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2271,22 +2271,94 @@
       "CSS Logical Properties"
     ],
     "initial": [
-      "border-width",
-      "border-style",
-      "color"
+      "border-top-width",
+      "border-top-style",
+      "border-top-color"
     ],
     "appliesto": "allElements",
     "computed": [
-      "border-width",
-      "border-style",
-      "border-block-end-color"
+      "border-top-width",
+      "border-top-style",
+      "border-top-color"
+    ],
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block"
+  },
+  "border-block-color": {
+    "syntax": "<'border-top-color'>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "currentcolor",
+    "appliesto": "allElements",
+    "computed": "computedColor",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-color"
+  },
+  "border-block-style": {
+    "syntax": "<'border-top-style'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-style"
+  },
+  "border-block-width": {
+    "syntax": "<'border-top-width'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "logicalWidthOfContainingBlock",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "medium",
+    "appliesto": "allElements",
+    "computed": "absoluteLengthZeroIfBorderStyleNoneOrHidden",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-width"
+  },
+  "border-block-end": {
+    "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": [
+      "border-top-width",
+      "border-top-style",
+      "border-top-color"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "border-top-width",
+      "border-top-style",
+      "border-top-color"
     ],
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end"
   },
   "border-block-end-color": {
-    "syntax": "<'color'>",
+    "syntax": "<'border-top-color'>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2302,7 +2374,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end-color"
   },
   "border-block-end-style": {
-    "syntax": "<'border-style'>",
+    "syntax": "<'border-top-style'>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2318,7 +2390,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end-style"
   },
   "border-block-end-width": {
-    "syntax": "<'border-width'>",
+    "syntax": "<'border-top-width'>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2334,7 +2406,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end-width"
   },
   "border-block-start": {
-    "syntax": "<'border-width'> || <'border-style'> || <'color'>",
+    "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2358,7 +2430,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start"
   },
   "border-block-start-color": {
-    "syntax": "<'color'>",
+    "syntax": "<'border-top-color'>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2374,7 +2446,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start-color"
   },
   "border-block-start-style": {
-    "syntax": "<'border-style'>",
+    "syntax": "<'border-top-style'>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2390,7 +2462,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start-style"
   },
   "border-block-start-width": {
-    "syntax": "<'border-width'>",
+    "syntax": "<'border-top-width'>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2406,7 +2478,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start-width"
   },
   "border-bottom": {
-    "syntax": "<br-width> || <br-style> || <color>",
+    "syntax": "<line-width> || <line-style> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -2437,7 +2509,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom"
   },
   "border-bottom-color": {
-    "syntax": "<color>",
+    "syntax": "<'border-top-color'>",
     "media": "visual",
     "inherited": false,
     "animationType": "color",
@@ -2494,7 +2566,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-right-radius"
   },
   "border-bottom-style": {
-    "syntax": "<br-style>",
+    "syntax": "<line-style>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2513,7 +2585,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-style"
   },
   "border-bottom-width": {
-    "syntax": "<br-width>",
+    "syntax": "<line-width>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -2580,6 +2652,44 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-color"
+  },
+  "border-end-end-radius": {
+    "syntax": "<length-percentage>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "lpc",
+    "percentages": "referToDimensionOfBorderBox",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "0",
+    "appliesto": "allElementsUAsNotRequiredWhenCollapse",
+    "computed": "twoAbsoluteLengthOrPercentages",
+    "order": "uniqueOrder",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-end-end-radius"
+  },
+  "border-end-start-radius": {
+    "syntax": "<length-percentage>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "lpc",
+    "percentages": "referToDimensionOfBorderBox",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "0",
+    "appliesto": "allElementsUAsNotRequiredWhenCollapse",
+    "computed": "twoAbsoluteLengthOrPercentages",
+    "order": "uniqueOrder",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-end-start-radius"
   },
   "border-image": {
     "syntax": "<'border-image-source'> || <'border-image-slice'> [ / <'border-image-width'> | / <'border-image-width'>? / <'border-image-outset'> ]? || <'border-image-repeat'>",
@@ -2710,8 +2820,32 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-image-width"
   },
+  "border-inline": {
+    "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": [
+      "border-top-width",
+      "border-top-style",
+      "border-top-color"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "border-top-width",
+      "border-top-style",
+      "border-top-color"
+    ],
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline"
+  },
   "border-inline-end": {
-    "syntax": "<'border-width'> || <'border-style'> || <'color'>",
+    "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2734,8 +2868,56 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end"
   },
+  "border-inline-color": {
+    "syntax": "<'border-top-color'>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "currentcolor",
+    "appliesto": "allElements",
+    "computed": "computedColor",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-color"
+  },
+  "border-inline-style": {
+    "syntax": "<'border-top-style'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-style"
+  },
+  "border-inline-width": {
+    "syntax": "<'border-top-width'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "logicalWidthOfContainingBlock",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "medium",
+    "appliesto": "allElements",
+    "computed": "absoluteLengthZeroIfBorderStyleNoneOrHidden",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-width"
+  },
   "border-inline-end-color": {
-    "syntax": "<'color'>",
+    "syntax": "<'border-top-color'>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2751,7 +2933,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end-color"
   },
   "border-inline-end-style": {
-    "syntax": "<'border-style'>",
+    "syntax": "<'border-top-style'>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2767,7 +2949,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end-style"
   },
   "border-inline-end-width": {
-    "syntax": "<'border-width'>",
+    "syntax": "<'border-top-width'>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2783,7 +2965,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end-width"
   },
   "border-inline-start": {
-    "syntax": "<'border-width'> || <'border-style'> || <'color'>",
+    "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2807,7 +2989,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start"
   },
   "border-inline-start-color": {
-    "syntax": "<'color'>",
+    "syntax": "<'border-top-color'>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2823,7 +3005,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start-color"
   },
   "border-inline-start-style": {
-    "syntax": "<'border-style'>",
+    "syntax": "<'border-top-style'>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2839,7 +3021,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style"
   },
   "border-inline-start-width": {
-    "syntax": "<'border-width'>",
+    "syntax": "<'border-top-width'>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2855,7 +3037,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start-width"
   },
   "border-left": {
-    "syntax": "<br-width> || <br-style> || <color>",
+    "syntax": "<line-width> || <line-style> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -2905,7 +3087,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-left-color"
   },
   "border-left-style": {
-    "syntax": "<br-style>",
+    "syntax": "<line-style>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2924,7 +3106,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-left-style"
   },
   "border-left-width": {
-    "syntax": "<br-width>",
+    "syntax": "<line-width>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -2977,7 +3159,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-radius"
   },
   "border-right": {
-    "syntax": "<br-width> || <br-style> || <color>",
+    "syntax": "<line-width> || <line-style> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -3027,7 +3209,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-right-color"
   },
   "border-right-style": {
-    "syntax": "<br-style>",
+    "syntax": "<line-style>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -3046,7 +3228,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-right-style"
   },
   "border-right-width": {
-    "syntax": "<br-width>",
+    "syntax": "<line-width>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -3080,8 +3262,46 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-spacing"
   },
+  "border-start-end-radius": {
+    "syntax": "<length-percentage>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "lpc",
+    "percentages": "referToDimensionOfBorderBox",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "0",
+    "appliesto": "allElementsUAsNotRequiredWhenCollapse",
+    "computed": "twoAbsoluteLengthOrPercentages",
+    "order": "uniqueOrder",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-start-end-radius"
+  },
+  "border-start-start-radius": {
+    "syntax": "<length-percentage>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "lpc",
+    "percentages": "referToDimensionOfBorderBox",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "0",
+    "appliesto": "allElementsUAsNotRequiredWhenCollapse",
+    "computed": "twoAbsoluteLengthOrPercentages",
+    "order": "uniqueOrder",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-start-start-radius"
+  },
   "border-style": {
-    "syntax": "<br-style>{1,4}",
+    "syntax": "<line-style>{1,4}",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -3110,7 +3330,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-style"
   },
   "border-top": {
-    "syntax": "<br-width> || <br-style> || <color>",
+    "syntax": "<line-width> || <line-style> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -3198,7 +3418,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-top-right-radius"
   },
   "border-top-style": {
-    "syntax": "<br-style>",
+    "syntax": "<line-style>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -3217,7 +3437,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-top-style"
   },
   "border-top-width": {
-    "syntax": "<br-width>",
+    "syntax": "<line-width>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -3236,7 +3456,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-top-width"
   },
   "border-width": {
-    "syntax": "<br-width>{1,4}",
+    "syntax": "<line-width>{1,4}",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -4912,7 +5132,7 @@
     "syntax": "none | <track-list> | <auto-track-list>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "simpleListOfLpcDifferenceLpc",
     "percentages": "referToDimensionOfContentArea",
     "groups": [
       "CSS Grid Layout"
@@ -4928,7 +5148,7 @@
     "syntax": "none | <track-list> | <auto-track-list>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "simpleListOfLpcDifferenceLpc",
     "percentages": "referToDimensionOfContentArea",
     "groups": [
       "CSS Grid Layout"
@@ -5099,8 +5319,40 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inline-size"
   },
+  "inset": {
+    "syntax": "<'top'>{1,4}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "lpc",
+    "percentages": "logicalHeightOfContainingBlock",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "auto",
+    "appliesto": "positionedElements",
+    "computed": "sameAsBoxOffsets",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset"
+  },
+  "inset-block": {
+    "syntax": "<'top'>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "lpc",
+    "percentages": "logicalHeightOfContainingBlock",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "auto",
+    "appliesto": "positionedElements",
+    "computed": "sameAsBoxOffsets",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-block"
+  },
   "inset-block-end": {
-    "syntax": "<'left'>",
+    "syntax": "<'top'>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -5116,7 +5368,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-block-end"
   },
   "inset-block-start": {
-    "syntax": "<'left'>",
+    "syntax": "<'top'>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -5131,8 +5383,24 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-block-start"
   },
+  "inset-inline": {
+    "syntax": "<'top'>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "lpc",
+    "percentages": "logicalWidthOfContainingBlock",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "auto",
+    "appliesto": "positionedElements",
+    "computed": "sameAsBoxOffsets",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-inline"
+  },
   "inset-inline-end": {
-    "syntax": "<'left'>",
+    "syntax": "<'top'>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -5148,7 +5416,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-inline-end"
   },
   "inset-inline-start": {
-    "syntax": "<'left'>",
+    "syntax": "<'top'>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -5186,7 +5454,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Flexible Box Layout"
+      "CSS Box Alignment"
     ],
     "initial": "normal",
     "appliesto": "flexContainers",
@@ -5315,22 +5583,6 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/line-height"
   },
-  "line-height-step": {
-    "syntax": "<length>",
-    "media": "visual",
-    "inherited": true,
-    "animationType": "discrete",
-    "percentages": "no",
-    "groups": [
-      "CSS Fonts"
-    ],
-    "initial": "0",
-    "appliesto": "blockContainerElements",
-    "computed": "absoluteLength",
-    "order": "perGrammar",
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/line-height-step"
-  },
   "list-style": {
     "syntax": "<'list-style-type'> || <'list-style-position'> || <'list-style-image'>",
     "media": "visual",
@@ -5432,6 +5684,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin"
   },
+  "margin-block": {
+    "syntax": "<'margin-left'>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "dependsOnLayoutModel",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "0",
+    "appliesto": "sameAsMargin",
+    "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-block"
+  },
   "margin-block-end": {
     "syntax": "<'margin-left'>",
     "media": "visual",
@@ -5482,6 +5750,22 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-bottom"
+  },
+  "margin-inline": {
+    "syntax": "<'margin-left'>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "dependsOnLayoutModel",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "0",
+    "appliesto": "sameAsMargin",
+    "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-inline"
   },
   "margin-inline-end": {
     "syntax": "<'margin-left'>",
@@ -6197,7 +6481,7 @@
     "syntax": "[ auto | reverse ] || <angle>",
     "media": "visual",
     "inherited": false,
-    "animationType": "angle",
+    "animationType": "angleOrBasicShapeOrPath",
     "percentages": "no",
     "groups": [
       "CSS Motion"
@@ -6330,7 +6614,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/outline-offset"
   },
   "outline-style": {
-    "syntax": "auto | <br-style>",
+    "syntax": "auto | <'border-style'>",
     "media": [
       "visual",
       "interactive"
@@ -6349,7 +6633,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/outline-style"
   },
   "outline-width": {
-    "syntax": "<br-width>",
+    "syntax": "<line-width>",
     "media": [
       "visual",
       "interactive"
@@ -6445,7 +6729,7 @@
     "status": "experimental"
   },
   "overflow-wrap": {
-    "syntax": "normal | break-word",
+    "syntax": "normal | break-word | anywhere",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -6569,6 +6853,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding"
   },
+  "padding-block": {
+    "syntax": "<'padding-left'>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "logicalWidthOfContainingBlock",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asLength",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-block"
+  },
   "padding-block-end": {
     "syntax": "<'padding-left'>",
     "media": "visual",
@@ -6619,6 +6919,22 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-bottom"
+  },
+  "padding-inline": {
+    "syntax": "<'padding-left'>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "logicalWidthOfContainingBlock",
+    "groups": [
+      "CSS Logical Properties"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asLength",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-inline"
   },
   "padding-inline-end": {
     "syntax": "<'padding-left'>",
@@ -6822,7 +7138,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Flexible Box Layout"
+      "CSS Box Alignment"
     ],
     "initial": "normal",
     "appliesto": "multilineFlexContainers",
@@ -6852,6 +7168,28 @@
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/place-items"
+  },
+  "place-self": {
+    "syntax": "<'align-self'> <'justify-self'>?",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Box Alignment"
+    ],
+    "initial": [
+      "align-self",
+      "justify-self"
+    ],
+    "appliesto": "blockLevelBoxesAndAbsolutelyPositionedBoxesAndGridItems",
+    "computed": [
+      "align-self",
+      "justify-self"
+    ],
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/place-self"
   },
   "pointer-events": {
     "syntax": "auto | none | visiblePainted | visibleFill | visibleStroke | visible | painted | fill | stroke | all | inherit",
@@ -7031,6 +7369,38 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scale"
   },
+  "scrollbar-color": {
+    "syntax": "auto | dark | light | <color>{2}",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "color",
+    "percentages": "no",
+    "groups": [
+      "CSS Scrollbars"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollingBoxes",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-color"
+  },
+  "scrollbar-width": {
+    "syntax": "auto | thin | none",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Scrollbars"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollingBoxes",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-width"
+  },
   "scroll-behavior": {
     "syntax": "auto | smooth",
     "media": "visual",
@@ -7046,6 +7416,374 @@
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-behavior"
+  },
+  "scroll-margin": {
+    "syntax": "[ auto | <length> ]{1,4}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin"
+  },
+  "scroll-margin-block": {
+    "syntax": "[ auto | <length> ]{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block"
+  },
+  "scroll-margin-block-start": {
+    "syntax": "auto | <length> ",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-start"
+  },
+  "scroll-margin-block-end": {
+    "syntax": "auto | <length>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-end"
+  },
+  "scroll-margin-bottom": {
+    "syntax": "auto | <length>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-bottom"
+  },
+  "scroll-margin-inline": {
+    "syntax": "[auto | <length> ]{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline"
+  },
+  "scroll-margin-inline-start": {
+    "syntax": "auto | <length>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-start"
+  },
+  "scroll-margin-inline-end": {
+    "syntax": "auto | <length>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-end"
+  },
+  "scroll-margin-left": {
+    "syntax": "auto | <length>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-left"
+  },
+  "scroll-margin-right": {
+    "syntax": "auto | <length>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-right"
+  },
+  "scroll-margin-top": {
+    "syntax": "auto | <length>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-top"
+  },
+  "scroll-padding": {
+    "syntax": "[ auto | <length> | <percentage> ]{1,4}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding"
+  },
+  "scroll-padding-block": {
+    "syntax": "[auto | <length> | <percentage> ]{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block"
+  },
+  "scroll-padding-block-start": {
+    "syntax": "auto | <length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-start"
+  },
+  "scroll-padding-block-end": {
+    "syntax": "auto | <length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-end"
+  },
+  "scroll-padding-bottom": {
+    "syntax": "auto | <length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-bottom"
+  },
+  "scroll-padding-inline": {
+    "syntax": "[auto | <length> | <percentage> ]{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline"
+  },
+  "scroll-padding-inline-start": {
+    "syntax": "auto | <length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-start"
+  },
+  "scroll-padding-inline-end": {
+    "syntax": "auto | <length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-end"
+  },
+  "scroll-padding-left": {
+    "syntax": "auto | <length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-left"
+  },
+  "scroll-padding-right": {
+    "syntax": "auto | <length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-right"
+  },
+  "scroll-padding-top": {
+    "syntax": "auto | <length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToTheScrollContainersScrollport",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "auto",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-top"
+  },
+  "scroll-snap-align": {
+    "syntax": "[ none | start | end | center ]{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-align"
   },
   "scroll-snap-coordinate": {
     "syntax": "none | <position>#",
@@ -7111,8 +7849,24 @@
     "status": "obsolete",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-points-y"
   },
+  "scroll-snap-stop": {
+    "syntax": "normal | always",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "normal",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-stop"
+  },
   "scroll-snap-type": {
-    "syntax": "none | mandatory | proximity",
+    "syntax": "none | [ x | y | block | inline | both ] [ mandatory | proximity ]",
     "media": "interactive",
     "inherited": false,
     "animationType": "discrete",
@@ -7121,7 +7875,7 @@
       "CSS Scroll Snap"
     ],
     "initial": "none",
-    "appliesto": "scrollContainers",
+    "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "standard",

@@ -33,7 +33,7 @@ The JSON files should be formatted according to the [.editorconfig](https://gith
 ## Licensing
 
 Please note that the compatibility data is made available under the
-[MPL-2 license](https://github.com/mdn/data/blob/master/LICENSE),
+[CC0 1.0 Universal (public domain) license](https://github.com/mdn/data/blob/master/LICENSE),
 so any contributions must be compatible with that license. If you're not sure about that, just ask.
 
 ## Getting help

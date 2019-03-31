@@ -264,12 +264,6 @@
     "fr": " et ",
     "ru": " и "
   },
-  "angle": {
-    "de": "Winkel",
-    "en-US": "angle",
-    "fr": "angle",
-    "ru": "угол"
-  },
   "angleBasicShapeOrPath": {
     "de": "{{cssxref(\"<angle>\"}}, {{cssxref(\"<basic-shape>\"}} oder {{cssxref(\"<path()>\"}}",
     "en-US": "{{cssxref(\"<angle>\"}}, {{cssxref(\"<basic-shape>\"}} or {{cssxref(\"<path()>\"}}",
@@ -496,6 +490,9 @@
     "fr": "éléments de boîte",
     "ru": "блочные элементы"
   },
+  "byComputedValueType": {
+    "en-US": "by computed value type"
+  },
   "canonicalOrder": {
     "de": "Kanonische Reihenfolge",
     "en-US": "Canonical order",
@@ -590,6 +587,7 @@
     "de": "Elemente mit einem CSS {{cssxref(\"display\")}} Wert von <code>box</code> oder <code>inline-box</code>",
     "en-US": "elements with a CSS {{cssxref(\"display\")}} value of <code>box</code> or <code>inline-box</code>",
     "fr": "éléments avec {{cssxref(\"display\")}} qui vaut <code>box</code> ou <code>inline-box</code>",
+    "ja": "CSS の {{cssxref(\"display\")}} の値が <code>box</code> または <code>inline-box</code> である要素",
     "ru": "элементы с значением свойства {{cssxref(\"display\")}} <code>box</code> или <code>inline-box</code>"
   },
   "elementsWithDisplayMarker": {
@@ -710,7 +708,7 @@
   "inlineAxisHorizontalInXUL": {
     "de": "<code>inline-axis</code> (<code>horizontal</code> in <a href=\"/de/docs/Mozilla/Tech/XUL\">XUL</a>)",
     "en-US": "<code>inline-axis</code> (<code>horizontal</code> in <a href=\"/en-US/docs/Mozilla/Tech/XUL\">XUL</a>)",
-    "fr": "<code>inline-axis</code> (<code>horizontal</code> en <a href=\"/fr/docs/XUL\">XUL</a>)",
+    "fr": "<code>inline-axis</code> (<code>horizontal</code> en <a href=\"/fr/docs/Mozilla/Tech/XUL\">XUL</a>)",
     "ru": "<code>inline-axis</code> (<code>horizontal</code> в <a href=\"/ru/docs/Mozilla/Tech/XUL\">XUL</a>)"
   },
   "inlineLevelAndTableCellElements": {
@@ -1273,6 +1271,9 @@
     "fr": "relatif au même axe de la <code>padding-box</code> du conteneur d'ascenceur",
     "ru": "относительно той же оси и внутренних отступов прокручиваемого контейнера"
   },
+  "relativeToTheScrollContainersScrollport": {
+    "en-US": "relative to the scroll container's scrollport"
+  },
   "repeatableList": {
     "de": "mehrfache Werte der folgenden Eigenschaften: ",
     "en-US": "a repeatable list of ",
@@ -1368,6 +1369,9 @@
   "simpleListOfLpc": {
     "en-US": "simple list of length, percentage, or calc",
     "ja": "length, percentage, calc の単純なリスト"
+  },
+  "simpleListOfLpcDifferenceLpc": {
+    "en-US": "simple list of length, percentage, or calc, provided the only differences are in the values of the length, percentage, or calc components in the list"
   },
   "specifiedIntegerOrAbsoluteLength": {
     "de": "die angegebene Ganzzahl oder eine absolute Länge",

@@ -8,6 +8,15 @@
   "angle-percentage": {
     "syntax": "<angle> | <percentage>"
   },
+  "angular-color-hint": {
+    "syntax": "<angle-percentage>"
+  },
+  "angular-color-stop": {
+    "syntax": "<color> && <color-stop-angle>?"
+  },
+  "angular-color-stop-list": {
+    "syntax": "[ <angular-color-stop> [, <angular-color-hint>]? ]# , <angular-color-stop>"
+  },
   "animateable-feature": {
     "syntax": "scroll-position | contents | <custom-ident>"
   },
@@ -21,7 +30,7 @@
     "syntax": "[ '~' | '|' | '^' | '$' | '*' ]? '='"
   },
   "attr-modifier": {
-    "syntax": "i"
+    "syntax": "i | s"
   },
   "attribute-selector": {
     "syntax": "'[' <wq-name> ']' | '[' <wq-name> <attr-matcher> [ <string-token> | <ident-token> ] <attr-modifier>? ']'"
@@ -59,12 +68,6 @@
   "box": {
     "syntax": "border-box | padding-box | content-box"
   },
-  "br-style": {
-    "syntax": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset"
-  },
-  "br-width": {
-    "syntax": "<length> | thin | medium | thick"
-  },
   "brightness()": {
     "syntax": "brightness( <number-percentage> )"
   },
@@ -89,6 +92,9 @@
   "circle()": {
     "syntax": "circle( [ <shape-radius> ]? [ at <position> ]? )"
   },
+  "clamp()": {
+    "syntax": "clamp( <calc-sum>#{3} )"
+  },
   "class-selector": {
     "syntax": "'.' <ident-token>"
   },
@@ -99,13 +105,25 @@
     "syntax": "<rgb()> | <rgba()> | <hsl()> | <hsla()> | <hex-color> | <named-color> | currentcolor | <deprecated-system-color>"
   },
   "color-stop": {
-    "syntax": "<color> <length-percentage>?"
+    "syntax": "<color-stop-length> | <color-stop-angle>"
+  },
+  "color-stop-angle": {
+    "syntax": "<angle-percentage>{1,2}"
+  },
+  "color-stop-length": {
+    "syntax": "<length-percentage>{1,2}"
   },
   "color-stop-list": {
-    "syntax": "<color-stop>#{2,}"
+    "syntax": "[ <linear-color-stop> [, <linear-color-hint>]? ]# , <linear-color-stop>"
+  },
+  "combinator": {
+    "syntax": "'>' | '+' | '~' | [ '||' ]"
   },
   "common-lig-values": {
     "syntax": "[ common-ligatures | no-common-ligatures ]"
+  },
+  "compat": {
+    "syntax": "searchfield | textarea | push-button | button-bevel | slider-horizontal | checkbox | radio | square-button | menulist | menulist-button | listbox | meter | progress-bar"
   },
   "composite-style": {
     "syntax": "clear | copy | source-over | source-in | source-out | source-atop | destination-over | destination-in | destination-out | destination-atop | xor"
@@ -118,6 +136,15 @@
   },
   "compound-selector-list": {
     "syntax": "<compound-selector>#"
+  },
+  "complex-selector": {
+    "syntax": "<compound-selector> [ <combinator>? <compound-selector> ]*"
+  },
+  "complex-selector-list": {
+    "syntax": "<complex-selector>#"
+  },
+  "conic-gradient()": {
+    "syntax": "conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )"
   },
   "contextual-alt-values": {
     "syntax": "[ contextual | no-contextual ]"
@@ -159,7 +186,7 @@
     "syntax": "contents | none"
   },
   "display-inside": {
-    "syntax": "flow | flow-root | table | flex | grid | subgrid | ruby"
+    "syntax": "flow | flow-root | table | flex | grid | ruby"
   },
   "display-internal": {
     "syntax": "table-row-group | table-header-group | table-footer-group | table-row | table-cell | table-column-group | table-column | table-caption | ruby-base | ruby-text | ruby-base-container | ruby-text-container"
@@ -191,6 +218,9 @@
   "ending-shape": {
     "syntax": "circle | ellipse"
   },
+  "env()": {
+    "syntax": "env( <custom-ident> , <declaration-value>? )"
+  },
   "explicit-track-list": {
     "syntax": "[ <line-names>? <track-size> ]+ <line-names>?"
   },
@@ -204,7 +234,7 @@
     "syntax": "@stylistic | @historical-forms | @styleset | @character-variant | @swash | @ornaments | @annotation"
   },
   "feature-value-block": {
-    "syntax": "<feature-type> {\n  <feature-value-declaration-list>\n}"
+    "syntax": "<feature-type> '{' <feature-value-declaration-list> '}'"
   },
   "feature-value-block-list": {
     "syntax": "<feature-value-block>+"
@@ -270,7 +300,7 @@
     "syntax": "<shape-box> | fill-box | stroke-box | view-box"
   },
   "gradient": {
-    "syntax": "<linear-gradient()> | <repeating-linear-gradient()> | <radial-gradient()> | <repeating-radial-gradient()>"
+    "syntax": "<linear-gradient()> | <repeating-linear-gradient()> | <radial-gradient()> | <repeating-radial-gradient()> | <conic-gradient()>"
   },
   "grayscale()": {
     "syntax": "grayscale( <number-percentage> )"
@@ -300,13 +330,19 @@
     "syntax": "<url> | <image()> | <image-set()> | <element()> | <cross-fade()> | <gradient>"
   },
   "image()": {
-    "syntax": "image( [ [ <image> | <string> ]? , <color>? ]! )"
+    "syntax": "image( <image-tags>? [ <image-src>? , <color>? ]! )"
   },
   "image-set()": {
     "syntax": "image-set( <image-set-option># )"
   },
   "image-set-option": {
     "syntax": "[ <image> | <string> ] <resolution>"
+  },
+  "image-src": {
+    "syntax": "<url> | <string>"
+  },
+  "image-tags": {
+    "syntax": "ltr | rtl"
   },
   "inflexible-breadth": {
     "syntax": "<length> | <percentage> | min-content | max-content | auto"
@@ -344,6 +380,18 @@
   "line-name-list": {
     "syntax": "[ <line-names> | <name-repeat> ]+"
   },
+  "line-style": {
+    "syntax": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset"
+  },
+  "line-width": {
+    "syntax": "<length> | thin | medium | thick"
+  },
+  "linear-color-hint": {
+    "syntax": "<length-percentage>"
+  },
+  "linear-color-stop": {
+    "syntax": "<color> && <color-stop-length>"
+  },
   "linear-gradient()": {
     "syntax": "linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )"
   },
@@ -367,6 +415,9 @@
   },
   "matrix3d()": {
     "syntax": "matrix3d( <number> [, <number> ]{15,15} )"
+  },
+  "max()": {
+    "syntax": "max( <calc-sum># )"
   },
   "media-and": {
     "syntax": "<media-in-parens> [ and <media-in-parens> ]+"
@@ -413,6 +464,9 @@
   "mf-value": {
     "syntax": "<number> | <dimension> | <ident> | <ratio>"
   },
+  "min()": {
+    "syntax": "min( <calc-sum># )"
+  },
   "minmax()": {
     "syntax": "minmax( [ <length> | <percentage> | <flex> | min-content | max-content | auto ] , [ <length> | <percentage> | <flex> | min-content | max-content | auto ] )"
   },
@@ -453,7 +507,7 @@
     "syntax": "<declaration>? [ ; <page-body> ]? | <page-margin-box> <page-body>"
   },
   "page-margin-box": {
-    "syntax": "<page-margin-box-type> {\n  <declaration-list>\n}"
+    "syntax": "<page-margin-box-type> '{' <declaration-list> '}'"
   },
   "page-margin-box-type": {
     "syntax": "@top-left-corner | @top-left | @top-center | @top-right | @top-right-corner | @bottom-left-corner | @bottom-left | @bottom-center | @bottom-right | @bottom-right-corner | @left-top | @left-middle | @left-bottom | @right-top | @right-middle | @right-bottom"
@@ -487,6 +541,12 @@
   },
   "radial-gradient()": {
     "syntax": "radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )"
+  },
+  "relative-selector": {
+    "syntax": "<combinator>? <complex-selector>"
+  },
+  "relative-selector-list": {
+    "syntax": "<relative-selector>#"
   },
   "relative-size": {
     "syntax": "larger | smaller"
@@ -678,7 +738,7 @@
     "syntax": "<wq-name> | <ns-prefix>? '*'"
   },
   "var()": {
-    "syntax": "var( <custom-property-name> [, <declaration-value> ]? )"
+    "syntax": "var( <custom-property-name> , <declaration-value>? )"
   },
   "viewport-length": {
     "syntax": "auto | <length-percentage>"
