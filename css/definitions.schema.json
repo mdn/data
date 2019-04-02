@@ -1,0 +1,16 @@
+{
+  "definitions": {
+    "jsonSchema": {
+      "$ref": "http://json-schema.org/schema#"
+    }
+  },
+  "properties": {
+    "groupList": {
+      "description": "The list of valid group names.",
+      "$ref": "#/definitions/jsonSchema"
+    }
+  },
+  "additionalProperties": {
+    "$ref": "#/definitions/jsonSchema"
+  }
+}
