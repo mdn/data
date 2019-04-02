@@ -5905,6 +5905,26 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-top"
   },
+  "margin-trim": {
+    "syntax": "none | in-flow | all",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Box Model"
+    ],
+    "initial": "none",
+    "appliesto": "blockContainersAndMultiColumnContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter",
+      "::first-line"
+    ],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-trim"
+  },
   "mask": {
     "syntax": "<mask-layer>#",
     "media": "visual",

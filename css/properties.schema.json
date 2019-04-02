@@ -178,6 +178,7 @@
         "beforeAndAfterPseudos",
         "blockContainerElements",
         "blockContainers",
+        "blockContainersAndMultiColumnContainers",
         "blockContainersExceptMultiColumnContainers",
         "blockContainersExceptTableWrappers",
         "blockContainersFlexContainersGridContainers",

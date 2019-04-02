@@ -451,7 +451,13 @@
     "ja": "ブロックコンテナー",
     "ru": "блочные контейнеры"
   },
+  "blockContainersAndMultiColumnContainers": {
+    "de": "Blockcontainer und mehrspaltige Container",
+    "en-US": "Block containers and multi-column containers",
+    "ja": "ブロックコンテナー, 段組みクコンテナー"
+  },
   "blockContainersExceptMultiColumnContainers": {
+    "de": "Blockcontainer außer mehrspaltige Container",
     "en-US": "Block containers except multi-column containers"
   },
   "blockContainersExceptTableWrappers": {
