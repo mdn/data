@@ -668,6 +668,21 @@
   "subclass-selector": {
     "syntax": "<id-selector> | <class-selector> | <attribute-selector> | <pseudo-class-selector>"
   },
+  "supports-condition": {
+    "syntax": "not <supports-in-parens> | <supports-in-parens> [ and <supports-in-parens> ]* | <supports-in-parens> [ or <supports-in-parens> ]*"
+  },
+  "supports-in-parens": {
+    "syntax": "( <supports-condition> ) | <supports-feature> | <general-enclosed>"
+  },
+  "supports-feature": {
+    "syntax": "<supports-decl> | <supports-selector-fn>"
+  },
+  "supports-decl": {
+    "syntax": "( <declaration> )"
+  },
+  "supports-selector-fn": {
+    "syntax": "selector( <complex-selector> )"
+  },
   "symbol": {
     "syntax": "<string> | <image> | <custom-ident>"
   },
