@@ -164,11 +164,17 @@
   "contrast()": {
     "syntax": "contrast( [ <number-percentage> ] )"
   },
+  "counter()": {
+    "syntax": "counter( <custom-ident>, [ <counter-style> | none ]? )"
+  },
   "counter-style": {
     "syntax": "<counter-style-name> | symbols()"
   },
   "counter-style-name": {
     "syntax": "<custom-ident>"
+  },
+  "counters()": {
+    "syntax": "counters( <custom-ident>, <string>, [ <counter-style> | none ]? )"
   },
   "cross-fade()": {
     "syntax": "cross-fade( <cf-mixing-image> , <cf-final-image>? )"
