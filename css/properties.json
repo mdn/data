@@ -6738,7 +6738,7 @@
       "CSS Text"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "nonReplacedInlineElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "standard",
@@ -8787,7 +8787,7 @@
       "CSS Text"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "nonReplacedInlineElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "standard",
