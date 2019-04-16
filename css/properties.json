@@ -5583,6 +5583,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/line-height"
   },
+  "line-height-step": {
+    "syntax": "<length>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Fonts"
+    ],
+    "initial": "0",
+    "appliesto": "blockContainers",
+    "computed": "absoluteLength",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/line-height-step"
+  },
   "list-style": {
     "syntax": "<'list-style-type'> || <'list-style-position'> || <'list-style-image'>",
     "media": "visual",
