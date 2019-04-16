@@ -7273,7 +7273,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/right"
   },
   "rotate": {
-    "syntax": "none | [ x | y | z | <number>{3} ]? && <angle>",
+    "syntax": "none | <angle> | [ x | y | z | <number>{3} ] && <angle>",
     "media": "visual",
     "inherited": false,
     "animationType": "transform",
