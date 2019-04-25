@@ -14,7 +14,6 @@ const ajv = new Ajv({
 });
 
 const dictPaths = ['api', 'css', 'l10n'];
-let hasErrors = false;
 
 ajv.addKeyword('property-reference', {
   $data: true,
@@ -103,12 +102,12 @@ function testSchema(dataFilename) {
       return false;
     } else {
       console.error(`\x1b[31m  JSON Schema – ${ajv.errors.length} error(s)\x1b[0m`)
+      // Output messages by one since better-ajv-errors wrongly joins messages
+      // (see https://github.com/atlassian/better-ajv-errors/pull/21)
+      // Other issues with better-ajv-errors:
+      // - it feels better for performance to output messages one by one rather than a list
+      // - it seems to be losing some errors when output a list
       ajv.errors.forEach(e => {
-        // Output messages by one since better-ajv-errors wrongly joins messages
-        // (see https://github.com/atlassian/better-ajv-errors/pull/21)
-        // Other issues with better-ajv-errors:
-        // - it feels better for performance to output messages one by one rather than a list
-        // - it seems to be losing some errors when output a list
         console.error(betterAjvErrors(schema, data, [e], {indent: 2}));
       });
       return true;
@@ -116,10 +115,10 @@ function testSchema(dataFilename) {
   }
 }
 
-dictPaths.forEach(dir => {
+const hasErrors = dictPaths.reduce((hasErrors, dir) => {
   const absDir = path.resolve(path.join(__dirname, '..', dir));
 
-  fs.readdirSync(absDir).forEach(filename => {
+  return fs.readdirSync(absDir).reduce((hasErrors, filename) => {
     if (path.extname(filename) === '.json') {
       let hasSyntaxErrors = false,
         hasSchemaErrors = false,
@@ -157,8 +156,9 @@ dictPaths.forEach(dir => {
         spinner.succeed();
       }
     }
-  });
-});
+    return hasErrors;
+  }, /** @type {boolean} */ (false)) || hasErrors;
+}, false);
 
 if (hasErrors) {
   console.warn("");
