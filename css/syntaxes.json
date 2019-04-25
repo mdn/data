@@ -164,11 +164,17 @@
   "contrast()": {
     "syntax": "contrast( [ <number-percentage> ] )"
   },
+  "counter()": {
+    "syntax": "counter( <custom-ident>, [ <counter-style> | none ]? )"
+  },
   "counter-style": {
     "syntax": "<counter-style-name> | symbols()"
   },
   "counter-style-name": {
     "syntax": "<custom-ident>"
+  },
+  "counters()": {
+    "syntax": "counters( <custom-ident>, <string>, [ <counter-style> | none ]? )"
   },
   "cross-fade()": {
     "syntax": "cross-fade( <cf-mixing-image> , <cf-final-image>? )"
@@ -280,9 +286,6 @@
   },
   "font-weight-absolute": {
     "syntax": "normal | bold | <number>"
-  },
-  "frames-timing-function": {
-    "syntax": "frames(<integer>)"
   },
   "frequency-percentage": {
     "syntax": "<frequency> | <percentage>"
@@ -633,7 +636,7 @@
     "syntax": "[ left | right ] || [ top | bottom ]"
   },
   "single-animation": {
-    "syntax": "<time> || <single-timing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ]"
+    "syntax": "<time> || <timing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ]"
   },
   "single-animation-direction": {
     "syntax": "normal | reverse | alternate | alternate-reverse"
@@ -647,14 +650,8 @@
   "single-animation-play-state": {
     "syntax": "running | paused"
   },
-  "single-timing-function": {
-    "syntax": "linear | <cubic-bezier-timing-function> | <step-timing-function> | <frames-timing-function>"
-  },
   "single-transition": {
-    "syntax": "[ none | <single-transition-property> ] || <time> || <single-transition-timing-function> || <time>"
-  },
-  "single-transition-timing-function": {
-    "syntax": "<single-timing-function>"
+    "syntax": "[ none | <single-transition-property> ] || <time> || <timing-function> || <time>"
   },
   "single-transition-property": {
     "syntax": "all | <custom-ident>"
@@ -662,11 +659,29 @@
   "size": {
     "syntax": "closest-side | farthest-side | closest-corner | farthest-corner | <length> | <length-percentage>{2}"
   },
+  "step-position": {
+    "syntax": "jump-start | jump-end | jump-none | jump-both | start | end"
+  },
   "step-timing-function": {
-    "syntax": "step-start | step-end | steps(<integer>[, [ start | end ] ]?)"
+    "syntax": "step-start | step-end | steps(<integer>[, <step-position>]?)"
   },
   "subclass-selector": {
     "syntax": "<id-selector> | <class-selector> | <attribute-selector> | <pseudo-class-selector>"
+  },
+  "supports-condition": {
+    "syntax": "not <supports-in-parens> | <supports-in-parens> [ and <supports-in-parens> ]* | <supports-in-parens> [ or <supports-in-parens> ]*"
+  },
+  "supports-in-parens": {
+    "syntax": "( <supports-condition> ) | <supports-feature> | <general-enclosed>"
+  },
+  "supports-feature": {
+    "syntax": "<supports-decl> | <supports-selector-fn>"
+  },
+  "supports-decl": {
+    "syntax": "( <declaration> )"
+  },
+  "supports-selector-fn": {
+    "syntax": "selector( <complex-selector> )"
   },
   "symbol": {
     "syntax": "<string> | <image> | <custom-ident>"
@@ -685,6 +700,9 @@
   },
   "time-percentage": {
     "syntax": "<time> | <percentage>"
+  },
+  "timing-function": {
+    "syntax": "linear | <cubic-bezier-timing-function> | <step-timing-function>"
   },
   "track-breadth": {
     "syntax": "<length-percentage> | <flex> | min-content | max-content | auto"
