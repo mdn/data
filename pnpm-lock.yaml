@@ -1,6 +1,7 @@
 devDependencies:
   ajv: 6.10.0
   better-ajv-errors: 0.6.1
+  chalk: 2.4.2
   ora: 3.3.1
 lockfileVersion: 5
 packages:
@@ -265,4 +266,5 @@ packages:
 specifiers:
   ajv: ^6.10.0
   better-ajv-errors: ^0.6.1
+  chalk: ^2.4.2
   ora: ^3.3.1

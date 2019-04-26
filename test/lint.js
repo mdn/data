@@ -3,7 +3,8 @@ const path = require('path');
 
 const Ajv = require('ajv');
 const betterAjvErrors = require('better-ajv-errors');
-const {default: ora} = require('ora');
+const { default: ora } = require('ora');
+const { default: chalk } = require('chalk');
 
 /** @type {Map<string, string>} */
 const filesWithErrors = new Map();
@@ -82,7 +83,10 @@ function testStyle(filename) {
   if (actual === expected) {
     return false;
   } else {
-    console.error(`\x1b[31m  Style – Error on line ${jsonDiff(actual, expected)}\x1b[0m`);
+    console.error(chalk.red(
+      '  Style – Error on line',
+      jsonDiff(actual, expected)
+    ));
     return true;
   }
 }
@@ -101,7 +105,11 @@ function testSchema(dataFilename) {
     if (valid) {
       return false;
     } else {
-      console.error(`\x1b[31m  JSON Schema – ${ajv.errors.length} error(s)\x1b[0m`)
+      console.error(chalk.red(
+        '  JSON Schema –',
+        ajv.errors.length,
+        `error${ajv.errors.length > 1 ? 's' : ''}`
+      ));
       // Output messages by one since better-ajv-errors wrongly joins messages
       // (see https://github.com/atlassian/better-ajv-errors/pull/21)
       // Other issues with better-ajv-errors:
