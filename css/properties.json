@@ -1284,7 +1284,7 @@
     "syntax": "none | <integer>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "WebKit Extensions",
