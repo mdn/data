@@ -94,7 +94,7 @@ There are 11 required properties in this object:
 For more information see also
 [Value definition syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Value_definition_syntax)
 on MDN and the [CSS Values and Units](https://www.w3.org/TR/css3-values/#value-defs) specification.
-* `media` (string): The media groups this property applies to, e.g. "all, visual" (multiple values are comma-separated).
+* `media` (string): The media groups this property applies to, e.g. "all", "visual" (multiple values are stored in an array).
 * `inherited` (boolean): Whether or not the property is inherited. See [inheritance](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance) for details.
 * `animationType` (enum or array of property names):
   * If it is an enum (appropriate for long-hand properties), this is the animation type of the property.

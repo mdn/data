@@ -65,7 +65,7 @@ The `descriptors` object (when included) contains one or more objects that descr
 
 Each `descriptors` object consists of 7 required properties:
 * `syntax` (string): The syntax / possible values of the descriptor.
-* `media` (string): The media groups the descriptor applies to, e.g. "all, visual" (multiple values are comma-separated).
+* `media` (string): The media groups the descriptor applies to, e.g. "all", "visual" (multiple values are stored in an array).
 * `percentages` (string or array of strings):
   * If it is an array, the elements are the other descriptors this descriptor is taking the percentages from (array elements must be in a descriptors list).
   * If it is a string, it indicates the percentage value of the descriptor.

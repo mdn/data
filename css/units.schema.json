@@ -5,6 +5,7 @@
     "additionalProperties": false,
     "properties": {
       "groups": {
+        "description": "CSS is organized in modules like \"CSS Units\" or \"CSS Lengths\".\nMDN organizes features in these groups as well — `groups` should contain the name of the module(s) the unit is defined in.",
         "type": "array",
         "minitems": 1,
         "uniqueItems": true,
@@ -13,6 +14,7 @@
         }
       },
       "status": {
+        "description": "This is either `standard`, `nonstandard`, or `experimental` depending on the standardization status of the feature.",
         "enum": [
           "standard",
           "nonstandard",

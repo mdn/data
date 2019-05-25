@@ -26,6 +26,7 @@
     "additionalProperties": false,
     "properties": {
       "syntax": {
+        "description": "This is the formal syntax of the at-rule and is usually found in the specification.",
         "type": "string"
       },
       "interfaces": {
@@ -35,6 +36,7 @@
         }
       },
       "groups": {
+        "description": "CSS is organized in modules like \"CSS Fonts\" or \"CSS Animations\".\nMDN organizes features in these groups as well — `groups` should contain the name of the module(s) the at-rule is defined in.",
         "type": "array",
         "minitems": 1,
         "uniqueItems": true,
@@ -43,15 +45,18 @@
         }
       },
       "descriptors": {
+        "description": "The `descriptors` object (when included) contains one or more objects that describe the different descriptors available on the at-rule.",
         "type": "object",
         "additionalProperties": {
           "type": "object",
           "additionalProperties": false,
           "properties": {
             "syntax": {
+              "description": "This is the formal syntax of the at-rule and is usually found in the specification.",
               "type": "string"
             },
             "media": {
+              "description": "The media groups the descriptor applies to, e.g. \"all, visual\" (multiple values are comma-separated).",
               "oneOf": [
                 {
                   "type": "string",
@@ -93,6 +98,7 @@
               ]
             },
             "status": {
+              "description": "This is either `standard`, `nonstandard`, or `experimental` depending on the standardization status of the feature.",
               "enum": [
                 "standard",
                 "nonstandard",
@@ -112,6 +118,7 @@
         }
       },
       "status": {
+        "description": "This is either `standard`, `nonstandard`, or `experimental` depending on the standardization status of the feature.",
         "enum": [
           "standard",
           "nonstandard",
@@ -119,6 +126,7 @@
         ]
       },
       "mdn_url": {
+        "description": "URL linking to the at-rule's page on MDN.\bThis URL must omit the localization part of the URL (such as `en-US/`).",
         "type": "string",
         "pattern": "^https://developer.mozilla.org/docs/Web/CSS/"
       }
