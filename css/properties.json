@@ -7927,7 +7927,7 @@
     "appliesto": "scrollContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
+    "status": "obsolete",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-x"
   },
   "scroll-snap-type-y": {
@@ -7943,7 +7943,7 @@
     "appliesto": "scrollContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
+    "status": "obsolete",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-y"
   },
   "shape-image-threshold": {
