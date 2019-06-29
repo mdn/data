@@ -7467,7 +7467,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-behavior"
   },
   "scroll-margin": {
-    "syntax": "[ auto | <length> ]{1,4}",
+    "syntax": "<length>{1,4}",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7483,7 +7483,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin"
   },
   "scroll-margin-block": {
-    "syntax": "[ auto | <length> ]{1,2}",
+    "syntax": "<length>{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7499,7 +7499,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block"
   },
   "scroll-margin-block-start": {
-    "syntax": "auto | <length> ",
+    "syntax": "<length>",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7515,7 +7515,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-start"
   },
   "scroll-margin-block-end": {
-    "syntax": "auto | <length>",
+    "syntax": "<length>",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7531,7 +7531,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-end"
   },
   "scroll-margin-bottom": {
-    "syntax": "auto | <length>",
+    "syntax": "<length>",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7547,7 +7547,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-bottom"
   },
   "scroll-margin-inline": {
-    "syntax": "[auto | <length> ]{1,2}",
+    "syntax": "<length>{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7563,7 +7563,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline"
   },
   "scroll-margin-inline-start": {
-    "syntax": "auto | <length>",
+    "syntax": "<length>",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7579,7 +7579,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-start"
   },
   "scroll-margin-inline-end": {
-    "syntax": "auto | <length>",
+    "syntax": "<length>",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7595,7 +7595,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-end"
   },
   "scroll-margin-left": {
-    "syntax": "auto | <length>",
+    "syntax": "<length>",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7611,7 +7611,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-left"
   },
   "scroll-margin-right": {
-    "syntax": "auto | <length>",
+    "syntax": "<length>",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7627,7 +7627,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-right"
   },
   "scroll-margin-top": {
-    "syntax": "auto | <length>",
+    "syntax": "<length>",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7643,7 +7643,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-top"
   },
   "scroll-padding": {
-    "syntax": "[ auto | <length> | <percentage> ]{1,4}",
+    "syntax": "[ auto | <length-percentage> ]{1,4}",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7659,7 +7659,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding"
   },
   "scroll-padding-block": {
-    "syntax": "[auto | <length> | <percentage> ]{1,2}",
+    "syntax": "[ auto | <length-percentage> ]{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7675,7 +7675,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block"
   },
   "scroll-padding-block-start": {
-    "syntax": "auto | <length> | <percentage>",
+    "syntax": "auto | <length-percentage>",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7691,7 +7691,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-start"
   },
   "scroll-padding-block-end": {
-    "syntax": "auto | <length> | <percentage>",
+    "syntax": "auto | <length-percentage>",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7707,7 +7707,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-end"
   },
   "scroll-padding-bottom": {
-    "syntax": "auto | <length> | <percentage>",
+    "syntax": "auto | <length-percentage>",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7723,7 +7723,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-bottom"
   },
   "scroll-padding-inline": {
-    "syntax": "[auto | <length> | <percentage> ]{1,2}",
+    "syntax": "[ auto | <length-percentage> ]{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7739,7 +7739,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline"
   },
   "scroll-padding-inline-start": {
-    "syntax": "auto | <length> | <percentage>",
+    "syntax": "auto | <length-percentage>",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7755,7 +7755,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-start"
   },
   "scroll-padding-inline-end": {
-    "syntax": "auto | <length> | <percentage>",
+    "syntax": "auto | <length-percentage>",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7771,7 +7771,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-end"
   },
   "scroll-padding-left": {
-    "syntax": "auto | <length> | <percentage>",
+    "syntax": "auto | <length-percentage>",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7787,7 +7787,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-left"
   },
   "scroll-padding-right": {
-    "syntax": "auto | <length> | <percentage>",
+    "syntax": "auto | <length-percentage>",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7803,7 +7803,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-right"
   },
   "scroll-padding-top": {
-    "syntax": "auto | <length> | <percentage>",
+    "syntax": "auto | <length-percentage>",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -7915,7 +7915,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-stop"
   },
   "scroll-snap-type": {
-    "syntax": "none | [ x | y | block | inline | both ] [ mandatory | proximity ]",
+    "syntax": "none | [ x | y | block | inline | both ] [ mandatory | proximity ]?",
     "media": "interactive",
     "inherited": false,
     "animationType": "discrete",
