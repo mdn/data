@@ -414,10 +414,10 @@
     "syntax": "alpha | luminance | match-source"
   },
   "matrix()": {
-    "syntax": "matrix( <number> [, <number> ]{5,5} )"
+    "syntax": "matrix( <number>#{6} )"
   },
   "matrix3d()": {
-    "syntax": "matrix3d( <number> [, <number> ]{15,15} )"
+    "syntax": "matrix3d( <number>#{16} )"
   },
   "max()": {
     "syntax": "max( <calc-sum># )"
@@ -570,25 +570,25 @@
     "syntax": "rgba( <percentage>{3} [ / <alpha-value> ]? ) | rgba( <number>{3} [ / <alpha-value> ]? ) | rgba( <percentage>#{3} , <alpha-value>? ) | rgba( <number>#{3} , <alpha-value>? )"
   },
   "rotate()": {
-    "syntax": "rotate( <angle> )"
+    "syntax": "rotate( [ <angle> | <zero> ] )"
   },
   "rotate3d()": {
-    "syntax": "rotate3d( <number> , <number> , <number> , <angle> )"
+    "syntax": "rotate3d( <number> , <number> , <number> , [ <angle> | <zero> ] )"
   },
   "rotateX()": {
-    "syntax": "rotateX( <angle> )"
+    "syntax": "rotateX( [ <angle> | <zero> ] )"
   },
   "rotateY()": {
-    "syntax": "rotateY( <angle> )"
+    "syntax": "rotateY( [ <angle> | <zero> ] )"
   },
   "rotateZ()": {
-    "syntax": "rotateZ( <angle> )"
+    "syntax": "rotateZ( [ <angle> | <zero> ] )"
   },
   "saturate()": {
     "syntax": "saturate( <number-percentage> )"
   },
   "scale()": {
-    "syntax": "scale( <number> [, <number> ]? )"
+    "syntax": "scale( <number> , <number>? )"
   },
   "scale3d()": {
     "syntax": "scale3d( <number> , <number> , <number> )"
@@ -609,13 +609,13 @@
     "syntax": "<length-percentage> | closest-side | farthest-side"
   },
   "skew()": {
-    "syntax": "skew( <angle> [, <angle> ]? )"
+    "syntax": "skew( [ <angle> | <zero> ] , [ <angle> | <zero> ]? )"
   },
   "skewX()": {
-    "syntax": "skewX( <angle> )"
+    "syntax": "skewX( [ <angle> | <zero> ] )"
   },
   "skewY()": {
-    "syntax": "skewY( <angle> )"
+    "syntax": "skewY( [ <angle> | <zero> ] )"
   },
   "sepia()": {
     "syntax": "sepia( <number-percentage> )"
@@ -723,7 +723,7 @@
     "syntax": "<transform-function>+"
   },
   "translate()": {
-    "syntax": "translate( <length-percentage> [, <length-percentage> ]? )"
+    "syntax": "translate( <length-percentage> , <length-percentage>? )"
   },
   "translate3d()": {
     "syntax": "translate3d( <length-percentage> , <length-percentage> , <length> )"
