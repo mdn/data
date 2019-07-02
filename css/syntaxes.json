@@ -393,7 +393,7 @@
     "syntax": "<length-percentage>"
   },
   "linear-color-stop": {
-    "syntax": "<color> && <color-stop-length>"
+    "syntax": "<color> <color-stop-length>?"
   },
   "linear-gradient()": {
     "syntax": "linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )"
