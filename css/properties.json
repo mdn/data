@@ -5728,7 +5728,8 @@
     ],
     "order": "uniqueOrder",
     "alsoAppliesTo": [
-      "::first-letter"
+      "::first-letter",
+      "::first-line"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin"
@@ -5795,7 +5796,8 @@
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
-      "::first-letter"
+      "::first-letter",
+      "::first-line"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-bottom"
@@ -5862,7 +5864,8 @@
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
-      "::first-letter"
+      "::first-letter",
+      "::first-line"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-left"
@@ -5881,7 +5884,8 @@
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
-      "::first-letter"
+      "::first-letter",
+      "::first-line"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-right"
@@ -5900,7 +5904,8 @@
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
-      "::first-letter"
+      "::first-letter",
+      "::first-line"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-top"
@@ -6897,7 +6902,8 @@
     ],
     "order": "uniqueOrder",
     "alsoAppliesTo": [
-      "::first-letter"
+      "::first-letter",
+      "::first-line"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding"
@@ -6964,7 +6970,8 @@
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
-      "::first-letter"
+      "::first-letter",
+      "::first-line"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-bottom"
@@ -7031,7 +7038,8 @@
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
-      "::first-letter"
+      "::first-letter",
+      "::first-line"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-left"
@@ -7050,7 +7058,8 @@
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
-      "::first-letter"
+      "::first-letter",
+      "::first-line"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-right"
@@ -7069,7 +7078,8 @@
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
-      "::first-letter"
+      "::first-letter",
+      "::first-line"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-top"
