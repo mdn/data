@@ -8221,6 +8221,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-style"
   },
+  "text-decoration-thickness": {
+    "syntax": "auto | from-font | <length>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Text Decoration"
+    ],
+    "initial": "auto",
+    "appliesto": "allElements",
+    "computed": "absoluteLengthOrKeyword",
+    "order": "uniqueOrder",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-thickness"
+  },
   "text-emphasis": {
     "syntax": "<'text-emphasis-style'> || <'text-emphasis-color'>",
     "media": "visual",
