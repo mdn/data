@@ -5565,7 +5565,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/letter-spacing"
   },
   "line-break": {
-    "syntax": "auto | loose | normal | strict",
+    "syntax": "auto | loose | normal | strict | anywhere",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -8726,7 +8726,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/visibility"
   },
   "white-space": {
-    "syntax": "normal | pre | nowrap | pre-wrap | pre-line",
+    "syntax": "normal | pre | nowrap | pre-wrap | pre-line | break-spaces",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
