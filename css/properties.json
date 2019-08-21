@@ -5162,7 +5162,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid-template-areas"
   },
   "grid-template-columns": {
-    "syntax": "none | <track-list> | <auto-track-list>",
+    "syntax": "none | <track-list> | <auto-track-list> | subgrid <line-name-list>?",
     "media": "visual",
     "inherited": false,
     "animationType": "simpleListOfLpcDifferenceLpc",
@@ -5178,7 +5178,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid-template-columns"
   },
   "grid-template-rows": {
-    "syntax": "none | <track-list> | <auto-track-list>",
+    "syntax": "none | <track-list> | <auto-track-list> | subgrid <line-name-list>?",
     "media": "visual",
     "inherited": false,
     "animationType": "simpleListOfLpcDifferenceLpc",
