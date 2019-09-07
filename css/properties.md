@@ -110,7 +110,7 @@ on MDN and the [CSS Values and Units](https://www.w3.org/TR/css3-values/#value-d
 * `computed` (enum or array of property names):
   * If it is an enum (appropriate for long-hand properties), this is the computed value of the property. See the schema for [a list of enums](https://github.com/mdn/data/blob/master/css/properties.schema.json#L87).
   * If it is an array (appropriate for short-hand properties), these are the properties the value is computed from.
-* `order` (enum): The [canonical order](https://developer.mozilla.org/en-US/docs/Glossary/Canonical_order) for the property. See the schema for [a list of enums](https://github.com/mdn/data/blob/master/css/properties.schema.json#L235).
+* `order` (enum): The [canonical order](https://developer.mozilla.org/en-US/docs/Glossary/Canonical_order) for the property. See the schema for [a list of enums](https://github.com/mdn/data/blob/master/css/properties.schema.json#L246).
 * `status` (enum): This is either `standard`, `nonstandard`, or `experimental` depending on the standardization status of the feature.
 
 There are 3 more properties that are optional:
