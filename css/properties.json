@@ -7274,7 +7274,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position"
   },
   "quotes": {
-    "syntax": "none | [ <string> <string> ]+",
+    "syntax": "none | auto | [ <string> <string> ]+",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
