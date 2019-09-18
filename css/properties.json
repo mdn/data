@@ -2746,7 +2746,7 @@
     "syntax": "[ <length> | <number> ]{1,4}",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Backgrounds and Borders"
@@ -2784,7 +2784,7 @@
     "syntax": "<number-percentage>{1,4} && fill?",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "referToSizeOfBorderImage",
     "groups": [
       "CSS Backgrounds and Borders"
@@ -2822,7 +2822,7 @@
     "syntax": "[ <length-percentage> | <number> | auto ]{1,4}",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "referToWidthOrHeightOfBorderImageArea",
     "groups": [
       "CSS Backgrounds and Borders"
