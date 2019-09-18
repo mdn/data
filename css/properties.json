@@ -6441,7 +6441,7 @@
       "offset-anchor"
     ],
     "groups": [
-      "CSS Motion"
+      "CSS Motion Path"
     ],
     "initial": [
       "offset-position",
@@ -6470,7 +6470,7 @@
     "animationType": "position",
     "percentages": "relativeToWidthAndHeight",
     "groups": [
-      "CSS Motion"
+      "CSS Motion Path"
     ],
     "initial": "auto",
     "appliesto": "transformableElements",
@@ -6485,7 +6485,7 @@
     "animationType": "lpc",
     "percentages": "referToTotalPathLength",
     "groups": [
-      "CSS Motion"
+      "CSS Motion Path"
     ],
     "initial": "0",
     "appliesto": "transformableElements",
@@ -6501,7 +6501,7 @@
     "animationType": "angleOrBasicShapeOrPath",
     "percentages": "no",
     "groups": [
-      "CSS Motion"
+      "CSS Motion Path"
     ],
     "initial": "none",
     "appliesto": "transformableElements",
@@ -6518,7 +6518,7 @@
     "animationType": "position",
     "percentages": "referToSizeOfContainingBlock",
     "groups": [
-      "CSS Motion"
+      "CSS Motion Path"
     ],
     "initial": "auto",
     "appliesto": "transformableElements",
@@ -6533,7 +6533,7 @@
     "animationType": "angleOrBasicShapeOrPath",
     "percentages": "no",
     "groups": [
-      "CSS Motion"
+      "CSS Motion Path"
     ],
     "initial": "auto",
     "appliesto": "transformableElements",
