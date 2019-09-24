@@ -6543,7 +6543,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-rotate"
   },
   "opacity": {
-    "syntax": "<number>",
+    "syntax": "<alpha-value>",
     "media": "visual",
     "inherited": false,
     "animationType": "number",
@@ -7963,11 +7963,11 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-y"
   },
   "shape-image-threshold": {
-    "syntax": "<number>",
+    "syntax": "<alpha-value>",
     "media": "visual",
     "inherited": false,
     "animationType": "number",
-    "percentages": "no",
+    "percentages": "yes",
     "groups": [
       "CSS Shapes"
     ],
