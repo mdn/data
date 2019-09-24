@@ -7967,7 +7967,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "number",
-    "percentages": "yes",
+    "percentages": "no",
     "groups": [
       "CSS Shapes"
     ],
