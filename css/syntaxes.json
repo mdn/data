@@ -165,7 +165,7 @@
     "syntax": "contrast( [ <number-percentage> ] )"
   },
   "counter()": {
-    "syntax": "counter( <custom-ident>, [ <counter-style> | none ]? )"
+    "syntax": "counter( <custom-ident>, <counter-style>? )"
   },
   "counter-style": {
     "syntax": "<counter-style-name> | symbols()"
@@ -174,7 +174,7 @@
     "syntax": "<custom-ident>"
   },
   "counters()": {
-    "syntax": "counters( <custom-ident>, <string>, [ <counter-style> | none ]? )"
+    "syntax": "counters( <custom-ident>, <string>, <counter-style>? )"
   },
   "cross-fade()": {
     "syntax": "cross-fade( <cf-mixing-image> , <cf-final-image>? )"
