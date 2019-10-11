@@ -1,6 +1,6 @@
 {
   "absolute-size": {
-    "syntax": "xx-small | x-small | small | medium | large | x-large | xx-large"
+    "syntax": "xx-small | x-small | small | medium | large | x-large | xx-large | xxx-large"
   },
   "alpha-value": {
     "syntax": "<number> | <percentage>"
