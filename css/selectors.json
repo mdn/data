@@ -44,6 +44,15 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Attribute_selectors"
   },
+  "Selector list": {
+    "syntax": ",",
+    "groups": [
+      "Grouping Selectors",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Selector_list"
+  },
   "Adjacent sibling combinator": {
     "syntax": "A + B",
     "groups": [
