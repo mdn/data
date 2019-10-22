@@ -330,7 +330,7 @@
     "syntax": "<hash-token>"
   },
   "image": {
-    "syntax": "<url> | <image()> | <image-set()> | <element()> | <cross-fade()> | <gradient>"
+    "syntax": "<url> | <image()> | <image-set()> | <element()> | <paint()> | <cross-fade()> | <gradient>"
   },
   "image()": {
     "syntax": "image( <image-tags>? [ <image-src>? , <color>? ]! )"
@@ -520,6 +520,9 @@
   },
   "page-selector": {
     "syntax": "<pseudo-page>+ | <ident> <pseudo-page>*"
+  },
+  "paint()": {
+    "syntax": "paint( <ident>, <declaration-value>? )"
   },
   "perspective()": {
     "syntax": "perspective( <length> )"
