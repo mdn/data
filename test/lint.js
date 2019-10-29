@@ -25,6 +25,17 @@ ajv.addKeyword('property-reference', {
 
 ajv.addSchema(require('../css/definitions.json'), 'definitions.json');
 
+const L10N_SCHEMA_PATH = path.resolve(
+  __dirname,
+  '..',
+  'l10n',
+  'l10n.schema.json'
+);
+
+/**
+ * @param {string} actual
+ * @param {string} expected
+ */
 function jsonDiff(actual, expected) {
   var actualLines = actual.split(/\n/);
   var expectedLines = expected.split(/\n/);
@@ -40,6 +51,9 @@ function jsonDiff(actual, expected) {
   }
 }
 
+/**
+ * @param {string} filename
+ */
 function checkStyle(filename) {
   var actual = fs.readFileSync(filename, 'utf-8').trim();
   var expected = JSON.stringify(JSON.parse(actual), null, 2);
@@ -52,10 +66,17 @@ function checkStyle(filename) {
   }
 }
 
+/**
+ * @param {string} dataFilename
+ */
 function checkSchema(dataFilename) {
-  var schemaFilename = dataFilename.replace(/\.json/i, '.schema.json');
+  var schemaFilename = dataFilename.endsWith('.schema.json')
+    ? null
+    : dataFilename.indexOf('l10n' + path.sep) !== -1
+    ? L10N_SCHEMA_PATH
+    : dataFilename.replace(/\.json/i, '.schema.json');
 
-  if (fs.existsSync(schemaFilename)) {
+  if (schemaFilename && fs.existsSync(schemaFilename)) {
     var schema = require(schemaFilename);
     var data = require(dataFilename);
     var valid = ajv.validate(schema, data);
@@ -64,7 +85,7 @@ function checkSchema(dataFilename) {
       console.log('  JSON Schema – OK');
     } else {
       hasErrors = true;
-      console.log('  JSON Schema – ' + ajv.errors.length + ' error(s)')
+      console.log('  JSON Schema – ' + ajv.errors.length + ' error(s)');
       // console.log(betterAjvErrors(schema, data, ajv.errors, { indent: 2 }));
 
       // Output messages by one since better-ajv-errors wrongly joins messages
@@ -90,7 +111,7 @@ dictPaths.forEach(function(dir) {
 
       console.log(dir + '/' + filename);
 
-      checkStyle(absFilename)
+      checkStyle(absFilename);
       checkSchema(absFilename);
 
       console.log();
