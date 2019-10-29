@@ -1,7 +1,7 @@
 {
   "definitions": {
     "jsonSchema": {
-      "$ref": "http://json-schema.org/schema#"
+      "$ref": "https://json-schema.org/schema#"
     }
   },
   "properties": {
