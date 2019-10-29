@@ -1,0 +1,42 @@
+{
+  "definitions": {
+    "status": {
+      "enum": [
+        "Living",
+        "Standard",
+        "Draft",
+        "RFC",
+        "REC",
+        "PR",
+        "CR",
+        "WD",
+        "ED",
+        "Obsolete"
+      ]
+    }
+  },
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "url": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https://"
+      },
+      "status": {
+        "$ref": "#/definitions/status"
+      }
+    },
+    "required": [
+      "name",
+      "url",
+      "status"
+    ]
+  }
+}

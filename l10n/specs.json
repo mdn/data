@@ -1,0 +1,77 @@
+{
+  "CR": {
+    "de": "Anwärter Empfehlung",
+    "en-US": "Candidate Recommendation",
+    "fr": "Candidat au statut de recommandation",
+    "ja": "勧告候補",
+    "pt-BR": "Candidata a Recomendação",
+    "ru": "Кандидат в рекомендации"
+  },
+  "Draft": {
+    "de": "Entwurf",
+    "en-US": "Draft",
+    "fr": "Projet",
+    "ja": "ドラフト",
+    "pt-BR": "Rascunho",
+    "ru": "Черновик"
+  },
+  "ED": {
+    "de": "Bearbeiterentwurf",
+    "en-US": "Editor's Draft",
+    "fr": "Brouillon de l'éditeur",
+    "ja": "編集者草案",
+    "pt-BR": "Rascunho editorial",
+    "ru": "Редакторский черновик"
+  },
+  "Living": {
+    "de": "Lebender Standard",
+    "en-US": "Living Standard",
+    "fr": "Standard évolutif",
+    "ja": "現行の標準",
+    "pt-BR": "Padrão em tempo real",
+    "ru": "Живой стандарт"
+  },
+  "Obsolete": {
+    "de": "Veraltet",
+    "en-US": "Obsolete",
+    "fr": "Obsolète",
+    "ja": "廃止された",
+    "pt-BR": "Obsoleto",
+    "ru": "Устаревшая"
+  },
+  "PR": {
+    "de": "Vorgeschlagene Empfehlung",
+    "en-US": "Proposed Recommendation",
+    "fr": "Recommandation proposée",
+    "ja": "勧告案",
+    "pt-BR": "Recomendação proposta",
+    "ru": "Предложенная рекомендация"
+  },
+  "REC": {
+    "de": "Empfehlung",
+    "en-US": "Recommendation",
+    "fr": "Recommandation",
+    "ja": "勧告",
+    "pt-BR": "Recomendação",
+    "ru": "Рекомендация"
+  },
+  "RFC": {
+    "en-US": "IETF RFC"
+  },
+  "Standard": {
+    "de": "Standard",
+    "en-US": "Standard",
+    "fr": "Standard",
+    "ja": "標準",
+    "pt-BR": "Padrão",
+    "ru": "Стандарт"
+  },
+  "WD": {
+    "de": "Arbeitsentwurf",
+    "en-US": "Working Draft",
+    "fr": "Version de travail",
+    "ja": "草案",
+    "pt-BR": "Rascunho atual",
+    "ru": "Рабочий черновик"
+  }
+}
