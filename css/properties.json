@@ -1897,6 +1897,22 @@
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-appearance"
   },
+  "aspect-ratio": {
+    "syntax": "auto | <ratio>",
+    "media": "all",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Basic User Interface"
+    ],
+    "initial": "auto",
+    "appliesto": "allElementsExceptInlineBoxesAndInternalRubyOrTableBoxes",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/aspect-ratio"
+  },
   "azimuth": {
     "syntax": "<angle> | [ [ left-side | far-left | left | center-left | center | center-right | right | far-right | right-side ] || behind ] | leftwards | rightwards",
     "media": "aural",

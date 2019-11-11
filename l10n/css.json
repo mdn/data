@@ -173,6 +173,13 @@
     "ja": "生成コンテンツ及び疑似要素を除くすべての要素",
     "ru": "все элементы, кроме сгенерированного контента и псевдоэлементов"
   },
+  "allElementsExceptInlineBoxesAndInternalRubyOrTableBoxes": {
+    "de": "all elements except inline boxes and internal ruby or table boxes",
+    "en-US": "all elements except inline boxes and internal ruby or table boxes",
+    "fr": "all elements except inline boxes and internal ruby or table boxes",
+    "ja": "all elements except inline boxes and internal ruby or table boxes",
+    "ru": "all elements except inline boxes and internal ruby or table boxes"
+  },
   "allElementsExceptInternalTableDisplayTypes": {
     "de": "alle Elemente außer <code>table-row-group</code>, <code>table-header-group</code>, <code>table-footer-group</code>, <code>table-row</code>, <code>table-column-group</code> und <code>table-column</code>",
     "en-US": "all elements, except <code>table-row-group</code>, <code>table-header-group</code>, <code>table-footer-group</code>, <code>table-row</code>, <code>table-column-group</code> and <code>table-column</code>",
