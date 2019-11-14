@@ -162,6 +162,7 @@
         "allElementsButNonReplacedAndTableRows",
         "allElementsCreatingNativeWindows",
         "allElementsExceptGeneratedContentOrPseudoElements",
+        "allElementsExceptInlineBoxesAndInternalRubyOrTableBoxes",
         "allElementsExceptInternalTableDisplayTypes",
         "allElementsExceptNonReplacedInlineElementsTableRowsColumnsRowColumnGroups",
         "allElementsExceptTableDisplayTypes",
