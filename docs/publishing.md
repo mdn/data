@@ -1,6 +1,6 @@
 # Publishing a new version of MDN `data`
 
-Repo admins publish new releases of [data](https://www.npmjs.com/package/data) on npm.
+Repo admins publish new releases of [data](https://www.npmjs.com/package/mdn-data) on npm.
 This is then used by MDN to generate various sidebars and other things besides.
 Usually, this happens every Thursday (MDN never deploys to production on Fridays).
 
@@ -14,6 +14,6 @@ To create and publish a new version of `data`:
 4. Check if the commit passes fine on [Travis CI](https://travis-ci.org/mdn/data).
 5. If Travis is happy, push the git tag as well: `git push origin v2.0.43`.
 This step will trigger Travis to publish to npm automatically (see our [.travis.yml file](https://github.com/mdn/data/blob/master/.travis.yml)).
-6. Check [Travis CI](https://travis-ci.org/mdn/data) again for the v2.0.43 build and also check [data on npm](https://www.npmjs.com/package/data) to see if `2.0.43` shows up correctly once Travis has finished its work.
+6. Check [Travis CI](https://travis-ci.org/mdn/data) again for the v2.0.43 build and also check [data on npm](https://www.npmjs.com/package/mdn-data) to see if `2.0.43` shows up correctly once Travis has finished its work.
 7. Notify the MDN devs about the new release.
 8. Create a new [release on GitHub](https://github.com/mdn/data/releases) by running `npm run release-notes -- v2.0.43`).
