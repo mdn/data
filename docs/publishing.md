@@ -16,4 +16,3 @@ To create and publish a new version of `data`:
 This step will trigger Travis to publish to npm automatically (see our [.travis.yml file](https://github.com/mdn/data/blob/master/.travis.yml)).
 6. Check [Travis CI](https://travis-ci.org/mdn/data) again for the v2.0.43 build and also check [data on npm](https://www.npmjs.com/package/mdn-data) to see if `2.0.43` shows up correctly once Travis has finished its work.
 7. Notify the MDN devs about the new release.
-8. Create a new [release on GitHub](https://github.com/mdn/data/releases) by running `npm run release-notes -- v2.0.43`).
