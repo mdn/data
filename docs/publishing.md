@@ -9,7 +9,7 @@ Any admin can complete the following steps to publish a new version, but please 
 To create and publish a new version of `data`:
 
 1. Figure out the new version number by looking at [past releases](https://github.com/mdn/data/releases). We're using only patch versions until something major changes. Lets assume the next version should be `2.0.43`.
-2. On your updated and clean master branch, run `npm version patch -m "43rd alpha version"`. Locally, this updates `package.json`, creates a new commit, and creates a new release tag (see also the docs for [npm version](https://docs.npmjs.com/cli/version)).
+2. On your updated and clean master branch, run `npm version patch -m "43rd patch of v2"`. Locally, this updates `package.json`, creates a new commit, and creates a new release tag (see also the docs for [npm version](https://docs.npmjs.com/cli/version)).
 3. Push the commit to `master`: `git push origin master`.
 4. Check if the commit passes fine on [Travis CI](https://travis-ci.org/mdn/data).
 5. If Travis is happy, push the git tag as well: `git push origin v2.0.43`.
