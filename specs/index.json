@@ -357,7 +357,7 @@
   "CSS3 Writing Modes": {
     "name": "CSS Writing Modes Module Level&nbsp;3",
     "url": "https://drafts.csswg.org/css-writing-modes-3/",
-    "status": "CR"
+    "status": "PR"
   },
   "CSS4 Backgrounds": {
     "name": "CSS Backgrounds and Borders Module Level&nbsp;4",
@@ -553,6 +553,11 @@
     "name": "CSS Shapes Module Level&nbsp;1",
     "url": "https://drafts.csswg.org/css-shapes/",
     "status": "CR"
+  },
+  "CSS Shapes 2": {
+    "name": "CSS Shapes Module Level&nbsp;2",
+    "url": "https://drafts.csswg.org/css-shapes-2/",
+    "status": "ED"
   },
   "CSS Text Size Adjust": {
     "name": "CSS Mobile Text Size Adjustment Module Level&nbsp;1",
@@ -1611,12 +1616,12 @@
   },
   "Web Share API": {
     "name": "Web Share API",
-    "url": "https://wicg.github.io/web-share/",
+    "url": "https://w3c.github.io/web-share/",
     "status": "Draft"
   },
   "Web Share API 2": {
     "name": "Web Share API - Level 2",
-    "url": "https://wicg.github.io/web-share/level-2/",
+    "url": "https://w3c.github.io/web-share/level-2/",
     "status": "Draft"
   },
   "Web Speech API": {
