@@ -64,7 +64,7 @@ function checkSchema(dataFilename) {
       console.log('  JSON Schema – OK');
     } else {
       hasErrors = true;
-      console.log('  JSON Schema – ' + ajv.errors.length + ' error(s)');
+      console.log('  JSON Schema – ' + ajv.errors.length + ' error(s)')
       // console.log(betterAjvErrors(schema, data, ajv.errors, { indent: 2 }));
 
       // Output messages by one since better-ajv-errors wrongly joins messages
@@ -73,7 +73,6 @@ function checkSchema(dataFilename) {
       // - it feels better for performance to output messages one by one rather than a list
       // - it seems to be losing some errors when output a list
       ajv.errors.forEach(function(error) {
-        /** @type {string} */
         var message = betterAjvErrors(schema, data, [error], { indent: 2 });
 
         console.log('\n    ' + message.replace(/\n/g, '\n    '));
@@ -91,7 +90,7 @@ dictPaths.forEach(function(dir) {
 
       console.log(dir + '/' + filename);
 
-      checkStyle(absFilename);
+      checkStyle(absFilename)
       checkSchema(absFilename);
 
       console.log();

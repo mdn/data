@@ -47,6 +47,14 @@
     "pt-BR": "Recomendação proposta",
     "ru": "Предложенная рекомендация"
   },
+  "RC": {
+    "de": "Anwärter Empfehlung",
+    "en-US": "Release Candidate",
+    "fr": "En cours de validation comme recommandation",
+    "ja": "勧告候補",
+    "pt-BR": "Recomendação em homologação",
+    "ru": "Кандидат в рекомендации"
+  },
   "REC": {
     "de": "Empfehlung",
     "en-US": "Recommendation",
