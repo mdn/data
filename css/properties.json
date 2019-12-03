@@ -2159,7 +2159,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/background-position"
   },
   "background-position-x": {
-    "syntax": "[ center | [ left | right | x-start | x-end ]? <length-percentage>? ]#",
+    "syntax": "[ center | [ [ left | right | x-start | x-end ]? <length-percentage>? ]! ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2175,7 +2175,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/background-position-x"
   },
   "background-position-y": {
-    "syntax": "[ center | [ top | bottom | y-start | y-end ]? <length-percentage>? ]#",
+    "syntax": "[ center | [ [ top | bottom | y-start | y-end ]? <length-percentage>? ]! ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
