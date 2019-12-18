@@ -311,6 +311,18 @@
         "computed": "asSpecified",
         "order": "orderOfAppearance",
         "status": "experimental"
+      },
+      "size": {
+        "syntax": "<length>{1,2} | auto | [ <page-size> || [ portrait | landscape ] ]",
+        "media": [
+          "visual",
+          "paged"
+        ],
+        "initial": "auto",
+        "percentages": "no",
+        "computed": "asSpecifiedRelativeToAbsoluteLengths",
+        "order": "orderOfAppearance",
+        "status": "experimental"
       }
     },
     "status": "standard",
