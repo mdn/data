@@ -1942,7 +1942,7 @@
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/backdrop-filter"
   },
   "backface-visibility": {
@@ -4084,7 +4084,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain"
   },
   "content": {
@@ -4551,7 +4551,7 @@
       "::first-line",
       "::placeholder"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-variation-settings"
   },
   "font-size": {
@@ -6005,7 +6005,7 @@
     ],
     "order": "perGrammar",
     "stacking": true,
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-border"
   },
   "mask-border-mode": {
@@ -6021,7 +6021,7 @@
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-mode"
   },
   "mask-border-outset": {
@@ -6037,7 +6037,7 @@
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-outset"
   },
   "mask-border-repeat": {
@@ -6053,7 +6053,7 @@
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-repeat"
   },
   "mask-border-slice": {
@@ -6069,7 +6069,7 @@
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-slice"
   },
   "mask-border-source": {
@@ -6085,7 +6085,7 @@
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecifiedURLsAbsolute",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-source"
   },
   "mask-border-width": {
@@ -6101,7 +6101,7 @@
     "appliesto": "allElementsSVGContainerElements",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-width"
   },
   "mask-clip": {
@@ -6261,7 +6261,7 @@
     "appliesto": "sameAsWidthAndHeight",
     "computed": "sameAsMaxWidthAndMaxHeight",
     "order": "uniqueOrder",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/max-block-size"
   },
   "max-height": {
@@ -6293,7 +6293,7 @@
     "appliesto": "sameAsWidthAndHeight",
     "computed": "sameAsMaxWidthAndMaxHeight",
     "order": "uniqueOrder",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/max-inline-size"
   },
   "max-lines": {
@@ -6476,7 +6476,7 @@
     ],
     "order": "perGrammar",
     "stacking": true,
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset"
   },
   "offset-anchor": {
@@ -6492,7 +6492,7 @@
     "appliesto": "transformableElements",
     "computed": "forLengthAbsoluteValueOtherwisePercentage",
     "order": "perGrammar",
-    "status": "experimental"
+    "status": "standard"
   },
   "offset-distance": {
     "syntax": "<length-percentage>",
@@ -6507,7 +6507,7 @@
     "appliesto": "transformableElements",
     "computed": "forLengthAbsoluteValueOtherwisePercentage",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-distance"
   },
   "offset-path": {
@@ -6524,7 +6524,7 @@
     "computed": "asSpecified",
     "order": "perGrammar",
     "stacking": true,
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-path"
   },
   "offset-position": {
@@ -6555,7 +6555,7 @@
     "appliesto": "transformableElements",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-rotate"
   },
   "opacity": {
@@ -6745,7 +6745,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "experimental"
+    "status": "standard"
   },
   "overflow-block": {
     "syntax": "visible | hidden | clip | scroll | auto",
@@ -6760,7 +6760,7 @@
     "appliesto": "blockContainersFlexContainersGridContainers",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "experimental"
+    "status": "standard"
   },
   "overflow-clip-box": {
     "syntax": "padding-box | content-box",
@@ -6791,7 +6791,7 @@
     "appliesto": "blockContainersFlexContainersGridContainers",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "experimental"
+    "status": "standard"
   },
   "overflow-wrap": {
     "syntax": "normal | break-word | anywhere",
@@ -7160,7 +7160,7 @@
     "appliesto": "textElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/paint-order"
   },
   "perspective": {
@@ -8215,7 +8215,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip-ink"
   },
   "text-decoration-style": {
