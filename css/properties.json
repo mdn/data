@@ -4843,7 +4843,7 @@
       "row-gap",
       "column-gap"
     ],
-    "appliesto": "gridContainers",
+    "appliesto": "multiColumnElementsFlexContainersGridContainers",
     "computed": [
       "row-gap",
       "column-gap"
