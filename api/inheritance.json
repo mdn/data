@@ -1589,6 +1589,14 @@
     "inherits": "Event",
     "implements": []
   },
+  "RTCDtlsTransport": {
+    "inherits": "EventTarget",
+    "implements": []
+  },
+  "RTCIceTransport": {
+    "inherits": "EventTarget",
+    "implements": []
+  },
   "RTCPeerConnection": {
     "inherits": "EventTarget",
     "implements": []
@@ -1603,6 +1611,10 @@
   },
   "RTCPeerConnectionIdentityEvent": {
     "inherits": "Event",
+    "implements": []
+  },
+  "RTCSctpTransport": {
+    "inherits": "EventTarget",
     "implements": []
   },
   "RTCTrackEvent": {
