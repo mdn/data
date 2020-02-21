@@ -1,4 +1,20 @@
 {
+  "AbsoluteOrientationSensor": {
+    "inherits": "OrientationSensor",
+    "implements": []
+  },
+  "AbstractRange": {
+    "inherits": null,
+    "implements": []
+  },
+  "Accelerometer": {
+    "inherits": "Sensor",
+    "implements": []
+  },
+  "AmbientLightSensor": {
+    "inherits": "Sensor",
+    "implements": []
+  },
   "AnalyserNode": {
     "inherits": "AudioNode",
     "implements": [
@@ -15,9 +31,7 @@
   },
   "Attr": {
     "inherits": "Node",
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "AudioBufferSourceNode": {
     "inherits": "AudioScheduledSourceNode",
@@ -63,9 +77,7 @@
   },
   "BarProp": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "BaseAudioContext": {
     "inherits": "EventTarget",
@@ -143,9 +155,7 @@
   },
   "BoxObject": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "BroadcastChannel": {
     "inherits": "EventTarget",
@@ -238,8 +248,12 @@
   },
   "CSSPrimitiveValue": {
     "inherits": "CSSValue",
+    "implements": []
+  },
+  "CSSPseudoElement": {
+    "inherits": "EventTarget",
     "implements": [
-      "LegacyQueryInterface"
+      "Animatable"
     ]
   },
   "CSSRotate": {
@@ -264,9 +278,7 @@
   },
   "CSSStyleDeclaration": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "CSSStyleSheet": {
     "inherits": "StyleSheet",
@@ -315,9 +327,7 @@
   },
   "CSSValueList": {
     "inherits": "CSSValue",
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "CallEvent": {
     "inherits": "Event",
@@ -353,9 +363,7 @@
   },
   "CaretPosition": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "ChannelMergerNode": {
     "inherits": "AudioNode",
@@ -394,9 +402,7 @@
   },
   "Comment": {
     "inherits": "CharacterData",
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "CompositionEvent": {
     "inherits": "UIEvent",
@@ -422,9 +428,7 @@
   },
   "Crypto": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "CustomEvent": {
     "inherits": "Event",
@@ -460,9 +464,7 @@
   },
   "DOMImplementation": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "DOMMatrix": {
     "inherits": "DOMMatrixReadOnly",
@@ -474,9 +476,7 @@
   },
   "DOMParser": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "DOMPoint": {
     "inherits": "DOMPointReadOnly",
@@ -498,15 +498,11 @@
   },
   "DOMStringMap": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "DOMTokenList": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "DOMTransactionEvent": {
     "inherits": "Event",
@@ -572,7 +568,6 @@
       "FontFaceSource",
       "GeometryUtils",
       "GlobalEventHandlers",
-      "LegacyQueryInterface",
       "OnErrorEventHandlerForNodes",
       "ParentNode",
       "TouchEventHandlers",
@@ -582,15 +577,13 @@
   "DocumentFragment": {
     "inherits": "Node",
     "implements": [
-      "LegacyQueryInterface",
       "ParentNode"
     ]
   },
   "DocumentType": {
     "inherits": "Node",
     "implements": [
-      "ChildNode",
-      "LegacyQueryInterface"
+      "ChildNode"
     ]
   },
   "DownloadEvent": {
@@ -613,7 +606,6 @@
       "Animatable",
       "ChildNode",
       "GeometryUtils",
-      "LegacyQueryInterface",
       "NonDocumentTypeChildNode",
       "ParentNode"
     ]
@@ -628,15 +620,11 @@
   },
   "Event": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "EventSource": {
     "inherits": "EventTarget",
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "Exception": {
     "inherits": null,
@@ -662,9 +650,7 @@
   },
   "FileList": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "FileReader": {
     "inherits": "EventTarget",
@@ -680,9 +666,7 @@
   },
   "FormData": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "GainNode": {
     "inherits": "AudioNode",
@@ -700,6 +684,10 @@
   },
   "GamepadEvent": {
     "inherits": "Event",
+    "implements": []
+  },
+  "Gyroscope": {
+    "inherits": "Sensor",
     "implements": []
   },
   "HMDVRDevice": {
@@ -756,9 +744,7 @@
   },
   "HTMLCollection": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "HTMLContentElement": {
     "inherits": "HTMLElement",
@@ -1062,9 +1048,7 @@
   },
   "History": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "IDBCursorWithValue": {
     "inherits": "IDBCursor",
@@ -1140,6 +1124,10 @@
       "KeyEvent"
     ]
   },
+  "LinearAccelerationSensor": {
+    "inherits": "Accelerometer",
+    "implements": []
+  },
   "ListBoxObject": {
     "inherits": "BoxObject",
     "implements": []
@@ -1150,6 +1138,10 @@
   },
   "Location": {
     "inherits": null,
+    "implements": []
+  },
+  "Magnetometer": {
+    "inherits": "Sensor",
     "implements": []
   },
   "MediaDevices": {
@@ -1212,6 +1204,10 @@
     "inherits": "BoxObject",
     "implements": []
   },
+  "MerchantValidationEvent": {
+    "inherits": "Event",
+    "implements": []
+  },
   "MessageEvent": {
     "inherits": "Event",
     "implements": []
@@ -1224,9 +1220,7 @@
   },
   "MimeTypeArray": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "MouseEvent": {
     "inherits": "UIEvent",
@@ -1380,26 +1374,19 @@
   },
   "MutationObserver": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "MutationRecord": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "NamedNodeMap": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "Navigator": {
     "inherits": null,
     "implements": [
-      "LegacyQueryInterface",
       "NavigatorBattery",
       "NavigatorContentUtils",
       "NavigatorDataStore",
@@ -1422,21 +1409,15 @@
   },
   "NodeIterator": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "NodeList": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "Notification": {
     "inherits": "EventTarget",
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "NotifyPaintEvent": {
     "inherits": "Event",
@@ -1452,12 +1433,14 @@
   },
   "OfflineResourceList": {
     "inherits": "EventTarget",
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "OffscreenCanvas": {
     "inherits": "EventTarget",
+    "implements": []
+  },
+  "OrientationSensor": {
+    "inherits": "Sensor",
     "implements": []
   },
   "OscillatorNode": {
@@ -1472,15 +1455,11 @@
   },
   "PaintRequest": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "PaintRequestList": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "PannerNode": {
     "inherits": "AudioNode",
@@ -1488,11 +1467,29 @@
       "AudioNodePassThrough"
     ]
   },
+  "PaymentAddress": {
+    "inherits": null,
+    "implements": []
+  },
+  "PaymentMethodChangeEvent": {
+    "inherits": "PaymentRequestUpdateEvent",
+    "implements": []
+  },
+  "PaymentRequest": {
+    "inherits": "EventTarget",
+    "implements": []
+  },
+  "PaymentRequestUpdateEvent": {
+    "inherits": "Event",
+    "implements": []
+  },
+  "PaymentResponse": {
+    "inherits": "EventTarget",
+    "implements": []
+  },
   "Performance": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "PerformanceLongTaskTiming": {
     "inherits": "PerformanceEntry",
@@ -1520,15 +1517,11 @@
   },
   "Plugin": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "PluginArray": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "PluginCrashedEvent": {
     "inherits": "Event",
@@ -1560,9 +1553,7 @@
   },
   "ProcessingInstruction": {
     "inherits": "CharacterData",
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "ProgressEvent": {
     "inherits": "Event",
@@ -1623,10 +1614,8 @@
     "implements": []
   },
   "Range": {
-    "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "inherits": "AbstractRange",
+    "implements": []
   },
   "RecordErrorEvent": {
     "inherits": "Event",
@@ -1634,9 +1623,11 @@
   },
   "Rect": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
+  },
+  "RelativeOrientationSensor": {
+    "inherits": "OrientationSensor",
+    "implements": []
   },
   "Request": {
     "inherits": null,
@@ -1649,6 +1640,10 @@
     "implements": [
       "Body"
     ]
+  },
+  "StaticRange": {
+    "inherits": "AbstractRange",
+    "implements": []
   },
   "SVGAElement": {
     "inherits": "SVGGraphicsElement",
@@ -1676,39 +1671,27 @@
   },
   "SVGAnimatedEnumeration": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "SVGAnimatedInteger": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "SVGAnimatedNumber": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "SVGAnimatedNumberList": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "SVGAnimatedPreserveAspectRatio": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "SVGAnimatedString": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "SVGAnimationElement": {
     "inherits": "SVGElement",
@@ -1936,9 +1919,7 @@
   },
   "SVGLengthList": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "SVGLineElement": {
     "inherits": "SVGGeometryElement",
@@ -1972,9 +1953,7 @@
   },
   "SVGNumberList": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "SVGPathElement": {
     "inherits": "SVGGeometryElement",
@@ -2052,9 +2031,7 @@
   },
   "SVGPathSegList": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "SVGPathSegMovetoAbs": {
     "inherits": "SVGPathSeg",
@@ -2074,15 +2051,11 @@
   },
   "SVGPoint": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "SVGPointList": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "SVGPolygonElement": {
     "inherits": "SVGGeometryElement",
@@ -2098,9 +2071,7 @@
   },
   "SVGPreserveAspectRatio": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "SVGRadialGradientElement": {
     "inherits": "SVGGradientElement",
@@ -2108,9 +2079,7 @@
   },
   "SVGRect": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "SVGRectElement": {
     "inherits": "SVGGeometryElement",
@@ -2139,9 +2108,7 @@
   },
   "SVGStringList": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "SVGStyleElement": {
     "inherits": "SVGElement",
@@ -2186,9 +2153,7 @@
   },
   "SVGTransformList": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "SVGUseElement": {
     "inherits": "SVGGraphicsElement",
@@ -2209,9 +2174,7 @@
   },
   "Screen": {
     "inherits": "EventTarget",
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "ScriptProcessorNode": {
     "inherits": "AudioNode",
@@ -2233,11 +2196,17 @@
   },
   "Selection": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "SelectionStateChangedEvent": {
+    "inherits": "Event",
+    "implements": []
+  },
+  "Sensor": {
+    "inherits": "EventTarget",
+    "implements": []
+  },
+  "SensorErrorEvent": {
     "inherits": "Event",
     "implements": []
   },
@@ -2341,9 +2310,7 @@
   },
   "StyleSheet": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "StyleSheetApplicableStateChangeEvent": {
     "inherits": "Event",
@@ -2408,8 +2375,7 @@
   "Text": {
     "inherits": "CharacterData",
     "implements": [
-      "GeometryUtils",
-      "LegacyQueryInterface"
+      "GeometryUtils"
     ]
   },
   "TextTrack": {
@@ -2426,9 +2392,7 @@
   },
   "Touch": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "TouchEvent": {
     "inherits": "UIEvent",
@@ -2436,9 +2400,7 @@
   },
   "TouchList": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "TrackEvent": {
     "inherits": "Event",
@@ -2454,15 +2416,11 @@
   },
   "TreeColumns": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "TreeWalker": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "UDPMessageEvent": {
     "inherits": "Event",
@@ -2489,9 +2447,7 @@
   },
   "UndoManager": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "UserProximityEvent": {
     "inherits": "Event",
@@ -2507,9 +2463,7 @@
   },
   "ValidityState": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "VideoStreamTrack": {
     "inherits": "MediaStreamTrack",
@@ -2535,9 +2489,7 @@
   },
   "WebSocket": {
     "inherits": "EventTarget",
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "WheelEvent": {
     "inherits": "MouseEvent",
@@ -2549,7 +2501,6 @@
       "ChromeWindow",
       "GlobalCrypto",
       "GlobalEventHandlers",
-      "LegacyQueryInterface",
       "OnErrorEventHandlerForWindow",
       "SpeechSynthesisGetter",
       "TouchEventHandlers",
@@ -2600,9 +2551,7 @@
   },
   "XMLHttpRequest": {
     "inherits": "XMLHttpRequestEventTarget",
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "XMLHttpRequestEventTarget": {
     "inherits": "EventTarget",
@@ -2610,15 +2559,11 @@
   },
   "XMLHttpRequestUpload": {
     "inherits": "XMLHttpRequestEventTarget",
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "XMLSerializer": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
   },
   "XMLStylesheetProcessingInstruction": {
     "inherits": "ProcessingInstruction",
@@ -2626,9 +2571,83 @@
   },
   "XPathEvaluator": {
     "inherits": null,
-    "implements": [
-      "LegacyQueryInterface"
-    ]
+    "implements": []
+  },
+  "XR": {
+    "inherits": "EventTarget",
+    "implements": []
+  },
+  "XRBoundedReferenceSpace": {
+    "inherits": "XRReferenceSpace",
+    "implements": []
+  },
+  "XRFrame": {
+    "inherits": null,
+    "implements": []
+  },
+  "XRInputSource": {
+    "inherits": null,
+    "implements": []
+  },
+  "XRInputSourceArray": {
+    "inherits": null,
+    "implements": []
+  },
+  "XRInputSourceEvent": {
+    "inherits": "Event",
+    "implements": []
+  },
+  "XRInputSourcesChangeEvent": {
+    "inherits": "Event",
+    "implements": []
+  },
+  "XRPose": {
+    "inherits": null,
+    "implements": []
+  },
+  "XRReferenceSpace": {
+    "inherits": "XRSpace",
+    "implements": []
+  },
+  "XRReferenceSpaceEvent": {
+    "inherits": "Event",
+    "implements": []
+  },
+  "XRRenderState": {
+    "inherits": null,
+    "implements": []
+  },
+  "XRRigidTransform": {
+    "inherits": null,
+    "implements": []
+  },
+  "XRSession": {
+    "inherits": "EventTarget",
+    "implements": []
+  },
+  "XRSessionEvent": {
+    "inherits": "Event",
+    "implements": []
+  },
+  "XRSpace": {
+    "inherits": "EventTarget",
+    "implements": []
+  },
+  "XRView": {
+    "inherits": null,
+    "implements": []
+  },
+  "XRViewerPose": {
+    "inherits": "XRPose",
+    "implements": []
+  },
+  "XRViewport": {
+    "inherits": null,
+    "implements": []
+  },
+  "XRWebGLLayer": {
+    "inherits": null,
+    "implements": []
   },
   "XULCommandEvent": {
     "inherits": "UIEvent",
