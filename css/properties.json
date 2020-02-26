@@ -8302,11 +8302,11 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-style"
   },
   "text-decoration-thickness": {
-    "syntax": "auto | from-font | <length>",
+    "syntax": "auto | from-font | <length> | <percentage> ",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
-    "percentages": "no",
+    "percentages": "1 em",
     "groups": [
       "CSS Text Decoration"
     ],
@@ -8537,11 +8537,11 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-transform"
   },
   "text-underline-offset": {
-    "syntax": "auto | from-font | <length>",
+    "syntax": "auto | from-font | <length> | <percentage> ",
     "media": "visual",
     "inherited": true,
     "animationType": "byComputedValueType",
-    "percentages": "no",
+    "percentages": "1 em",
     "groups": [
       "CSS Text Decoration"
     ],
