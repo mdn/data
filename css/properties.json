@@ -8306,7 +8306,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
-    "percentages": "1 em",
+    "percentages": "referToSizeOfFont",
     "groups": [
       "CSS Text Decoration"
     ],
@@ -8541,7 +8541,7 @@
     "media": "visual",
     "inherited": true,
     "animationType": "byComputedValueType",
-    "percentages": "1 em",
+    "percentages": "referToSizeOfFont",
     "groups": [
       "CSS Text Decoration"
     ],
