@@ -8306,7 +8306,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
-    "percentages": "referToSizeOfFont",
+    "percentages": "referToElementFontSize",
     "groups": [
       "CSS Text Decoration"
     ],
@@ -8537,11 +8537,11 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-transform"
   },
   "text-underline-offset": {
-    "syntax": "auto | from-font | <length> | <percentage> ",
+    "syntax": "auto | <length> | <percentage> ",
     "media": "visual",
     "inherited": true,
     "animationType": "byComputedValueType",
-    "percentages": "referToSizeOfFont",
+    "percentages": "referToElementFontSize",
     "groups": [
       "CSS Text Decoration"
     ],
