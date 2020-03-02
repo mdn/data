@@ -8558,7 +8558,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-underline-offset"
   },
   "text-underline-position": {
-    "syntax": "auto | [ under || [ left | right ] ]",
+    "syntax": "auto | from-font | [ under || [ left | right ] ]",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
