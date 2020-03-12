@@ -8265,7 +8265,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip"
   },
   "text-decoration-skip-ink": {
-    "syntax": "auto | none",
+    "syntax": "auto | all | none",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
