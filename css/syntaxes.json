@@ -45,7 +45,7 @@
     "syntax": "[ first | last ]? baseline"
   },
   "basic-shape": {
-    "syntax": "<inset()> | <circle()> | <ellipse()> | <polygon()>"
+    "syntax": "<inset()> | <circle()> | <ellipse()> | <polygon()> | <path()>"
   },
   "bg-image": {
     "syntax": "none | <image>"
@@ -520,6 +520,9 @@
   },
   "page-selector": {
     "syntax": "<pseudo-page>+ | <ident> <pseudo-page>*"
+  },
+  "path()": {
+    "syntax": "path( [ <fill-rule>, ]? <string> )"
   },
   "paint()": {
     "syntax": "paint( <ident>, <declaration-value>? )"
