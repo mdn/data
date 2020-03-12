@@ -5583,7 +5583,7 @@
   "line-break": {
     "syntax": "auto | loose | normal | strict | anywhere",
     "media": "visual",
-    "inherited": false,
+    "inherited": true,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
