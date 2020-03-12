@@ -5226,7 +5226,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/hanging-punctuation"
   },
   "height": {
-    "syntax": "[ <length> | <percentage> ] && [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto",
+    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content(<length-percentage>)",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -6290,7 +6290,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/max-block-size"
   },
   "max-height": {
-    "syntax": "<length> | <percentage> | none | max-content | min-content | fit-content | fill-available",
+    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content(<length-percentage>)",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -6337,7 +6337,7 @@
     "status": "experimental"
   },
   "max-width": {
-    "syntax": "<length> | <percentage> | none | max-content | min-content | fit-content | fill-available",
+    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content(<length-percentage>)",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -6369,7 +6369,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/min-block-size"
   },
   "min-height": {
-    "syntax": "<length> | <percentage> | auto | max-content | min-content | fit-content | fill-available",
+    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content(<length-percentage>)",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -6401,7 +6401,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/min-inline-size"
   },
   "min-width": {
-    "syntax": "<length> | <percentage> | auto | max-content | min-content | fit-content | fill-available",
+    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content(<length-percentage>)",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -8880,7 +8880,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/widows"
   },
   "width": {
-    "syntax": "[ <length> | <percentage> ] && [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto",
+    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content(<length-percentage>)",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
