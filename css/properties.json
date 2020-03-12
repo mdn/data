@@ -2251,7 +2251,7 @@
     "syntax": "<'width'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "lpc",
     "percentages": "blockSizeOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -2370,7 +2370,11 @@
     "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": [
+      "border-block-end-color",
+      "border-block-end-style",
+      "border-block-end-width"
+    ],
     "percentages": "no",
     "groups": [
       "CSS Logical Properties"
@@ -2394,7 +2398,7 @@
     "syntax": "<'border-top-color'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "color",
     "percentages": "no",
     "groups": [
       "CSS Logical Properties"
@@ -2426,7 +2430,7 @@
     "syntax": "<'border-top-width'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -2442,7 +2446,11 @@
     "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": [
+      "border-block-start-color",
+      "border-block-start-style",
+      "border-block-start-width"
+    ],
     "percentages": "no",
     "groups": [
       "CSS Logical Properties"
@@ -2466,7 +2474,7 @@
     "syntax": "<'border-top-color'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "color",
     "percentages": "no",
     "groups": [
       "CSS Logical Properties"
@@ -2498,7 +2506,7 @@
     "syntax": "<'border-top-width'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -2881,7 +2889,11 @@
     "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": [
+      "border-inline-end-color",
+      "border-inline-end-style",
+      "border-inline-end-width"
+    ],
     "percentages": "no",
     "groups": [
       "CSS Logical Properties"
@@ -2953,7 +2965,7 @@
     "syntax": "<'border-top-color'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "color",
     "percentages": "no",
     "groups": [
       "CSS Logical Properties"
@@ -2985,7 +2997,7 @@
     "syntax": "<'border-top-width'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -3001,7 +3013,11 @@
     "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": [
+      "border-inline-start-color",
+      "border-inline-start-style",
+      "border-inline-start-width"
+    ],
     "percentages": "no",
     "groups": [
       "CSS Logical Properties"
@@ -3025,7 +3041,7 @@
     "syntax": "<'border-top-color'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "color",
     "percentages": "no",
     "groups": [
       "CSS Logical Properties"
@@ -3057,7 +3073,7 @@
     "syntax": "<'border-top-width'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -5356,7 +5372,7 @@
     "syntax": "<'width'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "lpc",
     "percentages": "inlineSizeOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -5770,7 +5786,7 @@
     "syntax": "<'margin-left'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "length",
     "percentages": "dependsOnLayoutModel",
     "groups": [
       "CSS Logical Properties"
@@ -5786,7 +5802,7 @@
     "syntax": "<'margin-left'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "length",
     "percentages": "dependsOnLayoutModel",
     "groups": [
       "CSS Logical Properties"
@@ -5838,7 +5854,7 @@
     "syntax": "<'margin-left'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "length",
     "percentages": "dependsOnLayoutModel",
     "groups": [
       "CSS Logical Properties"
@@ -5854,7 +5870,7 @@
     "syntax": "<'margin-left'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "length",
     "percentages": "dependsOnLayoutModel",
     "groups": [
       "CSS Logical Properties"
@@ -6277,7 +6293,7 @@
     "syntax": "<'max-width'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "lpc",
     "percentages": "blockSizeOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -6309,7 +6325,7 @@
     "syntax": "<'max-width'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "lpc",
     "percentages": "inlineSizeOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -6356,7 +6372,7 @@
     "syntax": "<'min-width'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "lpc",
     "percentages": "blockSizeOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -6388,7 +6404,7 @@
     "syntax": "<'min-width'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "lpc",
     "percentages": "inlineSizeOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -6996,7 +7012,7 @@
     "syntax": "<'padding-left'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -7012,7 +7028,7 @@
     "syntax": "<'padding-left'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -7064,7 +7080,7 @@
     "syntax": "<'padding-left'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -7080,7 +7096,7 @@
     "syntax": "<'padding-left'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
