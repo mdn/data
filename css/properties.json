@@ -6768,7 +6768,10 @@
     ],
     "initial": "visible",
     "appliesto": "blockContainersFlexContainersGridContainers",
-    "computed": "asSpecified",
+    "computed": [
+      "overflow-x",
+      "overflow-y"
+    ],
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow"
@@ -6799,7 +6802,7 @@
     ],
     "initial": "auto",
     "appliesto": "blockContainersFlexContainersGridContainers",
-    "computed": "asSpecified",
+    "computed": "asSpecifiedButVisibleOrClipReplacedToAutoOrHiddenIfOtherValueDifferent",
     "order": "perGrammar",
     "status": "standard"
   },
@@ -6830,7 +6833,7 @@
     ],
     "initial": "auto",
     "appliesto": "blockContainersFlexContainersGridContainers",
-    "computed": "asSpecified",
+    "computed": "asSpecifiedButVisibleOrClipReplacedToAutoOrHiddenIfOtherValueDifferent",
     "order": "perGrammar",
     "status": "standard"
   },
@@ -6861,7 +6864,7 @@
     ],
     "initial": "visible",
     "appliesto": "blockContainersFlexContainersGridContainers",
-    "computed": "asSpecified",
+    "computed": "asSpecifiedButVisibleOrClipReplacedToAutoOrHiddenIfOtherValueDifferent",
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow-x"
@@ -6877,7 +6880,7 @@
     ],
     "initial": "visible",
     "appliesto": "blockContainersFlexContainersGridContainers",
-    "computed": "asSpecified",
+    "computed": "asSpecifiedButVisibleOrClipReplacedToAutoOrHiddenIfOtherValueDifferent",
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow-y"

@@ -109,6 +109,7 @@
         "asLength",
         "asSpecified",
         "asSpecifiedAppliesToEachProperty",
+        "asSpecifiedButVisibleOrClipReplacedToAutoOrHiddenIfOtherValueDifferent",
         "asSpecifiedExceptMatchParent",
         "asSpecifiedExceptPositionedFloatingAndRootElementsKeywordMaybeDifferent",
         "asSpecifiedRelativeToAbsoluteLengths",
