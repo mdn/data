@@ -8642,7 +8642,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform"
   },
   "transform-box": {
-    "syntax": "border-box | fill-box | view-box",
+    "syntax": "content-box | border-box | fill-box | stroke-box | view-box",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -8650,10 +8650,10 @@
     "groups": [
       "CSS Transforms"
     ],
-    "initial": "border-box ",
+    "initial": "view-box",
     "appliesto": "transformableElements",
     "computed": "asSpecified",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-box"
   },
