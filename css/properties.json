@@ -803,7 +803,7 @@
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-appearance"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/appearance"
   },
   "-moz-binding": {
     "syntax": "<url> | none",
@@ -1191,7 +1191,7 @@
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-appearance"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/appearance"
   },
   "-webkit-border-before": {
     "syntax": "<'border-width'> || <'border-style'> || <'color'>",
@@ -1882,7 +1882,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timing-function"
   },
   "appearance": {
-    "syntax": "none | auto | button | textfield | <compat>",
+    "syntax": "none | auto | button | textfield | menulist-button | <compat-auto>",
     "media": "all",
     "inherited": false,
     "animationType": "discrete",
@@ -1895,7 +1895,7 @@
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-appearance"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/appearance"
   },
   "aspect-ratio": {
     "syntax": "auto | <ratio>",

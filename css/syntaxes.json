@@ -122,8 +122,8 @@
   "common-lig-values": {
     "syntax": "[ common-ligatures | no-common-ligatures ]"
   },
-  "compat": {
-    "syntax": "searchfield | textarea | push-button | button-bevel | slider-horizontal | checkbox | radio | square-button | menulist | menulist-button | listbox | meter | progress-bar"
+  "compat-auto": {
+    "syntax": "searchfield | textarea | push-button | slider-horizontal | checkbox | radio | square-button | menulist | listbox | meter | progress-bar"
   },
   "composite-style": {
     "syntax": "clear | copy | source-over | source-in | source-out | source-atop | destination-over | destination-in | destination-out | destination-atop | xor"
