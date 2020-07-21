@@ -285,7 +285,7 @@
     "syntax": "[ normal | small-caps ]"
   },
   "font-weight-absolute": {
-    "syntax": "normal | bold | <number>"
+    "syntax": "normal | bold | <number [1,1000]>"
   },
   "frequency-percentage": {
     "syntax": "<frequency> | <percentage>"
