@@ -4612,6 +4612,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-size-adjust"
   },
+  "font-smooth": {
+    "syntax": "auto | never | always | <absolute-size> | <length>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Fonts"
+    ],
+    "initial": "auto",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-smooth"
+  },
   "font-stretch": {
     "syntax": "<font-stretch-absolute>",
     "media": "visual",
