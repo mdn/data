@@ -6644,7 +6644,7 @@
       "CSS Flexible Box Layout"
     ],
     "initial": "0",
-    "appliesto": "flexItemsAndAbsolutelyPositionedFlexContainerChildren",
+    "appliesto": "flexItemsGridItemsAbsolutelyPositionedContainerChildren",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "standard",
