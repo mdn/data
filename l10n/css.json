@@ -661,6 +661,10 @@
     "ja": "フロー内の疑似要素を含むフレックスアイテム",
     "ru": "flex-элементы, в том числе в потоке псевдоэлементов"
   },
+  "flexItemsGridItemsAbsolutelyPositionedContainerChildren": {
+    "en-US": "Flex items, grid items, and absolutely-positioned flex and grid container children",
+    "ru": "flex-элементы, grid-элементы и абсолютно спозиционированные потомки flex- и grid-контейнеров"
+  },
   "flexItemsGridItemsAndAbsolutelyPositionedBoxes": {
     "en-US": "flex items, grid items, and absolutely-positioned boxes"
   },
