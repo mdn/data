@@ -123,7 +123,7 @@
     "syntax": "[ common-ligatures | no-common-ligatures ]"
   },
   "compat-auto": {
-    "syntax": "searchfield | textarea | push-button | slider-horizontal | checkbox | radio | square-button | menulist | listbox | meter | progress-bar"
+    "syntax": "searchfield | textarea | push-button | slider-horizontal | checkbox | radio | square-button | menulist | listbox | meter | progress-bar | button"
   },
   "composite-style": {
     "syntax": "clear | copy | source-over | source-in | source-out | source-atop | destination-over | destination-in | destination-out | destination-atop | xor"
