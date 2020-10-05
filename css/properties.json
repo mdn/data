@@ -8194,7 +8194,7 @@
     "syntax": "none | all | [ digits <integer>? ]",
     "media": "visual",
     "inherited": true,
-    "animationType": "discrete",
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
       "CSS Writing Modes"
