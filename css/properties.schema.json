@@ -27,6 +27,7 @@
         "integer",
         "length",
         "lpc",
+        "notAnimatable",
         "numberOrLength",
         "number",
         "position",
