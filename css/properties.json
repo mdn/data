@@ -238,6 +238,38 @@
     "status": "nonstandard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-flow-into"
   },
+  "-ms-grid-columns": {
+    "syntax": "none | <track-list> | <auto-track-list>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "simpleListOfLpcDifferenceLpc",
+    "percentages": "referToDimensionOfContentArea",
+    "groups": [
+      "CSS Grid Layout"
+    ],
+    "initial": "none",
+    "appliesto": "gridContainers",
+    "computed": "asSpecifiedRelativeToAbsoluteLengths",
+    "order": "uniqueOrder",
+    "status": "nonstandard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-grid-columns"
+  },
+  "-ms-grid-rows": {
+    "syntax": "none | <track-list> | <auto-track-list>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "simpleListOfLpcDifferenceLpc",
+    "percentages": "referToDimensionOfContentArea",
+    "groups": [
+      "CSS Grid Layout"
+    ],
+    "initial": "none",
+    "appliesto": "gridContainers",
+    "computed": "asSpecifiedRelativeToAbsoluteLengths",
+    "order": "uniqueOrder",
+    "status": "nonstandard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-grid-rows"
+  },
   "-ms-high-contrast-adjust": {
     "syntax": "auto | none",
     "media": "visual",
