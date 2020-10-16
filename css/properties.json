@@ -918,7 +918,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-float-edge"
   },
   "-moz-force-broken-image-icon": {
-    "syntax": "<integer>",
+    "syntax": "<integer [0,1]>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
