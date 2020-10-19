@@ -6309,6 +6309,7 @@
     "syntax": "normal | compact",
     "media": "visual",
     "inherited": true,
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
       "MathML"

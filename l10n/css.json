@@ -984,6 +984,9 @@
     "ja": "通常要素で使われると常に <code>normal</code>。{{cssxref(\"::before\")}} 及び {{cssxref(\"::after\")}} では: <code>normal</code> の指定があれば計算値は <code>none</code>。指定がなければ、<ul><li>URI 値は、絶対的 URI となる</li><li><code>attr()</code> 値は、計算値の文字列となる</li><li>その他のキーワードについては指定どおり</li></ul>",
     "ru": "На элементах всегда вычисляется как <code>normal</code>. На {{cssxref(\"::before\")}} и {{cssxref(\"::after\")}}, если <code>normal</code> указано, интерпретируется как <code>none</code>. Иначе, для значений URI, абсолютного URI; для значений <code>attr()</code> - результирующая строка; для других ключевых слов, как указано."
   },
+  "notAnimatable": {
+    "en-US": "notAnimatable"
+  },
   "number": {
     "de": "<a href=\"/de/docs/Web/CSS/number#Interpolation\">Nummer</a>",
     "en-US": "a <a href=\"/en-US/docs/Web/CSS/number#Interpolation\" title=\"Values of the <number> CSS data type are interpolated as real, floating-point, numbers.\">number</a>",
