@@ -985,7 +985,7 @@
     "ru": "На элементах всегда вычисляется как <code>normal</code>. На {{cssxref(\"::before\")}} и {{cssxref(\"::after\")}}, если <code>normal</code> указано, интерпретируется как <code>none</code>. Иначе, для значений URI, абсолютного URI; для значений <code>attr()</code> - результирующая строка; для других ключевых слов, как указано."
   },
   "notAnimatable": {
-    "en-US": "notAnimatable"
+    "en-US": "Not animatable"
   },
   "number": {
     "de": "<a href=\"/de/docs/Web/CSS/number#Interpolation\">Nummer</a>",

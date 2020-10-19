@@ -238,6 +238,38 @@
     "status": "nonstandard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-flow-into"
   },
+  "-ms-grid-columns": {
+    "syntax": "none | <track-list> | <auto-track-list>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "simpleListOfLpcDifferenceLpc",
+    "percentages": "referToDimensionOfContentArea",
+    "groups": [
+      "CSS Grid Layout"
+    ],
+    "initial": "none",
+    "appliesto": "gridContainers",
+    "computed": "asSpecifiedRelativeToAbsoluteLengths",
+    "order": "uniqueOrder",
+    "status": "nonstandard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-grid-columns"
+  },
+  "-ms-grid-rows": {
+    "syntax": "none | <track-list> | <auto-track-list>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "simpleListOfLpcDifferenceLpc",
+    "percentages": "referToDimensionOfContentArea",
+    "groups": [
+      "CSS Grid Layout"
+    ],
+    "initial": "none",
+    "appliesto": "gridContainers",
+    "computed": "asSpecifiedRelativeToAbsoluteLengths",
+    "order": "uniqueOrder",
+    "status": "nonstandard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-grid-rows"
+  },
   "-ms-high-contrast-adjust": {
     "syntax": "auto | none",
     "media": "visual",
@@ -918,7 +950,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-float-edge"
   },
   "-moz-force-broken-image-icon": {
-    "syntax": "<integer>",
+    "syntax": "<integer [0,1]>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -6338,7 +6370,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/max-block-size"
   },
   "max-height": {
-    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content(<length-percentage>)",
+    "syntax": "none | <length-percentage> | min-content | max-content | fit-content(<length-percentage>)",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -6385,7 +6417,7 @@
     "status": "experimental"
   },
   "max-width": {
-    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content(<length-percentage>)",
+    "syntax": "none | <length-percentage> | min-content | max-content | fit-content(<length-percentage>)",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -8210,7 +8242,7 @@
     "syntax": "none | all | [ digits <integer>? ]",
     "media": "visual",
     "inherited": true,
-    "animationType": "discrete",
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
       "CSS Writing Modes"
