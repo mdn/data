@@ -6354,7 +6354,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/max-block-size"
   },
   "max-height": {
-    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content(<length-percentage>)",
+    "syntax": "none | <length-percentage> | min-content | max-content | fit-content(<length-percentage>)",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -6401,7 +6401,7 @@
     "status": "experimental"
   },
   "max-width": {
-    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content(<length-percentage>)",
+    "syntax": "none | <length-percentage> | min-content | max-content | fit-content(<length-percentage>)",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
