@@ -701,6 +701,15 @@
     "fr": "conteneurs de grille",
     "ru": "сеточные контейнеры"
   },
+  "gridContainersWithMasonryLayout": {
+    "en-US": "Grid containers with masonry layout"
+  },
+  "gridContainersWithMasonryLayoutInTheirBlockAxis": {
+    "en-US": "Grid containers with masonry layout in their block axis"
+  },
+  "gridContainersWithMasonryLayoutInTheirInlineAxis": {
+    "en-US": "Grid containers with masonry layout in their inline axis"
+  },
   "gridItemsAndBoxesWithinGridContainer": {
     "de": "Gridelemente und absolut positionierte Boxen, deren beinhaltender Block ein Gridcontainer ist",
     "en-US": "grid items and absolutely-positioned boxes whose containing block is a grid container",

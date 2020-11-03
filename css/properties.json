@@ -1735,6 +1735,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/align-self"
   },
+  "align-tracks": {
+    "syntax": "[normal | <baseline-position> | <content-distribution> | <overflow-position>? <content-position>]#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Grid Layout"
+    ],
+    "initial": "normal",
+    "appliesto": "gridContainersWithMasonryLayoutInTheirBlockAxis",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/align-tracks"
+  },
   "all": {
     "syntax": "initial | inherit | unset | revert",
     "media": "noPracticalMedia",
@@ -5608,6 +5624,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/justify-self"
   },
+  "justify-tracks": {
+    "syntax": "[normal | <content-distribution> | <overflow-position>? [ <content-position> | left | right ] ]#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Grid Layout"
+    ],
+    "initial": "normal",
+    "appliesto": "gridContainersWithMasonryLayoutInTheirInlineAxis",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/justify-tracks"
+  },
   "left": {
     "syntax": "<length> | <percentage> | auto",
     "media": "visual",
@@ -6336,6 +6368,22 @@
     "order": "perGrammar",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-type"
+  },
+  "masonry-auto-flow": {
+    "syntax": "[ pack | next ] || [definite-first | ordered ]",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Grid Layout"
+    ],
+    "initial": "pack",
+    "appliesto": "gridContainersWithMasonryLayout",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/masonry-auto-flow"
   },
   "math-style": {
     "syntax": "normal | compact",
