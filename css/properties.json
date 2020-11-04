@@ -7643,6 +7643,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-color"
   },
+  "scrollbar-gutter": {
+    "syntax": "auto | [ stable | always ] && both? && force?",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS4 Overflow"
+    ],
+    "initial": "auto",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-gutter"
+  },
   "scrollbar-width": {
     "syntax": "auto | thin | none",
     "media": "visual",
