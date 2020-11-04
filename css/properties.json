@@ -5346,7 +5346,7 @@
     "groups": [
       "CSS Images"
     ],
-    "initial": "0deg",
+    "initial": "from-image",
     "appliesto": "allElements",
     "computed": "angleRoundedToNextQuarter",
     "order": "uniqueOrder",
