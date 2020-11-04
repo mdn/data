@@ -7650,7 +7650,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS4 Overflow"
+      "CSS Overflow"
     ],
     "initial": "auto",
     "appliesto": "allElements",
