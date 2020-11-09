@@ -328,6 +328,11 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@page"
   },
+  "@property": {
+    "syntax": "@property <custom-property-name> {\n  <declaration-list>\n}",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property"
+  },
   "@supports": {
     "syntax": "@supports <supports-condition> {\n  <group-rule-body>\n}",
     "interfaces": [
