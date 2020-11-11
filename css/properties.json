@@ -1736,7 +1736,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/align-self"
   },
   "align-tracks": {
-    "syntax": "[normal | <baseline-position> | <content-distribution> | <overflow-position>? <content-position>]#",
+    "syntax": "[ normal | <baseline-position> | <content-distribution> | <overflow-position>? <content-position> ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -5625,7 +5625,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/justify-self"
   },
   "justify-tracks": {
-    "syntax": "[normal | <content-distribution> | <overflow-position>? [ <content-position> | left | right ] ]#",
+    "syntax": "[ normal | <content-distribution> | <overflow-position>? [ <content-position> | left | right ] ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -6370,7 +6370,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-type"
   },
   "masonry-auto-flow": {
-    "syntax": "[ pack | next ] || [definite-first | ordered ]",
+    "syntax": "[ pack | next ] || [ definite-first | ordered ]",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
