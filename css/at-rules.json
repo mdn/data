@@ -19,7 +19,7 @@
       "additive-symbols": {
         "syntax": "[ <integer> && <symbol> ]#",
         "media": "all",
-        "initial": "N/A",
+        "initial": "n/a (required)",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
@@ -91,7 +91,7 @@
       "symbols": {
         "syntax": "<symbol>+",
         "media": "all",
-        "initial": "N/A",
+        "initial": "n/a (required)",
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
