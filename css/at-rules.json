@@ -330,13 +330,13 @@
   },
   "@property": {
     "syntax": "@property <custom-property-name> {\n  <declaration-list>\n}",
-    "interfaces": {
+    "interfaces": [
       "CSS",
       "CSSPropertyRule"
-    },
-    "groups" : {
+    ],
+    "groups" : [
       "CSS Houdini"
-    },
+    ],
     "descriptors": {
       "syntax": {
         "syntax": "<string>",
