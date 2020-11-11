@@ -4,8 +4,11 @@
   "description": "Open Web data by the Mozilla Developer Network",
   "main": "index.js",
   "files": [
+    "api/index.js",
     "api/*.json",
+    "css/index.js",
     "css/*.json",
+    "l10n/index.js",
     "l10n/*.json"
   ],
   "repository": {
