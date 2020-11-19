@@ -1226,7 +1226,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/appearance"
   },
   "-webkit-border-before": {
-    "syntax": "<'border-width'> || <'border-style'> || <'color'>",
+    "syntax": "<'border-width'> || <'border-style'> || <color>",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -1252,7 +1252,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-border-before"
   },
   "-webkit-border-before-color": {
-    "syntax": "<'color'>",
+    "syntax": "<color>",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -2343,7 +2343,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border"
   },
   "border-block": {
-    "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
+    "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2415,7 +2415,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-width"
   },
   "border-block-end": {
-    "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
+    "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -2491,7 +2491,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end-width"
   },
   "border-block-start": {
-    "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
+    "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -2910,7 +2910,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-image-width"
   },
   "border-inline": {
-    "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
+    "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2934,7 +2934,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline"
   },
   "border-inline-end": {
-    "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
+    "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -3058,7 +3058,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end-width"
   },
   "border-inline-start": {
-    "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
+    "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
     "media": "visual",
     "inherited": false,
     "animationType": [
