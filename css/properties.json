@@ -8954,7 +8954,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/user-select"
   },
   "vertical-align": {
