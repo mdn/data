@@ -4180,7 +4180,7 @@
     "appliesto": "elementsForWhichLayoutContainmentCanApply",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "nonstandard",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/content-visibility"
   },
   "counter-increment": {
