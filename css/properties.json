@@ -4167,6 +4167,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/content"
   },
+  "content-visibility": {
+    "syntax": "visible | auto | hidden",
+    "media": "all",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Containment"
+    ],
+    "initial": "visible",
+    "appliesto": "elementsForWhichLayoutContainmentCanApply",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "nonstandard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/content-visibility"
+  },
   "counter-increment": {
     "syntax": "[ <custom-ident> <integer>? ]+ | none",
     "media": "all",
