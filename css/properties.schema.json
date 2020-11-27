@@ -191,6 +191,7 @@
         "boxElements",
         "childrenOfBoxElements",
         "directChildrenOfElementsWithDisplayMozBoxMozInlineBox",
+        "elementsForWhichLayoutContainmentCanApply",
         "elementsWithDisplayBoxOrInlineBox",
         "elementsWithDisplayMarker",
         "elementsWithDisplayMozBoxMozInlineBox",
