@@ -521,6 +521,9 @@
   "page-selector": {
     "syntax": "<pseudo-page>+ | <ident> <pseudo-page>*"
   },
+  "page-size": {
+    "syntax": "A5 | A4 | A3 | B5 | B4 | JIS-B5 | JIS-B4 | letter | legal | ledger"
+  },
   "path()": {
     "syntax": "path( [ <fill-rule>, ]? <string> )"
   },
