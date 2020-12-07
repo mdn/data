@@ -645,7 +645,7 @@
     "syntax": "[ left | right ] || [ top | bottom ]"
   },
   "single-animation": {
-    "syntax": "<time> || <timing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ]"
+    "syntax": "<time> || <easing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ]"
   },
   "single-animation-direction": {
     "syntax": "normal | reverse | alternate | alternate-reverse"
@@ -660,7 +660,7 @@
     "syntax": "running | paused"
   },
   "single-transition": {
-    "syntax": "[ none | <single-transition-property> ] || <time> || <timing-function> || <time>"
+    "syntax": "[ none | <single-transition-property> ] || <time> || <easing-function> || <time>"
   },
   "single-transition-property": {
     "syntax": "all | <custom-ident>"
@@ -710,7 +710,7 @@
   "time-percentage": {
     "syntax": "<time> | <percentage>"
   },
-  "timing-function": {
+  "easing-function": {
     "syntax": "linear | <cubic-bezier-timing-function> | <step-timing-function>"
   },
   "track-breadth": {
