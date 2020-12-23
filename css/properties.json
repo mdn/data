@@ -4161,7 +4161,7 @@
       "CSS Generated Content"
     ],
     "initial": "normal",
-    "appliesto": "beforeAndAfterPseudos",
+    "appliesto": "allElementsTreeAbidingPseudoElementsPageMarginBoxes",
     "computed": "normalOnElementsForPseudosNoneAbsoluteURIStringOrAsSpecified",
     "order": "uniqueOrder",
     "status": "standard",
