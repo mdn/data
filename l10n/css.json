@@ -94,6 +94,7 @@
     "de": "absolute Länge; <code>0</code>, falls der Rahmenstil <code>none</code> oder <code>hidden</code> ist",
     "en-US": "absolute length; <code>0</code> if the border style is <code>none</code> or <code>hidden</code>",
     "fr": "une longueur absolue ; <code>0</code> si le style de la bordure vaut <code>none</code> ou <code>hidden</code>",
+    "ja": "絶対的な長さ、境界スタイルが <code>none</code> または <code>hidden</code> であれば <code>0</code>",
     "ru": "абсолютная длина; <code>0</code>, если стиль рамки <code>none</code> или <code>hidden</code>"
   },
   "absoluteLengthZeroOrLarger": {
@@ -114,6 +115,7 @@
     "de": "absolute URI oder <code>none</code>",
     "en-US": "absolute URI or <code>none</code>",
     "fr": "une URI absolue ou <code>none</code>",
+    "ja": "絶対 URI または <code>none</code>",
     "ru": "абсолютный URI или <code>none</code>"
   },
   "all": {
@@ -143,7 +145,7 @@
     "en-US": "all elements, {{cssxref(\"::before\")}} and {{cssxref(\"::after\")}} <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-elements</a>",
     "es": "todos los elementos y los <a href=\"/es/docs/Web/CSS/Pseudoelementos\">pseudoelementos</a> {{cssxref(\"::before\")}} y {{cssxref(\"::after\")}}",
     "fr": "tous les éléments, ainsi que les <a href=\"/fr/docs/Web/CSS/Pseudo-elements\">pseudo-elements</a> {{cssxref(\"::before\")}} et {{cssxref(\"::after\")}}",
-    "ja": "すべての要素、{{cssxref(\"::before\")}} / {{cssxref(\"::after\")}} <a href=\"/ja/docs/Web/CSS/Pseudo-elements\">疑似要素</a>",
+    "ja": "すべての要素、{{cssxref(\"::before\")}} / {{cssxref(\"::after\")}} <a href=\"/ja/docs/Web/CSS/Pseudo-elements\">擬似要素</a>",
     "ru": "все элементы, {{cssxref(\"::before\")}} и {{cssxref(\"::after\")}} <a href=\"/ru/docs/Web/CSS/Pseudo-elements\">псевдоэлементы</a>"
   },
   "allElementsButNonReplacedAndTableColumns": {
@@ -158,19 +160,21 @@
     "de": "alle Elemente außer nicht ersetzte Inlineelemente, Tabellenzeilen und Zeilengruppen",
     "en-US": "all elements but non-replaced inline elements, table rows, and row groups",
     "fr": "tous les éléments sauf les éléments en ligne non remplacés, les lignes de tableaux et les groupes de lignes",
+    "ja": "置換要素でないインライン要素、テーブルの行、行グループを除くすべての要素",
     "ru": "все элементы, кроме незаменяемых строчных элементов, табличных строк и групп строк"
   },
   "allElementsCreatingNativeWindows": {
     "de": "alle Elemente, die native Fenster erstellen, z. B. &lt;window&gt;, &lt;panel&gt;",
     "en-US": "all elements that create native windows, e.g. &lt;window&gt;, &lt;panel&gt;",
     "fr": "tous les éléments qui créent des fenêtres natives, par exemple &lt;window&gt;, &lt;panel&gt;",
+    "ja": "ネイティブウィンドウを生成するすべての要素、たとえば &lt;window&gt;, &lt;panel&gt;",
     "ru": "все элементы, создающие нативные окна, например, &lt;window&gt;, &lt;panel&gt;"
   },
   "allElementsExceptGeneratedContentOrPseudoElements": {
     "de": "alle Elemente außer generierte Inhalte oder Pseudoelemente",
     "en-US": "all elements except generated content or pseudo-elements",
     "fr": "tous les éléments sauf le contenu généré ou les pseudo-éléments",
-    "ja": "生成コンテンツ及び疑似要素を除くすべての要素",
+    "ja": "生成コンテンツや擬似要素を除くすべての要素",
     "ru": "все элементы, кроме сгенерированного контента и псевдоэлементов"
   },
   "allElementsExceptInlineBoxesAndInternalRubyOrTableBoxes": {
@@ -184,6 +188,7 @@
     "de": "alle Elemente außer <code>table-row-group</code>, <code>table-header-group</code>, <code>table-footer-group</code>, <code>table-row</code>, <code>table-column-group</code> und <code>table-column</code>",
     "en-US": "all elements, except <code>table-row-group</code>, <code>table-header-group</code>, <code>table-footer-group</code>, <code>table-row</code>, <code>table-column-group</code> and <code>table-column</code>",
     "fr": "tous les éléments exceptés <code>table-row-group</code>, <code>table-header-group</code>, <code>table-footer-group</code>, <code>table-row</code>, <code>table-column-group</code> et <code>table-column</code>",
+    "ja": "<code>table-row-group</code>, <code>table-header-group</code>, <code>table-footer-group</code>, <code>table-row</code>, <code>table-column-group</code>, <code>table-column</code> を除くすべての要素",
     "ru": "все элементы, кроме <code>table-row-group</code>, <code>table-header-group</code>, <code>table-footer-group</code>, <code>table-row</code>, <code>table-column-group</code> и <code>table-column</code>"
   },
   "allElementsExceptNonReplacedInlineElementsTableRowsColumnsRowColumnGroups": {
@@ -197,7 +202,7 @@
     "de": "alle Elemente außer Elemente mit Tabellen-{{cssxref(\"display\")}}-Typen, die nicht <code>table-caption</code>, <code>table</code> und <code>inline-table</code> entsprechen",
     "en-US": "all elements, except elements with table {{cssxref(\"display\")}} types other than <code>table-caption</code>, <code>table</code> and <code>inline-table</code>",
     "fr": "tous les éléments exceptés ceux dont les types {{cssxref(\"display\")}} pour les tableaux ne sont pas <code>table-caption</code>, <code>table</code> et <code>inline-table</code>",
-    "ja": "<code>table-caption</code>, <code>table</code>, <code>inline-table</code> 以外の表の {{cssxref(\"display\")}} 種別を除くすべての要素。",
+    "ja": "<code>table-caption</code>, <code>table</code>, <code>inline-table</code> 以外の表の {{cssxref(\"display\")}} 種別を除くすべての要素",
     "ru": "все элементы, кроме элементов с табличным типом {{cssxref(\"display\")}}, отличным от <code>table-caption</code>, <code>table</code> и <code>inline-table</code>"
   },
   "allElementsExceptTableElementsWhenCollapse": {
@@ -239,7 +244,7 @@
     "de": "alle Elemente; In SVG gilt betrifft dies Containerelemente mit Ausnahme des {{SVGElement(\"defs\")}} Elements und allen Grafikelementen",
     "en-US": "all elements; In SVG, it applies to container elements excluding the {{SVGElement(\"defs\")}} element and all graphics elements",
     "fr": "tous les éléments ; en SVG, cela s'applique aux éléments conteneurs à l'exception des éléments {{SVGElement(\"defs\")}} et des éléments graphiques",
-    "ja": "すべての要素。 SVG では、 {{SVGElement(\"defs\")}} 要素及びすべてのグラフィック要素を除いたコンテナー要素に適用されます。",
+    "ja": "すべての要素。 SVG の場合は {{SVGElement(\"defs\")}} 要素やすべてのグラフィック要素を除いたコンテナー要素に適用される",
     "ru": "все элементы; в SVG, это применяется к контейнерам, исключая элемент {{SVGElement(\"defs\")}} и все графические элементы"
   },
   "allElementsSVGContainerGraphicsAndGraphicsReferencingElements": {
@@ -257,19 +262,29 @@
     "de": "alle Elemente; aber User Agents sind nicht gezwungen dies auf <code>table</code> und <code>inline-table</code> Elemente anzuwenden, falls {{cssxref(\"border-collapse\")}} <code>collapse</code> ist. Das Verhalten bei internen Tabellenelementen ist momentan undefiniert.",
     "en-US": "all elements; but User Agents are not required to apply to <code>table</code> and <code>inline-table</code> elements when {{cssxref(\"border-collapse\")}} is <code>collapse</code>. The behavior on internal table elements is undefined for the moment.",
     "fr": "tous les éléments, mais les agents utilisateurs ne sont pas tenus de l'appliquer aux éléments de type <code>table</code> ou <code>inline-table</code> lorsque {{cssxref(\"border-collapse\")}} vaut <code>collapse</code>. Le comportement sur les éléments de type table interne est pour l'instant indéfini.",
+    "ja": "すべての要素。ただし、ユーザーエージェントは {{cssxref(\"border-collapse\")}} が <code>collapse</code> である場合に<code>table</code> および <code>inline-table</code> 要素に適用する必要はない。内部表要素での動作は、今のところ未定義。",
     "ru": "все элементы, но браузеры не применяют к элементам <code>table</code> и <code>inline-table</code>, когда {{cssxref(\"border-collapse\")}}:<code>collapse</code>. Поведение на внутритабличных элементах не определено."
   },
   "allHTMLElements": {
     "de": "alle HTML-Elemente",
     "en-US": "all HTML elements",
     "fr": "tous les éléments HTML",
+    "ja": "すべての HTML 要素",
     "ru": "все HTML элементы"
   },
   "andInEnumeration": {
     "de": " und ",
     "en-US": " and ",
     "fr": " et ",
+    "ja": "および",
     "ru": " и "
+  },
+  "angle": {
+    "de": "Winkel",
+    "en-US": "angle",
+    "fr": "angle",
+    "ja": "角度",
+    "ru": "угол"
   },
   "angleBasicShapeOrPath": {
     "de": "{{cssxref(\"<angle>\"}}, {{cssxref(\"<basic-shape>\"}} oder {{cssxref(\"<path()>\"}}",
@@ -447,7 +462,7 @@
     "en-US": "{{cssxref(\"::before\")}} and {{cssxref(\"::after\")}} <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-elements</a>",
     "es": "los <a href=\"/es/docs/Web/CSS/Pseudoelementos\">pseudoelementos</a> {{cssxref(\"::before\")}} y {{cssxref(\"::after\")}}",
     "fr": "<a href=\"/fr/docs/Web/CSS/Pseudo-éléments\">pseudo-éléments</a> {{cssxref(\"::before\")}} et {{cssxref(\"::after\")}} ",
-    "ja": "{{cssxref(\"::before\")}} / {{cssxref(\"::after\")}} <a href=\"/ja/docs/Web/CSS/Pseudo-elements\">疑似要素</a>",
+    "ja": "{{cssxref(\"::before\")}} / {{cssxref(\"::after\")}} <a href=\"/ja/docs/Web/CSS/Pseudo-elements\">擬似要素</a>",
     "ru": "{{cssxref(\"::before\")}} и {{cssxref(\"::after\")}} <a href=\"/ru/docs/Web/CSS/Pseudo-elements\">псевдоэлементы</a>"
   },
   "blockContainerElements": {
@@ -1124,6 +1139,7 @@
     "de": "bezieht sich auf die Größe der Border-Box",
     "en-US": "refer to the corresponding dimension of the border box",
     "fr": "se rapporte à la dimension correspondance de la boîte de bordure",
+    "ja": "境界ボックスの対応する長さを参照",
     "ru": "относятся к соответствующему размеру границы элемента"
   },
   "referToDimensionOfContentArea": {
@@ -1503,13 +1519,14 @@
     "de": "zwei absolute {{cssxref(\"length\")}} oder {{cssxref(\"percentage\")}}",
     "en-US": "two absolute {{cssxref(\"length\")}}s or {{cssxref(\"percentage\")}}s",
     "fr": "deux {{cssxref(\"longueur\",\"longueurs\")}} absolues ou deux {{cssxref(\"pourcentage\",\"pourcentages\")}}",
-    "ja": "２つの絶対的な {{cssxref(\"length\")}} 又は {{cssxref(\"percentage\")}} 値",
+    "ja": "２つの絶対的な {{cssxref(\"length\")}} または {{cssxref(\"percentage\")}} 値",
     "ru": "две абсолютных {{cssxref(\"length\")}} или {{cssxref(\"percentage\")}}"
   },
   "twoAbsoluteLengths": {
     "de": "zwei absolute Längen",
     "en-US": "two absolute lengths",
     "fr": "deux longueurs absolues",
+    "ja": "２つの絶対的な長さ",
     "ru": "две абсолютные длины"
   },
   "uniqueOrder": {
@@ -1524,13 +1541,14 @@
     "de": "Variiert von einem Browser zum anderen",
     "en-US": "Varies from one browser to another",
     "fr": "Varie d'un navigateur à l'autre",
+    "ja": "ブラウザーによって異なる",
     "ru": "Варьируется от браузера к браузеру"
   },
   "visibility": {
     "de": "<a href=\"/de/docs/Web/CSS/visibility#Interpolation\">Sichtbarkeit</a>",
     "en-US": "a <a href=\"/en-US/docs/Web/CSS/visibility#Interpolation\" title=\"Values of the visibility CSS property are interpolable if the start or the end value is visible. In that case all values of the timing function which are equal to 1 map to visible and non-equal to 1 to non-visible.\">visibility</a>",
     "fr": "une <a href=\"/fr/docs/Web/CSS/visibility#Interpolation\" title=\"Les valeurs de la propriété CSS visibility sont interpolables si une des valeurs de début ou de fin est visible. Dans ce cas, toutes les valeurs de la fonction de temporisation qui sont égales à 1 sont associées à visible, et celles non égales à 1, à non-visible.\">visibilité</a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/visibility#Interpolation\" title=\"Values of the visibility CSS property are interpolable if the start or the end value is visible. In that case all values of the timing function which are equal to 1 map to visible and non-equal to 1 to non-visible.\">visibility</a>",
+    "ja": "<a href=\"/ja/docs/Web/CSS/visibility#Interpolation\" title=\"visibility の値は可視および不可視の間で補間可能です。従って、開始または終了の値の一つが visible でない限りは、補間は行われません。\">visibility</a>",
     "ru": "<a href=\"/ru/docs/Web/CSS/visibility#Interpolation\" title=\"Значения свойства CSS visibility интерполируются, если начальное или конечное значение установлено в visible. В этом случае все значения временной функции, равные 1 отображаются, а не равные 1 не отображаются.\">видимость</a>"
   },
   "visual": {
