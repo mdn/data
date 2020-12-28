@@ -160,6 +160,7 @@
         "allElements",
         "allElementsAcceptingWidthOrHeight",
         "allElementsAndPseudos",
+        "allElementsAndText",
         "allElementsButNonReplacedAndTableColumns",
         "allElementsButNonReplacedAndTableRows",
         "allElementsCreatingNativeWindows",
