@@ -181,7 +181,7 @@
     "de": "all elements except inline boxes and internal ruby or table boxes",
     "en-US": "all elements except inline boxes and internal ruby or table boxes",
     "fr": "all elements except inline boxes and internal ruby or table boxes",
-    "ja": "インラインボックスおよび内部のルビまたは表ボックスを除くすべての要素",
+    "ja": "all elements except inline boxes and internal ruby or table boxes",
     "ru": "all elements except inline boxes and internal ruby or table boxes"
   },
   "allElementsExceptInternalTableDisplayTypes": {
@@ -289,21 +289,18 @@
   "angleBasicShapeOrPath": {
     "de": "{{cssxref(\"<angle>\"}}, {{cssxref(\"<basic-shape>\"}} oder {{cssxref(\"<path()>\"}}",
     "en-US": "{{cssxref(\"<angle>\"}}, {{cssxref(\"<basic-shape>\"}} or {{cssxref(\"<path()>\"}}",
-    "fr": "{{cssxref(\"<angle>\"}}, {{cssxref(\"<basic-shape>\"}} ou {{cssxref(\"<path()>\"}}", 
-    "ja": "{{cssxref(\"<angle>\"}}, {{cssxref(\"<basic-shape>\"}}, {{cssxref(\"<path()>\"}} のいずれか"
+    "fr": "{{cssxref(\"<angle>\"}}, {{cssxref(\"<basic-shape>\"}} ou {{cssxref(\"<path()>\"}}"
   },
   "angleOrBasicShapeOrPath": {
     "de": "als &lt;angle&gt;, &lt;basic-shape&gt; oder &lt;path()&gt;",
     "en-US": "as &lt;angle&gt;, &lt;basic-shape&gt; or &lt;path()&gt;",
     "fr": "comme &lt;angle&gt;, &lt;basic-shape&gt; ou &lt;path()&gt;",
-    "ja": "&lt;angle&gt;, &lt;basic-shape&gt;, &lt;path()&gt; の何れかとして",
     "ru": "как &lt;angle&gt;, &lt;basic-shape&gt; или &lt;path()&gt;"
   },
   "angleRoundedToNextQuarter": {
     "de": "ein {{xref_cssangle}}, auf den nächsten Viertel von <code>0deg</code> gerundet (üblicherweise  <code>1turn)</code>",
     "en-US": "an {{xref_cssangle}}, rounded to the next quarter turn from <code>0deg</code> and normalized, that is moduloing the value by <code>1turn</code>",
     "fr": "un {{xref_cssangle}}, arrondi au quart de tour supérieur (à partir de <code>0deg</code>) puis normalisé (modulo) pour obtenir l'angle relatif à un tour",
-    "ja": "<code>0deg</code> から次の 4 分の 1 回転に丸めて正規化した {{xref_cssangle}} を <code>1turn</code> で割った余り",
     "ru": "{{xref_cssangle}}, с округлением до следующей четверти оборота от <code>0deg</code> и нормализованный так, что значение - <code>1 поворот</code>"
   },
   "animationType": {
@@ -316,7 +313,6 @@
     "de": "beliebige Elemente; es hat eine Auswirkung auf {{HTMLElement(\"progress\")}} und {{HTMLElement(\"meter\")}}, aber nicht auf &lt;input type=\"range\"&gt; oder andere Elemente",
     "en-US": "any element; it has an effect on {{HTMLElement(\"progress\")}} and {{HTMLElement(\"meter\")}}, but not on &lt;input type=\"range\"&gt; or other elements",
     "fr": "n'importe quel élément, aura un effet sur {{HTMLElement(\"progress\")}} et {{HTMLElement(\"meter\")}}, mais pas sur &lt;input type=\"range\"&gt; ou les autres éléments",
-    "ja": "任意の要素。これは {{HTMLElement(\"progress\")}} および {{HTMLElement(\"meter\")}} には効果がありますが、 &lt;input type=\"range\"&gt; やその他の要素には効果がありません",
     "ru": "любой элемент; имеет эффект на {{HTMLElement(\"progress\")}} и {{HTMLElement(\"meter\")}}, но не на &lt;input type=\"range\"&gt; или других элементах"
   },
   "appliesTo": {
@@ -346,21 +342,19 @@
     "de": "wie definiert für {{cssxref(\"basic-shape\")}} (gefolgt von {{cssxref(\"shape-box\")}}, falls angegeben), dem {{cssxref(\"image\")}}, dessen URI absolut gemacht wurde, ansonsten wie angegeben.",
     "en-US": "as defined for {{cssxref(\"basic-shape\")}} (with {{cssxref(\"shape-box\")}} following, if supplied), the {{cssxref(\"image\")}} with its URI made absolute, otherwise as specified.",
     "fr": "comme défini pour {{cssxref(\"basic-shape\")}} (avec {{cssxref(\"shape-box\")}} qui suit s'il est utilisé), l'{{cssxref(\"image\")}} avec son URI rendue absolue, sinon, comme spécifié.",
-    "ja": "{{cssxref(\"basic-shape\")}} で定義された通り (与えられている場合は {{cssxref(\"shape-box\")}} が続く)、 URI を絶対化した {{cssxref(\"image\")}}、それ以外は指定通り。",
     "ru": "как определено для {{cssxref(\"basic-shape\")}} (c {{cssxref(\"shape-box\")}} последующим, если передается),  {{cssxref(\"image\")}} с его абсолютным URI, если другое не указано"
   },
   "asLength": {
     "de": "als {{cssxref(\"length\")}}",
     "en-US": "as {{cssxref(\"length\")}}",
     "fr": "comme {{cssxref(\"length\")}}",
-    "ja": "{{cssxref(\"length\")}} 通り",
     "ru": "как {{cssxref(\"length\")}}"
   },
   "asLonghands": {
     "de": "wie die jeweiligen Kurzschreibweisen:",
     "en-US": "as each of the properties of the shorthand:",
     "fr": "pour chaque propriété individuelle de la propriété raccourcie&nbsp;:",
-    "ja": "一括指定の次の各プロパティとして",
+    "ja": "一括指定の各プロパティとして",
     "ru": "как и у каждого из подсвойств этого свойства:"
   },
   "asSpecified": {
@@ -369,7 +363,7 @@
     "es": "como se especifica",
     "ca": "com s'especifica",
     "fr": "comme spécifié",
-    "ja": "指定通り",
+    "ja": "指定値",
     "pl": "jako określone",
     "ru": "как указано"
   },
@@ -377,20 +371,18 @@
     "de": "wie der angegebene Wert wird er auf alle Eigenschaften angewandt, für die dies eine Kurzschreibweise ist.",
     "en-US": "as the specified value applies to each property this is a shorthand for.",
     "fr": "comme la valeur spécifiée s'applique sur chaque propriété englobée par le raccourci",
-    "ja": "この一括指定が対象とする各プロパティに適用する指定された値のまま。",
     "ru": "как указанное значение, применяется к каждому свойству этой короткой записи."
   },
   "asSpecifiedButVisibleOrClipReplacedToAutoOrHiddenIfOtherValueDifferent": {
     "en-US": "as specified, except with <code>visible</code>/<code>clip</code> computing to <code>auto</code>/<code>hidden</code> respectively if one of {{cssxref(\"overflow-x\")}} or {{cssxref(\"overflow-y\")}} is neither <code>visible</code> nor </code>clip</code>",
     "es": "como se especifica, excepto que si {{cssxref(\"overflow-x\")}} o bien {{cssxref(\"overflow-y\")}} es distinto de <code>visible</code> o <code>clip</code>, estos dos valores computan a <code>auto</code> o <code>hidden</code> respectivamente",
-    "ca": "com s'especifica, excepte que si {{cssxref(\"overflow-x\")}} o bé {{cssxref(\"overflow-y\")}} són diferents de <code>visible</code> o <code>clip</code>, aquests dos valors computen a <code>auto</code> o <code>hidden</code> respectivament",
-    "ja": "指定通り、ただし {{cssxref(\"overflow-x\")}} と {{cssxref(\"overflow-y\")}} のどちらかが <code>visible</code> でも </code>clip</code> でもない場合は、 <code>visible</code>/<code>clip</code> はそれぞれ <code>auto</code>/<code>hidden</code> と計算される"
+    "ca": "com s'especifica, excepte que si {{cssxref(\"overflow-x\")}} o bé {{cssxref(\"overflow-y\")}} són diferents de <code>visible</code> o <code>clip</code>, aquests dos valors computen a <code>auto</code> o <code>hidden</code> respectivament"
   },
   "asSpecifiedExceptMatchParent": {
     "de": "wie angegeben, außer für den <code>match-parent</code> Wert, welcher in Bezug auf den <code>direction</code> Wert des Elternelements berechnet wird und einen berechneten Wert von <code>left</code> oder <code>right</code> ergibt",
     "en-US": "as specified, except for the <code>match-parent</code> value which is calculated against its parent's <code>direction</code> value and results in a computed value of either <code>left</code> or <code>right</code>",
     "fr": "comme spécifié, sauf pour la valeur <code>match-parent</code> qui est calculée en fonction de la <code>direction</code> du parent et qui vaut soit <code>left</code>, soit <code>right</code>",
-    "ja": "指定値。ただし <code>match-parent</code> 値を除く。この値は親要素の <code>direction</code> の値に基いて計算され、計算値が <code>left</code> または <code>right</code> のどちらかになる",
+    "ja": "指定値。ただし <code>match-parent</code> 値を除く。この値は親要素の方向にもとづいて計算され、計算値が左右どちらにもなります",
     "ru": "как указано, кроме значения <code>match-parent</code>, которое вычисляется вместо значения его родителя <code>direction</code>, а результаты в вычисленном значении <code>left</code> или <code>right</code>"
   },
   "asSpecifiedExceptPositionedFloatingAndRootElementsKeywordMaybeDifferent": {
@@ -404,21 +396,19 @@
     "de": "relativ zur gleichen Achse der Innenabstandsbox des Scrollcontainers",
     "en-US": "as specified, but with relative lengths converted into absolute lengths",
     "fr": "comme spécifié, mais avec les longueurs relatives converties en longueurs absolues",
-    "ja": "指定通り。ただし相対的な長さはは絶対的な長さに変換される",
+    "ja": "指定通り。ただし相対的 length は絶対的 length に変換",
     "ru": "как указано, но с относительной длиной, конвертируемой в абсолютные длины"
   },
   "asSpecifiedURLsAbsolute": {
     "de": "wie angegeben, aber mit absoluten {{cssxref(\"url\")}} Werten",
     "en-US": "as specified, but with {{cssxref(\"url\")}} values made absolute",
     "fr": "comme spécifié mais avec les valeurs {{cssxref(\"url\")}} rendues absolues",
-    "ja": "指定通り、ただし {{cssxref(\"url\")}} の値は絶対パスになる",
     "ru": "как указано, но с абсолютными значениями {{cssxref(\"url\")}}"
   },
   "asSpecifiedWithExceptionOfResolution": {
     "de": "wie angegeben mit Ausnahme von &lt;resolution&gt;, das möglicherweise durch den berechneten Wert für 'snap' geändert wird",
     "en-US": "as specified, except with &lt;resolution&gt; possibly altered by computed for 'snap' value",
     "fr": "telle que spécifiée, sauf avec &lt;resolution&gt; éventuellement modifiée lors du calcul par la valeur 'snap'",
-    "ja": "指定通り、ただし &lt;resolution&gt; は 'snap' の値に変更されることがある",
     "ru": "как указано, за исключением &lt;resolution&gt; может изменить значением 'snap'"
   },
   "asSpecifiedWithLengthsAbsoluteAndNormalComputingToZeroExceptMultiColumn": {
@@ -428,35 +418,31 @@
   "asSpecifiedWithVarsSubstituted": {
     "de": "wie angegeben, wobei Variablen ersetzt werden",
     "en-US": "as specified with variables substituted",
-    "fr": "tel que spécifié avec les variables échangées",
-    "ja": "変数を代入して指定した通り"
+    "fr": "tel que spécifié avec les variables échangées"
   },
   "autoForSmartphoneBrowsersSupportingInflation": {
     "de": "<code>auto</code> für Smartphone Browser, die Befüllung unterstützen, <code>none</code> andererseits (und dann unveränderbar).",
     "en-US": "<code>auto</code> for smartphone browsers supporting inflation, <code>none</code> in other cases (and then not modifiable).",
     "fr": "<code>auto</code> pour les navigateurs de smartphones qui supportent l'expansion, <code>none</code> in dans les autres cas (non modifiable alors).",
-    "ja": "文字拡大に対応しているスマートフォンブラウザーならば <code>auto</code>、それ以外の場合は <code>none</code> です (そして変更できません)。",
     "ru": "<code>auto</code> для браузеров в смартфонах поддерживается увеличение, <code>none</code> в других случаях (и позже не изменяется)."
   },
   "autoNonNegativeOrPercentage": {
     "de": "<code>auto</code>, eine nicht negative Zahl oder ein Prozentwert wie angegeben",
     "en-US": "<code>auto</code>, or a non-negative number or percentage as specified",
     "fr": "<code>auto</code> ou un nombre positif ou nul ou un pourcentage, comme spécifié",
-    "ja": "<code>auto</code>、負ではない数、パーセント値の何れかで指定通り",
     "ru": "<code>auto</code>, или задаётся неотрицательное число или процент, как указан"
   },
   "autoOnAbsolutelyPositionedElementsValueOfAlignItemsOnParent": {
     "de": "<code>auto</code> berechnet sich zu sich selbst bei absolut positionierten Elementen und zum berechneten Wert von {{cssxref(\"align-items\")}} des Elternelements (abzüglich veralteter Schlüsselwörter) bei allen anderen Boxen oder <code>start</code>, falls die Box kein Elternelement hat. Sein Verhalten hängt vom Layoutmodell ab, wie für {{cssxref(\"justify-self\")}} beschrieben. Ansonsten der angegebene Wert.",
     "en-US": "<code>auto</code> computes to itself on absolutely-positioned elements, and to the computed value of {{cssxref(\"align-items\")}} on the parent (minus any legacy keywords) on all other boxes, or <code>start</code> if the box has no parent. Its behavior depends on the layout model, as described for {{cssxref(\"justify-self\")}}. Otherwise the specified value.",
     "fr": "<code>auto</code> sera calculé comme <code>auto</code> pour les éléments positionnés de façon absolue, sera calculé comme {{cssxref(\"align-items\")}} sur le parent (excepté les mots-clés historiques utilisés) de toutes les autres boîtes ou comme <code>start</code> si la boîte n'a pas de parent. Son comportement dépend du modèle de disposition, décrit dans {{cssxref(\"justify-self\")}}, sinon ce sera la valeur spécifiée.",
-    "ja": "絶対位置指定要素に対しては <code>auto</code> は自分自身に対して計算し、それ以外のすべてのボックスに対しては親の {{cssxref(\"align-items\")}} の計算値 (から古いキーワードを引いた値) に計算し、親が無ければ <code>start</code> になる。この動作は {{cssxref(\"justify-self\")}} で説明したとおり、レイアウトモデルの依存する。それ以外の場合は指定された値となる。",
     "ru": "при <code>auto</code> абсолютно позиционированные элементы вычисляют сами и вычисленное значение {{cssxref(\"align-items\")}} для родителя (кроме ключевых слов) на остальных блоках, или <code>start</code>, если у блока нет родителя. Его поведение зависит от модели макета, описываемой {{cssxref(\"justify-self\")}}. Иначе указанное значение."
   },
   "autoOrRectangle": {
     "de": "<code>auto</code>, falls als <code>auto</code> angegeben, ansonsten ein Rechteck mit vier Werten, von denen jeder <code>auto</code> ist, falls als <code>auto</code> angegeben, ansonsten die berechnete Länge",
     "en-US": "<code>auto</code> if specified as <code>auto</code>, otherwise a rectangle with four values, each of which is <code>auto</code> if specified as <code>auto</code> or the computed length otherwise",
     "fr": "<code>auto</code> si spécifié comme <code>auto</code>, sinon un rectangle avec quatre valeurs dont chacune vaut <code>auto</code> si elles sont spécifiées comme <code>auto</code> sinon, la longueur calculée",
-    "ja": "<code>auto</code> が指定されていれば <code>auto</code>、それ以外は 4 つの値をともなう矩形。矩形の場合、各値は <code>auto</code> が指定されていれば <code>auto</code>、それ以外では長さの計算値",
+    "ja": "auto 指定されていれば auto、それ以外は 4 つの値をともなう矩形。矩形の場合、各値は auto 指定されていれば auto、それ以外では計算値",
     "ru": "<code>auto</code>, если указано как <code>auto</code>, иначе прямоугольник с четырьмя значениями, каждое из которых <code>auto</code>, если указаны как <code>auto</code> или вычисленная длина в противном случае"
   },
   "basicShape": {
@@ -496,7 +482,7 @@
   "blockContainersAndMultiColumnContainers": {
     "de": "Blockcontainer und mehrspaltige Container",
     "en-US": "Block containers and multi-column containers",
-    "ja": "ブロックコンテナーと段組みコンテナー"
+    "ja": "ブロックコンテナー, 段組みクコンテナー"
   },
   "blockContainersExceptMultiColumnContainers": {
     "de": "Blockcontainer außer mehrspaltige Container",
