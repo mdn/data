@@ -149,7 +149,8 @@
     "ru": "все элементы, {{cssxref(\"::before\")}} и {{cssxref(\"::after\")}} <a href=\"/ru/docs/Web/CSS/Pseudo-elements\">псевдоэлементы</a>"
   },
   "allElementsAndText": {
-    "en-US": "all elements and text"
+    "en-US": "all elements and text",
+    "ja": "すべての要素とテキスト"
   },
   "allElementsButNonReplacedAndTableColumns": {
     "de": "alle Elemente außer nicht ersetzte Inlineelemente, Tabellenspalten und Spaltengruppen",
@@ -438,7 +439,7 @@
     "de": "<code>auto</code> für Smartphone Browser, die Befüllung unterstützen, <code>none</code> andererseits (und dann unveränderbar).",
     "en-US": "<code>auto</code> for smartphone browsers supporting inflation, <code>none</code> in other cases (and then not modifiable).",
     "fr": "<code>auto</code> pour les navigateurs de smartphones qui supportent l'expansion, <code>none</code> in dans les autres cas (non modifiable alors).",
-    "ja": "文字拡大に対応しているスマートフォンブラウザーならば <code>auto</code>、それ以外の場合は <code>none</code> です (そして変更できません)。",
+    "ja": "文字拡大に対応しているスマートフォンブラウザーならば <code>auto</code>、それ以外の場合は <code>none</code> (そして変更不可)。",
     "ru": "<code>auto</code> для браузеров в смартфонах поддерживается увеличение, <code>none</code> в других случаях (и позже не изменяется)."
   },
   "autoNonNegativeOrPercentage": {
@@ -466,12 +467,14 @@
     "de": "eine <a href=\"/de/docs/Web/CSS/shape-outside#Interpolation\" title=\"Werte des <basic-shape> CSS Datentyps interpolieren als einfache Liste. Die Listenwerte interpolieren als Länge, Prozentwert oder calc, wo möglich. Falls Listenwerte nicht einem dieser Typen entsprechen, aber identisch sind, werden diese Werte interpoliert.\">einfache Form</a>",
     "en-US": "a <a href=\"/en-US/docs/Web/CSS/shape-outside#Interpolation\" title=\"Values of the <basic-shape> CSS data type interpolate as a simple list. The list values interpolate as length, percentage, or calc where possible. If list values are not one of those types but are identical, those values do interpolate.\">basic shape</a>",
     "fr": "une <a href=\"/fr/docs/Web/CSS/shape-outside#Interpolation\" title=\"Les valeurs de type CSS <forme-basique> sont interpolées comme une liste simple. La liste de valeurs interpole la longueur, le pourcentage ou la valeur calculée. Si les valeurs de la liste ne sont pas de ces types mais sont identiques, les valeurs seront interpolées.\">forme basique (<code>basic-shape</code>)</a>",
+    "ja": "<a href=\"/ja/docs/Web/CSS/shape-outside#Interpolation\" title=\"CSS データ型 <basic-shape> の値は単純なリストとして補間されます。リストの値は、可能であれば長さ、パーセント値、または calc() として補間されます。リストの値がこれらの型のいずれかではなく、同じ値である場合、それらの値は補間されます。\">基本シェイプ</a>",
     "ru": "<a href=\"/ru/docs/Web/CSS/shape-outside#Interpolation\" title=\"Значения типа <базовая фигура> интерполируются как простой список. Список значений интерполируется как длина, проценты, или расчёт, где возможен. Если список значений не одинакового типа, эти значения интерполируются.\">базовая фигура</a>"
   },
   "basicShapeOtherwiseNo": {
     "de": "ja, wie angegeben für {{cssxref(\"basic-shape\")}}, ansonsten nein",
     "en-US": "yes, as specified for {{cssxref(\"basic-shape\")}}, otherwise no",
     "fr": "oui, comme spécifié pour {{cssxref(\"basic-shape\")}}, sinon, non",
+    "ja": "{{cssxref(\"basic-shape\")}} で指定された場合はあり、それ以外の場合はなし",
     "ru": "да, как указано для {{cssxref(\"basic-shape\")}}, иначе нет"
   },
   "beforeAndAfterPseudos": {
@@ -503,11 +506,13 @@
   },
   "blockContainersExceptMultiColumnContainers": {
     "de": "Blockcontainer außer mehrspaltige Container",
-    "en-US": "Block containers except multi-column containers"
+    "en-US": "Block containers except multi-column containers",
+    "ja": "段組みコンテナーを除くブロックコンテナー"
   },
   "blockContainersExceptTableWrappers": {
     "de": "Blockcontainer außer Tabellen umgebende Boxen",
-    "en-US": "Block containers except table wrapper boxes"
+    "en-US": "Block containers except table wrapper boxes",
+    "ja": "表ラッパーボックスを除くブロックコンテナー"
   },
   "blockContainersFlexContainersGridContainers": {
     "en-US": "Block-containers, flex containers, and grid containers",
@@ -517,6 +522,7 @@
     "de": "Blocklevelelemente in normalem Fluss des Wurzelelements. User Agents können es auch auf andere Elemente wie <code>table-row</code>-Elemente anwenden.",
     "en-US": "block-level elements in the normal flow of the root element. User agents may also apply it to other elements like <code>table-row</code> elements.",
     "fr": "les éléments de bloc dans le flux normal de l'élément racine. Les agents utilisateurs peuvent également l'appliquer sur d'autres éléments comme <code>table-row</code>.",
+    "ja": "ルート要素の通常フロー内におけるブロックレベル要素。ユーザーエージェントは他の要素に <code>table-row</code> 要素のように適用することがあります。",
     "ru": "блочные элементы в нормальном потоке родительского элемента. Браузеры могут также применять это к другим элементам типа <code>table-row</code>."
   },
   "blockLevelBoxesAndAbsolutelyPositionedBoxesAndGridItems": {
@@ -533,16 +539,19 @@
     "de": "Blockgröße des beinhaltenden Blocks",
     "en-US": "block-size of containing block",
     "fr": "la taille de bloc du bloc englobant",
+    "ja": "包含ブロックの block-size",
     "ru": "размер блока, содержащего элемент"
   },
   "boxElements": {
     "de": "Boxelemente",
     "en-US": "box elements",
     "fr": "éléments de boîte",
+    "ja": "ボックス要素",
     "ru": "блочные элементы"
   },
   "byComputedValueType": {
-    "en-US": "by computed value type"
+    "en-US": "by computed value type",
+    "ja": "計算値の型による"
   },
   "canonicalOrder": {
     "de": "Kanonische Reihenfolge",
@@ -556,6 +565,7 @@
     "de": "Kindelemente von Boxelementen",
     "en-US": "children of box elements",
     "fr": "les éléments fils des éléments de boîte",
+    "ja": "ボックス要素の子",
     "ru": "потомки блочных элементов"
   },
   "color": {
@@ -569,7 +579,7 @@
     "de": "eine Farbe plus drei absolute Längen",
     "en-US": "a color plus three absolute lengths",
     "fr": "une couleur et trois longueurs absolues",
-    "ja": "色、続けて絶対的な長さ 3 つ",
+    "ja": "色に続いて絶対的な長さ 3 つ",
     "ru": "цвет плюс три абсолютных длины"
   },
   "computedColor": {
@@ -583,18 +593,21 @@
     "de": "Besteht aus zwei Schlüsselwörtern, einem pro Richtung",
     "en-US": "Consists of two keywords, one per dimension",
     "fr": "Deux mots-clés, chacun décrivant une dimension",
+    "ja": "2 つのキーワードから成り、方向ごとに 1 つずつ",
     "ru": "Состоит из двух ключевых слов, по одному на размер"
   },
   "consistsOfTwoKeywordsForOriginAndOffsets": {
     "de": "Besteht aus zwei Schlüsselwörtern, die den Ursprung und die beiden Versätze vom Ursprung repräsentieren, wobei beide als absolute Länge angegeben werden (falls eine &lt;length&gt; angegeben wurde), ansonsten einen Prozentwert.",
     "en-US": "Consists of two keywords representing the origin and two offsets from that origin, each given as an absolute length (if given a &lt;length&gt;), otherwise as a percentage.",
     "fr": "Deux mots-clés décrivant l'origine et deux représentant les décalages par rapport à cette origine. Chaque valeur est fournie comme une longueur absolue ou comme un pourcentage.",
+    "ja": "原点を表す 2 つのキーワードと、その原点からの 2 つのオフセットで、それぞれが絶対的な長さ (&lt;length&gt; が指定された場合) またはパーセント値で指定される。",
     "ru": "Состоит из двух ключевых слов, представляющих начало координат и два смещения от этого начала, каждое из которых задаётся как абсолютная длина (если задана &lt;length&gt;), иначе как процент"
   },
   "continuous": {
     "de": "fortlaufend",
     "en-US": "continuous",
     "fr": "continu",
+    "ja": "連続メディア",
     "ru": "продолжительный"
   },
   "createsStackingContext": {
@@ -608,6 +621,7 @@
     "de": "hängt vom Layoutmodell ab",
     "en-US": "depends on layout model",
     "fr": "dépend du modèle en couches",
+    "ja": "レイアウトモデルに依存",
     "ru": "зависит от модели макета"
   },
   "dependsOnUserAgent": {
@@ -621,18 +635,20 @@
     "de": "Elemente, die direkte Kinder eines Elements mit einem CSS {{cssxref(\"display\")}} Wert von {{cssxref(\"-moz-box\")}} oder {{cssxref(\"-moz-inline-box\")}} oder {{cssxref(\"-webkit-box\")}} oder {{cssxref(\"-webkit-inline-box\")}} sind",
     "en-US": "elements that are direct children of an element with a CSS {{cssxref(\"display\")}} value of {{cssxref(\"-moz-box\")}} or {{cssxref(\"-moz-inline-box\")}} or {{cssxref(\"-webkit-box\")}} or {{cssxref(\"-webkit-inline-box\")}}",
     "fr": "éléments qui sont des fils direct d'un élément avec {{cssxref(\"display\")}} qui vaut {{cssxref(\"-moz-box\")}} ou {{cssxref(\"-moz-inline-box\")}} ou {{cssxref(\"-webkit-box\")}} ou {{cssxref(\"-webkit-inline-box\")}}",
+    "ja": "CSS の {{cssxref(\"display\")}} の値が {{cssxref(\"-moz-box\")}}, {{cssxref(\"-moz-inline-box\")}}, {{cssxref(\"-webkit-box\")}}, {{cssxref(\"-webkit-inline-box\")}} のいずれかである要素の直接の子要素",
     "ru": "элементы, являющиеся прямыми потомками элемента со свойством {cssxref(\"display\")}} равным {{cssxref(\"-moz-box\")}}, {{cssxref(\"-moz-inline-box\")}}, {{cssxref(\"-webkit-box\")}} или {{cssxref(\"-webkit-inline-box\")}}"
   },
   "discrete": {
     "de": "diskret",
     "en-US": "discrete",
     "fr": "discrète",
-    "ja": "個別"
+    "ja": "離散値"
   },
   "eachOfShorthandPropertiesExceptUnicodeBiDiAndDirection": {
     "de": "wie jede der Kurzschreibweisen Eigenschaften (alle Eigenschaften außer {{cssxref(\"unicode-bidi\")}} und {{cssxref(\"direction\")}})",
     "en-US": "as each of the properties of the shorthand (all properties but {{cssxref(\"unicode-bidi\")}} and {{cssxref(\"direction\")}})",
     "fr": "comme pour chaque propriété de la propriété raccourcie (toutes les propriétés sauf {{cssxref(\"unicode-bidi\")}} et {{cssxref(\"direction\")}})",
+    "ja": "この一括指定のそれぞれのプロパティとして ({{cssxref(\"unicode-bidi\")}} と {{cssxref(\"direction\")}}) を除いたすべてのプロパティ",
     "ru": "как у каждого из подсвойств этого свойства (все свойства, кроме {{cssxref(\"unicode-bidi\")}} и {{cssxref(\"direction\")}})"
   },
   "elementsWithDisplayBoxOrInlineBox": {
@@ -646,167 +662,189 @@
     "de": "Elemente mit <code>{{cssxref(\"display\")}}: marker;</code>",
     "en-US": "elements with <code>{{cssxref(\"display\")}}: marker;</code>",
     "fr": "éléments avec <code>{{cssxref(\"display\")}}: marker;</code>",
+    "ja": "<code>{{cssxref(\"display\")}}: marker;</code> の要素",
     "ru": "элементы с <code>{{cssxref(\"display\")}}: marker;</code>"
   },
   "elementsWithDisplayMozBoxMozInlineBox": {
     "de": "Elemente mit einem CSS {{cssxref(\"display\")}} Wert von <code>-moz-box</code>, <code>-moz-inline-box</code>, <code>-webkit-box</code> oder <code>-webkit-inline-box</code>",
     "en-US": "elements with a CSS {{cssxref(\"display\")}} value of <code>-moz-box</code>, <code>-moz-inline-box</code>, <code>-webkit-box</code> or <code>-webkit-inline-box</code>",
     "fr": "éléments dont CSS {{cssxref(\"display\")}} vaut <code>-moz-box</code>, <code>-moz-inline-box</code>, <code>-webkit-box</code> ou <code>-webkit-inline-box</code>",
+    "ja": "CSS の {{cssxref(\"display\")}} の値が <code>-moz-box</code>, <code>-moz-inline-box</code>, <code>-webkit-box</code>, <code>-webkit-inline-box</code> のいずれかである要素",
     "ru": "элементы со значением {{cssxref(\"display\")}}: <code>-moz-box</code>, <code>-moz-inline-box</code>, <code>-webkit-box</code> или <code>-webkit-inline-box</code>"
   },
   "elementsWithOverflowNotVisibleAndReplacedElements": {
     "de": "Elemente, deren {{cssxref(\"overflow\")}} nicht <code>visible</code> ist, und optional ersetzte Elemente, die Bilder oder Videos repräsentieren, und iframes",
     "en-US": "elements with {{cssxref(\"overflow\")}} other than <code>visible</code>, and optionally replaced elements representing images or videos, and iframes",
     "fr": "éléments dont {{cssxref(\"overflow\")}} ne vaut pas <code>visible</code> et éventuellement les éléments remplacés qui représentent des images, des vidéos ou des iframes",
+    "ja": "{{cssxref(\"overflow\")}} が <code>visible</code> 以外である要素、任意で画像、動画、iframe を表す置換要素",
     "ru": "элементы с {{cssxref(\"overflow\")}} отличным от <code>visible</code>, и опционально заменяемые элементы представляющие собой картинки, видео и iframe"
   },
   "exclusionElements": {
-    "en-US": "exclusion elements"
+    "en-US": "exclusion elements",
+    "ja": "除外要素"
   },
   "filterList": {
     "de": "eine <a href=\"/de/docs/Web/CSS/filter#Interpolation\" title=\"Falls beide Filter Funktionslisten gleicher Länge ohne URLs haben, wird jede der Filterfunktionen nach ihren spezifischen Regeln interpoliert. Falls sie unterschiedliche Längen haben, werden die fehlenden äquivalenten Filterfunktionen der längeren Liste unter Verwendung der Standardwerte an das Ende der kürzeren Liste angehängt, anschließend werden alle Filterfunktionen entsprechend ihrer spezifischen Regeln interpoliert. Falls ein Filter 'none' ist, wird er durch die Filterfunktionsliste der anderen unter Verwendung der Standardwerte ersetzt, anschließend werden alle Filterfunktionen entsprechend ihrer spezifischen Regeln interpoliert. Ansonsten wird diskrete Interpolation verwendet.\">Filterfunktionsliste</a>",
     "en-US": "a <a href=\"/en-US/docs/Web/CSS/filter#Interpolation\" title=\"If both filters have a function list of same length without URL, each of their filters functions is interpolated according to its specific rules. If they have different lengths, the missing equivalent filter functions from the longer list are added to the end of the shorter list using their default values, then all filter functions are interpolated according to their specific rules. If one filter is 'none', it is replaced with the filter functions list of the other one using the filter function default values, then all filter functions are interpolated according to their specific rules. Otherwise discrete interpolation is used.\">filter function list</a>",
-    "fr": "une <a href=\"/fr/docs/Web/CSS/filter#Interpolation\" title=\"Si les deux filtres ont une liste de fonctions de même longueur sans URL, chaque fonction de filtre est interpolée selon les règles qui lui sont propres. Si elles sont de longueur différente, les dernières fonctions de filtre de la liste la plus longue sont ajoutées à la liste la plus courte avec leurs valeurs par défaut et ensuite, toutes les fonctions de filtre sont interpolées entre elles selon leurs règles spécifiques. Dans les autres cas, c'est une interpolation discrète qui est utilisée.\">liste de fonctions de filtre</a>"
+    "fr": "une <a href=\"/fr/docs/Web/CSS/filter#Interpolation\" title=\"Si les deux filtres ont une liste de fonctions de même longueur sans URL, chaque fonction de filtre est interpolée selon les règles qui lui sont propres. Si elles sont de longueur différente, les dernières fonctions de filtre de la liste la plus longue sont ajoutées à la liste la plus courte avec leurs valeurs par défaut et ensuite, toutes les fonctions de filtre sont interpolées entre elles selon leurs règles spécifiques. Dans les autres cas, c'est une interpolation discrète qui est utilisée.\">liste de fonctions de filtre</a>",
+    "ja": "<a href=\"/en-US/docs/Web/CSS/filter#Interpolation\" title=\"両方のフィルターが同じ長さの関数リストを URL なしで持っている場合、 それぞれのフィルター関数はその固有の規則に従って補間されます。両者の長さが異なる場合は、 長い方のリストから欠けている等価なフィルター関数が既定値を使って短い方のリストの最後に追加され、 すべてのフィルター関数がそれぞれの規則に従って補間されます。一方のフィルターが 'none' の場合は，フィルター関数の既定値を用いてもう一方のフィルター関数のリストに置き換えられ，すべてのフィルター関数がその固有の規則に従って補間されます．それ以外の場合は，離散補間が用いられます。\">フィルター関数のリスト</a>"
   },
   "firstLetterPseudoElementsAndInlineLevelFirstChildren": {
     "de": "{{cssxref(\"::first-letter\")}} Pseudoelemente und Inline-Level-Elemente, die die ersten Kinder eines Blockcontainers sind",
     "en-US": "{{cssxref(\"::first-letter\")}} pseudo-elements and inline-level first child of a block container",
     "fr": "pseudo-éléments {{cssxref(\"::first-letter\")}} et le premier fils, en ligne (<i>inline</i>) d'un conteneur de bloc",
+    "ja": "{{cssxref(\"::first-letter\")}} 擬似要素と、ブロックコンテナーの最初のインラインレベルの子",
     "ru": "{{cssxref(\"::first-letter\")}} псевдоэлементы и первые строчные потомки блока"
   },
   "flexContainers": {
     "de": "flexible Container",
     "en-US": "flex containers",
     "fr": "conteneurs flexibles",
+    "ja": "フレックスコンテナー",
     "ru": "flex-контейнеры"
   },
   "flexItemsAndAbsolutelyPositionedFlexContainerChildren": {
     "de": "flexible Elemente und absolut positionierte Flexcontainerkinder",
     "en-US": "flex items and absolutely-positioned flex container children",
     "fr": "éléments flexibles, ainsi que les enfants absolument positionnés de conteneurs flexibles",
+    "ja": "フレックスアイテムおよび絶対位置指定されたフレックスコンテナーの子",
     "ru": "flex-элементы и абсолютно-позицированые потомки flex-контейнера"
   },
   "flexItemsAndInFlowPseudos": {
     "de": "flexible Elemente einschließlich In-Flow-Pseudo-Elemente",
     "en-US": "flex items, including in-flow pseudo-elements",
     "fr": "éléments flexibles, y compris les pseudo-éléments intégrés dans le flux",
-    "ja": "フロー内の疑似要素を含むフレックスアイテム",
+    "ja": "フロー内の擬似要素を含むフレックスアイテム",
     "ru": "flex-элементы, в том числе в потоке псевдоэлементов"
   },
   "flexItemsGridItemsAbsolutelyPositionedContainerChildren": {
     "en-US": "Flex items, grid items, and absolutely-positioned flex and grid container children",
+    "ja": "フレックスアイテム、グリッドアイテム、フレックスおよびグリッドコンテナーの絶対位置指定の子",
     "ru": "flex-элементы, grid-элементы и абсолютно спозиционированные потомки flex- и grid-контейнеров"
   },
   "flexItemsGridItemsAndAbsolutelyPositionedBoxes": {
-    "en-US": "flex items, grid items, and absolutely-positioned boxes"
+    "en-US": "flex items, grid items, and absolutely-positioned boxes",
+    "ja": "フレックスアイテム、グリッドアイテム、絶対位置指定のボックス"
   },
   "floats": {
     "de": "Flusselemente",
     "en-US": "floats",
     "fr": "flottants",
+    "ja": "浮動要素",
     "ru": "плавает"
   },
   "fontStretch": {
     "de": "<a href=\"/de/docs/Web/CSS/font-stretch#Interpolation\">Schriftbreite</a>",
     "en-US": "a <a href=\"/en-US/docs/Web/CSS/font-stretch#Interpolation\" title=\"Font stretch values are interpolated in discrete steps. The interpolation happens as though the ordered values are equally spaced real numbers; the result is rounded to the nearest value, with values exactly halfway between two values rounded towards the later value, that is the most expanded one.\">font stretch</a>",
     "fr": "une <a href=\"/fr/docs/Web/CSS/font-stretch#Interpolation\" title=\"Les valeurs de font stretch sont interpolées de façon discrète. L'interpolation s'effectue comme si les valeurs, dans l'ordre, étaient des nombres également distribués : le résultat est arrondi à la valeur la plus proche, les valeurs situées exactement entre deux valeurs sont arrondies à la valeur supérieure.\"><code>font stretch</code></a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/font-stretch#Interpolation\" title=\"Font stretch values are interpolated in discrete steps. The interpolation happens as though the ordered values are equally spaced real numbers; the result is rounded to the nearest value, with values exactly halfway between two values rounded towards the later value, that is the most expanded one.\">font stretch</a>",
+    "ja": "<a href=\"/ja/docs/Web/CSS/font-stretch#Interpolation\" title=\"フォントの伸張値は、離散的な段階で補間されます。補間は、順序づけられた値が等間隔の実数であるかのように行われます。結果は、最も近い値に丸められ、 2 つの値のちょうど中間の値は、最も拡張された値である後の値に向かって丸められます。\">フォントの伸長値</a>",
     "ru": "<a href=\"/ru/docs/Web/CSS/font-stretch#Interpolation\" title=\"Значения ширины начертания шрифта интерполируются по дискретным шагам. Интерполяция происходит по упорядоченно расположенным значениям в пространстве действительных чисел; результат округляется к ближайшему значению, точно между двумя соседними значениями, округляется в сторону большего значения, которое является наиболее широким.\">ширина начертания шрифта</a>"
   },
   "fontWeight": {
     "de": "<a href=\"/de/docs/Web/CSS/font-weight#Interpolation\">Schriftgewichtung</a>",
     "en-US": "a <a href=\"/en-US/docs/Web/CSS/font-weight#Interpolation\" title=\"Font weight values are interpolated via discrete steps (multiples of 100). The interpolation happens in real number space and is converted to an integer by rounding to the nearest multiple of 100, with values halfway between multiples of 100 rounded towards positive infinity.\">font weight</a>",
     "fr": "une <a href=\"/fr/docs/Web/CSS/font-weight#Interpolation\" title=\"Les valeurs de graisse de police sont interpolées via des étapes discrètes (multiple de 100). L'interpolation a lieu dans un espace de nombres réels et est convertis en un entier arroundi au plus proche multiple de 100, avec les valeurs à mis chemin entre les multiples de 100, arrondies vers l'infini positif.\">graisse de police</a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/font-weight#Interpolation\" title=\"Font weight values are interpolated via discrete steps (multiples of 100). The interpolation happens in real number space and is converted to an integer by rounding to the nearest multiple of 100, with values halfway between multiples of 100 rounded towards positive infinity.\">font weight</a>",
+    "ja": "<a href=\"/ja/docs/Web/CSS/font-weight#Interpolation\" title=\"フォントの太さは、離散的な段階 (100 の倍数) で補間されます。補間は実数空間で行われ、 100 の倍数に最も近い倍数に丸めて整数に変換され、 100 の倍数の中間の値は正の無限大に向けて丸められます。\">フォントの太さ</a>",
     "ru": "<a href=\"/ru/docs/Web/CSS/font-weight#Interpolation\" title=\"Значения жирности шрифта интерполируются через целое число дискретных шагов (умноженных на 100). Интерполяция происходит в пространстве действительных чисел, а получившееся значение преобразуется в целое путём округления до ближайшей сотни, со значениями точно между соседними множителями, округляемыми в сторону положительной бесконечности.\">жирность шрифта</a>"
   },
   "forLengthAbsoluteValueOtherwisePercentage": {
     "de": "for {{xref_csslength}} the absolute value, otherwise a percentage",
     "en-US": "for {{xref_csslength}} the absolute value, otherwise a percentage",
     "fr": "pour une valeur de type {{xref_csslength}} sa valeur absolue, sinon un pourcentage",
-    "ja": "{{xref_csslength}} の場合は絶対的な値、さもなくばパーセンテージ",
+    "ja": "{{xref_csslength}} の場合は絶対的な値、それ以外の場合はパーセント値",
     "ru": "для {{xref_csslength}} абсолютное значение, иначе процент"
   },
   "gridContainers": {
     "de": "Gridcontainer",
     "en-US": "grid containers",
     "fr": "conteneurs de grille",
+    "ja": "グリッドコンテナー",
     "ru": "сеточные контейнеры"
   },
   "gridContainersWithMasonryLayout": {
-    "en-US": "Grid containers with masonry layout"
+    "en-US": "Grid containers with masonry layout",
+    "ja": "マソンリーレイアウトのグリッドコンテナー"
   },
   "gridContainersWithMasonryLayoutInTheirBlockAxis": {
-    "en-US": "Grid containers with masonry layout in their block axis"
+    "en-US": "Grid containers with masonry layout in their block axis",
+    "ja": "ブロック軸がマソンリーレイアウトのグリッドコンテナー"
   },
   "gridContainersWithMasonryLayoutInTheirInlineAxis": {
-    "en-US": "Grid containers with masonry layout in their inline axis"
+    "en-US": "Grid containers with masonry layout in their inline axis",
+    "ja": "インライン軸がマソンリーレイアウトのグリッドコンテナー"
   },
   "gridItemsAndBoxesWithinGridContainer": {
     "de": "Gridelemente und absolut positionierte Boxen, deren beinhaltender Block ein Gridcontainer ist",
     "en-US": "grid items and absolutely-positioned boxes whose containing block is a grid container",
     "fr": "élements de grilles et boîtes positionnées de façon absolue dont le bloc englobant est un conteneur de grille",
+    "ja": "包含ブロックがグリッドコンテナーであるグリッドアイテムまたは絶対位置指定のボックス",
     "ru": "элементы сетки и абсолютно-позиционированные блоки, находящиеся в сеточном контейнере"
   },
   "iframeElements": {
-    "en-US": "iframe elements"
+    "en-US": "iframe elements",
+    "ja": "iframe 要素"
   },
   "images": {
     "de": "Bilder",
     "en-US": "images",
     "fr": "images",
+    "ja": "画像",
     "ru": "изображения"
   },
   "inFlowBlockLevelElements": {
     "de": "in-flow block-level Elemente",
     "en-US": "in-flow block-level elements",
     "fr": "éléments de type bloc participant au flux",
-    "ja": "フロート内に配置された、フローティングや絶対配置がなされていない全てのブロックレベル要素",
+    "ja": "フロー内のブロックレベル要素",
     "ru": "блочные элементы в потоке"
   },
   "inFlowChildrenOfBoxElements": {
     "de": "Flusskindelemente von Boxelementen",
     "en-US": "in-flow children of box elements",
     "fr": "les éléments fils dans le flux des éléments de boîte",
+    "ja": "フロー内のボックス要素の子",
     "ru": "потомки блочных элементов в потоке"
   },
   "inlineAxisHorizontalInXUL": {
     "de": "<code>inline-axis</code> (<code>horizontal</code> in <a href=\"/de/docs/Mozilla/Tech/XUL\">XUL</a>)",
     "en-US": "<code>inline-axis</code> (<code>horizontal</code> in <a href=\"/en-US/docs/Mozilla/Tech/XUL\">XUL</a>)",
     "fr": "<code>inline-axis</code> (<code>horizontal</code> en <a href=\"/fr/docs/Mozilla/Tech/XUL\">XUL</a>)",
+    "ja": "<code>inline-axis</code> (<a href=\"/ja/docs/Mozilla/Tech/XUL\">XUL</a> における <code>horizontal</code>)",
     "ru": "<code>inline-axis</code> (<code>horizontal</code> в <a href=\"/ru/docs/Mozilla/Tech/XUL\">XUL</a>)"
   },
   "inlineLevelAndTableCellElements": {
     "de": "Inline- und table-cell Elemente",
     "en-US": "inline-level and table-cell elements",
     "fr": "éléments en ligne et à ceux qui sont des cellules de tableau",
-    "ja": "インラインレベルとテーブルセル要素",
+    "ja": "インラインレベルおよびテーブルセル要素",
     "ru": "строчным элементам и ячейкам таблиц"
   },
   "inlineSizeOfContainingBlock": {
     "de": "Inlinegröße des beinhaltenden Blocks",
     "en-US": "inline-size of containing block",
     "fr": "la taille en ligne du bloc englobant",
+    "ja": "包含ブロックの inline-size",
     "ru": "встроенный размер содержащего блока"
   },
   "integer": {
     "de": "<a href=\"/de/docs/Web/CSS/integer#Interpolation\">Integer</a>",
     "en-US": "an <a href=\"/en-US/docs/Web/CSS/integer#Interpolation\" title=\"Values of the <integer> CSS data type are interpolated via integer discrete steps. The calculation is done as if they were real, floating-point numbers and the discrete value is obtained using the floor function.\">integer</a>",
     "fr": "un <a href=\"/fr/docs/Web/CSS/integer#Interpolation\" title=\"Les valeurs du type <entier> sont interpolées par incrémentation discrète. Le calcul est réalisé comme si les valeurs étaient des nombres réels, en virgule flottante et la valeur discrète est obtenue en utilisant la fonction partie entière.\">entier</a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/integer#Interpolation\" title=\"Values of the <integer> CSS data type are interpolated via integer discrete steps. The calculation is done as if they were real, floating-point numbers and the discrete value is obtained using the floor function.\">integer</a>",
+    "ja": "<a href=\"/ja/docs/Web/CSS/integer#Interpolation\" title=\"CSS のデータ型 <integer> の値は整数の離散ステップで補間される。実数の浮動小数点数であるかのように計算され、 floor 関数を用いて離散値が取得される。\">integer</a>",
     "ru": "<a href=\"/ru/docs/Web/CSS/integer#Interpolation\" title=\"Значения типа данных CSS <целое число> интерполируются через целое число дискретных шагов. Вычисления производятся словно над вещественными числами с плавающей запятой, а дискретные значения получаются с использованием функции floor.\">целое число</a>"
   },
   "interactive": {
     "de": "interaktiv",
     "en-US": "interactive",
     "fr": "interactif",
+    "ja": "対話的",
     "ru": "интерактивный"
   },
   "invertForTranslucentColorRGBAOtherwiseRGB": {
     "de": "Für das Schlüsselwort <code>invert</code> ist der berechnete Wert <code>invert</code>. Für den Farbwert, falls der Wert durchscheinend ist, ist der berechnete Wert der entsprechende <code>rgba()</code> Wert. Falls nicht, ist er der entsprechende <code>rgb()</code> Wert. Das Schlüsselwort <code>transparent</code> wird zu <code>rgba(0,0,0,0)</code>.",
     "en-US": "For the keyword <code>invert</code>, the computed value is <code>invert</code>. For the color value, if the value is translucent, the computed value will be the <code>rgba()</code> corresponding one. If it isn't, it will be the <code>rgb()</code> corresponding one. The <code>transparent</code> keyword maps to <code>rgba(0,0,0,0)</code>.",
     "fr": "Pour le mot-clé <code>invert</code>, la valeur calculée est <code>invert</code>. Pour la valeur de la couleur, si la valeur est transparente, la valeur calculée sera la valeur <code>rgba()</code> correspondante. S'il n'y en a pas, ce sera la valeur <code>rgb()</code> correspondante. Le mot-clé <code>transparent</code> correspondra à <code>rgba(0,0,0,0)</code>.",
-    "ja": "キーワード <code>invert</code> が指定されると計算値も <code>invert</code>。色が指定されると、半透明なら、計算値はそれに一致する<code>rbga()</code> で、不透明なら、それに一致する <code>rgb()</code>。キーワード <code>transparent</code> は <code>rgba(0,0,0,0)</code> にマップされます",
+    "ja": "キーワード <code>invert</code> の場合は、計算値も <code>invert</code>。色の場合は、半透明であれば、計算値はそれに一致する <code>rbga()</code> で、不透明であれば、それに一致する <code>rgb()</code>。キーワード <code>transparent</code> は <code>rgba(0,0,0,0)</code> に対応付けられる。",
     "ru": "Для ключевого слова <code>invert</code>, значение - <code>invert</code>. Для значения цвета, если значение имеет прозрачность, соответственно, значение будет через <code>rgba()</code>. Если это не так, это будет <code>rgb()</code>. Ключевое слово <code>transparent</code> отображается, как <code>rgba(0,0,0,0)</code>."
   },
   "invertOrCurrentColor": {
@@ -820,6 +858,7 @@
     "de": "das Schlüsselwort oder der numerische Wert wie angegeben, wobei <code>bolder</code> und <code>lighter</code> in einen realen Wert umgewandelt werden",
     "en-US": "the keyword or the numerical value as specified, with <code>bolder</code> and <code>lighter</code> transformed to the real value",
     "fr": "le mot-clé ou la valeur numérique, comme spécifié, transformé en la valeur réelle avec <code>bolder</code> et <code>lighter</code>",
+    "ja": "指定された通りのキーワードまたは数値であり、 <code>bolder</code> および <code>lighter</code> は実数に変換される",
     "ru": "ключевое слово или числовое значение, с <code>bolder</code> и <code>lighter</code>, трансформируемися в действительное значение"
   },
   "keywordPlusIntegerIfDigits": {
@@ -833,26 +872,28 @@
     "de": "<a href=\"/de/docs/Web/CSS/length#Interpolation\">Längenangabe</a>",
     "en-US": "a <a href=\"/en-US/docs/Web/CSS/length#Interpolation\" title=\"Values of the <length> CSS data type are interpolated as real, floating-point numbers.\">length</a>",
     "fr": "une <a href=\"/fr/docs/Web/CSS/longueur#Interpolation\" title=\"Les valeurs du type <longueur> sont interpolées comme des nombres réels à virgule flottante.\">longueur</a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/length#Interpolation\" title=\"Values of the <length> CSS data type are interpolated as real, floating-point numbers.\">length</a>",
+    "ja": "<a href=\"/ja/docs/Web/CSS/length#Interpolation\" title=\"CSS の <length> データ型の値は、実数すなわち浮動小数点数として補間されます。\">length</a>",
     "ru": "<a href=\"/ru/docs/Web/CSS/length#Interpolation\" title=\"Значения типа данных CSS <длина> интерполируются как вещественные числа с плавающей запятой.\">длина</a>"
   },
   "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto": {
     "de": "falls als Länge angegeben, die zugehörige absolute Länge; falls als Prozentwert angegeben, der angegebene Wert; ansonsten <code>auto</code>",
     "en-US": "if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, <code>auto</code>",
     "fr": "si spécifié par une longueur, la valeur absolue correspondante; si spécifié par un pourcentage, la valeur telle que spécifiée; sinon, <code>auto</code>",
-    "ja": "長さで指定されると相当する絶対的な長さ、パーセンテージとして指定されると指定値、それ以外では auto",
+    "ja": "長さで指定されると相当する絶対的な長さ、パーセント値として指定されると指定値、それ以外では <code>auto</code>",
     "ru": "если указано как длина - абсолютная длина; если указано как проценты - заданное значение; в противном случае <code>auto</code>"
   },
   "lengthOrPercentageBeforeKeywordIfBothPresent": {
     "de": "die Länge oder der Prozentwert vor dem Schlüsselwort, falls beide vorhanden sind",
     "en-US": "the length or percentage before the keyword, if both are present",
     "fr": "la longueur ou le pourcentage avant le mot-clé si les deux sont présents",
+    "ja": "両方がある場合は、キーワードの前に長さまたはパーセント値",
     "ru": "длина или проценты перед ключевым словом, если присутствуют оба"
   },
   "lengthOrPercentageBeforeKeywords": {
     "de": "Die Länge oder der Prozentwert vor den Schlüsselwörtern, falls beide angegeben wurden. Falls mehrere Schlüsselwörter angegeben wurden, erscheinen sie in derselben Reihenfolge, wie in der formellen Grammatik angegeben.",
     "en-US": "The length or percentage before the keywords, if both are present. If several keywords are present, they appear in the same order as their appearance in the formal grammar.",
     "fr": "La longueur ou le pourcentage avant les mots-clés, si les deux sont présents. Si plusieurs mots-clés sont présents, ils apparaissent dans le même ordre que dans la grammaire formelle.",
+    "ja": "両方がある場合は、キーワードの前に長さまたはパーセント値。複数のキーワードがある場合は、形式文法での出現順と同じ順序で現れる。",
     "ru": "Длина или процент до ключевых слов, если присутствуют оба. Если присутствуют несколько ключевых слов, они появляются в том же порядке, как и в формальной грамматике."
   },
   "lengthsAsPercentages": {
@@ -862,18 +903,21 @@
     "de": "Eine Liste, bei der jeder Eintrag aus einem Versatz besteht, der durch eine Kombination aus absoluter Länge und einem Prozentsatz plus einem Ursprungsschlüsselwort definiert wird",
     "en-US": "A list, each item consisting of: an offset given as a combination of an absolute length and a percentage, plus an origin keyword",
     "fr": "Une liste dont chaque élément se comompose d'un décalage (exprimé comme la combinaison d'une longueur absolue et d'un pourcentage) et d'un mot-clé pour l'origine",
+    "ja": "絶対長とパーセント値の組み合わせで与えられるオフセットと原点のキーワードを、各項目として構成されるリスト。",
     "ru": "Список, каждый элемент которого состоит из: смещения, данного комбинацией абсолютной длины и процентов плюс ключевое слово"
   },
   "listEachItemHasTwoKeywordsOnePerDimension": {
     "de": "eine Liste, wobei jedes Element aus zwei Schlüsselwörtern besteht, eins pro Dimension",
     "en-US": "a list, each item consisting of two keywords, one per dimension",
     "fr": "une liste dont chaque élément consiste en deux mots-clé, un par dimension",
+    "ja": "1 つの方向につき 2 つのキーワードで構成される項目のリスト",
     "ru": "список, каждый элемент которого содержит 2 ключевых слова, по одному на размер"
   },
   "listEachItemTwoKeywordsOriginOffsets": {
     "de": "a list, each item consisting of two keywords representing the origin undtwo offsets from that origin, each given as an absolute length (if given a {{xref_csslength}}), otherwise as a percentage",
     "en-US": "a list, each item consisting of two keywords representing the origin and two offsets from that origin, each given as an absolute length (if given a {{xref_csslength}}), otherwise as a percentage",
     "fr": "une liste dont chaque élément consiste en deux mots-clé représentant l'origine et deux offsets depuis cette origine, chacun étant une longueur absolue (si spécifié comme une {{xref_csslength}}), ou un pourcentage",
+    "ja": "それぞれの項目が原点を表す 2 つのキーワードおよびその原点からの 2 つのオフセット値であるリストであり、それぞれが絶対的な長さ ({{xref_csslength}} が与えられた場合) またはパーセント値で与えられる",
     "ru": "список, каждый элемент которого состоит из двух ключевых слов, представляющих начало координат и два смещения от этого начала, каждое из которых задаётся абсолютной длиной (если дано {{xref_csslength}}), иначе как проценты"
   },
   "listItems": {
@@ -894,36 +938,40 @@
     "de": "logische Höhe des beinhaltenden Blocks",
     "en-US": "logical-height of containing block",
     "fr": "hauteur logique du bloc englobant",
+    "ja": "包含ブロックの論理的な高さ",
     "ru": "логическая высота контейнера"
   },
   "logicalWidthOfContainingBlock": {
     "de": "logische Breite des beinhaltenden Blocks",
     "en-US": "logical-width of containing block",
     "fr": "largeur logique du bloc englobant",
+    "ja": "包含ブロックの論理的な幅",
     "ru": "логическая высота содержащего блока"
   },
   "lpc": {
     "de": "$1$, <a href=\"/de/docs/Web/CSS/percentage#Interpolation\">Prozentsatz</a> oder <a href=\"/de/docs/Web/CSS/calc\"><code>calc()</code></a>;",
     "en-US": "$1$, <a href=\"/en-US/docs/Web/CSS/percentage#Interpolation\" title=\"Values of the <percentage> CSS data type are interpolated as real, floating-point numbers.\">percentage</a> or calc();",
     "fr": "$1$, <a href=\"/fr/docs/Web/CSS/percentage#Interpolation\" title=\"Les valeurs du type <pourcentage> sont interpolées comme des nombres réels à virgule flottante.\">pourcentage</a> ou calc()&nbsp;;",
-    "ja": "$1$ または <a href=\"/ja/docs/Web/CSS/percentage#Interpolation\" title=\"Values of the <percentage> CSS data type are interpolated as real, floating-point numbers.\">percentage</a>, calc();",
+    "ja": "$1$ または <a href=\"/ja/docs/Web/CSS/percentage#Interpolation\" title=\"CSS データ型の <percentage> の値は、実数の浮動小数点数として補間されます。\">パーセント値</a>, calc();",
     "ru": "$1$, <a href=\"/ru/docs/Web/CSS/percentage#Interpolation\" title=\"Значения типа данных CSS <проценты> интерполируются как вещественные числа с плавающей запятой.\">проценты</a> или calc();"
   },
   "lpcNote": {
     "de": " wenn beides Längenwerte sind, werden sie als Längenwerte gehandhabt. Wenn beides Prozentsätze sind, werden sie als Prozentsätze gehandhabt. Ansonsten werden beide Werte wie in einer <code>calc()</code> Funktion addiert (Wird ggf. zu Null). Und bei diesen <code>calc()</code> Funktionen wird jede Hälfte als Realzahl interpoliert. ",
     "en-US": " when both values are lengths, they are interpolated as lengths; when both values are percentages, they are interpolated as percentages; otherwise, both values are converted into a <code>calc()</code> function that is the sum of a length and a percentage (each possibly zero), and these <code>calc()</code> functions have each half interpolated as real numbers. ",
     "fr": " quand les deux valeurs sont des longueurs, elles sont interpolées comme des longueurs&nbsp;; quand les deux valeurs sont des pourcentages, elles sont interpolées comme des pourcentages ; sinon, les deux valeurs sont converties dans une fonction <code>calc()</code> qui est la somme d'une longueur et d'un pourcentage (chaque valeur pouvant être à zéro), et cette fonction <code>calc()</code> interpole chaque moitié comme un nombre réel. ",
-    "ja": "。両方の値が length の場合は、length 値として補完されます。両方の値が percentage の場合は、percentage 値として補完されます。それ以外の場合は、両方の値が calc() 関数にコンバートされ、length と percentage の合計になります (または各値が 0)。そして、これらの <code>calc()</code> 関数は、それぞれ半分ずつ補完された実数を持ちます",
+    "ja": "両方の値が length の場合は、length 値として補完されます。両方の値がパーセント値の場合は、パーセント値として補完されます。それ以外の場合は、両方の値が calc() 関数にコンバートされ、length とパーセント値の合計になります (または各値が 0)。そして、これらの <code>calc()</code> 関数は、それぞれ半分ずつ補完された実数を持ちます",
     "ru": " когда оба значения являются длинами, они интерполируются как длины; когда оба значения являются процентами, они интерполируются как проценты; в остальных случаях, оба значения преобразуются функцией <code>calc()</code> в сумму длины и процента (каждый из них может быть равен нулю), а затем эта функция интерполирует каждую половину как вещественные числа."
   },
   "maskElements": {
     "de": "{{SVGElement(\"mask\")}} Elemente",
     "en-US": "{{SVGElement(\"mask\")}} elements",
     "fr": "les éléments {{SVGElement(\"mask\")}}",
+    "ja": "{{SVGElement(\"mask\")}} 要素",
     "ru": "{{SVGElement(\"mask\")}} элементы"
   },
   "maxZoomFactor": {
-    "en-US": "The largest allowed zoom factor. A zoom factor of 100% corresponds to no zooming. Larger values zoom in. Smaller values zoom out."
+    "en-US": "The largest allowed zoom factor. A zoom factor of 100% corresponds to no zooming. Larger values zoom in. Smaller values zoom out.",
+    "ja": "許可されている最大の拡大率。拡大率は 100% がズームなしに対応します。より大きな値でズームインします。より小さな値でズームアウトします。"
   },
   "media": {
     "de": "Medien",
@@ -935,7 +983,8 @@
     "zh-CN": "适用媒体"
   },
   "minZoomFactor": {
-    "en-US": "The smallest allowed zoom factor. A zoom factor of 100% corresponds to no zooming. Larger values zoom in. Smaller values zoom out."
+    "en-US": "The smallest allowed zoom factor. A zoom factor of 100% corresponds to no zooming. Larger values zoom in. Smaller values zoom out.",
+    "ja": "許可されている最小の拡大率。拡大率は 100% がズームなしに対応します。より大きな値でズームインします。より小さな値でズームアウトします。"
   },
   "multicolElements": {
     "de": "mehrspaltige Elemente",
@@ -946,12 +995,13 @@
   },
   "multiColumnElementsFlexContainersGridContainers": {
     "en-US": "multi-column elements, flex containers, grid containers",
-    "ja": "段組み要素, フレックスコンテナー, グリッドコンテナー"
+    "ja": "段組み要素、フレックスコンテナー、グリッドコンテナー"
   },
   "multilineFlexContainers": {
     "de": "mehrzeilige flexible Container",
     "en-US": "multi-line flex containers",
     "fr": "conteneurs flexibles multi-lignes",
+    "ja": "複数行のフレックスコンテナー",
     "ru": "мультистрочные flex-контейнеры"
   },
   "no": {
@@ -967,13 +1017,14 @@
     "de": "<code>none</code> (aber dieser Wert wird im User Agent CSS überschrieben)",
     "en-US": "<code>none</code> (but this value is overridden in the user agent CSS)",
     "fr": "<code>none</code> (cette valeur est surchargée par le CSS de l'agent utilisateur)",
+    "ja": "<code>none</code> (ただし、この値はユーザーエージェント CSS で上書きされる)",
     "ru": "<code>none</code> (но это значение перезаписано в дефолтном CSS браузера)"
   },
   "noneOrImageWithAbsoluteURI": {
     "de": "<code>none</code> oder das Bild mit absoluter URI",
     "en-US": "<code>none</code> or the image with its URI made absolute",
     "fr": "<code>none</code> ou l'image avec son URI rendue absolue",
-    "ja": "<code>none</code> または画像の絶対的 URI",
+    "ja": "<code>none</code> または画像の絶対化した URI",
     "ru": "<code>none</code> или изображение с абсолютным URI"
   },
   "nonReplacedBlockAndInlineBlockElements": {
@@ -987,42 +1038,46 @@
     "de": "Nicht ersetzte <code>block</code>-Elemente (außer <code>table</code>-Elemente), <code>table-cell</code>- oder <code>inline-block</code>-Elemente",
     "en-US": "non-replaced <code>block</code> elements (except <code>table</code> elements), <code>table-cell</code> or <code>inline-block</code> elements",
     "fr": "éléments non-remplacés de type <code>block</code> ou <code>table</code>, ou éléments de type <code>table-cell</code> ou <code>inline-block</code>",
-    "ja": "非置換ブロック要素（テーブル要素を除く）、テーブルセル、インラインブロック要素",
+    "ja": "非置換ブロック要素 (<code>table</code> 要素を除く)、<code>table-cell</code> 要素、<code>inline-block</code> 要素のいずれか",
     "ru": "не заменяемые блочные элементы (кроме элементов <code>table</code>), <code>table-cell</code> или <code>inline-block</code> элементы"
   },
   "nonReplacedElements": {
-    "en-US": "non-replaced elements"
+    "en-US": "non-replaced elements",
+    "ja": "置換要素以外"
   },
   "nonReplacedInlineElements": {
     "de": "nicht ersetzte Inlineelemente",
     "en-US": "non-replaced inline elements",
     "fr": "les éléments en ligne non remplacés",
-    "ja": "非置換インライン要素",
+    "ja": "置換でないインライン要素",
     "ru": "не заменяемые строчные элементы"
   },
   "noPracticalInitialValue": {
     "de": "Es gibt keinen praktischen Initialwert dafür.",
     "en-US": "There is no practical initial value for it.",
     "fr": "Il n'y a pas de valeur initiale pour cela.",
+    "ja": "具体的な初期値なし。",
     "ru": "На практике начального значения нет"
   },
   "noPracticalMedia": {
     "de": "Es gibt kein praktisches Medium dafür.",
     "en-US": "There is no practical media for it.",
     "fr": "Il n'y a pas de média pour cela.",
+    "ja": "具体的なメディアなし。",
     "ru": "Для этого нет практического применения."
   },
   "normalizedAngle": {
     "de": "normalisierter Winkel",
     "en-US": "normalized angle",
     "fr": "angle normalisé",
+    "ja": "正規化された角度",
     "ru": "нормализованный угол"
   },
   "normalOnElementsForPseudosNoneAbsoluteURIStringOrAsSpecified": {
     "de": "Bei Elementen ist der berechnete Wert immer <code>normal</code>. Falls bei {{cssxref(\"::before\")}} und {{cssxref(\"::after\")}} <code>normal</code> angegeben ist, ist der berechnete Wert <code>none</code>. Ansonsten, für URI Werte die absolute URI; für <code>attr()</code> Werte der resultierende String; für andere Schlüsselwörter wie angegeben.",
     "en-US": "On elements, always computes to <code>normal</code>. On {{cssxref(\"::before\")}} and {{cssxref(\"::after\")}}, if <code>normal</code> is specified, computes to <code>none</code>. Otherwise, for URI values, the absolute URI; for <code>attr()</code> values, the resulting string; for other keywords, as specified.",
     "fr": "Sur les éléments, le résultat du calcul est toujours <code>normal</code>. Sur {{cssxref(\"::before\")}} et {{cssxref(\"::after\")}}, si <code>normal</code> est spécifié, cela donnera <code>none</code>. Sinon, pour les valeurs d'URI, on aura l'URI absolue ; pour les valeurs <code>attr()</code>, on aura la chaine résultante ; pour les autres mots-clé, ce sera comme spécifié.",
-    "ja": "通常要素で使われると常に <code>normal</code>。{{cssxref(\"::before\")}} 及び {{cssxref(\"::after\")}} では: <code>normal</code> の指定があれば計算値は <code>none</code>。指定がなければ、<ul><li>URI 値は、絶対的 URI となる</li><li><code>attr()</code> 値は、計算値の文字列となる</li><li>その他のキーワードについては指定どおり</li></ul>",
+    "ja": "要素の場合は、常に <code>normal</code> と計算される。 {{cssxref(\"::before\")}} および {{cssxref(\"::after\")}} の場合、 <code>normal</code> が指定されていれば計算値は <code>none</code>。それ以外の場合、 URI 値の場合は絶対 URI、 <code>attr()</code> 値の場合は結果の文字列、その他のキーワードについては指定通り。",
     "ru": "На элементах всегда вычисляется как <code>normal</code>. На {{cssxref(\"::before\")}} и {{cssxref(\"::after\")}}, если <code>normal</code> указано, интерпретируется как <code>none</code>. Иначе, для значений URI, абсолютного URI; для значений <code>attr()</code> - результирующая строка; для других ключевых слов, как указано."
   },
   "notAnimatable": {
@@ -1032,11 +1087,12 @@
     "de": "<a href=\"/de/docs/Web/CSS/number#Interpolation\">Nummer</a>",
     "en-US": "a <a href=\"/en-US/docs/Web/CSS/number#Interpolation\" title=\"Values of the <number> CSS data type are interpolated as real, floating-point, numbers.\">number</a>",
     "fr": "un <a href=\"/fr/docs/Web/CSS/nombre#Interpolation\" title=\"Les valeurs du type <nombre> sont interpolées comme des nombres réels, en virgule flottante.\">nombre</a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/number#Interpolation\" title=\"Values of the <number> CSS data type are interpolated as real, floating-point, numbers.\">number</a>",
+    "ja": "<a href=\"/ja/docs/Web/CSS/number#Interpolation\" title=\"<number> の CSS データ型の値は浮動小数点数の実数として補完されます。\">数値</a>",
     "ru": "<a href=\"/ru/docs/Web/CSS/number#Interpolation\" title=\"Значения типа данных CSS <число> интерполируются как вещественные числа с плавающей запятой.\">число</a>"
   },
   "numberOrLength": {
     "en-US": "either number or length",
+    "ja": "数値または長さ",
     "ru": "число или длина"
   },
   "oneOrTwoValuesLengthAbsoluteKeywordsPercentages": {
