@@ -4923,6 +4923,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-weight"
   },
+  "forced-color-adjust": {
+    "syntax": "auto | none",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "CSS Color"
+    ],
+    "initial": "auto",
+    "appliesto": "allElementsAndText",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/forced-color-adjust"
+  },
   "gap": {
     "syntax": "<'row-gap'> <'column-gap'>?",
     "media": "visual",
