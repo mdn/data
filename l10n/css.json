@@ -289,7 +289,8 @@
   "angleBasicShapeOrPath": {
     "de": "{{cssxref(\"<angle>\"}}, {{cssxref(\"<basic-shape>\"}} oder {{cssxref(\"<path()>\"}}",
     "en-US": "{{cssxref(\"<angle>\"}}, {{cssxref(\"<basic-shape>\"}} or {{cssxref(\"<path()>\"}}",
-    "fr": "{{cssxref(\"<angle>\"}}, {{cssxref(\"<basic-shape>\"}} ou {{cssxref(\"<path()>\"}}"
+    "fr": "{{cssxref(\"<angle>\"}}, {{cssxref(\"<basic-shape>\"}} ou {{cssxref(\"<path()>\"}}",
+    "ja": "{{cssxref(\"<angle>\"}}, {{cssxref(\"<basic-shape>\"}}, {{cssxref(\"<path()>\"}} のいずれか"
   },
   "angleOrBasicShapeOrPath": {
     "de": "als &lt;angle&gt;, &lt;basic-shape&gt; oder &lt;path()&gt;",
