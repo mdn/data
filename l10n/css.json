@@ -1049,7 +1049,7 @@
     "de": "ein bis vier Prozentwert(e) (wie angegeben) oder absolute Länge(n) plus das Schlüsselwort <code>fill</code>, falls angegeben",
     "en-US": "one to four percentage(s) (as specified) or absolute length(s), plus the keyword <code>fill</code> if specified",
     "fr": "un à quatre pourcentages, comme spécifiés, ou des longueurs absolues, suivis par le mot-clé <code>fill</code> si spécifié",
-    "ja": "1 つから 4 つのパーセンテージ値（指定値）または絶対的な長さ。指定されていれば続けてキーワード <code>fill</code>",
+    "ja": "1 つから 4 つのパーセント値 (指定通り) または絶対的な長さ。指定されていれば続けてキーワード <code>fill</code>",
     "ru": "одно к четырём процентам (как указано) или абсолютной длине(ам), плюс ключевое слово <code>fill</code>, если указано"
   },
   "optimumMinAndMaxValueOfAbsoluteLengthPercentageOrNormal": {
@@ -1063,6 +1063,7 @@
     "de": "ein optimaler Wert, der entweder aus einer absoluten Länge oder dem Schlüsselwort <code>normal</code> besteht",
     "en-US": "an optimum value consisting of either an absolute length or the keyword <code>normal</code>",
     "fr": "une valeur optimale consistant en une longueur absolue ou <code>normal</code>",
+    "ja": "絶対的な長さまたはキーワード <code>normal</code> のどちらかから成る最適値",
     "ru": "оптимальное значение состоит из абсолютной длины или ключевого слова <code>normal</code>"
   },
   "orderOfAppearance": {
@@ -1076,224 +1077,242 @@
     "de": "der Prozentwert wie angegeben oder die absolute Länge oder <code>none</code>",
     "en-US": "the percentage as specified or the absolute length or <code>none</code>",
     "fr": "le pourcentage comme spécifié ou la longueur absolue ou le mot-clé <code>none</code>",
-    "ja": "指定されたパーセンテージ値または絶対的な長さ、または <code>none</code>",
+    "ja": "指定されたパーセント値または絶対的な長さ、または <code>none</code>",
     "ru": "проценты, как указаны, абсолютная длина или <code>none</code>"
   },
   "percentageAsSpecifiedOrAbsoluteLength": {
     "de": "der Prozentwert wie angegeben oder die absolute Länge",
     "en-US": "the percentage as specified or the absolute length",
     "fr": "le pourcentage tel que spécifé ou une longeur absolue",
-    "ja": "指定されたパーセンテージ値または絶対的な長さ",
+    "ja": "指定されたパーセント値または絶対的な長さ",
     "ru": "процент, как указан, или аблосютная длина"
   },
   "percentageAutoOrAbsoluteLength": {
     "de": "ein Prozentwert oder <code>auto</code> oder die absolute Länge",
     "en-US": "a percentage or <code>auto</code> or the absolute length",
     "fr": "un pourcentage ou <code>auto</code> ou une longueur absolue",
-    "ja": "パーセンテージ、auto、絶対的な長さのいずれか",
+    "ja": "パーセント値、 <code>auto</code>、絶対的な長さのいずれか",
     "ru": "процент, <code>auto</code> или абсолютная длина"
   },
   "percentageOrAbsoluteLengthPlusKeywords": {
     "de": "der Prozentwert wie angegeben oder die absolute Länge plus Schlüsselwörter, falls angegeben",
     "en-US": "the percentage as specified or the absolute length, plus any keywords as specified",
     "fr": "le pourcentage tel que spécifié ou la longueur absolue, ainsi que les mots-clé comme spécifiés",
-    "ja": "指定されたパーセンテージ値または絶対的な長さ、続けて指定された任意の数のキーワード",
+    "ja": "指定されたパーセント値または絶対的な長さ、続けて指定された任意の数のキーワード",
     "ru": "процент, как указан или абсолютная длина, а также любые ключевые слова"
   },
   "percentages": {
     "de": "Prozentwerte",
     "en-US": "Percentages",
     "fr": "Pourcentages",
-    "ja": "パーセンテージ",
+    "ja": "パーセント値",
     "ru": "Проценты"
   },
   "percentagesOrLengthsFollowedByFill": {
     "de": "die Prozentwerte oder Längen gefolgt vom Schlüsselwort <code>fill</code>",
     "en-US": "the percentages or lengths, eventually followed by the keyword <code>fill</code>",
     "fr": "les pourcentages ou les longueurs, éventuellement suivis par le mot-clé <code>fill</code>",
+    "ja": "パーセント値または長さ、最後にキーワード <code>fill</code> が続く",
     "ru": "проценты или длины, в конечном счете, следует ключевое слово <code>fill</code>"
   },
   "perGrammar": {
     "de": "nach Grammatik",
     "en-US": "per grammar",
     "fr": "selon la grammaire",
-    "ja": "構文通り"
+    "ja": "文法通り"
   },
   "position": {
     "de": "<a href=\"/de/docs/Web/CSS/number#Interpolation\" title=\"Werte des <position> Datentyps werden unabhängig für Abszisse und Ordinate interpoliert. Da die Geschwindigkeit für beide durch dieselbe <timing-function> bestimmt wird, wird der Punkt einer Linie folgen.\">Position</a>",
     "en-US": "a <a href=\"/en-US/docs/Web/CSS/position_value#Interpolation\" title=\"Values of the <position> data type are interpolated independently for the abscissa and ordinate. As the speed is defined by the same <timing-function> for both, the point will move following a line.\">position</a>",
     "fr": "une <a href=\"/fr/docs/Web/CSS/position_value#Interpolation\" title=\"Les valeurs de type <position> sont interpolées indépendamment pour les abscisses et pour les ordonnées. La vitesse est définie par la même <timing-function>, le point se déplacera donc suivant une ligne.\">position</a>",
+    "ja": "<a href=\"/en-US/docs/Web/CSS/position_value#Interpolation\" title=\"<position> データ型の値は、横軸と縦軸に対して個別に補間されます。速度は両方とも同じ <timing-function> で定義されているので、点は線に沿って移動します。\">position</a>",
     "ru": "<a href=\"/ru/docs/Web/CSS/position_value#Interpolation\" title=\"Значении типа данных <позиция> интерполизуются независимо как абсцисса или ордината. Скорость определяется по одной <временной функции> для обоих координат, точка будет двигаться следуя линии.\">позиция</a>"
   },
   "positionedElements": {
     "de": "positionierte Elemente",
     "en-US": "positioned elements",
     "fr": "éléments positionnés",
-    "ja": "配置された要素",
+    "ja": "位置指定要素",
     "ru": "позиционированные элементы"
   },
   "rectangle": {
     "de": "<a href=\"/de/docs/Web/CSS/shape#Interpolation\">Rechteck</a>",
     "en-US": "a <a href=\"/en-US/docs/Web/CSS/shape#Interpolation\" title=\"Values of the <shape> CSS data type which are rectangles are interpolated over their top, right, bottom and left component, each treated as a real, floating-point number.\">rectangle</a>",
     "fr": "un <a href=\"/fr/docs/Web/CSS/forme#Interpolation\" title=\"Valeurs de type CSS <forme> qui ont des rectangles interpolés sur leurs composantes haute, droite, basse et gauche dont chacune est traitée comme un nombre flottant réel.\">rectangle</a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/shape#Interpolation\" title=\"Values of the <shape> CSS data type which are rectangles are interpolated over their top, right, bottom and left component, each treated as a real, floating-point number.\">rectangle</a>",
+    "ja": "<a href=\"/ja/docs/Web/CSS/shape#Interpolation\" title=\"CSS の <shape> データ型が矩形の場合の値は、その上、右、下、左の各部分に補間され、それぞれが浮動小数点数の実数として扱われます。\">rectangle</a>",
     "ru": "<a href=\"/ru/docs/Web/CSS/shape#Interpolation\" title=\"Значения типа данных CSS <фигура>, которые являются прямоугольниками, интерполируются по их верхней, правой, нижней и левой компоненте, каждая из которых трактуется как вещественное число или с плавающей запятой.\">прямоугольник</a>"
   },
   "referToBorderBox": {
     "de": "beziehen sich auf die Rahmenbox des Elements",
     "en-US": "refer to the element’s border box",
     "fr": "fait référence à l'élément <code>border box</code>",
+    "ja": "要素の境界ボックスに対する相対値",
     "ru": "относятся к границе элемента"
   },
   "referToContainingBlockHeight": {
     "de": "bezieht sich auf die Höhe des äußeren Elements",
     "en-US": "refer to the height of the containing block",
     "fr": "se rapporte à la hauteur du bloc contenant",
-    "ja": "包含ブロックの高さ",
+    "ja": "包含ブロックの高さに対する相対値",
     "ru": "относятся к высоте содержащего блока"
   },
   "referToDimensionOfBorderBox": {
     "de": "bezieht sich auf die Größe der Border-Box",
     "en-US": "refer to the corresponding dimension of the border box",
     "fr": "se rapporte à la dimension correspondance de la boîte de bordure",
-    "ja": "境界ボックスの対応する長さを参照",
+    "ja": "境界ボックスの対応する寸法に対する相対値",
     "ru": "относятся к соответствующему размеру границы элемента"
   },
   "referToDimensionOfContentArea": {
     "de": "beziehen sich auf die entsprechende Dimension des Inhaltsbereichs",
     "en-US": "refer to corresponding dimension of the content area",
     "fr": "fait référence à la dimension correspondante de la zone de contenu",
-    "ja": "該当するコンテンツ領域の寸法を参照",
+    "ja": "コンテンツ領域の対応する寸法に対する相対値",
     "ru": "относятся к соответвующему размеру области содержимого"
   },
   "referToElementFontSize": {
     "de": "bezieht sich auf die Schriftgröße des Elternelements",
     "en-US": "refer to the font size of the element itself",
     "fr": "se rapporte à la taille de la police de l'élément lui-même",
-    "ja": "要素自身のフォントサイズ",
+    "ja": "要素自身のフォントサイズに対する相対値",
     "ru": "относятся к размеру шрифта самого элемента"
   },
   "referToFlexContainersInnerMainSize": {
     "de": "bezieht sich auf die Hauptgröße des Flexcontainers",
     "en-US": "refer to the flex container's inner main size",
     "fr": "se rapporte à la principale taille interne du conteneur flexible",
+    "ja": "フレックスコンテナーの内部の主要な寸法に対する相対値",
     "ru": "относятся к внутреннему размеру главного flex-контейнера"
   },
   "referToHeightOfBackgroundPositioningAreaMinusBackgroundImageHeight": {
     "de": "bezieht sich auf die Höhe des Hintergrundpositionsbereichs abzüglich der Höhe des Hintergrundbilds",
     "en-US": "refer to height of background positioning area minus height of background image",
     "fr": "fait référence à la hauteur de la zone de positionement de l'arrière-plan moins la hauteur de l'image d'arrière-plan",
+    "ja": "背景配置領域の高さから背景画像の高さを引いた値に対する相対値",
     "ru": "относятся к высоте области позиционирования фона минус высота фонового изображения"
   },
   "referToHeightOfInitialViewport": {
     "de": "beziehen sich auf die Höhe des ursprünglichen Viewports",
     "en-US": "refer to the height of the initial viewport",
     "fr": "fait référence à la hauteur de la zone d'affichage (<i>viewport</i>) initiale",
+    "ja": "初期ビューポートの高さに対する相対値",
     "ru": "относятся к высоте изначальной области просмотра"
   },
   "referToLineBoxWidth": {
-    "en-US": "calculated with respect to the width of the line box"
+    "en-US": "calculated with respect to the width of the line box",
+    "ja": "行ボックスの高さを基準に計算"
   },
   "referToLineHeight": {
     "de": "bezieht sich auf die {{cssxref(\"line-height\")}} des Elements selbst",
     "en-US": "refer to the {{cssxref(\"line-height\")}} of the element itself",
     "fr": "se rapporte à la hauteur de ligne de l'élément lui-même",
-    "ja": "要素自身の行の高さ",
+    "ja": "要素自身の {{cssxref(\"line-height\")}} に対する相対値",
     "ru": "относятся к {{cssxref(\"line-height\")}} самого элемента"
   },
   "referToParentElementsFontSize": {
     "de": "bezieht sich auf die Schriftgröße des Elternelements",
     "en-US": "refer to the parent element's font size",
     "fr": "se rapporte à la taille de la police de l'élément parent",
-    "ja": " 親要素の font-size",
+    "ja": " 親要素の font-size に対する相対値",
     "ru": "относятся к размеру шрифта родителя"
   },
   "referToReferenceBoxWhenSpecifiedOtherwiseBorderBox": {
-    "en-US": "refer to reference box when specified, otherwise border-box"
+    "en-US": "refer to reference box when specified, otherwise border-box",
+    "ja": "指定されている場合は参照ボックス、それ以外の場合は境界ボックスに対する相対値"
   },
   "referToSizeOfBackgroundPositioningAreaMinusBackgroundImageSize": {
     "de": "bezieht sich auf die Größe des Hintergrundpositionsbereichs abzüglich der Größe des Hintergrundbilds; die Größe bezieht sich auf die vertikalen und horizontalen Verschiebungen",
     "en-US": "refer to the size of the background positioning area minus size of background image; size refers to the width for horizontal offsets and to the height for vertical offsets",
     "fr": "se rapporte à la taille de la zone de positionnement de l'arrière-plan, moins la taille de l'image; la taille se rapporte à la largeur pour les décalages horizontaux et à la hauteur pour les décalages verticaux",
+    "ja": "背景配置領域の高さから背景画像の高さを引いた値に対する相対値。寸法は水平オフセットの幅と垂直オフセットの高さに対する相対値",
     "ru": "относятся к размеру области позиционирования фона минус размер фонового изображения; размер - ширина горизонтальных смещений и высота вертикальных"
   },
   "referToSizeOfBorderImage": {
     "de": "bezieht sich auf die Größe des Bildes",
     "en-US": "refer to the size of the border image",
     "fr": "se rapporte à la taille de l'image de bordure",
-    "ja": "ボーダー画像のサイズ",
+    "ja": "境界画像の大きさに対する相対値",
     "ru": "относятся к размеру рамки изображения"
   },
   "referToSizeOfBoundingBox": {
     "de": "bezieht sich auf die Größe der äußeren Box",
     "en-US": "refer to the size of bounding box",
     "fr": "se rapporte à la taille de la boîte de l'élément",
-    "ja": "bounding box のサイズ",
+    "ja": "囲みボックスの寸法に対する相対値",
     "ru": "ссылается на размер ограничительной рамки"
   },
   "referToSizeOfElement": {
     "de": "beziehen sich auf die Größe der Box selbst",
     "en-US": "refer to the size of the box itself",
     "fr": "fait référence à la taille de la boîte elle-même",
+    "ja": "ボックス自身の寸法に対する相対値",
     "ru": "ссылается на размер самого блока"
   },
   "referToSizeOfFont": {
     "de": "ja, beziehen sich auf die entsprechende Größe der Schriftart",
     "en-US": "yes, refer to the corresponding size of the text font",
     "fr": "oui, indique la taille correspondante de la police de texte",
+    "ja": "可、テキストのフォントの対応する寸法に対する相対値",
     "ru": "да, относятся к соответствующему размеру шрифта текста"
   },
   "referToSizeOfMaskBorderImage": {
-    "en-US": "refer to size of the mask border image"
+    "en-US": "refer to size of the mask border image",
+    "ja": "境界のマスク画像の寸法に対する相対値"
   },
   "referToSizeOfMaskPaintingArea": {
     "de": "beziehen sich auf die Größe des Maskenzeichenbereichs minus der Größe des Maskenebenenbildes (siehe den Text zu {{cssxref(\"background-position\")}})",
     "en-US": "refer to size of mask painting area minus size of mask layer image (see the text for {{cssxref(\"background-position\")}})",
     "fr": "fait référence à la taille du masque pour la zone de pointure moins la taille du masque pour la taille de l'image (voir {{cssxref(\"background-position\")}})",
+    "ja": "マスク描画領域の寸法からマスクレイヤー画像の寸法を引いたものに対する相対値 ({{cssxref(\"background-position\")}} のテキストを参照)",
     "ru": "относятся к размеру маски области рисования минус размер маски слоя изображения (смотрите статью о {{cssxref(\"background-position\")}})"
   },
   "referToTotalPathLength": {
     "de": "beziehen sich auf die Gesamtlänge des Pfads",
     "en-US": "refer to the total path length",
     "fr": "se rapporte à la longueur totale du chemin",
+    "ja": "パスの全長に対する相対値",
     "ru": "относятся к общей длине пути"
   },
   "referToWidthAndHeightOfElement": {
     "de": "beziehen sich auf Breite und Höhe des Elements",
     "en-US": "refer to width and height of element itself",
     "fr": "se rapporte à la largeur et à la hauteur de l'élément lui-même",
+    "ja": "要素自身の幅と高さに対する相対値",
     "ru": "относятся к ширине и высоте самого элемента"
   },
   "referToWidthOfAffectedGlyph": {
     "de": "bezieht sich auf die Breite des jeweiligen Zeichens",
     "en-US": "refer to the width of the affected glyph",
     "fr": "se rapporte à la largeur du glyphe concerné",
-    "ja": "作用する glyph の width",
+    "ja": "作用する文字の幅に対する相対値",
     "ru": "зависит от ширины символа"
   },
   "referToWidthOfBackgroundPositioningAreaMinusBackgroundImageHeight": {
     "de": "bezieht sich auf die Breite des Hintergrundpositionsbereichs abzüglich der Höhe des Hintergrundbilds",
     "en-US": "refer to width of background positioning area minus height of background image",
     "fr": "fait référence à la largeur de la zone de positionement de l'arrière-plan moins la hauteur de l'image d'arrière-plan",
+    "ja": "背景配置領域の幅から背景画像の高さを引いたものに対する相対値",
     "ru": "относятся к ширине области позиционирования фона минус высота фонового изображения"
   },
   "referToWidthOfContainingBlock": {
     "de": "bezieht sich auf die Breite des äußeren Elements",
     "en-US": "refer to the width of the containing block",
     "fr": "se rapporte à la largeur du bloc contenant",
-    "ja": "包含ブロックの幅",
+    "ja": "包含ブロックの幅に対する相対値",
     "ru": "ссылается на ширину содержащего блока"
   },
   "referToWidthOfInitialViewport": {
     "de": "beziehen sich auf die Breite des ursprünglichen Viewports",
     "en-US": "refer to the width of the initial viewport",
     "fr": "fait référence à la largeur de la zone d'affichage (<i>viewport</i>) initiale",
+    "ja": "初期ビューポートの幅に対する相対値",
     "ru": "относятся к ширине изначальной области просмотра"
   },
   "referToWidthOrHeightOfBorderImageArea": {
     "de": "bezieht sich auf die Größe des Rahmenbildbereichs",
     "en-US": "refer to the width or height of the border image area",
     "fr": "se rapporte à la largeur ou la hauteur de la zone de l'image de bordure",
+    "ja": "境界画像領域の幅または高さに対する相対値",
     "ru": "относятся к высоте или ширине области рамки картинки"
   },
   "regardingHeightOfGeneratedBoxContainingBlockPercentages0": {
@@ -1301,74 +1320,82 @@
     "en-US": "The percentage is calculated with respect to the height of the generated box's containing block. If the height of the containing block is not specified explicitly (i.e., it depends on content height), and this element is not absolutely positioned, the percentage value is treated as <code>0</code>.",
     "es": "Se refiere a la altura del bloque contenedor.",
     "fr": "Le poucentage est par rapport à la hauteur de la boîte générée par le bloc contenant. Si la hauteur du bloc contenant n'est pas explicitement spécifiée (c'est-à-dire qu'elle dépend de la hauteur du contenu), et si cet élément n'est pas absolument positionné , la valeur du pourcentage est traitée comme si elle valait <code>0</code>.",
-    "ja": "パーセンテージは、生成ボックスの包含ブロックの高さを基準に計算されます。 包含ブロックの高さが明示的に定義されず（この場合コンテンツの高さに依存します）この要素が絶対位置指定されていないなら、パーセンテージ値は 0 として扱われます。",
+    "ja": "パーセント値は、生成ボックスの包含ブロックの高さを基準に計算されます。 包含ブロックの高さが明示的に定義されず (この場合コンテンツの高さに依存します) この要素が絶対位置指定されていない場合は、パーセント値は 0 として扱われます。",
     "ru": "Процент для генерируемого блока рассчитывается по отношению к высоте содержащего блока. Если высота содержащего блока не задана явно (т.е. зависит от высоты содержимого), и этот этот элемент позиционирован не абсолютно, процентное значение интерпретируется как <code>0</code>."
   },
   "regardingHeightOfGeneratedBoxContainingBlockPercentagesNone": {
     "de": "Der Prozentwert wird unter Berücksichtigung der Höhe des die generierte Box beinhaltenden Blocks berechnet. Falls die Höhe des beinhaltenden Blocks nicht explizit angegeben wurde (d. h. sie hängt von der Höhe des Inhalts ab) und dieses Element nicht absolut positioniert ist, wird der Prozentwert wie <code>none</code> behandelt.",
     "en-US": "The percentage is calculated with respect to the height of the generated box's containing block. If the height of the containing block is not specified explicitly (i.e., it depends on content height), and this element is not absolutely positioned, the percentage value is treated as <code>none</code>.",
     "fr": "Le pourcentage est par rapport à la hauteur de la boîte générée par le bloc contenant. Si la hauteur du bloc contenant n'est pas explicitement spécifiée (c'est-à-dire qu'elle dépend de la hauteur du contenu), et si cet élément n'est pas absolument positionné, la valeur du pourcentage est traitée comme si elle valait <code>none</code>.",
-    "ja": " パーセンテージは、生成ボックスの包含ブロックの高さを基準に計算されます。 包含ブロックの高さが明示的に定義されず（コンテンツの高さに依存します）この要素が絶対位置指定されていないなら、パーセンテージ値は none として扱われます。",
+    "ja": "パーセント値は、生成ボックスの包含ブロックの高さを基準に計算されます。 包含ブロックの高さが明示的に定義されず (すなわち、コンテンツの高さに依存します)、この要素が絶対位置指定されていない場合は、パーセント値は <code>none</code> として扱われます。",
     "ru": "Процент для генерируемого блока рассчитывается по отношению к высоте содержащего блока. Если высота содержащего блока не задана явно (т.е. зависит от высоты содержимого), и этот элемент позиционирован не абсолютно, процентное значение интерпретируется как <code>none</code>."
   },
   "regardingHeightOfGeneratedBoxContainingBlockPercentagesRelativeToContainingBlock": {
     "de": "Der Prozentwert wird unter Berücksichtigung der Höhe des die generierte Box beinhaltenden Blocks berechnet. Falls die Höhe des beinhaltenden Blocks nicht explizit angegeben wurde (d. h. sie hängt von der Höhe des Inhalts ab) und dieses Element nicht absolut positioniert ist, ist der berechnete Wert <code>auto</code>. Eine prozentuale Höhe beim Wurzelelement ist relativ zum ursprünglichen beinhaltenden Block.",
     "en-US": "The percentage is calculated with respect to the height of the generated box's containing block. If the height of the containing block is not specified explicitly (i.e., it depends on content height), and this element is not absolutely positioned, the value computes to <code>auto</code>. A percentage height on the root element is relative to the initial containing block.",
     "fr": "Le poucentage est par rapport à la hauteur de la boîte générée par le bloc contenant. Si la hauteur du bloc contenant n'est pas explicitement spécifiée (c'est-à-dire qu'elle dépend de la hauteur du contenu), et si cet élément n'est pas absolument positionné, la valeur du pourcentage est traitée comme <code>auto</code> et la hauteur du pourcentage sur l'élément racine est relative au bloc contenant initial.",
-    "ja": "パーセンテージは包含ブロックの高さ基準。包含ブロックの高さが明示されず（＝コンテンツの高さ依存の場合）、この要素が絶対位置指定されていないなら、値は <code>auto</code> になります。ルート要素で高さをパーセンテージ指定すると、初期包含ブロックに相対的になります。",
+    "ja": "パーセント値は、生成ボックスの包含ブロックの高さを基準に計算されます。 包含ブロックの高さが明示的に定義されず (すなわち、コンテンツの高さに依存します)、この要素が絶対位置指定されていない場合は、値は <code>auto</code> になります。ルート要素で高さをパーセント値で指定すると、初期包含ブロックに対する相対値になります。",
     "ru": "Процент для генерируемого блока рассчитывается по отношению к высоте содержащего блока. Если высота содержащего блока не задана явно (т.е. зависит от высоты содержимого), и этот этот элемент позиционирован не абсолютно, значение будет <code>auto</code>. Процентная высота на корневом элементе относительна первоначальному блоку."
   },
   "relatedAtRule": {
     "de": "Zugehörige <a href=\"/de/docs/Web/CSS/At-Regel\">@-Regel</a>",
     "en-US": "Related <a href=\"/en-US/docs/Web/CSS/At-rule\">at-rule</a>",
     "fr": "En lien avec les <a href=\"/fr/docs/Web/CSS/Règles_%40\">règles @</a>",
-    "ja": "関連する <a href=\"/ja/docs/Web/CSS/At-rule\">@規則</a>",
+    "ja": "関連する<a href=\"/ja/docs/Web/CSS/At-rule\">アット規則</a>",
     "ru": "Связано с <a href=\"/ru/docs/Web/CSS/At-rule\">@-правила</a>"
   },
   "relativeToBackgroundPositioningArea": {
     "de": "bezieht sich auf den jeweiligen Bereich",
     "en-US": "relative to the background positioning area",
     "fr": "relatifs à la zone de positionnement du fond",
+    "ja": "背景配置領域に対する相対値",
     "ru": "относительно области позиционирования фона"
   },
   "relativeToMaskBorderImageArea": {
-    "en-US": "relative to width/height of the mask border image area"
+    "en-US": "relative to width/height of the mask border image area",
+    "ja": "境界マスク画像領域の幅/高さに対する相対値"
   },
   "relativeToScrollContainerPaddingBoxAxis": {
     "de": "relativ zur gleichen Achse der Innenabstandsbox des Scrollcontainers",
     "en-US": "relative to same axis of the padding-box of the scroll container",
     "fr": "relatif au même axe de la <code>padding-box</code> du conteneur d'ascenceur",
+    "ja": "スクロールコンテナーのパディングボックスの同じ軸に対する相対値",
     "ru": "относительно той же оси и внутренних отступов прокручиваемого контейнера"
   },
   "relativeToTheScrollContainersScrollport": {
-    "en-US": "relative to the scroll container's scrollport"
+    "en-US": "relative to the scroll container's scrollport",
+    "ja": "スクロールコンテナーのスクロールポートに対する相対値"
   },
   "repeatableList": {
     "de": "mehrfache Werte der folgenden Eigenschaften: ",
     "en-US": "a repeatable list of ",
     "fr": "une liste répétable de ",
-    "ja": "の反復可能リスト",
+    "ja": "反復可能リスト",
     "ru": "повторяющийся список из "
   },
   "repeatableListOfSimpleListOfLpc": {
-    "en-US": "repeatable list of simple list of length, percentage, or calc"
+    "en-US": "repeatable list of simple list of length, percentage, or calc",
+    "ja": "長さ、パーセント値、 calc の単純なリストの反復可能リスト"
   },
   "replacedElements": {
     "de": "ersetzte Elemente",
     "en-US": "replaced elements",
     "fr": "éléments remplacés",
+    "ja": "置換要素",
     "ru": "заменяемые элементы"
   },
   "rubyAnnotationsContainers": {
     "de": "Ruby-Anmerkungscontainer",
     "en-US": "ruby annotations containers",
     "fr": "annotations ruby des conteneurs",
+    "ja": "ルビ注釈コンテナー",
     "ru": "контейнеры ruby-аннотаций"
   },
   "rubyBasesAnnotationsBaseAnnotationContainers": {
     "de": "Ruby-Basiselemente, Ruby-Anmerkungen, Ruby-Basiscontainer, Ruby-Anmerkungscontainer",
     "en-US": "ruby bases, ruby annotations, ruby base containers, ruby annotation containers",
     "fr": "bases ruby, annotations ruby, conteneurs de bases ruby, conteneurs d'annotations ruby",
+    "ja": "ルビベース、ルビ注釈、ルビベースコンテナー、ルビ注釈コンテナー",
     "ru": "базовые элементы ruby, аннотации к ruby, базовые ruby контейнеры, контейнеры аннотаций к ruby"
   },
   "sameAsBoxOffsets": {
