@@ -1623,7 +1623,7 @@
     "ja": "\"\" (空文字列)"
   },
   "\". \"": {
-    "en-US": "\". \" (full stop followed by a space)"
+    "en-US": "\". \" (full stop followed by a space)",
     "ja": "\". \" (ピリオドの後に空白)"
   },
   "twoAbsoluteLengthOrPercentages": {
