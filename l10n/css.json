@@ -1081,7 +1081,8 @@
     "ru": "На элементах всегда вычисляется как <code>normal</code>. На {{cssxref(\"::before\")}} и {{cssxref(\"::after\")}}, если <code>normal</code> указано, интерпретируется как <code>none</code>. Иначе, для значений URI, абсолютного URI; для значений <code>attr()</code> - результирующая строка; для других ключевых слов, как указано."
   },
   "notAnimatable": {
-    "en-US": "Not animatable"
+    "en-US": "Not animatable",
+    "ja": "アニメーション不可"
   },
   "number": {
     "de": "<a href=\"/de/docs/Web/CSS/number#Interpolation\">Nummer</a>",
@@ -1458,30 +1459,35 @@
     "de": "wie die Boxoffsets: {{cssxref(\"top\")}}, {{cssxref(\"right\")}}, {{cssxref(\"bottom\")}}, {{cssxref(\"left\")}} Eigenschaften, mit dem Unterschied, dass die Richtungen logisch sind",
     "en-US": "same as box offsets: {{cssxref(\"top\")}}, {{cssxref(\"right\")}}, {{cssxref(\"bottom\")}}, {{cssxref(\"left\")}} properties except that directions are logical",
     "fr": "identiques aux propriétés qui décalent les boîtes : {{cssxref(\"top\")}}, {{cssxref(\"right\")}}, {{cssxref(\"bottom\")}}, {{cssxref(\"left\")}} sauf que ces directions sont logiques",
+    "ja": "方向が論理的である以外はボックスのオフセット、 {{cssxref(\"top\")}}, {{cssxref(\"right\")}}, {{cssxref(\"bottom\")}}, {{cssxref(\"left\")}} と同じ",
     "ru": "также как смещение блоков свойствами: {{cssxref(\"top\")}}, {{cssxref(\"right\")}}, {{cssxref(\"bottom\")}}, {{cssxref(\"left\")}}, кроме того направления логичны"
   },
   "sameAsMargin": {
     "de": "wie bei {{cssxref(\"margin\")}}",
     "en-US": "same as {{cssxref(\"margin\")}}",
     "fr": "identique à {{cssxref(\"margin\")}}",
+    "ja": "{{cssxref(\"margin\")}} と同じ",
     "ru": "с таким же {{cssxref(\"margin\")}}"
   },
   "sameAsMaxWidthAndMaxHeight": {
     "de": "wie bei {{cssxref(\"max-width\")}} und {{cssxref(\"max-height\")}}",
     "en-US": "same as {{cssxref(\"max-width\")}} and {{cssxref(\"max-height\")}}",
     "fr": "identique à {{cssxref(\"max-width\")}} et à {{cssxref(\"max-height\")}}",
+    "ja": "{{cssxref(\"max-width\")}} および {{cssxref(\"max-height\")}} と同じ",
     "ru": "с такими же {{cssxref(\"max-width\")}} и {{cssxref(\"max-height\")}}"
   },
   "sameAsMinWidthAndMinHeight": {
     "de": "wie bei {{cssxref(\"min-width\")}} und {{cssxref(\"min-height\")}}",
     "en-US": "same as {{cssxref(\"min-width\")}} and {{cssxref(\"min-height\")}}",
     "fr": "identique à {{cssxref(\"min-width\")}} et à {{cssxref(\"min-height\")}}",
+    "ja": "{{cssxref(\"min-width\")}} および {{cssxref(\"min-height\")}} と同じ",
     "ru": "с такими же {{cssxref(\"min-width\")}} и {{cssxref(\"min-height\")}}"
   },
   "sameAsWidthAndHeight": {
     "de": "wie bei {{cssxref(\"width\")}} und {{cssxref(\"height\")}}",
     "en-US": "same as {{cssxref(\"width\")}} and {{cssxref(\"height\")}}",
     "fr": "identique à {{cssxref(\"width\")}} et à {{cssxref(\"height\")}}",
+    "ja": "{{cssxref(\"width\")}} および {{cssxref(\"height\")}} と同じ",
     "ru": "с такими же {{cssxref(\"width\")}} и {{cssxref(\"height\")}}"
   },
   "scrollContainers": {
@@ -1502,6 +1508,7 @@
     "de": "siehe Text",
     "en-US": "see prose",
     "fr": "voir le texte",
+    "ja": "本文を参照",
     "ru": "смотреть текст"
   },
   "shadowList": {
@@ -1520,10 +1527,11 @@
   },
   "simpleListOfLpc": {
     "en-US": "simple list of length, percentage, or calc",
-    "ja": "length, percentage, calc の単純なリスト"
+    "ja": "長さ、パーセント値、 calc の単純なリスト"
   },
   "simpleListOfLpcDifferenceLpc": {
-    "en-US": "simple list of length, percentage, or calc, provided the only differences are in the values of the length, percentage, or calc components in the list"
+    "en-US": "simple list of length, percentage, or calc, provided the only differences are in the values of the length, percentage, or calc components in the list",
+    "ja": "長さ、パーセント値、 calc の単純なリストであり、唯一の違いはリスト内の長さ、パーセント値、 calc の部分の値のみ"
   },
   "specifiedIntegerOrAbsoluteLength": {
     "de": "die angegebene Ganzzahl oder eine absolute Länge",
@@ -1536,34 +1544,35 @@
     "de": "der angegebene Wert, auf den Bereich <code>[0,1]</code> abgeschnitten",
     "en-US": "the specified value, clipped in the range <code>[0,1]</code>",
     "fr": "la valeur spécifiée, écrêtée à l'intervalle <code>[0,1]</code>",
-    "ja": "指定値。<code>[0,1]</code> の範囲内にクリップされます",
+    "ja": "指定値が <code>[0,1]</code> の範囲内にクリップされたもの",
     "ru": "указанное значение, обрезается до диапозона <code>[0,1]</code>"
   },
   "specifiedValueNumberClipped0To1": {
     "de": "Derselbe wie der angegebene Wert nachdem die {{cssxref(\"number\")}} auf den Bereich [0.0, 1.0] zugeschnitten wurde.",
     "en-US": "The same as the specified value after clipping the {{cssxref(\"number\")}} to the range [0.0, 1.0].",
     "fr": "La même que la valeur spécifiée après avoir écrêté {{cssxref(\"number\")}} dans l'intervalle [0.0, 1.0].",
+    "ja": "指定値の {{cssxref(\"number\")}} が [0.0, 1.0] の範囲内にクリップされたものと同じ",
     "ru": "Тоже, что и указанное значение, после обрезки {{cssxref(\"number\")}} до диапозона [0.0, 1.0]."
   },
   "startOrNamelessValueIfLTRRightIfRTL": {
     "de": "<code>start</code> oder ein namenloser Wert, der sich wie <code>left</code> verhält, falls {{cssxref(\"direction\")}} den Wert <code>ltr</code> hat, <code>right</code>, falls {{cssxref(\"direction\")}} den Wert <code>rtl</code> hat, falls <code>start</code> nicht vom Browser unterstützt wird.",
     "en-US": "<code>start</code>, or a nameless value that acts as <code>left</code> if {{cssxref(\"direction\")}} is <code>ltr</code>, <code>right</code> if {{cssxref(\"direction\")}} is <code>rtl</code> if <code>start</code> is not supported by the browser.",
     "fr": "<code>start</code>, ou une valeur non nommée se comportant comme <code>left</code> si {{cssxref(\"direction\")}} est <code>ltr</code>, <code>right</code> si {{cssxref(\"direction\")}} est <code>rtl</code> si <code>start</code> n'est pas supporté par le navigateur",
-    "ja": "<code>start</code>。<code>start</code> をサポートしないブラウザでは、{{cssxref(\"direction\", \"文章の方向\")}}が <code>ltr</code> なら <code>left</code>、<code>rtl</code> なら <code>right</code> として動作する無名の値",
+    "ja": "<code>start</code>。<code>start</code> をサポートしないブラウザでは、{{cssxref(\"direction\", \"書字方向\")}}が <code>ltr</code> なら <code>left</code>、<code>rtl</code> なら <code>right</code> として動作する無名の値",
     "ru": "<code>start</code>, или неназванное значение, которое действует как <code>left</code>, если {{cssxref(\"direction\")}}: <code>ltr</code> или как <code>right</code>, если {{cssxref(\"direction\")}}: <code>rtl</code>, а если <code>start</code> не поддерживается браузером."
   },
   "tableCaptionElements": {
     "de": "table-caption Elemente",
     "en-US": "table-caption elements",
     "fr": "éléments qui sont des légendes de tableaux",
-    "ja": "table-caption 要素",
+    "ja": "表のキャプション要素",
     "ru": "заголовки таблиц"
   },
   "tableCellElements": {
     "de": "table-cell Elemente",
     "en-US": "table-cell elements",
     "fr": "éléments qui sont des cellules de tableau",
-    "ja": "テーブルセル要素",
+    "ja": "表のセル要素",
     "ru": "ячейки таблицы"
   },
   "tableElements": {
@@ -1591,7 +1600,7 @@
     "de": "Transformation",
     "en-US": "a transform",
     "fr": "une transformation",
-    "ja": "transform",
+    "ja": "変形",
     "ru": "трансформация"
   },
   "transformableElements": {
@@ -1606,14 +1615,16 @@
     "de": "Falls der Wert durchscheinend ist, ist der berechnete Wert der entsprechende <code>rgba()</code> Wert. Falls nicht, ist er der entsprechende <code>rgb()</code> Wert. Das <code>transparent</code> Schlüsselwort wird zu <code>rgb(0,0,0)</code>.",
     "en-US": "If the value is translucent, the computed value will be the <code>rgba()</code> corresponding one. If it isn't, it will be the <code>rgb()</code> corresponding one. The <code>transparent</code> keyword maps to <code>rgba(0,0,0,0)</code>.",
     "fr": "si la valeur est translucide, la valeur calculée est la fonction <code>rgba()</code>correspondante. Sinon, la fonction <code>rgb()</code>correspondante. Le mot-clé <code>transparent</code> devient <code>rgb(0,0,0)</code>.",
-    "ja": "半透明の値なら、計算値はそれに対応する <code>rgba()</code>。さもなくばその値に対応する <code>rgb()</code>。<code>transparent</code> キーワードは <code>rgba(0,0,0,0)</code> にマップされます。",
+    "ja": "半透明の値なら、計算値はそれに対応する <code>rgba()</code>。さもなくばその値に対応する <code>rgb()</code>。<code>transparent</code> キーワードは <code>rgba(0,0,0,0)</code> にマップされる。",
     "ru": "Если значение полупрозрачно, значение будет соответствовать <code>rgba()</code>. А если не будет полупрозрачным, то будет использоваться <code>rgb()</code>. Ключевое слово <code>transparent</code> интерпретируется в <code>rgba(0,0,0,0)</code>."
   },
   "\"\"": {
-    "en-US": "\"\" (the empty string)"
+    "en-US": "\"\" (the empty string)",
+    "ja": "\"\" (空文字列)"
   },
   "\". \"": {
     "en-US": "\". \" (full stop followed by a space)"
+    "ja": "\". \" (ピリオドの後に空白)"
   },
   "twoAbsoluteLengthOrPercentages": {
     "de": "zwei absolute {{cssxref(\"length\")}} oder {{cssxref(\"percentage\")}}",
@@ -1634,7 +1645,7 @@
     "en-US": "the unique non-ambiguous order defined by the formal grammar",
     "es": "el orden único no-ambigüo definido por la gramática formal",
     "fr": "l'ordre unique et non-ambigu défini par la grammaire formelle",
-    "ja": "形式文法で定義される一意のあいまいでない順序",
+    "ja": "形式文法で定義されている一意のあいまいでない順序",
     "ru": "уникальный неоднозначный порядок, определённый формальной грамматикой"
   },
   "variesFromBrowserToBrowser": {
@@ -1648,7 +1659,7 @@
     "de": "<a href=\"/de/docs/Web/CSS/visibility#Interpolation\">Sichtbarkeit</a>",
     "en-US": "a <a href=\"/en-US/docs/Web/CSS/visibility#Interpolation\" title=\"Values of the visibility CSS property are interpolable if the start or the end value is visible. In that case all values of the timing function which are equal to 1 map to visible and non-equal to 1 to non-visible.\">visibility</a>",
     "fr": "une <a href=\"/fr/docs/Web/CSS/visibility#Interpolation\" title=\"Les valeurs de la propriété CSS visibility sont interpolables si une des valeurs de début ou de fin est visible. Dans ce cas, toutes les valeurs de la fonction de temporisation qui sont égales à 1 sont associées à visible, et celles non égales à 1, à non-visible.\">visibilité</a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/visibility#Interpolation\" title=\"visibility の値は可視および不可視の間で補間可能です。従って、開始または終了の値の一つが visible でない限りは、補間は行われません。\">visibility</a>",
+    "ja": "<a href=\"/en-US/docs/Web/CSS/visibility#Interpolation\" title=\"CSS の visibility プロパティの値は、開始値または終了値が visible の場合に補間可能である。その場合、タイミング関数の 1 に等しい値がすべて可視に、1 に等しくない値が不可視に対応づけられる。\">visibility</a>",
     "ru": "<a href=\"/ru/docs/Web/CSS/visibility#Interpolation\" title=\"Значения свойства CSS visibility интерполируются, если начальное или конечное значение установлено в visible. В этом случае все значения временной функции, равные 1 отображаются, а не равные 1 не отображаются.\">видимость</a>"
   },
   "visual": {
@@ -1669,6 +1680,7 @@
     "de": "XUL {{XULElem(\"image\")}} Elementen und {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}} und {{cssxref(\":-moz-tree-checkbox\")}} Pseudoelementen. <strong>Hinweis:</strong> <code>-moz-image-region</code> funktioniert nur mit {{XULElem(\"image\")}} Elementen, bei denen das Symbol durch {{cssxref(\"list-style-image\")}} angegeben wird. Es funktioniert nicht mit XUL <code>&lt;image src=\"url\" /&gt;</code>.",
     "en-US": "XUL {{XULElem(\"image\")}} elements and {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}}, and {{cssxref(\":-moz-tree-checkbox\")}} pseudo-elements. <strong>Note:</strong> <code>-moz-image-region</code> only works with {{XULElem(\"image\")}} elements where the icon is specified using {{cssxref(\"list-style-image\")}}. It will not work with XUL <code>&lt;image src=\"url\" /&gt;</code>.",
     "fr": "éléments XUL {{XULElem(\"image\")}} et aux pseudo-éléments {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}} et {{cssxref(\":-moz-tree-checkbox\")}}. <strong>Note&nbsp;:</strong> <code>-moz-image-region</code> ne fonctionnera qu'avec les éléments {{XULElem(\"image\")}} où l'icône est définie avec {{cssxref(\"list-style-image\")}}. Cela ne fonctionnera pas avec l'<code>&lt;image src=\"url\" /&gt;</code> XUL.",
+    "ja": "XUL の {{XULElem(\"image\")}} 要素と {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}}, {{cssxref(\":-moz-tree-checkbox\")}} の各擬似要素。 <strong>注:</strong> <code>-moz-image-region</code> はアイコンが {{cssxref(\"list-style-image\")}} を使用して指定された {{XULElem(\"image\")}} 要素でしか機能しません。 XUL の <code>&lt;image src=\"url\" /&gt;</code> では機能しません。",
     "ru": "XUL {{XULElem(\"image\")}} элементы и {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}} и {{cssxref(\":-moz-tree-checkbox\")}} псевдоэлементы. <strong>Заметьте:</strong> <code>-moz-image-region</code> работает только с элементами {{XULElem(\"image\")}}, где иконка определяется использованием {{cssxref(\"list-style-image\")}}. Это не будет работать с XUL <code>&lt;image src=\"url\" /&gt;</code>."
   },
   "yes": {
@@ -1680,6 +1692,7 @@
     "ru": "да"
   },
   "zoomForTheTopLevelNoneForTheRest": {
-    "en-US": "zoom for the top level element, none for all other elements"
+    "en-US": "zoom for the top level element, none for all other elements",
+    "ja": "最上位要素では zoom、その他の要素では none"
   }
 }
