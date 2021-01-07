@@ -14,7 +14,7 @@ For example, the [CSSTree](https://github.com/csstree/csstree/) CSS parser.
 
 
 [![NPM version](https://img.shields.io/npm/v/mdn-data.svg)](https://www.npmjs.com/package/mdn-data)
-[![Build Status](https://travis-ci.org/mdn/data.svg?branch=master)](https://travis-ci.org/mdn/data)
+[![Build Status](https://travis-ci.com/mdn/data.svg?branch=master)](https://travis-ci.com/mdn/data)
 
 ## Repository contents
 
