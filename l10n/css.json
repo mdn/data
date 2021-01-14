@@ -244,6 +244,9 @@
     "ja": "すべての要素。ただし一部の値はインラインでない要素には効果がありません",
     "ru": "все элементы, хотя некоторые значения не работают на не строчных элементах"
   },
+  "allElementsTreeAbidingPseudoElementsPageMarginBoxes": {
+    "en-US": "All elements, tree-abiding pseudo-elements, and page margin boxes"
+  },
   "allElementsSVGContainerElements": {
     "de": "alle Elemente; In SVG gilt betrifft dies Containerelemente mit Ausnahme des {{SVGElement(\"defs\")}} Elements und allen Grafikelementen",
     "en-US": "all elements; In SVG, it applies to container elements excluding the {{SVGElement(\"defs\")}} element and all graphics elements",

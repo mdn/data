@@ -177,6 +177,7 @@
         "allElementsSVGContainerElements",
         "allElementsSVGContainerGraphicsAndGraphicsReferencingElements",
         "allElementsThatCanReferenceImages",
+        "allElementsTreeAbidingPseudoElementsPageMarginBoxes",
         "allElementsUAsNotRequiredWhenCollapse",
         "anyElementEffectOnProgressAndMeter",
         "beforeAndAfterPseudos",
