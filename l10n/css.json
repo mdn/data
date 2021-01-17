@@ -245,6 +245,7 @@
     "ru": "все элементы, хотя некоторые значения не работают на не строчных элементах"
   },
   "allElementsTreeAbidingPseudoElementsPageMarginBoxes": {
+    "ja": "すべての要素、ツリーに現れる擬似要素、ページのマージンボックス",
     "en-US": "All elements, tree-abiding pseudo-elements, and page margin boxes"
   },
   "allElementsSVGContainerElements": {
