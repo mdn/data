@@ -1600,6 +1600,9 @@
     "ja": "テキストフィールド",
     "ru": "текстовые поля"
   },
+  "theComputedLength": {
+    "en-US": "the computed <length>"
+  },
   "transform": {
     "de": "Transformation",
     "en-US": "a transform",

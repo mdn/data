@@ -6966,6 +6966,21 @@
     "status": "nonstandard",
     "mdn_url": "https://developer.mozilla.org/docs/Mozilla/CSS/overflow-clip-box"
   },
+  "overflow-clip-margin": {
+    "syntax": "<length [0,∞]>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Overflow"
+    ],
+    "initial": "0px",
+    "appliesto": "allElements",
+    "computed": "theComputedLength",
+    "order": "perGrammar",
+    "status": "standard"
+  },
   "overflow-inline": {
     "syntax": "visible | hidden | clip | scroll | auto",
     "media": "visual",
