@@ -180,7 +180,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:defined"
   },
   ":dir": {
-    "syntax": ":dir( ltr | rtl )",
+    "syntax": ":dir( [ ltr | rtl ] )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
