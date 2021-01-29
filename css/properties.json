@@ -5801,7 +5801,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/list-style"
   },
   "list-style-image": {
-    "syntax": "<> | none",
+    "syntax": "<image> | none",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
