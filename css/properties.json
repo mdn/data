@@ -6967,7 +6967,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Mozilla/CSS/overflow-clip-box"
   },
   "overflow-clip-margin": {
-    "syntax": "<length [0,∞]>",
+    "syntax": "<visual-box> || <length [0,∞]>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
