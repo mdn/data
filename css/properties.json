@@ -8252,7 +8252,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape-margin"
   },
   "shape-outside": {
-    "syntax": "none | <shape-box> || <basic-shape> | <image>",
+    "syntax": "none | [ <shape-box> || <basic-shape> ] | <image>",
     "media": "visual",
     "inherited": false,
     "animationType": "basicShapeOtherwiseNo",
