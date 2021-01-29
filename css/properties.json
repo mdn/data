@@ -5811,7 +5811,7 @@
     ],
     "initial": "none",
     "appliesto": "listItems",
-    "computed": "noneOrImageWithAbsoluteURI",
+    "computed": "theKeywordListStyleImageNoneOrComputedValue",
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/list-style-image"

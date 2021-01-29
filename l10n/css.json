@@ -1600,6 +1600,9 @@
     "ja": "テキストフィールド",
     "ru": "текстовые поля"
   },
+  "theKeywordListStyleImageNoneOrComputedValue": {
+    "en": "The keyword list-style-image/none or the computed <>"
+  },
   "transform": {
     "de": "Transformation",
     "en-US": "a transform",
