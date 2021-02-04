@@ -48,6 +48,7 @@
         "lengthsAsPercentages",
         "logicalHeightOfContainingBlock",
         "logicalWidthOfContainingBlock",
+        "logicalHeightOrWidthOfContainingBlock",
         "maxZoomFactor",
         "minZoomFactor",
         "no",
