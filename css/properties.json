@@ -5485,7 +5485,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
-    "percentages": "logicalHeightOfContainingBlock",
+    "percentages": "logicalHeightOrWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
     ],
