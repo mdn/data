@@ -952,6 +952,10 @@
     "ja": "包含ブロックの論理的な幅",
     "ru": "логическая высота содержащего блока"
   },
+  "logicalHeightOrWidthOfContainingBlock": {
+    "en-US": "relative to the containing block’s size in the corresponding axis (e.g. width for left or right, height for top or bottom)",
+    "ru": "относительно размера содержащего блока на соответствующей оси (например, ширина слева или справа, высота сверху и снизу)"
+  },
   "lpc": {
     "de": "$1$, <a href=\"/de/docs/Web/CSS/percentage#Interpolation\">Prozentsatz</a> oder <a href=\"/de/docs/Web/CSS/calc\"><code>calc()</code></a>;",
     "en-US": "$1$, <a href=\"/en-US/docs/Web/CSS/percentage#Interpolation\" title=\"Values of the <percentage> CSS data type are interpolated as real, floating-point numbers.\">percentage</a> or calc();",
