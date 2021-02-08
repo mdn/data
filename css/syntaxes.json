@@ -273,7 +273,7 @@
     "syntax": "<length-percentage>"
   },
   "fixed-repeat": {
-    "syntax": "repeat( [ <positive-integer> ] , [ <line-names>? <fixed-size> ]+ <line-names>? )"
+    "syntax": "repeat( [ <integer [1,∞]> ] , [ <line-names>? <fixed-size> ]+ <line-names>? )"
   },
   "fixed-size": {
     "syntax": "<fixed-breadth> | minmax( <fixed-breadth> , <track-breadth> ) | minmax( <inflexible-breadth> , <fixed-breadth> )"
@@ -720,7 +720,7 @@
     "syntax": "[ <line-names>? [ <track-size> | <track-repeat> ] ]+ <line-names>?"
   },
   "track-repeat": {
-    "syntax": "repeat( [ <positive-integer> ] , [ <line-names>? <track-size> ]+ <line-names>? )"
+    "syntax": "repeat( [ <integer [1,∞]> ] , [ <line-names>? <track-size> ]+ <line-names>? )"
   },
   "track-size": {
     "syntax": "<track-breadth> | minmax( <inflexible-breadth> , <track-breadth> ) | fit-content( [ <length> | <percentage> ] )"
