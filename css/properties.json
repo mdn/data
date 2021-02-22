@@ -7043,7 +7043,10 @@
     ],
     "initial": "auto",
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
-    "computed": "asSpecified",
+    "computed": [
+      "overscroll-behavior-x",
+      "overscroll-behavior-y"
+    ],
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior"
