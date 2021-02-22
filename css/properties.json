@@ -2196,7 +2196,10 @@
     ],
     "initial": "0% 0%",
     "appliesto": "allElements",
-    "computed": "listEachItemTwoKeywordsOriginOffsets",
+    "computed": [
+      "background-position-x",
+      "background-position-y"
+    ],
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter",
