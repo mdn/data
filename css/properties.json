@@ -2196,7 +2196,10 @@
     ],
     "initial": "0% 0%",
     "appliesto": "allElements",
-    "computed": "listEachItemTwoKeywordsOriginOffsets",
+    "computed": [
+      "background-position-x",
+      "background-position-y"
+    ],
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter",
@@ -7040,7 +7043,10 @@
     ],
     "initial": "auto",
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
-    "computed": "asSpecified",
+    "computed": [
+      "overscroll-behavior-x",
+      "overscroll-behavior-y"
+    ],
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior"
