@@ -7494,7 +7494,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "Pointer Events"
+      "CSS Basic User Interface"
     ],
     "initial": "auto",
     "appliesto": "allElements",
