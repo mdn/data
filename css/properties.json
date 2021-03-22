@@ -2196,7 +2196,10 @@
     ],
     "initial": "0% 0%",
     "appliesto": "allElements",
-    "computed": "listEachItemTwoKeywordsOriginOffsets",
+    "computed": [
+      "background-position-x",
+      "background-position-y"
+    ],
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter",
@@ -5338,7 +5341,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/hanging-punctuation"
   },
   "height": {
-    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content(<length-percentage>)",
+    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content | fit-content(<length-percentage>)",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -5485,7 +5488,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
-    "percentages": "logicalHeightOfContainingBlock",
+    "percentages": "logicalHeightOrWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
     ],
@@ -5801,7 +5804,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/list-style"
   },
   "list-style-image": {
-    "syntax": "<url> | none",
+    "syntax": "<image> | none",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -5811,7 +5814,7 @@
     ],
     "initial": "none",
     "appliesto": "listItems",
-    "computed": "noneOrImageWithAbsoluteURI",
+    "computed": "theKeywordListStyleImageNoneOrComputedValue",
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/list-style-image"
@@ -6450,7 +6453,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/max-block-size"
   },
   "max-height": {
-    "syntax": "none | <length-percentage> | min-content | max-content | fit-content(<length-percentage>)",
+    "syntax": "none | <length-percentage> | min-content | max-content | fit-content | fit-content(<length-percentage>)",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -6497,7 +6500,7 @@
     "status": "experimental"
   },
   "max-width": {
-    "syntax": "none | <length-percentage> | min-content | max-content | fit-content(<length-percentage>)",
+    "syntax": "none | <length-percentage> | min-content | max-content | fit-content | fit-content(<length-percentage>)",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -6529,7 +6532,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/min-block-size"
   },
   "min-height": {
-    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content(<length-percentage>)",
+    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content | fit-content(<length-percentage>)",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -6561,7 +6564,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/min-inline-size"
   },
   "min-width": {
-    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content(<length-percentage>)",
+    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content | fit-content(<length-percentage>)",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -7055,7 +7058,10 @@
     ],
     "initial": "auto",
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
-    "computed": "asSpecified",
+    "computed": [
+      "overscroll-behavior-x",
+      "overscroll-behavior-y"
+    ],
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior"
@@ -8267,7 +8273,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape-margin"
   },
   "shape-outside": {
-    "syntax": "none | <shape-box> || <basic-shape> | <image>",
+    "syntax": "none | [ <shape-box> || <basic-shape> ] | <image>",
     "media": "visual",
     "inherited": false,
     "animationType": "basicShapeOtherwiseNo",
@@ -9074,7 +9080,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/widows"
   },
   "width": {
-    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content(<length-percentage>)",
+    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content | fit-content(<length-percentage>)",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
