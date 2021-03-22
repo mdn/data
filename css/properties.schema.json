@@ -150,6 +150,7 @@
         "specifiedIntegerOrAbsoluteLength",
         "specifiedValueClipped0To1",
         "specifiedValueNumberClipped0To1",
+        "theComputedLength",
         "theKeywordListStyleImageNoneOrComputedValue",
         "translucentValuesRGBAOtherwiseRGB",
         "twoAbsoluteLengthOrPercentages",

@@ -1604,6 +1604,9 @@
     "ja": "テキストフィールド",
     "ru": "текстовые поля"
   },
+  "theComputedLength": {
+    "en-US": "the computed <length>"
+  },
   "theKeywordListStyleImageNoneOrComputedValue": {
     "en": "The keyword list-style-image/none or the computed <>"
   },
