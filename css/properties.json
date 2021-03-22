@@ -3955,7 +3955,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color-adjust"
   },
   "color-scheme": {
-    "syntax": "normal | [ light | dark | <custom-ident>]+",
+    "syntax": "normal | [ light | dark | <custom-ident> ]+",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
