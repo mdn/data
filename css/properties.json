@@ -7664,7 +7664,7 @@
     "status": "experimental"
   },
   "ruby-position": {
-    "syntax": "over | under | inter-character",
+    "syntax": "[ alternate || [ over | under ] ] | inter-character",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -7672,7 +7672,7 @@
     "groups": [
       "CSS Ruby"
     ],
-    "initial": "over",
+    "initial": "alternate",
     "appliesto": "rubyAnnotationsContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
