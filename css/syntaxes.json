@@ -758,6 +758,9 @@
   "viewport-length": {
     "syntax": "auto | <length-percentage>"
   },
+  "visual-box": {
+    "syntax": "content-box | padding-box | border-box"
+  },
   "wq-name": {
     "syntax": "<ns-prefix>? <ident-token>"
   }
