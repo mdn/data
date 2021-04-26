@@ -123,7 +123,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@document"
   },
   "@font-face": {
-    "syntax": "@font-face {\n  [ font-family: <family-name>; ] ||\n  [ src: <src>; ] ||\n  [ unicode-range: <unicode-range>; ] ||\n  [ font-variant: <font-variant>; ] ||\n  [ font-feature-settings: <font-feature-settings>; ] ||\n  [ font-variation-settings: <font-variation-settings>; ] ||\n  [ font-stretch: <font-stretch>; ] ||\n  [ font-weight: <font-weight>; ] ||\n  [ font-style: <font-style>; ]\n}",
+    "syntax": "@font-face {\n  [ font-family: <family-name>; ] ||\n  [ src: <src>; ] ||\n  [ unicode-range: <unicode-range>; ] ||\n  [ font-variant: <font-variant>; ] ||\n  [ font-feature-settings: <font-feature-settings>; ] ||\n  [ font-variation-settings: <font-variation-settings>; ] ||\n  [ font-stretch: <font-stretch>; ] ||\n  [ font-weight: <font-weight>; ] ||\n  [ font-style: <font-style>; ] ||\n  [ size-adjust: <size-adjust>; ] ||\n  [ ascent-override: <ascent-override>; ] ||\n  [ descent-override: <descent-override>; ] ||\n  [ line-gap-override: <line-gap-override>; ]\n}",
     "interfaces": [
       "CSSFontFaceRule"
     ],
@@ -131,6 +131,24 @@
       "CSS Fonts"
     ],
     "descriptors": {
+      "ascent-override": {
+        "syntax": "normal | <percentage>",
+        "media": "all",
+        "initial": "normal",
+        "percentages": "asSpecified",
+        "computed": "asSpecified",
+        "order": "orderOfAppearance",
+        "status": "experimental"
+      },
+      "descent-override": {
+        "syntax": "normal | <percentage>",
+        "media": "all",
+        "initial": "normal",
+        "percentages": "asSpecified",
+        "computed": "asSpecified",
+        "order": "orderOfAppearance",
+        "status": "experimental"
+      },
       "font-display": {
         "syntax": "[ auto | block | swap | fallback | optional ]",
         "media": "visual",
@@ -202,6 +220,24 @@
         "computed": "asSpecified",
         "order": "orderOfAppearance",
         "status": "standard"
+      },
+      "line-gap-override": {
+        "syntax": "normal | <percentage>",
+        "media": "all",
+        "initial": "normal",
+        "percentages": "asSpecified",
+        "computed": "asSpecified",
+        "order": "orderOfAppearance",
+        "status": "experimental"
+      },
+      "size-adjust": {
+        "syntax": "<percentage>",
+        "media": "all",
+        "initial": "100%",
+        "percentages": "asSpecified",
+        "computed": "asSpecified",
+        "order": "orderOfAppearance",
+        "status": "experimental"
       },
       "src": {
         "syntax": "[ <url> [ format( <string># ) ]? | local( <family-name> ) ]#",
