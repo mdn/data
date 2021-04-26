@@ -339,7 +339,7 @@
     "syntax": "image-set( <image-set-option># )"
   },
   "image-set-option": {
-    "syntax": "[ <image> | <string> ] <resolution>"
+    "syntax": "[ <image> | <string> ] [ <resolution> || type(<string>) ]"
   },
   "image-src": {
     "syntax": "<url> | <string>"
