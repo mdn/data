@@ -4289,7 +4289,7 @@
     "syntax": "[ <display-outside> || <display-inside> ] | <display-listitem> | <display-internal> | <display-box> | <display-legacy>",
     "media": "all",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
       "CSS Display"
