@@ -1687,6 +1687,22 @@
     "order": "uniqueOrder",
     "status": "nonstandard"
   },
+  "accent-color": {
+    "syntax": "auto | <color>",
+    "media": "interactive",
+    "inherited": true,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Basic User Interface"
+    ],
+    "initial": "auto",
+    "appliesto": "allElements",
+    "computed": "asAutoOrColor",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/accent-color"
+  },
   "align-content": {
     "syntax": "normal | <baseline-position> | <content-distribution> | <overflow-position>? <content-position>",
     "media": "visual",
