@@ -7713,7 +7713,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scale"
   },
   "scrollbar-color": {
-    "syntax": "auto | dark | light | <color>{2}",
+    "syntax": "auto | <color>{2}",
     "media": "visual",
     "inherited": true,
     "animationType": "color",
