@@ -7729,7 +7729,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-color"
   },
   "scrollbar-gutter": {
-    "syntax": "auto | [ stable | always ] && both? && force?",
+    "syntax": "auto | stable && both-edges?",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -7738,7 +7738,7 @@
       "CSS Overflow"
     ],
     "initial": "auto",
-    "appliesto": "allElements",
+    "appliesto": "scrollingBoxes",
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "standard",
