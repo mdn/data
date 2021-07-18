@@ -40,7 +40,7 @@ Or, syntaxes might reference other syntaxes that are also defined in syntaxes.js
   "syntax": "<length> | <percentage>"
 },
 "shape-radius": {
-    "syntax": "<length-percentage> | closest-side | farthest-side"
+  "syntax": "<length-percentage> | closest-side | farthest-side"
 },
 ```
 
