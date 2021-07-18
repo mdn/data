@@ -1,0 +1,47 @@
+{
+  "definitions": {
+    "status": {
+      "description": "The standardisation stage of the specification.",
+      "enum": [
+        "Living",
+        "REC",
+        "PR",
+        "CR",
+        "RC",
+        "WD",
+        "ED",
+        "RFC",
+        "Standard",
+        "Draft",
+        "Obsolete"
+      ]
+    }
+  },
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "additionalProperties": false,
+    "description": "The specification data.",
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "The full human-readable name of the specification.",
+        "minLength": 1
+      },
+      "url": {
+        "type": "string",
+        "description": "The URL where the specification is located.",
+        "format": "uri",
+        "pattern": "^https://"
+      },
+      "status": {
+        "$ref": "#/definitions/status"
+      }
+    },
+    "required": [
+      "name",
+      "url",
+      "status"
+    ]
+  }
+}
