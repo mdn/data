@@ -1,8 +1,14 @@
-var fs = require('fs');
-var path = require('path');
-var Ajv = require('ajv');
-var betterAjvErrors = require('better-ajv-errors');
-var dictPaths = ['api', 'css', 'l10n'];
+#!/usr/bin/env node
+const fs = require('fs');
+const path = require('path');
+const Ajv = require('ajv');
+const betterAjvErrors = require('better-ajv-errors');
+
+const root = path.resolve(__dirname, '..');
+const customStyle = [
+  'api/group-data',
+];
+const dictPaths = ['api', 'css', 'l10n'];
 var hasErrors = false;
 var ajv = new Ajv({
   $data: true,
@@ -40,20 +46,25 @@ function jsonDiff(actual, expected) {
   }
 }
 
-function checkStyle(filename) {
+function checkStyle(filename, relativeFilename) {
+  if (customStyle.includes(relativeFilename.replace(/(?:\.schema)?\.json$/, ''))) {
+    console.log('\x1b[36m  Style - Custom\x1b[0m');
+    return;
+  }
+
   var actual = fs.readFileSync(filename, 'utf-8').trim();
   var expected = JSON.stringify(JSON.parse(actual), null, 2);
 
   if (actual === expected) {
-    console.log('  Style – OK');
+    console.log('\x1b[32m  Style – OK\x1b[0m');
   } else {
     hasErrors = true;
-    console.log('  Style – Error on line ' + jsonDiff(actual, expected));
+    console.log(`\x1b[31m  Style – Error on line ${jsonDiff(actual, expected)}\x1b[0m`);
   }
 }
 
 function checkSchema(dataFilename) {
-  var schemaFilename = dataFilename.replace(/\.json/i, '.schema.json');
+  var schemaFilename = dataFilename.replace(/\.json$/i, '.schema.json');
 
   if (fs.existsSync(schemaFilename)) {
     var schema = require(schemaFilename);
@@ -61,10 +72,10 @@ function checkSchema(dataFilename) {
     var valid = ajv.validate(schema, data);
 
     if (valid) {
-      console.log('  JSON Schema – OK');
+      console.log('\x1b[32m  JSON Schema – OK');
     } else {
       hasErrors = true;
-      console.log('  JSON Schema – ' + ajv.errors.length + ' error(s)')
+      console.log('\x1b[31m  JSON Schema – ' + ajv.errors.length + ' error(s)')
       // console.log(betterAjvErrors(schema, data, ajv.errors, { indent: 2 }));
 
       // Output messages by one since better-ajv-errors wrongly joins messages
@@ -82,18 +93,19 @@ function checkSchema(dataFilename) {
 }
 
 dictPaths.forEach(function(dir) {
-  var absDir = path.resolve(path.join(__dirname, '..', dir));
+  const absDir = path.resolve(root, dir);
 
   fs.readdirSync(absDir).forEach(function(filename) {
     if (path.extname(filename) === '.json') {
-      var absFilename = path.join(absDir, filename);
+      const absFilename = path.join(absDir, filename);
+      const relativeFilename = path.relative(root, absFilename).replace(/\\/g, '/');
 
-      console.log(dir + '/' + filename);
+      console.log(`\x1b[0m${dir}/${filename}`);
 
-      checkStyle(absFilename)
+      checkStyle(absFilename, relativeFilename)
       checkSchema(absFilename);
 
-      console.log();
+      console.log('\x1b[0m');
     }
   });
 });
