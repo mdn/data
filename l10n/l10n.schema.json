@@ -1,0 +1,18 @@
+{
+  "definitions": {
+    "l10nEntry": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "description": "The translation for the particular key in the specified language."
+      },
+      "required": [
+        "en-US"
+      ]
+    }
+  },
+  "type": "object",
+  "additionalProperties": {
+    "$ref": "#/definitions/l10nEntry"
+  }
+}
