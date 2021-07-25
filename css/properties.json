@@ -6397,7 +6397,7 @@
     "groups": [
       "CSS Masking"
     ],
-    "initial": "no-repeat",
+    "initial": "repeat",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "consistsOfTwoDimensionKeywords",
     "order": "perGrammar",
