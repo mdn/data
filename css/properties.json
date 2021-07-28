@@ -3940,15 +3940,15 @@
     "syntax": "<color>",
     "media": "visual",
     "inherited": true,
-    "animationType": "color",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Color"
     ],
-    "initial": "variesFromBrowserToBrowser",
-    "appliesto": "allElements",
-    "computed": "translucentValuesRGBAOtherwiseRGB",
-    "order": "uniqueOrder",
+    "initial": "canvastext",
+    "appliesto": "allElementsAndText",
+    "computed": "computedColor",
+    "order": "perGrammar",
     "alsoAppliesTo": [
       "::first-letter",
       "::first-line",
@@ -6782,15 +6782,15 @@
     "syntax": "<alpha-value>",
     "media": "visual",
     "inherited": false,
-    "animationType": "number",
-    "percentages": "no",
+    "animationType": "byComputedValueType",
+    "percentages": "mapToRange0To1",
     "groups": [
       "CSS Color"
     ],
-    "initial": "1.0",
+    "initial": "1",
     "appliesto": "allElements",
-    "computed": "specifiedValueClipped0To1",
-    "order": "uniqueOrder",
+    "computed": "specifiedValueNumberClipped0To1",
+    "order": "perGrammar",
     "alsoAppliesTo": [
       "::placeholder"
     ],
