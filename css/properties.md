@@ -3,7 +3,7 @@
 [data](https://github.com/mdn/data/blob/master/css/properties.json) |
 [schema](https://github.com/mdn/data/blob/master/css/properties.schema.json)
 
-At its core, CSS consists of [properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index).
+At its core, CSS consists of [properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#index).
 
 ## Structure for long-hand properties
 A long-hand property might look like this:
@@ -106,14 +106,14 @@ on MDN and the [CSS Values and Units](https://www.w3.org/TR/css3-values/#value-d
 * `initial` (string or array of property names):
   * If it is a string (appropriate for long-hand properties), this is the initial value of the property.
   * If it is an array (appropriate for short-hand properties), these are the properties the initial value is taken from.
-* `appliesto` (enum): To which elements the property can be applied to. See the schema for [a list of enums](https://github.com/mdn/data/blob/master/css/properties.schema.json#L153)
+* `appliesto` (enum): To which elements the property can be applied to. See the schema for [a list of enums](https://github.com/mdn/data/blob/master/css/properties.schema.json#L161)
 * `computed` (enum or array of property names):
-  * If it is an enum (appropriate for long-hand properties), this is the computed value of the property. See the schema for [a list of enums](https://github.com/mdn/data/blob/master/css/properties.schema.json#L87).
+  * If it is an enum (appropriate for long-hand properties), this is the computed value of the property. See the schema for [a list of enums](https://github.com/mdn/data/blob/master/css/properties.schema.json#L91).
   * If it is an array (appropriate for short-hand properties), these are the properties the value is computed from.
-* `order` (enum): The [canonical order](https://developer.mozilla.org/en-US/docs/Glossary/Canonical_order) for the property. See the schema for [a list of enums](https://github.com/mdn/data/blob/master/css/properties.schema.json#L246).
+* `order` (enum): The [canonical order](https://developer.mozilla.org/en-US/docs/Glossary/Canonical_order) for the property. See the schema for [a list of enums](https://github.com/mdn/data/blob/master/css/properties.schema.json#L261).
 * `status` (enum): This is either `standard`, `nonstandard`, or `experimental` depending on the standardization status of the feature.
 
 There are 3 more properties that are optional:
 * `mdn_url` (string): a URL linking to the property's page on MDN. This URL must omit the localization part of the URL (such as `en-US/`).
 * `stacking` (boolean): Whether or not the property creates a stacking context. See [stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) for details.
-* `alsoAppliesTo` (enum): To which elements the property also applies to. See the schema for [a list of enums](https://github.com/mdn/data/blob/master/css/properties.schema.json#L153).
+* `alsoAppliesTo` (enum): To which elements the property also applies to. See the schema for [a list of enums](https://github.com/mdn/data/blob/master/css/properties.schema.json#L253).
