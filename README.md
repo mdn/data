@@ -18,8 +18,8 @@ For example, the [CSSTree](https://github.com/csstree/csstree/) CSS parser.
 
 ## Repository contents
 
-There's a top-level directory for each broad area covered: for example, "api",
-"css", "svg". Inside each of these directories is one or more
+There's a top-level directory for each broad area covered: for example, `api`
+and `css`. Inside each of these directories is one or more
 JSON files containing the data.
 
 ### api
