@@ -1,18 +1,26 @@
-# Publishing a new version of MDN `data`
+# Publishing a new version of MDN `mdn-data`
 
-Repo admins publish new releases of [data](https://www.npmjs.com/package/mdn-data) on npm.
-This is then used by MDN to generate various sidebars and other things besides.
-Usually, this happens every Thursday (MDN never deploys to production on Fridays).
+Repo admins publish new releases of [mdn-data](https://www.npmjs.com/package/mdn-data) on npm. This is then used by MDN to generate various sidebars as well as other things.
 
-Any admin can complete the following steps to publish a new version, but please coordinate releases with [Chris Mills](https://github.com/chrisdavidmills).
+Any admin can complete the following steps to publish a new version, but please coordinate releases with [@ddbeck](https://github.com/ddbeck) or [@Rumyra](https://github.com/Rumyra).
 
-To create and publish a new version of `data`:
+The steps in this process assume:
 
-1. Figure out the new version number by looking at [past releases](https://github.com/mdn/data/releases). We're using only patch versions until something major changes. Lets assume the next version should be `2.0.43`.
-2. On your updated and clean master branch, run `npm version patch -m "43rd patch of v2"`. Locally, this updates `package.json`, creates a new commit, and creates a new release tag (see also the docs for [npm version](https://docs.npmjs.com/cli/version)).
-3. Push the commit to `master`: `git push origin master`. (replace `origin` with whatever your main repo remote is called).
-4. Check if the commit passes fine on [Travis CI](https://travis-ci.org/mdn/data).
-5. If Travis is happy, push the git tag as well: `git push origin v2.0.43`. (again, replace `origin` with whatever your main repo remote is called).
-This step will trigger Travis to publish to npm automatically (see our [.travis.yml file](https://github.com/mdn/data/blob/master/.travis.yml)).
-6. Check [Travis CI](https://travis-ci.org/mdn/data) again for the v2.0.43 build and also check [data on npm](https://www.npmjs.com/package/mdn-data) to see if `2.0.43` shows up correctly once Travis has finished its work.
-7. Notify the MDN devs about the new release.
+- `NPM_TOKEN` is set in the repository secrets. If the token is invalidated or unset, a member of the `@mdn` organization on npm must [create a new token](https://docs.npmjs.com/creating-and-viewing-authentication-tokens) and [add it to the repository's secrets](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository).
+
+## Publish to npm
+
+1. Start a draft [release on GitHub](https://github.com/mdn/data/releases).
+
+   - In the _Tag version_ and _Release title_ fields, enter `vX.Y.Z` where `X.Y.Z` is the version number you'd like to publish. Do not use an existing value, but instead
+   select an increment from the previous release. For example, if the previous release
+   was `v2.0.20`, use `v2.0.21` for the _Tag version_ and _Release title_ fields.
+   - You can leave the _Describe this release_ field blank, or add notes as you wish.
+
+   _Note_: If you're not ready to publish to npm, click **Save draft** in GitHub and resume this process later.
+
+2. Click **Publish release** to create the tag and trigger the workflow that publishes to npm. Wait for the release [GitHub Actions workflow](https://github.com/mdn/data/actions) to finish successfully.
+
+3. Check [`mdn-data` on npm](https://www.npmjs.com/package/mdn-data) to see if the release shows up correctly.
+
+The package is now published. 🎉
