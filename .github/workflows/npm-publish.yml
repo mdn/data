@@ -1,7 +1,8 @@
 name: npm publish
 on:
   release:
-    types: [created]
+    types:
+      - created
 jobs:
   build:
     runs-on: ubuntu-latest
