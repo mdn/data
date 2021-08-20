@@ -18,7 +18,7 @@ jobs:
       - name: Install all npm packages
         run: npm install
 
-      - name: Publish data package to npm registry
+      - name: Publish package to npm registry
         run: npm publish --access public --dry-run
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
