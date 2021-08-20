@@ -1,0 +1,23 @@
+name: npm publish
+on:
+  release:
+    types: [created]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.3.4
+
+      # Setup .npmrc file to publish to npm
+      - uses: actions/setup-node@v2.4.0
+        with:
+          node-version: '12.x'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install all npm packages
+        run: npm install
+
+      - name: Publish data package to npm registry
+        run: npm publish --access public --dry-run
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
