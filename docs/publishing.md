@@ -19,7 +19,7 @@ The steps in this process assume:
 
    _Note_: If you're not ready to publish to npm, click **Save draft** in GitHub and resume this process later.
 
-2. Click **Publish release** to create the tag and trigger the workflow that publishes to npm. Wait for the release [GitHub Actions workflow](https://github.com/mdn/data/actions) to finish successfully.
+2. Click **Publish release** to create the tag and trigger the workflow that publishes to npm. Wait for the [`npm publish` GitHub Actions workflow](https://github.com/mdn/data/actions/workflows/npm-publish.yml) to finish successfully.
 
 3. Check [`mdn-data` on npm](https://www.npmjs.com/package/mdn-data) to see if the release shows up correctly.
 
