@@ -9160,7 +9160,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/word-break"
   },
   "word-spacing": {
-    "syntax": "normal | <length-percentage>",
+    "syntax": "normal | <length>",
     "media": "visual",
     "inherited": true,
     "animationType": "length",
