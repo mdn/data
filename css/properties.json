@@ -4770,7 +4770,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-style"
   },
   "font-synthesis": {
-    "syntax": "none | [ weight || style ]",
+    "syntax": "none | [ weight || style || small-caps ]",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
