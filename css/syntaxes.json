@@ -368,6 +368,9 @@
   "keyframe-selector": {
     "syntax": "from | to | <percentage>"
   },
+  "layout()": {
+    "syntax": "layout( <layer-name> )"
+  },
   "leader()": {
     "syntax": "leader( <leader-type> )"
   },
