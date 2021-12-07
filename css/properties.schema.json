@@ -236,6 +236,7 @@
         "sameAsWidthAndHeight",
         "scrollContainers",
         "scrollingBoxes",
+        "sensitiveTextInputs",
         "tableCaptionElements",
         "tableCellElements",
         "tableElements",
