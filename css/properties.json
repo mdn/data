@@ -1570,7 +1570,7 @@
   "-webkit-tap-highlight-color": {
     "syntax": "<color>",
     "media": "visual",
-    "inherited": false,
+    "inherited": true,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
