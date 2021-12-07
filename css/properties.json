@@ -5525,7 +5525,7 @@
       "CSS Basic User Interface"
     ],
     "initial": "auto",
-    "appliesto": "allElements",
+    "appliesto": "sensitiveTextInputs",
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "standard"
