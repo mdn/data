@@ -1,0 +1,13 @@
+name: publish-release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish-release:
+    uses: mdn/workflows/.github/workflows/publish-release.yml@main
+    secrets:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
