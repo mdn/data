@@ -273,7 +273,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-feature-values"
   },
   "@import": {
-    "syntax": "@import [ <string> | <url> ]\n        [ supports( [ <supports-condition> | <declaration> ] ) ]?\n        <media-query-list>? ;",
+    "syntax": "@import [ <string> | <url> ]\n        [ layer | layer(<layer-name>) ]?\n        [ supports( [ <supports-condition> | <declaration> ] ) ]?\n        <media-query-list>? ;",
     "groups": [
       "CSS Conditional Rules",
       "Media Queries"
@@ -292,6 +292,18 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@keyframes"
+  },
+  "@layer": {
+    "syntax": "@layer [ <layer-name># | <layer-name>?  {\n  <stylesheet>\n} ]",
+    "interfaces": [
+      "CSSLayerBlockRule",
+      "CSSLayerStatementRule"
+    ],
+    "groups": [
+      "CSS Cascading and Inheritance"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@layer"
   },
   "@media": {
     "syntax": "@media <media-query-list> {\n  <group-rule-body>\n}",
