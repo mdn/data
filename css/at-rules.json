@@ -273,7 +273,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-feature-values"
   },
   "@import": {
-    "syntax": "@import [ <string> | <url> ] [ <media-query-list> ]?;",
+    "syntax": "@import [ <string> | <url> ] [ layer | layer(<layer-name>) ]? [ <media-query-list> ]?;",
     "groups": [
       "Media Queries"
     ],
@@ -293,9 +293,10 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@keyframes"
   },
   "@layer": {
-    "syntax": "@layer <layer-name> {\n  <stylesheet>\n}",
+    "syntax": "@layer [ <layer-name># | <layer-name>?  {\n  <stylesheet>\n} ]",
     "interfaces": [
-      "CSSImportRule"
+      "CSSLayerBlockRule",
+      "CSSLayerStatementRule"
     ],
     "groups": [
       "CSS Cascading and Inheritance"
