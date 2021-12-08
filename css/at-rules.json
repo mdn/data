@@ -273,8 +273,9 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-feature-values"
   },
   "@import": {
-    "syntax": "@import [ <string> | <url> ] [ layer | layer(<layer-name>) ]? [ <media-query-list> ]?;",
+    "syntax": "@import [ <string> | <url> ]\n        [ layer | layer(<layer-name>) ]?\n        [ supports( [ <supports-condition> | <declaration> ] ) ]?\n        <media-query-list>? ;",
     "groups": [
+      "CSS Conditional Rules",
       "Media Queries"
     ],
     "status": "standard",
