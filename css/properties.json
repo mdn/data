@@ -4187,7 +4187,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain"
   },
   "content": {
-    "syntax": "normal | none | [ <content-replacement> | <content-list> ] [/ <string> ]?",
+    "syntax": "normal | none | [ <content-replacement> | <content-list> ] [/ [ <string> | <counter> ]+ ]?",
     "media": "all",
     "inherited": false,
     "animationType": "discrete",
@@ -4219,7 +4219,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/content-visibility"
   },
   "counter-increment": {
-    "syntax": "[ <custom-ident> <integer>? ]+ | none",
+    "syntax": "[ <counter-name> <integer>? ]+ | none",
     "media": "all",
     "inherited": false,
     "animationType": "discrete",
@@ -4235,7 +4235,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/counter-increment"
   },
   "counter-reset": {
-    "syntax": "[ <custom-ident> <integer>? ]+ | none",
+    "syntax": "[ <counter-name> <integer>? ]+ | none",
     "media": "all",
     "inherited": false,
     "animationType": "discrete",
@@ -4251,7 +4251,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/counter-reset"
   },
   "counter-set": {
-    "syntax": "[ <custom-ident> <integer>? ]+ | none",
+    "syntax": "[ <counter-name> <integer>? ]+ | none",
     "media": "all",
     "inherited": false,
     "animationType": "discrete",
