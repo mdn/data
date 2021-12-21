@@ -418,6 +418,17 @@
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property"
   },
+  "@scroll-timeline": {
+    "syntax": "@scroll-timeline <timeline-name> { <declaration-list> }",
+    "interfaces": [
+      "ScrollTimeline"
+    ],
+    "groups": [
+      "CSS Animations"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@scroll-timeline"
+  },
   "@supports": {
     "syntax": "@supports <supports-condition> {\n  <group-rule-body>\n}",
     "interfaces": [
