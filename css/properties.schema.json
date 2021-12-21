@@ -49,6 +49,7 @@
         "logicalHeightOfContainingBlock",
         "logicalWidthOfContainingBlock",
         "logicalHeightOrWidthOfContainingBlock",
+        "mapToRange0To1",
         "maxZoomFactor",
         "minZoomFactor",
         "no",
