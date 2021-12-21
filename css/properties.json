@@ -4235,7 +4235,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/counter-increment"
   },
   "counter-reset": {
-    "syntax": "[ <counter-name> <integer>? ]+ | none",
+    "syntax": "[ <counter-name> <integer>? | <reversed-counter-name> <integer>? ]+ | none",
     "media": "all",
     "inherited": false,
     "animationType": "discrete",
