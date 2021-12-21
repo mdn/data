@@ -102,7 +102,7 @@
     "syntax": "<url>"
   },
   "color": {
-    "syntax": "<rgb()> | <rgba()> | <hsl()> | <hsla()> | <hex-color> | <named-color> | currentcolor | <deprecated-system-color>"
+    "syntax": "<rgb()> | <rgba()> | <hsl()> | <hsla()> | <hwb()> | <hex-color> | <named-color> | currentcolor | <deprecated-system-color>"
   },
   "color-stop": {
     "syntax": "<color-stop-length> | <color-stop-angle>"
@@ -331,6 +331,9 @@
   },
   "hue-rotate()": {
     "syntax": "hue-rotate( <angle> )"
+  },
+  "hwb()": {
+    "syntax": "hwb( [<hue> | none] [<percentage> | none] [<percentage> | none] [ / [<alpha-value> | none] ]? )"
   },
   "id-selector": {
     "syntax": "<hash-token>"
