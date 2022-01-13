@@ -780,7 +780,7 @@
   "gridItemsAndBoxesWithinGridContainer": {
     "de": "Gridelemente und absolut positionierte Boxen, deren beinhaltender Block ein Gridcontainer ist",
     "en-US": "grid items and absolutely-positioned boxes whose containing block is a grid container",
-    "fr": "élements de grilles et boîtes positionnées de façon absolue dont le bloc englobant est un conteneur de grille",
+    "fr": "éléments de grilles et boîtes positionnées de façon absolue dont le bloc englobant est un conteneur de grille",
     "ja": "包含ブロックがグリッドコンテナーであるグリッドアイテムまたは絶対位置指定のボックス",
     "ru": "элементы сетки и абсолютно-позиционированные блоки, находящиеся в сеточном контейнере"
   },
@@ -1153,7 +1153,7 @@
     "en-US": "the percentage as specified or the absolute length",
     "fr": "le pourcentage tel que spécifié ou une longueur absolue",
     "ja": "指定されたパーセント値または絶対的な長さ",
-    "ru": "процент, как указан, или аблосютная длина"
+    "ru": "процент, как указан, или абсолютная длина"
   },
   "percentageAutoOrAbsoluteLength": {
     "de": "ein Prozentwert oder <code>auto</code> oder die absolute Länge",
@@ -1255,7 +1255,7 @@
   "referToHeightOfBackgroundPositioningAreaMinusBackgroundImageHeight": {
     "de": "bezieht sich auf die Höhe des Hintergrundpositionsbereichs abzüglich der Höhe des Hintergrundbilds",
     "en-US": "refer to height of background positioning area minus height of background image",
-    "fr": "fait référence à la hauteur de la zone de positionement de l'arrière-plan moins la hauteur de l'image d'arrière-plan",
+    "fr": "fait référence à la hauteur de la zone de positionnement de l'arrière-plan moins la hauteur de l'image d'arrière-plan",
     "ja": "背景配置領域の高さから背景画像の高さを引いた値に対する相対値",
     "ru": "относятся к высоте области позиционирования фона минус высота фонового изображения"
   },
