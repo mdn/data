@@ -1646,7 +1646,7 @@
   "twoAbsoluteLengthOrPercentages": {
     "de": "zwei absolute {{cssxref(\"length\")}} oder {{cssxref(\"percentage\")}}",
     "en-US": "two absolute {{cssxref(\"length\")}}s or {{cssxref(\"percentage\")}}s",
-    "fr": "deux {{cssxref(\"longueur\",\"longueurs\")}} absolues ou deux {{cssxref(\"pourcentage\",\"pourcentages\")}}",
+    "fr": "deux {{cssxref(\"length\",\"longueurs\")}} absolues ou deux {{cssxref(\"percentage\",\"pourcentages\")}}",
     "ja": "２つの絶対的な {{cssxref(\"length\")}} または {{cssxref(\"percentage\")}} 値",
     "ru": "две абсолютных {{cssxref(\"length\")}} или {{cssxref(\"percentage\")}}"
   },
