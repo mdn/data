@@ -5388,6 +5388,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/height"
   },
+  "hyphenate-character": {
+    "syntax": "auto | <string>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Text"
+    ],
+    "initial": "auto",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/hyphenate-character"
+  },
   "hyphens": {
     "syntax": "none | manual | auto",
     "media": "visual",
