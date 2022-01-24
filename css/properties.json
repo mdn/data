@@ -1800,7 +1800,8 @@
       "animation-iteration-count",
       "animation-direction",
       "animation-fill-mode",
-      "animation-play-state"
+      "animation-play-state",
+      "animation-timeline"
     ],
     "appliesto": "allElementsAndPseudos",
     "computed": [
@@ -1811,7 +1812,8 @@
       "animation-direction",
       "animation-iteration-count",
       "animation-fill-mode",
-      "animation-play-state"
+      "animation-play-state",
+      "animation-timeline"
     ],
     "order": "orderOfAppearance",
     "status": "standard",
@@ -1944,6 +1946,20 @@
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timing-function"
+  },
+  "animation-timeline": {
+    "syntax": "<single-animation-timeline>#",
+    "media": "visual",
+    "inherited": false,
+    "percentages": "no",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": "auto",
+    "appliesto": "allElements",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline"
   },
   "appearance": {
     "syntax": "none | auto | textfield | menulist-button | <compat-auto>",
