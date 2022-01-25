@@ -1,7 +1,7 @@
 var fs = require('fs');
 var path = require('path');
 var Ajv = require('ajv');
-var betterAjvErrors = require('better-ajv-errors');
+var betterAjvErrors = require('better-ajv-errors').default;
 var dictPaths = ['api', 'css', 'l10n'];
 var hasErrors = false;
 var ajv = new Ajv({
