@@ -1957,7 +1957,7 @@
     ],
     "initial": "auto",
     "appliesto": "allElements",
-    "computed": "asSpecified",
+    "computed": "listEachItemIdentifyerOrNoneAuto",
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline"
