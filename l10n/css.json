@@ -780,7 +780,7 @@
   "gridItemsAndBoxesWithinGridContainer": {
     "de": "Gridelemente und absolut positionierte Boxen, deren beinhaltender Block ein Gridcontainer ist",
     "en-US": "grid items and absolutely-positioned boxes whose containing block is a grid container",
-    "fr": "éléments de grilles et boîtes positionnées de façon absolue dont le bloc englobant est un conteneur de grille",
+    "fr": "élements de grilles et boîtes positionnées de façon absolue dont le bloc englobant est un conteneur de grille",
     "ja": "包含ブロックがグリッドコンテナーであるグリッドアイテムまたは絶対位置指定のボックス",
     "ru": "элементы сетки и абсолютно-позиционированные блоки, находящиеся в сеточном контейнере"
   },
@@ -1153,7 +1153,7 @@
     "en-US": "the percentage as specified or the absolute length",
     "fr": "le pourcentage tel que spécifié ou une longueur absolue",
     "ja": "指定されたパーセント値または絶対的な長さ",
-    "ru": "процент, как указан, или абсолютная длина"
+    "ru": "процент, как указан, или аблосютная длина"
   },
   "percentageAutoOrAbsoluteLength": {
     "de": "ein Prozentwert oder <code>auto</code> oder die absolute Länge",
@@ -1236,7 +1236,7 @@
     "en-US": "refer to corresponding dimension of the content area",
     "fr": "fait référence à la dimension correspondante de la zone de contenu",
     "ja": "コンテンツ領域の対応する寸法に対する相対値",
-    "ru": "относятся к соответствующему размеру области содержимого"
+    "ru": "относятся к соответвующему размеру области содержимого"
   },
   "referToElementFontSize": {
     "de": "bezieht sich auf die Schriftgröße des Elternelements",
@@ -1255,7 +1255,7 @@
   "referToHeightOfBackgroundPositioningAreaMinusBackgroundImageHeight": {
     "de": "bezieht sich auf die Höhe des Hintergrundpositionsbereichs abzüglich der Höhe des Hintergrundbilds",
     "en-US": "refer to height of background positioning area minus height of background image",
-    "fr": "fait référence à la hauteur de la zone de positionnement de l'arrière-plan moins la hauteur de l'image d'arrière-plan",
+    "fr": "fait référence à la hauteur de la zone de positionement de l'arrière-plan moins la hauteur de l'image d'arrière-plan",
     "ja": "背景配置領域の高さから背景画像の高さを引いた値に対する相対値",
     "ru": "относятся к высоте области позиционирования фона минус высота фонового изображения"
   },
@@ -1527,7 +1527,7 @@
     "en-US": "a <a href=\"/en-US/docs/Web/CSS/box-shadow#Interpolation\" title=\"The color, x, y, blur and spread (if applicable) components of shadow lists are interpolated independently. If the inset value of any shadow pair differs between both lists, the whole list is uninterpolable. If one list is smaller than the other, it gets padded with transparent shadows with all their lengths set to 0 and its inset value matching the longer list.\">shadow list</a>",
     "fr": "une <a href=\"/fr/docs/Web/CSS/box-shadow#Interpolation\" title=\"Les composantes de couleur, coordonnées x, y, de flou et d'étalement (si applicable) des listes d'ombres sont interpolées indépendamment. Si la valeur inset de n'importe quelle ombre différe entre les deux listes, toute la liste ne pourra pas être interpolée. Si une liste est plus petite qu'une autre, elle sera complétée avec des ombres transparentes dont les longueurs sont nulles et dont les valeurs d'inset correspondent à celles de la liste plus longue.\">liste d'ombres</a>",
     "ja": "a <a href=\"/ja/docs/Web/CSS/box-shadow#Interpolation\" title=\"影のリストは、色の成分、 x、 y、 ぼかし、 (適切であれば) 広がりの成分で個別に補完されます。両方のリストで影の組の inset の値が異なる場合は、リスト全体は補完されません。一方のリストがもう一方より短い場合は、 transparent の色の影で補完し、すべての長さが 0 であり、 inset (の有無) が一致するものがあれば、より長いリストに一致します。\">影のリスト</a>",
-    "ru": "<a href=\"/ru/docs/Web/CSS/box-shadow#Interpolation\" title=\"Цвет, абсцисса, ордината, размытие и распространение (если применено) списка теней интерполируются независимо. Если внутреннее значение какой-либо пары теней различается в обоих списках, интерполизуется весь список. Если один список меньше остальных, он дополняется прозрачностью теней со всей их длинной установленной в 0, а его внутреннее значение соответствует длинному списку.\">список теней</a>"
+    "ru": "<a href=\"/ru/docs/Web/CSS/box-shadow#Interpolation\" title=\"Цвет, абсцисса, ордината, размытие и распространение (если применено) списка теней интерполируются независимо. Если внутреннее значение какой-либо пары теней различается в обоих списках, интерполизуется весь список. Если один список меньше остальных, он дополняется прозрачностью теней со всей их длинной установленной в 0, а его внутреннее значение соответвует длинному списку.\">список теней</a>"
   },
   "simpleList": {
     "de": "ein einfacher Wert der folgenden Eigenschaften: ",
@@ -1646,7 +1646,7 @@
   "twoAbsoluteLengthOrPercentages": {
     "de": "zwei absolute {{cssxref(\"length\")}} oder {{cssxref(\"percentage\")}}",
     "en-US": "two absolute {{cssxref(\"length\")}}s or {{cssxref(\"percentage\")}}s",
-    "fr": "deux {{cssxref(\"length\",\"longueurs\")}} absolues ou deux {{cssxref(\"percentage\",\"pourcentages\")}}",
+    "fr": "deux {{cssxref(\"longueur\",\"longueurs\")}} absolues ou deux {{cssxref(\"pourcentage\",\"pourcentages\")}}",
     "ja": "２つの絶対的な {{cssxref(\"length\")}} または {{cssxref(\"percentage\")}} 値",
     "ru": "две абсолютных {{cssxref(\"length\")}} или {{cssxref(\"percentage\")}}"
   },
