@@ -2252,7 +2252,7 @@
     "groups": [
       "CSS Backgrounds and Borders"
     ],
-    "initial": "left",
+    "initial": "0%",
     "appliesto": "allElements",
     "computed": "listEachItemConsistingOfAbsoluteLengthPercentageAndOrigin",
     "order": "uniqueOrder",
@@ -2268,7 +2268,7 @@
     "groups": [
       "CSS Backgrounds and Borders"
     ],
-    "initial": "top",
+    "initial": "0%",
     "appliesto": "allElements",
     "computed": "listEachItemConsistingOfAbsoluteLengthPercentageAndOrigin",
     "order": "uniqueOrder",
