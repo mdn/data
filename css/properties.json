@@ -1972,7 +1972,7 @@
     "groups": [
       "CSS Basic User Interface"
     ],
-    "initial": "auto",
+    "initial": "none",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "perGrammar",
