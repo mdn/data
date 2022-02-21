@@ -53,4 +53,4 @@ with the schema for the data you're editing, and send us a pull request. See als
 
 ## See also
 * [https://github.com/mdn/browser-compat-data](https://github.com/mdn/browser-compat-data)
-for compatibility data for Web technologies.
+for compatibility data for Web technologies
