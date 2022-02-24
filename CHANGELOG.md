@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.0.27](https://github.com/mdn/data/compare/v2.0.26...v2.0.27) (2022-02-24)
+
+
+### Miscellaneous Chores
+
+* release ([a99ae2e](https://github.com/mdn/data/commit/a99ae2ebfeb930524c18f8d46954e8e32ab6b630))
+
 ### [2.0.26](https://www.github.com/mdn/data/compare/v2.0.25...v2.0.26) (2022-01-19)
 
 
