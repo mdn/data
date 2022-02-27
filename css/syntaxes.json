@@ -380,6 +380,9 @@
   "layer()": {
     "syntax": "layer( <layer-name> )"
   },
+  "layer-name": {
+    "syntax": "<ident> [ '.' <ident> ]*"
+  },
   "leader()": {
     "syntax": "leader( <leader-type> )"
   },
