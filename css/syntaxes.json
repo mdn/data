@@ -677,6 +677,9 @@
   "single-animation-play-state": {
     "syntax": "running | paused"
   },
+  "single-animation-timeline": {
+    "syntax": "auto | none | <timeline-name>"
+  },
   "single-transition": {
     "syntax": "[ none | <single-transition-property> ] || <time> || <easing-function> || <time>"
   },
@@ -727,6 +730,9 @@
   },
   "time-percentage": {
     "syntax": "<time> | <percentage>"
+  },
+  "timeline-name": {
+    "syntax": "<custom-ident> | <string>"
   },
   "easing-function": {
     "syntax": "linear | <cubic-bezier-timing-function> | <step-timing-function>"
