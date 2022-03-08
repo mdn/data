@@ -309,7 +309,7 @@
     "syntax": "<shape-box> | fill-box | stroke-box | view-box"
   },
   "gradient": {
-    "syntax": "<linear-gradient()> | <repeating-linear-gradient()> | <radial-gradient()> | <repeating-radial-gradient()> | <conic-gradient()>"
+    "syntax": "<linear-gradient()> | <repeating-linear-gradient()> | <radial-gradient()> | <repeating-radial-gradient()> | <conic-gradient()> | <repeating-conic-gradient()>"
   },
   "grayscale()": {
     "syntax": "grayscale( <number-percentage> )"
@@ -583,6 +583,9 @@
   },
   "repeat-style": {
     "syntax": "repeat-x | repeat-y | [ repeat | space | round | no-repeat ]{1,2}"
+  },
+  "repeating-conic-gradient()": {
+    "syntax": "repeating-conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )"
   },
   "repeating-linear-gradient()": {
     "syntax": "repeating-linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )"
