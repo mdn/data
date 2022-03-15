@@ -6948,7 +6948,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/outline-offset"
   },
   "outline-style": {
-    "syntax": "auto | <'border-style'>",
+    "syntax": "auto | <'outline-line-style'>",
     "media": [
       "visual",
       "interactive"
