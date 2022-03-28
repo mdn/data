@@ -1768,7 +1768,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/align-tracks"
   },
   "all": {
-    "syntax": "initial | inherit | unset | revert",
+    "syntax": "initial | inherit | unset | revert | revert-layer",
     "media": "noPracticalMedia",
     "inherited": false,
     "animationType": "eachOfShorthandPropertiesExceptUnicodeBiDiAndDirection",
