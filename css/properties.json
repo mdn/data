@@ -6558,7 +6558,7 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "0",
+    "initial": "none",
     "appliesto": "sameAsWidthAndHeight",
     "computed": "sameAsMaxWidthAndMaxHeight",
     "order": "uniqueOrder",
