@@ -6661,7 +6661,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/min-width"
   },
   "mix-blend-mode": {
-    "syntax": "<blend-mode>",
+    "syntax": "<blend-mode> | plus-lighter",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
