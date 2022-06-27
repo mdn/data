@@ -1823,7 +1823,7 @@
     "syntax": "<time>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "not animatable",
     "percentages": "no",
     "groups": [
       "CSS Animations"
@@ -1839,7 +1839,7 @@
     "syntax": "<single-animation-direction>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "not animatable",
     "percentages": "no",
     "groups": [
       "CSS Animations"
@@ -1855,7 +1855,7 @@
     "syntax": "<time>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "not animatable",
     "percentages": "no",
     "groups": [
       "CSS Animations"
@@ -1871,7 +1871,7 @@
     "syntax": "<single-animation-fill-mode>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "not animatable",
     "percentages": "no",
     "groups": [
       "CSS Animations"
@@ -1887,7 +1887,7 @@
     "syntax": "<single-animation-iteration-count>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "not animatable",
     "percentages": "no",
     "groups": [
       "CSS Animations"
@@ -1903,7 +1903,7 @@
     "syntax": "[ none | <keyframes-name> ]#",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "not animatable",
     "percentages": "no",
     "groups": [
       "CSS Animations"
@@ -1919,7 +1919,7 @@
     "syntax": "<single-animation-play-state>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "not animatable",
     "percentages": "no",
     "groups": [
       "CSS Animations"
@@ -1935,7 +1935,7 @@
     "syntax": "<easing-function>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "not animatable",
     "percentages": "no",
     "groups": [
       "CSS Animations"
@@ -1951,7 +1951,7 @@
     "syntax": "<single-animation-timeline>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "not animatable",
     "percentages": "no",
     "groups": [
       "CSS Animations"
