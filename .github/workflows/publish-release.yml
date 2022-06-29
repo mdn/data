@@ -8,6 +8,8 @@ on:
 jobs:
   publish-release:
     uses: mdn/workflows/.github/workflows/publish-release.yml@main
+    with:
+      target-repo: "mdn/data"
     secrets:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
