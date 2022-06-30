@@ -1673,11 +1673,11 @@
     "ru": "Варьируется от браузера к браузеру"
   },
   "visibility": {
-    "de": "<a href=\"/de/docs/Web/CSS/visibility#Interpolation\">Sichtbarkeit</a>",
-    "en-US": "a <a href=\"/en-US/docs/Web/CSS/visibility#Interpolation\" title=\"Values of the visibility CSS property are interpolable if the start or the end value is visible. In that case all values of the timing function which are equal to 1 map to visible and non-equal to 1 to non-visible.\">visibility</a>",
-    "fr": "une <a href=\"/fr/docs/Web/CSS/visibility#Interpolation\" title=\"Les valeurs de la propriété CSS visibility sont interpolables si une des valeurs de début ou de fin est visible. Dans ce cas, toutes les valeurs de la fonction de temporisation qui sont égales à 1 sont associées à visible, et celles non égales à 1, à non-visible.\">visibilité</a>",
-    "ja": "<a href=\"/en-US/docs/Web/CSS/visibility#Interpolation\" title=\"CSS の visibility プロパティの値は、開始値または終了値が visible の場合に補間可能である。その場合、タイミング関数の 1 に等しい値がすべて可視に、1 に等しくない値が不可視に対応づけられる。\">visibility</a>",
-    "ru": "<a href=\"/ru/docs/Web/CSS/visibility#Interpolation\" title=\"Значения свойства CSS visibility интерполируются, если начальное или конечное значение установлено в visible. В этом случае все значения временной функции, равные 1 отображаются, а не равные 1 не отображаются.\">видимость</a>"
+    "de": "<a href=\"/de/docs/Web/CSS/visibility#interpolation\">Sichtbarkeit</a>",
+    "en-US": "a <a href=\"/en-US/docs/Web/CSS/visibility#interpolation\" title=\"Values of the visibility CSS property are interpolable if the start or the end value is visible. In that case all values of the timing function which are equal to 1 map to visible and non-equal to 1 to non-visible.\">visibility</a>",
+    "fr": "une <a href=\"/fr/docs/Web/CSS/visibility#interpolation\" title=\"Les valeurs de la propriété CSS visibility sont interpolables si une des valeurs de début ou de fin est visible. Dans ce cas, toutes les valeurs de la fonction de temporisation qui sont égales à 1 sont associées à visible, et celles non égales à 1, à non-visible.\">visibilité</a>",
+    "ja": "<a href=\"/en-US/docs/Web/CSS/visibility#interpolation\" title=\"CSS の visibility プロパティの値は、開始値または終了値が visible の場合に補間可能である。その場合、タイミング関数の 1 に等しい値がすべて可視に、1 に等しくない値が不可視に対応づけられる。\">visibility</a>",
+    "ru": "<a href=\"/ru/docs/Web/CSS/visibility#interpolation\" title=\"Значения свойства CSS visibility интерполируются, если начальное или конечное значение установлено в visible. В этом случае все значения временной функции, равные 1 отображаются, а не равные 1 не отображаются.\">видимость</a>"
   },
   "visual": {
     "de": "visuell",
