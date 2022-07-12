@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.28](https://github.com/mdn/data/compare/v2.0.27...v2.0.28) (2022-07-12)
+
+
+### Bug Fixes
+
+* **css:** correct two syntax examples in selectors ([#589](https://github.com/mdn/data/issues/589)) ([91ab33a](https://github.com/mdn/data/commit/91ab33a40bf2dfd75286a01785453705105533e8))
+
 ### [2.0.27](https://github.com/mdn/data/compare/v2.0.26...v2.0.27) (2022-02-24)
 
 
