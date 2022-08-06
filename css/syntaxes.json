@@ -377,11 +377,17 @@
   "keyframe-selector": {
     "syntax": "from | to | <percentage>"
   },
+  "lab()": {
+    "syntax": "lab( [<percentage> | <number> | none] [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ / [<alpha-value> | none] ]? )"
+  },
   "layer()": {
     "syntax": "layer( <layer-name> )"
   },
   "layer-name": {
     "syntax": "<ident> [ '.' <ident> ]*"
+  },
+  "lch()": {
+    "syntax": "lch( [<percentage> | <number> | none] [ <percentage> | <number> | none] [ <hue> | none] [ / [<alpha-value> | none] ]? )"
   },
   "leader()": {
     "syntax": "leader( <leader-type> )"
@@ -572,6 +578,9 @@
   "radial-gradient()": {
     "syntax": "radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )"
   },
+  "ratio": {
+    "syntax": "<number [0,∞]> [ / <number [0,∞]> ]?"
+  },
   "relative-selector": {
     "syntax": "<combinator>? <complex-selector>"
   },
@@ -592,6 +601,9 @@
   },
   "repeating-radial-gradient()": {
     "syntax": "repeating-radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )"
+  },
+  "reversed-counter-name": {
+    "syntax": "reversed( <counter-name> )"
   },
   "rgb()": {
     "syntax": "rgb( <percentage>{3} [ / <alpha-value> ]? ) | rgb( <number>{3} [ / <alpha-value> ]? ) | rgb( <percentage>#{3} , <alpha-value>? ) | rgb( <number>#{3} , <alpha-value>? )"
