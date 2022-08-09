@@ -1,4 +1,7 @@
 {
+  "abs()": {
+    "syntax": "abs( <calc-sum> )"
+  },
   "absolute-size": {
     "syntax": "xx-small | x-small | small | medium | large | x-large | xx-large | xxx-large"
   },
@@ -248,6 +251,9 @@
   "env()": {
     "syntax": "env( <custom-ident> , <declaration-value>? )"
   },
+  "exp()": {
+    "syntax": "exp( <calc-sum> )"
+  },
   "explicit-track-list": {
     "syntax": "[ <line-names>? <track-size> ]+ <line-names>?"
   },
@@ -350,6 +356,9 @@
   "hwb()": {
     "syntax": "hwb( [<hue> | none] [<percentage> | none] [<percentage> | none] [ / [<alpha-value> | none] ]? )"
   },
+  "hypot()": {
+    "syntax": "hypot( <calc-sum># )"
+  },
   "id-selector": {
     "syntax": "<hash-token>"
   },
@@ -434,6 +443,9 @@
   "linear-gradient()": {
     "syntax": "linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )"
   },
+  "log()": {
+    "syntax": "log( <calc-sum>, <calc-sum>? )"
+  },
   "mask-layer": {
     "syntax": "<mask-reference> || <position> [ / <bg-size> ]? || <repeat-style> || <geometry-box> || [ <geometry-box> | no-clip ] || <compositing-operator> || <masking-mode>"
   },
@@ -509,6 +521,9 @@
   "minmax()": {
     "syntax": "minmax( [ <length> | <percentage> | min-content | max-content | auto ] , [ <length> | <percentage> | <flex> | min-content | max-content | auto ] )"
   },
+  "mod()": {
+    "syntax": "mod( <calc-sum>, <calc-sum> )"
+  },
   "name-repeat": {
     "syntax": "repeat( [ <integer [1,∞]> | auto-fill ], <line-names>+ )"
   },
@@ -578,6 +593,9 @@
   "position": {
     "syntax": "[ [ left | center | right ] || [ top | center | bottom ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ]? | [ [ left | right ] <length-percentage> ] && [ [ top | bottom ] <length-percentage> ] ]"
   },
+  "pow()": {
+    "syntax": "pow( <calc-sum>, <calc-sum> )"
+  },
   "pseudo-class-selector": {
     "syntax": "':' <ident-token> | ':' <function-token> <any-value> ')'"
   },
@@ -604,6 +622,9 @@
   },
   "relative-size": {
     "syntax": "larger | smaller"
+  },
+  "rem()": {
+    "syntax": "rem( <calc-sum>, <calc-sum> )"
   },
   "repeat-style": {
     "syntax": "repeat-x | repeat-y | [ repeat | space | round | no-repeat ]{1,2}"
@@ -641,6 +662,9 @@
   "rotateZ()": {
     "syntax": "rotateZ( [ <angle> | <zero> ] )"
   },
+  "round()": {
+    "syntax": "round( <rounding-strategy>?, <calc-sum>, <calc-sum> )"
+  },
   "saturate()": {
     "syntax": "saturate( <number-percentage> )"
   },
@@ -664,6 +688,9 @@
   },
   "shape-radius": {
     "syntax": "<length-percentage> | closest-side | farthest-side"
+  },
+  "sign()": {
+    "syntax": "sign( <calc-sum> )"
   },
   "skew()": {
     "syntax": "skew( [ <angle> | <zero> ] , [ <angle> | <zero> ]? )"
@@ -721,6 +748,9 @@
   },
   "size": {
     "syntax": "closest-side | farthest-side | closest-corner | farthest-corner | <length> | <length-percentage>{2}"
+  },
+  "sqrt()": {
+    "syntax": "sqrt( <calc-sum> )"
   },
   "step-position": {
     "syntax": "jump-start | jump-end | jump-none | jump-both | start | end"
