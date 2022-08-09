@@ -2,6 +2,9 @@
   "absolute-size": {
     "syntax": "xx-small | x-small | small | medium | large | x-large | xx-large | xxx-large"
   },
+  "acos()": {
+    "syntax": "acos( <calc-sum> )"
+  },
   "alpha-value": {
     "syntax": "<number> | <percentage>"
   },
@@ -19,6 +22,15 @@
   },
   "animateable-feature": {
     "syntax": "scroll-position | contents | <custom-ident>"
+  },
+  "asin()": {
+    "syntax": "asin( <calc-sum> )"
+  },
+  "atan()": {
+    "syntax": "atan( <calc-sum> )"
+  },
+  "ata2n()": {
+    "syntax": "atan2( <calc-sum>, <calc-sum> )"
   },
   "attachment": {
     "syntax": "scroll | fixed | local"
@@ -163,6 +175,9 @@
   },
   "contrast()": {
     "syntax": "contrast( [ <number-percentage> ] )"
+  },
+  "cos()": {
+    "syntax": "cos( <calc-sum> )"
   },
   "counter": {
     "syntax": "<counter()> | <counters()>"
@@ -677,6 +692,9 @@
   "side-or-corner": {
     "syntax": "[ left | right ] || [ top | bottom ]"
   },
+  "sin()": {
+    "syntax": "sin( <calc-sum> )"
+  },
   "single-animation": {
     "syntax": "<time> || <easing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ]"
   },
@@ -730,6 +748,9 @@
   },
   "symbol": {
     "syntax": "<string> | <image> | <custom-ident>"
+  },
+  "tan()": {
+    "syntax": "tan( <calc-sum> )"
   },
   "target": {
     "syntax": "<target-counter()> | <target-counters()> | <target-text()>"
