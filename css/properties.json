@@ -4189,7 +4189,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/columns"
   },
   "contain": {
-    "syntax": "none | strict | content | [ size || layout || style || paint ]",
+    "syntax": "none | strict | content | [ [ size || inline-size ] || layout || style || paint ]",
     "media": "all",
     "inherited": false,
     "animationType": "discrete",
