@@ -293,9 +293,6 @@
   "final-bg-layer": {
     "syntax": "<'background-color'> || <bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <box> || <box>"
   },
-  "fit-content()": {
-    "syntax": "fit-content( [ <length> | <percentage> ] )"
-  },
   "fixed-breadth": {
     "syntax": "<length-percentage>"
   },
@@ -381,7 +378,7 @@
     "syntax": "ltr | rtl"
   },
   "inflexible-breadth": {
-    "syntax": "<length> | <percentage> | min-content | max-content | auto"
+    "syntax": "<length-percentage> | min-content | max-content | auto"
   },
   "inset()": {
     "syntax": "inset( <length-percentage>{1,4} [ round <'border-radius'> ]? )"
@@ -519,7 +516,7 @@
     "syntax": "min( <calc-sum># )"
   },
   "minmax()": {
-    "syntax": "minmax( [ <length> | <percentage> | min-content | max-content | auto ] , [ <length> | <percentage> | <flex> | min-content | max-content | auto ] )"
+    "syntax": "minmax( [ <length-percentage> | min-content | max-content | auto ] , [ <length-percentage> | <flex> | min-content | max-content | auto ] )"
   },
   "mod()": {
     "syntax": "mod( <calc-sum>, <calc-sum> )"
@@ -813,7 +810,7 @@
     "syntax": "repeat( [ <integer [1,∞]> ] , [ <line-names>? <track-size> ]+ <line-names>? )"
   },
   "track-size": {
-    "syntax": "<track-breadth> | minmax( <inflexible-breadth> , <track-breadth> ) | fit-content( [ <length> | <percentage> ] )"
+    "syntax": "<track-breadth> | minmax( <inflexible-breadth> , <track-breadth> ) | fit-content( <length-percentage> )"
   },
   "transform-function": {
     "syntax": "<matrix()> | <translate()> | <translateX()> | <translateY()> | <scale()> | <scaleX()> | <scaleY()> | <rotate()> | <skew()> | <skewX()> | <skewY()> | <matrix3d()> | <translate3d()> | <translateZ()> | <scale3d()> | <scaleZ()> | <rotate3d()> | <rotateX()> | <rotateY()> | <rotateZ()> | <perspective()>"
