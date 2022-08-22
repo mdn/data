@@ -585,7 +585,7 @@
     "syntax": "paint( <ident>, <declaration-value>? )"
   },
   "perspective()": {
-    "syntax": "perspective( <length> )"
+    "syntax": "perspective( [ <length [0,∞]> | none ] )"
   },
   "polygon()": {
     "syntax": "polygon( <fill-rule>? , [ <length-percentage> <length-percentage> ]# )"
@@ -669,19 +669,19 @@
     "syntax": "saturate( <number-percentage> )"
   },
   "scale()": {
-    "syntax": "scale( <number> , <number>? )"
+    "syntax": "scale( [ <number> | <percentage> ]#{1,2} )"
   },
   "scale3d()": {
-    "syntax": "scale3d( <number> , <number> , <number> )"
+    "syntax": "scale3d( [ <number> | <percentage> ]#{3} )"
   },
   "scaleX()": {
-    "syntax": "scaleX( <number> )"
+    "syntax": "scaleX( [ <number> | <percentage> ] )"
   },
   "scaleY()": {
-    "syntax": "scaleY( <number> )"
+    "syntax": "scaleY( [ <number> | <percentage> ] )"
   },
   "scaleZ()": {
-    "syntax": "scaleZ( <number> )"
+    "syntax": "scaleZ( [ <number> | <percentage> ] )"
   },
   "self-position": {
     "syntax": "center | start | end | self-start | self-end | flex-start | flex-end"
