@@ -585,7 +585,7 @@
     "syntax": "paint( <ident>, <declaration-value>? )"
   },
   "perspective()": {
-    "syntax": "perspective( <length [0,∞]> | none )"
+    "syntax": "perspective( [ <length [0,∞]> | none ] )"
   },
   "polygon()": {
     "syntax": "polygon( <fill-rule>? , [ <length-percentage> <length-percentage> ]# )"
