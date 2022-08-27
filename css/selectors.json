@@ -360,7 +360,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:is"
   },
   ":lang": {
-    "syntax": ":lang( <language-code> )",
+    "syntax": ":lang( [ <string> | <ident> ] )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
@@ -934,7 +934,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::before"
   },
   "::cue": {
-    "syntax": "::cue | ::cue( <selector> )",
+    "syntax": "::cue | ::cue( <compound-selector> )",
     "groups": [
       "Pseudo-elements",
       "Selectors"
@@ -943,7 +943,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::cue"
   },
   "::cue-region": {
-    "syntax": "::cue-region | ::cue-region( <selector> )",
+    "syntax": "::cue-region | ::cue-region( <compound-selector> )",
     "groups": [
       "Pseudo-elements",
       "Selectors"

@@ -41,6 +41,12 @@
   "attr()": {
     "syntax": "attr( <attr-name> <type-or-unit>? [, <attr-fallback> ]? )"
   },
+  "attr-fallback": {
+    "syntax": "<any-value>"
+  },
+  "attr-name": {
+    "syntax": "<wq-name>"
+  },
   "attr-matcher": {
     "syntax": "[ '~' | '|' | '^' | '$' | '*' ]? '='"
   },
@@ -206,6 +212,12 @@
   "cubic-bezier-timing-function": {
     "syntax": "ease | ease-in | ease-out | ease-in-out | cubic-bezier(<number [0,1]>, <number>, <number [0,1]>, <number>)"
   },
+  "declaration": {
+    "syntax": "<ident-token> : <declaration-value>? [ '!' important ]?"
+  },
+  "declaration-list": {
+    "syntax": "[ <declaration>? ';' ]* <declaration>?"
+  },
   "deprecated-system-color": {
     "syntax": "ActiveBorder | ActiveCaption | AppWorkspace | Background | ButtonFace | ButtonHighlight | ButtonShadow | ButtonText | CaptionText | GrayText | Highlight | HighlightText | InactiveBorder | InactiveCaption | InactiveCaptionText | InfoBackground | InfoText | Menu | MenuText | Scrollbar | ThreeDDarkShadow | ThreeDFace | ThreeDHighlight | ThreeDLightShadow | ThreeDShadow | Window | WindowFrame | WindowText"
   },
@@ -310,6 +322,12 @@
   },
   "font-weight-absolute": {
     "syntax": "normal | bold | <number [1,1000]>"
+  },
+  "forgiving-relative-selector-list": {
+    "syntax": "<relative-selector-list>"
+  },
+  "forgiving-selector-list": {
+    "syntax": "<complex-selector-list>"
   },
   "frequency-percentage": {
     "syntax": "<frequency> | <percentage>"
@@ -662,6 +680,9 @@
   "round()": {
     "syntax": "round( <rounding-strategy>?, <calc-sum>, <calc-sum> )"
   },
+  "rounding-strategy": {
+    "syntax": "nearest | up | down | to-zero"
+  },
   "saturate()": {
     "syntax": "saturate( <number-percentage> )"
   },
@@ -708,7 +729,7 @@
     "syntax": "[ <length>{2,3} && <color>? ]"
   },
   "shape": {
-    "syntax": "rect(<top>, <right>, <bottom>, <left>)"
+    "syntax": "rect( [ <length> | auto ]#{4} )"
   },
   "shape-box": {
     "syntax": "<box> | margin-box"
@@ -838,6 +859,12 @@
   },
   "type-selector": {
     "syntax": "<wq-name> | <ns-prefix>? '*'"
+  },
+  "url": {
+    "syntax": "url( <string> <url-modifier>* ) | <url-token>"
+  },
+  "url-modifier": {
+    "syntax": "<ident> | <function-token> <any-value> )"
   },
   "var()": {
     "syntax": "var( <custom-property-name> , <declaration-value>? )"

@@ -249,7 +249,7 @@
         "status": "standard"
       },
       "unicode-range": {
-        "syntax": "<unicode-range>#",
+        "syntax": "<urange>#",
         "media": "all",
         "initial": "U+0-10FFFF",
         "percentages": "no",

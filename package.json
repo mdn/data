@@ -29,7 +29,8 @@
   "homepage": "https://developer.mozilla.org",
   "devDependencies": {
     "ajv": "^6.12.6",
-    "better-ajv-errors": "^1.1.2"
+    "better-ajv-errors": "^1.1.2",
+    "css-tree": "^2.2.1"
   },
   "scripts": {
     "lint": "node test/lint",
