@@ -966,7 +966,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-force-broken-image-icon"
   },
   "-moz-image-region": {
-    "syntax": "<shape> | auto",
+    "syntax": "<rect()> | auto",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -3923,7 +3923,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/clear"
   },
   "clip": {
-    "syntax": "<shape> | auto",
+    "syntax": "<rect()> | auto",
     "media": "visual",
     "inherited": false,
     "animationType": "rectangle",

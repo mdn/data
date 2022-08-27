@@ -629,6 +629,9 @@
   "ratio": {
     "syntax": "<number [0,∞]> [ / <number [0,∞]> ]?"
   },
+  "rect()": {
+    "syntax": "rect( [ <length> | auto ]#{4} ) | rect( [ <length> | auto ]{4} )"
+  },
   "relative-selector": {
     "syntax": "<combinator>? <complex-selector>"
   },
@@ -727,9 +730,6 @@
   },
   "shadow-t": {
     "syntax": "[ <length>{2,3} && <color>? ]"
-  },
-  "shape": {
-    "syntax": "rect( [ <length> | auto ]#{4} ) | rect( [ <length> | auto ]{4} )"
   },
   "shape-box": {
     "syntax": "<box> | margin-box"
