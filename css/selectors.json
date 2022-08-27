@@ -360,7 +360,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:is"
   },
   ":lang": {
-    "syntax": ":lang( [ <string> | <ident> ] )",
+    "syntax": ":lang( [ <ident> | <string> ] )",
     "groups": [
       "Pseudo-classes",
       "Selectors"

@@ -729,7 +729,7 @@
     "syntax": "[ <length>{2,3} && <color>? ]"
   },
   "shape": {
-    "syntax": "rect( [ <length> | auto ]#{4} )"
+    "syntax": "rect( [ <length> | auto ]#{4} ) | rect( [ <length> | auto ]{4} )"
   },
   "shape-box": {
     "syntax": "<box> | margin-box"
