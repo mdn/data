@@ -1,5 +1,7 @@
 # MDN data
 
+> **Note:** We are in the process of deprecating the `mdn/data` package in favor of [`w3c/webref`](https://github.com/w3c/webref). If this could present a problem to your project, please contact us via our [GitHub discussions](https://github.com/mdn/mdn-community/discussions/categories/platform). Thank you.
+
 [https://github.com/mdn/data](https://github.com/mdn/data)
 
 Maintained by the [MDN team at Mozilla](https://wiki.mozilla.org/MDN).
