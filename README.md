@@ -1,6 +1,6 @@
 # MDN data
 
-> NOTE: We are in the process of deprecating the `mdn/data` package in favour of [`w3c/webref`](https://github.com/w3c/webref). If this could present a problem to your project, please reach out to use via our [GitHub discussions](https://github.com/mdn/mdn-community/discussions/categories/platform). Thank you.
+> **Note:** We are in the process of deprecating the `mdn/data` package in favor of [`w3c/webref`](https://github.com/w3c/webref). If this could present a problem to your project, please contact us via our [GitHub discussions](https://github.com/mdn/mdn-community/discussions/categories/platform). Thank you.
 
 [https://github.com/mdn/data](https://github.com/mdn/data)
 
