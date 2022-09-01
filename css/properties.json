@@ -1819,6 +1819,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation"
   },
+  "animation-composition": {
+    "syntax": "<single-animation-composition>#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": "replace",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-composition"
+  },
   "animation-delay": {
     "syntax": "<time>#",
     "media": "visual",
@@ -1960,7 +1976,7 @@
     "appliesto": "allElements",
     "computed": "listEachItemIdentifyerOrNoneAuto",
     "order": "uniqueOrder",
-    "status": "standard",
+    "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline"
   },
   "appearance": {
