@@ -6517,6 +6517,38 @@
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/masonry-auto-flow"
   },
+  "math-depth": {
+    "syntax": "auto-add | add(<integer>) | <integer>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "MathML"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/math-depth"
+  },
+  "math-shift": {
+    "syntax": "normal | compact",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "MathML"
+    ],
+    "initial": "normal",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/math-shift"
+  },
   "math-style": {
     "syntax": "normal | compact",
     "media": "visual",
