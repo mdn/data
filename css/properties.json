@@ -1819,6 +1819,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation"
   },
+  "animation-composition": {
+    "syntax": "<single-animation-composition>#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": "replace",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-composition"
+  },
   "animation-delay": {
     "syntax": "<time>#",
     "media": "visual",
@@ -1960,7 +1976,7 @@
     "appliesto": "allElements",
     "computed": "listEachItemIdentifyerOrNoneAuto",
     "order": "uniqueOrder",
-    "status": "standard",
+    "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline"
   },
   "appearance": {
@@ -4189,7 +4205,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/columns"
   },
   "contain": {
-    "syntax": "none | strict | content | [ size || layout || style || paint ]",
+    "syntax": "none | strict | content | [ [ size || inline-size ] || layout || style || paint ]",
     "media": "all",
     "inherited": false,
     "animationType": "discrete",
@@ -6500,6 +6516,38 @@
     "order": "uniqueOrder",
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/masonry-auto-flow"
+  },
+  "math-depth": {
+    "syntax": "auto-add | add(<integer>) | <integer>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "MathML"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/math-depth"
+  },
+  "math-shift": {
+    "syntax": "normal | compact",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "MathML"
+    ],
+    "initial": "normal",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/math-shift"
   },
   "math-style": {
     "syntax": "normal | compact",
