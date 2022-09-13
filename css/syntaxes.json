@@ -32,7 +32,7 @@
   "atan()": {
     "syntax": "atan( <calc-sum> )"
   },
-  "ata2n()": {
+  "atan2()": {
     "syntax": "atan2( <calc-sum>, <calc-sum> )"
   },
   "attachment": {
