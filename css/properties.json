@@ -4245,7 +4245,8 @@
       "contain-intrinsic-height"
     ],
     "order": "perGrammar",
-    "status": "experimental"
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-size"
   },
   "contain-intrinsic-width": {
     "syntax": "none | <length> | auto <length>",
@@ -4261,7 +4262,7 @@
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-size"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-width"
   },
   "content": {
     "syntax": "normal | none | [ <content-replacement> | <content-list> ] [/ [ <string> | <counter> ]+ ]?",
