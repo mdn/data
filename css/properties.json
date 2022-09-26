@@ -4261,7 +4261,7 @@
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-width"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-size"
   },
   "content": {
     "syntax": "normal | none | [ <content-replacement> | <content-list> ] [/ [ <string> | <counter> ]+ ]?",
