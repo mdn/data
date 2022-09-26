@@ -4220,6 +4220,33 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain"
   },
+  "contain-intrinsic-size": {
+    "syntax": "[ none | <length> | auto <length> ]{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "contain-intrinsic-width",
+      "contain-intrinsic-height"
+    ],
+    "percentages": [
+      "contain-intrinsic-width",
+      "contain-intrinsic-height"
+    ],
+    "groups": [
+      "CSS Containment"
+    ],
+    "initial": [
+      "contain-intrinsic-width",
+      "contain-intrinsic-height"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "contain-intrinsic-width",
+      "contain-intrinsic-height"
+    ],
+    "order": "perGrammar",
+    "status": "experimental"
+  },
   "contain-intrinsic-width": {
     "syntax": "none | <length> | auto <length>",
     "media": "visual",
