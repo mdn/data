@@ -433,6 +433,9 @@
     "en-US": "as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements",
     "ja": "指定通りで、 &lt;length&gt; は絶対長になり、 normal の計算値は段組み要素を除き 0 になる"
   },
+  "asSpecifiedWithLengthValuesComputed": {
+    "en-US": "as specified, with &lt;length&gt;s values computed"
+  },  
   "asSpecifiedWithVarsSubstituted": {
     "de": "wie angegeben, wobei Variablen ersetzt werden",
     "en-US": "as specified with variables substituted",
@@ -654,6 +657,9 @@
     "fr": "comme pour chaque propriété de la propriété raccourcie (toutes les propriétés sauf {{cssxref(\"unicode-bidi\")}} et {{cssxref(\"direction\")}})",
     "ja": "この一括指定のそれぞれのプロパティとして ({{cssxref(\"unicode-bidi\")}} と {{cssxref(\"direction\")}}) を除いたすべてのプロパティ",
     "ru": "как у каждого из подсвойств этого свойства (все свойства, кроме {{cssxref(\"unicode-bidi\")}} и {{cssxref(\"direction\")}})"
+  },
+  "elementsForWhichSizeContainmentCanApply": {
+    "en-US": "elements for which size containment can apply"
   },
   "elementsWithDisplayBoxOrInlineBox": {
     "de": "Elemente mit einem CSS {{cssxref(\"display\")}} Wert von <code>box</code> oder <code>inline-box</code>",
