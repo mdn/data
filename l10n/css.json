@@ -655,6 +655,9 @@
     "ja": "この一括指定のそれぞれのプロパティとして ({{cssxref(\"unicode-bidi\")}} と {{cssxref(\"direction\")}}) を除いたすべてのプロパティ",
     "ru": "как у каждого из подсвойств этого свойства (все свойства, кроме {{cssxref(\"unicode-bidi\")}} и {{cssxref(\"direction\")}})"
   },
+  "elementsForWhichSizeContainmentCanApply": {
+    "en-US": "elements for which size containment can apply"
+  },
   "elementsWithDisplayBoxOrInlineBox": {
     "de": "Elemente mit einem CSS {{cssxref(\"display\")}} Wert von <code>box</code> oder <code>inline-box</code>",
     "en-US": "elements with a CSS {{cssxref(\"display\")}} value of <code>box</code> or <code>inline-box</code>",
