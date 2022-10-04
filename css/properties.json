@@ -4239,7 +4239,7 @@
       "contain-intrinsic-width",
       "contain-intrinsic-height"
     ],
-    "appliesto": "allElements",
+    "appliesto": "elementsForWhichSizeContainmentCanApply",
     "computed": [
       "contain-intrinsic-width",
       "contain-intrinsic-height"
