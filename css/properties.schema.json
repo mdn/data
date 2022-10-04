@@ -119,6 +119,7 @@
         "asSpecifiedURLsAbsolute",
         "asSpecifiedWithExceptionOfResolution",
         "asSpecifiedWithLengthsAbsoluteAndNormalComputingToZeroExceptMultiColumn",
+        "asSpecifiedWithLengthValuesComputed",
         "asSpecifiedWithVarsSubstituted",
         "autoOnAbsolutelyPositionedElementsValueOfAlignItemsOnParent",
         "autoOrRectangle",
