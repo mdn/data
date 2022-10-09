@@ -665,6 +665,9 @@
   "round()": {
     "syntax": "round( <rounding-strategy>?, <calc-sum>, <calc-sum> )"
   },
+  "rounding-strategy": {
+    "syntax": "nearest | up | down | to-zero"
+  },
   "saturate()": {
     "syntax": "saturate( <number-percentage> )"
   },
