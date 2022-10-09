@@ -96,7 +96,10 @@
     "syntax": "<calc-value> [ '*' <calc-value> | '/' <number> ]*"
   },
   "calc-value": {
-    "syntax": "<number> | <dimension> | <percentage> | ( <calc-sum> )"
+    "syntax": "<number> | <dimension> | <percentage> | <calc-constant> | ( <calc-sum> )"
+  },
+  "calc-constant": {
+    "syntax": "e | pi | infinity | -infinity | NaN"
   },
   "cf-final-image": {
     "syntax": "<image> | <color>"
