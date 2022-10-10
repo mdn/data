@@ -8369,6 +8369,63 @@
     "status": "obsolete",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-y"
   },
+  "scroll-timeline": {
+    "syntax": "<scroll-timeline-name> || <scroll-timeline-axis>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "scroll-timeline-name",
+      "scroll-timeline-axis"
+    ],
+    "percentages": "no",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": [
+      "scroll-timeline-name",
+      "scroll-timeline-axis"
+    ],
+    "appliesto": "scrollContainers",
+    "computed": [
+      "scroll-timeline-name",
+      "scroll-timeline-axis"
+    ],
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-timeline"
+  },
+  "scroll-timeline-axis": {
+    "syntax": "block | inline | vertical | horizontal",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": "none",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-timeline-name"
+  },
+  "scroll-timeline-name": {
+    "syntax": "none | <custom-ident>",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": "none",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-timeline-name"
+  },
   "shape-image-threshold": {
     "syntax": "<alpha-value>",
     "media": "visual",
