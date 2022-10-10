@@ -435,7 +435,7 @@
   },
   "asSpecifiedWithLengthValuesComputed": {
     "en-US": "as specified, with &lt;length&gt;s values computed"
-  },  
+  },
   "asSpecifiedWithVarsSubstituted": {
     "de": "wie angegeben, wobei Variablen ersetzt werden",
     "en-US": "as specified with variables substituted",
