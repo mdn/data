@@ -293,7 +293,6 @@
     "additionalProperties": false,
     "required": [
       "syntax",
-      "media",
       "inherited",
       "animationType",
       "percentages",
