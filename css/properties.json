@@ -7983,9 +7983,19 @@
     "groups": [
       "CSS Scroll Snap"
     ],
-    "initial": "0",
+    "initial": [
+      "scroll-margin-bottom",
+      "scroll-margin-left",
+      "scroll-margin-right",
+      "scroll-margin-top"
+    ],
     "appliesto": "allElements",
-    "computed": "asSpecified",
+    "computed": [
+      "scroll-margin-bottom",
+      "scroll-margin-left",
+      "scroll-margin-right",
+      "scroll-margin-top"
+    ],
     "order": "perGrammar",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin"
@@ -7999,9 +8009,15 @@
     "groups": [
       "CSS Scroll Snap"
     ],
-    "initial": "0",
+    "initial": [
+      "scroll-margin-block-start",
+      "scroll-margin-block-end"
+    ],
     "appliesto": "allElements",
-    "computed": "asSpecified",
+    "computed": [
+      "scroll-margin-block-start",
+      "scroll-margin-block-end"
+    ],
     "order": "perGrammar",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block"
@@ -8063,9 +8079,15 @@
     "groups": [
       "CSS Scroll Snap"
     ],
-    "initial": "0",
+    "initial": [
+      "scroll-margin-inline-start",
+      "scroll-margin-inline-end"
+    ],
     "appliesto": "allElements",
-    "computed": "asSpecified",
+    "computed": [
+      "scroll-margin-inline-start",
+      "scroll-margin-inline-end"
+    ],
     "order": "perGrammar",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline"
@@ -8159,9 +8181,19 @@
     "groups": [
       "CSS Scroll Snap"
     ],
-    "initial": "auto",
+    "initial": [
+      "scroll-padding-bottom",
+      "scroll-padding-left",
+      "scroll-padding-right",
+      "scroll-padding-top"
+    ],
     "appliesto": "scrollContainers",
-    "computed": "asSpecified",
+    "computed": [
+      "scroll-padding-bottom",
+      "scroll-padding-left",
+      "scroll-padding-right",
+      "scroll-padding-top"
+    ],
     "order": "perGrammar",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding"
@@ -8175,9 +8207,15 @@
     "groups": [
       "CSS Scroll Snap"
     ],
-    "initial": "auto",
+    "initial": [
+      "scroll-padding-block-start",
+      "scroll-padding-block-end"
+    ],
     "appliesto": "scrollContainers",
-    "computed": "asSpecified",
+    "computed": [
+      "scroll-padding-block-start",
+      "scroll-padding-block-end"
+    ],
     "order": "perGrammar",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block"
@@ -8239,9 +8277,15 @@
     "groups": [
       "CSS Scroll Snap"
     ],
-    "initial": "auto",
+    "initial": [
+      "scroll-padding-inline-start",
+      "scroll-padding-inline-end"
+    ],
     "appliesto": "scrollContainers",
-    "computed": "asSpecified",
+    "computed": [
+      "scroll-padding-inline-start",
+      "scroll-padding-inline-end"
+    ],
     "order": "perGrammar",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline"
