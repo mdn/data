@@ -201,6 +201,7 @@
         "directChildrenOfElementsWithDisplayMozBoxMozInlineBox",
         "elementsForWhichLayoutContainmentCanApply",
         "elementsForWhichSizeContainmentCanApply",
+        "elementsThatAcceptInput",
         "elementsWithDisplayBoxOrInlineBox",
         "elementsWithDisplayMarker",
         "elementsWithDisplayMozBoxMozInlineBox",
@@ -255,11 +256,7 @@
       "minItems": 1,
       "uniqueItems": true,
       "items": {
-        "enum": [
-          "::first-letter",
-          "::first-line",
-          "::placeholder"
-        ]
+        "enum": ["::first-letter", "::first-line", "::placeholder"]
       }
     },
     "order": {
@@ -275,12 +272,7 @@
       ]
     },
     "status": {
-      "enum": [
-        "standard",
-        "nonstandard",
-        "experimental",
-        "obsolete"
-      ]
+      "enum": ["standard", "nonstandard", "experimental", "obsolete"]
     },
     "mdn_url": {
       "type": "string",
@@ -329,11 +321,7 @@
             "uniqueItems": true,
             "items": {
               "type": "string",
-              "enum": [
-                "interactive",
-                "paged",
-                "visual"
-              ]
+              "enum": ["interactive", "paged", "visual"]
             }
           }
         ]
