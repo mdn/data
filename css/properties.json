@@ -5678,9 +5678,19 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "auto",
+    "initial": [
+      "top",
+      "bottom",
+      "left",
+      "right"
+    ],
     "appliesto": "positionedElements",
-    "computed": "sameAsBoxOffsets",
+    "computed": [
+      "top",
+      "bottom",
+      "left",
+      "right"
+    ],
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset"
@@ -5694,9 +5704,15 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "auto",
+    "initial": [
+      "inset-block-start",
+      "inset-block-end"
+    ],
     "appliesto": "positionedElements",
-    "computed": "sameAsBoxOffsets",
+    "computed": [
+      "inset-block-start",
+      "inset-block-end"
+    ],
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-block"
@@ -5742,9 +5758,15 @@
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "auto",
+    "initial": [
+      "inset-inline-start",
+      "inset-inline-end"
+    ],
     "appliesto": "positionedElements",
-    "computed": "sameAsBoxOffsets",
+    "computed": [
+      "inset-inline-start",
+      "inset-inline-end"
+    ],
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-inline"
@@ -6071,14 +6093,20 @@
     "syntax": "<'margin-left'>{1,2}",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "length",
     "percentages": "dependsOnLayoutModel",
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "0",
+    "initial": [
+      "margin-block-start",
+      "margin-block-end"
+    ],
     "appliesto": "sameAsMargin",
-    "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
+    "computed": [
+      "margin-block-start",
+      "margin-block-end"
+    ],
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-block"
@@ -6139,14 +6167,20 @@
     "syntax": "<'margin-left'>{1,2}",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "length",
     "percentages": "dependsOnLayoutModel",
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "0",
+    "initial": [
+      "margin-inline-start",
+      "margin-inline-end"
+    ],
     "appliesto": "sameAsMargin",
-    "computed": "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
+    "computed": [
+      "margin-inline-start",
+      "margin-inline-end"
+    ],
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-inline"
