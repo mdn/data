@@ -7715,9 +7715,15 @@
     "groups": [
       "CSS Box Alignment"
     ],
-    "initial": "normal",
+    "initial": [
+      "align-content",
+      "justify-content"
+    ],
     "appliesto": "multilineFlexContainers",
-    "computed": "asSpecified",
+    "computed": [
+      "align-content",
+      "justify-content"
+    ],
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/place-content"
