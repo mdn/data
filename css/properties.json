@@ -7382,14 +7382,20 @@
     "syntax": "<'padding-left'>{1,2}",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "0",
-    "appliesto": "allElements",
-    "computed": "asLength",
+    "initial": [
+      "padding-block-start",
+      "padding-block-end"
+    ],
+    "appliesto": "allElementsExceptInternalTableDisplayTypes",
+    "computed": [
+      "padding-block-start",
+      "padding-block-end"
+    ],
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-block"
@@ -7404,7 +7410,7 @@
       "CSS Logical Properties"
     ],
     "initial": "0",
-    "appliesto": "allElements",
+    "appliesto": "allElementsExceptInternalTableDisplayTypes",
     "computed": "asLength",
     "order": "uniqueOrder",
     "status": "standard",
@@ -7420,7 +7426,7 @@
       "CSS Logical Properties"
     ],
     "initial": "0",
-    "appliesto": "allElements",
+    "appliesto": "allElementsExceptInternalTableDisplayTypes",
     "computed": "asLength",
     "order": "uniqueOrder",
     "status": "standard",
@@ -7450,14 +7456,20 @@
     "syntax": "<'padding-left'>{1,2}",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
     ],
-    "initial": "0",
-    "appliesto": "allElements",
-    "computed": "asLength",
+    "initial": [
+      "padding-inline-start",
+      "padding-inline-end"
+    ],
+    "appliesto": "allElementsExceptInternalTableDisplayTypes",
+    "computed": [
+      "padding-inline-start",
+      "padding-inline-end"
+    ],
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-inline"
@@ -7472,7 +7484,7 @@
       "CSS Logical Properties"
     ],
     "initial": "0",
-    "appliesto": "allElements",
+    "appliesto": "allElementsExceptInternalTableDisplayTypes",
     "computed": "asLength",
     "order": "uniqueOrder",
     "status": "standard",
@@ -7488,7 +7500,7 @@
       "CSS Logical Properties"
     ],
     "initial": "0",
-    "appliesto": "allElements",
+    "appliesto": "allElementsExceptInternalTableDisplayTypes",
     "computed": "asLength",
     "order": "uniqueOrder",
     "status": "standard",
