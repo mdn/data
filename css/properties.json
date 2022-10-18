@@ -3906,6 +3906,30 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/caption-side"
   },
+  "caret": {
+    "syntax": "<'caret-color'> || <'caret-shape'>",
+    "media": "interactive",
+    "inherited": true,
+    "animationType": [
+      "caret-color",
+      "caret-shape"
+    ],
+    "percentages": "no",
+    "groups": [
+      "CSS Basic User Interface"
+    ],
+    "initial": [
+      "caret-color",
+      "caret-shape"
+    ],
+    "appliesto": "elementsThatAcceptInput",
+    "computed": [
+      "caret-color",
+      "caret-shape"
+    ],
+    "order": "perGrammar",
+    "status": "standard"
+  },
   "caret-color": {
     "syntax": "auto | <color>",
     "media": "interactive",
@@ -3921,6 +3945,21 @@
     "order": "perGrammar",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/caret-color"
+  },
+  "caret-shape": {
+    "syntax": "auto | bar | block | underscore",
+    "media": "interactive",
+    "inherited": true,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Basic User Interface"
+    ],
+    "initial": "auto",
+    "appliesto": "elementsThatAcceptInput",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard"
   },
   "clear": {
     "syntax": "none | left | right | both | inline-start | inline-end",

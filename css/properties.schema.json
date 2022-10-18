@@ -201,6 +201,7 @@
         "directChildrenOfElementsWithDisplayMozBoxMozInlineBox",
         "elementsForWhichLayoutContainmentCanApply",
         "elementsForWhichSizeContainmentCanApply",
+        "elementsThatAcceptInput",
         "elementsWithDisplayBoxOrInlineBox",
         "elementsWithDisplayMarker",
         "elementsWithDisplayMozBoxMozInlineBox",
