@@ -2937,9 +2937,6 @@
     "appliesto": "allElementsExceptTableElementsWhenCollapse",
     "computed": "noneOrImageWithAbsoluteURI",
     "order": "uniqueOrder",
-    "alsoAppliesTo": [
-      "::first-letter"
-    ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-image-source"
   },
