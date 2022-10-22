@@ -2918,9 +2918,6 @@
     "appliesto": "allElementsExceptTableElementsWhenCollapse",
     "computed": "oneToFourPercentagesOrAbsoluteLengthsPlusFill",
     "order": "percentagesOrLengthsFollowedByFill",
-    "alsoAppliesTo": [
-      "::first-letter"
-    ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-image-slice"
   },
