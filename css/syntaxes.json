@@ -56,6 +56,9 @@
   "auto-track-list": {
     "syntax": "[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>? <auto-repeat>\n[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>?"
   },
+  "axis": {
+    "syntax": "block | inline | vertical | horizontal"
+  },
   "baseline-position": {
     "syntax": "[ first | last ]? baseline"
   },
@@ -686,6 +689,9 @@
   "scaleZ()": {
     "syntax": "scaleZ( [ <number> | <percentage> ] )"
   },
+  "scroller": {
+    "syntax": "root | nearest"
+  },
   "self-position": {
     "syntax": "center | start | end | self-start | self-end | flex-start | flex-end"
   },
@@ -741,7 +747,7 @@
     "syntax": "running | paused"
   },
   "single-animation-timeline": {
-    "syntax": "auto | none | <timeline-name>"
+    "syntax": "auto | none | <timeline-name> | scroll(<axis>? <scroller>?)"
   },
   "single-transition": {
     "syntax": "[ none | <single-transition-property> ] || <time> || <easing-function> || <time>"
