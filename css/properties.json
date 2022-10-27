@@ -8627,7 +8627,7 @@
     "groups": [
       "CSS Animations"
     ],
-    "initial": "none",
+    "initial": "block",
     "appliesto": "scrollContainers",
     "computed": "asSpecified",
     "order": "perGrammar",
