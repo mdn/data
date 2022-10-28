@@ -9548,7 +9548,7 @@
     ],
     "initial": "normal",
     "appliesto": "allElements",
-    "computed": "optimumMinAndMaxValueOfAbsoluteLengthPercentageOrNormal",
+    "computed": "absoluteLength",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter",
