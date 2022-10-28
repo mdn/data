@@ -140,7 +140,6 @@
         "normalizedAngle",
         "normalOnElementsForPseudosNoneAbsoluteURIStringOrAsSpecified",
         "oneToFourPercentagesOrAbsoluteLengthsPlusFill",
-        "optimumMinAndMaxValueOfAbsoluteLengthPercentageOrNormal",
         "optimumValueOfAbsoluteLengthOrNormal",
         "percentageAsSpecifiedAbsoluteLengthOrNone",
         "percentageAsSpecifiedOrAbsoluteLength",

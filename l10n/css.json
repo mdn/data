@@ -1126,13 +1126,6 @@
     "ja": "1 つから 4 つのパーセント値 (指定通り) または絶対的な長さ。指定されていれば続けてキーワード <code>fill</code>",
     "ru": "одно к четырём процентам (как указано) или абсолютной длине(ам), плюс ключевое слово <code>fill</code>, если указано"
   },
-  "optimumMinAndMaxValueOfAbsoluteLengthPercentageOrNormal": {
-    "de": "ein optimaler, minimaler und maximaler Wert, jeder bestehend aus entweder einer absoluten Länge, einem Prozentwert oder dem Schlüsselwort <code>normal</code>",
-    "en-US": "an optimum, minimum, and maximum value, each consisting of either an absolute length, a percentage, or the keyword <code>normal</code>",
-    "fr": "trois valeurs, optimale, minimale et maximale, chacune consitant en une longueur absolue, un pourcentage ou le mot-clé <code>normal</code>",
-    "ja": "それぞれ絶対指定の length、percentage、キーワード <code>normal</code>のいずれかである、最適値、最小値、最大値",
-    "ru": "оптимальное, минимальное и максимальное значения, каждое из которых абсолютная длина, проценты или ключевое слово <code>normal</code>"
-  },
   "optimumValueOfAbsoluteLengthOrNormal": {
     "de": "ein optimaler Wert, der entweder aus einer absoluten Länge oder dem Schlüsselwort <code>normal</code> besteht",
     "en-US": "an optimum value consisting of either an absolute length or the keyword <code>normal</code>",
