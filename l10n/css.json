@@ -1355,9 +1355,9 @@
     "ja": "作用する文字の幅に対する相対値",
     "ru": "зависит от ширины символа"
   },
-  "referToWidthOfBackgroundPositioningAreaMinusBackgroundImageHeight": {
+  "referToWidthOfBackgroundPositioningAreaMinusBackgroundImageWidth": {
     "de": "bezieht sich auf die Breite des Hintergrundpositionsbereichs abzüglich der Höhe des Hintergrundbilds",
-    "en-US": "refer to width of background positioning area minus height of background image",
+    "en-US": "refer to width of background positioning area minus width of background image",
     "fr": "fait référence à la largeur de la zone de positionement de l'arrière-plan moins la hauteur de l'image d'arrière-plan",
     "ja": "背景配置領域の幅から背景画像の高さを引いたものに対する相対値",
     "ru": "относятся к ширине области позиционирования фона минус высота фонового изображения"
