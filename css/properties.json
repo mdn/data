@@ -2264,7 +2264,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
-    "percentages": "referToWidthOfBackgroundPositioningAreaMinusBackgroundImageHeight",
+    "percentages": "referToWidthOfBackgroundPositioningAreaMinusBackgroundImageWidth",
     "groups": [
       "CSS Backgrounds and Borders"
     ],
