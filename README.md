@@ -5,10 +5,10 @@
 > If you depend on this project, let us know in our community [GitHub discussions](https://github.com/mdn/mdn-community/discussions/categories/platform).
 > Thank you.
 
-This repository contains general data for Web technologies and is maintained by the [MDN team at Mozilla](https://wiki.mozilla.org/MDN).
-
 [![NPM version](https://img.shields.io/npm/v/mdn-data.svg)](https://www.npmjs.com/package/mdn-data)
 [![lint](https://github.com/mdn/data/actions/workflows/lint.yml/badge.svg)](https://github.com/mdn/data/actions/workflows/lint.yml)
+
+This repository contains general data for Web technologies and is maintained by the [MDN team at Mozilla](https://wiki.mozilla.org/MDN).
 
 ## Repository contents
 
@@ -35,7 +35,7 @@ Contains data about:
 - CSS types
 - CSS units
 
-Read more about [CSS data](./css/README.md) and the format of the files and the [Updating CSS JSON DB](./docs/updating_css_json.md) guide.
+For more information, see the [CSS data](./css/README.md) documentation and the [Updating CSS JSON DB](./docs/updating_css_json.md) guide.
 
 ### l10n
 
