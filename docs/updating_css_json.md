@@ -82,31 +82,39 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
       <td>Value</td>
       <td><code>syntax</code></td>
       <td>As specified within the specification</td>
-      <td><pre>"syntax": "visible | hidden"</pre></td>
+      <td>
+        <pre>"syntax": "visible | hidden"</pre>
+      </td>
     </tr>
     <tr>
       <td>Media</td>
       <td><code>media</code></td>
       <td>Either a predefined localization key, a block of localizations</td>
       <td>
-        <p>properties.json</p>
-        <pre>"media": "visual"</pre>
-        <p>l10n/css.json</p>
-        <pre>
+        <details>
+          <summary>properties.json</summary>
+          <pre>"media": "visual"</pre>
+        </details>
+        <details>
+          <summary>l10n/css.json</summary>
+          <pre>
 "visual": {
   "en-US": "visual",
   "de": "visuell",
   "fr": "visuel",
   "ru": "визуальный"
 }</pre
-        >
+            >
+        </details>
       </td>
     </tr>
     <tr>
       <td>Inherited</td>
       <td><code>inherited</code></td>
       <td>Boolean value</td>
-      <td><pre>"inherited": true</pre></td>
+      <td>
+        <pre>"inherited": true</pre>
+      </td>
     </tr>
     <tr>
       <td>Animation type</td>
@@ -119,26 +127,30 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
         keys for values related to
         <a href="https://drafts.csswg.org/css-transitions/#interpolated-types"
           >interpolation</a
-        >.
+          >.
       </td>
       <td>
-        <p>properties.json</p>
-        <pre>"animationType": "discrete"</pre>
-        <pre>
+        <details>
+          <summary>properties.json</summary>
+          <pre>"animationType": "discrete"</pre>
+          <pre>
 "animationType": [
   "border-color",
   "border-style",
   "border-width"
 ]</pre
-        >
-        <p>l10n/css.json</p>
-        <pre>
+            >
+        </details>
+        <details>
+          <summary>l10n/css.json</summary>
+          <pre>
 "discrete": {
   "en-US": "discrete",
   "de": "diskret",
   "fr": "discrète"
 }</pre
-        >
+            >
+        </details>
       </td>
     </tr>
     <tr>
@@ -149,25 +161,27 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
         case of a shorthand an array of longhands
       </td>
       <td>
-        <p>properties.json</p>
-        <pre>
-"percentages": "logicalWidthOfContainingBlock"</pre
-        >
-        <pre>
+        <details>
+          <summary>properties.json</summary>
+          <pre>"percentages": "logicalWidthOfContainingBlock"</pre>
+          <pre>
 "percentages": [
   "background-position",
   "background-size"
 ]</pre
-        >
-        <p>l10n/css.json</p>
-        <pre>
+            >
+        </details>
+        <details>
+          <summary>l10n/css.json</summary>
+          <pre>
 "logicalWidthOfContainingBlock": {
   "en-US": "logical-width of containing block",
   "de": "logische Breite des beinhaltenden Blocks",
   "fr": "largeur logique du bloc englobant",
   "ru": "логическая высота содержащего блока"
 }</pre
-        >
+            >
+        </details>
       </td>
     </tr>
     <tr>
@@ -179,7 +193,7 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
 "groups": [
   "CSS Flexible Box Layout"
 ]</pre
-        >
+          >
       </td>
     </tr>
     <tr>
@@ -201,9 +215,10 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
         case of a shorthand an array of longhands
       </td>
       <td>
-        <p>properties.json</p>
-        <pre>"appliesto": "absolutelyPositionedElements"</pre>
-        <pre>
+        <details>
+          <summary>properties.json</summary>
+          <pre>"appliesto": "absolutelyPositionedElements"</pre>
+          <pre>
 "appliesto": [
   "border-image-outset",
   "border-image-repeat",
@@ -211,9 +226,11 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
   "border-image-source",
   "border-image-width"
 ]</pre
-        >
-        <p>l10n/css.json</p>
-        <pre>
+            >
+        </details>
+        <details>
+          <summary>l10n/css.json</summary>
+          <pre>
 "absolutelyPositionedElements": {
   "en-US": "absolutely positioned elements",
   "de": "absolut positionierte Elemente",
@@ -221,7 +238,8 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
   "ja": "絶対位置指定された要素",
   "ru": "абсолютно позиционированные элементы"
 }</pre
-        >
+            >
+        </details>
       </td>
     </tr>
     <tr>
@@ -232,24 +250,28 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
         case of a shorthand an array of longhands
       </td>
       <td>
-        <p>properties.json</p>
-        <pre>"computed": "normalizedAngle"</pre>
-        <pre>
+        <details>
+          <summary>properties.json</summary>
+          <pre>"computed": "normalizedAngle"</pre>
+          <pre>
 "computed": [
     "border-width",
     "border-style",
     "color"
 ]</pre
-        >
-        <p>l10n/css.json</p>
-        <pre>
+            >
+        </details>
+        <details>
+          <summary>l10n.css.json</summary>
+          <pre>
 "normalizedAngle": {
   "en-US": "normalized angle",
   "de": "normalisierter Winkel",
   "fr": "angle normalisé",
   "ru": "нормализованный угол"
 }</pre
-        >
+            >
+        </details>
       </td>
     </tr>
     <tr>
@@ -257,10 +279,13 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
       <td><code>order</code></td>
       <td>Either a predefined localization key or a block of localizations</td>
       <td>
-        <p>properties.json</p>
-        <pre>"order": "uniqueOrder"</pre>
-        <p>l10n/css.json</p>
-        <pre>
+        <details>
+          <summary>properties.json</summary>
+          <pre>"order": "uniqueOrder"</pre>
+        </details>
+        <details>
+          <summary>l10n/css.json</summary>
+          <pre>
 "uniqueOrder": {
   "en-US": "the unique non-ambiguous order defined by the formal grammar",
   "de": "die eindeutige Reihenfolge definiert durch die formale Grammatik",
@@ -269,7 +294,8 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
   "es": "el orden único no-ambigüo definido por la gramática formal",
   "ru": "уникальный неоднозначный порядок, определённый формальной грамматикой"
 }</pre
-        >
+            >
+        </details>
       </td>
     </tr>
   </tbody>
