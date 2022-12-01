@@ -2,20 +2,22 @@
 
 Several characteristics of a CSS property, like its syntax or if it can be animated, are mentioned in multiple pages on MDN and are therefore stored in an ad hoc "database".
 This database actually consists of several JSON files containing CSS related information, which are [stored on GitHub](https://github.com/mdn/data/tree/main/css).
-This article describes how to update this structure.
+This document describes how to update this structure.
 
 ## Prerequisite resources
 
 To update or check the content of the CSS JSON DB, you will need to gather information from different sources.
 
 1. **Latest spec**
-   Whether it is a W3C Recommendation or an early editor's draft, you should refer to the latest available draft of the spec that covers (or specifies that cover) that feature. To find it, you can usually do a web search.
+   Whether it is a W3C Recommendation or an early editor's draft, you should refer to the latest available draft of the spec that covers (or specifies that cover) that feature.
+   To find it, you can usually do a web search.
    The latest version will often be linked to from all versions of the spec, listed under "latest draft" or similar.
 2. **Latest web browsers**
    These should be experimental/alpha builds such as [Firefox Nightly](https://www.mozilla.org/en-US/firefox/channel/desktop/)/[Chrome Canary](https://www.google.com/intl/en/chrome/canary/) that are more likely to support the features you are documenting.
    This is especially pertinent if you are documenting a nascent/experimental feature.
 3. **Additional info**
-   Find as much info as you can to better understand how the specific feature works. E.g. blog posts or demos are good resources.
+   Find as much info as you can to better understand how the specific feature works.
+   E.g. blog posts or demos are good resources.
 4. **Engineering contacts**
    It is really useful to find yourself a friendly engineering contact to ask questions about the spec, someone who is involved in the standardization of the API, or its implementation in a browser.
    If you have the implementation bug on Bugzilla, the engineer who implemented the feature is a good contact: asking him in the bug, with a needinfo flag is a good way of having an answer about a specific question.
@@ -50,25 +52,25 @@ That means the reference page is based on the latest iteration of that specifica
 Once you have found the relevant specification, the first thing to do is to look for a property definition in the specification.
 Look for the summary table (near the bottom), it has most of the values that you are looking for:
 
-![The summary table lists useful attributes of the CSS properties defined in the give spec.](property_index.png)
+![The summary table lists useful attributes of the CSS properties defined in the give spec.](./assets/property_index.png)
 
 In some specifications, especially in older drafts, there isn't such a property index table.
 In this case you need to look for the property box of the property itself which looks like this:
 
-![This box lists the most useful attributes of a CSS property.](property_definition.png)
+![This box lists the most useful attributes of a CSS property.](./assets/property_definition.png)
 
 Note that in some cases the property index table might be more briefly and with less details than the property box.
 
 ### Store the information in the JSONs
 
-The information from the specifications is stored in a specific way in the JSON DB. CSS properties are stored within [properties.json](https://github.com/mdn/data/blob/main/css/properties.json).
+The information from the specifications is stored in a specific way in the JSON DB. CSS properties are stored within [properties.json](../css/properties.json).
 All the JSON keys below are obligatory.
 
-Translated information is stored as key string mapping to a translation in [l10n/css.json](https://github.com/mdn/data/blob/main/l10n/css.json) with language + country codes (according to [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) and [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)) as keys.
+Translated information is stored as key string mapping to a translation in [l10n/css.json](../l10n/css.json) with language + country codes (according to [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) and [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)) as keys.
 
 You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kumascript/macros/cssxref.ejs) and [`{{SVGElement}}`](https://github.com/mdn/yari/blob/main/kumascript/macros/SVGElement.ejs) within translations to refer to other parts of MDN.
 
-<table class="standard-table">
+<table>
   <tbody>
     <tr>
       <th>Spec. name</th>
@@ -80,7 +82,7 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
       <td>Value</td>
       <td><code>syntax</code></td>
       <td>As specified within the specification</td>
-      <td><pre class="brush:js">"syntax": "visible | hidden"</pre></td>
+      <td><pre>"syntax": "visible | hidden"</pre></td>
     </tr>
     <tr>
       <td>Media</td>
@@ -88,9 +90,9 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
       <td>Either a predefined localization key, a block of localizations</td>
       <td>
         <p>properties.json</p>
-        <pre class="brush:js">"media": "visual"</pre>
+        <pre>"media": "visual"</pre>
         <p>l10n/css.json</p>
-        <pre class="brush:js">
+        <pre>
 "visual": {
   "en-US": "visual",
   "de": "visuell",
@@ -104,7 +106,7 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
       <td>Inherited</td>
       <td><code>inherited</code></td>
       <td>Boolean value</td>
-      <td><pre class="brush:js">"inherited": true</pre></td>
+      <td><pre>"inherited": true</pre></td>
     </tr>
     <tr>
       <td>Animation type</td>
@@ -121,8 +123,8 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
       </td>
       <td>
         <p>properties.json</p>
-        <pre class="brush:js">"animationType": "discrete"</pre>
-        <pre class="brush:js">
+        <pre>"animationType": "discrete"</pre>
+        <pre>
 "animationType": [
   "border-color",
   "border-style",
@@ -130,7 +132,7 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
 ]</pre
         >
         <p>l10n/css.json</p>
-        <pre class="brush:js">
+        <pre>
 "discrete": {
   "en-US": "discrete",
   "de": "diskret",
@@ -148,17 +150,17 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
       </td>
       <td>
         <p>properties.json</p>
-        <pre class="brush:js">
+        <pre>
 "percentages": "logicalWidthOfContainingBlock"</pre
         >
-        <pre class="brush:js">
+        <pre>
 "percentages": [
   "background-position",
   "background-size"
 ]</pre
         >
         <p>l10n/css.json</p>
-        <pre class="brush:js">
+        <pre>
 "logicalWidthOfContainingBlock": {
   "en-US": "logical-width of containing block",
   "de": "logische Breite des beinhaltenden Blocks",
@@ -173,7 +175,7 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
       <td><code>groups</code></td>
       <td>Array of tags to group the information on MDN.</td>
       <td>
-        <pre class="brush: js">
+        <pre>
 "groups": [
   "CSS Flexible Box Layout"
 ]</pre
@@ -188,7 +190,7 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
         <code>&#x3C;code></code> tag.
       </td>
       <td>
-        <pre class="brush:js">"initial": "&#x3C;code>none&#x3C;\/code>"</pre>
+        <pre>"initial": "&#x3C;code>none&#x3C;\/code>"</pre>
       </td>
     </tr>
     <tr>
@@ -200,8 +202,8 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
       </td>
       <td>
         <p>properties.json</p>
-        <pre class="brush:js">"appliesto": "absolutelyPositionedElements"</pre>
-        <pre class="brush:js">
+        <pre>"appliesto": "absolutelyPositionedElements"</pre>
+        <pre>
 "appliesto": [
   "border-image-outset",
   "border-image-repeat",
@@ -211,7 +213,7 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
 ]</pre
         >
         <p>l10n/css.json</p>
-        <pre class="brush:js">
+        <pre>
 "absolutelyPositionedElements": {
   "en-US": "absolutely positioned elements",
   "de": "absolut positionierte Elemente",
@@ -231,8 +233,8 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
       </td>
       <td>
         <p>properties.json</p>
-        <pre class="brush:js">"computed": "normalizedAngle"</pre>
-        <pre class="brush:js">
+        <pre>"computed": "normalizedAngle"</pre>
+        <pre>
 "computed": [
     "border-width",
     "border-style",
@@ -240,7 +242,7 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
 ]</pre
         >
         <p>l10n/css.json</p>
-        <pre class="brush:js">
+        <pre>
 "normalizedAngle": {
   "en-US": "normalized angle",
   "de": "normalisierter Winkel",
@@ -256,9 +258,9 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
       <td>Either a predefined localization key or a block of localizations</td>
       <td>
         <p>properties.json</p>
-        <pre class="brush: js">"order": "uniqueOrder"</pre>
+        <pre>"order": "uniqueOrder"</pre>
         <p>l10n/css.json</p>
-        <pre class="brush: js">
+        <pre>
 "uniqueOrder": {
   "en-US": "the unique non-ambiguous order defined by the formal grammar",
   "de": "die eindeutige Reihenfolge definiert durch die formale Grammatik",
@@ -274,7 +276,7 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
 </table>
 
 It may happen that the syntax contains references to specific values.
-Such values normally define their own syntaxes. Those syntaxes should be stored [syntaxes.json](https://github.com/mdn/data/blob/main/css/syntaxes.json) with their name as key.
+Such values normally define their own syntaxes. Those syntaxes should be stored [syntaxes.json](../css/syntaxes.json) with their name as key.
 E.g. the `font-family` property has a syntax of `[ <family-name> | <generic-family> ]#`.
 The syntaxes for the values `<family-name>` and `<generic-family>` are stored like this:
 
