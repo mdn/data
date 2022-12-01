@@ -35,7 +35,7 @@ Contains data about:
 - CSS types
 - CSS units
 
-Read more about [CSS data](https://github.com/mdn/data/blob/main/css/README.md) and the format of the files.
+Read more about [CSS data](./css/README.md) and the format of the files and the [Updating CSS JSON DB](./docs/updating_css_json.md) guide.
 
 ### l10n
 
@@ -50,7 +50,7 @@ If you find a problem, please [file an issue](https://github.com/mdn/data/issues
 
 We're very happy to accept contributions to this data.
 Please familiarize yourself with the schema for the data you're editing, and send us a pull request.
-See the [CONTRIBUTING.md](https://github.com/mdn/data/blob/main/CONTRIBUTING.md) document for more information.
+See the [CONTRIBUTING.md](./CONTRIBUTING.md) document for more information.
 
 ## See also
 
