@@ -103,9 +103,7 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
   "de": "visuell",
   "fr": "visuel",
   "ru": "визуальный"
-}</pre
-            >
-        </details>
+}</pre></details>
       </td>
     </tr>
     <tr>
@@ -125,9 +123,7 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
         <code>"as"</code> and an optional <code>"note"</code> property.<br />The
         <code>"as"</code> property holds a space-separated list of translation
         keys for values related to
-        <a href="https://drafts.csswg.org/css-transitions/#interpolated-types"
-          >interpolation</a
-          >.
+        <a href="https://drafts.csswg.org/css-transitions/#interpolated-types">interpolation</a>.
       </td>
       <td>
         <details>
@@ -138,9 +134,7 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
   "border-color",
   "border-style",
   "border-width"
-]</pre
-            >
-        </details>
+]</pre></details>
         <details>
           <summary>l10n/css.json</summary>
           <pre>
@@ -148,9 +142,7 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
   "en-US": "discrete",
   "de": "diskret",
   "fr": "discrète"
-}</pre
-            >
-        </details>
+}</pre></details>
       </td>
     </tr>
     <tr>
@@ -168,9 +160,7 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
 "percentages": [
   "background-position",
   "background-size"
-]</pre
-            >
-        </details>
+]</pre></details>
         <details>
           <summary>l10n/css.json</summary>
           <pre>
@@ -179,9 +169,7 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
   "de": "logische Breite des beinhaltenden Blocks",
   "fr": "largeur logique du bloc englobant",
   "ru": "логическая высота содержащего блока"
-}</pre
-            >
-        </details>
+}</pre></details>
       </td>
     </tr>
     <tr>
@@ -192,8 +180,7 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
         <pre>
 "groups": [
   "CSS Flexible Box Layout"
-]</pre
-          >
+]</pre>
       </td>
     </tr>
     <tr>
@@ -225,9 +212,7 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
   "border-image-slice",
   "border-image-source",
   "border-image-width"
-]</pre
-            >
-        </details>
+]</pre></details>
         <details>
           <summary>l10n/css.json</summary>
           <pre>
@@ -237,9 +222,7 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
   "fr": "éléments positionnés de manière absolue",
   "ja": "絶対位置指定された要素",
   "ru": "абсолютно позиционированные элементы"
-}</pre
-            >
-        </details>
+}</pre></details>
       </td>
     </tr>
     <tr>
@@ -258,9 +241,7 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
     "border-width",
     "border-style",
     "color"
-]</pre
-            >
-        </details>
+]</pre></details>
         <details>
           <summary>l10n.css.json</summary>
           <pre>
@@ -269,9 +250,7 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
   "de": "normalisierter Winkel",
   "fr": "angle normalisé",
   "ru": "нормализованный угол"
-}</pre
-            >
-        </details>
+}</pre></details>
       </td>
     </tr>
     <tr>
@@ -293,9 +272,7 @@ You can use the macros [`{{cssxref}}`](https://github.com/mdn/yari/blob/main/kum
   "ja": "形式文法で定義される一意のあいまいでない順序",
   "es": "el orden único no-ambigüo definido por la gramática formal",
   "ru": "уникальный неоднозначный порядок, определённый формальной грамматикой"
-}</pre
-            >
-        </details>
+}</pre></details>
       </td>
     </tr>
   </tbody>
