@@ -27,8 +27,8 @@ Prepare for a release by creating a pull request to update metadata for the rele
 1. Start a draft [release on GitHub](https://github.com/mdn/data/releases).
 
    - In the _Tag version_ and _Release title_ fields, enter `vX.Y.Z` where `X.Y.Z` is the version number you'd like to publish. Do not use an existing value, but instead
-   select an increment from the previous release. For example, if the previous release
-   was `v2.0.20`, use `v2.0.21` for the _Tag version_ and _Release title_ fields.
+     select an increment from the previous release. For example, if the previous release
+     was `v2.0.20`, use `v2.0.21` for the _Tag version_ and _Release title_ fields.
    - You can leave the _Describe this release_ field blank, or add notes as you wish.
 
    _Note_: If you're not ready to publish to npm, click **Save draft** in GitHub and resume this process later.
