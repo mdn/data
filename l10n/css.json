@@ -1357,7 +1357,7 @@
   "referToWidthOfBackgroundPositioningAreaMinusBackgroundImageWidth": {
     "de": "bezieht sich auf die Breite des Hintergrundpositionsbereichs abzüglich der Höhe des Hintergrundbilds",
     "en-US": "refer to width of background positioning area minus width of background image",
-    "fr": "fait référence à la largeur de la zone de positionement de l'arrière-plan moins la hauteur de l'image d'arrière-plan",
+    "fr": "fait référence à la largeur de la zone de positionement de l'arrière-plan moins la largeur de l'image d'arrière-plan",
     "ja": "背景配置領域の幅から背景画像の高さを引いたものに対する相対値",
     "ru": "относятся к ширине области позиционирования фона минус высота фонового изображения"
   },
