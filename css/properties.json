@@ -5566,6 +5566,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/hyphenate-character"
   },
+  "hyphenate-limit-chars": {
+    "syntax": "[ auto | <integer> ]{1,3}",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Text"
+    ],
+    "initial": "auto",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/hyphenate-limit-chars"
+  },
   "hyphens": {
     "syntax": "none | manual | auto",
     "media": "visual",
