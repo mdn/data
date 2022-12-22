@@ -1,7 +1,7 @@
 # Inheritance
 
-[data](https://github.com/mdn/data/blob/master/api/inheritance.json) |
-[schema](https://github.com/mdn/data/blob/master/api/inheritance.schema.json)
+[data](https://github.com/mdn/data/blob/main/api/inheritance.json) |
+[schema](https://github.com/mdn/data/blob/main/api/inheritance.schema.json)
 
 Interfaces of Web APIs can inherit from other interfaces or implement [mixins](https://developer.mozilla.org/en-US/docs/Glossary/Mixin). For each interface, this data informs about the inherited (parent) interface and the implemented mixins.
 

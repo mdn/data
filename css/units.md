@@ -1,7 +1,7 @@
 # Units
 
-[data](https://github.com/mdn/data/blob/master/css/units.json) |
-[schema](https://github.com/mdn/data/blob/master/css/units.schema.json)
+[data](https://github.com/mdn/data/blob/main/css/units.json) |
+[schema](https://github.com/mdn/data/blob/main/css/units.schema.json)
 
 Units are CSS units like `em` or `px`. Most of them are defined in the
 [CSS Values and Units specification](https://drafts.csswg.org/css-values/).
