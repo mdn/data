@@ -1,7 +1,7 @@
 # Types
 
-[data](https://github.com/mdn/data/blob/master/css/types.json) |
-[schema](https://github.com/mdn/data/blob/master/css/types.schema.json)
+[data](https://github.com/mdn/data/blob/main/css/types.json) |
+[schema](https://github.com/mdn/data/blob/main/css/types.schema.json)
 
 [CSS basic data types](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Types) define the kinds of values (keywords and units) accepted by CSS properties and functions.
 
