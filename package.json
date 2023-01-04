@@ -28,7 +28,7 @@
   },
   "homepage": "https://developer.mozilla.org",
   "devDependencies": {
-    "ajv": "^6.12.6",
+    "ajv": "^8.12.0",
     "better-ajv-errors": "^1.1.2"
   },
   "scripts": {
