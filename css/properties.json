@@ -2405,15 +2405,15 @@
       "CSS Logical Properties"
     ],
     "initial": [
-      "border-top-width",
-      "border-top-style",
-      "border-top-color"
+      "border-block-width",
+      "border-block-style",
+      "border-block-color"
     ],
     "appliesto": "allElements",
     "computed": [
-      "border-top-width",
-      "border-top-style",
-      "border-top-color"
+      "border-block-width",
+      "border-block-style",
+      "border-block-color"
     ],
     "order": "uniqueOrder",
     "status": "standard",
@@ -2972,15 +2972,15 @@
       "CSS Logical Properties"
     ],
     "initial": [
-      "border-top-width",
-      "border-top-style",
-      "border-top-color"
+      "border-inline-width",
+      "border-inline-style",
+      "border-inline-color"
     ],
     "appliesto": "allElements",
     "computed": [
-      "border-top-width",
-      "border-top-style",
-      "border-top-color"
+      "border-inline-width",
+      "border-inline-style",
+      "border-inline-color"
     ],
     "order": "uniqueOrder",
     "status": "standard",
