@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.31](https://github.com/mdn/data/compare/v2.0.30...v2.0.31) (2023-01-30)
+
+
+### Bug Fixes
+
+* scroll-timeline-axis and scroll-timeline-name are properties ([#631](https://github.com/mdn/data/issues/631)) ([7bb3805](https://github.com/mdn/data/commit/7bb3805b883fd75f79826bd5cd1582e1cc1bcc55))
+
 ## [2.0.30](https://github.com/mdn/data/compare/v2.0.29...v2.0.30) (2022-10-28)
 
 
