@@ -14,6 +14,10 @@ The CSS data is split into these parts:
   [data](https://github.com/mdn/data/blob/main/css/at-rules.json) |
   [schema](https://github.com/mdn/data/blob/main/css/at-rules.schema.json) |
   [docs](https://github.com/mdn/data/blob/main/css/at-rules.md)
+- **functions**:
+  [data](https://github.com/mdn/data/blob/main/css/functions.json) |
+  [schema](https://github.com/mdn/data/blob/main/css/functions.schema.json) |
+  [docs](https://github.com/mdn/data/blob/main/css/functions.md)
 - **properties**:
   [data](https://github.com/mdn/data/blob/main/css/properties.json) |
   [schema](https://github.com/mdn/data/blob/main/css/properties.schema.json) |

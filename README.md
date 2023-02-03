@@ -29,6 +29,7 @@ Contains data about Web APIs:
 Contains data about:
 
 - CSS at-rules
+- CSS functions
 - CSS properties
 - CSS selectors
 - CSS syntaxes
