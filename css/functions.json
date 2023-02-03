@@ -6,7 +6,7 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/attr"
-  }, 
+  },
   "blur()": {
     "syntax": "blur( <length> )",
     "groups": [
