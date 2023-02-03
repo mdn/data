@@ -17,7 +17,7 @@
   },
   "brightness()": {
     "syntax": "brightness( <number-percentage> )",
-     "groups": [
+    "groups": [
       "Filter Effects"
     ],
     "status": "standard",
