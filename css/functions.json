@@ -201,6 +201,9 @@
     },
     "leader()": {
       "syntax": "leader( <leader-type> )",
+      "groups": [
+        "CSS Miscellaneous"
+      ],
       "status": "nonstandard"
     },
     "linear-gradient()": {
