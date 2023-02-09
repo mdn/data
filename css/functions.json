@@ -264,7 +264,7 @@
       "CSS Color"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/oklab"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/oklab"
   },
   "oklch()": {
     "syntax": "oklch( [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ <hue> | none] [ / [<alpha-value> | none] ]? )",
@@ -272,7 +272,7 @@
       "CSS Color"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/oklch"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/oklch"
   },
   "opacity()": {
     "syntax": "opacity( [ <number-percentage> ] )",
