@@ -7660,7 +7660,7 @@
     "media": "paged",
     "inherited": false,
     "animationType": "discrete",
-    "percentages": "n/a",
+    "percentages": "no",
     "groups": [
       "CSS Pages"
     ],
