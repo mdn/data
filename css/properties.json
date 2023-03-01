@@ -7655,6 +7655,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-top"
   },
+  "page": {
+    "syntax": "auto | <custom-ident>",
+    "media": "paged",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Pages"
+    ],
+    "initial": "auto",
+    "appliesto": "blockElementsInNormalFlow",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/page"
+  },
   "page-break-after": {
     "syntax": "auto | always | avoid | left | right | recto | verso",
     "media": [
