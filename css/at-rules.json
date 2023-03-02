@@ -361,6 +361,18 @@
         "order": "orderOfAppearance",
         "status": "standard"
       },
+      "page-orientation": {
+        "syntax": "upright | rotate-left | rotate-right ",
+        "media": [
+          "visual",
+          "paged"
+        ],
+        "initial": "upright",
+        "percentages": "no",
+        "computed": "asSpecified",
+        "order": "orderOfAppearance",
+        "status": "standard"
+      },
       "size": {
         "syntax": "<length>{1,2} | auto | [ <page-size> || [ portrait | landscape ] ]",
         "media": [
