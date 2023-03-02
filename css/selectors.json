@@ -1051,7 +1051,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition"
   },
   "::view-transition-group": {
-    "syntax": "::view-transition-group(* | <custom-ident>)",
+    "syntax": "::view-transition-group([ '*' | <custom-ident> ])",
     "groups": [
       "Pseudo-elements",
       "Selectors"
@@ -1060,7 +1060,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-group"
   },
   "::view-transition-image-pair": {
-    "syntax": "::view-transition-image-pair(* | <custom-ident>)",
+    "syntax": "::view-transition-image-pair([ '*' | <custom-ident> ])",
     "groups": [
       "Pseudo-elements",
       "Selectors"
@@ -1069,7 +1069,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-image-pair"
   },
   "::view-transition-new": {
-    "syntax": "::view-transition-new(* | <custom-ident>)",
+    "syntax": "::view-transition-new([ '*' | <custom-ident> ])",
     "groups": [
       "Pseudo-elements",
       "Selectors"
@@ -1078,7 +1078,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-new"
   },
   "::view-transition-old": {
-    "syntax": "::view-transition-old(* | <custom-ident>)",
+    "syntax": "::view-transition-old([ '*' | <custom-ident> ])",
     "groups": [
       "Pseudo-elements",
       "Selectors"
