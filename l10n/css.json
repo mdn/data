@@ -1616,7 +1616,7 @@
     "en-US": "the computed <length>"
   },
   "theKeywordListStyleImageNoneOrComputedValue": {
-    "en": "The keyword list-style-image/none or the computed <>"
+    "en-US": "The keyword <code>none</code> or the computed &lt;image&gt;"
   },
   "transform": {
     "de": "Transformation",
