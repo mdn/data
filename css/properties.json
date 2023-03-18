@@ -4374,7 +4374,7 @@
       "CSS Containment"
     ],
     "initial": "visible",
-    "appliesto": "elementsForWhichLayoutContainmentCanApply",
+    "appliesto": "elementsForWhichSizeContainmentCanApply",
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "standard",
