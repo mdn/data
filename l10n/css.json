@@ -1308,6 +1308,9 @@
     "ja": "囲みボックスの寸法に対する相対値",
     "ru": "ссылается на размер ограничительной рамки"
   },
+  "referToSizeOfContainingBlock": {
+    "en-US": "refer to the size of containing block"
+  },
   "referToSizeOfElement": {
     "de": "beziehen sich auf die Größe der Box selbst",
     "en-US": "refer to the size of the box itself",
