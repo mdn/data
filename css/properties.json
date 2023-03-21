@@ -8626,7 +8626,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-y"
   },
   "scroll-timeline": {
-    "syntax": "<'scroll-timeline-name'> || <'scroll-timeline-axis'>",
+    "syntax": "[<'scroll-timeline-name'> <'scroll-timeline-axis'>?]#",
     "media": "visual",
     "inherited": false,
     "animationType": [
