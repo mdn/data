@@ -4813,7 +4813,7 @@
   "font-palette": {
     "syntax": "normal | light | dark | <palette-identifier>",
     "media": "visual",
-    "inherited": "yes",
+    "inherited": true,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
