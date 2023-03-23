@@ -123,7 +123,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@document"
   },
   "@font-palette-values": {
-    "syntax": "@font-palette-values <dashed-ident> {\n  <declaration-list>\n}",
+    "syntax": "@font-palette-values <dashed-ident> {  <declaration-list> }",
     "groups": [
       "CSS Fonts"
     ],
