@@ -5036,6 +5036,26 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian"
   },
+  "font-variant-emoji": {
+    "syntax": "normal | text | emoji | unicode",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Fonts"
+    ],
+    "initial": "normal",
+    "appliesto": "allElementsAndText",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter",
+      "::first-line",
+      "::placeholder"
+    ],
+    "status": "standard"
+  },
   "font-variant-ligatures": {
     "syntax": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> ]",
     "media": "visual",
