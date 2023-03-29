@@ -134,7 +134,7 @@
         "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
         "listEachItemConsistingOfAbsoluteLengthPercentageAndOrigin",
         "listEachItemHasTwoKeywordsOnePerDimension",
-        "listEachItemIdentifyerOrNoneAuto",
+        "listEachItemIdentifierOrNoneAuto",
         "listEachItemTwoKeywordsOriginOffsets",
         "noneOrImageWithAbsoluteURI",
         "normalizedAngle",
