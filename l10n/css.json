@@ -923,7 +923,7 @@
     "ja": "1 つの方向につき 2 つのキーワードで構成される項目のリスト",
     "ru": "список, каждый элемент которого содержит 2 ключевых слова, по одному на размер"
   },
-  "listEachItemIdentifyerOrNoneAuto": {
+  "listEachItemIdentifierOrNoneAuto": {
     "en-US": "a list, each item either a case-sensitive CSS identifier or the keywords <code>none</code>, <code>auto</code>"
   },
   "listEachItemTwoKeywordsOriginOffsets": {
