@@ -1047,6 +1047,9 @@
     "ja": "<code>none</code> または画像の絶対化した URI",
     "ru": "<code>none</code> или изображение с абсолютным URI"
   },
+  "noneOrOrderedListOfIdentifiers": {
+    "en-US": "<code>none</code> or an ordered list of identifiers"
+  },
   "nonReplacedBlockAndInlineBlockElements": {
     "de": "nicht ersetzte Blocklevel Elemente und nicht ersetzte Inlineblock Elemente",
     "en-US": "non-replaced block-level elements and non-replaced inline-block elements",
