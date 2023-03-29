@@ -4348,6 +4348,66 @@
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-width"
   },
+  "container": {
+    "syntax": "<'container-name'> [ / <'container-type'> ]?",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "container-name",
+      "container-type"
+    ],
+    "percentages": [
+      "container-name",
+      "container-type"
+    ],
+    "groups": [
+      "CSS Containment"
+    ],
+    "initial": [
+      "container-name",
+      "container-type"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "container-name",
+      "container-type"
+    ],
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/container"
+  },
+  "container-name": {
+    "syntax": "none | <custom-ident>+",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "CSS Containment"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "noneOrOrderedListOfIdentifiers",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/container-name"
+  },
+  "container-type": {
+    "syntax": "normal | size | inline-size",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "color",
+    "percentages": "no",
+    "groups": [
+      "CSS Containment"
+    ],
+    "initial": "normal",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/container-type"
+  },
   "content": {
     "syntax": "normal | none | [ <content-replacement> | <content-list> ] [/ [ <string> | <counter> ]+ ]?",
     "media": "all",
