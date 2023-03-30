@@ -923,7 +923,7 @@
     "ja": "1 つの方向につき 2 つのキーワードで構成される項目のリスト",
     "ru": "список, каждый элемент которого содержит 2 ключевых слова, по одному на размер"
   },
-  "listEachItemIdentifyerOrNoneAuto": {
+  "listEachItemIdentifierOrNoneAuto": {
     "en-US": "a list, each item either a case-sensitive CSS identifier or the keywords <code>none</code>, <code>auto</code>"
   },
   "listEachItemTwoKeywordsOriginOffsets": {
@@ -1046,6 +1046,9 @@
     "fr": "<code>none</code> ou l'image avec son URI rendue absolue",
     "ja": "<code>none</code> または画像の絶対化した URI",
     "ru": "<code>none</code> или изображение с абсолютным URI"
+  },
+  "noneOrOrderedListOfIdentifiers": {
+    "en-US": "<code>none</code> or an ordered list of identifiers"
   },
   "nonReplacedBlockAndInlineBlockElements": {
     "de": "nicht ersetzte Blocklevel Elemente und nicht ersetzte Inlineblock Elemente",
