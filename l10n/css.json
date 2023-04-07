@@ -1618,8 +1618,8 @@
     "ja": "テキストフィールド",
     "ru": "текстовые поля"
   },
-  "theComputedLength": {
-    "en-US": "the computed <length>"
+  "theComputedLengthAndVisualBox": {
+    "en-US": "the computed &lt;length&gt; and a &lt;visual-box&gt; keyword"
   },
   "theKeywordListStyleImageNoneOrComputedValue": {
     "en-US": "The keyword <code>none</code> or the computed &lt;image&gt;"
