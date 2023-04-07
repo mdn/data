@@ -7387,7 +7387,7 @@
     ],
     "initial": "0px",
     "appliesto": "allElements",
-    "computed": "theComputedLength",
+    "computed": "theComputedLengthAndVisualBox",
     "order": "perGrammar",
     "status": "standard"
   },
