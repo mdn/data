@@ -561,7 +561,7 @@
     "ja": "計算値の型による"
   },
   "byComputedValueTypeNormalAnimatesAsObliqueZeroDeg": {
-    "en-US": "by computed value type; <code>normal</code> animates as <code>oblique 0deg</code>" 
+    "en-US": "by computed value type; <code>normal</code> animates as <code>oblique 0deg</code>"
   },
   "canonicalOrder": {
     "de": "Kanonische Reihenfolge",
