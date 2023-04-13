@@ -1455,10 +1455,6 @@
     "ja": "反復可能リスト",
     "ru": "повторяющийся список из "
   },
-  "repeatableListOfSimpleListOfLpc": {
-    "en-US": "repeatable list of simple list of length, percentage, or calc",
-    "ja": "長さ、パーセント値、 calc の単純なリストの反復可能リスト"
-  },
   "replacedElements": {
     "de": "ersetzte Elemente",
     "en-US": "replaced elements",
