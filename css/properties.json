@@ -1999,7 +1999,7 @@
     "syntax": "auto | <ratio>",
     "media": "all",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Basic User Interface"
@@ -2134,7 +2134,7 @@
     "syntax": "<blend-mode>#",
     "media": "none",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
       "Compositing and Blending"
@@ -2155,7 +2155,7 @@
     "syntax": "<box>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "repeatableList",
     "percentages": "no",
     "groups": [
       "CSS Backgrounds and Borders"
@@ -2218,7 +2218,7 @@
     "syntax": "<box>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "repeatableList",
     "percentages": "no",
     "groups": [
       "CSS Backgrounds and Borders"
@@ -2239,7 +2239,7 @@
     "syntax": "<bg-position>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "repeatableListOfSimpleListOfLpc",
+    "animationType": "repeatableList",
     "percentages": "referToSizeOfBackgroundPositioningAreaMinusBackgroundImageSize",
     "groups": [
       "CSS Backgrounds and Borders"
@@ -2263,7 +2263,7 @@
     "syntax": "[ center | [ [ left | right | x-start | x-end ]? <length-percentage>? ]! ]#",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "repeatableList",
     "percentages": "referToWidthOfBackgroundPositioningAreaMinusBackgroundImageWidth",
     "groups": [
       "CSS Backgrounds and Borders"
@@ -2279,7 +2279,7 @@
     "syntax": "[ center | [ [ top | bottom | y-start | y-end ]? <length-percentage>? ]! ]#",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "repeatableList",
     "percentages": "referToHeightOfBackgroundPositioningAreaMinusBackgroundImageHeight",
     "groups": [
       "CSS Backgrounds and Borders"
@@ -2316,7 +2316,7 @@
     "syntax": "<bg-size>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "repeatableListOfSimpleListOfLpc",
+    "animationType": "repeatableList",
     "percentages": "relativeToBackgroundPositioningArea",
     "groups": [
       "CSS Backgrounds and Borders"
@@ -2399,7 +2399,11 @@
     "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": [
+      "border-block-width",
+      "border-block-style",
+      "border-block-color"
+    ],
     "percentages": "no",
     "groups": [
       "CSS Logical Properties"
@@ -2423,7 +2427,7 @@
     "syntax": "<'border-top-color'>{1,2}",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Logical Properties"
@@ -2455,7 +2459,7 @@
     "syntax": "<'border-top-width'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -2499,7 +2503,7 @@
     "syntax": "<'border-top-color'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "color",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Logical Properties"
@@ -2531,7 +2535,7 @@
     "syntax": "<'border-top-width'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "length",
+    "animationType": "byComputedValueType",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -2575,7 +2579,7 @@
     "syntax": "<'border-top-color'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "color",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Logical Properties"
@@ -2607,7 +2611,7 @@
     "syntax": "<'border-top-width'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "length",
+    "animationType": "byComputedValueType",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -2837,7 +2841,13 @@
     "syntax": "<'border-image-source'> || <'border-image-slice'> [ / <'border-image-width'> | / <'border-image-width'>? / <'border-image-outset'> ]? || <'border-image-repeat'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": [
+      "border-image-outset",
+      "border-image-repeat",
+      "border-image-slice",
+      "border-image-source",
+      "border-image-width"
+    ],
     "percentages": [
       "border-image-slice",
       "border-image-width"
@@ -2966,7 +2976,11 @@
     "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": [
+      "border-inline-color",
+      "border-inline-style",
+      "border-inline-width"
+    ],
     "percentages": "no",
     "groups": [
       "CSS Logical Properties"
@@ -3018,7 +3032,7 @@
     "syntax": "<'border-top-color'>{1,2}",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Logical Properties"
@@ -3050,7 +3064,7 @@
     "syntax": "<'border-top-width'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -3066,7 +3080,7 @@
     "syntax": "<'border-top-color'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "color",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Logical Properties"
@@ -3098,7 +3112,7 @@
     "syntax": "<'border-top-width'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "length",
+    "animationType": "byComputedValueType",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -3142,7 +3156,7 @@
     "syntax": "<'border-top-color'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "color",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Logical Properties"
@@ -3174,7 +3188,7 @@
     "syntax": "<'border-top-width'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "length",
+    "animationType": "byComputedValueType",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
       "CSS Logical Properties"
@@ -4030,22 +4044,6 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color"
   },
-  "print-color-adjust": {
-    "syntax": "economy | exact",
-    "media": "visual",
-    "inherited": true,
-    "animationType": "discrete",
-    "percentages": "no",
-    "groups": [
-      "CSS Color"
-    ],
-    "initial": "economy",
-    "appliesto": "allElements",
-    "computed": "asSpecified",
-    "order": "perGrammar",
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/print-color-adjust"
-  },
   "color-scheme": {
     "syntax": "normal | [ light | dark | <custom-ident> ]+ && only?",
     "media": "visual",
@@ -4247,7 +4245,7 @@
     "syntax": "none | strict | content | [ [ size || inline-size ] || layout || style || paint ]",
     "media": "all",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
       "CSS Containment"
@@ -4428,7 +4426,7 @@
     "syntax": "visible | auto | hidden",
     "media": "all",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
       "CSS Containment"
@@ -4444,7 +4442,7 @@
     "syntax": "[ <counter-name> <integer>? ]+ | none",
     "media": "all",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Counter Styles"
@@ -4460,7 +4458,7 @@
     "syntax": "[ <counter-name> <integer>? | <reversed-counter-name> <integer>? ]+ | none",
     "media": "all",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Counter Styles"
@@ -4476,7 +4474,7 @@
     "syntax": "[ <counter-name> <integer>? ]+ | none",
     "media": "all",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Counter Styles"
@@ -4511,7 +4509,7 @@
     "syntax": "ltr | rtl",
     "media": "visual",
     "inherited": true,
-    "animationType": "discrete",
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
       "CSS Writing Modes"
@@ -4635,7 +4633,10 @@
     "syntax": "<'flex-direction'> || <'flex-wrap'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": [
+      "flex-direction",
+      "flex-wrap"
+    ],
     "percentages": "no",
     "groups": [
       "CSS Flexible Box Layout"
@@ -4994,7 +4995,7 @@
     "syntax": "normal | italic | oblique <angle>?",
     "media": "visual",
     "inherited": true,
-    "animationType": "discrete",
+    "animationType": "byComputedValueTypeNormalAnimatesAsObliqueZeroDeg",
     "percentages": "no",
     "groups": [
       "CSS Fonts"
@@ -5265,7 +5266,18 @@
     "syntax": "<'grid-template'> | <'grid-template-rows'> / [ auto-flow && dense? ] <'grid-auto-columns'>? | [ auto-flow && dense? ] <'grid-auto-rows'>? / <'grid-template-columns'>",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": [
+      "grid-template-rows",
+      "grid-template-columns",
+      "grid-template-areas",
+      "grid-auto-rows",
+      "grid-auto-columns",
+      "grid-auto-flow",
+      "grid-column-gap",
+      "grid-row-gap",
+      "column-gap",
+      "row-gap"
+    ],
     "percentages": [
       "grid-template-rows",
       "grid-template-columns",
@@ -5334,7 +5346,7 @@
     "syntax": "<track-size>+",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "referToDimensionOfContentArea",
     "groups": [
       "CSS Grid Layout"
@@ -5366,7 +5378,7 @@
     "syntax": "<track-size>+",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "referToDimensionOfContentArea",
     "groups": [
       "CSS Grid Layout"
@@ -5547,7 +5559,11 @@
     "syntax": "none | [ <'grid-template-rows'> / <'grid-template-columns'> ] | [ <line-names>? <string> <track-size>? <line-names>? ]+ [ / <explicit-track-list> ]?",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": [
+      "grid-template-columns",
+      "grid-template-rows",
+      "grid-template-areas"
+    ],
     "percentages": [
       "grid-template-columns",
       "grid-template-rows"
@@ -5670,7 +5686,7 @@
     "syntax": "[ auto | <integer> ]{1,3}",
     "media": "visual",
     "inherited": true,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Text"
@@ -5765,7 +5781,7 @@
     "syntax": "normal | [ <number> <integer>? ]",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Inline"
@@ -5962,7 +5978,7 @@
     "syntax": "auto | isolate",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
       "Compositing and Blending"
@@ -6130,7 +6146,7 @@
     "syntax": "<length>",
     "media": "visual",
     "inherited": true,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Fonts"
@@ -6146,7 +6162,11 @@
     "syntax": "<'list-style-type'> || <'list-style-position'> || <'list-style-image'>",
     "media": "visual",
     "inherited": true,
-    "animationType": "discrete",
+    "animationType": [
+      "list-style-image",
+      "list-style-position",
+      "list-style-type"
+    ],
     "percentages": "no",
     "groups": [
       "CSS Lists and Counters"
@@ -6719,7 +6739,7 @@
     "syntax": "<position>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "repeatableListOfSimpleListOfLpc",
+    "animationType": "repeatableList",
     "percentages": "referToSizeOfMaskPaintingArea",
     "groups": [
       "CSS Masking"
@@ -6751,7 +6771,7 @@
     "syntax": "<bg-size>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "repeatableListOfSimpleListOfLpc",
+    "animationType": "repeatableList",
     "percentages": "no",
     "groups": [
       "CSS Masking"
@@ -6990,7 +7010,7 @@
     "syntax": "<blend-mode> | plus-lighter",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
       "Compositing and Blending"
@@ -7023,7 +7043,7 @@
     "syntax": "<position>",
     "media": "visual",
     "inherited": true,
-    "animationType": "repeatableListOfSimpleListOfLpc",
+    "animationType": "repeatableList",
     "percentages": "referToWidthAndHeightOfElement",
     "groups": [
       "CSS Images"
@@ -7192,7 +7212,7 @@
     "syntax": "<integer>",
     "media": "visual",
     "inherited": true,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Fragmentation"
@@ -7280,7 +7300,7 @@
       "interactive"
     ],
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Basic User Interface"
@@ -7976,6 +7996,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position"
   },
+  "print-color-adjust": {
+    "syntax": "economy | exact",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Color"
+    ],
+    "initial": "economy",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/print-color-adjust"
+  },
   "quotes": {
     "syntax": "none | auto | [ <string> <string> ]+",
     "media": "visual",
@@ -8061,7 +8097,7 @@
     "syntax": "start | center | space-between | space-around",
     "media": "visual",
     "inherited": true,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Ruby"
@@ -8077,7 +8113,7 @@
     "syntax": "separate | collapse | auto",
     "media": "visual",
     "inherited": true,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Ruby"
@@ -8125,7 +8161,7 @@
     "syntax": "auto | <color>{2}",
     "media": "visual",
     "inherited": true,
-    "animationType": "color",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Scrollbars"
@@ -8157,7 +8193,7 @@
     "syntax": "auto | thin | none",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Scrollbars"
@@ -8173,10 +8209,10 @@
     "syntax": "auto | smooth",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
-      "CSSOM View"
+      "CSS Overflow"
     ],
     "initial": "auto",
     "appliesto": "scrollingBoxes",
@@ -9173,7 +9209,7 @@
     "syntax": "mixed | upright | sideways",
     "media": "visual",
     "inherited": true,
-    "animationType": "discrete",
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
       "CSS Writing Modes"
@@ -9245,7 +9281,7 @@
     "syntax": "none | auto | <percentage>",
     "media": "visual",
     "inherited": true,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "referToSizeOfFont",
     "groups": [
       "CSS Text"
@@ -9335,7 +9371,7 @@
     "syntax": "auto | none | [ [ pan-x | pan-left | pan-right ] || [ pan-y | pan-up | pan-down ] || pinch-zoom ] | manipulation",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
       "Pointer Events"
@@ -9417,7 +9453,7 @@
     "syntax": "<single-transition>#",
     "media": "interactive",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
       "CSS Transitions"
@@ -9443,7 +9479,7 @@
     "syntax": "<time>#",
     "media": "interactive",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
       "CSS Transitions"
@@ -9459,7 +9495,7 @@
     "syntax": "<time>#",
     "media": "interactive",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
       "CSS Transitions"
@@ -9475,7 +9511,7 @@
     "syntax": "none | <single-transition-property>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
       "CSS Transitions"
@@ -9491,7 +9527,7 @@
     "syntax": "<easing-function>#",
     "media": "interactive",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
       "CSS Transitions"
@@ -9524,7 +9560,7 @@
     "syntax": "normal | embed | isolate | bidi-override | isolate-override | plaintext",
     "media": "visual",
     "inherited": false,
-    "animationType": "discrete",
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
       "CSS Writing Modes"
@@ -9625,7 +9661,7 @@
     "syntax": "<integer>",
     "media": "visual",
     "inherited": true,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Fragmentation"
@@ -9726,7 +9762,7 @@
     "syntax": "horizontal-tb | vertical-rl | vertical-lr | sideways-rl | sideways-lr",
     "media": "visual",
     "inherited": true,
-    "animationType": "discrete",
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
       "CSS Writing Modes"

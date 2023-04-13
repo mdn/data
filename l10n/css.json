@@ -560,6 +560,9 @@
     "en-US": "by computed value type",
     "ja": "計算値の型による"
   },
+  "byComputedValueTypeNormalAnimatesAsObliqueZeroDeg": {
+    "en-US": "by computed value type; <code>normal</code> animates as <code>oblique 0deg</code>"
+  },
   "canonicalOrder": {
     "de": "Kanonische Reihenfolge",
     "en-US": "Canonical order",
@@ -1451,10 +1454,6 @@
     "fr": "une liste répétable de ",
     "ja": "反復可能リスト",
     "ru": "повторяющийся список из "
-  },
-  "repeatableListOfSimpleListOfLpc": {
-    "en-US": "repeatable list of simple list of length, percentage, or calc",
-    "ja": "長さ、パーセント値、 calc の単純なリストの反復可能リスト"
   },
   "replacedElements": {
     "de": "ersetzte Elemente",
