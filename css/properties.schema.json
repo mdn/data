@@ -33,7 +33,7 @@
         "number",
         "position",
         "rectangle",
-        "repeatableListOfSimpleListOfLpc",
+        "repeatableList",
         "shadowList",
         "simpleListOfLpc",
         "simpleListOfLpcDifferenceLpc",
