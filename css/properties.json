@@ -2316,7 +2316,7 @@
     "syntax": "<bg-size>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "repeatableListOfSimpleListOfLpc",
+    "animationType": "repeatableList",
     "percentages": "relativeToBackgroundPositioningArea",
     "groups": [
       "CSS Backgrounds and Borders"
@@ -6739,7 +6739,7 @@
     "syntax": "<position>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "repeatableListOfSimpleListOfLpc",
+    "animationType": "repeatableList",
     "percentages": "referToSizeOfMaskPaintingArea",
     "groups": [
       "CSS Masking"
@@ -6771,7 +6771,7 @@
     "syntax": "<bg-size>#",
     "media": "visual",
     "inherited": false,
-    "animationType": "repeatableListOfSimpleListOfLpc",
+    "animationType": "repeatableList",
     "percentages": "no",
     "groups": [
       "CSS Masking"
@@ -7043,7 +7043,7 @@
     "syntax": "<position>",
     "media": "visual",
     "inherited": true,
-    "animationType": "repeatableListOfSimpleListOfLpc",
+    "animationType": "repeatableList",
     "percentages": "referToWidthAndHeightOfElement",
     "groups": [
       "CSS Images"
