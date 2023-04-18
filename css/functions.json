@@ -325,6 +325,14 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/radial-gradient"
   },
+  "ray()": {
+    "syntax": "ray( <angle> && <ray-size>? && contain? )",
+    "groups": [
+      "CSS Motion Path"
+    ],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ray"
+  },
   "repeating-linear-gradient()": {
     "syntax": "repeating-linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )",
     "groups": [
