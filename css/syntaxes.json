@@ -617,6 +617,9 @@
   "ratio": {
     "syntax": "<number [0,∞]> [ / <number [0,∞]> ]?"
   },
+  "ray()": {
+    "syntax": "ray( <angle> && <ray-size>? && contain? )"
+  },
   "relative-selector": {
     "syntax": "<combinator>? <complex-selector>"
   },
