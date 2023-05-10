@@ -9351,6 +9351,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-underline-position"
   },
+  "text-wrap": {
+    "syntax": "wrap | nowrap | balance | stable | pretty",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Text"
+    ],
+    "initial": "wrap",
+    "appliesto": "textAndBlockContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-wrap"
+  },
   "top": {
     "syntax": "<length> | <percentage> | auto",
     "media": "visual",
@@ -9642,7 +9658,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/visibility"
   },
   "white-space": {
-    "syntax": "normal | pre | nowrap | pre-wrap | pre-line | break-spaces",
+    "syntax": "normal | pre | nowrap | pre-wrap | pre-line | break-spaces | [ <'white-space-collapse'> || <'text-wrap'> ]",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -9656,6 +9672,22 @@
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/white-space"
+  },
+  "white-space-collapse": {
+    "syntax": "collapse | discard | preserve | preserve-breaks | preserve-spaces | break-spaces",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Text"
+    ],
+    "initial": "collapse",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/white-space-collapse"
   },
   "widows": {
     "syntax": "<integer>",

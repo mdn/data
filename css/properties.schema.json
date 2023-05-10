@@ -246,6 +246,7 @@
         "tableCaptionElements",
         "tableCellElements",
         "tableElements",
+        "textAndBlockContainers",
         "textElements",
         "textFields",
         "transformableElements",

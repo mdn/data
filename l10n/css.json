@@ -1603,6 +1603,9 @@
     "ja": "<code>table</code> および <code>inline-table</code> 要素",
     "ru": "<code>table</code> и <code>inline-table</code> элементы"
   },
+  "textAndBlockContainers": {
+    "en-US": "text and block containers"
+  },
   "textElements": {
     "de": "Textelemente",
     "en-US": "text elements",
