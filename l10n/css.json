@@ -919,6 +919,12 @@
     "ja": "絶対長とパーセント値の組み合わせで与えられるオフセットと原点のキーワードを、各項目として構成されるリスト。",
     "ru": "Список, каждый элемент которого состоит из: смещения, данного комбинацией абсолютной длины и процентов плюс ключевое слово"
   },
+  "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage": {
+    "en-US": "A list, each item consisting of the keyword normal, a length percentage, or a timeline range name and a length percentage"
+  },
+  "listEachItemConsistingOfPairsOfAutoOrLengthPercentage": {
+    "en-US": "A list, each item consisting of one or two values that can be auto or a length percentage"
+  },
   "listEachItemHasTwoKeywordsOnePerDimension": {
     "de": "eine Liste, wobei jedes Element aus zwei Schlüsselwörtern besteht, eins pro Dimension",
     "en-US": "a list, each item consisting of two keywords, one per dimension",
@@ -1430,6 +1436,9 @@
     "ja": "背景配置領域に対する相対値",
     "ru": "относительно области позиционирования фона"
   },
+  "relativeToCorrespondingDimensionOfRelevantScrollport": {
+    "en-US": "Relative to the corresponding dimension of the relevant scrollport"
+  },
   "relativeToMaskBorderImageArea": {
     "en-US": "relative to width/height of the mask border image area",
     "ja": "境界マスク画像領域の幅/高さに対する相対値"
@@ -1444,6 +1453,9 @@
   "relativeToTheScrollContainersScrollport": {
     "en-US": "relative to the scroll container's scrollport",
     "ja": "スクロールコンテナーのスクロールポートに対する相対値"
+  },
+  "relativeToTimelineRangeIfSpecifiedOtherwiseEntireTimeline": {
+    "en-US": "Relative to the specified named timeline range if specified, otherwise relative to the entire timeline",
   },
   "relativeToWidthAndHeight": {
     "en-US": "relative to the width and the height of the element's reference box"

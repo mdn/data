@@ -83,9 +83,11 @@
         "regardingHeightOfGeneratedBoxContainingBlockPercentagesNone",
         "regardingHeightOfGeneratedBoxContainingBlockPercentagesRelativeToContainingBlock",
         "relativeToBackgroundPositioningArea",
+        "relativeToCorrespondingDimensionOfRelevantScrollport",
         "relativeToMaskBorderImageArea",
         "relativeToScrollContainerPaddingBoxAxis",
         "relativeToTheScrollContainersScrollport",
+        "relativeToTimelineRangeIfSpecifiedOtherwiseEntireTimeline",
         "relativeToWidthAndHeight"
       ]
     },
@@ -134,6 +136,8 @@
         "keywordPlusIntegerIfDigits",
         "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
         "listEachItemConsistingOfAbsoluteLengthPercentageAndOrigin",
+        "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage",
+        "listEachItemConsistingOfPairsOfAutoOrLengthPercentage",
         "listEachItemHasTwoKeywordsOnePerDimension",
         "listEachItemIdentifierOrNoneAuto",
         "listEachItemTwoKeywordsOriginOffsets",

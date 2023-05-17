@@ -402,7 +402,7 @@
     "syntax": "<keyframe-block>+"
   },
   "keyframe-selector": {
-    "syntax": "from | to | <percentage>"
+    "syntax": "from | to | <percentage> | <timeline-range-name> <percentage>"
   },
   "lab()": {
     "syntax": "lab( [<percentage> | <number> | none] [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ / [<alpha-value> | none] ]? )"
@@ -735,7 +735,7 @@
     "syntax": "sin( <calc-sum> )"
   },
   "single-animation": {
-    "syntax": "<time> || <easing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ]"
+    "syntax": "<time> || <easing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ] || <single-animation-timeline>"
   },
   "single-animation-direction": {
     "syntax": "normal | reverse | alternate | alternate-reverse"
@@ -750,7 +750,7 @@
     "syntax": "running | paused"
   },
   "single-animation-timeline": {
-    "syntax": "auto | none | <timeline-name> | scroll(<axis>? <scroller>?)"
+    "syntax": "auto | none | <timeline-name> | <scroll()> | <view()>"
   },
   "single-transition": {
     "syntax": "[ none | <single-transition-property> ] || <time> || <easing-function> || <time>"
@@ -811,6 +811,9 @@
   },
   "timeline-name": {
     "syntax": "<custom-ident> | <string>"
+  },
+  "timeline-range-name": {
+    "syntax": "cover | contain | entry | exit | entry-crossing | exit-crossing"
   },
   "easing-function": {
     "syntax": "linear | <cubic-bezier-timing-function> | <step-timing-function>"
