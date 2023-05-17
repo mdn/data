@@ -750,7 +750,7 @@
     "syntax": "running | paused"
   },
   "single-animation-timeline": {
-    "syntax": "auto | none | <timeline-name> | <scroll()> | <view()>"
+    "syntax": "auto | none | <timeline-name> | <'scroll()'> | <'view()'>"
   },
   "single-transition": {
     "syntax": "[ none | <single-transition-property> ] || <time> || <easing-function> || <time>"
