@@ -1455,7 +1455,7 @@
     "ja": "スクロールコンテナーのスクロールポートに対する相対値"
   },
   "relativeToTimelineRangeIfSpecifiedOtherwiseEntireTimeline": {
-    "en-US": "Relative to the specified named timeline range if specified, otherwise relative to the entire timeline",
+    "en-US": "Relative to the specified named timeline range if specified, otherwise relative to the entire timeline"
   },
   "relativeToWidthAndHeight": {
     "en-US": "relative to the width and the height of the element's reference box"
