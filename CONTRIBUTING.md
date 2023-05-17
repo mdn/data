@@ -3,6 +3,10 @@
 Thanks for taking the time to contribute to [MDN Web Docs](https://developer.mozilla.org)! :tada:
 This file lists some general guidelines to help you contribute effectively.
 
+## Publishing a release
+
+Details about publishing a release can be found in the [publishing guide](./docs/publishing.md).
+
 ## Types of contribution
 
 There are many ways you can help improve this repository! For example:
