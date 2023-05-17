@@ -692,6 +692,9 @@
   "scaleZ()": {
     "syntax": "scaleZ( [ <number> | <percentage> ] )"
   },
+  "scroll()": {
+    "syntax": "scroll([<axis> || <scroller>]?)"
+  },
   "scroller": {
     "syntax": "root | nearest"
   },
@@ -750,7 +753,7 @@
     "syntax": "running | paused"
   },
   "single-animation-timeline": {
-    "syntax": "auto | none | <timeline-name> | <'scroll()'> | <'view()'>"
+    "syntax": "auto | none | <timeline-name> | <scroll()> | <view()>"
   },
   "single-transition": {
     "syntax": "[ none | <single-transition-property> ] || <time> || <easing-function> || <time>"
@@ -859,6 +862,9 @@
   },
   "var()": {
     "syntax": "var( <custom-property-name> , <declaration-value>? )"
+  },
+  "view()": {
+    "syntax": "view([<axis> || <'view-timeline-inset'>]?)"
   },
   "viewport-length": {
     "syntax": "auto | <length-percentage>"
