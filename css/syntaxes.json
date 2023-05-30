@@ -32,7 +32,7 @@
   "atan()": {
     "syntax": "atan( <calc-sum> )"
   },
-  "ata2n()": {
+  "atan2()": {
     "syntax": "atan2( <calc-sum>, <calc-sum> )"
   },
   "attachment": {
@@ -61,6 +61,9 @@
   },
   "auto-track-list": {
     "syntax": "[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>? <auto-repeat>\n[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>?"
+  },
+  "axis": {
+    "syntax": "block | inline | vertical | horizontal"
   },
   "baseline-position": {
     "syntax": "[ first | last ]? baseline"
@@ -102,7 +105,10 @@
     "syntax": "<calc-value> [ '*' <calc-value> | '/' <number> ]*"
   },
   "calc-value": {
-    "syntax": "<number> | <dimension> | <percentage> | ( <calc-sum> )"
+    "syntax": "<number> | <dimension> | <percentage> | <calc-constant> | ( <calc-sum> )"
+  },
+  "calc-constant": {
+    "syntax": "e | pi | infinity | -infinity | NaN"
   },
   "cf-final-image": {
     "syntax": "<image> | <color>"
@@ -632,6 +638,9 @@
   "rect()": {
     "syntax": "rect( [ <length> | auto ]#{4} ) | rect( [ <length> | auto ]{4} )"
   },
+  "ray()": {
+    "syntax": "ray( <angle> && <ray-size>? && contain? )"
+  },
   "relative-selector": {
     "syntax": "<combinator>? <complex-selector>"
   },
@@ -704,6 +713,9 @@
   "scaleZ()": {
     "syntax": "scaleZ( [ <number> | <percentage> ] )"
   },
+  "scroller": {
+    "syntax": "root | nearest"
+  },
   "self-position": {
     "syntax": "center | start | end | self-start | self-end | flex-start | flex-end"
   },
@@ -756,7 +768,7 @@
     "syntax": "running | paused"
   },
   "single-animation-timeline": {
-    "syntax": "auto | none | <timeline-name>"
+    "syntax": "auto | none | <timeline-name> | scroll(<axis>? <scroller>?)"
   },
   "single-transition": {
     "syntax": "[ none | <single-transition-property> ] || <time> || <easing-function> || <time>"

@@ -433,6 +433,9 @@
     "en-US": "as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements",
     "ja": "指定通りで、 &lt;length&gt; は絶対長になり、 normal の計算値は段組み要素を除き 0 になる"
   },
+  "asSpecifiedWithLengthValuesComputed": {
+    "en-US": "as specified, with &lt;length&gt;s values computed"
+  },
   "asSpecifiedWithVarsSubstituted": {
     "de": "wie angegeben, wobei Variablen ersetzt werden",
     "en-US": "as specified with variables substituted",
@@ -468,11 +471,11 @@
     "ru": "<code>auto</code>, если указано как <code>auto</code>, иначе прямоугольник с четырьмя значениями, каждое из которых <code>auto</code>, если указаны как <code>auto</code> или вычисленная длина в противном случае"
   },
   "basicShape": {
-    "de": "eine <a href=\"/de/docs/Web/CSS/shape-outside#Interpolation\" title=\"Werte des <basic-shape> CSS Datentyps interpolieren als einfache Liste. Die Listenwerte interpolieren als Länge, Prozentwert oder calc, wo möglich. Falls Listenwerte nicht einem dieser Typen entsprechen, aber identisch sind, werden diese Werte interpoliert.\">einfache Form</a>",
-    "en-US": "a <a href=\"/en-US/docs/Web/CSS/shape-outside#Interpolation\" title=\"Values of the <basic-shape> CSS data type interpolate as a simple list. The list values interpolate as length, percentage, or calc where possible. If list values are not one of those types but are identical, those values do interpolate.\">basic shape</a>",
-    "fr": "une <a href=\"/fr/docs/Web/CSS/shape-outside#Interpolation\" title=\"Les valeurs de type CSS <forme-basique> sont interpolées comme une liste simple. La liste de valeurs interpole la longueur, le pourcentage ou la valeur calculée. Si les valeurs de la liste ne sont pas de ces types mais sont identiques, les valeurs seront interpolées.\">forme basique (<code>basic-shape</code>)</a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/shape-outside#Interpolation\" title=\"CSS データ型 <basic-shape> の値は単純なリストとして補間されます。リストの値は、可能であれば長さ、パーセント値、または calc() として補間されます。リストの値がこれらの型のいずれかではなく、同じ値である場合、それらの値は補間されます。\">基本シェイプ</a>",
-    "ru": "<a href=\"/ru/docs/Web/CSS/shape-outside#Interpolation\" title=\"Значения типа <базовая фигура> интерполируются как простой список. Список значений интерполируется как длина, проценты, или расчёт, где возможен. Если список значений не одинакового типа, эти значения интерполируются.\">базовая фигура</a>"
+    "de": "eine <a href=\"/de/docs/Web/CSS/shape-outside#interpolation\" title=\"Werte des <basic-shape> CSS Datentyps interpolieren als einfache Liste. Die Listenwerte interpolieren als Länge, Prozentwert oder calc, wo möglich. Falls Listenwerte nicht einem dieser Typen entsprechen, aber identisch sind, werden diese Werte interpoliert.\">einfache Form</a>",
+    "en-US": "a <a href=\"/en-US/docs/Web/CSS/shape-outside#interpolation\" title=\"Values of the <basic-shape> CSS data type interpolate as a simple list. The list values interpolate as length, percentage, or calc where possible. If list values are not one of those types but are identical, those values do interpolate.\">basic shape</a>",
+    "fr": "une <a href=\"/fr/docs/Web/CSS/shape-outside#interpolation\" title=\"Les valeurs de type CSS <forme-basique> sont interpolées comme une liste simple. La liste de valeurs interpole la longueur, le pourcentage ou la valeur calculée. Si les valeurs de la liste ne sont pas de ces types mais sont identiques, les valeurs seront interpolées.\">forme basique (<code>basic-shape</code>)</a>",
+    "ja": "<a href=\"/ja/docs/Web/CSS/shape-outside#interpolation\" title=\"CSS データ型 <basic-shape> の値は単純なリストとして補間されます。リストの値は、可能であれば長さ、パーセント値、または calc() として補間されます。リストの値がこれらの型のいずれかではなく、同じ値である場合、それらの値は補間されます。\">基本シェイプ</a>",
+    "ru": "<a href=\"/ru/docs/Web/CSS/shape-outside#interpolation\" title=\"Значения типа <базовая фигура> интерполируются как простой список. Список значений интерполируется как длина, проценты, или расчёт, где возможен. Если список значений не одинакового типа, эти значения интерполируются.\">базовая фигура</a>"
   },
   "basicShapeOtherwiseNo": {
     "de": "ja, wie angegeben für {{cssxref(\"basic-shape\")}}, ansonsten nein",
@@ -557,6 +560,9 @@
     "en-US": "by computed value type",
     "ja": "計算値の型による"
   },
+  "byComputedValueTypeNormalAnimatesAsObliqueZeroDeg": {
+    "en-US": "by computed value type; <code>normal</code> animates as <code>oblique 0deg</code>"
+  },
   "canonicalOrder": {
     "de": "Kanonische Reihenfolge",
     "en-US": "Canonical order",
@@ -573,11 +579,11 @@
     "ru": "потомки блочных элементов"
   },
   "color": {
-    "de": "<a href=\"/de/docs/Web/CSS/color_value#Interpolation\">Farbe</a>",
-    "en-US": "a <a href=\"/en-US/docs/Web/CSS/color_value#Interpolation\" title=\"Values of the <color> CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.\">color</a>",
-    "fr": "une <a href=\"/fr/docs/Web/CSS/color_value#Interpolation\" title=\"Les valeurs de type <couleur> sont interpolées sur chacune des composantes rouge, bleue et verte, considérées chacunes comme un nombre réel à virgule flottante. Notez que l'interpolation des couleurs a lieu dans l'espace couleur sRGBA pré-multiplié pour éviter l'apparition de teintes grises non désirées.\">couleur</a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/color_value#Interpolation\" title=\"CSS の <color> データ型の値は、赤、緑、青のそれぞれの値ごとに、浮動小数点の実数として扱われて補間されます。なお、アルファ事前混合 sRGBA 色空間で色の補間を行うと、予期せずに灰色が現れることがあります。\">色</a>",
-    "ru": "<a href=\"/ru/docs/Web/CSS/color_value#Interpolation\" title=\"Значения типа данных CSS <цвет> интерполируются по каждой компоненте - красной, зелёной и голубой - как вещественные числа с плавающей запятой. Обратите внимание, что интерполяция цветов происходит в цветовом пространстве sRGBA, учитывающем прозрачность, для предотвращения появления неожиданных серых цветов.\">цвет</a>"
+    "de": "<a href=\"/de/docs/Web/CSS/color_value#interpolation\">Farbe</a>",
+    "en-US": "a <a href=\"/en-US/docs/Web/CSS/color_value#interpolation\" title=\"Values of the <color> CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.\">color</a>",
+    "fr": "une <a href=\"/fr/docs/Web/CSS/color_value#interpolation\" title=\"Les valeurs de type <couleur> sont interpolées sur chacune des composantes rouge, bleue et verte, considérées chacunes comme un nombre réel à virgule flottante. Notez que l'interpolation des couleurs a lieu dans l'espace couleur sRGBA pré-multiplié pour éviter l'apparition de teintes grises non désirées.\">couleur</a>",
+    "ja": "<a href=\"/ja/docs/Web/CSS/color_value#interpolation\" title=\"CSS の <color> データ型の値は、赤、緑、青のそれぞれの値ごとに、浮動小数点の実数として扱われて補間されます。なお、アルファ事前混合 sRGBA 色空間で色の補間を行うと、予期せずに灰色が現れることがあります。\">色</a>",
+    "ru": "<a href=\"/ru/docs/Web/CSS/color_value#interpolation\" title=\"Значения типа данных CSS <цвет> интерполируются по каждой компоненте - красной, зелёной и голубой - как вещественные числа с плавающей запятой. Обратите внимание, что интерполяция цветов происходит в цветовом пространстве sRGBA, учитывающем прозрачность, для предотвращения появления неожиданных серых цветов.\">цвет</a>"
   },
   "colorPlusThreeAbsoluteLengths": {
     "de": "eine Farbe plus drei absolute Längen",
@@ -655,6 +661,9 @@
     "ja": "この一括指定のそれぞれのプロパティとして ({{cssxref(\"unicode-bidi\")}} と {{cssxref(\"direction\")}}) を除いたすべてのプロパティ",
     "ru": "как у каждого из подсвойств этого свойства (все свойства, кроме {{cssxref(\"unicode-bidi\")}} и {{cssxref(\"direction\")}})"
   },
+  "elementsForWhichSizeContainmentCanApply": {
+    "en-US": "elements for which size containment can apply"
+  },
   "elementsWithDisplayBoxOrInlineBox": {
     "de": "Elemente mit einem CSS {{cssxref(\"display\")}} Wert von <code>box</code> oder <code>inline-box</code>",
     "en-US": "elements with a CSS {{cssxref(\"display\")}} value of <code>box</code> or <code>inline-box</code>",
@@ -688,10 +697,10 @@
     "ja": "除外要素"
   },
   "filterList": {
-    "de": "eine <a href=\"/de/docs/Web/CSS/filter#Interpolation\" title=\"Falls beide Filter Funktionslisten gleicher Länge ohne URLs haben, wird jede der Filterfunktionen nach ihren spezifischen Regeln interpoliert. Falls sie unterschiedliche Längen haben, werden die fehlenden äquivalenten Filterfunktionen der längeren Liste unter Verwendung der Standardwerte an das Ende der kürzeren Liste angehängt, anschließend werden alle Filterfunktionen entsprechend ihrer spezifischen Regeln interpoliert. Falls ein Filter 'none' ist, wird er durch die Filterfunktionsliste der anderen unter Verwendung der Standardwerte ersetzt, anschließend werden alle Filterfunktionen entsprechend ihrer spezifischen Regeln interpoliert. Ansonsten wird diskrete Interpolation verwendet.\">Filterfunktionsliste</a>",
-    "en-US": "a <a href=\"/en-US/docs/Web/CSS/filter#Interpolation\" title=\"If both filters have a function list of same length without URL, each of their filters functions is interpolated according to its specific rules. If they have different lengths, the missing equivalent filter functions from the longer list are added to the end of the shorter list using their default values, then all filter functions are interpolated according to their specific rules. If one filter is 'none', it is replaced with the filter functions list of the other one using the filter function default values, then all filter functions are interpolated according to their specific rules. Otherwise discrete interpolation is used.\">filter function list</a>",
-    "fr": "une <a href=\"/fr/docs/Web/CSS/filter#Interpolation\" title=\"Si les deux filtres ont une liste de fonctions de même longueur sans URL, chaque fonction de filtre est interpolée selon les règles qui lui sont propres. Si elles sont de longueur différente, les dernières fonctions de filtre de la liste la plus longue sont ajoutées à la liste la plus courte avec leurs valeurs par défaut et ensuite, toutes les fonctions de filtre sont interpolées entre elles selon leurs règles spécifiques. Dans les autres cas, c'est une interpolation discrète qui est utilisée.\">liste de fonctions de filtre</a>",
-    "ja": "<a href=\"/en-US/docs/Web/CSS/filter#Interpolation\" title=\"両方のフィルターが同じ長さの関数リストを URL なしで持っている場合、 それぞれのフィルター関数はその固有の規則に従って補間されます。両者の長さが異なる場合は、 長い方のリストから欠けている等価なフィルター関数が既定値を使って短い方のリストの最後に追加され、 すべてのフィルター関数がそれぞれの規則に従って補間されます。一方のフィルターが 'none' の場合は，フィルター関数の既定値を用いてもう一方のフィルター関数のリストに置き換えられ，すべてのフィルター関数がその固有の規則に従って補間されます．それ以外の場合は，離散補間が用いられます。\">フィルター関数のリスト</a>"
+    "de": "eine <a href=\"/de/docs/Web/CSS/filter#interpolation\" title=\"Falls beide Filter Funktionslisten gleicher Länge ohne URLs haben, wird jede der Filterfunktionen nach ihren spezifischen Regeln interpoliert. Falls sie unterschiedliche Längen haben, werden die fehlenden äquivalenten Filterfunktionen der längeren Liste unter Verwendung der Standardwerte an das Ende der kürzeren Liste angehängt, anschließend werden alle Filterfunktionen entsprechend ihrer spezifischen Regeln interpoliert. Falls ein Filter 'none' ist, wird er durch die Filterfunktionsliste der anderen unter Verwendung der Standardwerte ersetzt, anschließend werden alle Filterfunktionen entsprechend ihrer spezifischen Regeln interpoliert. Ansonsten wird diskrete Interpolation verwendet.\">Filterfunktionsliste</a>",
+    "en-US": "a <a href=\"/en-US/docs/Web/CSS/filter#interpolation\" title=\"If both filters have a function list of same length without URL, each of their filters functions is interpolated according to its specific rules. If they have different lengths, the missing equivalent filter functions from the longer list are added to the end of the shorter list using their default values, then all filter functions are interpolated according to their specific rules. If one filter is 'none', it is replaced with the filter functions list of the other one using the filter function default values, then all filter functions are interpolated according to their specific rules. Otherwise discrete interpolation is used.\">filter function list</a>",
+    "fr": "une <a href=\"/fr/docs/Web/CSS/filter#interpolation\" title=\"Si les deux filtres ont une liste de fonctions de même longueur sans URL, chaque fonction de filtre est interpolée selon les règles qui lui sont propres. Si elles sont de longueur différente, les dernières fonctions de filtre de la liste la plus longue sont ajoutées à la liste la plus courte avec leurs valeurs par défaut et ensuite, toutes les fonctions de filtre sont interpolées entre elles selon leurs règles spécifiques. Dans les autres cas, c'est une interpolation discrète qui est utilisée.\">liste de fonctions de filtre</a>",
+    "ja": "<a href=\"/en-US/docs/Web/CSS/filter#interpolation\" title=\"両方のフィルターが同じ長さの関数リストを URL なしで持っている場合、 それぞれのフィルター関数はその固有の規則に従って補間されます。両者の長さが異なる場合は、 長い方のリストから欠けている等価なフィルター関数が既定値を使って短い方のリストの最後に追加され、 すべてのフィルター関数がそれぞれの規則に従って補間されます。一方のフィルターが 'none' の場合は，フィルター関数の既定値を用いてもう一方のフィルター関数のリストに置き換えられ，すべてのフィルター関数がその固有の規則に従って補間されます．それ以外の場合は，離散補間が用いられます。\">フィルター関数のリスト</a>"
   },
   "firstLetterPseudoElementsAndInlineLevelFirstChildren": {
     "de": "{{cssxref(\"::first-letter\")}} Pseudoelemente und Inline-Level-Elemente, die die ersten Kinder eines Blockcontainers sind",
@@ -738,18 +747,18 @@
     "ru": "плавает"
   },
   "fontStretch": {
-    "de": "<a href=\"/de/docs/Web/CSS/font-stretch#Interpolation\">Schriftbreite</a>",
-    "en-US": "a <a href=\"/en-US/docs/Web/CSS/font-stretch#Interpolation\" title=\"Font stretch values are interpolated in discrete steps. The interpolation happens as though the ordered values are equally spaced real numbers; the result is rounded to the nearest value, with values exactly halfway between two values rounded towards the later value, that is the most expanded one.\">font stretch</a>",
-    "fr": "une <a href=\"/fr/docs/Web/CSS/font-stretch#Interpolation\" title=\"Les valeurs de font stretch sont interpolées de façon discrète. L'interpolation s'effectue comme si les valeurs, dans l'ordre, étaient des nombres également distribués : le résultat est arrondi à la valeur la plus proche, les valeurs situées exactement entre deux valeurs sont arrondies à la valeur supérieure.\"><code>font stretch</code></a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/font-stretch#Interpolation\" title=\"フォントの伸張値は、離散的な段階で補間されます。補間は、順序づけられた値が等間隔の実数であるかのように行われます。結果は、最も近い値に丸められ、 2 つの値のちょうど中間の値は、最も拡張された値である後の値に向かって丸められます。\">フォントの伸長値</a>",
-    "ru": "<a href=\"/ru/docs/Web/CSS/font-stretch#Interpolation\" title=\"Значения ширины начертания шрифта интерполируются по дискретным шагам. Интерполяция происходит по упорядоченно расположенным значениям в пространстве действительных чисел; результат округляется к ближайшему значению, точно между двумя соседними значениями, округляется в сторону большего значения, которое является наиболее широким.\">ширина начертания шрифта</a>"
+    "de": "<a href=\"/de/docs/Web/CSS/font-stretch#interpolation\">Schriftbreite</a>",
+    "en-US": "a <a href=\"/en-US/docs/Web/CSS/font-stretch#interpolation\" title=\"Font stretch values are interpolated in discrete steps. The interpolation happens as though the ordered values are equally spaced real numbers; the result is rounded to the nearest value, with values exactly halfway between two values rounded towards the later value, that is the most expanded one.\">font stretch</a>",
+    "fr": "une <a href=\"/fr/docs/Web/CSS/font-stretch#interpolation\" title=\"Les valeurs de font stretch sont interpolées de façon discrète. L'interpolation s'effectue comme si les valeurs, dans l'ordre, étaient des nombres également distribués : le résultat est arrondi à la valeur la plus proche, les valeurs situées exactement entre deux valeurs sont arrondies à la valeur supérieure.\"><code>font stretch</code></a>",
+    "ja": "<a href=\"/ja/docs/Web/CSS/font-stretch#interpolation\" title=\"フォントの伸張値は、離散的な段階で補間されます。補間は、順序づけられた値が等間隔の実数であるかのように行われます。結果は、最も近い値に丸められ、 2 つの値のちょうど中間の値は、最も拡張された値である後の値に向かって丸められます。\">フォントの伸長値</a>",
+    "ru": "<a href=\"/ru/docs/Web/CSS/font-stretch#interpolation\" title=\"Значения ширины начертания шрифта интерполируются по дискретным шагам. Интерполяция происходит по упорядоченно расположенным значениям в пространстве действительных чисел; результат округляется к ближайшему значению, точно между двумя соседними значениями, округляется в сторону большего значения, которое является наиболее широким.\">ширина начертания шрифта</a>"
   },
   "fontWeight": {
-    "de": "<a href=\"/de/docs/Web/CSS/font-weight#Interpolation\">Schriftgewichtung</a>",
-    "en-US": "a <a href=\"/en-US/docs/Web/CSS/font-weight#Interpolation\" title=\"Font weight values are interpolated via discrete steps (multiples of 100). The interpolation happens in real number space and is converted to an integer by rounding to the nearest multiple of 100, with values halfway between multiples of 100 rounded towards positive infinity.\">font weight</a>",
-    "fr": "une <a href=\"/fr/docs/Web/CSS/font-weight#Interpolation\" title=\"Les valeurs de graisse de police sont interpolées via des étapes discrètes (multiple de 100). L'interpolation a lieu dans un espace de nombres réels et est convertis en un entier arroundi au plus proche multiple de 100, avec les valeurs à mis chemin entre les multiples de 100, arrondies vers l'infini positif.\">graisse de police</a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/font-weight#Interpolation\" title=\"フォントの太さは、離散的な段階 (100 の倍数) で補間されます。補間は実数空間で行われ、 100 の倍数に最も近い倍数に丸めて整数に変換され、 100 の倍数の中間の値は正の無限大に向けて丸められます。\">フォントの太さ</a>",
-    "ru": "<a href=\"/ru/docs/Web/CSS/font-weight#Interpolation\" title=\"Значения жирности шрифта интерполируются через целое число дискретных шагов (умноженных на 100). Интерполяция происходит в пространстве действительных чисел, а получившееся значение преобразуется в целое путём округления до ближайшей сотни, со значениями точно между соседними множителями, округляемыми в сторону положительной бесконечности.\">жирность шрифта</a>"
+    "de": "<a href=\"/de/docs/Web/CSS/font-weight#interpolation\">Schriftgewichtung</a>",
+    "en-US": "a <a href=\"/en-US/docs/Web/CSS/font-weight#interpolation\" title=\"Font weight values are interpolated via discrete steps (multiples of 100). The interpolation happens in real number space and is converted to an integer by rounding to the nearest multiple of 100, with values halfway between multiples of 100 rounded towards positive infinity.\">font weight</a>",
+    "fr": "une <a href=\"/fr/docs/Web/CSS/font-weight#interpolation\" title=\"Les valeurs de graisse de police sont interpolées via des étapes discrètes (multiple de 100). L'interpolation a lieu dans un espace de nombres réels et est convertis en un entier arroundi au plus proche multiple de 100, avec les valeurs à mis chemin entre les multiples de 100, arrondies vers l'infini positif.\">graisse de police</a>",
+    "ja": "<a href=\"/ja/docs/Web/CSS/font-weight#interpolation\" title=\"フォントの太さは、離散的な段階 (100 の倍数) で補間されます。補間は実数空間で行われ、 100 の倍数に最も近い倍数に丸めて整数に変換され、 100 の倍数の中間の値は正の無限大に向けて丸められます。\">フォントの太さ</a>",
+    "ru": "<a href=\"/ru/docs/Web/CSS/font-weight#interpolation\" title=\"Значения жирности шрифта интерполируются через целое число дискретных шагов (умноженных на 100). Интерполяция происходит в пространстве действительных чисел, а получившееся значение преобразуется в целое путём округления до ближайшей сотни, со значениями точно между соседними множителями, округляемыми в сторону положительной бесконечности.\">жирность шрифта</a>"
   },
   "forLengthAbsoluteValueOtherwisePercentage": {
     "de": "for {{xref_csslength}} the absolute value, otherwise a percentage",
@@ -831,11 +840,11 @@
     "ru": "встроенный размер содержащего блока"
   },
   "integer": {
-    "de": "<a href=\"/de/docs/Web/CSS/integer#Interpolation\">Integer</a>",
-    "en-US": "an <a href=\"/en-US/docs/Web/CSS/integer#Interpolation\" title=\"Values of the <integer> CSS data type are interpolated via integer discrete steps. The calculation is done as if they were real, floating-point numbers and the discrete value is obtained using the floor function.\">integer</a>",
-    "fr": "un <a href=\"/fr/docs/Web/CSS/integer#Interpolation\" title=\"Les valeurs du type <entier> sont interpolées par incrémentation discrète. Le calcul est réalisé comme si les valeurs étaient des nombres réels, en virgule flottante et la valeur discrète est obtenue en utilisant la fonction partie entière.\">entier</a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/integer#Interpolation\" title=\"CSS のデータ型 <integer> の値は整数の離散ステップで補間される。実数の浮動小数点数であるかのように計算され、 floor 関数を用いて離散値が取得される。\">integer</a>",
-    "ru": "<a href=\"/ru/docs/Web/CSS/integer#Interpolation\" title=\"Значения типа данных CSS <целое число> интерполируются через целое число дискретных шагов. Вычисления производятся словно над вещественными числами с плавающей запятой, а дискретные значения получаются с использованием функции floor.\">целое число</a>"
+    "de": "<a href=\"/de/docs/Web/CSS/integer#interpolation\">Integer</a>",
+    "en-US": "an <a href=\"/en-US/docs/Web/CSS/integer#interpolation\" title=\"Values of the <integer> CSS data type are interpolated via integer discrete steps. The calculation is done as if they were real, floating-point numbers and the discrete value is obtained using the floor function.\">integer</a>",
+    "fr": "un <a href=\"/fr/docs/Web/CSS/integer#interpolation\" title=\"Les valeurs du type <entier> sont interpolées par incrémentation discrète. Le calcul est réalisé comme si les valeurs étaient des nombres réels, en virgule flottante et la valeur discrète est obtenue en utilisant la fonction partie entière.\">entier</a>",
+    "ja": "<a href=\"/ja/docs/Web/CSS/integer#interpolation\" title=\"CSS のデータ型 <integer> の値は整数の離散ステップで補間される。実数の浮動小数点数であるかのように計算され、 floor 関数を用いて離散値が取得される。\">integer</a>",
+    "ru": "<a href=\"/ru/docs/Web/CSS/integer#interpolation\" title=\"Значения типа данных CSS <целое число> интерполируются через целое число дискретных шагов. Вычисления производятся словно над вещественными числами с плавающей запятой, а дискретные значения получаются с использованием функции floor.\">целое число</a>"
   },
   "interactive": {
     "de": "interaktiv",
@@ -873,11 +882,11 @@
     "ru": "указанное ключевое слово, плюс целые числа, если цифры"
   },
   "length": {
-    "de": "<a href=\"/de/docs/Web/CSS/length#Interpolation\">Längenangabe</a>",
-    "en-US": "a <a href=\"/en-US/docs/Web/CSS/length#Interpolation\" title=\"Values of the <length> CSS data type are interpolated as real, floating-point numbers.\">length</a>",
-    "fr": "une <a href=\"/fr/docs/Web/CSS/longueur#Interpolation\" title=\"Les valeurs du type <longueur> sont interpolées comme des nombres réels à virgule flottante.\">longueur</a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/length#Interpolation\" title=\"CSS の <length> データ型の値は、実数すなわち浮動小数点数として補間されます。\">length</a>",
-    "ru": "<a href=\"/ru/docs/Web/CSS/length#Interpolation\" title=\"Значения типа данных CSS <длина> интерполируются как вещественные числа с плавающей запятой.\">длина</a>"
+    "de": "<a href=\"/de/docs/Web/CSS/length#interpolation\">Längenangabe</a>",
+    "en-US": "a <a href=\"/en-US/docs/Web/CSS/length#interpolation\" title=\"Values of the <length> CSS data type are interpolated as real, floating-point numbers.\">length</a>",
+    "fr": "une <a href=\"/fr/docs/Web/CSS/longueur#interpolation\" title=\"Les valeurs du type <longueur> sont interpolées comme des nombres réels à virgule flottante.\">longueur</a>",
+    "ja": "<a href=\"/ja/docs/Web/CSS/length#interpolation\" title=\"CSS の <length> データ型の値は、実数すなわち浮動小数点数として補間されます。\">length</a>",
+    "ru": "<a href=\"/ru/docs/Web/CSS/length#interpolation\" title=\"Значения типа данных CSS <длина> интерполируются как вещественные числа с плавающей запятой.\">длина</a>"
   },
   "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto": {
     "de": "falls als Länge angegeben, die zugehörige absolute Länge; falls als Prozentwert angegeben, der angegebene Wert; ansonsten <code>auto</code>",
@@ -916,6 +925,9 @@
     "fr": "une liste dont chaque élément consiste en deux mots-clé, un par dimension",
     "ja": "1 つの方向につき 2 つのキーワードで構成される項目のリスト",
     "ru": "список, каждый элемент которого содержит 2 ключевых слова, по одному на размер"
+  },
+  "listEachItemIdentifierOrNoneAuto": {
+    "en-US": "a list, each item either a case-sensitive CSS identifier or the keywords <code>none</code>, <code>auto</code>"
   },
   "listEachItemTwoKeywordsOriginOffsets": {
     "de": "a list, each item consisting of two keywords representing the origin undtwo offsets from that origin, each given as an absolute length (if given a {{xref_csslength}}), otherwise as a percentage",
@@ -957,11 +969,11 @@
     "ru": "относительно размера содержащего блока на соответствующей оси (например, ширина слева или справа, высота сверху и снизу)"
   },
   "lpc": {
-    "de": "$1$, <a href=\"/de/docs/Web/CSS/percentage#Interpolation\">Prozentsatz</a> oder <a href=\"/de/docs/Web/CSS/calc\"><code>calc()</code></a>;",
-    "en-US": "$1$, <a href=\"/en-US/docs/Web/CSS/percentage#Interpolation\" title=\"Values of the <percentage> CSS data type are interpolated as real, floating-point numbers.\">percentage</a> or calc();",
-    "fr": "$1$, <a href=\"/fr/docs/Web/CSS/percentage#Interpolation\" title=\"Les valeurs du type <pourcentage> sont interpolées comme des nombres réels à virgule flottante.\">pourcentage</a> ou calc()&nbsp;;",
-    "ja": "$1$ または <a href=\"/ja/docs/Web/CSS/percentage#Interpolation\" title=\"CSS データ型の <percentage> の値は、実数の浮動小数点数として補間されます。\">パーセント値</a>, calc();",
-    "ru": "$1$, <a href=\"/ru/docs/Web/CSS/percentage#Interpolation\" title=\"Значения типа данных CSS <проценты> интерполируются как вещественные числа с плавающей запятой.\">проценты</a> или calc();"
+    "de": "$1$, <a href=\"/de/docs/Web/CSS/percentage#interpolation\">Prozentsatz</a> oder <a href=\"/de/docs/Web/CSS/calc\"><code>calc()</code></a>;",
+    "en-US": "$1$, <a href=\"/en-US/docs/Web/CSS/percentage#interpolation\" title=\"Values of the <percentage> CSS data type are interpolated as real, floating-point numbers.\">percentage</a> or calc();",
+    "fr": "$1$, <a href=\"/fr/docs/Web/CSS/percentage#interpolation\" title=\"Les valeurs du type <pourcentage> sont interpolées comme des nombres réels à virgule flottante.\">pourcentage</a> ou calc()&nbsp;;",
+    "ja": "$1$ または <a href=\"/ja/docs/Web/CSS/percentage#interpolation\" title=\"CSS データ型の <percentage> の値は、実数の浮動小数点数として補間されます。\">パーセント値</a>, calc();",
+    "ru": "$1$, <a href=\"/ru/docs/Web/CSS/percentage#interpolation\" title=\"Значения типа данных CSS <проценты> интерполируются как вещественные числа с плавающей запятой.\">проценты</a> или calc();"
   },
   "lpcNote": {
     "de": " wenn beides Längenwerte sind, werden sie als Längenwerte gehandhabt. Wenn beides Prozentsätze sind, werden sie als Prozentsätze gehandhabt. Ansonsten werden beide Werte wie in einer <code>calc()</code> Funktion addiert (Wird ggf. zu Null). Und bei diesen <code>calc()</code> Funktionen wird jede Hälfte als Realzahl interpoliert. ",
@@ -1038,6 +1050,9 @@
     "ja": "<code>none</code> または画像の絶対化した URI",
     "ru": "<code>none</code> или изображение с абсолютным URI"
   },
+  "noneOrOrderedListOfIdentifiers": {
+    "en-US": "<code>none</code> or an ordered list of identifiers"
+  },
   "nonReplacedBlockAndInlineBlockElements": {
     "de": "nicht ersetzte Blocklevel Elemente und nicht ersetzte Inlineblock Elemente",
     "en-US": "non-replaced block-level elements and non-replaced inline-block elements",
@@ -1096,11 +1111,11 @@
     "ja": "アニメーション不可"
   },
   "number": {
-    "de": "<a href=\"/de/docs/Web/CSS/number#Interpolation\">Nummer</a>",
-    "en-US": "a <a href=\"/en-US/docs/Web/CSS/number#Interpolation\" title=\"Values of the <number> CSS data type are interpolated as real, floating-point, numbers.\">number</a>",
-    "fr": "un <a href=\"/fr/docs/Web/CSS/nombre#Interpolation\" title=\"Les valeurs du type <nombre> sont interpolées comme des nombres réels, en virgule flottante.\">nombre</a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/number#Interpolation\" title=\"<number> の CSS データ型の値は浮動小数点数の実数として補完されます。\">数値</a>",
-    "ru": "<a href=\"/ru/docs/Web/CSS/number#Interpolation\" title=\"Значения типа данных CSS <число> интерполируются как вещественные числа с плавающей запятой.\">число</a>"
+    "de": "<a href=\"/de/docs/Web/CSS/number#interpolation\">Nummer</a>",
+    "en-US": "a <a href=\"/en-US/docs/Web/CSS/number#interpolation\" title=\"Values of the <number> CSS data type are interpolated as real, floating-point, numbers.\">number</a>",
+    "fr": "un <a href=\"/fr/docs/Web/CSS/nombre#interpolation\" title=\"Les valeurs du type <nombre> sont interpolées comme des nombres réels, en virgule flottante.\">nombre</a>",
+    "ja": "<a href=\"/ja/docs/Web/CSS/number#interpolation\" title=\"<number> の CSS データ型の値は浮動小数点数の実数として補完されます。\">数値</a>",
+    "ru": "<a href=\"/ru/docs/Web/CSS/number#interpolation\" title=\"Значения типа данных CSS <число> интерполируются как вещественные числа с плавающей запятой.\">число</a>"
   },
   "numberOrLength": {
     "en-US": "either number or length",
@@ -1119,13 +1134,6 @@
     "fr": "un à quatre pourcentages, comme spécifiés, ou des longueurs absolues, suivis par le mot-clé <code>fill</code> si spécifié",
     "ja": "1 つから 4 つのパーセント値 (指定通り) または絶対的な長さ。指定されていれば続けてキーワード <code>fill</code>",
     "ru": "одно к четырём процентам (как указано) или абсолютной длине(ам), плюс ключевое слово <code>fill</code>, если указано"
-  },
-  "optimumMinAndMaxValueOfAbsoluteLengthPercentageOrNormal": {
-    "de": "ein optimaler, minimaler und maximaler Wert, jeder bestehend aus entweder einer absoluten Länge, einem Prozentwert oder dem Schlüsselwort <code>normal</code>",
-    "en-US": "an optimum, minimum, and maximum value, each consisting of either an absolute length, a percentage, or the keyword <code>normal</code>",
-    "fr": "trois valeurs, optimale, minimale et maximale, chacune consitant en une longueur absolue, un pourcentage ou le mot-clé <code>normal</code>",
-    "ja": "それぞれ絶対指定の length、percentage、キーワード <code>normal</code>のいずれかである、最適値、最小値、最大値",
-    "ru": "оптимальное, минимальное и максимальное значения, каждое из которых абсолютная длина, проценты или ключевое слово <code>normal</code>"
   },
   "optimumValueOfAbsoluteLengthOrNormal": {
     "de": "ein optimaler Wert, der entweder aus einer absoluten Länge oder dem Schlüsselwort <code>normal</code> besteht",
@@ -1190,11 +1198,11 @@
     "ja": "文法通り"
   },
   "position": {
-    "de": "<a href=\"/de/docs/Web/CSS/number#Interpolation\" title=\"Werte des <position> Datentyps werden unabhängig für Abszisse und Ordinate interpoliert. Da die Geschwindigkeit für beide durch dieselbe <timing-function> bestimmt wird, wird der Punkt einer Linie folgen.\">Position</a>",
-    "en-US": "a <a href=\"/en-US/docs/Web/CSS/position_value#Interpolation\" title=\"Values of the <position> data type are interpolated independently for the abscissa and ordinate. As the speed is defined by the same <timing-function> for both, the point will move following a line.\">position</a>",
-    "fr": "une <a href=\"/fr/docs/Web/CSS/position_value#Interpolation\" title=\"Les valeurs de type <position> sont interpolées indépendamment pour les abscisses et pour les ordonnées. La vitesse est définie par la même <timing-function>, le point se déplacera donc suivant une ligne.\">position</a>",
-    "ja": "<a href=\"/en-US/docs/Web/CSS/position_value#Interpolation\" title=\"<position> データ型の値は、横軸と縦軸に対して個別に補間されます。速度は両方とも同じ <timing-function> で定義されているので、点は線に沿って移動します。\">position</a>",
-    "ru": "<a href=\"/ru/docs/Web/CSS/position_value#Interpolation\" title=\"Значении типа данных <позиция> интерполизуются независимо как абсцисса или ордината. Скорость определяется по одной <временной функции> для обоих координат, точка будет двигаться следуя линии.\">позиция</a>"
+    "de": "<a href=\"/de/docs/Web/CSS/number#interpolation\" title=\"Werte des <position> Datentyps werden unabhängig für Abszisse und Ordinate interpoliert. Da die Geschwindigkeit für beide durch dieselbe <timing-function> bestimmt wird, wird der Punkt einer Linie folgen.\">Position</a>",
+    "en-US": "a <a href=\"/en-US/docs/Web/CSS/position_value#interpolation\" title=\"Values of the <position> data type are interpolated independently for the abscissa and ordinate. As the speed is defined by the same <timing-function> for both, the point will move following a line.\">position</a>",
+    "fr": "une <a href=\"/fr/docs/Web/CSS/position_value#interpolation\" title=\"Les valeurs de type <position> sont interpolées indépendamment pour les abscisses et pour les ordonnées. La vitesse est définie par la même <timing-function>, le point se déplacera donc suivant une ligne.\">position</a>",
+    "ja": "<a href=\"/en-US/docs/Web/CSS/position_value#interpolation\" title=\"<position> データ型の値は、横軸と縦軸に対して個別に補間されます。速度は両方とも同じ <timing-function> で定義されているので、点は線に沿って移動します。\">position</a>",
+    "ru": "<a href=\"/ru/docs/Web/CSS/position_value#interpolation\" title=\"Значении типа данных <позиция> интерполизуются независимо как абсцисса или ордината. Скорость определяется по одной <временной функции> для обоих координат, точка будет двигаться следуя линии.\">позиция</a>"
   },
   "positionedElements": {
     "de": "positionierte Elemente",
@@ -1204,11 +1212,11 @@
     "ru": "позиционированные элементы"
   },
   "rectangle": {
-    "de": "<a href=\"/de/docs/Web/CSS/shape#Interpolation\">Rechteck</a>",
-    "en-US": "a <a href=\"/en-US/docs/Web/CSS/shape#Interpolation\" title=\"Values of the <shape> CSS data type which are rectangles are interpolated over their top, right, bottom and left component, each treated as a real, floating-point number.\">rectangle</a>",
-    "fr": "un <a href=\"/fr/docs/Web/CSS/forme#Interpolation\" title=\"Valeurs de type CSS <forme> qui ont des rectangles interpolés sur leurs composantes haute, droite, basse et gauche dont chacune est traitée comme un nombre flottant réel.\">rectangle</a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/shape#Interpolation\" title=\"CSS の <shape> データ型が矩形の場合の値は、その上、右、下、左の各部分に補間され、それぞれが浮動小数点数の実数として扱われます。\">rectangle</a>",
-    "ru": "<a href=\"/ru/docs/Web/CSS/shape#Interpolation\" title=\"Значения типа данных CSS <фигура>, которые являются прямоугольниками, интерполируются по их верхней, правой, нижней и левой компоненте, каждая из которых трактуется как вещественное число или с плавающей запятой.\">прямоугольник</a>"
+    "de": "<a href=\"/de/docs/Web/CSS/shape#interpolation\">Rechteck</a>",
+    "en-US": "a <a href=\"/en-US/docs/Web/CSS/shape#interpolation\" title=\"Values of the <shape> CSS data type which are rectangles are interpolated over their top, right, bottom and left component, each treated as a real, floating-point number.\">rectangle</a>",
+    "fr": "un <a href=\"/fr/docs/Web/CSS/forme#interpolation\" title=\"Valeurs de type CSS <forme> qui ont des rectangles interpolés sur leurs composantes haute, droite, basse et gauche dont chacune est traitée comme un nombre flottant réel.\">rectangle</a>",
+    "ja": "<a href=\"/ja/docs/Web/CSS/shape#interpolation\" title=\"CSS の <shape> データ型が矩形の場合の値は、その上、右、下、左の各部分に補間され、それぞれが浮動小数点数の実数として扱われます。\">rectangle</a>",
+    "ru": "<a href=\"/ru/docs/Web/CSS/shape#interpolation\" title=\"Значения типа данных CSS <фигура>, которые являются прямоугольниками, интерполируются по их верхней, правой, нижней и левой компоненте, каждая из которых трактуется как вещественное число или с плавающей запятой.\">прямоугольник</a>"
   },
   "referToBorderBox": {
     "de": "beziehen sich auf die Rahmenbox des Elements",
@@ -1309,6 +1317,9 @@
     "ja": "囲みボックスの寸法に対する相対値",
     "ru": "ссылается на размер ограничительной рамки"
   },
+  "referToSizeOfContainingBlock": {
+    "en-US": "refer to the size of containing block"
+  },
   "referToSizeOfElement": {
     "de": "beziehen sich auf die Größe der Box selbst",
     "en-US": "refer to the size of the box itself",
@@ -1355,10 +1366,10 @@
     "ja": "作用する文字の幅に対する相対値",
     "ru": "зависит от ширины символа"
   },
-  "referToWidthOfBackgroundPositioningAreaMinusBackgroundImageHeight": {
+  "referToWidthOfBackgroundPositioningAreaMinusBackgroundImageWidth": {
     "de": "bezieht sich auf die Breite des Hintergrundpositionsbereichs abzüglich der Höhe des Hintergrundbilds",
-    "en-US": "refer to width of background positioning area minus height of background image",
-    "fr": "fait référence à la largeur de la zone de positionement de l'arrière-plan moins la hauteur de l'image d'arrière-plan",
+    "en-US": "refer to width of background positioning area minus width of background image",
+    "fr": "fait référence à la largeur de la zone de positionement de l'arrière-plan moins la largeur de l'image d'arrière-plan",
     "ja": "背景配置領域の幅から背景画像の高さを引いたものに対する相対値",
     "ru": "относятся к ширине области позиционирования фона минус высота фонового изображения"
   },
@@ -1434,16 +1445,15 @@
     "en-US": "relative to the scroll container's scrollport",
     "ja": "スクロールコンテナーのスクロールポートに対する相対値"
   },
+  "relativeToWidthAndHeight": {
+    "en-US": "relative to the width and the height of the element's reference box"
+  },
   "repeatableList": {
     "de": "mehrfache Werte der folgenden Eigenschaften: ",
     "en-US": "a repeatable list of ",
     "fr": "une liste répétable de ",
     "ja": "反復可能リスト",
     "ru": "повторяющийся список из "
-  },
-  "repeatableListOfSimpleListOfLpc": {
-    "en-US": "repeatable list of simple list of length, percentage, or calc",
-    "ja": "長さ、パーセント値、 calc の単純なリストの反復可能リスト"
   },
   "replacedElements": {
     "de": "ersetzte Elemente",
@@ -1523,11 +1533,11 @@
     "ru": "смотреть текст"
   },
   "shadowList": {
-    "de": "eine <a href=\"/de/docs/Web/CSS/box-shadow#Interpolation\" title=\"Die color, x, y, blur und spread (falls anwendbar) Komponenten einer Schattenliste werden unabhängig voneinander interpoliert. Falls sich der inset-Wert irgendeines Schattenpaares der beiden Listen unterscheidet, gilt die gesamte liste als nicht interpolierbar. Falls eine Liste kürzer ist als die andere, wird die kürzere mit transparenten Schatten aufgefüllt, deren Längen alle auf 0 gesetzt sind und deren inset-Wert der längeren Liste entspricht.\">Liste von Schatten</a>",
-    "en-US": "a <a href=\"/en-US/docs/Web/CSS/box-shadow#Interpolation\" title=\"The color, x, y, blur and spread (if applicable) components of shadow lists are interpolated independently. If the inset value of any shadow pair differs between both lists, the whole list is uninterpolable. If one list is smaller than the other, it gets padded with transparent shadows with all their lengths set to 0 and its inset value matching the longer list.\">shadow list</a>",
-    "fr": "une <a href=\"/fr/docs/Web/CSS/box-shadow#Interpolation\" title=\"Les composantes de couleur, coordonnées x, y, de flou et d'étalement (si applicable) des listes d'ombres sont interpolées indépendamment. Si la valeur inset de n'importe quelle ombre différe entre les deux listes, toute la liste ne pourra pas être interpolée. Si une liste est plus petite qu'une autre, elle sera complétée avec des ombres transparentes dont les longueurs sont nulles et dont les valeurs d'inset correspondent à celles de la liste plus longue.\">liste d'ombres</a>",
-    "ja": "a <a href=\"/ja/docs/Web/CSS/box-shadow#Interpolation\" title=\"影のリストは、色の成分、 x、 y、 ぼかし、 (適切であれば) 広がりの成分で個別に補完されます。両方のリストで影の組の inset の値が異なる場合は、リスト全体は補完されません。一方のリストがもう一方より短い場合は、 transparent の色の影で補完し、すべての長さが 0 であり、 inset (の有無) が一致するものがあれば、より長いリストに一致します。\">影のリスト</a>",
-    "ru": "<a href=\"/ru/docs/Web/CSS/box-shadow#Interpolation\" title=\"Цвет, абсцисса, ордината, размытие и распространение (если применено) списка теней интерполируются независимо. Если внутреннее значение какой-либо пары теней различается в обоих списках, интерполизуется весь список. Если один список меньше остальных, он дополняется прозрачностью теней со всей их длинной установленной в 0, а его внутреннее значение соответствует длинному списку.\">список теней</a>"
+    "de": "eine <a href=\"/de/docs/Web/CSS/box-shadow#interpolation\" title=\"Die color, x, y, blur und spread (falls anwendbar) Komponenten einer Schattenliste werden unabhängig voneinander interpoliert. Falls sich der inset-Wert irgendeines Schattenpaares der beiden Listen unterscheidet, gilt die gesamte liste als nicht interpolierbar. Falls eine Liste kürzer ist als die andere, wird die kürzere mit transparenten Schatten aufgefüllt, deren Längen alle auf 0 gesetzt sind und deren inset-Wert der längeren Liste entspricht.\">Liste von Schatten</a>",
+    "en-US": "a <a href=\"/en-US/docs/Web/CSS/box-shadow#interpolation\" title=\"The color, x, y, blur and spread (if applicable) components of shadow lists are interpolated independently. If the inset value of any shadow pair differs between both lists, the whole list is uninterpolable. If one list is smaller than the other, it gets padded with transparent shadows with all their lengths set to 0 and its inset value matching the longer list.\">shadow list</a>",
+    "fr": "une <a href=\"/fr/docs/Web/CSS/box-shadow#interpolation\" title=\"Les composantes de couleur, coordonnées x, y, de flou et d'étalement (si applicable) des listes d'ombres sont interpolées indépendamment. Si la valeur inset de n'importe quelle ombre différe entre les deux listes, toute la liste ne pourra pas être interpolée. Si une liste est plus petite qu'une autre, elle sera complétée avec des ombres transparentes dont les longueurs sont nulles et dont les valeurs d'inset correspondent à celles de la liste plus longue.\">liste d'ombres</a>",
+    "ja": "a <a href=\"/ja/docs/Web/CSS/box-shadow#interpolation\" title=\"影のリストは、色の成分、 x、 y、 ぼかし、 (適切であれば) 広がりの成分で個別に補完されます。両方のリストで影の組の inset の値が異なる場合は、リスト全体は補完されません。一方のリストがもう一方より短い場合は、 transparent の色の影で補完し、すべての長さが 0 であり、 inset (の有無) が一致するものがあれば、より長いリストに一致します。\">影のリスト</a>",
+    "ru": "<a href=\"/ru/docs/Web/CSS/box-shadow#interpolation\" title=\"Цвет, абсцисса, ордината, размытие и распространение (если применено) списка теней интерполируются независимо. Если внутреннее значение какой-либо пары теней различается в обоих списках, интерполизуется весь список. Если один список меньше остальных, он дополняется прозрачностью теней со всей их длинной установленной в 0, а его внутреннее значение соответствует длинному списку.\">список теней</a>"
   },
   "simpleList": {
     "de": "ein einfacher Wert der folgenden Eigenschaften: ",
@@ -1607,11 +1617,11 @@
     "ja": "テキストフィールド",
     "ru": "текстовые поля"
   },
-  "theComputedLength": {
-    "en-US": "the computed <length>"
+  "theComputedLengthAndVisualBox": {
+    "en-US": "the computed &lt;length&gt; and a &lt;visual-box&gt; keyword"
   },
   "theKeywordListStyleImageNoneOrComputedValue": {
-    "en": "The keyword list-style-image/none or the computed <>"
+    "en-US": "The keyword <code>none</code> or the computed &lt;image&gt;"
   },
   "transform": {
     "de": "Transformation",

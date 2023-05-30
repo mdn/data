@@ -1,7 +1,7 @@
 # At-rules
 
-[data](https://github.com/mdn/data/blob/master/css/at-rules.json) |
-[schema](https://github.com/mdn/data/blob/master/css/at-rules.schema.json)
+[data](https://github.com/mdn/data/blob/main/css/at-rules.json) |
+[schema](https://github.com/mdn/data/blob/main/css/at-rules.schema.json)
 
 An [at-rule](https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule) is a CSS statement beginning with an at sign (@) that instructs CSS how to behave. There are several available identifiers defining what CSS should do in certain situations.
 

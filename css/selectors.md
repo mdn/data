@@ -1,7 +1,7 @@
 # Selectors
 
-[data](https://github.com/mdn/data/blob/master/css/selectors.json) |
-[schema](https://github.com/mdn/data/blob/master/css/selectors.schema.json)
+[data](https://github.com/mdn/data/blob/main/css/selectors.json) |
+[schema](https://github.com/mdn/data/blob/main/css/selectors.schema.json)
 
 [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) define which elements CSS rulesets will be applied to.
 

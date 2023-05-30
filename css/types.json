@@ -175,12 +175,26 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/length-percentage"
   },
+  "line-style": {
+    "groups": [
+      "CSS Types"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/line-style"
+  },
   "number": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/number"
+  },
+  "overflow": {
+    "groups": [
+      "CSS Types"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow_value"
   },
   "percentage": {
     "groups": [

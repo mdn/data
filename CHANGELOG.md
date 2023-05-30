@@ -1,5 +1,42 @@
 # Changelog
 
+## [2.0.32](https://github.com/mdn/data/compare/v2.0.32...v2.0.32) (2023-05-12)
+
+
+### Miscellaneous Chores
+
+* release 2.0.32 ([6ff71b4](https://github.com/mdn/data/commit/6ff71b4956f7d3ad3fe5fd27cdd84881da8fc0a4))
+
+## [2.0.32](https://github.com/mdn/data/compare/v2.0.32...v2.0.32) (2023-05-12)
+
+
+### Miscellaneous Chores
+
+* release 2.0.32 ([6ff71b4](https://github.com/mdn/data/commit/6ff71b4956f7d3ad3fe5fd27cdd84881da8fc0a4))
+
+## [2.0.31](https://github.com/mdn/data/compare/v2.0.30...v2.0.31) (2023-02-03)
+
+
+### Bug Fixes
+
+* scroll-timeline-axis and scroll-timeline-name are properties ([#631](https://github.com/mdn/data/issues/631)) ([7bb3805](https://github.com/mdn/data/commit/7bb3805b883fd75f79826bd5cd1582e1cc1bcc55))
+
+## [2.0.30](https://github.com/mdn/data/compare/v2.0.29...v2.0.30) (2022-10-28)
+
+
+### Bug Fixes
+
+* correct mask-repeat initial value ([b36469e](https://github.com/mdn/data/commit/b36469e253ba551ba2a5a9738b814522309e5f6a))
+* correct scroll-timeline-axis and mask-repeat initial value ([#622](https://github.com/mdn/data/issues/622)) ([e48302d](https://github.com/mdn/data/commit/e48302df0348c753db319c059cd5827b3603807d))
+* correct scroll-timeline-axis initial value ([5144622](https://github.com/mdn/data/commit/51446221397120b25d39125bb608a2572c47b0d2))
+
+## [2.0.29](https://github.com/mdn/data/compare/v2.0.28...v2.0.29) (2022-08-30)
+
+
+### Miscellaneous Chores
+
+* release 2.0.29 ([da9510f](https://github.com/mdn/data/commit/da9510f7c6cbb79e6eeda6dda51bc39358301ea6))
+
 ## [2.0.28](https://github.com/mdn/data/compare/v2.0.27...v2.0.28) (2022-07-12)
 
 
