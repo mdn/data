@@ -1449,9 +1449,8 @@
     "en-US": "relative to the width and the height of the element's reference box"
   },
   "repeatableList": {
-    "de": "mehrfache Werte der folgenden Eigenschaften: ",
-    "en-US": "a repeatable list of ",
-    "fr": "une liste répétable de ",
+    "en-US": "a repeatable list",
+    "fr": "une liste répétable",
     "ja": "反復可能リスト",
     "ru": "повторяющийся список из "
   },
