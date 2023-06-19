@@ -920,10 +920,10 @@
     "ru": "Список, каждый элемент которого состоит из: смещения, данного комбинацией абсолютной длины и процентов плюс ключевое слово"
   },
   "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage": {
-    "en-US": "A list, each item consisting of the keyword normal, a length percentage, or a timeline range name and a length percentage"
+    "en-US": "A list where each item may be 'normal', a length percentage, or a timeline range name and a length percentage"
   },
   "listEachItemConsistingOfPairsOfAutoOrLengthPercentage": {
-    "en-US": "A list, each item consisting of one or two values that can be auto or a length percentage"
+    "en-US": "A list where each item may be either 'auto' or a length percentage"
   },
   "listEachItemHasTwoKeywordsOnePerDimension": {
     "de": "eine Liste, wobei jedes Element aus zwei Schlüsselwörtern besteht, eins pro Dimension",
