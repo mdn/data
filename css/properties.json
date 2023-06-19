@@ -8844,7 +8844,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-timeline"
   },
   "scroll-timeline-axis": {
-    "syntax": "[ block | inline | vertical | horizontal ]#",
+    "syntax": "[ block | inline | x | y ]#",
     "media": "interactive",
     "inherited": false,
     "animationType": "notAnimatable",
@@ -9708,7 +9708,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-timeline"
   },
   "view-timeline-axis": {
-    "syntax": "[ block | inline | vertical | horizontal ]#",
+    "syntax": "[ block | inline | x | y ]#",
     "media": "interactive",
     "inherited": false,
     "animationType": "notAnimatable",
