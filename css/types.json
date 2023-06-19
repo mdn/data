@@ -54,6 +54,14 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/custom-ident"
   },
+  "dashed-ident": {
+    "groups": [
+      "CSS Animations",
+      "CSS Types"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/dashed-ident"
+  },
   "dimension": {
     "groups": [
       "CSS Types"

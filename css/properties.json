@@ -8819,13 +8819,12 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-y"
   },
   "scroll-timeline": {
-    "syntax": "[ <'scroll-timeline-name'> [ <'scroll-timeline-axis'> || <'scroll-timeline-attachment'> ]? ]#",
+    "syntax": "[ <'scroll-timeline-name'> <'scroll-timeline-axis'>? ]#",
     "media": "visual",
     "inherited": false,
     "animationType": [
       "scroll-timeline-name",
-      "scroll-timeline-axis",
-      "scroll-timeline-attachment"
+      "scroll-timeline-axis"
     ],
     "percentages": "no",
     "groups": [
@@ -8833,34 +8832,16 @@
     ],
     "initial": [
       "scroll-timeline-name",
-      "scroll-timeline-axis",
-      "scroll-timeline-attachment"
+      "scroll-timeline-axis"
     ],
     "appliesto": "scrollContainers",
     "computed": [
       "scroll-timeline-name",
-      "scroll-timeline-axis",
-      "scroll-timeline-attachment"
+      "scroll-timeline-axis"
     ],
     "order": "perGrammar",
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-timeline"
-  },
-  "scroll-timeline-attachment": {
-    "syntax": "[ local | defer | ancestor ]#",
-    "media": "interactive",
-    "inherited": false,
-    "animationType": "notAnimatable",
-    "percentages": "no",
-    "groups": [
-      "CSS Animations"
-    ],
-    "initial": "local",
-    "appliesto": "scrollContainers",
-    "computed": "asSpecified",
-    "order": "perGrammar",
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-timeline-attachment"
   },
   "scroll-timeline-axis": {
     "syntax": "[ block | inline | vertical | horizontal ]#",
@@ -8879,7 +8860,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-timeline-axis"
   },
   "scroll-timeline-name": {
-    "syntax": "none | <custom-ident>#",
+    "syntax": "none | <dashed-ident>#",
     "media": "interactive",
     "inherited": false,
     "animationType": "notAnimatable",
@@ -9427,6 +9408,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-underline-position"
   },
+  "timeline-scope": {
+    "syntax": "none | <dashed-ident>#",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "noneOrOrderedListOfIdentifiers",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/timeline-scope"
+  },
   "top": {
     "syntax": "<length> | <percentage> | auto",
     "media": "visual",
@@ -9686,13 +9683,12 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/vertical-align"
   },
   "view-timeline": {
-    "syntax": "[ <'view-timeline-name'> [ <'view-timeline-axis'> || <'view-timeline-attachment'> ]? ]#",
+    "syntax": "[ <'view-timeline-name'> <'view-timeline-axis'>? ]#",
     "media": "visual",
     "inherited": false,
     "animationType": [
       "view-timeline-name",
-      "view-timeline-axis",
-      "view-timeline-attachment"
+      "view-timeline-axis"
     ],
     "percentages": "no",
     "groups": [
@@ -9700,34 +9696,16 @@
     ],
     "initial": [
       "view-timeline-name",
-      "view-timeline-axis",
-      "view-timeline-attachment"
+      "view-timeline-axis"
     ],
     "appliesto": "allElements",
     "computed": [
       "view-timeline-name",
-      "view-timeline-axis",
-      "view-timeline-attachment"
+      "view-timeline-axis"
     ],
     "order": "perGrammar",
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-timeline"
-  },
-  "view-timeline-attachment": {
-    "syntax": "[ local | defer | ancestor ]#",
-    "media": "interactive",
-    "inherited": false,
-    "animationType": "notAnimatable",
-    "percentages": "no",
-    "groups": [
-      "CSS Animations"
-    ],
-    "initial": "local",
-    "appliesto": "allElements",
-    "computed": "asSpecified",
-    "order": "perGrammar",
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-timeline-attachment"
   },
   "view-timeline-axis": {
     "syntax": "[ block | inline | vertical | horizontal ]#",
@@ -9762,7 +9740,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-timeline-inset"
   },
   "view-timeline-name": {
-    "syntax": "none | <custom-ident>#",
+    "syntax": "none | <dashed-ident>#",
     "media": "interactive",
     "inherited": false,
     "animationType": "notAnimatable",
