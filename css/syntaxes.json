@@ -738,7 +738,7 @@
     "syntax": "sin( <calc-sum> )"
   },
   "single-animation": {
-    "syntax": "<time> || <easing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ] || <single-animation-timeline>"
+    "syntax": "<'animation-duration'> || <easing-function> || <'animation-delay'> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ] || <single-animation-timeline>"
   },
   "single-animation-direction": {
     "syntax": "normal | reverse | alternate | alternate-reverse"
@@ -753,7 +753,7 @@
     "syntax": "running | paused"
   },
   "single-animation-timeline": {
-    "syntax": "auto | none | <custom-ident> | <scroll()> | <view()>"
+    "syntax": "auto | none | <dashed-ident> | <scroll()> | <view()>"
   },
   "single-transition": {
     "syntax": "[ none | <single-transition-property> ] || <time> || <easing-function> || <time>"
