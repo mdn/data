@@ -1803,7 +1803,7 @@
       "animation-play-state",
       "animation-timeline"
     ],
-    "appliesto": "allElementsAndPseudos",
+    "appliesto": "allElements",
     "computed": [
       "animation-name",
       "animation-duration",
@@ -1815,7 +1815,7 @@
       "animation-play-state",
       "animation-timeline"
     ],
-    "order": "orderOfAppearance",
+    "order": "perGrammar",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation"
   },
@@ -1947,6 +1947,63 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-play-state"
   },
+  "animation-range": {
+    "syntax": "[ <'animation-range-start'> <'animation-range-end'>? ]#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "animation-range-start",
+      "animation-range-end"
+    ],
+    "percentages": "relativeToTimelineRangeIfSpecifiedOtherwiseEntireTimeline",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": [
+      "animation-range-start",
+      "animation-range-end"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "animation-range-start",
+      "animation-range-end"
+    ],
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-range"
+  },
+  "animation-range-end": {
+    "syntax": "[ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "relativeToTimelineRangeIfSpecifiedOtherwiseEntireTimeline",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": "normal",
+    "appliesto": "allElements",
+    "computed": "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-range-end"
+  },
+  "animation-range-start": {
+    "syntax": "[ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "relativeToTimelineRangeIfSpecifiedOtherwiseEntireTimeline",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": "normal",
+    "appliesto": "allElements",
+    "computed": "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-range-start"
+  },
   "animation-timing-function": {
     "syntax": "<easing-function>#",
     "media": "visual",
@@ -1975,7 +2032,7 @@
     "initial": "auto",
     "appliesto": "allElements",
     "computed": "listEachItemIdentifierOrNoneAuto",
-    "order": "uniqueOrder",
+    "order": "perGrammar",
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline"
   },
@@ -8762,7 +8819,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-y"
   },
   "scroll-timeline": {
-    "syntax": "[<'scroll-timeline-name'> <'scroll-timeline-axis'>?]#",
+    "syntax": "[ <'scroll-timeline-name'> <'scroll-timeline-axis'>? ]#",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -8787,7 +8844,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-timeline"
   },
   "scroll-timeline-axis": {
-    "syntax": "[ block | inline | vertical | horizontal ]#",
+    "syntax": "[ block | inline | x | y ]#",
     "media": "interactive",
     "inherited": false,
     "animationType": "notAnimatable",
@@ -8803,7 +8860,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-timeline-axis"
   },
   "scroll-timeline-name": {
-    "syntax": "none | <custom-ident>#",
+    "syntax": "none | <dashed-ident>#",
     "media": "interactive",
     "inherited": false,
     "animationType": "notAnimatable",
@@ -8813,7 +8870,7 @@
     ],
     "initial": "none",
     "appliesto": "scrollContainers",
-    "computed": "asSpecified",
+    "computed": "noneOrOrderedListOfIdentifiers",
     "order": "perGrammar",
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-timeline-name"
@@ -9351,6 +9408,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-underline-position"
   },
+  "timeline-scope": {
+    "syntax": "none | <dashed-ident>#",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "noneOrOrderedListOfIdentifiers",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/timeline-scope"
+  },
   "top": {
     "syntax": "<length> | <percentage> | auto",
     "media": "visual",
@@ -9608,6 +9681,79 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/vertical-align"
+  },
+  "view-timeline": {
+    "syntax": "[ <'view-timeline-name'> <'view-timeline-axis'>? ]#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "view-timeline-name",
+      "view-timeline-axis"
+    ],
+    "percentages": "no",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": [
+      "view-timeline-name",
+      "view-timeline-axis"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "view-timeline-name",
+      "view-timeline-axis"
+    ],
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-timeline"
+  },
+  "view-timeline-axis": {
+    "syntax": "[ block | inline | x | y ]#",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": "block",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-timeline-axis"
+  },
+  "view-timeline-inset": {
+    "syntax": "[ [ auto | <length-percentage> ]{1,2} ]#",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "relativeToCorrespondingDimensionOfRelevantScrollport",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": "auto",
+    "appliesto": "allElements",
+    "computed": "listEachItemConsistingOfPairsOfAutoOrLengthPercentage",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-timeline-inset"
+  },
+  "view-timeline-name": {
+    "syntax": "none | <dashed-ident>#",
+    "media": "interactive",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "noneOrOrderedListOfIdentifiers",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-timeline-name"
   },
   "view-transition-name": {
     "syntax": "none | <custom-ident>",
