@@ -455,7 +455,7 @@
         "status": "experimental"
       },
       "initial-value": {
-        "syntax": "<string>",
+        "syntax": "<declaration-value>",
         "media": "all",
         "initial": "n/a (required)",
         "percentages": "no",
