@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.0.32](https://github.com/mdn/data/compare/v2.0.32...v2.0.32) (2023-05-12)
+
+
+### Miscellaneous Chores
+
+* release 2.0.32 ([6ff71b4](https://github.com/mdn/data/commit/6ff71b4956f7d3ad3fe5fd27cdd84881da8fc0a4))
+
+## [2.0.32](https://github.com/mdn/data/compare/v2.0.32...v2.0.32) (2023-05-12)
+
+
+### Miscellaneous Chores
+
+* release 2.0.32 ([6ff71b4](https://github.com/mdn/data/commit/6ff71b4956f7d3ad3fe5fd27cdd84881da8fc0a4))
+
 ## [2.0.31](https://github.com/mdn/data/compare/v2.0.30...v2.0.31) (2023-02-03)
 
 

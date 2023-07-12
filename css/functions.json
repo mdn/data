@@ -456,6 +456,14 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scaleZ"
   },
+  "scroll()": {
+    "syntax": "scroll([<axis> || <scroller>]?)",
+    "groups": [
+      "CSS Animations"
+    ],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline/scroll"
+  },
   "skew()": {
     "syntax": "skew( [ <angle> | <zero> ] , [ <angle> | <zero> ]? )",
     "groups": [
@@ -557,5 +565,13 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/var"
+  },
+  "view()": {
+    "syntax": "view([<axis> || <'view-timeline-inset'>]?)",
+    "groups": [
+      "CSS Animations"
+    ],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline/view"
   }
 }
