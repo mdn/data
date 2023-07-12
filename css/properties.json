@@ -7263,7 +7263,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-path"
   },
   "offset-position": {
-    "syntax": "auto | <position>",
+    "syntax": "normal | auto | <position>",
     "media": "visual",
     "inherited": false,
     "animationType": "position",
