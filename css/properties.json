@@ -9898,6 +9898,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/white-space-collapse"
   },
+  "white-space-trim": {
+    "syntax": "none | discard-before || discard-after || discard-inner",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Text"
+    ],
+    "initial": "none",
+    "appliesto": "inlineBoxesAndBlockContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/white-space-trim"
+  },
   "widows": {
     "syntax": "<integer>",
     "media": "visual",
