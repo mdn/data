@@ -825,6 +825,9 @@
     "ja": "<code>inline-axis</code> (<a href=\"/ja/docs/Mozilla/Tech/XUL\">XUL</a> における <code>horizontal</code>)",
     "ru": "<code>inline-axis</code> (<code>horizontal</code> в <a href=\"/ru/docs/Mozilla/Tech/XUL\">XUL</a>)"
   },
+  "inlineBoxesAndBlockContainers": {
+    "en-US": "Inline boxes and block containers"
+  },
   "inlineLevelAndTableCellElements": {
     "de": "Inline- und table-cell Elemente",
     "en-US": "inline-level and table-cell elements",
@@ -1614,6 +1617,9 @@
     "fr": "des éléments <code>table</code> and <code>inline-table</code>",
     "ja": "<code>table</code> および <code>inline-table</code> 要素",
     "ru": "<code>table</code> и <code>inline-table</code> элементы"
+  },
+  "textAndBlockContainers": {
+    "en-US": "text and block containers"
   },
   "textElements": {
     "de": "Textelemente",
