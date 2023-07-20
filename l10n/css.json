@@ -825,6 +825,9 @@
     "ja": "<code>inline-axis</code> (<a href=\"/ja/docs/Mozilla/Tech/XUL\">XUL</a> における <code>horizontal</code>)",
     "ru": "<code>inline-axis</code> (<code>horizontal</code> в <a href=\"/ru/docs/Mozilla/Tech/XUL\">XUL</a>)"
   },
+  "inlineBoxesAndBlockContainers": {
+    "en-US": "Inline boxes and block containers"
+  },
   "inlineLevelAndTableCellElements": {
     "de": "Inline- und table-cell Elemente",
     "en-US": "inline-level and table-cell elements",
@@ -918,6 +921,12 @@
     "fr": "Une liste dont chaque élément se compose d'un décalage (exprimé comme la combinaison d'une longueur absolue et d'un pourcentage) et d'un mot-clé pour l'origine",
     "ja": "絶対長とパーセント値の組み合わせで与えられるオフセットと原点のキーワードを、各項目として構成されるリスト。",
     "ru": "Список, каждый элемент которого состоит из: смещения, данного комбинацией абсолютной длины и процентов плюс ключевое слово"
+  },
+  "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage": {
+    "en-US": "A list where each item may be 'normal', a length percentage, or a timeline range name and a length percentage"
+  },
+  "listEachItemConsistingOfPairsOfAutoOrLengthPercentage": {
+    "en-US": "A list where each item may be either 'auto' or a length percentage"
   },
   "listEachItemHasTwoKeywordsOnePerDimension": {
     "de": "eine Liste, wobei jedes Element aus zwei Schlüsselwörtern besteht, eins pro Dimension",
@@ -1430,6 +1439,9 @@
     "ja": "背景配置領域に対する相対値",
     "ru": "относительно области позиционирования фона"
   },
+  "relativeToCorrespondingDimensionOfRelevantScrollport": {
+    "en-US": "Relative to the corresponding dimension of the relevant scrollport"
+  },
   "relativeToMaskBorderImageArea": {
     "en-US": "relative to width/height of the mask border image area",
     "ja": "境界マスク画像領域の幅/高さに対する相対値"
@@ -1444,6 +1456,9 @@
   "relativeToTheScrollContainersScrollport": {
     "en-US": "relative to the scroll container's scrollport",
     "ja": "スクロールコンテナーのスクロールポートに対する相対値"
+  },
+  "relativeToTimelineRangeIfSpecifiedOtherwiseEntireTimeline": {
+    "en-US": "Relative to the specified named timeline range if specified, otherwise relative to the entire timeline"
   },
   "relativeToWidthAndHeight": {
     "en-US": "relative to the width and the height of the element's reference box"
@@ -1601,6 +1616,9 @@
     "fr": "des éléments <code>table</code> and <code>inline-table</code>",
     "ja": "<code>table</code> および <code>inline-table</code> 要素",
     "ru": "<code>table</code> и <code>inline-table</code> элементы"
+  },
+  "textAndBlockContainers": {
+    "en-US": "text and block containers"
   },
   "textElements": {
     "de": "Textelemente",
