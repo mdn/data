@@ -7246,10 +7246,10 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-distance"
   },
   "offset-path": {
-    "syntax": "none | ray( [ <angle> && <size> && contain? ] ) | <path()> | <url> | [ <basic-shape> || <geometry-box> ]",
+    "syntax": "none | <offset-path> || <coord-box>",
     "media": "visual",
     "inherited": false,
-    "animationType": "angleOrBasicShapeOrPath",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Motion Path"
