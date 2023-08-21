@@ -4315,7 +4315,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain"
   },
   "contain-intrinsic-size": {
-    "syntax": "[ none | <length> | auto <length> ]{1,2}",
+    "syntax": "[ auto? [ none | <length> ] ]{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -4339,11 +4339,11 @@
       "contain-intrinsic-height"
     ],
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-size"
   },
   "contain-intrinsic-block-size": {
-    "syntax": "none | <length> | auto <length>",
+    "syntax": "auto? [ none | <length> ]",
     "inherited": false,
     "animationType": "byComputedValueType",
     "percentages": "no",
@@ -4354,11 +4354,11 @@
     "appliesto": "elementsForWhichSizeContainmentCanApply",
     "computed": "asSpecifiedWithLengthValuesComputed",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-block-size"
   },
   "contain-intrinsic-height": {
-    "syntax": "none | <length> | auto <length>",
+    "syntax": "auto? [ none | <length> ]",
     "inherited": false,
     "animationType": "byComputedValueType",
     "percentages": "no",
@@ -4369,11 +4369,11 @@
     "appliesto": "elementsForWhichSizeContainmentCanApply",
     "computed": "asSpecifiedWithLengthValuesComputed",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-height"
   },
   "contain-intrinsic-inline-size": {
-    "syntax": "none | <length> | auto <length>",
+    "syntax": "auto? [ none | <length> ]",
     "inherited": false,
     "animationType": "byComputedValueType",
     "percentages": "no",
@@ -4384,11 +4384,11 @@
     "appliesto": "elementsForWhichSizeContainmentCanApply",
     "computed": "asSpecifiedWithLengthValuesComputed",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-inline-size"
   },
   "contain-intrinsic-width": {
-    "syntax": "none | <length> | auto <length>",
+    "syntax": "auto? [ none | <length> ]",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -4400,7 +4400,7 @@
     "appliesto": "elementsForWhichSizeContainmentCanApply",
     "computed": "asSpecifiedWithLengthValuesComputed",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-width"
   },
   "container": {
