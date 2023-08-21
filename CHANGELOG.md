@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.0.33](https://github.com/mdn/data/compare/v2.0.32...v2.0.33) (2023-08-21)
+
+
+### Features
+
+* update CSS offset-path syntax ([#680](https://github.com/mdn/data/issues/680)) ([a609205](https://github.com/mdn/data/commit/a6092053a42f8ae15c3d16148980e22dffa41634))
+
+
+### Miscellaneous Chores
+
+* release 2.0.32 ([6ff71b4](https://github.com/mdn/data/commit/6ff71b4956f7d3ad3fe5fd27cdd84881da8fc0a4))
+* release 2.0.33 ([fa9c0e5](https://github.com/mdn/data/commit/fa9c0e5fb5bf95df0daa6689c0bc7cf874bda0e6))
+
 ## [2.0.32](https://github.com/mdn/data/compare/v2.0.32...v2.0.32) (2023-05-12)
 
 
