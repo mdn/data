@@ -9223,7 +9223,7 @@
   "text-emphasis": {
     "syntax": "<'text-emphasis-style'> || <'text-emphasis-color'>",
     "media": "visual",
-    "inherited": false,
+    "inherited": true,
     "animationType": [
       "text-emphasis-color",
       "text-emphasis-style"
@@ -9248,7 +9248,7 @@
   "text-emphasis-color": {
     "syntax": "<color>",
     "media": "visual",
-    "inherited": false,
+    "inherited": true,
     "animationType": "color",
     "percentages": "no",
     "groups": [
@@ -9264,7 +9264,7 @@
   "text-emphasis-position": {
     "syntax": "[ over | under ] && [ right | left ]",
     "media": "visual",
-    "inherited": false,
+    "inherited": true,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
@@ -9280,7 +9280,7 @@
   "text-emphasis-style": {
     "syntax": "none | [ [ filled | open ] || [ dot | circle | double-circle | triangle | sesame ] ] | <string>",
     "media": "visual",
-    "inherited": false,
+    "inherited": true,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
