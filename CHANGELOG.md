@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.1.0](https://github.com/mdn/data/compare/v2.0.33...v2.1.0) (2023-08-29)
+
+
+### Features
+
+* CSS contain-intrinsic-* syntax updates ([#684](https://github.com/mdn/data/issues/684)) ([59748c3](https://github.com/mdn/data/commit/59748c3705842f6ef78622e38c208eb5b9f6e6b8))
+
+
+### Bug Fixes
+
+* **css:** Mark all 'text-emphasis*' properties inheritable ([#685](https://github.com/mdn/data/issues/685)) ([4382320](https://github.com/mdn/data/commit/4382320919e033de157f923172f3877045493951))
+
 ## [2.0.33](https://github.com/mdn/data/compare/v2.0.32...v2.0.33) (2023-08-21)
 
 
