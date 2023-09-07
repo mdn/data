@@ -4483,7 +4483,7 @@
     "syntax": "visible | auto | hidden",
     "media": "all",
     "inherited": false,
-    "animationType": "notAnimatable",
+    "animationType": "discreteHiddenSwapAt0",
     "percentages": "no",
     "groups": [
       "CSS Containment"
@@ -4582,7 +4582,7 @@
     "syntax": "[ <display-outside> || <display-inside> ] | <display-listitem> | <display-internal> | <display-box> | <display-legacy>",
     "media": "all",
     "inherited": false,
-    "animationType": "notAnimatable",
+    "animationType": "discreteNoneSwapAt0",
     "percentages": "no",
     "groups": [
       "CSS Display"
@@ -7594,6 +7594,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow-y"
   },
+  "overlay": {
+    "syntax": "none | auto",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discreteSwapAt1",
+    "percentages": "no",
+    "groups": [
+      "CSS Positioning"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overlay"
+  },
   "overscroll-behavior": {
     "syntax": "[ contain | none | auto ]{1,2}",
     "media": "visual",
@@ -9614,18 +9630,36 @@
       "transition-delay",
       "transition-duration",
       "transition-property",
-      "transition-timing-function"
+      "transition-timing-function",
+      "transition-behavior"
     ],
     "appliesto": "allElementsAndPseudos",
     "computed": [
       "transition-delay",
       "transition-duration",
       "transition-property",
-      "transition-timing-function"
+      "transition-timing-function",
+      "transition-behavior"
     ],
     "order": "orderOfAppearance",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transition"
+  },
+  "transition-behavior": {
+    "syntax": "<transition-behavior-value>#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "CSS Transitions"
+    ],
+    "initial": "normal",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transition-behavior"
   },
   "transition-delay": {
     "syntax": "<time>#",
