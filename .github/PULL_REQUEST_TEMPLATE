@@ -1,5 +1,8 @@
 <!-- 🙌 Thanks for contributing! Adding details below will help us to merge your PR faster. -->
 
+<!-- Commits need to adhere to conventional commits and only `fix:` and `feat:` commits are added to the release notes. -->
+<!-- https://www.conventionalcommits.org/en/v1.0.0/#examples -->
+
 ### Description
 
 <!-- ✍️ Summarize your changes in one or two sentences -->
