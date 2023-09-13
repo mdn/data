@@ -402,7 +402,7 @@
     "syntax": "<keyframe-block>+"
   },
   "keyframe-selector": {
-    "syntax": "from | to | <percentage>"
+    "syntax": "from | to | <percentage> | <timeline-range-name> <percentage>"
   },
   "lab()": {
     "syntax": "lab( [<percentage> | <number> | none] [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ / [<alpha-value> | none] ]? )"
@@ -617,6 +617,9 @@
   "ratio": {
     "syntax": "<number [0,∞]> [ / <number [0,∞]> ]?"
   },
+  "ray()": {
+    "syntax": "ray( <angle> && <ray-size>? && contain? )"
+  },
   "relative-selector": {
     "syntax": "<combinator>? <complex-selector>"
   },
@@ -689,6 +692,9 @@
   "scaleZ()": {
     "syntax": "scaleZ( [ <number> | <percentage> ] )"
   },
+  "scroll()": {
+    "syntax": "scroll([<axis> || <scroller>]?)"
+  },
   "scroller": {
     "syntax": "root | nearest"
   },
@@ -732,7 +738,7 @@
     "syntax": "sin( <calc-sum> )"
   },
   "single-animation": {
-    "syntax": "<time> || <easing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ]"
+    "syntax": "<'animation-duration'> || <easing-function> || <'animation-delay'> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ] || <single-animation-timeline>"
   },
   "single-animation-direction": {
     "syntax": "normal | reverse | alternate | alternate-reverse"
@@ -747,10 +753,10 @@
     "syntax": "running | paused"
   },
   "single-animation-timeline": {
-    "syntax": "auto | none | <timeline-name> | scroll(<axis>? <scroller>?)"
+    "syntax": "auto | none | <dashed-ident> | <scroll()> | <view()>"
   },
   "single-transition": {
-    "syntax": "[ none | <single-transition-property> ] || <time> || <easing-function> || <time>"
+    "syntax": "[ none | <single-transition-property> ] || <time> || <easing-function> || <time> || <transition-behavior-value>"
   },
   "single-transition-property": {
     "syntax": "all | <custom-ident>"
@@ -806,8 +812,8 @@
   "time-percentage": {
     "syntax": "<time> | <percentage>"
   },
-  "timeline-name": {
-    "syntax": "<custom-ident> | <string>"
+  "timeline-range-name": {
+    "syntax": "cover | contain | entry | exit | entry-crossing | exit-crossing"
   },
   "easing-function": {
     "syntax": "linear | <cubic-bezier-timing-function> | <step-timing-function>"
@@ -829,6 +835,9 @@
   },
   "transform-list": {
     "syntax": "<transform-function>+"
+  },
+  "transition-behavior-value": {
+    "syntax": "normal | allow-discrete"
   },
   "translate()": {
     "syntax": "translate( <length-percentage> , <length-percentage>? )"
@@ -853,6 +862,9 @@
   },
   "var()": {
     "syntax": "var( <custom-property-name> , <declaration-value>? )"
+  },
+  "view()": {
+    "syntax": "view([<axis> || <'view-timeline-inset'>]?)"
   },
   "viewport-length": {
     "syntax": "auto | <length-percentage>"
