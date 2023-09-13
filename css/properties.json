@@ -4932,7 +4932,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-style"
   },
   "font-synthesis": {
-    "syntax": "none | [ weight || style || small-caps ]",
+    "syntax": "none | [ weight || style || small-caps || position]",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -4940,7 +4940,7 @@
     "groups": [
       "CSS Fonts"
     ],
-    "initial": "weight style",
+    "initial": "weight style small-caps position ",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
