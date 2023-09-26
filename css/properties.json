@@ -5100,7 +5100,7 @@
       "CSS Fonts"
     ],
     "initial": "none",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "alsoAppliesTo": [
