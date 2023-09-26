@@ -4804,7 +4804,7 @@
       "line-height",
       "font-family"
     ],
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": [
       "font-style",
       "font-variant",
@@ -4833,7 +4833,7 @@
       "CSS Fonts"
     ],
     "initial": "dependsOnUserAgent",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -4854,7 +4854,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -4875,7 +4875,7 @@
       "CSS Fonts"
     ],
     "initial": "auto",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -4896,7 +4896,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -4917,7 +4917,7 @@
       "CSS Fonts"
     ],
     "initial": "auto",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "perGrammar",
     "alsoAppliesTo": [
@@ -4979,7 +4979,7 @@
       "CSS Fonts"
     ],
     "initial": "medium",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -5000,7 +5000,7 @@
       "CSS Fonts"
     ],
     "initial": "none",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -5037,7 +5037,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -5058,7 +5058,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -5079,7 +5079,7 @@
       "CSS Fonts"
     ],
     "initial": "weight style small-caps position ",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "alsoAppliesTo": [
@@ -5121,7 +5121,7 @@
       "CSS Fonts"
     ],
     "initial": "auto",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "alsoAppliesTo": [
@@ -5142,7 +5142,7 @@
       "CSS Fonts"
     ],
     "initial": "auto",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "alsoAppliesTo": [
@@ -5163,7 +5163,7 @@
       "CSS Fonts"
     ],
     "initial": "auto",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "alsoAppliesTo": [
@@ -5184,7 +5184,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -5205,7 +5205,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "alsoAppliesTo": [
@@ -5226,7 +5226,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -5247,7 +5247,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "alsoAppliesTo": [
@@ -5288,7 +5288,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "alsoAppliesTo": [
@@ -5309,7 +5309,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "alsoAppliesTo": [
@@ -5330,7 +5330,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -5351,7 +5351,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "keywordOrNumericalValueBolderLighterTransformedToRealValue",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
