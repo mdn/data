@@ -4315,7 +4315,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain"
   },
   "contain-intrinsic-size": {
-    "syntax": "[ none | <length> | auto <length> ]{1,2}",
+    "syntax": "[ auto? [ none | <length> ] ]{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -4339,11 +4339,11 @@
       "contain-intrinsic-height"
     ],
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-size"
   },
   "contain-intrinsic-block-size": {
-    "syntax": "none | <length> | auto <length>",
+    "syntax": "auto? [ none | <length> ]",
     "inherited": false,
     "animationType": "byComputedValueType",
     "percentages": "no",
@@ -4354,11 +4354,11 @@
     "appliesto": "elementsForWhichSizeContainmentCanApply",
     "computed": "asSpecifiedWithLengthValuesComputed",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-block-size"
   },
   "contain-intrinsic-height": {
-    "syntax": "none | <length> | auto <length>",
+    "syntax": "auto? [ none | <length> ]",
     "inherited": false,
     "animationType": "byComputedValueType",
     "percentages": "no",
@@ -4369,11 +4369,11 @@
     "appliesto": "elementsForWhichSizeContainmentCanApply",
     "computed": "asSpecifiedWithLengthValuesComputed",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-height"
   },
   "contain-intrinsic-inline-size": {
-    "syntax": "none | <length> | auto <length>",
+    "syntax": "auto? [ none | <length> ]",
     "inherited": false,
     "animationType": "byComputedValueType",
     "percentages": "no",
@@ -4384,11 +4384,11 @@
     "appliesto": "elementsForWhichSizeContainmentCanApply",
     "computed": "asSpecifiedWithLengthValuesComputed",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-inline-size"
   },
   "contain-intrinsic-width": {
-    "syntax": "none | <length> | auto <length>",
+    "syntax": "auto? [ none | <length> ]",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -4400,7 +4400,7 @@
     "appliesto": "elementsForWhichSizeContainmentCanApply",
     "computed": "asSpecifiedWithLengthValuesComputed",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-width"
   },
   "container": {
@@ -4483,7 +4483,7 @@
     "syntax": "visible | auto | hidden",
     "media": "all",
     "inherited": false,
-    "animationType": "notAnimatable",
+    "animationType": "discreteHiddenSwapAt0",
     "percentages": "no",
     "groups": [
       "CSS Containment"
@@ -4582,7 +4582,7 @@
     "syntax": "[ <display-outside> || <display-inside> ] | <display-listitem> | <display-internal> | <display-box> | <display-legacy>",
     "media": "all",
     "inherited": false,
-    "animationType": "notAnimatable",
+    "animationType": "discreteNoneSwapAt0",
     "percentages": "no",
     "groups": [
       "CSS Display"
@@ -4804,7 +4804,7 @@
       "line-height",
       "font-family"
     ],
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": [
       "font-style",
       "font-variant",
@@ -4833,7 +4833,7 @@
       "CSS Fonts"
     ],
     "initial": "dependsOnUserAgent",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -4854,7 +4854,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -4875,7 +4875,7 @@
       "CSS Fonts"
     ],
     "initial": "auto",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -4896,7 +4896,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -4917,7 +4917,7 @@
       "CSS Fonts"
     ],
     "initial": "auto",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "perGrammar",
     "alsoAppliesTo": [
@@ -4979,7 +4979,7 @@
       "CSS Fonts"
     ],
     "initial": "medium",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -5000,7 +5000,7 @@
       "CSS Fonts"
     ],
     "initial": "none",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -5037,7 +5037,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -5058,7 +5058,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -5070,7 +5070,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-style"
   },
   "font-synthesis": {
-    "syntax": "none | [ weight || style || small-caps ]",
+    "syntax": "none | [ weight || style || small-caps || position]",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -5078,8 +5078,8 @@
     "groups": [
       "CSS Fonts"
     ],
-    "initial": "weight style small-caps",
-    "appliesto": "allElements",
+    "initial": "weight style small-caps position ",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "alsoAppliesTo": [
@@ -5089,6 +5089,27 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-synthesis"
+  },
+  "font-synthesis-position": {
+    "syntax": "auto | none",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Fonts"
+    ],
+    "initial": "none",
+    "appliesto": "allElementsAndText",
+    "computed": "asSpecified",
+    "order": "orderOfAppearance",
+    "alsoAppliesTo": [
+      "::first-letter",
+      "::first-line",
+      "::placeholder"
+    ],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-synthesis-position"
   },
   "font-synthesis-small-caps": {
     "syntax": "auto | none",
@@ -5100,7 +5121,7 @@
       "CSS Fonts"
     ],
     "initial": "auto",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "alsoAppliesTo": [
@@ -5121,7 +5142,7 @@
       "CSS Fonts"
     ],
     "initial": "auto",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "alsoAppliesTo": [
@@ -5142,7 +5163,7 @@
       "CSS Fonts"
     ],
     "initial": "auto",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "alsoAppliesTo": [
@@ -5163,7 +5184,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -5184,7 +5205,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "alsoAppliesTo": [
@@ -5205,7 +5226,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -5226,7 +5247,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "alsoAppliesTo": [
@@ -5267,7 +5288,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "alsoAppliesTo": [
@@ -5288,7 +5309,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
     "alsoAppliesTo": [
@@ -5309,7 +5330,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -5330,7 +5351,7 @@
       "CSS Fonts"
     ],
     "initial": "normal",
-    "appliesto": "allElements",
+    "appliesto": "allElementsAndText",
     "computed": "keywordOrNumericalValueBolderLighterTransformedToRealValue",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -7246,10 +7267,10 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-distance"
   },
   "offset-path": {
-    "syntax": "none | ray( [ <angle> && <size> && contain? ] ) | <path()> | <url> | [ <basic-shape> || <geometry-box> ]",
+    "syntax": "none | <offset-path> || <coord-box>",
     "media": "visual",
     "inherited": false,
-    "animationType": "angleOrBasicShapeOrPath",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Motion Path"
@@ -7593,6 +7614,22 @@
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow-y"
+  },
+  "overlay": {
+    "syntax": "none | auto",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discreteSwapAt1",
+    "percentages": "no",
+    "groups": [
+      "CSS Positioning"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overlay"
   },
   "overscroll-behavior": {
     "syntax": "[ contain | none | auto ]{1,2}",
@@ -9223,7 +9260,7 @@
   "text-emphasis": {
     "syntax": "<'text-emphasis-style'> || <'text-emphasis-color'>",
     "media": "visual",
-    "inherited": false,
+    "inherited": true,
     "animationType": [
       "text-emphasis-color",
       "text-emphasis-style"
@@ -9248,7 +9285,7 @@
   "text-emphasis-color": {
     "syntax": "<color>",
     "media": "visual",
-    "inherited": false,
+    "inherited": true,
     "animationType": "color",
     "percentages": "no",
     "groups": [
@@ -9264,7 +9301,7 @@
   "text-emphasis-position": {
     "syntax": "[ over | under ] && [ right | left ]",
     "media": "visual",
-    "inherited": false,
+    "inherited": true,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
@@ -9280,7 +9317,7 @@
   "text-emphasis-style": {
     "syntax": "none | [ [ filled | open ] || [ dot | circle | double-circle | triangle | sesame ] ] | <string>",
     "media": "visual",
-    "inherited": false,
+    "inherited": true,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
@@ -9614,18 +9651,36 @@
       "transition-delay",
       "transition-duration",
       "transition-property",
-      "transition-timing-function"
+      "transition-timing-function",
+      "transition-behavior"
     ],
     "appliesto": "allElementsAndPseudos",
     "computed": [
       "transition-delay",
       "transition-duration",
       "transition-property",
-      "transition-timing-function"
+      "transition-timing-function",
+      "transition-behavior"
     ],
     "order": "orderOfAppearance",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transition"
+  },
+  "transition-behavior": {
+    "syntax": "<transition-behavior-value>#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "CSS Transitions"
+    ],
+    "initial": "normal",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transition-behavior"
   },
   "transition-delay": {
     "syntax": "<time>#",

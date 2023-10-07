@@ -756,7 +756,7 @@
     "syntax": "auto | none | <dashed-ident> | <scroll()> | <view()>"
   },
   "single-transition": {
-    "syntax": "[ none | <single-transition-property> ] || <time> || <easing-function> || <time>"
+    "syntax": "[ none | <single-transition-property> ] || <time> || <easing-function> || <time> || <transition-behavior-value>"
   },
   "single-transition-property": {
     "syntax": "all | <custom-ident>"
@@ -835,6 +835,9 @@
   },
   "transform-list": {
     "syntax": "<transform-function>+"
+  },
+  "transition-behavior-value": {
+    "syntax": "normal | allow-discrete"
   },
   "translate()": {
     "syntax": "translate( <length-percentage> , <length-percentage>? )"
