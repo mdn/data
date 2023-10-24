@@ -7397,7 +7397,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/outline"
   },
   "outline-color": {
-    "syntax": "<color> | invert",
+    "syntax": "auto | <color>",
     "media": [
       "visual",
       "interactive"
@@ -7408,9 +7408,9 @@
     "groups": [
       "CSS Basic User Interface"
     ],
-    "initial": "invertOrCurrentColor",
+    "initial": "auto",
     "appliesto": "allElements",
-    "computed": "invertForTranslucentColorRGBAOtherwiseRGB",
+    "computed": "autoForTranslucentColorRGBAOtherwiseRGB",
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/outline-color"
