@@ -865,19 +865,12 @@
     "ja": "対話的",
     "ru": "интерактивный"
   },
-  "invertForTranslucentColorRGBAOtherwiseRGB": {
-    "de": "Für das Schlüsselwort <code>invert</code> ist der berechnete Wert <code>invert</code>. Für den Farbwert, falls der Wert durchscheinend ist, ist der berechnete Wert der entsprechende <code>rgba()</code> Wert. Falls nicht, ist er der entsprechende <code>rgb()</code> Wert. Das Schlüsselwort <code>transparent</code> wird zu <code>rgba(0,0,0,0)</code>.",
-    "en-US": "For the keyword <code>invert</code>, the computed value is <code>invert</code>. For the color value, if the value is translucent, the computed value will be the <code>rgba()</code> corresponding one. If it isn't, it will be the <code>rgb()</code> corresponding one. The <code>transparent</code> keyword maps to <code>rgba(0,0,0,0)</code>.",
-    "fr": "Pour le mot-clé <code>invert</code>, la valeur calculée est <code>invert</code>. Pour la valeur de la couleur, si la valeur est transparente, la valeur calculée sera la valeur <code>rgba()</code> correspondante. S'il n'y en a pas, ce sera la valeur <code>rgb()</code> correspondante. Le mot-clé <code>transparent</code> correspondra à <code>rgba(0,0,0,0)</code>.",
-    "ja": "キーワード <code>invert</code> の場合は、計算値も <code>invert</code>。色の場合は、半透明であれば、計算値はそれに一致する <code>rbga()</code> で、不透明であれば、それに一致する <code>rgb()</code>。キーワード <code>transparent</code> は <code>rgba(0,0,0,0)</code> に対応付けられる。",
-    "ru": "Для ключевого слова <code>invert</code>, значение - <code>invert</code>. Для значения цвета, если значение имеет прозрачность, соответственно, значение будет через <code>rgba()</code>. Если это не так, это будет <code>rgb()</code>. Ключевое слово <code>transparent</code> отображается, как <code>rgba(0,0,0,0)</code>."
-  },
-  "invertOrCurrentColor": {
-    "de": "<code>invert</code> für Browser, die es unterstützen, <code>currentColor</code> für die anderen",
-    "en-US": "<code>invert</code>, for browsers supporting it, <code>currentColor</code> for the other",
-    "fr": "<code>invert</code>, pour les navigateurs le supportant, <code>currentColor</code> pour les autres",
-    "ja": "ブラウザーが対応していれば <code>invert</code>、そうでなければ <code>currentColor</code>",
-    "ru": "<code>invert</code> для браузеров поддерживающих это, <code>currentColor</code> для остальных"
+  "autoForTranslucentColorRGBAOtherwiseRGB": {
+    "de": "Für das Schlüsselwort <code>auto</code> ist der berechnete Wert <code>currentcolor</code>. Für den Farbwert, falls der Wert durchscheinend ist, ist der berechnete Wert der entsprechende <code>rgba()</code> Wert. Falls nicht, ist er der entsprechende <code>rgb()</code> Wert. Das Schlüsselwort <code>transparent</code> wird zu <code>rgba(0,0,0,0)</code>.",
+    "en-US": "For the keyword <code>auto</code>, the computed value is <code>currentcolor</code>. For the color value, if the value is translucent, the computed value will be the <code>rgba()</code> corresponding one. If it isn't, it will be the <code>rgb()</code> corresponding one. The <code>transparent</code> keyword maps to <code>rgba(0,0,0,0)</code>.",
+    "fr": "Pour le mot-clé <code>auto</code>, la valeur calculée est <code>currentcolor</code>. Pour la valeur de la couleur, si la valeur est transparente, la valeur calculée sera la valeur <code>rgba()</code> correspondante. S'il n'y en a pas, ce sera la valeur <code>rgb()</code> correspondante. Le mot-clé <code>transparent</code> correspondra à <code>rgba(0,0,0,0)</code>.",
+    "ja": "キーワード <code>auto</code> の場合は、計算値も <code>currentcolor</code>。色の場合は、半透明であれば、計算値はそれに一致する <code>rbga()</code> で、不透明であれば、それに一致する <code>rgb()</code>。キーワード <code>transparent</code> は <code>rgba(0,0,0,0)</code> に対応付けられる。",
+    "ru": "Для ключевого слова <code>auto</code>, значение - <code>currentcolor</code>. Для значения цвета, если значение имеет прозрачность, соответственно, значение будет через <code>rgba()</code>. Если это не так, это будет <code>rgb()</code>. Ключевое слово <code>transparent</code> отображается, как <code>rgba(0,0,0,0)</code>."
   },
   "keywordOrNumericalValueBolderLighterTransformedToRealValue": {
     "de": "das Schlüsselwort oder der numerische Wert wie angegeben, wobei <code>bolder</code> und <code>lighter</code> in einen realen Wert umgewandelt werden",
