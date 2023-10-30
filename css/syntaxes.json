@@ -425,6 +425,9 @@
   "length-percentage": {
     "syntax": "<length> | <percentage>"
   },
+  "light-dark()": {
+    "syntax": "light-dark( <color>, <color> )"
+  },
   "line-names": {
     "syntax": "'[' <custom-ident>* ']'"
   },
