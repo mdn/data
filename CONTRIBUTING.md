@@ -19,6 +19,8 @@ There are many ways you can help improve this repository! For example:
   Let us know if these look good to you.
 - **Localizing strings:** translations are in the [l10n folder](./l10n). You can add your locale.
 
+**Note**: Commits need to adhere to [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) and only `fix:` and `feat:` commits are considered.
+
 ### CSS data tasks
 
 - **Updating CSS data**: familiarize yourself with the [CSS schema files](./css/README.md) and add missing CSS data. An additional guide is provided in the [How to update the CSS JSON DB](./docs/updating_css_json.md) document.
