@@ -467,6 +467,14 @@
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property"
   },
+  "@scope": {
+    "syntax": "@scope [(<scope-start>)]? [to (<scope-end>)]? {\n  <rule-list>\n}",
+    "groups": [
+      "CSS Conditional Rules"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@scope"
+  },
   "@scroll-timeline": {
     "syntax": "@scroll-timeline <timeline-name> { <declaration-list> }",
     "interfaces": [
