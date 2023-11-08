@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.0](https://github.com/mdn/data/compare/v2.2.0...v2.3.0) (2023-11-08)
+
+
+### Features
+
+* add data for [@scope](https://github.com/scope) ([#693](https://github.com/mdn/data/issues/693)) ([c607a85](https://github.com/mdn/data/commit/c607a85f66e4137e1790cdac8e39c3a09a038848))
+
 ## [2.2.0](https://github.com/mdn/data/compare/v2.1.0...v2.2.0) (2023-11-03)
 
 
