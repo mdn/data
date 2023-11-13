@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.3.0](https://github.com/mdn/data/compare/v2.2.0...v2.3.0) (2023-11-08)
+
+
+### Features
+
+* add data for [@scope](https://github.com/scope) ([#693](https://github.com/mdn/data/issues/693)) ([c607a85](https://github.com/mdn/data/commit/c607a85f66e4137e1790cdac8e39c3a09a038848))
+
+## [2.2.0](https://github.com/mdn/data/compare/v2.1.0...v2.2.0) (2023-11-03)
+
+
+### Features
+
+* 28841 font synthesis position ([#691](https://github.com/mdn/data/issues/691)) ([5ced75f](https://github.com/mdn/data/commit/5ced75feb9c1c7096c3ce7b2844fa29104d5f3cb))
+
 ## [2.1.0](https://github.com/mdn/data/compare/v2.0.33...v2.1.0) (2023-08-29)
 
 
