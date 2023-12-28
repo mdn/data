@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.1](https://github.com/mdn/data/compare/v2.3.0...v2.3.1) (2023-12-28)
+
+
+### Bug Fixes
+
+* **css:** replace value 'invert' with 'auto' for outline-color property ([#694](https://github.com/mdn/data/issues/694)) ([89ff350](https://github.com/mdn/data/commit/89ff35078e47377f2175702cd83f08fe5d4f45bc))
+
 ## [2.3.0](https://github.com/mdn/data/compare/v2.2.0...v2.3.0) (2023-11-08)
 
 
