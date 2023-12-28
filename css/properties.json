@@ -4483,7 +4483,7 @@
     "syntax": "visible | auto | hidden",
     "media": "all",
     "inherited": false,
-    "animationType": "discreteHiddenSwapAt0",
+    "animationType": "discreteButVisibleForDurationWhenAnimatedHidden",
     "percentages": "no",
     "groups": [
       "CSS Containment"
@@ -4582,7 +4582,7 @@
     "syntax": "[ <display-outside> || <display-inside> ] | <display-listitem> | <display-internal> | <display-box> | <display-legacy>",
     "media": "all",
     "inherited": false,
-    "animationType": "discreteNoneSwapAt0",
+    "animationType": "discreteButVisibleForDurationWhenAnimatedNone",
     "percentages": "no",
     "groups": [
       "CSS Display"
@@ -7619,7 +7619,7 @@
     "syntax": "none | auto",
     "media": "visual",
     "inherited": false,
-    "animationType": "discreteSwapAt1",
+    "animationType": "discreteButVisibleForDurationWhenAnimatedNone",
     "percentages": "no",
     "groups": [
       "CSS Positioning"

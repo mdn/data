@@ -654,14 +654,11 @@
     "fr": "discrète",
     "ja": "離散値"
   },
-  "discreteHiddenSwapAt0": {
-    "en-US": "Discrete behavior but when animating from <code>hidden</code> swaps to end value at progress > 0 rather than 0.5"
+  "discreteButVisibleForDurationWhenAnimatedHidden": {
+    "en-US": "Discrete behavior except when animating to or from <code>hidden</code> is visible for the entire duration"
   },
-  "discreteNoneSwapAt0": {
-    "en-US": "Discrete behavior but when animating from <code>none</code> swaps to end value at progress > 0 rather than 0.5"
-  },
-  "discreteSwapAt1": {
-    "en-US": "Discrete behavior but swaps to end value at progress 1 rather than 0.5"
+  "discreteButVisibleForDurationWhenAnimatedNone": {
+    "en-US": "Discrete behavior except when animating to or from <code>none</code> is visible for the entire duration"
   },
   "eachOfShorthandPropertiesExceptUnicodeBiDiAndDirection": {
     "de": "wie jede der Kurzschreibweisen Eigenschaften (alle Eigenschaften außer {{cssxref(\"unicode-bidi\")}} und {{cssxref(\"direction\")}})",
