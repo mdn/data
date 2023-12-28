@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.2](https://github.com/mdn/data/compare/v2.3.1...v2.3.2) (2023-12-28)
+
+
+### Bug Fixes
+
+* descriptions of discrete animation behavior between visible and hidden ([#690](https://github.com/mdn/data/issues/690)) ([eb3bd6b](https://github.com/mdn/data/commit/eb3bd6beb1f3f1fbac11a1763aaf8b2c136ac356))
+
 ## [2.3.1](https://github.com/mdn/data/compare/v2.3.0...v2.3.1) (2023-12-28)
 
 
