@@ -134,7 +134,7 @@
         "consistsOfTwoDimensionKeywords",
         "consistsOfTwoKeywordsForOriginAndOffsets",
         "forLengthAbsoluteValueOtherwisePercentage",
-        "invertForTranslucentColorRGBAOtherwiseRGB",
+        "autoForTranslucentColorRGBAOtherwiseRGB",
         "keywordOrNumericalValueBolderLighterTransformedToRealValue",
         "keywordPlusIntegerIfDigits",
         "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
