@@ -318,7 +318,7 @@ For shorthand properties, several entries are a list of the longhand properties 
 ```json
 {
   "animation": {
-    "syntax": "&lt;single-animation-name&gt; || &lt;time&gt; || &lt;timing-function&gt; || &lt;time&gt; || &lt;single-animation-iteration-count&gt; || &lt;single-animation-direction&gt; || &lt;single-animation-fill-mode&gt; || &lt;single-animation-play-state&gt;",
+    "syntax": "&lt;single-animation-name&gt; || &lt;time&gt; || &lt;easing-function&gt; || &lt;time&gt; || &lt;single-animation-iteration-count&gt; || &lt;single-animation-direction&gt; || &lt;single-animation-fill-mode&gt; || &lt;single-animation-play-state&gt;",
     "media": "visual",
     "inherited": false,
     "animatable": "no",

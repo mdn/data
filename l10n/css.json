@@ -1216,10 +1216,10 @@
     "ja": "文法通り"
   },
   "position": {
-    "de": "<a href=\"/de/docs/Web/CSS/number#interpolation\" title=\"Werte des <position> Datentyps werden unabhängig für Abszisse und Ordinate interpoliert. Da die Geschwindigkeit für beide durch dieselbe <timing-function> bestimmt wird, wird der Punkt einer Linie folgen.\">Position</a>",
-    "en-US": "a <a href=\"/en-US/docs/Web/CSS/position_value#interpolation\" title=\"Values of the <position> data type are interpolated independently for the abscissa and ordinate. As the speed is defined by the same <timing-function> for both, the point will move following a line.\">position</a>",
-    "fr": "une <a href=\"/fr/docs/Web/CSS/position_value#interpolation\" title=\"Les valeurs de type <position> sont interpolées indépendamment pour les abscisses et pour les ordonnées. La vitesse est définie par la même <timing-function>, le point se déplacera donc suivant une ligne.\">position</a>",
-    "ja": "<a href=\"/en-US/docs/Web/CSS/position_value#interpolation\" title=\"<position> データ型の値は、横軸と縦軸に対して個別に補間されます。速度は両方とも同じ <timing-function> で定義されているので、点は線に沿って移動します。\">position</a>",
+    "de": "<a href=\"/de/docs/Web/CSS/number#interpolation\" title=\"Werte des <position> Datentyps werden unabhängig für Abszisse und Ordinate interpoliert. Da die Geschwindigkeit für beide durch dieselbe <easing-function> bestimmt wird, wird der Punkt einer Linie folgen.\">Position</a>",
+    "en-US": "a <a href=\"/en-US/docs/Web/CSS/position_value#interpolation\" title=\"Values of the <position> data type are interpolated independently for the abscissa and ordinate. As the speed is defined by the same <easing-function> for both, the point will move following a line.\">position</a>",
+    "fr": "une <a href=\"/fr/docs/Web/CSS/position_value#interpolation\" title=\"Les valeurs de type <position> sont interpolées indépendamment pour les abscisses et pour les ordonnées. La vitesse est définie par la même <easing-function>, le point se déplacera donc suivant une ligne.\">position</a>",
+    "ja": "<a href=\"/en-US/docs/Web/CSS/position_value#interpolation\" title=\"<position> データ型の値は、横軸と縦軸に対して個別に補間されます。速度は両方とも同じ <easing-function> で定義されているので、点は線に沿って移動します。\">position</a>",
     "ru": "<a href=\"/ru/docs/Web/CSS/position_value#interpolation\" title=\"Значении типа данных <позиция> интерполизуются независимо как абсцисса или ордината. Скорость определяется по одной <временной функции> для обоих координат, точка будет двигаться следуя линии.\">позиция</a>"
   },
   "positionedElements": {
