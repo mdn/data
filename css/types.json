@@ -111,6 +111,15 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-legacy"
   },
+  "easing-function": {
+    "groups": [
+      "CSS Animations",
+      "CSS Transitions",
+      "CSS Types"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/easing-function"
+  },
   "filter-function": {
     "groups": [
       "Filter Effects"
@@ -259,15 +268,6 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/time-percentage"
-  },
-  "timing-function": {
-    "groups": [
-      "CSS Animations",
-      "CSS Transitions",
-      "CSS Types"
-    ],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/timing-function"
   },
   "transform-function": {
     "groups": [

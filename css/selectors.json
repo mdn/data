@@ -432,15 +432,6 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-child"
   },
-  ":nth-col": {
-    "syntax": ":nth-col",
-    "groups": [
-      "Pseudo-classes",
-      "Selectors"
-    ],
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-col"
-  },
   ":nth-last-child": {
     "syntax": ":nth-last-child( <nth> [ of <complex-selector-list> ]? )",
     "groups": [
@@ -449,15 +440,6 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-last-child"
-  },
-  ":nth-last-col": {
-    "syntax": ":nth-last-col",
-    "groups": [
-      "Pseudo-classes",
-      "Selectors"
-    ],
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-last-col"
   },
   ":nth-last-of-type": {
     "syntax": ":nth-last-of-type( <nth> )",

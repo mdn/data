@@ -313,39 +313,40 @@ The syntaxes for the values `<family-name>` and `<generic-family>` are stored li
 
 ## Example for a CSS shorthand property
 
-For shorthand properties, several entries are a list of the longhand properties associated to it.
+For shorthand properties, several entries are a list of the longhand properties associated with it.
 
 ```json
 {
-  "animation": {
-    "syntax": "&lt;single-animation-name&gt; || &lt;time&gt; || &lt;timing-function&gt; || &lt;time&gt; || &lt;single-animation-iteration-count&gt; || &lt;single-animation-direction&gt; || &lt;single-animation-fill-mode&gt; || &lt;single-animation-play-state&gt;",
+  "border": {
+    "syntax": "<line-width> || <line-style> || <color>",
     "media": "visual",
     "inherited": false,
-    "animatable": "no",
+    "animationType": [
+      "border-color",
+      "border-style",
+      "border-width"
+    ],
     "percentages": "no",
-    "groups": ["CSS Animations"],
+    "groups": [
+      "CSS Backgrounds and Borders"
+    ],
     "initial": [
-      "animation-name",
-      "animation-duration",
-      "animation-timing-function",
-      "animation-delay",
-      "animation-iteration-count",
-      "animation-direction",
-      "animation-fill-mode",
-      "animation-play-state"
+      "border-width",
+      "border-style",
+      "border-color"
     ],
-    "appliesto": "allElementsAndPseudos",
+    "appliesto": "allElements",
     "computed": [
-      "animation-name",
-      "animation-duration",
-      "animation-timing-function",
-      "animation-delay",
-      "animation-direction",
-      "animation-iteration-count",
-      "animation-fill-mode",
-      "animation-play-state"
+      "border-width",
+      "border-style",
+      "border-color"
     ],
-    "order": "orderOfAppearance"
-  }
+    "order": "orderOfAppearance",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border"
+  },
 }
 ```
