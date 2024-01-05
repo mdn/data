@@ -621,7 +621,10 @@
     "syntax": "<number [0,∞]> [ / <number [0,∞]> ]?"
   },
   "ray()": {
-    "syntax": "ray( <angle> && <ray-size>? && contain? )"
+    "syntaxes": {
+      "ray-size": "closest-side | closest-corner | farthest-side | farthest-corner | sides",
+      "position": "[ left | center | right | top | bottom | <length-percentage> ] | [ left | center | right ] && [ top | center | bottom ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ] | [ [ left | right ] <length-percentage> ] && [ [ top | bottom ] <length-percentage> ]"
+    }
   },
   "relative-selector": {
     "syntax": "<combinator>? <complex-selector>"
