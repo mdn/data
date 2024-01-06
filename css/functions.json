@@ -326,11 +326,11 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/radial-gradient"
   },
   "ray()": {
-    "syntax": "ray( <angle> && <ray-size>? && contain? )",
+    "syntax": "ray( <angle> && <ray-size>? && contain? && [at <position>]? )",
     "groups": [
       "CSS Motion Path"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ray"
   },
   "repeating-linear-gradient()": {
