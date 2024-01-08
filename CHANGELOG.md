@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.3](https://github.com/mdn/data/compare/v2.3.2...v2.3.3) (2024-01-08)
+
+
+### Bug Fixes
+
+* **css:** Fix scroll() definition format ([#701](https://github.com/mdn/data/issues/701)) ([60fd71f](https://github.com/mdn/data/commit/60fd71fd064c243cfc7a96e8aef4fef7994cc8b9))
+
 ## [2.3.2](https://github.com/mdn/data/compare/v2.3.1...v2.3.2) (2023-12-28)
 
 
