@@ -696,7 +696,7 @@
     "syntax": "scaleZ( [ <number> | <percentage> ] )"
   },
   "scroll()": {
-    "syntax": "scroll([<axis> || <scroller>]?)"
+    "syntax": "scroll( [ <axis> || <scroller> ]? )"
   },
   "scroller": {
     "syntax": "root | nearest"
