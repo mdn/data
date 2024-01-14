@@ -922,10 +922,12 @@
     "ru": "Список, каждый элемент которого состоит из: смещения, данного комбинацией абсолютной длины и процентов плюс ключевое слово"
   },
   "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage": {
-    "en-US": "A list where each item may be 'normal', a length percentage, or a timeline range name and a length percentage"
+    "en-US": "A list where each item may be 'normal', a length percentage, or a timeline range name and a length percentage",
+    "ja": "リストで、それぞれの項目は 'normal'、長さのパーセント値、タイムラインの範囲名と長さのパーセント値のいずれか。"
   },
   "listEachItemConsistingOfPairsOfAutoOrLengthPercentage": {
-    "en-US": "A list where each item may be either 'auto' or a length percentage"
+    "en-US": "A list where each item may be either 'auto' or a length percentage",
+    "ja": "リストで、それぞれの項目は 'auto' または長さのパーセント値"
   },
   "listEachItemHasTwoKeywordsOnePerDimension": {
     "de": "eine Liste, wobei jedes Element aus zwei Schlüsselwörtern besteht, eins pro Dimension",
@@ -935,7 +937,8 @@
     "ru": "список, каждый элемент которого содержит 2 ключевых слова, по одному на размер"
   },
   "listEachItemIdentifierOrNoneAuto": {
-    "en-US": "a list, each item either a case-sensitive CSS identifier or the keywords <code>none</code>, <code>auto</code>"
+    "en-US": "a list, each item either a case-sensitive CSS identifier or the keywords <code>none</code>, <code>auto</code>",
+    "ja": "リストで、それぞれの項目は大文字小文字を区別する CSS 識別子またはキーワード <code>none</code>, <code>auto</code>"
   },
   "listEachItemTwoKeywordsOriginOffsets": {
     "de": "a list, each item consisting of two keywords representing the origin undtwo offsets from that origin, each given as an absolute length (if given a {{xref_csslength}}), otherwise as a percentage",
@@ -1059,7 +1062,8 @@
     "ru": "<code>none</code> или изображение с абсолютным URI"
   },
   "noneOrOrderedListOfIdentifiers": {
-    "en-US": "<code>none</code> or an ordered list of identifiers"
+    "en-US": "<code>none</code> or an ordered list of identifiers",
+    "ja": "<code>none</code> または識別子の順序付きリスト"
   },
   "nonReplacedBlockAndInlineBlockElements": {
     "de": "nicht ersetzte Blocklevel Elemente und nicht ersetzte Inlineblock Elemente",
@@ -1439,7 +1443,8 @@
     "ru": "относительно области позиционирования фона"
   },
   "relativeToCorrespondingDimensionOfRelevantScrollport": {
-    "en-US": "Relative to the corresponding dimension of the relevant scrollport"
+    "en-US": "Relative to the corresponding dimension of the relevant scrollport",
+    "ja": "関連するスクロールポートの対応する寸法との相対値"
   },
   "relativeToMaskBorderImageArea": {
     "en-US": "relative to width/height of the mask border image area",
@@ -1457,7 +1462,8 @@
     "ja": "スクロールコンテナーのスクロールポートに対する相対値"
   },
   "relativeToTimelineRangeIfSpecifiedOtherwiseEntireTimeline": {
-    "en-US": "Relative to the specified named timeline range if specified, otherwise relative to the entire timeline"
+    "en-US": "Relative to the specified named timeline range if specified, otherwise relative to the entire timeline",
+    "ja": "名前付きタイムラインが指定されていればその範囲、そうでない場合はタイムライン全体からの相対値"
   },
   "relativeToWidthAndHeight": {
     "en-US": "relative to the width and the height of the element's reference box"
@@ -1592,7 +1598,7 @@
     "de": "<code>start</code> oder ein namenloser Wert, der sich wie <code>left</code> verhält, falls {{cssxref(\"direction\")}} den Wert <code>ltr</code> hat, <code>right</code>, falls {{cssxref(\"direction\")}} den Wert <code>rtl</code> hat, falls <code>start</code> nicht vom Browser unterstützt wird.",
     "en-US": "<code>start</code>, or a nameless value that acts as <code>left</code> if {{cssxref(\"direction\")}} is <code>ltr</code>, <code>right</code> if {{cssxref(\"direction\")}} is <code>rtl</code> if <code>start</code> is not supported by the browser.",
     "fr": "<code>start</code>, ou une valeur non nommée se comportant comme <code>left</code> si {{cssxref(\"direction\")}} est <code>ltr</code>, <code>right</code> si {{cssxref(\"direction\")}} est <code>rtl</code> si <code>start</code> n'est pas supporté par le navigateur",
-    "ja": "<code>start</code>。<code>start</code> をサポートしないブラウザでは、{{cssxref(\"direction\", \"書字方向\")}}が <code>ltr</code> なら <code>left</code>、<code>rtl</code> なら <code>right</code> として動作する無名の値",
+    "ja": "<code>start</code>。<code>start</code> に対応していないブラウザーでは、{{cssxref(\"direction\", \"書字方向\")}}が <code>ltr</code> なら <code>left</code>、<code>rtl</code> なら <code>right</code> として動作する無名の値",
     "ru": "<code>start</code>, или неназванное значение, которое действует как <code>left</code>, если {{cssxref(\"direction\")}}: <code>ltr</code> или как <code>right</code>, если {{cssxref(\"direction\")}}: <code>rtl</code>, а если <code>start</code> не поддерживается браузером."
   },
   "tableCaptionElements": {
@@ -1643,14 +1649,14 @@
     "de": "Transformation",
     "en-US": "a transform",
     "fr": "une transformation",
-    "ja": "変形",
+    "ja": "座標変換",
     "ru": "трансформация"
   },
   "transformableElements": {
     "de": "transformierbare Elemente",
     "en-US": "transformable elements",
     "fr": "éléments transformables",
-    "ja": "変形可能要素",
+    "ja": "座標変換可能要素",
     "pt-BR": "qualquer elemento transformavel",
     "ru": "трансформируемые элементы"
   },
