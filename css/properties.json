@@ -7562,7 +7562,7 @@
       "CSS Text"
     ],
     "initial": "normal",
-    "appliesto": "nonReplacedInlineElements",
+    "appliesto": "textElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "standard",
