@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.4](https://github.com/mdn/data/compare/v2.3.3...v2.3.4) (2024-01-15)
+
+
+### Bug Fixes
+
+* **css:** Add some Japanese translations ([#703](https://github.com/mdn/data/issues/703)) ([5434132](https://github.com/mdn/data/commit/54341321de6fde13e2b8fba92621dad7ba3bd00f))
+
 ## [2.3.3](https://github.com/mdn/data/compare/v2.3.2...v2.3.3) (2024-01-08)
 
 

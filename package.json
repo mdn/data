@@ -1,6 +1,6 @@
 {
   "name": "mdn-data",
-  "version": "2.3.3",
+  "version": "2.3.4",
   "description": "Open Web data by the Mozilla Developer Network",
   "main": "index.js",
   "files": [
