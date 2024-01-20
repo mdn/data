@@ -2329,6 +2329,11 @@
     "appliesto": "allElements",
     "computed": "listEachItemConsistingOfAbsoluteLengthPercentageAndOrigin",
     "order": "uniqueOrder",
+    "alsoAppliesTo": [
+      "::first-letter",
+      "::first-line",
+      "::placeholder"
+    ],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/background-position-x"
   },
@@ -2345,6 +2350,11 @@
     "appliesto": "allElements",
     "computed": "listEachItemConsistingOfAbsoluteLengthPercentageAndOrigin",
     "order": "uniqueOrder",
+    "alsoAppliesTo": [
+      "::first-letter",
+      "::first-line",
+      "::placeholder"
+    ],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/background-position-y"
   },
