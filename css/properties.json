@@ -6384,8 +6384,7 @@
     ],
     "order": "uniqueOrder",
     "alsoAppliesTo": [
-      "::first-letter",
-      "::first-line"
+      "::first-letter"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin"
@@ -6458,8 +6457,7 @@
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
-      "::first-letter",
-      "::first-line"
+      "::first-letter"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-bottom"
@@ -6532,8 +6530,7 @@
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
-      "::first-letter",
-      "::first-line"
+      "::first-letter"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-left"
@@ -6552,8 +6549,7 @@
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
-      "::first-letter",
-      "::first-line"
+      "::first-letter"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-right"
@@ -6572,8 +6568,7 @@
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
-      "::first-letter",
-      "::first-line"
+      "::first-letter"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-top"
@@ -6592,8 +6587,7 @@
     "computed": "asSpecified",
     "order": "perGrammar",
     "alsoAppliesTo": [
-      "::first-letter",
-      "::first-line"
+      "::first-letter"
     ],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-trim"
