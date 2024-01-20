@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.5](https://github.com/mdn/data/compare/v2.3.4...v2.3.5) (2024-01-20)
+
+
+### Bug Fixes
+
+* **css:** Remove ::first-line from margin* props ([#706](https://github.com/mdn/data/issues/706)) ([8858ac6](https://github.com/mdn/data/commit/8858ac63fca5127b9137413338a852f2b251cf50))
+
 ## [2.3.4](https://github.com/mdn/data/compare/v2.3.3...v2.3.4) (2024-01-15)
 
 
