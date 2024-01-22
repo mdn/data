@@ -7271,7 +7271,7 @@
     "groups": [
       "CSS Motion Path"
     ],
-    "initial": "auto",
+    "initial": "normal",
     "appliesto": "transformableElements",
     "computed": "forLengthAbsoluteValueOtherwisePercentage",
     "order": "perGrammar",
