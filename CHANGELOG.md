@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.6](https://github.com/mdn/data/compare/v2.3.5...v2.3.6) (2024-01-23)
+
+
+### Bug Fixes
+
+* **css:** Update the default/initial value of `offset-position` ([#709](https://github.com/mdn/data/issues/709)) ([d619c73](https://github.com/mdn/data/commit/d619c737a0eab510c0a4bcf8048b434b0eb4ef0a))
+
 ## [2.3.5](https://github.com/mdn/data/compare/v2.3.4...v2.3.5) (2024-01-20)
 
 
