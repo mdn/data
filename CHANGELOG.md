@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.0](https://github.com/mdn/data/compare/v2.3.6...v2.4.0) (2024-01-23)
+
+
+### Features
+
+* **css:** alsoAppliesTo data for bg-pos-x/bg-pos-y ([#707](https://github.com/mdn/data/issues/707)) ([90bc67c](https://github.com/mdn/data/commit/90bc67ca14d8c428460bf34db12aae66a8f38580))
+
 ## [2.3.6](https://github.com/mdn/data/compare/v2.3.5...v2.3.6) (2024-01-23)
 
 
