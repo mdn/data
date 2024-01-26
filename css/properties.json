@@ -1138,7 +1138,7 @@
     "groups": [
       "Mozilla Extensions"
     ],
-    "initial": "none",
+    "initial": "normal",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
