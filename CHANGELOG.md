@@ -1,5 +1,26 @@
 # Changelog
 
+## [2.4.0](https://github.com/mdn/data/compare/v2.3.6...v2.4.0) (2024-01-23)
+
+
+### Features
+
+* **css:** alsoAppliesTo data for bg-pos-x/bg-pos-y ([#707](https://github.com/mdn/data/issues/707)) ([90bc67c](https://github.com/mdn/data/commit/90bc67ca14d8c428460bf34db12aae66a8f38580))
+
+## [2.3.6](https://github.com/mdn/data/compare/v2.3.5...v2.3.6) (2024-01-23)
+
+
+### Bug Fixes
+
+* **css:** Update the default/initial value of `offset-position` ([#709](https://github.com/mdn/data/issues/709)) ([d619c73](https://github.com/mdn/data/commit/d619c737a0eab510c0a4bcf8048b434b0eb4ef0a))
+
+## [2.3.5](https://github.com/mdn/data/compare/v2.3.4...v2.3.5) (2024-01-20)
+
+
+### Bug Fixes
+
+* **css:** Remove ::first-line from margin* props ([#706](https://github.com/mdn/data/issues/706)) ([8858ac6](https://github.com/mdn/data/commit/8858ac63fca5127b9137413338a852f2b251cf50))
+
 ## [2.3.4](https://github.com/mdn/data/compare/v2.3.3...v2.3.4) (2024-01-15)
 
 
