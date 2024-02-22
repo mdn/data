@@ -6874,7 +6874,7 @@
     "groups": [
       "CSS Masking"
     ],
-    "initial": "center",
+    "initial": "0% 0%",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "consistsOfTwoKeywordsForOriginAndOffsets",
     "order": "perGrammar",
