@@ -4927,7 +4927,7 @@
     "syntax": "normal | light | dark | <palette-identifier>",
     "media": "visual",
     "inherited": true,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Fonts"
