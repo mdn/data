@@ -4927,7 +4927,7 @@
     "syntax": "normal | light | dark | <palette-identifier>",
     "media": "visual",
     "inherited": true,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Fonts"
@@ -6874,7 +6874,7 @@
     "groups": [
       "CSS Masking"
     ],
-    "initial": "center",
+    "initial": "0% 0%",
     "appliesto": "allElementsSVGContainerElements",
     "computed": "consistsOfTwoKeywordsForOriginAndOffsets",
     "order": "perGrammar",

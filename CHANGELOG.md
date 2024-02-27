@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.1](https://github.com/mdn/data/compare/v2.4.0...v2.4.1) (2024-02-22)
+
+
+### Bug Fixes
+
+* **css:** replace value 'center' with '0% 0%' for mask-position inital value ([#714](https://github.com/mdn/data/issues/714)) ([2987ea9](https://github.com/mdn/data/commit/2987ea9827a8e8a29cbae0ed0a6bf02dffab3301))
+
 ## [2.4.0](https://github.com/mdn/data/compare/v2.3.6...v2.4.0) (2024-01-23)
 
 
