@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.4.2](https://github.com/mdn/data/compare/v2.4.1...v2.4.2) (2024-02-27)
+
+
+### Bug Fixes
+
+* **css:** overflow-wrap applies to text elements ([#705](https://github.com/mdn/data/issues/705)) ([6732de5](https://github.com/mdn/data/commit/6732de553d1efcd4019d56db58c829d6a0ee6bc8))
+* Update font-palette animation type ([#716](https://github.com/mdn/data/issues/716)) ([cd8d5db](https://github.com/mdn/data/commit/cd8d5db3ae744fbeb3ce7036e5255ae78182b462))
+
 ## [2.4.1](https://github.com/mdn/data/compare/v2.4.0...v2.4.1) (2024-02-22)
 
 
