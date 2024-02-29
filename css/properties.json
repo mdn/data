@@ -4611,6 +4611,9 @@
     "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
+    "groups": [
+      "CSS Basic User Interface"
+    ],
     "initial": "normal",
     "appliesto": "textFields",
     "computed": "asSpecified",
