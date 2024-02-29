@@ -4605,6 +4605,19 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/empty-cells"
   },
+  "field-sizing": {
+    "syntax": "content | fixed",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "initial": "normal",
+    "appliesto": "textFields",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/field-sizing"
+  },
   "filter": {
     "syntax": "none | <filter-function-list>",
     "media": "visual",
