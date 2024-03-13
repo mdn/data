@@ -9513,6 +9513,38 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-wrap"
   },
+  "text-wrap-mode": {
+    "syntax": "auto | wrap | nowrap",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Text"
+    ],
+    "initial": "wrap",
+    "appliesto": "text",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-wrap"
+  },
+  "text-wrap-style": {
+    "syntax": "auto | balance | stable | pretty",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Text"
+    ],
+    "initial": "auto",
+    "appliesto": "textAndBlockContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-wrap"
+  },
   "timeline-scope": {
     "syntax": "none | <dashed-ident>#",
     "media": "interactive",
