@@ -9523,7 +9523,7 @@
       "CSS Text"
     ],
     "initial": "wrap",
-    "appliesto": "text",
+    "appliesto": "textAndBlockContainers",
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "standard",
