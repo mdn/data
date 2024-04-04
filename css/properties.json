@@ -1713,7 +1713,7 @@
       "CSS Box Alignment"
     ],
     "initial": "normal",
-    "appliesto": "multilineFlexContainers",
+    "appliesto": "blockContainersMultiColumnContainersFlexContainersGridContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "standard",
