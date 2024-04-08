@@ -200,6 +200,7 @@
         "blockContainersExceptMultiColumnContainers",
         "blockContainersExceptTableWrappers",
         "blockContainersFlexContainersGridContainers",
+        "blockContainersMultiColumnContainersFlexContainersGridContainers",
         "blockElementsInNormalFlow",
         "blockLevelElements",
         "blockLevelBoxesAndAbsolutelyPositionedBoxesAndGridItems",
