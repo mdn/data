@@ -5,11 +5,43 @@ on:
     branches:
       - main
 
+  workflow_dispatch:
+    inputs:
+      force-npm-publish:
+        description: "Force npm publish"
+        type: boolean
+
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   publish-release:
-    uses: mdn/workflows/.github/workflows/publish-release.yml@main
-    with:
-      target-repo: "mdn/data"
-    secrets:
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+    if: github.repository == 'mdn/data'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Release
+        uses: GoogleCloudPlatform/release-please-action@v4
+        id: release
+
+      - name: Setup
+        if: ${{ github.event.inputs.force-npm-publish || steps.release.outputs.release_created }}
+        uses: actions/checkout@v4
+
+      - name: Checkout
+        if: ${{ github.event.inputs.force-npm-publish || steps.release.outputs.release_created }}
+        uses: actions/setup-node@v4
+        with:
+          registry-url: "https://registry.npmjs.org/"
+          node-version-file: ".nvmrc"
+
+      - name: Install
+        if: ${{ github.event.inputs.force-npm-publish || steps.release.outputs.release_created }}
+        run: npm ci
+
+      - name: Publish
+        if: ${{ github.event.inputs.force-npm-publish || steps.release.outputs.release_created }}
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
