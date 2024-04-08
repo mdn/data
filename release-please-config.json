@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "last-release-sha": "0a7a19329406b0e8f555083f7dcdd6e84a3d4707",
+  "release-type": "node",
+  "changelog-sections": [
+    { "type": "feat", "section": "Features", "hidden": false },
+    { "type": "fix", "section": "Bug Fixes", "hidden": false },
+    { "type": "enhance", "section": "Enhancements", "hidden": false },
+    { "type": "chore", "section": "Miscellaneous", "hidden": false }
+  ],
+  "include-component-in-tag": false,
+  "packages": {
+    ".": {}
+  }
+}
