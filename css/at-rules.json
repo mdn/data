@@ -417,6 +417,17 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@page"
   },
+  "@position-try": {
+    "syntax": "@position-try <dashed-ident> {\n  <declaration-list>\n}",
+    "interfaces": [
+      "CSSPositionTryRule"
+    ],
+    "groups": [
+      "CSS Positioning"
+    ],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@position-try"
+  },
   "@property": {
     "syntax": "@property <custom-property-name> {\n  <declaration-list>\n}",
     "interfaces": [
