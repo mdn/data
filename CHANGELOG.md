@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.0](https://github.com/mdn/data/compare/v2.5.0...v2.6.0) (2024-04-18)
+
+
+### Features
+
+* **css:** add Anchor Positioning data ([b3997c5](https://github.com/mdn/data/commit/b3997c5f324e472b5466e49c4070d2608ad1d008))
+
 ## [2.5.0](https://github.com/mdn/data/compare/v2.4.2...v2.5.0) (2024-04-08)
 
 
