@@ -4646,8 +4646,8 @@
     "groups": [
       "CSS Basic User Interface"
     ],
-    "initial": "normal",
-    "appliesto": "textFields",
+    "initial": "fixed",
+    "appliesto": "elementsWithDefaultPreferredSize",
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "standard",
