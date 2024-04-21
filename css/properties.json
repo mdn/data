@@ -1713,7 +1713,7 @@
       "CSS Box Alignment"
     ],
     "initial": "normal",
-    "appliesto": "multilineFlexContainers",
+    "appliesto": "blockContainersMultiColumnContainersFlexContainersGridContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "standard",
@@ -1782,6 +1782,38 @@
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/all"
+  },
+  "anchor-name": {
+    "syntax": "none | <dashed-ident>#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Positioning"
+    ],
+    "initial": "none",
+    "appliesto": "allElementsThatGenerateAPrincipalBox",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/anchor-name"
+  },
+  "anchor-scope": {
+    "syntax": "none | all | <dashed-ident>#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Positioning"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/anchor-scope"
   },
   "animation": {
     "syntax": "<single-animation>#",
@@ -6018,6 +6050,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset"
   },
+  "inset-area": {
+    "syntax": "none | <inset-area>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Positioning"
+    ],
+    "initial": "none",
+    "appliesto": "positionedElementsWithADefaultAnchorElement",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-area"
+  },
   "inset-block": {
     "syntax": "<'top'>{1,2}",
     "media": "visual",
@@ -8158,6 +8206,95 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position"
   },
+  "position-anchor": {
+    "syntax": "<anchor-element>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Positioning"
+    ],
+    "initial": "implicit",
+    "appliesto": "absolutelyPositionedElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-anchor"
+  },
+  "position-try": {
+    "syntax": "<'position-try-order'>? <'position-try-options'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "position-try-options",
+      "position-try-order"
+    ],
+    "percentages": "no",
+    "groups": [
+      "CSS Positioning"
+    ],
+    "initial": [
+      "position-try-options",
+      "position-try-order"
+    ],
+    "appliesto": "absolutelyPositionedElements",
+    "computed": [
+      "position-try-options",
+      "position-try-order"
+    ],
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-try"
+  },
+  "position-try-options": {
+    "syntax": "none | [ [<dashed-ident> || <try-tactic>] | inset-area( <'inset-area'> ) ]#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Positioning"
+    ],
+    "initial": "none",
+    "appliesto": "absolutelyPositionedElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-try-options"
+  },
+  "position-try-order": {
+    "syntax": "normal | <try-size>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Positioning"
+    ],
+    "initial": "normal",
+    "appliesto": "absolutelyPositionedElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-try-order"
+  },
+  "position-visibility": {
+    "syntax": "always | [ anchors-valid || anchors-visible || no-overflow ]",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Positioning"
+    ],
+    "initial": "anchors-visible",
+    "appliesto": "absolutelyPositionedElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-visibility"
+  },
   "print-color-adjust": {
     "syntax": "economy | exact",
     "media": "visual",
@@ -9528,6 +9665,38 @@
     "order": "perGrammar",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-wrap"
+  },
+  "text-wrap-mode": {
+    "syntax": "auto | wrap | nowrap",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Text"
+    ],
+    "initial": "wrap",
+    "appliesto": "textAndBlockContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-wrap-mode"
+  },
+  "text-wrap-style": {
+    "syntax": "auto | balance | stable | pretty",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Text"
+    ],
+    "initial": "auto",
+    "appliesto": "textAndBlockContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-wrap-style"
   },
   "timeline-scope": {
     "syntax": "none | <dashed-ident>#",

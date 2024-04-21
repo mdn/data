@@ -1,5 +1,35 @@
 # Changelog
 
+## [2.6.0](https://github.com/mdn/data/compare/v2.5.0...v2.6.0) (2024-04-18)
+
+
+### Features
+
+* **css:** add Anchor Positioning data ([b3997c5](https://github.com/mdn/data/commit/b3997c5f324e472b5466e49c4070d2608ad1d008))
+
+## [2.5.0](https://github.com/mdn/data/compare/v2.4.2...v2.5.0) (2024-04-08)
+
+
+### Features
+
+* **css:** text-wrap-mode + text-wrap-style ([2e681ff](https://github.com/mdn/data/commit/2e681ff548d9bbd5a5ba24e128a25d957fdb1eca))
+
+
+### Bug Fixes
+
+* **lint:** upgrade actions/{checkout,setup-node} to v4 + use node-version-file ([b62c9ee](https://github.com/mdn/data/commit/b62c9ee5a1d4ec3b7fcde9dbdd949559e45d118f))
+* **package-lock:** run `npm install` ([#725](https://github.com/mdn/data/issues/725)) ([dfad8d6](https://github.com/mdn/data/commit/dfad8d60036ef78eba506a6f19a7e8ec65581537))
+
+
+### Enhancements
+
+* **publish-release:** inline workflow action + allow manual execution ([#724](https://github.com/mdn/data/issues/724)) ([063fc20](https://github.com/mdn/data/commit/063fc20dd14c7ae0d95367bc699195cd3cc6f949))
+
+
+### Miscellaneous
+
+* **css:** update appliesTo for align-content ([603c07a](https://github.com/mdn/data/commit/603c07a8c3fc3365b9fb296ccadf2dd9c18eea0a))
+
 ## [2.4.2](https://github.com/mdn/data/compare/v2.4.1...v2.4.2) (2024-02-27)
 
 
