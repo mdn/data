@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.1](https://github.com/mdn/data/compare/v2.6.0...v2.6.1) (2024-04-24)
+
+
+### Bug Fixes
+
+* Add missing internationalization information ([#731](https://github.com/mdn/data/issues/731)) ([19b1a46](https://github.com/mdn/data/commit/19b1a466ccf7ab14142811cdc9a15078131a672b))
+
 ## [2.6.0](https://github.com/mdn/data/compare/v2.5.0...v2.6.0) (2024-04-18)
 
 
