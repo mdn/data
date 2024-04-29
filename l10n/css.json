@@ -4,28 +4,32 @@
     "en-US": "absolute {{cssxref(\"length\")}}",
     "fr": "une longueur (type {{cssxref(\"length\")}}) absolue",
     "ja": "絶対的な{{cssxref(\"length\", \"長さ\")}}",
-    "ru": "абсолютная {{cssxref(\"length\")}}"
+    "ru": "абсолютная {{cssxref(\"length\")}}",
+    "zh-CN": "绝对的 {{cssxref(\"length\")}}"
   },
   "absoluteLength0ForNone": {
     "de": "eine absolute Länge; falls das Schlüsselwort <code>none</code> angegeben wurde, ist der berechnete Wert <code>0</code>",
     "en-US": "an absolute length; if the keyword <code>none</code> is specified, the computed value is <code>0</code>",
     "fr": "une longueur absolue ; si le mot-clé <code>none</code> est spécifié, la valeur calculée sera <code>0</code>",
     "ja": "絶対的な長さ、キーワード <code>none</code> が指定されると計算値は <code>0</code> になる",
-    "ru": "абсолютная длина; если указано ключевое слово <code>none</code>, вычисленное значение - <code>0</code>"
+    "ru": "абсолютная длина; если указано ключевое слово <code>none</code>, вычисленное значение - <code>0</code>",
+    "zh-CN": "一个绝对长度；如果指定关键词为 <code>none</code>，则计算值为 <code>0</code>"
   },
   "absoluteLength0IfColumnRuleStyleNoneOrHidden": {
     "de": "die absolute Länge; <code>0</code> falls {{cssxref(\"column-rule-style\")}} <code>none</code> oder <code>hidden</code> ist",
     "en-US": "the absolute length; <code>0</code> if the {{cssxref(\"column-rule-style\")}} is <code>none</code> or <code>hidden</code>",
     "fr": "une longueur absolue ou <code>0</code> si {{cssxref(\"column-rule-style\")}} vaut <code>none</code> ou <code>hidden</code>",
     "ja": "絶対的な長さ、列の罫線のスタイルが <code>none</code> か <code>hidden</code> なら <code>0</code>",
-    "ru": "абсолютная длина; <code>0</code>, если {{cssxref(\"column-rule-style\")}} - <code>none</code> или <code>hidden</code>"
+    "ru": "абсолютная длина; <code>0</code>, если {{cssxref(\"column-rule-style\")}} - <code>none</code> или <code>hidden</code>",
+    "zh-CN": "绝对长度；如果 {{cssxref(\"column-rule-style\")}} 设为 <code>none</code> 或 <code>hidden</code>，则为 <code>0</code>"
   },
   "absoluteLengthOr0IfBorderBottomStyleNoneOrHidden": {
     "de": "die absolute Länge; <code>0</code> falls {{cssxref(\"border-bottom-style\")}} <code>none</code> oder <code>hidden</code> ist",
     "en-US": "the absolute length or <code>0</code> if {{cssxref(\"border-bottom-style\")}} is <code>none</code> or <code>hidden</code>",
     "fr": "la longueur absolue ou <code>0</code> si {{cssxref(\"border-bottom-style\")}} vaut <code>none</code> ou <code>hidden</code>",
     "ja": "絶対的な長さ、または {{cssxref(\"border-bottom-style\")}} が <code>none</code> または <code>hidden</code> の場合は <code>0</code>",
-    "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-bottom-style\")}} - <code>none</code> или <code>hidden</code>"
+    "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-bottom-style\")}} - <code>none</code> или <code>hidden</code>",
+    "zh-CN": "绝对长度，如果 {{cssxref(\"border-bottom-style\")}} 是 <code>none</code> 或 <code>hidden</code>，则为 <code>0</code>"
   },
   "absoluteLengthOr0IfBorderLeftStyleNoneOrHidden": {
     "de": "die absolute Länge; <code>0</code> falls {{cssxref(\"border-left-style\")}} <code>none</code> oder <code>hidden</code> ist",
@@ -131,7 +135,8 @@
     "fr": "tous les éléments",
     "ja": "すべての要素",
     "pl": "wszystkich elementów",
-    "ru": "все элементы"
+    "ru": "все элементы",
+    "zh-CN": "所有元素"
   },
   "allElementsAcceptingWidthOrHeight": {
     "de": "alle Elemente, die Breite oder Höhe akzeptieren",
@@ -321,7 +326,8 @@
     "de": "Animationstyp",
     "en-US": "Animation type",
     "fr": "Type d'animation",
-    "ja": "アニメーションの種類"
+    "ja": "アニメーションの種類",
+    "zh-CN": "动画类型"
   },
   "anyElementEffectOnProgressAndMeter": {
     "de": "beliebige Elemente; es hat eine Auswirkung auf {{HTMLElement(\"progress\")}} und {{HTMLElement(\"meter\")}}, aber nicht auf &lt;input type=\"range\"&gt; oder andere Elemente",
@@ -409,7 +415,8 @@
     "en-US": "as the specified value, except for positioned and floating elements and the root element. In both cases the computed value may be a keyword other than the one specified.",
     "fr": "comme la valeur spécifiée, excepté pour les éléments positionnés et flottants, ainsi que pour l'élément racine. Dans les deux cas, la valeur calculée peut être un mot clé différent de celui spécifié.",
     "ja": "指定通り。ただし位置指定された要素とフロート、ルート要素を除く。これらは計算値が指定したものと違うキーワードになる可能性があります",
-    "ru": "как указанное значение, кроме как для позиционированных и плавающих элементов и корневого элемента. В обоих случаях вычисляемое значение может быть ключевым словом, отличным от указанного."
+    "ru": "как указанное значение, кроме как для позиционированных и плавающих элементов и корневого элемента. В обоих случаях вычисляемое значение может быть ключевым словом, отличным от указанного.",
+    "zh-CN": "作为指定的值，但定位元素、浮动元素和根元素除外。在这两种情况下，计算出的值可能是不同于所指定的其他关键字。"
   },
   "asSpecifiedRelativeToAbsoluteLengths": {
     "de": "relativ zur gleichen Achse der Innenabstandsbox des Scrollcontainers",
@@ -664,7 +671,8 @@
     "en-US": "Discrete behavior except when animating to or from <code>hidden</code> is visible for the entire duration"
   },
   "discreteButVisibleForDurationWhenAnimatedNone": {
-    "en-US": "Discrete behavior except when animating to or from <code>none</code> is visible for the entire duration"
+    "en-US": "Discrete behavior except when animating to or from <code>none</code> is visible for the entire duration",
+    "zh-CN": "离散行为，但在动画过渡到或来自 <code>none</code> 时，整个持续期间都是可见的。"
   },
   "eachOfShorthandPropertiesExceptUnicodeBiDiAndDirection": {
     "de": "wie jede der Kurzschreibweisen Eigenschaften (alle Eigenschaften außer {{cssxref(\"unicode-bidi\")}} und {{cssxref(\"direction\")}})",
@@ -759,7 +767,8 @@
     "en-US": "floats",
     "fr": "flottants",
     "ja": "浮動要素",
-    "ru": "плавает"
+    "ru": "плавает",
+    "zh-CN": "浮动"
   },
   "fontStretch": {
     "de": "<a href=\"/de/docs/Web/CSS/font-stretch#interpolation\">Schriftbreite</a>",
@@ -787,7 +796,8 @@
     "en-US": "grid containers",
     "fr": "conteneurs de grille",
     "ja": "グリッドコンテナー",
-    "ru": "сеточные контейнеры"
+    "ru": "сеточные контейнеры",
+    "zh-CN": "网格容器"
   },
   "gridContainersWithMasonryLayout": {
     "en-US": "Grid containers with masonry layout",
@@ -1750,7 +1760,8 @@
     "fr": "oui",
     "ja": "あり",
     "pl": "tak",
-    "ru": "да"
+    "ru": "да",
+    "zh-CN": "是"
   },
   "zoomForTheTopLevelNoneForTheRest": {
     "en-US": "zoom for the top level element, none for all other elements",
