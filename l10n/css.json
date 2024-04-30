@@ -676,6 +676,9 @@
   "elementsForWhichSizeContainmentCanApply": {
     "en-US": "elements for which size containment can apply"
   },
+  "elementsWithDefaultPreferredSize": {
+    "en-US": "Elements with default preferred size"
+  },
   "elementsWithDisplayBoxOrInlineBox": {
     "de": "Elemente mit einem CSS {{cssxref(\"display\")}} Wert von <code>box</code> oder <code>inline-box</code>",
     "en-US": "elements with a CSS {{cssxref(\"display\")}} value of <code>box</code> or <code>inline-box</code>",

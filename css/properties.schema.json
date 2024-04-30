@@ -211,6 +211,7 @@
         "elementsForWhichLayoutContainmentCanApply",
         "elementsForWhichSizeContainmentCanApply",
         "elementsThatAcceptInput",
+        "elementsWithDefaultPreferredSize",
         "elementsWithDisplayBoxOrInlineBox",
         "elementsWithDisplayMarker",
         "elementsWithDisplayMozBoxMozInlineBox",
