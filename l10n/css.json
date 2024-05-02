@@ -993,14 +993,16 @@
     "en-US": "list items",
     "fr": "éléments de liste",
     "ja": " リスト項目",
-    "ru": "список элементов"
+    "ru": "список элементов",
+    "zh-CN": "列表项"
   },
   "listSeparator": {
     "de": ", ",
     "en-US": ", ",
     "fr": ", ",
     "ja": "、",
-    "ru": ", "
+    "ru": ", ",
+    "zh-CN": "、"
   },
   "logicalHeightOfContainingBlock": {
     "de": "logische Höhe des beinhaltenden Blocks",
@@ -1042,7 +1044,8 @@
     "en-US": "{{SVGElement(\"mask\")}} elements",
     "fr": "les éléments {{SVGElement(\"mask\")}}",
     "ja": "{{SVGElement(\"mask\")}} 要素",
-    "ru": "{{SVGElement(\"mask\")}} элементы"
+    "ru": "{{SVGElement(\"mask\")}} элементы",
+    "zh-CN": "{{SVGElement(\"mask\")}} 元素"
   },
   "maxZoomFactor": {
     "en-US": "The largest allowed zoom factor. A zoom factor of 100% corresponds to no zooming. Larger values zoom in. Smaller values zoom out.",
@@ -1173,7 +1176,8 @@
   "numberOrLength": {
     "en-US": "either number or length",
     "ja": "数値または長さ",
-    "ru": "число или длина"
+    "ru": "число или длина",
+    "zh-CN": "数字或长度均可"
   },
   "oneOrTwoValuesLengthAbsoluteKeywordsPercentages": {
     "de": "Einer oder mehrere Werte, mit absolut gemachten Längen und Schlüsselwörtern zu Prozentwerten umgewandelt",
@@ -1787,7 +1791,8 @@
     "en-US": "XUL {{XULElem(\"image\")}} elements and {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}}, and {{cssxref(\":-moz-tree-checkbox\")}} pseudo-elements. <strong>Note:</strong> <code>-moz-image-region</code> only works with {{XULElem(\"image\")}} elements where the icon is specified using {{cssxref(\"list-style-image\")}}. It will not work with XUL <code>&lt;image src=\"url\" /&gt;</code>.",
     "fr": "éléments XUL {{XULElem(\"image\")}} et aux pseudo-éléments {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}} et {{cssxref(\":-moz-tree-checkbox\")}}. <strong>Note&nbsp;:</strong> <code>-moz-image-region</code> ne fonctionnera qu'avec les éléments {{XULElem(\"image\")}} où l'icône est définie avec {{cssxref(\"list-style-image\")}}. Cela ne fonctionnera pas avec l'<code>&lt;image src=\"url\" /&gt;</code> XUL.",
     "ja": "XUL の {{XULElem(\"image\")}} 要素と {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}}, {{cssxref(\":-moz-tree-checkbox\")}} の各擬似要素。 <strong>注:</strong> <code>-moz-image-region</code> はアイコンが {{cssxref(\"list-style-image\")}} を使用して指定された {{XULElem(\"image\")}} 要素でしか機能しません。 XUL の <code>&lt;image src=\"url\" /&gt;</code> では機能しません。",
-    "ru": "XUL {{XULElem(\"image\")}} элементы и {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}} и {{cssxref(\":-moz-tree-checkbox\")}} псевдоэлементы. <strong>Заметьте:</strong> <code>-moz-image-region</code> работает только с элементами {{XULElem(\"image\")}}, где иконка определяется использованием {{cssxref(\"list-style-image\")}}. Это не будет работать с XUL <code>&lt;image src=\"url\" /&gt;</code>."
+    "ru": "XUL {{XULElem(\"image\")}} элементы и {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}} и {{cssxref(\":-moz-tree-checkbox\")}} псевдоэлементы. <strong>Заметьте:</strong> <code>-moz-image-region</code> работает только с элементами {{XULElem(\"image\")}}, где иконка определяется использованием {{cssxref(\"list-style-image\")}}. Это не будет работать с XUL <code>&lt;image src=\"url\" /&gt;</code>.",
+    "zh-CN": "XUL {{XULElem(\"image\")}} 元素和 {{cssxref(\":-moz-tree-image\")}}、{{cssxref(\":-moz-tree-twisty\")}} 和 {{cssxref(\":-moz-tree-checkbox\")}} 伪元素。<strong>注意：</strong> <code>-moz-image-region</code> 属性仅适用于通过 {{cssxref(\"list-style-image\")}} CSS 属性来指定图标的 XUL {{XULElem(\"image\")}} 元素。它不适用于使用 XUL <code>&lt;image src=\"url\" /&gt;</code> 格式的XUL图像标签。"
   },
   "yes": {
     "de": "Ja",
@@ -1800,6 +1805,7 @@
   },
   "zoomForTheTopLevelNoneForTheRest": {
     "en-US": "zoom for the top level element, none for all other elements",
-    "ja": "最上位要素では zoom、その他の要素では none"
+    "ja": "最上位要素では zoom、その他の要素では none",
+    "zh-CN": "顶层元素的缩放，所有其他元素无缩放"
   }
 }
