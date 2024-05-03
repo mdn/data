@@ -29,35 +29,39 @@
     "fr": "la longueur absolue ou <code>0</code> si {{cssxref(\"border-bottom-style\")}} vaut <code>none</code> ou <code>hidden</code>",
     "ja": "絶対的な長さ、または {{cssxref(\"border-bottom-style\")}} が <code>none</code> または <code>hidden</code> の場合は <code>0</code>",
     "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-bottom-style\")}} - <code>none</code> или <code>hidden</code>",
-    "zh-CN": "绝对长度，如果 {{cssxref(\"border-bottom-style\")}} 是 <code>none</code> 或 <code>hidden</code>，则为 <code>0</code>"
+    "zh-CN": "如果 {{cssxref(\"border-bottom-style\")}} 的值是 <code>none</code> 或 <code>hidden</code>，则绝对长度或为 <code>0</code>"
   },
   "absoluteLengthOr0IfBorderLeftStyleNoneOrHidden": {
     "de": "die absolute Länge; <code>0</code> falls {{cssxref(\"border-left-style\")}} <code>none</code> oder <code>hidden</code> ist",
     "en-US": "the absolute length or <code>0</code> if {{cssxref(\"border-left-style\")}} is <code>none</code> or <code>hidden</code>",
     "fr": "la longueur absolue ou <code>0</code> si {{cssxref(\"border-left-style\")}} vaut <code>none</code> ou <code>hidden</code>",
     "ja": "絶対的な長さ、または {{cssxref(\"border-left-style\")}} が <code>none</code> または <code>hidden</code> の場合は <code>0</code>",
-    "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-left-style\")}} - <code>none</code> или <code>hidden</code>"
+    "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-left-style\")}} - <code>none</code> или <code>hidden</code>",
+    "zh-CN": "如果 {{cssxref(\"border-left-style\")}} 的值为 <code>none</code> 或 <code>hidden</code>，则绝对长度或为 <code>0</code>"
   },
   "absoluteLengthOr0IfBorderRightStyleNoneOrHidden": {
     "de": "die absolute Länge; <code>0</code> falls {{cssxref(\"border-right-style\")}} <code>none</code> oder <code>hidden</code> ist",
     "en-US": "the absolute length or <code>0</code> if {{cssxref(\"border-right-style\")}} is <code>none</code> or <code>hidden</code>",
     "fr": "la longueur absolue ou <code>0</code> si {{cssxref(\"border-right-style\")}} vaut <code>none</code> ou <code>hidden</code>",
     "ja": "絶対的な長さ、または {{cssxref(\"border-right-style\")}} が <code>none</code> または <code>hidden</code> の場合は <code>0</code>",
-    "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-right-style\")}} - <code>none</code> или <code>hidden</code>"
+    "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-right-style\")}} - <code>none</code> или <code>hidden</code>",
+    "zh-CN": "如果 {{cssxref(\"border-right-style\")}} 的值为 <code>none</code> 或 <code>hidden</code>，则绝对长度或为 <code>0</code>"
   },
   "absoluteLengthOr0IfBorderTopStyleNoneOrHidden": {
     "de": "die absolute Länge; <code>0</code> falls {{cssxref(\"border-top-style\")}} <code>none</code> oder <code>hidden</code> ist",
     "en-US": "the absolute length or <code>0</code> if {{cssxref(\"border-top-style\")}} is <code>none</code> or <code>hidden</code>",
     "fr": "la longueur absolue ou <code>0</code> si {{cssxref(\"border-top-style\")}} vaut <code>none</code> ou <code>hidden</code>",
     "ja": "絶対的な長さ、または {{cssxref(\"border-top-style\")}} が <code>none</code> または <code>hidden</code> の場合は <code>0</code>",
-    "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-top-style\")}} - <code>none</code> или <code>hidden</code>"
+    "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-top-style\")}} - <code>none</code> или <code>hidden</code>",
+    "zh-CN": "如果 {{cssxref(\"border-top-style\")}} 的值为 <code>none</code> 或 <code>hidden</code>，则绝对长度或为 <code>0</code>"
   },
   "absoluteLengthOrAsSpecified": {
     "de": "für Prozent- und Längenwerte die absolute Länge, ansonsten wie angegeben",
     "en-US": "for percentage and length values, the absolute length, otherwise as specified",
     "fr": "pour les valeurs en pourcentages ou en longueur, la longueur absolue, sinon, comme spécifié",
     "ja": "パーセンテージか length を指定すると絶対的な値、それ以外は指定通り",
-    "ru": "для процентов и значений длин, абсолютной длины, если другое не указано"
+    "ru": "для процентов и значений длин, абсолютной длины, если другое не указано",
+    "zh-CN": "对于百分比和长度值，取其绝对长度值；否则值保持不变。"
   },
   "absoluteLengthOrKeyword": {
     "de": "für Prozentwerte und Längenwerte die absolute Länge, ansonsten das Schlüsselwort wie angegeben",
@@ -169,7 +173,7 @@
     "fr": "tous les éléments sauf les éléments en ligne non remplacés, les colonnes de tableaux et les groupes de colonnes",
     "ja": "非置換インライン要素、テーブルの列、列グループを除くすべての要素",
     "ru": "все элементы, кроме незаменяемых строчных элементов, табличных колонок и групп колонок",
-    "zh-CN": "all elements but non-replaced inline elements, table columns, and column groups"
+    "zh-CN": "适用于所有元素，但不包括非替换行内元素、表格列和列组"
   },
   "allElementsButNonReplacedAndTableRows": {
     "de": "alle Elemente außer nicht ersetzte Inlineelemente, Tabellenzeilen und Zeilengruppen",
@@ -1784,7 +1788,8 @@
     "en-US": "<code>visual</code>, but, in continuous media, has no effect in overflow columns",
     "fr": "<code>visual</code>, mais n'a pas d'effet sur le débordement des colonnes pour un média continu",
     "ja": "<code>visual</code>。ただし連続メディアではオーバーフローした列に効果なし",
-    "ru": "<code>visual</code>, но в сплошной среде, не имеет никакого эффекта при переполнении колонок"
+    "ru": "<code>visual</code>, но в сплошной среде, не имеет никакого эффекта при переполнении колонок",
+    "zh-CN": "<code>visual</code>, but, in continuous media, has no effect in overflow columns"
   },
   "xulImageElements": {
     "de": "XUL {{XULElem(\"image\")}} Elementen und {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}} und {{cssxref(\":-moz-tree-checkbox\")}} Pseudoelementen. <strong>Hinweis:</strong> <code>-moz-image-region</code> funktioniert nur mit {{XULElem(\"image\")}} Elementen, bei denen das Symbol durch {{cssxref(\"list-style-image\")}} angegeben wird. Es funktioniert nicht mit XUL <code>&lt;image src=\"url\" /&gt;</code>.",
