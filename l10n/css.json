@@ -5,7 +5,7 @@
     "fr": "une longueur (type {{cssxref(\"length\")}}) absolue",
     "ja": "絶対的な{{cssxref(\"length\", \"長さ\")}}",
     "ru": "абсолютная {{cssxref(\"length\")}}",
-    "zh-CN": "绝对的 {{cssxref(\"length\")}}"
+    "zh-CN": "绝对 {{cssxref(\"length\")}}"
   },
   "absoluteLength0ForNone": {
     "de": "eine absolute Länge; falls das Schlüsselwort <code>none</code> angegeben wurde, ist der berechnete Wert <code>0</code>",
@@ -13,7 +13,7 @@
     "fr": "une longueur absolue ; si le mot-clé <code>none</code> est spécifié, la valeur calculée sera <code>0</code>",
     "ja": "絶対的な長さ、キーワード <code>none</code> が指定されると計算値は <code>0</code> になる",
     "ru": "абсолютная длина; если указано ключевое слово <code>none</code>, вычисленное значение - <code>0</code>",
-    "zh-CN": "一个绝对长度；如果指定关键词为 <code>none</code>，则计算值为 <code>0</code>"
+    "zh-CN": "绝对长度；如果指定关键词为 <code>none</code>，则计算值为 <code>0</code>"
   },
   "absoluteLength0IfColumnRuleStyleNoneOrHidden": {
     "de": "die absolute Länge; <code>0</code> falls {{cssxref(\"column-rule-style\")}} <code>none</code> oder <code>hidden</code> ist",
@@ -1617,7 +1617,7 @@
     "fr": "une simple liste de ",
     "ja": "単純なリスト: ",
     "ru": "простой список из ",
-    "zh-CN": "一个简单的列表："
+    "zh-CN": "简单的列表："
   },
   "simpleListOfLpc": {
     "en-US": "simple list of length, percentage, or calc",
