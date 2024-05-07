@@ -382,7 +382,7 @@
     "fr": "comme {{cssxref(\"length\")}}",
     "ja": "{{cssxref(\"length\")}} 通り",
     "ru": "как {{cssxref(\"length\")}}",
-    "zh-C": "为 {{cssxref(\"length\")}} 值"
+    "zh-CN": "为 {{cssxref(\"length\")}} 值"
   },
   "asLonghands": {
     "de": "wie die jeweiligen Kurzschreibweisen:",
