@@ -390,7 +390,7 @@
     "fr": "pour chaque propriété individuelle de la propriété raccourcie&nbsp;:",
     "ja": "一括指定の次の各プロパティとして",
     "ru": "как и у каждого из подсвойств этого свойства:",
-    "zh-CN": "作为简写的每个属性："
+    "zh-CN": "该简写所对应的每个属性："
   },
   "asSpecified": {
     "de": "wie angegeben",
@@ -428,7 +428,7 @@
     "fr": "comme la valeur spécifiée, excepté pour les éléments positionnés et flottants, ainsi que pour l'élément racine. Dans les deux cas, la valeur calculée peut être un mot clé différent de celui spécifié.",
     "ja": "指定通り。ただし位置指定された要素とフロート、ルート要素を除く。これらは計算値が指定したものと違うキーワードになる可能性があります",
     "ru": "как указанное значение, кроме как для позиционированных и плавающих элементов и корневого элемента. В обоих случаях вычисляемое значение может быть ключевым словом, отличным от указанного.",
-    "zh-CN": "作为指定的值，但定位元素、浮动元素和根元素除外。在这两种情况下，计算出的值可能是不同于所指定的其他关键字。"
+    "zh-CN": "为指定的值，但定位元素、浮动元素和根元素除外。在这两种情况下，计算值可能是不同于指定值的其他关键字。"
   },
   "asSpecifiedRelativeToAbsoluteLengths": {
     "de": "relativ zur gleichen Achse der Innenabstandsbox des Scrollcontainers",
@@ -587,7 +587,7 @@
   "byComputedValueType": {
     "en-US": "by computed value type",
     "ja": "計算値の型による",
-    "zh-CN": "计算值的类型"
+    "zh-CN": "按计算值的类型"
   },
   "byComputedValueTypeNormalAnimatesAsObliqueZeroDeg": {
     "en-US": "by computed value type; <code>normal</code> animates as <code>oblique 0deg</code>"
@@ -690,7 +690,7 @@
   },
   "discreteButVisibleForDurationWhenAnimatedNone": {
     "en-US": "Discrete behavior except when animating to or from <code>none</code> is visible for the entire duration",
-    "zh-CN": "离散行为，但在动画过渡到或来自 <code>none</code> 时，整个持续期间都是可见的。"
+    "zh-CN": "离散行为，但如果动画过渡以 <code>none</code> 开始或结束，则其在整个持续时间内都是可见的"
   },
   "eachOfShorthandPropertiesExceptUnicodeBiDiAndDirection": {
     "de": "wie jede der Kurzschreibweisen Eigenschaften (alle Eigenschaften außer {{cssxref(\"unicode-bidi\")}} und {{cssxref(\"direction\")}})",
@@ -701,11 +701,11 @@
   },
   "elementsForWhichSizeContainmentCanApply": {
     "en-US": "elements for which size containment can apply",
-    "zh-CN": "可适用尺寸限制的元素"
+    "zh-CN": "可应用尺寸局限的元素"
   },
   "elementsWithDefaultPreferredSize": {
     "en-US": "Elements with default preferred size",
-    "zh-CN": "默认首选尺寸的元素"
+    "zh-CN": "具有默认偏好尺寸的元素"
   },
   "elementsWithDisplayBoxOrInlineBox": {
     "de": "Elemente mit einem CSS {{cssxref(\"display\")}} Wert von <code>box</code> oder <code>inline-box</code>",
@@ -720,7 +720,7 @@
     "fr": "éléments avec <code>{{cssxref(\"display\")}}: marker;</code>",
     "ja": "<code>{{cssxref(\"display\")}}: marker;</code> の要素",
     "ru": "элементы с <code>{{cssxref(\"display\")}}: marker;</code>",
-    "zh-CN": "使用 <code>{{cssxref(\"display\")}}: marker;</code> 的元素"
+    "zh-CN": "设置了 <code>{{cssxref(\"display\")}}: marker;</code> 的元素"
   },
   "elementsWithDisplayMozBoxMozInlineBox": {
     "de": "Elemente mit einem CSS {{cssxref(\"display\")}} Wert von <code>-moz-box</code>, <code>-moz-inline-box</code>, <code>-webkit-box</code> oder <code>-webkit-inline-box</code>",
@@ -791,7 +791,7 @@
     "fr": "flottants",
     "ja": "浮動要素",
     "ru": "плавает",
-    "zh-CN": "浮动"
+    "zh-CN": "浮动元素"
   },
   "fontStretch": {
     "de": "<a href=\"/de/docs/Web/CSS/font-stretch#interpolation\">Schriftbreite</a>",
@@ -813,7 +813,7 @@
     "fr": "pour une valeur de type {{xref_csslength}} sa valeur absolue, sinon un pourcentage",
     "ja": "{{xref_csslength}} の場合は絶対的な値、それ以外の場合はパーセント値",
     "ru": "для {{xref_csslength}} абсолютное значение, иначе процент",
-    "zh-CN": "对于 {{xref_csslength}} 取其绝对值，反之为百分比"
+    "zh-CN": "对于 {{xref_csslength}} 则为绝对值，否则为百分比值"
   },
   "gridContainers": {
     "de": "Gridcontainer",
@@ -1617,7 +1617,7 @@
     "fr": "une simple liste de ",
     "ja": "単純なリスト: ",
     "ru": "простой список из ",
-    "zh-CN": "简单的列表："
+    "zh-CN": "由以下类型组成的简单列表："
   },
   "simpleListOfLpc": {
     "en-US": "simple list of length, percentage, or calc",
@@ -1661,7 +1661,7 @@
     "fr": "éléments qui sont des légendes de tableaux",
     "ja": "表のキャプション要素",
     "ru": "заголовки таблиц",
-    "zh-CN": "表格说明文字元素"
+    "zh-CN": "表格标题元素"
   },
   "tableCellElements": {
     "de": "table-cell Elemente",
@@ -1681,7 +1681,7 @@
   },
   "textAndBlockContainers": {
     "en-US": "text and block containers",
-    "zh-CN": "文本和区块内容"
+    "zh-CN": "文本和区块容器"
   },
   "textElements": {
     "de": "Textelemente",
@@ -1789,7 +1789,7 @@
     "fr": "<code>visual</code>, mais n'a pas d'effet sur le débordement des colonnes pour un média continu",
     "ja": "<code>visual</code>。ただし連続メディアではオーバーフローした列に効果なし",
     "ru": "<code>visual</code>, но в сплошной среде, не имеет никакого эффекта при переполнении колонок",
-    "zh-CN": "<code>visual</code>, but, in continuous media, has no effect in overflow columns"
+    "zh-CN": "<code>visual</code>，但在连续媒体中，对溢出的列没有影响"
   },
   "xulImageElements": {
     "de": "XUL {{XULElem(\"image\")}} Elementen und {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}} und {{cssxref(\":-moz-tree-checkbox\")}} Pseudoelementen. <strong>Hinweis:</strong> <code>-moz-image-region</code> funktioniert nur mit {{XULElem(\"image\")}} Elementen, bei denen das Symbol durch {{cssxref(\"list-style-image\")}} angegeben wird. Es funktioniert nicht mit XUL <code>&lt;image src=\"url\" /&gt;</code>.",
@@ -1797,7 +1797,7 @@
     "fr": "éléments XUL {{XULElem(\"image\")}} et aux pseudo-éléments {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}} et {{cssxref(\":-moz-tree-checkbox\")}}. <strong>Note&nbsp;:</strong> <code>-moz-image-region</code> ne fonctionnera qu'avec les éléments {{XULElem(\"image\")}} où l'icône est définie avec {{cssxref(\"list-style-image\")}}. Cela ne fonctionnera pas avec l'<code>&lt;image src=\"url\" /&gt;</code> XUL.",
     "ja": "XUL の {{XULElem(\"image\")}} 要素と {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}}, {{cssxref(\":-moz-tree-checkbox\")}} の各擬似要素。 <strong>注:</strong> <code>-moz-image-region</code> はアイコンが {{cssxref(\"list-style-image\")}} を使用して指定された {{XULElem(\"image\")}} 要素でしか機能しません。 XUL の <code>&lt;image src=\"url\" /&gt;</code> では機能しません。",
     "ru": "XUL {{XULElem(\"image\")}} элементы и {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}} и {{cssxref(\":-moz-tree-checkbox\")}} псевдоэлементы. <strong>Заметьте:</strong> <code>-moz-image-region</code> работает только с элементами {{XULElem(\"image\")}}, где иконка определяется использованием {{cssxref(\"list-style-image\")}}. Это не будет работать с XUL <code>&lt;image src=\"url\" /&gt;</code>.",
-    "zh-CN": "XUL {{XULElem(\"image\")}} 元素和 {{cssxref(\":-moz-tree-image\")}}、{{cssxref(\":-moz-tree-twisty\")}} 和 {{cssxref(\":-moz-tree-checkbox\")}} 伪元素。<strong>注意：</strong> <code>-moz-image-region</code> 属性仅适用于通过 {{cssxref(\"list-style-image\")}} CSS 属性来指定图标的 XUL {{XULElem(\"image\")}} 元素。它不适用于使用 XUL <code>&lt;image src=\"url\" /&gt;</code> 格式的XUL图像标签。"
+    "zh-CN": "XUL {{XULElem(\"image\")}} 元素以及 {{cssxref(\":-moz-tree-image\")}}、{{cssxref(\":-moz-tree-twisty\")}} 和 {{cssxref(\":-moz-tree-checkbox\")}} 伪元素。<strong>注意：</strong><code>-moz-image-region</code> 属性仅适用于通过 {{cssxref(\"list-style-image\")}} 来指定图标的 XUL {{XULElem(\"image\")}} 元素。它不适用于 XUL 标签为 <code>&lt;image src=\"url\" /&gt;</code> 的元素。"
   },
   "yes": {
     "de": "Ja",
@@ -1811,6 +1811,6 @@
   "zoomForTheTopLevelNoneForTheRest": {
     "en-US": "zoom for the top level element, none for all other elements",
     "ja": "最上位要素では zoom、その他の要素では none",
-    "zh-CN": "顶层元素的缩放，所有其他元素无缩放"
+    "zh-CN": "顶层元素为 zoom，所有其他元素为 none"
   }
 }
