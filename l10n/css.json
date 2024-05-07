@@ -29,7 +29,7 @@
     "fr": "la longueur absolue ou <code>0</code> si {{cssxref(\"border-bottom-style\")}} vaut <code>none</code> ou <code>hidden</code>",
     "ja": "絶対的な長さ、または {{cssxref(\"border-bottom-style\")}} が <code>none</code> または <code>hidden</code> の場合は <code>0</code>",
     "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-bottom-style\")}} - <code>none</code> или <code>hidden</code>",
-    "zh-CN": "如果 {{cssxref(\"border-bottom-style\")}} 的值是 <code>none</code> 或 <code>hidden</code>，则绝对长度或为 <code>0</code>"
+    "zh-CN": "绝对长度；或如果 {{cssxref(\"border-bottom-style\")}} 的值是 <code>none</code> 或 <code>hidden</code>，则为 <code>0</code>"
   },
   "absoluteLengthOr0IfBorderLeftStyleNoneOrHidden": {
     "de": "die absolute Länge; <code>0</code> falls {{cssxref(\"border-left-style\")}} <code>none</code> oder <code>hidden</code> ist",
@@ -37,7 +37,7 @@
     "fr": "la longueur absolue ou <code>0</code> si {{cssxref(\"border-left-style\")}} vaut <code>none</code> ou <code>hidden</code>",
     "ja": "絶対的な長さ、または {{cssxref(\"border-left-style\")}} が <code>none</code> または <code>hidden</code> の場合は <code>0</code>",
     "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-left-style\")}} - <code>none</code> или <code>hidden</code>",
-    "zh-CN": "如果 {{cssxref(\"border-left-style\")}} 的值为 <code>none</code> 或 <code>hidden</code>，则绝对长度或为 <code>0</code>"
+    "zh-CN": "绝对长度；或如果 {{cssxref(\"border-left-style\")}} 的值为 <code>none</code> 或 <code>hidden</code>，则为 <code>0</code>"
   },
   "absoluteLengthOr0IfBorderRightStyleNoneOrHidden": {
     "de": "die absolute Länge; <code>0</code> falls {{cssxref(\"border-right-style\")}} <code>none</code> oder <code>hidden</code> ist",
@@ -45,7 +45,7 @@
     "fr": "la longueur absolue ou <code>0</code> si {{cssxref(\"border-right-style\")}} vaut <code>none</code> ou <code>hidden</code>",
     "ja": "絶対的な長さ、または {{cssxref(\"border-right-style\")}} が <code>none</code> または <code>hidden</code> の場合は <code>0</code>",
     "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-right-style\")}} - <code>none</code> или <code>hidden</code>",
-    "zh-CN": "如果 {{cssxref(\"border-right-style\")}} 的值为 <code>none</code> 或 <code>hidden</code>，则绝对长度或为 <code>0</code>"
+    "zh-CN": "绝对长度；或如果 {{cssxref(\"border-right-style\")}} 的值为 <code>none</code> 或 <code>hidden</code>，则为 <code>0</code>"
   },
   "absoluteLengthOr0IfBorderTopStyleNoneOrHidden": {
     "de": "die absolute Länge; <code>0</code> falls {{cssxref(\"border-top-style\")}} <code>none</code> oder <code>hidden</code> ist",
@@ -53,7 +53,7 @@
     "fr": "la longueur absolue ou <code>0</code> si {{cssxref(\"border-top-style\")}} vaut <code>none</code> ou <code>hidden</code>",
     "ja": "絶対的な長さ、または {{cssxref(\"border-top-style\")}} が <code>none</code> または <code>hidden</code> の場合は <code>0</code>",
     "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-top-style\")}} - <code>none</code> или <code>hidden</code>",
-    "zh-CN": "如果 {{cssxref(\"border-top-style\")}} 的值为 <code>none</code> 或 <code>hidden</code>，则绝对长度或为 <code>0</code>"
+    "zh-CN": "绝对长度；或如果 {{cssxref(\"border-top-style\")}} 的值为 <code>none</code> 或 <code>hidden</code>，则为 <code>0</code>"
   },
   "absoluteLengthOrAsSpecified": {
     "de": "für Prozent- und Längenwerte die absolute Länge, ansonsten wie angegeben",
@@ -61,7 +61,7 @@
     "fr": "pour les valeurs en pourcentages ou en longueur, la longueur absolue, sinon, comme spécifié",
     "ja": "パーセンテージか length を指定すると絶対的な値、それ以外は指定通り",
     "ru": "для процентов и значений длин, абсолютной длины, если другое не указано",
-    "zh-CN": "对于百分比和长度值，取其绝对长度值；否则值保持不变。"
+    "zh-CN": "对于百分比和长度值，其为绝对长度，否则为指定值"
   },
   "absoluteLengthOrKeyword": {
     "de": "für Prozentwerte und Längenwerte die absolute Länge, ansonsten das Schlüsselwort wie angegeben",
@@ -173,7 +173,7 @@
     "fr": "tous les éléments sauf les éléments en ligne non remplacés, les colonnes de tableaux et les groupes de colonnes",
     "ja": "非置換インライン要素、テーブルの列、列グループを除くすべての要素",
     "ru": "все элементы, кроме незаменяемых строчных элементов, табличных колонок и групп колонок",
-    "zh-CN": "适用于所有元素，但不包括非替换行内元素、表格列和列组"
+    "zh-CN": "适用于所有元素，但不包括非替换行级元素、表格列和列组"
   },
   "allElementsButNonReplacedAndTableRows": {
     "de": "alle Elemente außer nicht ersetzte Inlineelemente, Tabellenzeilen und Zeilengruppen",
@@ -382,7 +382,7 @@
     "fr": "comme {{cssxref(\"length\")}}",
     "ja": "{{cssxref(\"length\")}} 通り",
     "ru": "как {{cssxref(\"length\")}}",
-    "zh-C": "作为 {{cssxref(\"length\")}}"
+    "zh-C": "为 {{cssxref(\"length\")}} 值"
   },
   "asLonghands": {
     "de": "wie die jeweiligen Kurzschreibweisen:",
