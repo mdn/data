@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.7.0](https://github.com/mdn/data/compare/v2.6.1...v2.7.0) (2024-05-10)
+
+
+### Features
+
+* **css:** add field-sizing property ([#718](https://github.com/mdn/data/issues/718)) ([3df37e7](https://github.com/mdn/data/commit/3df37e7c4aa9044dc0634821ec1b10e656074a07))
+
 ## [2.6.1](https://github.com/mdn/data/compare/v2.6.0...v2.6.1) (2024-04-24)
 
 
