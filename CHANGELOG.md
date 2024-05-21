@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.8.0](https://github.com/mdn/data/compare/v2.7.0...v2.8.0) (2024-05-21)
+
+
+### Features
+
+* correct ray() syntax and add ray-size type ([311ca78](https://github.com/mdn/data/commit/311ca78a997f2d8b8de80778f05c87db444f1217))
+* **css:** correct ray() syntax + add ray-size type ([#723](https://github.com/mdn/data/issues/723)) ([311ca78](https://github.com/mdn/data/commit/311ca78a997f2d8b8de80778f05c87db444f1217))
+
 ## [2.7.0](https://github.com/mdn/data/compare/v2.6.1...v2.7.0) (2024-05-10)
 
 
