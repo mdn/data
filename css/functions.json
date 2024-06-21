@@ -306,7 +306,7 @@
       "CSS Motion Path"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/path"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/path"
   },
   "paint()": {
     "syntax": "paint( <ident>, <declaration-value>? )",
