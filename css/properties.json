@@ -9592,6 +9592,22 @@
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-size-adjust"
   },
+  "text-spacing-trim": {
+    "syntax": "space-all | normal | space-first | trim-start | trim-both | trim-all | auto",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Text"
+    ],
+    "initial": "normal",
+    "appliesto": "textElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-spacing-trim"
+  },
   "text-transform": {
     "syntax": "none | capitalize | uppercase | lowercase | full-width | full-size-kana",
     "media": "visual",
