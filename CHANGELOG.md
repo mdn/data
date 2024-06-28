@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.8.1](https://github.com/mdn/data/compare/v2.8.0...v2.8.1) (2024-06-28)
+
+
+### Bug Fixes
+
+* **css/functions:** update path mdn_url ([#739](https://github.com/mdn/data/issues/739)) ([946c423](https://github.com/mdn/data/commit/946c42353d33eef81ebc238516f4a28cd03e5e5c))
+
 ## [2.8.0](https://github.com/mdn/data/compare/v2.7.0...v2.8.0) (2024-05-21)
 
 
