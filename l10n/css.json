@@ -326,11 +326,11 @@
     "ru": "как &lt;angle&gt;, &lt;basic-shape&gt; или &lt;path()&gt;"
   },
   "angleRoundedToNextQuarter": {
-    "de": "ein {{xref_cssangle}}, auf den nächsten Viertel von <code>0deg</code> gerundet (üblicherweise  <code>1turn)</code>",
-    "en-US": "an {{xref_cssangle}}, rounded to the next quarter turn from <code>0deg</code> and normalized, that is moduloing the value by <code>1turn</code>",
-    "fr": "un {{xref_cssangle}}, arrondi au quart de tour supérieur (à partir de <code>0deg</code>) puis normalisé (modulo) pour obtenir l'angle relatif à un tour",
-    "ja": "<code>0deg</code> から次の 4 分の 1 回転に丸めて正規化した {{xref_cssangle}} を <code>1turn</code> で割った余り",
-    "ru": "{{xref_cssangle}}, с округлением до следующей четверти оборота от <code>0deg</code> и нормализованный так, что значение - <code>1 поворот</code>"
+    "de": "ein {{cssxref(\"angle\")}}, auf den nächsten Viertel von <code>0deg</code> gerundet (üblicherweise  <code>1turn)</code>",
+    "en-US": "an {{cssxref(\"angle\")}}, rounded to the next quarter turn from <code>0deg</code> and normalized, that is moduloing the value by <code>1turn</code>",
+    "fr": "un {{cssxref(\"angle\")}}, arrondi au quart de tour supérieur (à partir de <code>0deg</code>) puis normalisé (modulo) pour obtenir l'angle relatif à un tour",
+    "ja": "<code>0deg</code> から次の 4 分の 1 回転に丸めて正規化した {{cssxref(\"angle\")}} を <code>1turn</code> で割った余り",
+    "ru": "{{cssxref(\"angle\")}}, с округлением до следующей четверти оборота от <code>0deg</code> и нормализованный так, что значение - <code>1 поворот</code>"
   },
   "animationType": {
     "de": "Animationstyp",
@@ -808,12 +808,12 @@
     "ru": "<a href=\"/ru/docs/Web/CSS/font-weight#interpolation\" title=\"Значения жирности шрифта интерполируются через целое число дискретных шагов (умноженных на 100). Интерполяция происходит в пространстве действительных чисел, а получившееся значение преобразуется в целое путём округления до ближайшей сотни, со значениями точно между соседними множителями, округляемыми в сторону положительной бесконечности.\">жирность шрифта</a>"
   },
   "forLengthAbsoluteValueOtherwisePercentage": {
-    "de": "for {{xref_csslength}} the absolute value, otherwise a percentage",
-    "en-US": "for {{xref_csslength}} the absolute value, otherwise a percentage",
-    "fr": "pour une valeur de type {{xref_csslength}} sa valeur absolue, sinon un pourcentage",
-    "ja": "{{xref_csslength}} の場合は絶対的な値、それ以外の場合はパーセント値",
-    "ru": "для {{xref_csslength}} абсолютное значение, иначе процент",
-    "zh-CN": "对于 {{xref_csslength}} 则为绝对值，否则为百分比值"
+    "de": "for {{cssxref(\"length\")}} the absolute value, otherwise a percentage",
+    "en-US": "for {{cssxref(\"length\")}} the absolute value, otherwise a percentage",
+    "fr": "pour une valeur de type {{cssxref(\"length\")}} sa valeur absolue, sinon un pourcentage",
+    "ja": "{{cssxref(\"length\")}} の場合は絶対的な値、それ以外の場合はパーセント値",
+    "ru": "для {{cssxref(\"length\")}} абсолютное значение, иначе процент",
+    "zh-CN": "对于 {{cssxref(\"length\")}} 则为绝对值，否则为百分比值"
   },
   "gridContainers": {
     "de": "Gridcontainer",
@@ -986,11 +986,11 @@
     "ja": "リストで、それぞれの項目は大文字小文字を区別する CSS 識別子またはキーワード <code>none</code>, <code>auto</code>"
   },
   "listEachItemTwoKeywordsOriginOffsets": {
-    "de": "a list, each item consisting of two keywords representing the origin undtwo offsets from that origin, each given as an absolute length (if given a {{xref_csslength}}), otherwise as a percentage",
-    "en-US": "a list, each item consisting of two keywords representing the origin and two offsets from that origin, each given as an absolute length (if given a {{xref_csslength}}), otherwise as a percentage",
-    "fr": "une liste dont chaque élément consiste en deux mots-clé représentant l'origine et deux offsets depuis cette origine, chacun étant une longueur absolue (si spécifié comme une {{xref_csslength}}), ou un pourcentage",
-    "ja": "それぞれの項目が原点を表す 2 つのキーワードおよびその原点からの 2 つのオフセット値であるリストであり、それぞれが絶対的な長さ ({{xref_csslength}} が与えられた場合) またはパーセント値で与えられる",
-    "ru": "список, каждый элемент которого состоит из двух ключевых слов, представляющих начало координат и два смещения от этого начала, каждое из которых задаётся абсолютной длиной (если дано {{xref_csslength}}), иначе как проценты"
+    "de": "a list, each item consisting of two keywords representing the origin undtwo offsets from that origin, each given as an absolute length (if given a {{cssxref(\"length\")}}), otherwise as a percentage",
+    "en-US": "a list, each item consisting of two keywords representing the origin and two offsets from that origin, each given as an absolute length (if given a {{cssxref(\"length\")}}), otherwise as a percentage",
+    "fr": "une liste dont chaque élément consiste en deux mots-clé représentant l'origine et deux offsets depuis cette origine, chacun étant une longueur absolue (si spécifié comme une {{cssxref(\"length\")}}), ou un pourcentage",
+    "ja": "それぞれの項目が原点を表す 2 つのキーワードおよびその原点からの 2 つのオフセット値であるリストであり、それぞれが絶対的な長さ ({{cssxref(\"length\")}} が与えられた場合) またはパーセント値で与えられる",
+    "ru": "список, каждый элемент которого состоит из двух ключевых слов, представляющих начало координат и два смещения от этого начала, каждое из которых задаётся абсолютной длиной (если дано {{cssxref(\"length\")}}), иначе как проценты"
   },
   "listItems": {
     "de": "Listenelemente",
