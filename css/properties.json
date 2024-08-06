@@ -8223,11 +8223,11 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-anchor"
   },
   "position-try": {
-    "syntax": "<'position-try-order'>? <'position-try-options'>",
+    "syntax": "<'position-try-order'>? <'position-try-fallbacks'>",
     "media": "visual",
     "inherited": false,
     "animationType": [
-      "position-try-options",
+      "position-try-fallbacks",
       "position-try-order"
     ],
     "percentages": "no",
@@ -8235,19 +8235,19 @@
       "CSS Positioning"
     ],
     "initial": [
-      "position-try-options",
+      "position-try-fallbacks",
       "position-try-order"
     ],
     "appliesto": "absolutelyPositionedElements",
     "computed": [
-      "position-try-options",
+      "position-try-fallbacks",
       "position-try-order"
     ],
     "order": "perGrammar",
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-try"
   },
-  "position-try-options": {
+  "position-try-fallbacks": {
     "syntax": "none | [ [<dashed-ident> || <try-tactic>] | inset-area( <'inset-area'> ) ]#",
     "media": "visual",
     "inherited": false,
@@ -8261,7 +8261,7 @@
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-try-options"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-try-fallbacks"
   },
   "position-try-order": {
     "syntax": "normal | <try-size>",
