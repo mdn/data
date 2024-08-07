@@ -1422,13 +1422,13 @@
     "ru": "относятся к размеру маски области рисования минус размер маски слоя изображения (смотрите статью о {{cssxref(\"background-position\")}})"
   },
   "referToSVGViewportSize": {
-    "en-US": "refer to the normalized diagonal of the current SVG viewport",
+    "en-US": "refer to the normalized diagonal of the current SVG viewport"
   }, 
   "referToSVGViewportHeight": {
-    "en-US": "refer to the height of the current SVG viewport",
+    "en-US": "refer to the height of the current SVG viewport"
   },
   "referToSVGViewportWidth": {
-    "en-US": "refer to the width of the current SVG viewport",
+    "en-US": "refer to the width of the current SVG viewport"
   },
   "referToTotalPathLength": {
     "de": "beziehen sich auf die Gesamtlänge des Pfads",
