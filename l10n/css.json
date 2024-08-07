@@ -959,9 +959,6 @@
   "lengthsAsPercentages": {
     "en-US": "The lengths may be specified as percentages"
   },
-  "limitedSVGElements": {
-    "en-US": ""
-  },
   "limitedSVGElementsCircle": {
     "en-US": "{{SVGElement(\"circle\")}} element in {{SVGElement(\"svg\")}}",
   },
@@ -969,7 +966,7 @@
     "en-US": "{{SVGElement(\"ellipse\")}} and {{SVGElement(\"circle\")}} elements in {{SVGElement(\"svg\")}}",
   },
   "limitedSVGElementsGeometry": {
-    "en-US": "{{SVGElement(\"svg\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"image\")}}, and {{SVGElement(\"foreignObject\")}} elements in an <code>svg</code>"
+    "en-US": "{{SVGElement(\"svg\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"image\")}}, and {{SVGElement(\"foreignObject\")}} elements in an <code>svg</code>",
   },
   "limitedSVGElementsEllipseRect": {
     "en-US": "{{SVGElement(\"ellipse\")}} and {{SVGElement(\"rect\")}} elements in {{SVGElement(\"svg\")}}",

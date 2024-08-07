@@ -75,6 +75,7 @@
         "referToSizeOfMaskBorderImage",
         "referToSizeOfMaskPaintingArea",
         "referToSVGViewportHeight",
+        "referToSVGViewportSize",
         "referToSVGViewportWidth",
         "referToTotalPathLength",
         "referToWidthAndHeightOfElement",
