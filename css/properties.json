@@ -4596,7 +4596,7 @@
     "animationType": "byComputedValueType",
     "percentages": "referToSVGViewportWidth",
     "groups": [
-      "Geometry Properties"
+      "Scalable Vector Graphics"
     ],
     "initial": "0",
     "appliesto": "limitedSVGElementsEllipse",
@@ -4612,7 +4612,7 @@
     "animationType": "byComputedValueType",
     "percentages": "referToSVGViewportHeight",
     "groups": [
-      "Geometry Properties"
+      "Scalable Vector Graphics"
     ],
     "initial": "0",
     "appliesto": "limitedSVGElementsEllipse",
@@ -8366,7 +8366,7 @@
     "animationType": "byComputedValueType",
     "percentages": "referToSVGViewportSize",
     "groups": [
-      "Geometry Properties"
+      "Scalable Vector Graphics"
     ],
     "initial": "0",
     "appliesto": "limitedSVGElementsCircle",
@@ -8494,7 +8494,7 @@
     "animationType": "byComputedValueType",
     "percentages": "referToSVGViewportWidth",
     "groups": [
-      "Geometry Properties"
+      "Scalable Vector Graphics"
     ],
     "initial": "0",
     "appliesto": "limitedSVGElementsEllipseRect",
@@ -8510,7 +8510,7 @@
     "animationType": "byComputedValueType",
     "percentages": "referToSVGViewportHeight",
     "groups": [
-      "Geometry Properties"
+      "Scalable Vector Graphics"
     ],
     "initial": "0",
     "appliesto": "limitedSVGElementsEllipseRect",
@@ -10347,7 +10347,7 @@
     "animationType": "byComputedValueType",
     "percentages": "referToSVGViewportWidth",
     "groups": [
-      "Geometry Properties"
+      "Scalable Vector Graphics"
     ],
     "initial": "0",
     "appliesto": "limitedSVGElementsGeometry",
@@ -10363,7 +10363,7 @@
     "animationType": "byComputedValueType",
     "percentages": "referToSVGViewportHeight",
     "groups": [
-      "Geometry Properties"
+      "Scalable Vector Graphics"
     ],
     "initial": "0",
     "appliesto": "limitedSVGElementsGeometry",
