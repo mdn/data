@@ -4589,6 +4589,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/cursor"
   },
+  "d": {
+    "syntax": "none | path( [ <fill-rule>, ]? <string> )",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "basicShape",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "none",
+    "appliesto": "limitedSVGElementsPath",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/d"
+  },
   "cx": {
     "syntax": "<length> | <percentage>",
     "media": "visual",
