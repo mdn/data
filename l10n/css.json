@@ -962,20 +962,20 @@
   "lengthsAsPercentages": {
     "en-US": "The lengths may be specified as percentages"
   },
-  "limitedSVGElementsShapeText": {
-    "en-US": "SVG shapes and text content elements"
-  },
   "limitedSVGElementsCircle": {
     "en-US": "{{SVGElement(\"circle\")}} element in {{SVGElement(\"svg\")}}"
   },
   "limitedSVGElementsEllipse": {
     "en-US": "{{SVGElement(\"ellipse\")}} and {{SVGElement(\"circle\")}} elements in {{SVGElement(\"svg\")}}"
   },
+  "limitedSVGElementsEllipseRect": {
+    "en-US": "{{SVGElement(\"ellipse\")}} and {{SVGElement(\"rect\")}} elements in {{SVGElement(\"svg\")}}"
+  },
   "limitedSVGElementsGeometry": {
     "en-US": "{{SVGElement(\"svg\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"image\")}}, and {{SVGElement(\"foreignObject\")}} elements in an <code>svg</code>"
   },
-  "limitedSVGElementsEllipseRect": {
-    "en-US": "{{SVGElement(\"ellipse\")}} and {{SVGElement(\"rect\")}} elements in {{SVGElement(\"svg\")}}"
+  "limitedSVGElementsShapeText": {
+    "en-US": "SVG shapes and text content elements"
   },
   "listEachItemConsistingOfAbsoluteLengthPercentageAndOrigin": {
     "de": "Eine Liste, bei der jeder Eintrag aus einem Versatz besteht, der durch eine Kombination aus absoluter Länge und einem Prozentsatz plus einem Ursprungsschlüsselwort definiert wird",
