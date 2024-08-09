@@ -959,6 +959,18 @@
   "lengthsAsPercentages": {
     "en-US": "The lengths may be specified as percentages"
   },
+  "limitedSVGElementsCircle": {
+    "en-US": "{{SVGElement(\"circle\")}} element in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsEllipse": {
+    "en-US": "{{SVGElement(\"ellipse\")}} and {{SVGElement(\"circle\")}} elements in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsGeometry": {
+    "en-US": "{{SVGElement(\"svg\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"image\")}}, and {{SVGElement(\"foreignObject\")}} elements in an <code>svg</code>"
+  },
+  "limitedSVGElementsEllipseRect": {
+    "en-US": "{{SVGElement(\"ellipse\")}} and {{SVGElement(\"rect\")}} elements in {{SVGElement(\"svg\")}}"
+  },
   "listEachItemConsistingOfAbsoluteLengthPercentageAndOrigin": {
     "de": "Eine Liste, bei der jeder Eintrag aus einem Versatz besteht, der durch eine Kombination aus absoluter Länge und einem Prozentsatz plus einem Ursprungsschlüsselwort definiert wird",
     "en-US": "A list, each item consisting of: an offset given as a combination of an absolute length and a percentage, plus an origin keyword",
@@ -1408,6 +1420,15 @@
     "fr": "fait référence à la taille du masque pour la zone de pointure moins la taille du masque pour la taille de l'image (voir {{cssxref(\"background-position\")}})",
     "ja": "マスク描画領域の寸法からマスクレイヤー画像の寸法を引いたものに対する相対値 ({{cssxref(\"background-position\")}} のテキストを参照)",
     "ru": "относятся к размеру маски области рисования минус размер маски слоя изображения (смотрите статью о {{cssxref(\"background-position\")}})"
+  },
+  "referToSVGViewportSize": {
+    "en-US": "refer to the normalized diagonal of the current SVG viewport"
+  },
+  "referToSVGViewportHeight": {
+    "en-US": "refer to the height of the current SVG viewport"
+  },
+  "referToSVGViewportWidth": {
+    "en-US": "refer to the width of the current SVG viewport"
   },
   "referToTotalPathLength": {
     "de": "beziehen sich auf die Gesamtlänge des Pfads",

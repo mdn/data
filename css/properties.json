@@ -4589,6 +4589,38 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/cursor"
   },
+  "cx": {
+    "syntax": "<length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "referToSVGViewportWidth",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "0",
+    "appliesto": "limitedSVGElementsEllipse",
+    "computed": "percentageAsSpecifiedOrAbsoluteLength",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/cx"
+  },
+  "cy": {
+    "syntax": "<length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "referToSVGViewportHeight",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "0",
+    "appliesto": "limitedSVGElementsEllipse",
+    "computed": "percentageAsSpecifiedOrAbsoluteLength",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/cy"
+  },
   "direction": {
     "syntax": "ltr | rtl",
     "media": "visual",
@@ -8327,6 +8359,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/quotes"
   },
+  "r": {
+    "syntax": "<length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "referToSVGViewportSize",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "0",
+    "appliesto": "limitedSVGElementsCircle",
+    "computed": "percentageAsSpecifiedOrAbsoluteLength",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/r"
+  },
   "resize": {
     "syntax": "none | both | horizontal | vertical | block | inline",
     "media": "visual",
@@ -8438,6 +8486,38 @@
     "order": "uniqueOrder",
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ruby-position"
+  },
+  "rx": {
+    "syntax": "<length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "referToSVGViewportWidth",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "0",
+    "appliesto": "limitedSVGElementsEllipseRect",
+    "computed": "percentageAsSpecifiedOrAbsoluteLength",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/rx"
+  },
+  "ry": {
+    "syntax": "<length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "referToSVGViewportHeight",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "0",
+    "appliesto": "limitedSVGElementsEllipseRect",
+    "computed": "percentageAsSpecifiedOrAbsoluteLength",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ry"
   },
   "scale": {
     "syntax": "none | <number>{1,3}",
@@ -10259,6 +10339,38 @@
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/writing-mode"
+  },
+  "x": {
+    "syntax": "<length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "referToSVGViewportWidth",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "0",
+    "appliesto": "limitedSVGElementsGeometry",
+    "computed": "percentageAsSpecifiedOrAbsoluteLength",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/x"
+  },
+  "y": {
+    "syntax": "<length> | <percentage>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "referToSVGViewportHeight",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "0",
+    "appliesto": "limitedSVGElementsGeometry",
+    "computed": "percentageAsSpecifiedOrAbsoluteLength",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/y"
   },
   "z-index": {
     "syntax": "auto | <integer>",
