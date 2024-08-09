@@ -4685,6 +4685,54 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/field-sizing"
   },
+  "fill": {
+    "syntax": "none | <color> | <url> [none | <color>]? | context-fill | context-stroke",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "black",
+    "appliesto": "limitedSVGElementsShapeText",
+    "computed": "asColorOrAbsoluteURL",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fill"
+  },
+  "fill-opacity": {
+    "syntax": "<alpha-value>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "mapToRange0To1",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "1",
+    "appliesto": "limitedSVGElementsShapeText",
+    "computed": "specifiedValueNumberClipped0To1",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fill-opacity"
+  },
+  "fill-rule": {
+    "syntax": "nonzero | evenodd",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "nonzero",
+    "appliesto": "limitedSVGElementsShapeText",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fill-rule"
+  },
   "filter": {
     "syntax": "none | <filter-function-list>",
     "media": "visual",

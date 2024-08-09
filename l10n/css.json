@@ -369,6 +369,9 @@
     "de": "<code>auto</code> wird wie angegeben berechnet und <code>&lt;color&gt;</code> Werte werden wie für die {{cssxref(\"color\")}} Eigenschaft berechnet.",
     "ja": "<code>auto</code> は仕様通りに計算され、 <code>&lt;color&gt;</code> 値は {{cssxref(\"color\")}} プロパティで定義されたように計算される。"
   },
+  "asColorOrAbsoluteURL": {
+    "en-US": "as specified, but with <code>&lt;color&gt;</code> values computed and <code>&lt;url&gt;</code> values made absolute"
+  },
   "asDefinedForBasicShapeWithAbsoluteURIOtherwiseAsSpecified": {
     "de": "wie definiert für {{cssxref(\"basic-shape\")}} (gefolgt von {{cssxref(\"shape-box\")}}, falls angegeben), dem {{cssxref(\"image\")}}, dessen URI absolut gemacht wurde, ansonsten wie angegeben.",
     "en-US": "as defined for {{cssxref(\"basic-shape\")}} (with {{cssxref(\"shape-box\")}} following, if supplied), the {{cssxref(\"image\")}} with its URI made absolute, otherwise as specified.",
@@ -958,6 +961,9 @@
   },
   "lengthsAsPercentages": {
     "en-US": "The lengths may be specified as percentages"
+  },
+  "limitedSVGElementsShapeText": {
+    "en-US": "SVG shapes and text content elements"
   },
   "limitedSVGElementsCircle": {
     "en-US": "{{SVGElement(\"circle\")}} element in {{SVGElement(\"svg\")}}"
