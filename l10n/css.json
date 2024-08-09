@@ -974,7 +974,7 @@
   "limitedSVGElementsGeometry": {
     "en-US": "{{SVGElement(\"svg\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"image\")}}, and {{SVGElement(\"foreignObject\")}} elements in an <code>svg</code>"
   },
-  "limitedSVGElementsPath"": {
+  "limitedSVGElementsPath": {
     "en-US": "{{SVGElement(\"path\")}} element in {{SVGElement(\"svg\")}}"
   },
   "limitedSVGElementsShapeText": {
