@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.10.0](https://github.com/mdn/data/compare/v2.9.0...v2.10.0) (2024-08-09)
+
+
+### Features
+
+* add CSS SVG geometric properties ([#753](https://github.com/mdn/data/issues/753)) ([ab6bf8a](https://github.com/mdn/data/commit/ab6bf8a2eb9bd8123aa025ba6c8758eaeb0ca2ef))
+
+
+### Bug Fixes
+
+* position-try-options &gt; position-try-fallbacks ([#751](https://github.com/mdn/data/issues/751)) ([0edc1ea](https://github.com/mdn/data/commit/0edc1ea255ffcbdda2305a8a128fffee63bfd891))
+
 ## [2.9.0](https://github.com/mdn/data/compare/v2.8.0...v2.9.0) (2024-07-03)
 
 
