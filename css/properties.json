@@ -4593,7 +4593,7 @@
     "syntax": "none | path(<string>)",
     "media": "visual",
     "inherited": false,
-    "animationType": "basicShape",
+    "animationType": "basicShapeOtherwiseNo",
     "percentages": "no",
     "groups": [
       "Scalable Vector Graphics"

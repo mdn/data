@@ -244,6 +244,7 @@
         "limitedSVGElementsEllipse",
         "limitedSVGElementsEllipseRect",
         "limitedSVGElementsGeometry",
+        "limitedSVGElementsPath",
         "limitedSVGElementsShapeText",
         "listItems",
         "maskElements",
