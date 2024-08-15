@@ -983,6 +983,9 @@
   "limitedSVGElementsGraphicsAndUse": {
     "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"foreignObject\")}}, {{SVGElement(\"image\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"use\")}}, {{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in {{SVGElement(\"svg\")}}"
   },
+  "limitedSVGElementsShapes": {
+    "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, and {{SVGElement(\"rect\")}} elements in {{SVGElement(\"svg\")}}"
+  },
   "limitedSVGElementsTextContent": {
     "en-US": "{{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}} , and {{SVGElement(\"tspan\")}} elements in {{SVGElement(\"svg\")}}"
   },

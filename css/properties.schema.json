@@ -247,6 +247,7 @@
         "limitedSVGElementsGeometry",
         "limitedSVGElementsGraphics",
         "limitedSVGElementsGraphicsAndUse",
+        "limitedSVGElementsShapes",
         "limitedSVGElementsTextContent",
         "listItems",
         "maskElements",
