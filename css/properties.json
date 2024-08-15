@@ -9245,6 +9245,82 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape-outside"
   },
+  "stroke": {
+    "syntax": "",
+    "media": "visual",
+    "inherited": true,
+    "animationType": [
+      "stroke-color",
+      "stroke-image",
+      "stroke-origin",
+      "stroke-position",
+      "stroke-size",
+      "stroke-repeat"
+    ],
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": [
+      "stroke-color",
+      "stroke-image",
+      "stroke-origin",
+      "stroke-position",
+      "stroke-size",
+      "stroke-repeat"
+    ],
+    "appliesto": [
+      "stroke-color",
+      "stroke-image",
+      "stroke-origin",
+      "stroke-position",
+      "stroke-size",
+      "stroke-repeat"
+    ],
+    "computed": [
+      "stroke-color",
+      "stroke-image",
+      "stroke-origin",
+      "stroke-position",
+      "stroke-size",
+      "stroke-repeat"
+    ],
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke"
+  },
+  "stroke-color": {
+    "syntax": "<color>#",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "transparent",
+    "appliesto": "blockContainers",
+    "computed": "computedColor",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke-color"
+  },
+  "stroke-image": {
+    "syntax": "<paint>#",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "none",
+    "appliesto": "blockContainers",
+    "computed": "computedColor",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke-color"
+  },
   "tab-size": {
     "syntax": "<integer> | <length>",
     "media": "visual",
