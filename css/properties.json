@@ -2453,9 +2453,9 @@
     "media": "visual",
     "inherited": false,
     "animationType": [
-      "border-color",
+      "border-width",
       "border-style",
-      "border-width"
+      "border-color"
     ],
     "percentages": "no",
     "groups": [
@@ -7451,31 +7451,31 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/orphans"
   },
   "outline": {
-    "syntax": "[ <'outline-color'> || <'outline-style'> || <'outline-width'> ]",
+    "syntax": "[ <'outline-width'> || <'outline-style'> || <'outline-color'> ]",
     "media": [
       "visual",
       "interactive"
     ],
     "inherited": false,
     "animationType": [
-      "outline-color",
       "outline-width",
-      "outline-style"
+      "outline-style",
+      "outline-color"
     ],
     "percentages": "no",
     "groups": [
       "CSS Basic User Interface"
     ],
     "initial": [
-      "outline-color",
+      "outline-width",
       "outline-style",
-      "outline-width"
+      "outline-color"
     ],
     "appliesto": "allElements",
     "computed": [
-      "outline-color",
       "outline-width",
-      "outline-style"
+      "outline-style",
+      "outline-color"
     ],
     "order": "orderOfAppearance",
     "status": "standard",
