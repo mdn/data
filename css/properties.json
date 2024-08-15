@@ -9307,7 +9307,7 @@
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape-outside"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape-rendering"
   },
   "tab-size": {
     "syntax": "<integer> | <length>",
