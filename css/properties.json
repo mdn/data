@@ -6747,7 +6747,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-trim"
   },
   "marker": {
-    "syntax": "none | <marker-ref>",
+    "syntax": "none | <url>",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -6755,12 +6755,64 @@
     "groups": [
       "Scalable Vector Graphics"
     ],
-    "initial": "not defined",
+    "initial": [
+      "marker-start",
+      "marker-mid",
+      "marker-end"
+    ],
     "appliesto": "limitedSVGElementsShapes",
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/marker"
+  },
+  "marker-end": {
+    "syntax": "none | <url>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "none",
+    "appliesto": "limitedSVGElementsShapes",
+    "computed": "asSpecifiedURLsAbsolute",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/marker-end"
+  },
+  "marker-mid": {
+    "syntax": "none | <url>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "none",
+    "appliesto": "limitedSVGElementsShapes",
+    "computed": "asSpecifiedURLsAbsolute",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/marker-mid"
+  },
+  "marker-start": {
+    "syntax": "none | <url>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "none",
+    "appliesto": "limitedSVGElementsShapes",
+    "computed": "asSpecifiedURLsAbsolute",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/marker-start"
   },
   "mask": {
     "syntax": "<mask-layer>#",
