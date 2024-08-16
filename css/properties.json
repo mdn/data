@@ -9271,16 +9271,8 @@
       "stroke-opacity",
       "stroke-width"
     ],
-    "appliesto": "asLonghands",
-    "computed": [
-      "stroke-dasharray",
-      "stroke-dashoffset",
-      "stroke-linecap",
-      "stroke-linejoin",
-      "stroke-miterlimit",
-      "stroke-opacity",
-      "stroke-width"
-    ],
+    "appliesto": "seeLonghandProperties",
+    "computed": "asLonghands",
     "order": "perGrammar",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke"
