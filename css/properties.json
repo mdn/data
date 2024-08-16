@@ -9271,7 +9271,7 @@
       "stroke-opacity",
       "stroke-width"
     ],
-    "appliesto": "seeLonghandProperties",
+    "appliesto": "asLonghands",
     "computed": "asLonghands",
     "order": "perGrammar",
     "status": "standard",
@@ -9281,7 +9281,7 @@
     "syntax": "none | <dasharray>",
     "media": "visual",
     "inherited": true,
-    "animationType": "",
+    "animationType": "repeatableList",
     "percentages": "referToSVGViewportDiagonal",
     "groups": [
       "Scalable Vector Graphics"

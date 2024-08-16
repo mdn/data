@@ -92,7 +92,7 @@
     "ru": "для {{cssxref(\"length\")}} абсолютного значения, иначе процент"
   },
   "absoluteLengthOrPercentageNumbersConverted": {
-    "en-US": "an absolute {{cssxref(\"length\")}} or {{cssxref(\"percentage\")}}, numbers converted to absolute lengths first",
+    "en-US": "an absolute {{cssxref(\"length\")}} or {{cssxref(\"percentage\")}}, numbers converted to absolute lengths first"
   },
   "absoluteLengthsSpecifiedColorAsSpecified": {
     "de": "Längen absolut gemacht; angegebene Farben berechnet; ansonsten wie angegeben",
