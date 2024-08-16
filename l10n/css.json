@@ -91,6 +91,9 @@
     "ja": "{{cssxref(\"length\")}} の場合は絶対的な値、それ以外はパーセント値",
     "ru": "для {{cssxref(\"length\")}} абсолютного значения, иначе процент"
   },
+  "absoluteLengthOrPercentageNumbersConverted": {
+    "en-US": "an absolute {{cssxref(\"length\")}} or {{cssxref(\"percentage\")}}, numbers converted to absolute lengths first",
+  },
   "absoluteLengthsSpecifiedColorAsSpecified": {
     "de": "Längen absolut gemacht; angegebene Farben berechnet; ansonsten wie angegeben",
     "en-US": "any length made absolute; any specified color computed; otherwise as specified",
@@ -971,12 +974,24 @@
   "limitedSVGElementsEllipseRect": {
     "en-US": "{{SVGElement(\"ellipse\")}} and {{SVGElement(\"rect\")}} elements in {{SVGElement(\"svg\")}}"
   },
+  "limitedSVGElementsShapes": {
+    "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, and {{SVGElement(\"rect\")}} elements in an <code>svg</code>"
+  },
+  "limitedSVGElementsShapesAndTextContent": {
+    "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in an <code>svg</code>"
+  },
+  "limitedSVGElementsTextContent": {
+    "en-US": "{{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in an <code>svg</code>"
+  },
   "listEachItemConsistingOfAbsoluteLengthPercentageAndOrigin": {
     "de": "Eine Liste, bei der jeder Eintrag aus einem Versatz besteht, der durch eine Kombination aus absoluter Länge und einem Prozentsatz plus einem Ursprungsschlüsselwort definiert wird",
     "en-US": "A list, each item consisting of: an offset given as a combination of an absolute length and a percentage, plus an origin keyword",
     "fr": "Une liste dont chaque élément se compose d'un décalage (exprimé comme la combinaison d'une longueur absolue et d'un pourcentage) et d'un mot-clé pour l'origine",
     "ja": "絶対長とパーセント値の組み合わせで与えられるオフセットと原点のキーワードを、各項目として構成されるリスト。",
     "ru": "Список, каждый элемент которого состоит из: смещения, данного комбинацией абсолютной длины и процентов плюс ключевое слово"
+  },
+  "listEachItemConsistingOfAbsoluteLengthPercentageOrKeyword": {
+    "en-US": "A comma separated list of absolute lengths or percentages, numbers converted to absolute lengths first, or keyword specified"
   },
   "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage": {
     "en-US": "A list where each item may be 'normal', a length percentage, or a timeline range name and a length percentage",
@@ -1429,6 +1444,9 @@
   },
   "referToSVGViewportWidth": {
     "en-US": "refer to the width of the current SVG viewport"
+  },
+  "referToSVGViewportDiagonal": {
+    "en-US": "refer to the normalized diagonal measure of the current SVG viewport’s applied {{SVGAttr(\"viewBox\")}}, or of the viewport itself if no `viewBox` is specified"
   },
   "referToTotalPathLength": {
     "de": "beziehen sich auf die Gesamtlänge des Pfads",
