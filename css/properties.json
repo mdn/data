@@ -9250,40 +9250,44 @@
     "media": "visual",
     "inherited": true,
     "animationType": [
-      "stroke-color",
-      "stroke-image",
-      "stroke-origin",
-      "stroke-position",
-      "stroke-size",
-      "stroke-repeat"
+      "stroke-dasharray",
+      "stroke-dashoffset",
+      "stroke-linecap",
+      "stroke-linejoin",
+      "stroke-miterlimit",
+      "stroke-opacity",
+      "stroke-width"
     ],
     "percentages": "no",
     "groups": [
       "Scalable Vector Graphics"
     ],
     "initial": [
-      "stroke-color",
-      "stroke-image",
-      "stroke-origin",
-      "stroke-position",
-      "stroke-size",
-      "stroke-repeat"
+      "stroke-dasharray",
+      "stroke-dashoffset",
+      "stroke-linecap",
+      "stroke-linejoin",
+      "stroke-miterlimit",
+      "stroke-opacity",
+      "stroke-width"
     ],
     "appliesto": [
-      "stroke-color",
-      "stroke-image",
-      "stroke-origin",
-      "stroke-position",
-      "stroke-size",
-      "stroke-repeat"
+      "stroke-dasharray",
+      "stroke-dashoffset",
+      "stroke-linecap",
+      "stroke-linejoin",
+      "stroke-miterlimit",
+      "stroke-opacity",
+      "stroke-width"
     ],
     "computed": [
-      "stroke-color",
-      "stroke-image",
-      "stroke-origin",
-      "stroke-position",
-      "stroke-size",
-      "stroke-repeat"
+      "stroke-dasharray",
+      "stroke-dashoffset",
+      "stroke-linecap",
+      "stroke-linejoin",
+      "stroke-miterlimit",
+      "stroke-opacity",
+      "stroke-width"
     ],
     "order": "perGrammar",
     "status": "standard",
