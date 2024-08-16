@@ -120,6 +120,7 @@
         "asAutoOrColor",
         "asDefinedForBasicShapeWithAbsoluteURIOtherwiseAsSpecified",
         "asLength",
+        "asLonghands",
         "asSpecified",
         "asSpecifiedAppliesToEachProperty",
         "asSpecifiedButVisibleOrClipReplacedToAutoOrHiddenIfOtherValueDifferent",
