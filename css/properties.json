@@ -9271,15 +9271,7 @@
       "stroke-opacity",
       "stroke-width"
     ],
-    "appliesto": [
-      "stroke-dasharray",
-      "stroke-dashoffset",
-      "stroke-linecap",
-      "stroke-linejoin",
-      "stroke-miterlimit",
-      "stroke-opacity",
-      "stroke-width"
-    ],
+    "appliesto": "asLonghands",
     "computed": [
       "stroke-dasharray",
       "stroke-dashoffset",
