@@ -7333,7 +7333,8 @@
     "appliesto": "transformableElements",
     "computed": "forLengthAbsoluteValueOtherwisePercentage",
     "order": "perGrammar",
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-anchor"
   },
   "offset-distance": {
     "syntax": "<length-percentage>",
