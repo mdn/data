@@ -549,6 +549,9 @@
     "en-US": "Block-containers, flex containers, and grid containers",
     "ja": "ブロックコンテナー, フレックスコンテナー, グリッドコンテナー"
   },
+  "blockContainersFlexContainersGridContainersInlineBoxesTableRowsSVGTextContentElements": {
+    "en-US": "Block-containers, flex containers, grid containers, inline boxes, table rows, and SVG text content elements"
+  },
   "blockContainersMultiColumnContainersFlexContainersGridContainers": {
     "en-US": "Block-containers, multi-column containers, flex containers"
   },
@@ -970,6 +973,21 @@
   },
   "limitedSVGElementsEllipseRect": {
     "en-US": "{{SVGElement(\"ellipse\")}} and {{SVGElement(\"rect\")}} elements in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsFilterPrimitives": {
+    "en-US": "The set of elements that control the output of a {{SVGElement(\"filter\")}} element in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsGraphics": {
+    "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"foreignObject\")}}, {{SVGElement(\"image\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsGraphicsAndUse": {
+    "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"foreignObject\")}}, {{SVGElement(\"image\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"use\")}}, {{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsShapes": {
+    "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, and {{SVGElement(\"rect\")}} elements in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsTextContent": {
+    "en-US": "{{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}} , and {{SVGElement(\"tspan\")}} elements in {{SVGElement(\"svg\")}}"
   },
   "listEachItemConsistingOfAbsoluteLengthPercentageAndOrigin": {
     "de": "Eine Liste, bei der jeder Eintrag aus einem Versatz besteht, der durch eine Kombination aus absoluter Länge und einem Prozentsatz plus einem Ursprungsschlüsselwort definiert wird",
