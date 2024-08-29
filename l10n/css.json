@@ -369,6 +369,9 @@
     "de": "<code>auto</code> wird wie angegeben berechnet und <code>&lt;color&gt;</code> Werte werden wie für die {{cssxref(\"color\")}} Eigenschaft berechnet.",
     "ja": "<code>auto</code> は仕様通りに計算され、 <code>&lt;color&gt;</code> 値は {{cssxref(\"color\")}} プロパティで定義されたように計算される。"
   },
+  "asColorOrAbsoluteURL": {
+    "en-US": "as specified, but with <code>&lt;color&gt;</code> values computed and <code>&lt;url&gt;</code> values made absolute"
+  },
   "asDefinedForBasicShapeWithAbsoluteURIOtherwiseAsSpecified": {
     "de": "wie definiert für {{cssxref(\"basic-shape\")}} (gefolgt von {{cssxref(\"shape-box\")}}, falls angegeben), dem {{cssxref(\"image\")}}, dessen URI absolut gemacht wurde, ansonsten wie angegeben.",
     "en-US": "as defined for {{cssxref(\"basic-shape\")}} (with {{cssxref(\"shape-box\")}} following, if supplied), the {{cssxref(\"image\")}} with its URI made absolute, otherwise as specified.",
@@ -968,11 +971,17 @@
   "limitedSVGElementsEllipse": {
     "en-US": "{{SVGElement(\"ellipse\")}} and {{SVGElement(\"circle\")}} elements in {{SVGElement(\"svg\")}}"
   },
+  "limitedSVGElementsEllipseRect": {
+    "en-US": "{{SVGElement(\"ellipse\")}} and {{SVGElement(\"rect\")}} elements in {{SVGElement(\"svg\")}}"
+  },
   "limitedSVGElementsGeometry": {
     "en-US": "{{SVGElement(\"svg\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"image\")}}, and {{SVGElement(\"foreignObject\")}} elements in an <code>svg</code>"
   },
-  "limitedSVGElementsEllipseRect": {
-    "en-US": "{{SVGElement(\"ellipse\")}} and {{SVGElement(\"rect\")}} elements in {{SVGElement(\"svg\")}}"
+  "limitedSVGElementsPath": {
+    "en-US": "{{SVGElement(\"path\")}} element in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsShapeText": {
+    "en-US": "SVG shapes and text content elements"
   },
   "limitedSVGElementsFilterPrimitives": {
     "en-US": "The set of elements that control the output of a {{SVGElement(\"filter\")}} element in {{SVGElement(\"svg\")}}"
