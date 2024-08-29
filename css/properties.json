@@ -4768,7 +4768,7 @@
   "fill-opacity": {
     "syntax": "<alpha-value>",
     "media": "visual",
-    "inherited": false,
+    "inherited": true,
     "animationType": "byComputedValueType",
     "percentages": "mapToRange0To1",
     "groups": [
