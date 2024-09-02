@@ -1,5 +1,25 @@
 # Changelog
 
+## [2.10.0](https://github.com/mdn/data/compare/v2.9.0...v2.10.0) (2024-08-29)
+
+
+### Features
+
+* add CSS SVG d and fill-* properties ([#754](https://github.com/mdn/data/issues/754)) ([7384073](https://github.com/mdn/data/commit/738407371c5eb6eca156decc1a211e17f038b4fd))
+* add CSS SVG geometric properties ([#753](https://github.com/mdn/data/issues/753)) ([ab6bf8a](https://github.com/mdn/data/commit/ab6bf8a2eb9bd8123aa025ba6c8758eaeb0ca2ef))
+* Add marker CSS SVG properties ([#756](https://github.com/mdn/data/issues/756)) ([ebe6b02](https://github.com/mdn/data/commit/ebe6b02ea760452a6f02bfe6406a2d25fc354011))
+
+
+### Bug Fixes
+
+* **css:** follow canonical order in border and outline sections ([#749](https://github.com/mdn/data/issues/749)) ([b703067](https://github.com/mdn/data/commit/b70306787efd4d0f49c3ed8ba2af7dc45db7f803))
+* position-try-options &gt; position-try-fallbacks ([#751](https://github.com/mdn/data/issues/751)) ([0edc1ea](https://github.com/mdn/data/commit/0edc1ea255ffcbdda2305a8a128fffee63bfd891))
+
+
+### Miscellaneous
+
+* add CODEOWNERS for auto-adding reviewers ([#760](https://github.com/mdn/data/issues/760)) ([cae4438](https://github.com/mdn/data/commit/cae4438b47a837fde4f9915404c240d727cca5bc))
+
 ## [2.9.0](https://github.com/mdn/data/compare/v2.8.0...v2.9.0) (2024-07-03)
 
 
