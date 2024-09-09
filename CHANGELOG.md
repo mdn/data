@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.11.0](https://github.com/mdn/data/compare/v2.10.0...v2.11.0) (2024-09-09)
+
+
+### Features
+
+* **ci:** Update depbot to check GH actions ([#761](https://github.com/mdn/data/issues/761)) ([f1ba782](https://github.com/mdn/data/commit/f1ba782ce5b4c1a2024645d4522fa655d0f516df))
+* **css:** Add stroke CSS SVG properties ([#757](https://github.com/mdn/data/issues/757)) ([e577bd0](https://github.com/mdn/data/commit/e577bd0df5e35fb4f196b837ea886335c32036b1))
+* Update depbot to check GH actions ([f1ba782](https://github.com/mdn/data/commit/f1ba782ce5b4c1a2024645d4522fa655d0f516df))
+
+
+### Bug Fixes
+
+* CSS zoom should be a not animatable property ([#748](https://github.com/mdn/data/issues/748)) ([3183e91](https://github.com/mdn/data/commit/3183e91e4c5fea85e402472a2489f8644af20e6e))
+
 ## [2.10.0](https://github.com/mdn/data/compare/v2.9.0...v2.10.0) (2024-08-29)
 
 
