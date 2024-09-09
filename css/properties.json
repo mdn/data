@@ -10765,7 +10765,7 @@
     "syntax": "normal | reset | <number> | <percentage>",
     "media": "visual",
     "inherited": false,
-    "animationType": "integer",
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
       "Microsoft Extensions"
