@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.11.1](https://github.com/mdn/data/compare/v2.11.0...v2.11.1) (2024-09-11)
+
+
+### Miscellaneous
+
+* **deps:** bump actions/checkout from 3 to 4 ([#764](https://github.com/mdn/data/issues/764)) ([3c2be02](https://github.com/mdn/data/commit/3c2be024b7988a472b4f9176029234dfeffa5118))
+* **deps:** bump github/codeql-action from 2 to 3 ([#763](https://github.com/mdn/data/issues/763)) ([251e6e2](https://github.com/mdn/data/commit/251e6e2548a2ad1f10cd2cdd7b2acd3b35bc5f4e))
+
 ## [2.11.0](https://github.com/mdn/data/compare/v2.10.0...v2.11.0) (2024-09-09)
 
 
