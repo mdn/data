@@ -4107,6 +4107,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/clip-path"
   },
+  "clip-rule": {
+    "syntax": "nonzero | evenodd",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "nonzero",
+    "appliesto": "limitedSVGElementsGraphics",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/clip-rule"
+  },
   "color": {
     "syntax": "<color>",
     "media": "visual",
@@ -4127,6 +4143,22 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color"
+  },
+  "color-interpolation-filters": {
+    "syntax": "auto | sRGB | linearRGB",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "linearRGB",
+    "appliesto": "limitedSVGElementsFilterPrimitives",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/clip-rule"
   },
   "color-scheme": {
     "syntax": "normal | [ light | dark | <custom-ident> ]+ && only?",
@@ -4589,6 +4621,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/cursor"
   },
+  "d": {
+    "syntax": "none | path(<string>)",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "basicShapeOtherwiseNo",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "none",
+    "appliesto": "limitedSVGElementsPath",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/d"
+  },
   "cx": {
     "syntax": "<length> | <percentage>",
     "media": "visual",
@@ -4653,6 +4701,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display"
   },
+  "dominant-baseline": {
+    "syntax": "auto | text-bottom | alphabetic | ideographic | middle | central | mathematical | hanging | text-top",
+    "media": "all",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "auto",
+    "appliesto": "blockContainersFlexContainersGridContainersInlineBoxesTableRowsSVGTextContentElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/dominant-baseline"
+  },
   "empty-cells": {
     "syntax": "show | hide",
     "media": "visual",
@@ -4684,6 +4748,54 @@
     "order": "perGrammar",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/field-sizing"
+  },
+  "fill": {
+    "syntax": "none | <color> | <url> [none | <color>]? | context-fill | context-stroke",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "black",
+    "appliesto": "limitedSVGElementsShapeText",
+    "computed": "asColorOrAbsoluteURL",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fill"
+  },
+  "fill-opacity": {
+    "syntax": "<alpha-value>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "byComputedValueType",
+    "percentages": "mapToRange0To1",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "1",
+    "appliesto": "limitedSVGElementsShapeText",
+    "computed": "specifiedValueNumberClipped0To1",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fill-opacity"
+  },
+  "fill-rule": {
+    "syntax": "nonzero | evenodd",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "nonzero",
+    "appliesto": "limitedSVGElementsShapeText",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fill-rule"
   },
   "filter": {
     "syntax": "none | <filter-function-list>",
@@ -6697,6 +6809,74 @@
     ],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-trim"
+  },
+  "marker": {
+    "syntax": "none | <url>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": [
+      "marker-start",
+      "marker-mid",
+      "marker-end"
+    ],
+    "appliesto": "limitedSVGElementsShapes",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/marker"
+  },
+  "marker-end": {
+    "syntax": "none | <url>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "none",
+    "appliesto": "limitedSVGElementsShapes",
+    "computed": "asSpecifiedURLsAbsolute",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/marker-end"
+  },
+  "marker-mid": {
+    "syntax": "none | <url>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "none",
+    "appliesto": "limitedSVGElementsShapes",
+    "computed": "asSpecifiedURLsAbsolute",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/marker-mid"
+  },
+  "marker-start": {
+    "syntax": "none | <url>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "none",
+    "appliesto": "limitedSVGElementsShapes",
+    "computed": "asSpecifiedURLsAbsolute",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/marker-start"
   },
   "mask": {
     "syntax": "<mask-layer>#",
@@ -9246,6 +9426,166 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape-outside"
   },
+  "shape-rendering": {
+    "syntax": "auto | optimizeSpeed | crispEdges | geometricPrecision",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Shapes"
+    ],
+    "initial": "auto",
+    "appliesto": "limitedSVGElementsShapes",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape-rendering"
+  },
+  "stroke": {
+    "syntax": "",
+    "media": "visual",
+    "inherited": true,
+    "animationType": [
+      "stroke-dasharray",
+      "stroke-dashoffset",
+      "stroke-linecap",
+      "stroke-linejoin",
+      "stroke-miterlimit",
+      "stroke-opacity",
+      "stroke-width"
+    ],
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": [
+      "stroke-dasharray",
+      "stroke-dashoffset",
+      "stroke-linecap",
+      "stroke-linejoin",
+      "stroke-miterlimit",
+      "stroke-opacity",
+      "stroke-width"
+    ],
+    "appliesto": "asLonghands",
+    "computed": "asLonghands",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke"
+  },
+  "stroke-dasharray": {
+    "syntax": "none | <dasharray>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "repeatableList",
+    "percentages": "referToSVGViewportDiagonal",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "none",
+    "appliesto": "limitedSVGElementsShapes",
+    "computed": "listEachItemConsistingOfAbsoluteLengthPercentageOrKeyword",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke-dasharray"
+  },
+  "stroke-dashoffset": {
+    "syntax": "<length-percentage> | <number>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "byComputedValueType",
+    "percentages": "referToSVGViewportDiagonal",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "0",
+    "appliesto": "limitedSVGElementsShapes",
+    "computed": "absoluteLengthOrPercentageNumbersConverted",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke-dashoffset"
+  },
+  "stroke-linecap": {
+    "syntax": "butt | round | square",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "butt",
+    "appliesto": "limitedSVGElementsShapes",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke-linecap"
+  },
+  "stroke-linejoin": {
+    "syntax": "miter | miter-clip | round | bevel | arcs",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "miter",
+    "appliesto": "limitedSVGElementsShapes",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke-linejoin"
+  },
+  "stroke-miterlimit": {
+    "syntax": "<number>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "4",
+    "appliesto": "limitedSVGElementsShapes",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke-miterlimit"
+  },
+  "stroke-opacity": {
+    "syntax": "<opacity>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "1",
+    "appliesto": "limitedSVGElementsShapes",
+    "computed": "specifiedValueClipped0To1",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke-opacity"
+  },
+  "stroke-width": {
+    "syntax": "<length-percentage> | <number>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "byComputedValueType",
+    "percentages": "referToSVGViewportDiagonal",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "1px",
+    "appliesto": "limitedSVGElementsShapes",
+    "computed": "absoluteLengthOrPercentageNumbersConverted",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke-width"
+  },
   "tab-size": {
     "syntax": "<integer> | <length>",
     "media": "visual",
@@ -9312,6 +9652,22 @@
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-align-last"
+  },
+  "text-anchor": {
+    "syntax": "start | middle | end",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "start",
+    "appliesto": "limitedSVGElementsTextContent",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-anchor"
   },
   "text-combine-upright": {
     "syntax": "none | all | [ digits <integer>? ]",
@@ -10066,6 +10422,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/user-select"
   },
+  "vector-effect": {
+    "syntax": "none | non-scaling-stroke | non-scaling-size | non-rotation | fixed-position",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "none",
+    "appliesto": "limitedSVGElementsGraphicsAndUse",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/vector-effect"
+  },
   "vertical-align": {
     "syntax": "baseline | sub | super | text-top | text-bottom | middle | top | bottom | <percentage> | <length>",
     "media": "visual",
@@ -10394,7 +10766,7 @@
     "syntax": "normal | reset | <number> | <percentage>",
     "media": "visual",
     "inherited": false,
-    "animationType": "integer",
+    "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
       "Microsoft Extensions"
