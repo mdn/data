@@ -137,6 +137,9 @@
   "color-stop-list": {
     "syntax": "[ <linear-color-stop> [, <linear-color-hint>]? ]# , <linear-color-stop>"
   },
+  "color-interpolation-method": {
+    "syntax": "in [ <rectangular-color-space> | <polar-color-space> <hue-interpolation-method>? ]"
+  },
   "combinator": {
     "syntax": "'>' | '+' | '~' | [ '||' ]"
   },
@@ -356,6 +359,9 @@
   "hue-rotate()": {
     "syntax": "hue-rotate( <angle> )"
   },
+  "hue-interpolation-method": {
+    "syntax": "[ shorter | longer | increasing | decreasing ] hue"
+  },
   "hwb()": {
     "syntax": "hwb( [<hue> | none] [<percentage> | none] [<percentage> | none] [ / [<alpha-value> | none] ]? )"
   },
@@ -447,7 +453,7 @@
     "syntax": "<color> <color-stop-length>?"
   },
   "linear-gradient()": {
-    "syntax": "linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )"
+    "syntax": "linear-gradient( [ [ <angle> | to <side-or-corner> ] || <color-interpolation-method> ]? , <color-stop-list> )"
   },
   "log()": {
     "syntax": "log( <calc-sum>, <calc-sum>? )"
@@ -596,6 +602,9 @@
   "polygon()": {
     "syntax": "polygon( <fill-rule>? , [ <length-percentage> <length-percentage> ]# )"
   },
+  "polar-color-space": {
+    "syntax": "hsl | hwb | lch | oklch"
+  },
   "position": {
     "syntax": "[ [ left | center | right ] || [ top | center | bottom ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ]? | [ [ left | right ] <length-percentage> ] && [ [ top | bottom ] <length-percentage> ] ]"
   },
@@ -625,6 +634,9 @@
   },
   "ray-size": {
     "syntax": "closest-side | closest-corner | farthest-side | farthest-corner | sides"
+  },
+  "rectangular-color-space": {
+    "syntax": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020 | lab | oklab | xyz | xyz-d50 | xyz-d65"
   },
   "relative-selector": {
     "syntax": "<combinator>? <complex-selector>"
