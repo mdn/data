@@ -1,5 +1,47 @@
 # Changelog
 
+## [2.11.1](https://github.com/mdn/data/compare/v2.11.0...v2.11.1) (2024-09-11)
+
+
+### Miscellaneous
+
+* **deps:** bump actions/checkout from 3 to 4 ([#764](https://github.com/mdn/data/issues/764)) ([3c2be02](https://github.com/mdn/data/commit/3c2be024b7988a472b4f9176029234dfeffa5118))
+* **deps:** bump github/codeql-action from 2 to 3 ([#763](https://github.com/mdn/data/issues/763)) ([251e6e2](https://github.com/mdn/data/commit/251e6e2548a2ad1f10cd2cdd7b2acd3b35bc5f4e))
+
+## [2.11.0](https://github.com/mdn/data/compare/v2.10.0...v2.11.0) (2024-09-09)
+
+
+### Features
+
+* **ci:** Update depbot to check GH actions ([#761](https://github.com/mdn/data/issues/761)) ([f1ba782](https://github.com/mdn/data/commit/f1ba782ce5b4c1a2024645d4522fa655d0f516df))
+* **css:** Add stroke CSS SVG properties ([#757](https://github.com/mdn/data/issues/757)) ([e577bd0](https://github.com/mdn/data/commit/e577bd0df5e35fb4f196b837ea886335c32036b1))
+* Update depbot to check GH actions ([f1ba782](https://github.com/mdn/data/commit/f1ba782ce5b4c1a2024645d4522fa655d0f516df))
+
+
+### Bug Fixes
+
+* CSS zoom should be a not animatable property ([#748](https://github.com/mdn/data/issues/748)) ([3183e91](https://github.com/mdn/data/commit/3183e91e4c5fea85e402472a2489f8644af20e6e))
+
+## [2.10.0](https://github.com/mdn/data/compare/v2.9.0...v2.10.0) (2024-08-29)
+
+
+### Features
+
+* add CSS SVG d and fill-* properties ([#754](https://github.com/mdn/data/issues/754)) ([7384073](https://github.com/mdn/data/commit/738407371c5eb6eca156decc1a211e17f038b4fd))
+* add CSS SVG geometric properties ([#753](https://github.com/mdn/data/issues/753)) ([ab6bf8a](https://github.com/mdn/data/commit/ab6bf8a2eb9bd8123aa025ba6c8758eaeb0ca2ef))
+* Add marker CSS SVG properties ([#756](https://github.com/mdn/data/issues/756)) ([ebe6b02](https://github.com/mdn/data/commit/ebe6b02ea760452a6f02bfe6406a2d25fc354011))
+
+
+### Bug Fixes
+
+* **css:** follow canonical order in border and outline sections ([#749](https://github.com/mdn/data/issues/749)) ([b703067](https://github.com/mdn/data/commit/b70306787efd4d0f49c3ed8ba2af7dc45db7f803))
+* position-try-options &gt; position-try-fallbacks ([#751](https://github.com/mdn/data/issues/751)) ([0edc1ea](https://github.com/mdn/data/commit/0edc1ea255ffcbdda2305a8a128fffee63bfd891))
+
+
+### Miscellaneous
+
+* add CODEOWNERS for auto-adding reviewers ([#760](https://github.com/mdn/data/issues/760)) ([cae4438](https://github.com/mdn/data/commit/cae4438b47a837fde4f9915404c240d727cca5bc))
+
 ## [2.9.0](https://github.com/mdn/data/compare/v2.8.0...v2.9.0) (2024-07-03)
 
 
