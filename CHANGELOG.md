@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.11.2](https://github.com/mdn/data/compare/v2.11.1...v2.11.2) (2024-10-01)
+
+
+### Bug Fixes
+
+* add mdn url for CSS offset-anchor ([#759](https://github.com/mdn/data/issues/759)) ([991632c](https://github.com/mdn/data/commit/991632c9678a3ed0534185b4f0bf94528a92d321))
+* **link:** fix link to stacking context ([#768](https://github.com/mdn/data/issues/768)) ([793cb7a](https://github.com/mdn/data/commit/793cb7aa88119fc4f20dcd7227edd786c5747ab5))
+
+
+### Miscellaneous
+
+* update linear-gradient syntax to use optional color-interpolation-method ([#766](https://github.com/mdn/data/issues/766)) ([9d0f4c5](https://github.com/mdn/data/commit/9d0f4c5b52377868d0277d2bac53e63f3a85ea49))
+
 ## [2.11.1](https://github.com/mdn/data/compare/v2.11.0...v2.11.1) (2024-09-11)
 
 
