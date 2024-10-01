@@ -660,11 +660,11 @@
     "ru": "продолжительный"
   },
   "createsStackingContext": {
-    "de": "Erstellt <a href=\"/de/docs/Web/CSS/CSS_Positioning/z_index_verstehen/Der_Stackingkontext\">Stapelkontext</a>",
-    "en-US": "Creates <a href=\"/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context\">stacking context</a>",
-    "fr": "Crée un <a href=\"/fr/docs/Web/CSS/Comprendre_z-index/L'empilement_de_couches\">contexte d'empilement</a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context\">重ね合わせコンテキスト</a>の生成",
-    "ru": "Создаёт <a href=\"/ru/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context\">контекст наложения</a>"
+    "de": "Erstellt <a href=\"/de/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context\">Stapelkontext</a>",
+    "en-US": "Creates <a href=\"/en-US/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context\">stacking context</a>",
+    "fr": "Crée un <a href=\"/fr/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context\">contexte d'empilement</a>",
+    "ja": "<a href=\"/ja/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context\">重ね合わせコンテキスト</a>の生成",
+    "ru": "Создаёт <a href=\"/ru/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context\">контекст наложения</a>"
   },
   "dependsOnLayoutModel": {
     "de": "hängt vom Layoutmodell ab",
