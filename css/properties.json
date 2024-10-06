@@ -6194,22 +6194,6 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset"
   },
-  "inset-area": {
-    "syntax": "none | <inset-area>",
-    "media": "visual",
-    "inherited": false,
-    "animationType": "discrete",
-    "percentages": "no",
-    "groups": [
-      "CSS Positioning"
-    ],
-    "initial": "none",
-    "appliesto": "positionedElementsWithADefaultAnchorElement",
-    "computed": "asSpecified",
-    "order": "perGrammar",
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-area"
-  },
   "inset-block": {
     "syntax": "<'top'>{1,2}",
     "media": "visual",
@@ -8439,7 +8423,7 @@
     "syntax": "none | <position-area>",
     "media": "visual",
     "inherited": false,
-    "animationType": "TBD",
+    "animationType": "discrete",
     "percentages": "no",
     "groups": [
       "CSS Positioning"
@@ -8477,7 +8461,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-try"
   },
   "position-try-fallbacks": {
-    "syntax": "none | [ [<dashed-ident> || <try-tactic>] | inset-area( <'inset-area'> ) ]#",
+    "syntax": "none | [ [<dashed-ident> || <try-tactic>] | <'position-area'> ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
