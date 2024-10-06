@@ -8,7 +8,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/anchor"
   },
   "anchor-size()": {
-    "syntax": "anchor-size( <anchor-element>? <anchor-size>, <length-percentage>? )",
+    "syntax": "anchor-size( [ <anchor-element> || <anchor-size> ]?, <length-percentage>? )",
     "groups": [
       "CSS Positioning"
     ],
