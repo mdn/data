@@ -57,7 +57,7 @@
     "syntax": "[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>? <auto-repeat>\n[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>?"
   },
   "axis": {
-    "syntax": "block | inline | vertical | horizontal"
+    "syntax": "block | inline | vertical | horizontal | x | y"
   },
   "baseline-position": {
     "syntax": "[ first | last ]? baseline"
@@ -714,7 +714,7 @@
     "syntax": "scroll( [ <axis> || <scroller> ]? )"
   },
   "scroller": {
-    "syntax": "root | nearest"
+    "syntax": "root | nearest | self"
   },
   "self-position": {
     "syntax": "center | start | end | self-start | self-end | flex-start | flex-end"
