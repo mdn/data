@@ -5550,7 +5550,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-weight"
   },
   "forced-color-adjust": {
-    "syntax": "auto | none",
+    "syntax": "auto | none | preserve-parent-color",
     "media": "visual",
     "inherited": true,
     "animationType": "notAnimatable",
