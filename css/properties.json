@@ -2085,7 +2085,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/appearance"
   },
   "aspect-ratio": {
-    "syntax": "auto | <ratio>",
+    "syntax": "auto | <ratio> | auto <ratio> | <ratio> auto",
     "media": "all",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -5550,7 +5550,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-weight"
   },
   "forced-color-adjust": {
-    "syntax": "auto | none",
+    "syntax": "auto | none | preserve-parent-color",
     "media": "visual",
     "inherited": true,
     "animationType": "notAnimatable",
