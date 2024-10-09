@@ -2085,7 +2085,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/appearance"
   },
   "aspect-ratio": {
-    "syntax": "auto | <ratio> | auto <ratio> | <ratio> auto",
+    "syntax": "auto || <ratio>",
     "media": "all",
     "inherited": false,
     "animationType": "byComputedValueType",
