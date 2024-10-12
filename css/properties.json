@@ -6318,6 +6318,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-inline-start"
   },
+  "interpolate-size": {
+    "syntax": "numeric-only | allow-keywords",
+    "media": "none",
+    "inherited": true,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "CSS Units"
+    ],
+    "initial": "numeric-only",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/interpolate-size"
+  },
   "isolation": {
     "syntax": "auto | isolate",
     "media": "visual",
