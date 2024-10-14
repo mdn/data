@@ -9886,7 +9886,7 @@
     "groups": [
       "CSS Text Decoration"
     ],
-    "initial": "over right",
+    "initial": "auto",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
