@@ -9878,7 +9878,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis-color"
   },
   "text-emphasis-position": {
-    "syntax": "[ over | under ] && [ right | left ]",
+    "syntax": "auto | [ over | under ] && [ right | left ]?",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -9886,7 +9886,7 @@
     "groups": [
       "CSS Text Decoration"
     ],
-    "initial": "over right",
+    "initial": "auto",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
