@@ -9878,7 +9878,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis-color"
   },
   "text-emphasis-position": {
-    "syntax": "auto | [ over | under ] && [ right | left ]",
+    "syntax": "auto | [ over | under ] && [ right | left ]?",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
