@@ -4193,7 +4193,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/column-count"
   },
   "column-fill": {
-    "syntax": "auto | balance | balance-all",
+    "syntax": "auto | balance",
     "media": "visualInContinuousMediaNoEffectInOverflowColumns",
     "inherited": false,
     "animationType": "discrete",
