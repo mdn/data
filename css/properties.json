@@ -6194,22 +6194,6 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset"
   },
-  "inset-area": {
-    "syntax": "none | <inset-area>",
-    "media": "visual",
-    "inherited": false,
-    "animationType": "discrete",
-    "percentages": "no",
-    "groups": [
-      "CSS Positioning"
-    ],
-    "initial": "none",
-    "appliesto": "positionedElementsWithADefaultAnchorElement",
-    "computed": "asSpecified",
-    "order": "perGrammar",
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-area"
-  },
   "inset-block": {
     "syntax": "<'top'>{1,2}",
     "media": "visual",
@@ -8451,6 +8435,22 @@
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-anchor"
   },
+  "position-area": {
+    "syntax": "none | <position-area>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Positioning"
+    ],
+    "initial": "none",
+    "appliesto": "positionedElementsWithADefaultAnchorElement",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-area"
+  },
   "position-try": {
     "syntax": "<'position-try-order'>? <'position-try-fallbacks'>",
     "media": "visual",
@@ -8477,7 +8477,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-try"
   },
   "position-try-fallbacks": {
-    "syntax": "none | [ [<dashed-ident> || <try-tactic>] | inset-area( <'inset-area'> ) ]#",
+    "syntax": "none | [ [<dashed-ident> || <try-tactic>] | <'position-area'> ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
