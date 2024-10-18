@@ -8420,7 +8420,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position"
   },
   "position-anchor": {
-    "syntax": "auto | <anchor-element>",
+    "syntax": "auto | <anchor-name>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
