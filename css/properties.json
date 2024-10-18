@@ -10104,17 +10104,23 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-underline-position"
   },
   "text-wrap": {
-    "syntax": "wrap | nowrap | balance | stable | pretty",
+    "syntax": "<'text-wrap-mode> || <'text-wrap-style'>",
     "media": "visual",
     "inherited": true,
-    "animationType": "discrete",
+    "animationType": [
+      "text-wrap-mode",
+      "text-wrap-style"
+    ],
     "percentages": "no",
     "groups": [
       "CSS Text"
     ],
     "initial": "wrap",
     "appliesto": "textAndBlockContainers",
-    "computed": "asSpecified",
+    "computed": [
+      "text-wrap-mode",
+      "text-wrap-style"
+    ],
     "order": "perGrammar",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-wrap"
