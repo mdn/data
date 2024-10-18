@@ -8420,7 +8420,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position"
   },
   "position-anchor": {
-    "syntax": "<anchor-element>",
+    "syntax": "auto | <anchor-name>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -8428,7 +8428,7 @@
     "groups": [
       "CSS Positioning"
     ],
-    "initial": "implicit",
+    "initial": "auto",
     "appliesto": "absolutelyPositionedElements",
     "computed": "asSpecified",
     "order": "perGrammar",
@@ -8459,7 +8459,10 @@
       "position-try-fallbacks",
       "position-try-order"
     ],
-    "percentages": "no",
+    "percentages": [
+      "position-try-fallbacks",
+      "position-try-order"
+    ],
     "groups": [
       "CSS Positioning"
     ],
