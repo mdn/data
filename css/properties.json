@@ -4193,7 +4193,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/column-count"
   },
   "column-fill": {
-    "syntax": "auto | balance | balance-all",
+    "syntax": "auto | balance",
     "media": "visualInContinuousMediaNoEffectInOverflowColumns",
     "inherited": false,
     "animationType": "discrete",
@@ -6194,22 +6194,6 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset"
   },
-  "inset-area": {
-    "syntax": "none | <inset-area>",
-    "media": "visual",
-    "inherited": false,
-    "animationType": "discrete",
-    "percentages": "no",
-    "groups": [
-      "CSS Positioning"
-    ],
-    "initial": "none",
-    "appliesto": "positionedElementsWithADefaultAnchorElement",
-    "computed": "asSpecified",
-    "order": "perGrammar",
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-area"
-  },
   "inset-block": {
     "syntax": "<'top'>{1,2}",
     "media": "visual",
@@ -6317,6 +6301,22 @@
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inset-inline-start"
+  },
+  "interpolate-size": {
+    "syntax": "numeric-only | allow-keywords",
+    "media": "none",
+    "inherited": true,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "CSS Units"
+    ],
+    "initial": "numeric-only",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/interpolate-size"
   },
   "isolation": {
     "syntax": "auto | isolate",
@@ -8420,7 +8420,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position"
   },
   "position-anchor": {
-    "syntax": "<anchor-element>",
+    "syntax": "auto | <anchor-name>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -8428,12 +8428,28 @@
     "groups": [
       "CSS Positioning"
     ],
-    "initial": "implicit",
+    "initial": "auto",
     "appliesto": "absolutelyPositionedElements",
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-anchor"
+  },
+  "position-area": {
+    "syntax": "none | <position-area>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Positioning"
+    ],
+    "initial": "none",
+    "appliesto": "positionedElementsWithADefaultAnchorElement",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-area"
   },
   "position-try": {
     "syntax": "<'position-try-order'>? <'position-try-fallbacks'>",
@@ -8443,7 +8459,10 @@
       "position-try-fallbacks",
       "position-try-order"
     ],
-    "percentages": "no",
+    "percentages": [
+      "position-try-fallbacks",
+      "position-try-order"
+    ],
     "groups": [
       "CSS Positioning"
     ],
@@ -8461,7 +8480,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position-try"
   },
   "position-try-fallbacks": {
-    "syntax": "none | [ [<dashed-ident> || <try-tactic>] | inset-area( <'inset-area'> ) ]#",
+    "syntax": "none | [ [<dashed-ident> || <try-tactic>] | <'position-area'> ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -9878,7 +9897,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis-color"
   },
   "text-emphasis-position": {
-    "syntax": "[ over | under ] && [ right | left ]",
+    "syntax": "auto | [ over | under ] && [ right | left ]?",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -9886,7 +9905,7 @@
     "groups": [
       "CSS Text Decoration"
     ],
-    "initial": "over right",
+    "initial": "auto",
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -10104,17 +10123,23 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-underline-position"
   },
   "text-wrap": {
-    "syntax": "wrap | nowrap | balance | stable | pretty",
+    "syntax": "<'text-wrap-mode> || <'text-wrap-style'>",
     "media": "visual",
     "inherited": true,
-    "animationType": "discrete",
+    "animationType": [
+      "text-wrap-mode",
+      "text-wrap-style"
+    ],
     "percentages": "no",
     "groups": [
       "CSS Text"
     ],
     "initial": "wrap",
     "appliesto": "textAndBlockContainers",
-    "computed": "asSpecified",
+    "computed": [
+      "text-wrap-mode",
+      "text-wrap-style"
+    ],
     "order": "perGrammar",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-wrap"
