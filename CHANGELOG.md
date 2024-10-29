@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.12.1](https://github.com/mdn/data/compare/v2.12.0...v2.12.1) (2024-10-29)
+
+
+### Bug Fixes
+
+* **css:** aspect-ratio value supports both 'auto' and 'ratio' together ([4fa8523](https://github.com/mdn/data/commit/4fa8523b48fe7b3f87fa7f6cd35f4bd3258f5d39))
+
 ## [2.12.0](https://github.com/mdn/data/compare/v2.11.1...v2.12.0) (2024-10-23)
 
 
