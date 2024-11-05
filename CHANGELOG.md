@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.12.2](https://github.com/mdn/data/compare/v2.12.1...v2.12.2) (2024-11-05)
+
+
+### Bug Fixes
+
+* **css:** stroke-opacity syntax correction ([#778](https://github.com/mdn/data/issues/778)) ([8c66896](https://github.com/mdn/data/commit/8c66896261c36a13e7c1af021137608986c992c7))
+* Update syntax for 'forced-color-adjust' & 'scale' properties, 'axis', 'color', 'scroller', 'system-color' types ([#771](https://github.com/mdn/data/issues/771)) ([39f2aed](https://github.com/mdn/data/commit/39f2aede448fa9d1257d8ef9b474149052f1aad0))
+
 ## [2.12.1](https://github.com/mdn/data/compare/v2.12.0...v2.12.1) (2024-10-29)
 
 
