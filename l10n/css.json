@@ -91,6 +91,9 @@
     "ja": "{{cssxref(\"length\")}} の場合は絶対的な値、それ以外はパーセント値",
     "ru": "для {{cssxref(\"length\")}} абсолютного значения, иначе процент"
   },
+  "absoluteLengthOrPercentageNumbersConverted": {
+    "en-US": "an absolute {{cssxref(\"length\")}} or {{cssxref(\"percentage\")}}, numbers converted to absolute lengths first"
+  },
   "absoluteLengthsSpecifiedColorAsSpecified": {
     "de": "Längen absolut gemacht; angegebene Farben berechnet; ansonsten wie angegeben",
     "en-US": "any length made absolute; any specified color computed; otherwise as specified",
@@ -326,11 +329,11 @@
     "ru": "как &lt;angle&gt;, &lt;basic-shape&gt; или &lt;path()&gt;"
   },
   "angleRoundedToNextQuarter": {
-    "de": "ein {{xref_cssangle}}, auf den nächsten Viertel von <code>0deg</code> gerundet (üblicherweise  <code>1turn)</code>",
-    "en-US": "an {{xref_cssangle}}, rounded to the next quarter turn from <code>0deg</code> and normalized, that is moduloing the value by <code>1turn</code>",
-    "fr": "un {{xref_cssangle}}, arrondi au quart de tour supérieur (à partir de <code>0deg</code>) puis normalisé (modulo) pour obtenir l'angle relatif à un tour",
-    "ja": "<code>0deg</code> から次の 4 分の 1 回転に丸めて正規化した {{xref_cssangle}} を <code>1turn</code> で割った余り",
-    "ru": "{{xref_cssangle}}, с округлением до следующей четверти оборота от <code>0deg</code> и нормализованный так, что значение - <code>1 поворот</code>"
+    "de": "ein {{cssxref(\"angle\")}}, auf den nächsten Viertel von <code>0deg</code> gerundet (üblicherweise  <code>1turn)</code>",
+    "en-US": "an {{cssxref(\"angle\")}}, rounded to the next quarter turn from <code>0deg</code> and normalized, that is moduloing the value by <code>1turn</code>",
+    "fr": "un {{cssxref(\"angle\")}}, arrondi au quart de tour supérieur (à partir de <code>0deg</code>) puis normalisé (modulo) pour obtenir l'angle relatif à un tour",
+    "ja": "<code>0deg</code> から次の 4 分の 1 回転に丸めて正規化した {{cssxref(\"angle\")}} を <code>1turn</code> で割った余り",
+    "ru": "{{cssxref(\"angle\")}}, с округлением до следующей четверти оборота от <code>0deg</code> и нормализованный так, что значение - <code>1 поворот</code>"
   },
   "animationType": {
     "de": "Animationstyp",
@@ -368,6 +371,9 @@
     "en-US": "<code>auto</code> is computed as specified and <code>&lt;color&gt;</code> values are computed as defined for the {{cssxref(\"color\")}} property.",
     "de": "<code>auto</code> wird wie angegeben berechnet und <code>&lt;color&gt;</code> Werte werden wie für die {{cssxref(\"color\")}} Eigenschaft berechnet.",
     "ja": "<code>auto</code> は仕様通りに計算され、 <code>&lt;color&gt;</code> 値は {{cssxref(\"color\")}} プロパティで定義されたように計算される。"
+  },
+  "asColorOrAbsoluteURL": {
+    "en-US": "as specified, but with <code>&lt;color&gt;</code> values computed and <code>&lt;url&gt;</code> values made absolute"
   },
   "asDefinedForBasicShapeWithAbsoluteURIOtherwiseAsSpecified": {
     "de": "wie definiert für {{cssxref(\"basic-shape\")}} (gefolgt von {{cssxref(\"shape-box\")}}, falls angegeben), dem {{cssxref(\"image\")}}, dessen URI absolut gemacht wurde, ansonsten wie angegeben.",
@@ -549,6 +555,9 @@
     "en-US": "Block-containers, flex containers, and grid containers",
     "ja": "ブロックコンテナー, フレックスコンテナー, グリッドコンテナー"
   },
+  "blockContainersFlexContainersGridContainersInlineBoxesTableRowsSVGTextContentElements": {
+    "en-US": "Block-containers, flex containers, grid containers, inline boxes, table rows, and SVG text content elements"
+  },
   "blockContainersMultiColumnContainersFlexContainersGridContainers": {
     "en-US": "Block-containers, multi-column containers, flex containers"
   },
@@ -651,11 +660,11 @@
     "ru": "продолжительный"
   },
   "createsStackingContext": {
-    "de": "Erstellt <a href=\"/de/docs/Web/CSS/CSS_Positioning/z_index_verstehen/Der_Stackingkontext\">Stapelkontext</a>",
-    "en-US": "Creates <a href=\"/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context\">stacking context</a>",
-    "fr": "Crée un <a href=\"/fr/docs/Web/CSS/Comprendre_z-index/L'empilement_de_couches\">contexte d'empilement</a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context\">重ね合わせコンテキスト</a>の生成",
-    "ru": "Создаёт <a href=\"/ru/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context\">контекст наложения</a>"
+    "de": "Erstellt <a href=\"/de/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context\">Stapelkontext</a>",
+    "en-US": "Creates <a href=\"/en-US/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context\">stacking context</a>",
+    "fr": "Crée un <a href=\"/fr/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context\">contexte d'empilement</a>",
+    "ja": "<a href=\"/ja/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context\">重ね合わせコンテキスト</a>の生成",
+    "ru": "Создаёт <a href=\"/ru/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context\">контекст наложения</a>"
   },
   "dependsOnLayoutModel": {
     "de": "hängt vom Layoutmodell ab",
@@ -808,12 +817,12 @@
     "ru": "<a href=\"/ru/docs/Web/CSS/font-weight#interpolation\" title=\"Значения жирности шрифта интерполируются через целое число дискретных шагов (умноженных на 100). Интерполяция происходит в пространстве действительных чисел, а получившееся значение преобразуется в целое путём округления до ближайшей сотни, со значениями точно между соседними множителями, округляемыми в сторону положительной бесконечности.\">жирность шрифта</a>"
   },
   "forLengthAbsoluteValueOtherwisePercentage": {
-    "de": "for {{xref_csslength}} the absolute value, otherwise a percentage",
-    "en-US": "for {{xref_csslength}} the absolute value, otherwise a percentage",
-    "fr": "pour une valeur de type {{xref_csslength}} sa valeur absolue, sinon un pourcentage",
-    "ja": "{{xref_csslength}} の場合は絶対的な値、それ以外の場合はパーセント値",
-    "ru": "для {{xref_csslength}} абсолютное значение, иначе процент",
-    "zh-CN": "对于 {{xref_csslength}} 则为绝对值，否则为百分比值"
+    "de": "for {{cssxref(\"length\")}} the absolute value, otherwise a percentage",
+    "en-US": "for {{cssxref(\"length\")}} the absolute value, otherwise a percentage",
+    "fr": "pour une valeur de type {{cssxref(\"length\")}} sa valeur absolue, sinon un pourcentage",
+    "ja": "{{cssxref(\"length\")}} の場合は絶対的な値、それ以外の場合はパーセント値",
+    "ru": "для {{cssxref(\"length\")}} абсолютное значение, иначе процент",
+    "zh-CN": "对于 {{cssxref(\"length\")}} 则为绝对值，否则为百分比值"
   },
   "gridContainers": {
     "de": "Gridcontainer",
@@ -959,12 +968,51 @@
   "lengthsAsPercentages": {
     "en-US": "The lengths may be specified as percentages"
   },
+  "limitedSVGElementsCircle": {
+    "en-US": "{{SVGElement(\"circle\")}} element in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsEllipse": {
+    "en-US": "{{SVGElement(\"ellipse\")}} and {{SVGElement(\"circle\")}} elements in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsEllipseRect": {
+    "en-US": "{{SVGElement(\"ellipse\")}} and {{SVGElement(\"rect\")}} elements in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsGeometry": {
+    "en-US": "{{SVGElement(\"svg\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"image\")}}, and {{SVGElement(\"foreignObject\")}} elements in an <code>svg</code>"
+  },
+  "limitedSVGElementsPath": {
+    "en-US": "{{SVGElement(\"path\")}} element in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsShapeText": {
+    "en-US": "SVG shapes and text content elements"
+  },
+  "limitedSVGElementsFilterPrimitives": {
+    "en-US": "The set of elements that control the output of a {{SVGElement(\"filter\")}} element in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsGraphics": {
+    "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"foreignObject\")}}, {{SVGElement(\"image\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsGraphicsAndUse": {
+    "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"foreignObject\")}}, {{SVGElement(\"image\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"use\")}}, {{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsShapes": {
+    "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, and {{SVGElement(\"rect\")}} elements in an <code>svg</code>"
+  },
+  "limitedSVGElementsShapesAndTextContent": {
+    "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in an <code>svg</code>"
+  },
+  "limitedSVGElementsTextContent": {
+    "en-US": "{{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in an <code>svg</code>"
+  },
   "listEachItemConsistingOfAbsoluteLengthPercentageAndOrigin": {
     "de": "Eine Liste, bei der jeder Eintrag aus einem Versatz besteht, der durch eine Kombination aus absoluter Länge und einem Prozentsatz plus einem Ursprungsschlüsselwort definiert wird",
     "en-US": "A list, each item consisting of: an offset given as a combination of an absolute length and a percentage, plus an origin keyword",
     "fr": "Une liste dont chaque élément se compose d'un décalage (exprimé comme la combinaison d'une longueur absolue et d'un pourcentage) et d'un mot-clé pour l'origine",
     "ja": "絶対長とパーセント値の組み合わせで与えられるオフセットと原点のキーワードを、各項目として構成されるリスト。",
     "ru": "Список, каждый элемент которого состоит из: смещения, данного комбинацией абсолютной длины и процентов плюс ключевое слово"
+  },
+  "listEachItemConsistingOfAbsoluteLengthPercentageOrKeyword": {
+    "en-US": "A comma separated list of absolute lengths or percentages, numbers converted to absolute lengths first, or keyword specified"
   },
   "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage": {
     "en-US": "A list where each item may be 'normal', a length percentage, or a timeline range name and a length percentage",
@@ -986,11 +1034,11 @@
     "ja": "リストで、それぞれの項目は大文字小文字を区別する CSS 識別子またはキーワード <code>none</code>, <code>auto</code>"
   },
   "listEachItemTwoKeywordsOriginOffsets": {
-    "de": "a list, each item consisting of two keywords representing the origin undtwo offsets from that origin, each given as an absolute length (if given a {{xref_csslength}}), otherwise as a percentage",
-    "en-US": "a list, each item consisting of two keywords representing the origin and two offsets from that origin, each given as an absolute length (if given a {{xref_csslength}}), otherwise as a percentage",
-    "fr": "une liste dont chaque élément consiste en deux mots-clé représentant l'origine et deux offsets depuis cette origine, chacun étant une longueur absolue (si spécifié comme une {{xref_csslength}}), ou un pourcentage",
-    "ja": "それぞれの項目が原点を表す 2 つのキーワードおよびその原点からの 2 つのオフセット値であるリストであり、それぞれが絶対的な長さ ({{xref_csslength}} が与えられた場合) またはパーセント値で与えられる",
-    "ru": "список, каждый элемент которого состоит из двух ключевых слов, представляющих начало координат и два смещения от этого начала, каждое из которых задаётся абсолютной длиной (если дано {{xref_csslength}}), иначе как проценты"
+    "de": "a list, each item consisting of two keywords representing the origin undtwo offsets from that origin, each given as an absolute length (if given a {{cssxref(\"length\")}}), otherwise as a percentage",
+    "en-US": "a list, each item consisting of two keywords representing the origin and two offsets from that origin, each given as an absolute length (if given a {{cssxref(\"length\")}}), otherwise as a percentage",
+    "fr": "une liste dont chaque élément consiste en deux mots-clé représentant l'origine et deux offsets depuis cette origine, chacun étant une longueur absolue (si spécifié comme une {{cssxref(\"length\")}}), ou un pourcentage",
+    "ja": "それぞれの項目が原点を表す 2 つのキーワードおよびその原点からの 2 つのオフセット値であるリストであり、それぞれが絶対的な長さ ({{cssxref(\"length\")}} が与えられた場合) またはパーセント値で与えられる",
+    "ru": "список, каждый элемент которого состоит из двух ключевых слов, представляющих начало координат и два смещения от этого начала, каждое из которых задаётся абсолютной длиной (если дано {{cssxref(\"length\")}}), иначе как проценты"
   },
   "listItems": {
     "de": "Listenelemente",
@@ -1408,6 +1456,18 @@
     "fr": "fait référence à la taille du masque pour la zone de pointure moins la taille du masque pour la taille de l'image (voir {{cssxref(\"background-position\")}})",
     "ja": "マスク描画領域の寸法からマスクレイヤー画像の寸法を引いたものに対する相対値 ({{cssxref(\"background-position\")}} のテキストを参照)",
     "ru": "относятся к размеру маски области рисования минус размер маски слоя изображения (смотрите статью о {{cssxref(\"background-position\")}})"
+  },
+  "referToSVGViewportSize": {
+    "en-US": "refer to the normalized diagonal of the current SVG viewport"
+  },
+  "referToSVGViewportHeight": {
+    "en-US": "refer to the height of the current SVG viewport"
+  },
+  "referToSVGViewportWidth": {
+    "en-US": "refer to the width of the current SVG viewport"
+  },
+  "referToSVGViewportDiagonal": {
+    "en-US": "refer to the normalized diagonal measure of the current SVG viewport’s applied {{SVGAttr(\"viewBox\")}}, or of the viewport itself if no `viewBox` is specified"
   },
   "referToTotalPathLength": {
     "de": "beziehen sich auf die Gesamtlänge des Pfads",

@@ -115,5 +115,5 @@ on MDN and the [CSS Values and Units](https://www.w3.org/TR/css3-values/#value-d
 
 There are 3 more properties that are optional:
 * `mdn_url` (string): a URL linking to the property's page on MDN. This URL must omit the localization part of the URL (such as `en-US/`).
-* `stacking` (boolean): Whether or not the property creates a stacking context. See [stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) for details.
+* `stacking` (boolean): Whether or not the property creates a stacking context. See [stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context) for details.
 * `alsoAppliesTo` (enum): To which elements the property also applies to. See the schema for [a list of enums](https://github.com/mdn/data/blob/main/css/properties.schema.json#L253).

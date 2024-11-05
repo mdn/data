@@ -1,5 +1,98 @@
 # Changelog
 
+## [2.12.2](https://github.com/mdn/data/compare/v2.12.1...v2.12.2) (2024-11-05)
+
+
+### Bug Fixes
+
+* **css:** stroke-opacity syntax correction ([#778](https://github.com/mdn/data/issues/778)) ([8c66896](https://github.com/mdn/data/commit/8c66896261c36a13e7c1af021137608986c992c7))
+* Update syntax for 'forced-color-adjust' & 'scale' properties, 'axis', 'color', 'scroller', 'system-color' types ([#771](https://github.com/mdn/data/issues/771)) ([39f2aed](https://github.com/mdn/data/commit/39f2aede448fa9d1257d8ef9b474149052f1aad0))
+
+## [2.12.1](https://github.com/mdn/data/compare/v2.12.0...v2.12.1) (2024-10-29)
+
+
+### Bug Fixes
+
+* **css:** aspect-ratio value supports both 'auto' and 'ratio' together ([4fa8523](https://github.com/mdn/data/commit/4fa8523b48fe7b3f87fa7f6cd35f4bd3258f5d39))
+
+## [2.12.0](https://github.com/mdn/data/compare/v2.11.1...v2.12.0) (2024-10-23)
+
+
+### Features
+
+* add data for `interpolate-size` property ([#773](https://github.com/mdn/data/issues/773)) ([43873fc](https://github.com/mdn/data/commit/43873fcd9ba6f8e976ad29d683a8cf655960879e))
+* added auto value to text-emphasis-position property ([#772](https://github.com/mdn/data/issues/772)) ([c4ac978](https://github.com/mdn/data/commit/c4ac9780a4bb8def18297d5c6cbd5f19c014fca2))
+* rename `inset-area` to `position-area` ([#769](https://github.com/mdn/data/issues/769)) ([d2b8857](https://github.com/mdn/data/commit/d2b88572098571628d8125da43cdaec424154f88))
+* update `text-wrap` to be a shorthand property ([#774](https://github.com/mdn/data/issues/774)) ([2213097](https://github.com/mdn/data/commit/22130975d32d59d550a193b5d71365bc4bc00761))
+* update syntax for Anchor Positioning related properties ([#770](https://github.com/mdn/data/issues/770)) ([5f5c637](https://github.com/mdn/data/commit/5f5c6378f657db08fb48e0c75c184a0f0b8865bb))
+
+
+### Bug Fixes
+
+* add mdn url for CSS offset-anchor ([#759](https://github.com/mdn/data/issues/759)) ([991632c](https://github.com/mdn/data/commit/991632c9678a3ed0534185b4f0bf94528a92d321))
+* **link:** fix link to stacking context ([#768](https://github.com/mdn/data/issues/768)) ([793cb7a](https://github.com/mdn/data/commit/793cb7aa88119fc4f20dcd7227edd786c5747ab5))
+
+
+### Miscellaneous
+
+* **css:** remove `column-fill: balance-all` ([#775](https://github.com/mdn/data/issues/775)) ([97b010c](https://github.com/mdn/data/commit/97b010c3516ec71571d9eefa0488d3f727951f62))
+* update linear-gradient syntax to use optional color-interpolation-method ([#766](https://github.com/mdn/data/issues/766)) ([9d0f4c5](https://github.com/mdn/data/commit/9d0f4c5b52377868d0277d2bac53e63f3a85ea49))
+
+## [2.11.1](https://github.com/mdn/data/compare/v2.11.0...v2.11.1) (2024-09-11)
+
+
+### Miscellaneous
+
+* **deps:** bump actions/checkout from 3 to 4 ([#764](https://github.com/mdn/data/issues/764)) ([3c2be02](https://github.com/mdn/data/commit/3c2be024b7988a472b4f9176029234dfeffa5118))
+* **deps:** bump github/codeql-action from 2 to 3 ([#763](https://github.com/mdn/data/issues/763)) ([251e6e2](https://github.com/mdn/data/commit/251e6e2548a2ad1f10cd2cdd7b2acd3b35bc5f4e))
+
+## [2.11.0](https://github.com/mdn/data/compare/v2.10.0...v2.11.0) (2024-09-09)
+
+
+### Features
+
+* **ci:** Update depbot to check GH actions ([#761](https://github.com/mdn/data/issues/761)) ([f1ba782](https://github.com/mdn/data/commit/f1ba782ce5b4c1a2024645d4522fa655d0f516df))
+* **css:** Add stroke CSS SVG properties ([#757](https://github.com/mdn/data/issues/757)) ([e577bd0](https://github.com/mdn/data/commit/e577bd0df5e35fb4f196b837ea886335c32036b1))
+* Update depbot to check GH actions ([f1ba782](https://github.com/mdn/data/commit/f1ba782ce5b4c1a2024645d4522fa655d0f516df))
+
+
+### Bug Fixes
+
+* CSS zoom should be a not animatable property ([#748](https://github.com/mdn/data/issues/748)) ([3183e91](https://github.com/mdn/data/commit/3183e91e4c5fea85e402472a2489f8644af20e6e))
+
+## [2.10.0](https://github.com/mdn/data/compare/v2.9.0...v2.10.0) (2024-08-29)
+
+
+### Features
+
+* add CSS SVG d and fill-* properties ([#754](https://github.com/mdn/data/issues/754)) ([7384073](https://github.com/mdn/data/commit/738407371c5eb6eca156decc1a211e17f038b4fd))
+* add CSS SVG geometric properties ([#753](https://github.com/mdn/data/issues/753)) ([ab6bf8a](https://github.com/mdn/data/commit/ab6bf8a2eb9bd8123aa025ba6c8758eaeb0ca2ef))
+* Add marker CSS SVG properties ([#756](https://github.com/mdn/data/issues/756)) ([ebe6b02](https://github.com/mdn/data/commit/ebe6b02ea760452a6f02bfe6406a2d25fc354011))
+
+
+### Bug Fixes
+
+* **css:** follow canonical order in border and outline sections ([#749](https://github.com/mdn/data/issues/749)) ([b703067](https://github.com/mdn/data/commit/b70306787efd4d0f49c3ed8ba2af7dc45db7f803))
+* position-try-options &gt; position-try-fallbacks ([#751](https://github.com/mdn/data/issues/751)) ([0edc1ea](https://github.com/mdn/data/commit/0edc1ea255ffcbdda2305a8a128fffee63bfd891))
+
+
+### Miscellaneous
+
+* add CODEOWNERS for auto-adding reviewers ([#760](https://github.com/mdn/data/issues/760)) ([cae4438](https://github.com/mdn/data/commit/cae4438b47a837fde4f9915404c240d727cca5bc))
+
+## [2.9.0](https://github.com/mdn/data/compare/v2.8.0...v2.9.0) (2024-07-03)
+
+
+### Features
+
+* **css:** add text-spacing-trim property ([bb0a599](https://github.com/mdn/data/commit/bb0a599e7e45739b6b04fcc4982e322342034120))
+
+
+### Bug Fixes
+
+* **css/functions:** update path mdn_url ([#739](https://github.com/mdn/data/issues/739)) ([946c423](https://github.com/mdn/data/commit/946c42353d33eef81ebc238516f4a28cd03e5e5c))
+* **l10n/css:** replace removed macros ([#745](https://github.com/mdn/data/issues/745)) ([b9dcf29](https://github.com/mdn/data/commit/b9dcf2975f04fddf7a357e5b20d9aff37d6ab687))
+
 ## [2.8.0](https://github.com/mdn/data/compare/v2.7.0...v2.8.0) (2024-05-21)
 
 
