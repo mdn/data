@@ -57,7 +57,7 @@
     "syntax": "[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>? <auto-repeat>\n[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>?"
   },
   "axis": {
-    "syntax": "block | inline | vertical | horizontal"
+    "syntax": "block | inline | x | y"
   },
   "baseline-position": {
     "syntax": "[ first | last ]? baseline"
@@ -123,7 +123,7 @@
     "syntax": "<url>"
   },
   "color": {
-    "syntax": "<rgb()> | <rgba()> | <hsl()> | <hsla()> | <hwb()> | <lab()> | <lch()> | <light-dark()> | <hex-color> | <named-color> | currentcolor | <deprecated-system-color>"
+    "syntax": "<rgb()> | <rgba()> | <hsl()> | <hsla()> | <hwb()> | <lab()> | <lch()> | <oklab()> | <oklch()> | <color()> | <hex-color> | <named-color> | <system-color> | <deprecated-system-color> | currentcolor | transparent"
   },
   "color-stop": {
     "syntax": "<color-stop-length> | <color-stop-angle>"
@@ -714,7 +714,7 @@
     "syntax": "scroll( [ <axis> || <scroller> ]? )"
   },
   "scroller": {
-    "syntax": "root | nearest"
+    "syntax": "root | nearest | self"
   },
   "self-position": {
     "syntax": "center | start | end | self-start | self-end | flex-start | flex-end"
@@ -811,6 +811,9 @@
   },
   "symbol": {
     "syntax": "<string> | <image> | <custom-ident>"
+  },
+  "system-color": {
+    "syntax": "AccentColor | AccentColorText | ActiveText | ButtonBorder | ButtonFace | ButtonText | Canvas | CanvasText | Field | FieldText | GrayText | Highlight | HighlightText | LinkText | Mark | MarkText | SelectedItem | SelectedItemText | VisitedText"
   },
   "tan()": {
     "syntax": "tan( <calc-sum> )"
