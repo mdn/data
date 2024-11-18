@@ -9462,7 +9462,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape-rendering"
   },
   "stroke": {
-    "syntax": "",
+    "syntax": "none | <color> | <url> [none | <color>]? | context-fill | context-stroke",
     "media": "visual",
     "inherited": true,
     "animationType": [
