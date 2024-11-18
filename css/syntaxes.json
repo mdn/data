@@ -608,6 +608,9 @@
   "path()": {
     "syntax": "path( [ <fill-rule>, ]? <string> )"
   },
+  "palette-identifier": {
+    "syntax": "<dashed-ident>"
+  },
   "paint()": {
     "syntax": "paint( <ident>, <declaration-value>? )"
   },
