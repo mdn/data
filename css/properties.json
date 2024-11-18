@@ -4766,7 +4766,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fill"
   },
   "fill-opacity": {
-    "syntax": "<alpha-value>",
+    "syntax": "<opacity-value>",
     "media": "visual",
     "inherited": true,
     "animationType": "byComputedValueType",
@@ -7581,7 +7581,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-rotate"
   },
   "opacity": {
-    "syntax": "<alpha-value>",
+    "syntax": "<opacity-value>",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -9398,7 +9398,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-timeline-name"
   },
   "shape-image-threshold": {
-    "syntax": "<alpha-value>",
+    "syntax": "<opacity-value>",
     "media": "visual",
     "inherited": false,
     "animationType": "number",
