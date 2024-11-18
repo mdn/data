@@ -1715,6 +1715,9 @@
     "ja": "<code>start</code>。<code>start</code> に対応していないブラウザーでは、{{cssxref(\"direction\", \"書字方向\")}}が <code>ltr</code> なら <code>left</code>、<code>rtl</code> なら <code>right</code> として動作する無名の値",
     "ru": "<code>start</code>, или неназванное значение, которое действует как <code>left</code>, если {{cssxref(\"direction\")}}: <code>ltr</code> или как <code>right</code>, если {{cssxref(\"direction\")}}: <code>rtl</code>, а если <code>start</code> не поддерживается браузером."
   },
+  "stopElements": {
+    "en-US": "{{SVGElement(\"stop\")}} elements"
+  },
   "tableCaptionElements": {
     "de": "table-caption Elemente",
     "en-US": "table-caption elements",

@@ -9461,6 +9461,38 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape-rendering"
   },
+  "stop-color": {
+    "syntax": "<'color'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Gradients and Patterns"
+    ],
+    "initial": "black",
+    "appliesto": "stopElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stop-color"
+  },
+  "stop-opacity": {
+    "syntax": "<'opacity'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Gradients and Patterns"
+    ],
+    "initial": "black",
+    "appliesto": "stopElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stop-opacity"
+  },
   "stroke": {
     "syntax": "",
     "media": "visual",
