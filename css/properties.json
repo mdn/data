@@ -10123,14 +10123,17 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-underline-position"
   },
   "text-wrap": {
-    "syntax": "<'text-wrap-mode> || <'text-wrap-style'>",
+    "syntax": "<'text-wrap-mode'> || <'text-wrap-style'>",
     "media": "visual",
     "inherited": true,
     "animationType": [
       "text-wrap-mode",
       "text-wrap-style"
     ],
-    "percentages": "no",
+    "percentages": [
+      "text-wrap-mode",
+      "text-wrap-style"
+    ],
     "groups": [
       "CSS Text"
     ],
@@ -10145,7 +10148,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-wrap"
   },
   "text-wrap-mode": {
-    "syntax": "auto | wrap | nowrap",
+    "syntax": "wrap | nowrap",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
