@@ -9462,13 +9462,13 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape-rendering"
   },
   "stop-color": {
-    "syntax": "<'color'>",
+    "syntax": "<color>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "Gradients and Patterns"
+      "Scalable Vector Graphics"
     ],
     "initial": "black",
     "appliesto": "stopElements",
@@ -9478,13 +9478,13 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stop-color"
   },
   "stop-opacity": {
-    "syntax": "<'opacity'>",
+    "syntax": "<opacity-value>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "Gradients and Patterns"
+      "Scalable Vector Graphics"
     ],
     "initial": "black",
     "appliesto": "stopElements",
