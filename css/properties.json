@@ -4766,7 +4766,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fill"
   },
   "fill-opacity": {
-    "syntax": "<opacity-value>",
+    "syntax": "<'opacity'>",
     "media": "visual",
     "inherited": true,
     "animationType": "byComputedValueType",
