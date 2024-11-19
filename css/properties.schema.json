@@ -17,6 +17,7 @@
         "angleBasicShapeOrPath",
         "angleOrBasicShapeOrPath",
         "basicShapeOtherwiseNo",
+        "byComputedValue",
         "byComputedValueType",
         "byComputedValueTypeNormalAnimatesAsObliqueZeroDeg",
         "color",

@@ -5116,10 +5116,10 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-optical-sizing"
   },
   "font-palette": {
-    "syntax": "normal | light | dark | <palette-identifier>",
+    "syntax": "normal | light | dark | <palette-identifier> | <palette-mix()>",
     "media": "visual",
     "inherited": true,
-    "animationType": "byComputedValueType",
+    "animationType": "byComputedValue",
     "percentages": "no",
     "groups": [
       "CSS Fonts"
