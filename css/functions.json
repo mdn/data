@@ -316,6 +316,14 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/image/paint"
   },
+  "palette-mix()": {
+    "syntax": "palette-mix(<color-interpolation-method> , [ [normal | light | dark | <palette-identifier> | <palette-mix()> ] && <percentage [0,100]>? ]#{2})",
+    "groups": [
+      "CSS Fonts"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-palette/palette-mix"
+  },
   "perspective()": {
     "syntax": "perspective( <length> )",
     "groups": [
