@@ -5133,7 +5133,8 @@
       "::first-line",
       "::placeholder"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-palette"
   },
   "font-variation-settings": {
     "syntax": "normal | [ <string> <number> ]#",
