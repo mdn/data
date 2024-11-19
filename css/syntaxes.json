@@ -578,9 +578,6 @@
   "opacity()": {
     "syntax": "opacity( [ <number-percentage> ] )"
   },
-  "opacity-value": {
-    "syntax": "<number> | <percentage>"
-  },
   "overflow-position": {
     "syntax": "unsafe | safe"
   },
