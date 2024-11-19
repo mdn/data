@@ -4992,7 +4992,7 @@
     "computed": "specifiedValueClipped0To1",
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flood-color"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flood-opacity"
   },
   "font": {
     "syntax": "[ [ <'font-style'> || <font-variant-css21> || <'font-weight'> || <'font-stretch'> ]? <'font-size'> [ / <'line-height'> ]? <'font-family'> ] | caption | icon | menu | message-box | small-caption | status-bar",
