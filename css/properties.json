@@ -4151,7 +4151,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "Scalable Vector Graphics"
+      "Filter Effects"
     ],
     "initial": "linearRGB",
     "appliesto": "limitedSVGElementsFilterPrimitives",
