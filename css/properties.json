@@ -9478,7 +9478,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stop-color"
   },
   "stop-opacity": {
-    "syntax": "<opacity-value>",
+    "syntax": "<'opacity'>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
