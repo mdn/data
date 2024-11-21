@@ -9462,7 +9462,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape-rendering"
   },
   "stop-color": {
-    "syntax": "<color>",
+    "syntax": "<'color'>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
