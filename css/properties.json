@@ -9471,7 +9471,7 @@
       "Scalable Vector Graphics"
     ],
     "initial": "black",
-    "appliesto": "stopElements",
+    "appliesto": "limitedSVGElementsStop",
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "standard",
@@ -9487,7 +9487,7 @@
       "Scalable Vector Graphics"
     ],
     "initial": "black",
-    "appliesto": "stopElements",
+    "appliesto": "limitedSVGElementsStop",
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "standard",

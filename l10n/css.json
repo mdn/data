@@ -981,7 +981,7 @@
     "en-US": "{{SVGElement(\"svg\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"image\")}}, and {{SVGElement(\"foreignObject\")}} elements in an <code>svg</code>"
   },
   "limitedSVGElementsPath": {
-    "en-US": "{{SVGElement(\"path\")}} element in {{SVGElement(\"svg\")}}"
+    "en-US": "{{SVGElement(\"path\")}} elements in {{SVGElement(\"svg\")}}"
   },
   "limitedSVGElementsShapeText": {
     "en-US": "SVG shapes and text content elements"
@@ -1000,6 +1000,9 @@
   },
   "limitedSVGElementsShapesAndTextContent": {
     "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in an <code>svg</code>"
+  },
+  "limitedSVGElementsStop": {
+    "en-US": "{{SVGElement(\"stop\")}} elements in {{SVGElement(\"svg\")}}"
   },
   "limitedSVGElementsTextContent": {
     "en-US": "{{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in an <code>svg</code>"
@@ -1714,9 +1717,6 @@
     "fr": "<code>start</code>, ou une valeur non nommée se comportant comme <code>left</code> si {{cssxref(\"direction\")}} est <code>ltr</code>, <code>right</code> si {{cssxref(\"direction\")}} est <code>rtl</code> si <code>start</code> n'est pas supporté par le navigateur",
     "ja": "<code>start</code>。<code>start</code> に対応していないブラウザーでは、{{cssxref(\"direction\", \"書字方向\")}}が <code>ltr</code> なら <code>left</code>、<code>rtl</code> なら <code>right</code> として動作する無名の値",
     "ru": "<code>start</code>, или неназванное значение, которое действует как <code>left</code>, если {{cssxref(\"direction\")}}: <code>ltr</code> или как <code>right</code>, если {{cssxref(\"direction\")}}: <code>rtl</code>, а если <code>start</code> не поддерживается браузером."
-  },
-  "stopElements": {
-    "en-US": "{{SVGElement(\"stop\")}} elements"
   },
   "tableCaptionElements": {
     "de": "table-caption Elemente",
