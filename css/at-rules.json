@@ -147,7 +147,7 @@
         "status": "standard"
       },
       "override-colors": {
-        "syntax": "[ <integer [0,∞]> <color> ]#",
+        "syntax": "[ <integer [0,∞]>  <color> ]#",
         "media": "all",
         "initial": "n/a (required)",
         "percentages": "no",
