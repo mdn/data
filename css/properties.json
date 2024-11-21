@@ -1862,9 +1862,9 @@
     ],
     "initial": "replace",
     "appliesto": "allElements",
-    "computed": "asSpecified",
-    "order": "uniqueOrder",
-    "status": "experimental",
+    "computed": "listEachItemAKeywordAsSpecified",
+    "order": "perGrammar",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-composition"
   },
   "animation-delay": {
