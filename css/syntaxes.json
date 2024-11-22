@@ -8,6 +8,9 @@
   "acos()": {
     "syntax": "acos( <calc-sum> )"
   },
+  "anchor-name": {
+    "syntax": "<dashed-ident>"
+  },
   "alpha-value": {
     "syntax": "<number> | <percentage>"
   },
