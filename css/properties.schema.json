@@ -144,7 +144,6 @@
         "keywordOrNumericalValueBolderLighterTransformedToRealValue",
         "keywordPlusIntegerIfDigits",
         "lengthAbsolutePercentageAsSpecifiedOtherwiseAuto",
-        "listEachItemAKeywordAsSpecified",
         "listEachItemConsistingOfAbsoluteLengthPercentageAndOrigin",
         "listEachItemConsistingOfAbsoluteLengthPercentageOrKeyword",
         "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage",

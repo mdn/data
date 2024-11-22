@@ -1004,9 +1004,6 @@
   "limitedSVGElementsTextContent": {
     "en-US": "{{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in an <code>svg</code>"
   },
-  "listEachItemAKeywordAsSpecified": {
-    "en-US": "List, each item a keyword as specified"
-  },
   "listEachItemConsistingOfAbsoluteLengthPercentageAndOrigin": {
     "de": "Eine Liste, bei der jeder Eintrag aus einem Versatz besteht, der durch eine Kombination aus absoluter Länge und einem Prozentsatz plus einem Ursprungsschlüsselwort definiert wird",
     "en-US": "A list, each item consisting of: an offset given as a combination of an absolute length and a percentage, plus an origin keyword",
