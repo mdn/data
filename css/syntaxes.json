@@ -218,6 +218,9 @@
   "cubic-bezier-timing-function": {
     "syntax": "ease | ease-in | ease-out | ease-in-out | cubic-bezier(<number [0,1]>, <number>, <number [0,1]>, <number>)"
   },
+  "dasharray": {
+    "syntax": "[ [ <length-percentage> | <number> ]+ ]#"
+  },
   "deprecated-system-color": {
     "syntax": "ActiveBorder | ActiveCaption | AppWorkspace | Background | ButtonFace | ButtonHighlight | ButtonShadow | ButtonText | CaptionText | GrayText | Highlight | HighlightText | InactiveBorder | InactiveCaption | InactiveCaptionText | InfoBackground | InfoText | Menu | MenuText | Scrollbar | ThreeDDarkShadow | ThreeDFace | ThreeDHighlight | ThreeDLightShadow | ThreeDShadow | Window | WindowFrame | WindowText"
   },
@@ -713,11 +716,20 @@
   "scaleZ()": {
     "syntax": "scaleZ( [ <number> | <percentage> ] )"
   },
+  "scope-start": {
+    "syntax": "<selector-list>"
+  },
+  "scope-end": {
+    "syntax": "<selector-list>"
+  },
   "scroll()": {
     "syntax": "scroll( [ <axis> || <scroller> ]? )"
   },
   "scroller": {
     "syntax": "root | nearest | self"
+  },
+  "selector-list": {
+    "syntax": "<complex-selector-list>"
   },
   "self-position": {
     "syntax": "center | start | end | self-start | self-end | flex-start | flex-end"
