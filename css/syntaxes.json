@@ -713,11 +713,20 @@
   "scaleZ()": {
     "syntax": "scaleZ( [ <number> | <percentage> ] )"
   },
+  "scope-start": {
+    "syntax": "<selector-list>"
+  },
+  "scope-end": {
+    "syntax": "<selector-list>"
+  },
   "scroll()": {
     "syntax": "scroll( [ <axis> || <scroller> ]? )"
   },
   "scroller": {
     "syntax": "root | nearest | self"
+  },
+  "selector-list": {
+    "syntax": "<complex-selector-list>"
   },
   "self-position": {
     "syntax": "center | start | end | self-start | self-end | flex-start | flex-end"
