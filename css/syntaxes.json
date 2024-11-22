@@ -191,6 +191,9 @@
   "contrast()": {
     "syntax": "contrast( [ <number-percentage> ] )"
   },
+  "coord-box": {
+    "syntax": "<paint-box> | view-box"
+  },
   "cos()": {
     "syntax": "cos( <calc-sum> )"
   },
@@ -569,6 +572,9 @@
   "nth": {
     "syntax": "<an-plus-b> | even | odd"
   },
+  "offset-path": {
+    "syntax": "<ray()> | <url> | <basic-shape>"
+  },
   "opacity()": {
     "syntax": "opacity( [ <number-percentage> ] )"
   },
@@ -595,6 +601,9 @@
   },
   "page-size": {
     "syntax": "A5 | A4 | A3 | B5 | B4 | JIS-B5 | JIS-B4 | letter | legal | ledger"
+  },
+  "paint-box": {
+    "syntax": "<visual-box> | fill-box | stroke-box"
   },
   "path()": {
     "syntax": "path( [ <fill-rule>, ]? <string> )"
