@@ -1864,7 +1864,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-composition"
   },
   "animation-delay": {
@@ -2085,7 +2085,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/appearance"
   },
   "aspect-ratio": {
-    "syntax": "auto | <ratio>",
+    "syntax": "auto || <ratio>",
     "media": "all",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -5550,7 +5550,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-weight"
   },
   "forced-color-adjust": {
-    "syntax": "auto | none",
+    "syntax": "auto | none | preserve-parent-color",
     "media": "visual",
     "inherited": true,
     "animationType": "notAnimatable",
@@ -8720,7 +8720,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ry"
   },
   "scale": {
-    "syntax": "none | <number>{1,3}",
+    "syntax": "none | [ <number> | <percentage> ]{1,3}",
     "media": "visual",
     "inherited": false,
     "animationType": "transform",
@@ -9574,7 +9574,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke-miterlimit"
   },
   "stroke-opacity": {
-    "syntax": "<opacity>",
+    "syntax": "<'opacity'>",
     "media": "visual",
     "inherited": true,
     "animationType": "byComputedValueType",

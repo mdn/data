@@ -1,5 +1,43 @@
 # Changelog
 
+## [2.12.2](https://github.com/mdn/data/compare/v2.12.1...v2.12.2) (2024-11-05)
+
+
+### Bug Fixes
+
+* **css:** stroke-opacity syntax correction ([#778](https://github.com/mdn/data/issues/778)) ([8c66896](https://github.com/mdn/data/commit/8c66896261c36a13e7c1af021137608986c992c7))
+* Update syntax for 'forced-color-adjust' & 'scale' properties, 'axis', 'color', 'scroller', 'system-color' types ([#771](https://github.com/mdn/data/issues/771)) ([39f2aed](https://github.com/mdn/data/commit/39f2aede448fa9d1257d8ef9b474149052f1aad0))
+
+## [2.12.1](https://github.com/mdn/data/compare/v2.12.0...v2.12.1) (2024-10-29)
+
+
+### Bug Fixes
+
+* **css:** aspect-ratio value supports both 'auto' and 'ratio' together ([4fa8523](https://github.com/mdn/data/commit/4fa8523b48fe7b3f87fa7f6cd35f4bd3258f5d39))
+
+## [2.12.0](https://github.com/mdn/data/compare/v2.11.1...v2.12.0) (2024-10-23)
+
+
+### Features
+
+* add data for `interpolate-size` property ([#773](https://github.com/mdn/data/issues/773)) ([43873fc](https://github.com/mdn/data/commit/43873fcd9ba6f8e976ad29d683a8cf655960879e))
+* added auto value to text-emphasis-position property ([#772](https://github.com/mdn/data/issues/772)) ([c4ac978](https://github.com/mdn/data/commit/c4ac9780a4bb8def18297d5c6cbd5f19c014fca2))
+* rename `inset-area` to `position-area` ([#769](https://github.com/mdn/data/issues/769)) ([d2b8857](https://github.com/mdn/data/commit/d2b88572098571628d8125da43cdaec424154f88))
+* update `text-wrap` to be a shorthand property ([#774](https://github.com/mdn/data/issues/774)) ([2213097](https://github.com/mdn/data/commit/22130975d32d59d550a193b5d71365bc4bc00761))
+* update syntax for Anchor Positioning related properties ([#770](https://github.com/mdn/data/issues/770)) ([5f5c637](https://github.com/mdn/data/commit/5f5c6378f657db08fb48e0c75c184a0f0b8865bb))
+
+
+### Bug Fixes
+
+* add mdn url for CSS offset-anchor ([#759](https://github.com/mdn/data/issues/759)) ([991632c](https://github.com/mdn/data/commit/991632c9678a3ed0534185b4f0bf94528a92d321))
+* **link:** fix link to stacking context ([#768](https://github.com/mdn/data/issues/768)) ([793cb7a](https://github.com/mdn/data/commit/793cb7aa88119fc4f20dcd7227edd786c5747ab5))
+
+
+### Miscellaneous
+
+* **css:** remove `column-fill: balance-all` ([#775](https://github.com/mdn/data/issues/775)) ([97b010c](https://github.com/mdn/data/commit/97b010c3516ec71571d9eefa0488d3f727951f62))
+* update linear-gradient syntax to use optional color-interpolation-method ([#766](https://github.com/mdn/data/issues/766)) ([9d0f4c5](https://github.com/mdn/data/commit/9d0f4c5b52377868d0277d2bac53e63f3a85ea49))
+
 ## [2.11.1](https://github.com/mdn/data/compare/v2.11.0...v2.11.1) (2024-09-11)
 
 

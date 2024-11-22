@@ -8,6 +8,9 @@
   "acos()": {
     "syntax": "acos( <calc-sum> )"
   },
+  "anchor-name": {
+    "syntax": "<dashed-ident>"
+  },
   "alpha-value": {
     "syntax": "<number> | <percentage>"
   },
@@ -57,7 +60,7 @@
     "syntax": "[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>? <auto-repeat>\n[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>?"
   },
   "axis": {
-    "syntax": "block | inline | vertical | horizontal"
+    "syntax": "block | inline | x | y"
   },
   "baseline-position": {
     "syntax": "[ first | last ]? baseline"
@@ -123,7 +126,7 @@
     "syntax": "<url>"
   },
   "color": {
-    "syntax": "<rgb()> | <rgba()> | <hsl()> | <hsla()> | <hwb()> | <lab()> | <lch()> | <light-dark()> | <hex-color> | <named-color> | currentcolor | <deprecated-system-color>"
+    "syntax": "<rgb()> | <rgba()> | <hsl()> | <hsla()> | <hwb()> | <lab()> | <lch()> | <oklab()> | <oklch()> | <color()> | <hex-color> | <named-color> | <system-color> | <deprecated-system-color> | currentcolor | transparent"
   },
   "color-stop": {
     "syntax": "<color-stop-length> | <color-stop-angle>"
@@ -188,6 +191,9 @@
   "contrast()": {
     "syntax": "contrast( [ <number-percentage> ] )"
   },
+  "coord-box": {
+    "syntax": "<paint-box> | view-box"
+  },
   "cos()": {
     "syntax": "cos( <calc-sum> )"
   },
@@ -214,6 +220,9 @@
   },
   "cubic-bezier-timing-function": {
     "syntax": "ease | ease-in | ease-out | ease-in-out | cubic-bezier(<number [0,1]>, <number>, <number [0,1]>, <number>)"
+  },
+  "dasharray": {
+    "syntax": "[ [ <length-percentage> | <number> ]+ ]#"
   },
   "deprecated-system-color": {
     "syntax": "ActiveBorder | ActiveCaption | AppWorkspace | Background | ButtonFace | ButtonHighlight | ButtonShadow | ButtonText | CaptionText | GrayText | Highlight | HighlightText | InactiveBorder | InactiveCaption | InactiveCaptionText | InfoBackground | InfoText | Menu | MenuText | Scrollbar | ThreeDDarkShadow | ThreeDFace | ThreeDHighlight | ThreeDLightShadow | ThreeDShadow | Window | WindowFrame | WindowText"
@@ -563,6 +572,9 @@
   "nth": {
     "syntax": "<an-plus-b> | even | odd"
   },
+  "offset-path": {
+    "syntax": "<ray()> | <url> | <basic-shape>"
+  },
   "opacity()": {
     "syntax": "opacity( [ <number-percentage> ] )"
   },
@@ -589,6 +601,9 @@
   },
   "page-size": {
     "syntax": "A5 | A4 | A3 | B5 | B4 | JIS-B5 | JIS-B4 | letter | legal | ledger"
+  },
+  "paint-box": {
+    "syntax": "<visual-box> | fill-box | stroke-box"
   },
   "path()": {
     "syntax": "path( [ <fill-rule>, ]? <string> )"
@@ -710,11 +725,20 @@
   "scaleZ()": {
     "syntax": "scaleZ( [ <number> | <percentage> ] )"
   },
+  "scope-start": {
+    "syntax": "<selector-list>"
+  },
+  "scope-end": {
+    "syntax": "<selector-list>"
+  },
   "scroll()": {
     "syntax": "scroll( [ <axis> || <scroller> ]? )"
   },
   "scroller": {
-    "syntax": "root | nearest"
+    "syntax": "root | nearest | self"
+  },
+  "selector-list": {
+    "syntax": "<complex-selector-list>"
   },
   "self-position": {
     "syntax": "center | start | end | self-start | self-end | flex-start | flex-end"
@@ -757,6 +781,9 @@
   },
   "single-animation": {
     "syntax": "<'animation-duration'> || <easing-function> || <'animation-delay'> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ] || <single-animation-timeline>"
+  },
+  "single-animation-composition": {
+    "syntax": "replace | add | accumulate"
   },
   "single-animation-direction": {
     "syntax": "normal | reverse | alternate | alternate-reverse"
@@ -811,6 +838,9 @@
   },
   "symbol": {
     "syntax": "<string> | <image> | <custom-ident>"
+  },
+  "system-color": {
+    "syntax": "AccentColor | AccentColorText | ActiveText | ButtonBorder | ButtonFace | ButtonText | Canvas | CanvasText | Field | FieldText | GrayText | Highlight | HighlightText | LinkText | Mark | MarkText | SelectedItem | SelectedItemText | VisitedText"
   },
   "tan()": {
     "syntax": "tan( <calc-sum> )"
