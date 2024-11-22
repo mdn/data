@@ -782,6 +782,9 @@
   "single-animation": {
     "syntax": "<'animation-duration'> || <easing-function> || <'animation-delay'> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ] || <single-animation-timeline>"
   },
+  "single-animation-composition": {
+    "syntax": "replace | add | accumulate"
+  },
   "single-animation-direction": {
     "syntax": "normal | reverse | alternate | alternate-reverse"
   },
