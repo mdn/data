@@ -1596,7 +1596,7 @@
     "appliesto": "allElements",
     "computed": "computedColor",
     "order": "uniqueOrder",
-    "status": "nonstandard",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-fill-color"
   },
   "-webkit-text-stroke": {
@@ -1621,7 +1621,7 @@
       "-webkit-text-stroke-color"
     ],
     "order": "canonicalOrder",
-    "status": "nonstandard",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke"
   },
   "-webkit-text-stroke-color": {
@@ -1637,7 +1637,7 @@
     "appliesto": "allElements",
     "computed": "computedColor",
     "order": "uniqueOrder",
-    "status": "nonstandard",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke-color"
   },
   "-webkit-text-stroke-width": {
@@ -1653,7 +1653,7 @@
     "appliesto": "allElements",
     "computed": "absoluteLength",
     "order": "uniqueOrder",
-    "status": "nonstandard",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke-width"
   },
   "-webkit-touch-callout": {
@@ -2081,7 +2081,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/appearance"
   },
   "aspect-ratio": {
@@ -2097,7 +2097,7 @@
     "appliesto": "allElementsExceptInlineBoxesAndInternalRubyOrTableBoxes",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/aspect-ratio"
   },
   "azimuth": {
@@ -2366,7 +2366,7 @@
       "::first-line",
       "::placeholder"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/background-position-x"
   },
   "background-position-y": {
@@ -2387,7 +2387,7 @@
       "::first-line",
       "::placeholder"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/background-position-y"
   },
   "background-repeat": {
@@ -4088,7 +4088,7 @@
     "appliesto": "absolutelyPositionedElements",
     "computed": "autoOrRectangle",
     "order": "uniqueOrder",
-    "status": "standard",
+    "status": "obsolete",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/clip"
   },
   "clip-path": {
@@ -4746,7 +4746,7 @@
     "appliesto": "elementsWithDefaultPreferredSize",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "standard",
+    "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/field-sizing"
   },
   "fill": {
@@ -5562,7 +5562,7 @@
     "appliesto": "allElementsAndText",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/forced-color-adjust"
   },
   "gap": {
@@ -6118,7 +6118,7 @@
     "appliesto": "firstLetterPseudoElementsAndInlineLevelFirstChildren",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/initial-letter"
   },
   "initial-letter-align": {
@@ -6315,7 +6315,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "standard",
+    "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/interpolate-size"
   },
   "isolation": {
@@ -6463,7 +6463,7 @@
     "appliesto": "blockContainersExceptMultiColumnContainers",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "experimental"
+    "status": "standard"
   },
   "line-height": {
     "syntax": "normal | <number> | <length> | <percentage>",
@@ -7250,7 +7250,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "standard",
+    "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/math-shift"
   },
   "math-style": {
@@ -7562,7 +7562,7 @@
     "appliesto": "transformableElements",
     "computed": "forLengthAbsoluteValueOtherwisePercentage",
     "order": "perGrammar",
-    "status": "experimental"
+    "status": "standard"
   },
   "offset-rotate": {
     "syntax": "[ auto | reverse ] || <angle>",
@@ -8653,7 +8653,7 @@
     "appliesto": "rubyBasesAnnotationsBaseAnnotationContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ruby-align"
   },
   "ruby-merge": {
@@ -8684,7 +8684,7 @@
     "appliesto": "rubyAnnotationsContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ruby-position"
   },
   "rx": {
@@ -10331,7 +10331,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transition-behavior"
   },
   "transition-delay": {
@@ -10570,7 +10570,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-transition-name"
   },
   "visibility": {
