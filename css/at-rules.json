@@ -175,7 +175,7 @@
         "percentages": "asSpecified",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "experimental"
+        "status": "standard"
       },
       "descent-override": {
         "syntax": "normal | <percentage>",
@@ -184,7 +184,7 @@
         "percentages": "asSpecified",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "experimental"
+        "status": "standard"
       },
       "font-display": {
         "syntax": "[ auto | block | swap | fallback | optional ]",
@@ -193,7 +193,7 @@
         "initial": "auto",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "experimental"
+        "status": "standard"
       },
       "font-family": {
         "syntax": "<family-name>",
@@ -256,7 +256,7 @@
         "percentages": "asSpecified",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "experimental"
+        "status": "standard"
       },
       "size-adjust": {
         "syntax": "<percentage>",
@@ -265,7 +265,7 @@
         "percentages": "asSpecified",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "experimental"
+        "status": "standard"
       },
       "src": {
         "syntax": "[ <url> [ format( <string># ) ]? | local( <family-name> ) ]#",
@@ -445,7 +445,7 @@
         "initial": "n/a (required)",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "experimental"
+        "status": "standard"
       },
       "inherits": {
         "syntax": "true | false",
@@ -454,7 +454,7 @@
         "initial": "auto",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "experimental"
+        "status": "standard"
       },
       "initial-value": {
         "syntax": "<declaration-value>?",
@@ -463,10 +463,10 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "experimental"
+        "status": "standard"
       }
     },
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property"
   },
   "@scope": {
@@ -485,7 +485,7 @@
     "groups": [
       "CSS Animations"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@starting-style"
   },
   "@supports": {
