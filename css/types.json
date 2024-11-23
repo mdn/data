@@ -245,7 +245,7 @@
     "groups": [
       "CSS Types"
     ],
-    "status": "standard",
+    "status": "obsolete",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape"
   },
   "string": {
