@@ -10590,7 +10590,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/visibility"
   },
   "white-space": {
-    "syntax": "normal | pre | nowrap | pre-wrap | pre-line | break-spaces | [ <'white-space-collapse'> || <'text-wrap'> || <'white-space-trim'> ]",
+    "syntax": "normal | pre | nowrap | pre-wrap | pre-line | break-spaces | [ <'white-space-collapse'> || <'text-wrap'> ]",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
