@@ -5133,7 +5133,8 @@
       "::first-line",
       "::placeholder"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-palette"
   },
   "font-variation-settings": {
     "syntax": "normal | [ <string> <number> ]#",
@@ -5463,7 +5464,8 @@
       "::first-line",
       "::placeholder"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-emoji"
   },
   "font-variant-ligatures": {
     "syntax": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> ]",
@@ -6087,7 +6089,8 @@
     "appliesto": "allElements",
     "computed": "asSpecifiedWithExceptionOfResolution",
     "order": "uniqueOrder",
-    "status": "experimental"
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/image-resolution"
   },
   "ime-mode": {
     "syntax": "auto | normal | active | inactive | disabled",
@@ -7562,7 +7565,8 @@
     "appliesto": "transformableElements",
     "computed": "forLengthAbsoluteValueOtherwisePercentage",
     "order": "perGrammar",
-    "status": "experimental"
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-position"
   },
   "offset-rotate": {
     "syntax": "[ auto | reverse ] || <angle>",
@@ -7770,7 +7774,8 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow-anchor"
   },
   "overflow-block": {
     "syntax": "visible | hidden | clip | scroll | auto",
@@ -7785,7 +7790,8 @@
     "appliesto": "blockContainersFlexContainersGridContainers",
     "computed": "asSpecifiedButVisibleOrClipReplacedToAutoOrHiddenIfOtherValueDifferent",
     "order": "perGrammar",
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow-block"
   },
   "overflow-clip-box": {
     "syntax": "padding-box | content-box",
@@ -7816,7 +7822,8 @@
     "appliesto": "allElements",
     "computed": "theComputedLengthAndVisualBox",
     "order": "perGrammar",
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow-clip-margin"
   },
   "overflow-inline": {
     "syntax": "visible | hidden | clip | scroll | auto",
@@ -7831,7 +7838,8 @@
     "appliesto": "blockContainersFlexContainersGridContainers",
     "computed": "asSpecifiedButVisibleOrClipReplacedToAutoOrHiddenIfOtherValueDifferent",
     "order": "perGrammar",
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow-inline"
   },
   "overflow-wrap": {
     "syntax": "normal | break-word | anywhere",
