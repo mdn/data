@@ -905,6 +905,9 @@
   "translateZ()": {
     "syntax": "translateZ( <length> )"
   },
+  "try-tactic": {
+    "syntax": "flip-block || flip-inline || flip-start"
+  },
   "type-or-unit": {
     "syntax": "string | color | url | integer | number | length | angle | time | frequency | cap | ch | em | ex | ic | lh | rlh | rem | vb | vi | vw | vh | vmin | vmax | mm | Q | cm | in | pt | pc | px | deg | grad | rad | turn | ms | s | Hz | kHz | %"
   },
