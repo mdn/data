@@ -1372,8 +1372,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-attachment"
+    "status": "nonstandard"
   },
   "-webkit-mask-clip": {
     "syntax": "[ <box> | border | padding | content | text ]#",
@@ -4158,7 +4157,7 @@
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/clip-rule"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color-interpolation-filters"
   },
   "color-scheme": {
     "syntax": "normal | [ light | dark | <custom-ident> ]+ && only?",
@@ -7800,8 +7799,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Mozilla/CSS/overflow-clip-box"
+    "status": "nonstandard"
   },
   "overflow-clip-margin": {
     "syntax": "<visual-box> || <length [0,∞]>",
