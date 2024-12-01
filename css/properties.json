@@ -9388,7 +9388,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-timeline-axis"
   },
   "scroll-timeline-name": {
-    "syntax": "none | <dashed-ident>#",
+    "syntax": "[ none | <dashed-ident> ]#",
     "media": "interactive",
     "inherited": false,
     "animationType": "notAnimatable",
