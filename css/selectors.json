@@ -176,7 +176,7 @@
       "Pseudo-classes",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:defined"
   },
   ":dir": {
@@ -293,7 +293,7 @@
       "Pseudo-classes",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:has"
   },
   ":host()": {
@@ -302,7 +302,7 @@
       "Pseudo-classes",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:host()"
   },
   ":host-context()": {
@@ -311,7 +311,7 @@
       "Pseudo-classes",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:host-context()"
   },
   ":hover": {
@@ -356,7 +356,7 @@
       "Pseudo-classes",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:is"
   },
   ":lang": {
@@ -501,7 +501,7 @@
       "Pseudo-classes",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:past"
   },
   ":paused": {
@@ -510,7 +510,7 @@
       "Pseudo-classes",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:paused"
   },
   ":placeholder-shown": {
@@ -519,7 +519,7 @@
       "Pseudo-classes",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:placeholder-shown"
   },
   ":playing": {
@@ -528,7 +528,7 @@
       "Pseudo-classes",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:playing"
   },
   ":read-only": {
@@ -602,7 +602,7 @@
       "Pseudo-elements",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::target-text"
   },
   ":target-within": {
@@ -620,7 +620,7 @@
       "Pseudo-classes",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:user-invalid"
   },
   ":user-valid": {
@@ -629,7 +629,7 @@
       "Pseudo-classes",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:user-valid"
   },
   ":valid": {
@@ -656,7 +656,7 @@
       "Pseudo-classes",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:where"
   },
   "::-moz-progress-bar": {
@@ -957,7 +957,7 @@
       "Pseudo-elements",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::grammar-error"
   },
   "::marker": {
@@ -975,7 +975,7 @@
       "Pseudo-elements",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::part"
   },
   ":picture-in-picture": {
@@ -984,7 +984,7 @@
       "Pseudo-classes",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:picture-in-picture"
   },
   "::placeholder": {
@@ -1020,7 +1020,7 @@
       "Pseudo-elements",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::spelling-error"
   },
   "::view-transition": {
@@ -1029,7 +1029,7 @@
       "Pseudo-elements",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition"
   },
   "::view-transition-group": {
@@ -1038,7 +1038,7 @@
       "Pseudo-elements",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-group"
   },
   "::view-transition-image-pair": {
@@ -1047,7 +1047,7 @@
       "Pseudo-elements",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-image-pair"
   },
   "::view-transition-new": {
@@ -1056,7 +1056,7 @@
       "Pseudo-elements",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-new"
   },
   "::view-transition-old": {
@@ -1065,7 +1065,7 @@
       "Pseudo-elements",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-old"
   }
 }
