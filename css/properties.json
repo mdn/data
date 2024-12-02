@@ -4749,7 +4749,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/field-sizing"
   },
   "fill": {
-    "syntax": "none | <color> | <url> [none | <color>]? | context-fill | context-stroke",
+    "syntax": "<paint>",
     "media": "visual",
     "inherited": true,
     "animationType": "byComputedValueType",
@@ -9500,7 +9500,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stop-opacity"
   },
   "stroke": {
-    "syntax": "",
+    "syntax": "<paint>",
     "media": "visual",
     "inherited": true,
     "animationType": [

@@ -608,6 +608,9 @@
   "path()": {
     "syntax": "path( [ <fill-rule>, ]? <string> )"
   },
+  "paint": {
+    "syntax": "none | <color> | <url> [none | <color>]? | context-fill | context-stroke"
+  },
   "paint()": {
     "syntax": "paint( <ident>, <declaration-value>? )"
   },
