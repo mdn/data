@@ -981,7 +981,7 @@
     "en-US": "{{SVGElement(\"svg\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"image\")}}, and {{SVGElement(\"foreignObject\")}} elements in an <code>svg</code>"
   },
   "limitedSVGElementsPath": {
-    "en-US": "{{SVGElement(\"path\")}} element in {{SVGElement(\"svg\")}}"
+    "en-US": "{{SVGElement(\"path\")}} elements in {{SVGElement(\"svg\")}}"
   },
   "limitedSVGElementsShapeText": {
     "en-US": "SVG shapes and text content elements"
@@ -1000,6 +1000,9 @@
   },
   "limitedSVGElementsShapesAndTextContent": {
     "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in an <code>svg</code>"
+  },
+  "limitedSVGElementsStop": {
+    "en-US": "{{SVGElement(\"stop\")}} elements in {{SVGElement(\"svg\")}}"
   },
   "limitedSVGElementsTextContent": {
     "en-US": "{{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in an <code>svg</code>"
