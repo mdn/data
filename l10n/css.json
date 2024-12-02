@@ -980,6 +980,15 @@
   "limitedSVGElementsEllipseRect": {
     "en-US": "{{SVGElement(\"ellipse\")}} and {{SVGElement(\"rect\")}} elements in {{SVGElement(\"svg\")}}"
   },
+  "limitedSVGElementsGeometry": {
+    "en-US": "{{SVGElement(\"svg\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"image\")}}, and {{SVGElement(\"foreignObject\")}} elements in an <code>svg</code>"
+  },
+  "limitedSVGElementsPath": {
+    "en-US": "{{SVGElement(\"path\")}} elements in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsShapeText": {
+    "en-US": "SVG shapes and text content elements"
+  },
   "limitedSVGElementsFilterPrimitives": {
     "en-US": "The set of elements that control the output of a {{SVGElement(\"filter\")}} element in {{SVGElement(\"svg\")}}"
   },
@@ -1009,6 +1018,9 @@
   },
   "limitedSVGElementsShapeText": {
     "en-US": "SVG shapes and text content elements"
+  },
+  "limitedSVGElementsStop": {
+    "en-US": "{{SVGElement(\"stop\")}} elements in {{SVGElement(\"svg\")}}"
   },
   "limitedSVGElementsTextContent": {
     "en-US": "{{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in {{SVGElement(\"svg\")}}"
