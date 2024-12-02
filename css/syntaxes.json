@@ -617,6 +617,9 @@
   "paint()": {
     "syntax": "paint( <ident>, <declaration-value>? )"
   },
+  "palette-identifier": {
+    "syntax": "<dashed-ident>"
+  },
   "perspective()": {
     "syntax": "perspective( [ <length [0,∞]> | none ] )"
   },

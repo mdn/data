@@ -593,6 +593,9 @@
     "ru": "блочные элементы",
     "zh-CN": "盒元素"
   },
+  "byComputedValue": {
+    "en-US": "by computed value"
+  },
   "byComputedValueType": {
     "en-US": "by computed value type",
     "ja": "計算値の型による",
