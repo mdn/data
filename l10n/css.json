@@ -981,7 +981,7 @@
     "en-US": "{{SVGElement(\"ellipse\")}} and {{SVGElement(\"rect\")}} elements in {{SVGElement(\"svg\")}}"
   },
   "limitedSVGElementsGeometry": {
-    "en-US": "{{SVGElement(\"svg\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"image\")}}, and {{SVGElement(\"foreignObject\")}} elements in an <code>svg</code>"
+    "en-US": "{{SVGElement(\"svg\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"image\")}}, and {{SVGElement(\"foreignObject\")}} elements in an {{SVGElement(\"svg\")}}"
   },
   "limitedSVGElementsPath": {
     "en-US": "{{SVGElement(\"path\")}} elements in {{SVGElement(\"svg\")}}"
