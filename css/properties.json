@@ -4749,7 +4749,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/field-sizing"
   },
   "fill": {
-    "syntax": "none | <color> | <url> [none | <color>]? | context-fill | context-stroke",
+    "syntax": "<paint>",
     "media": "visual",
     "inherited": true,
     "animationType": "byComputedValueType",
@@ -4765,7 +4765,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fill"
   },
   "fill-opacity": {
-    "syntax": "<alpha-value>",
+    "syntax": "<'opacity'>",
     "media": "visual",
     "inherited": true,
     "animationType": "byComputedValueType",
@@ -5115,10 +5115,10 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-optical-sizing"
   },
   "font-palette": {
-    "syntax": "normal | light | dark | <palette-identifier>",
+    "syntax": "normal | light | dark | <palette-identifier> | <palette-mix()>",
     "media": "visual",
     "inherited": true,
-    "animationType": "byComputedValueType",
+    "animationType": "byComputedValue",
     "percentages": "no",
     "groups": [
       "CSS Fonts"
@@ -7584,7 +7584,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/offset-rotate"
   },
   "opacity": {
-    "syntax": "<alpha-value>",
+    "syntax": "<opacity-value>",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -9404,7 +9404,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-timeline-name"
   },
   "shape-image-threshold": {
-    "syntax": "<alpha-value>",
+    "syntax": "<opacity-value>",
     "media": "visual",
     "inherited": false,
     "animationType": "number",
@@ -9467,8 +9467,40 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape-rendering"
   },
+  "stop-color": {
+    "syntax": "<'color'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "black",
+    "appliesto": "limitedSVGElementsStop",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stop-color"
+  },
+  "stop-opacity": {
+    "syntax": "<'opacity'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "black",
+    "appliesto": "limitedSVGElementsStop",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stop-opacity"
+  },
   "stroke": {
-    "syntax": "",
+    "syntax": "<paint>",
     "media": "visual",
     "inherited": true,
     "animationType": [
@@ -10129,14 +10161,17 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-underline-position"
   },
   "text-wrap": {
-    "syntax": "<'text-wrap-mode> || <'text-wrap-style'>",
+    "syntax": "<'text-wrap-mode'> || <'text-wrap-style'>",
     "media": "visual",
     "inherited": true,
     "animationType": [
       "text-wrap-mode",
       "text-wrap-style"
     ],
-    "percentages": "no",
+    "percentages": [
+      "text-wrap-mode",
+      "text-wrap-style"
+    ],
     "groups": [
       "CSS Text"
     ],
@@ -10151,7 +10186,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-wrap"
   },
   "text-wrap-mode": {
-    "syntax": "auto | wrap | nowrap",
+    "syntax": "wrap | nowrap",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -10676,7 +10711,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/will-change"
   },
   "word-break": {
-    "syntax": "normal | break-all | keep-all | break-word",
+    "syntax": "normal | break-all | keep-all | break-word | auto-phrase",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",

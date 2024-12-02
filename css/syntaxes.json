@@ -578,6 +578,9 @@
   "opacity()": {
     "syntax": "opacity( [ <number-percentage> ] )"
   },
+  "opacity-value": {
+    "syntax": "<number> | <percentage>"
+  },
   "overflow-position": {
     "syntax": "unsafe | safe"
   },
@@ -608,8 +611,14 @@
   "path()": {
     "syntax": "path( [ <fill-rule>, ]? <string> )"
   },
+  "paint": {
+    "syntax": "none | <color> | <url> [none | <color>]? | context-fill | context-stroke"
+  },
   "paint()": {
     "syntax": "paint( <ident>, <declaration-value>? )"
+  },
+  "palette-identifier": {
+    "syntax": "<dashed-ident>"
   },
   "perspective()": {
     "syntax": "perspective( [ <length [0,∞]> | none ] )"
