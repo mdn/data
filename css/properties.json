@@ -10711,7 +10711,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/will-change"
   },
   "word-break": {
-    "syntax": "normal | break-all | keep-all | break-word",
+    "syntax": "normal | break-all | keep-all | break-word | auto-phrase",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
