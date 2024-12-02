@@ -5980,7 +5980,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/hanging-punctuation"
   },
   "height": {
-    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content | fit-content(<length-percentage>)",
+    "syntax": "auto | <length-percentage [0,∞]> | min-content | max-content | fit-content | fit-content(<length-percentage [0,∞]>) | <calc-size()> | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -7288,7 +7288,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/max-block-size"
   },
   "max-height": {
-    "syntax": "none | <length-percentage> | min-content | max-content | fit-content | fit-content(<length-percentage>)",
+    "syntax": "none | <length-percentage [0,∞]> | min-content | max-content | fit-content | fit-content(<length-percentage [0,∞]>) | <calc-size()> | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -7335,7 +7335,7 @@
     "status": "experimental"
   },
   "max-width": {
-    "syntax": "none | <length-percentage> | min-content | max-content | fit-content | fit-content(<length-percentage>)",
+    "syntax": "none | <length-percentage [0,∞]> | min-content | max-content | fit-content | fit-content(<length-percentage [0,∞]>) | <calc-size()> | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -7367,7 +7367,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/min-block-size"
   },
   "min-height": {
-    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content | fit-content(<length-percentage>)",
+    "syntax": "auto | <length-percentage [0,∞]> | min-content | max-content | fit-content | fit-content(<length-percentage [0,∞]>) | <calc-size()> | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -7399,7 +7399,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/min-inline-size"
   },
   "min-width": {
-    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content | fit-content(<length-percentage>)",
+    "syntax": "auto | <length-percentage [0,∞]> | min-content | max-content | fit-content | fit-content(<length-percentage [0,∞]>) | <calc-size()> | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -10679,7 +10679,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/widows"
   },
   "width": {
-    "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content | fit-content(<length-percentage>)",
+    "syntax": "auto | <length-percentage [0,∞]> | min-content | max-content | fit-content | fit-content(<length-percentage [0,∞]>) | <calc-size()> | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
