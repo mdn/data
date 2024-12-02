@@ -257,6 +257,7 @@
         "limitedSVGElementsShapes",
         "limitedSVGElementsShapesAndTextContent",
         "limitedSVGElementsShapeText",
+        "limitedSVGElementsStop",
         "limitedSVGElementsTextContent",
         "listItems",
         "maskElements",
