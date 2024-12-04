@@ -587,6 +587,9 @@
   "outline-radius": {
     "syntax": "<length> | <percentage>"
   },
+  "outline-line-style": {
+    "syntax": "none | dotted | dashed | solid | double | groove | ridge | inset | outset"
+  },
   "page-body": {
     "syntax": "<declaration>? [ ; <page-body> ]? | <page-margin-box> <page-body>"
   },
@@ -913,6 +916,9 @@
   },
   "translateZ()": {
     "syntax": "translateZ( <length> )"
+  },
+  "try-size": {
+    "syntax": "most-width | most-height | most-block-size | most-inline-size"
   },
   "try-tactic": {
     "syntax": "flip-block || flip-inline || flip-start"
