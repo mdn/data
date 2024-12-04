@@ -23,7 +23,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/additive-symbols"
       },
       "fallback": {
         "syntax": "<counter-style-name>",
@@ -32,7 +33,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/fallback"
       },
       "negative": {
         "syntax": "<symbol> <symbol>?",
@@ -41,7 +43,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/negative"
       },
       "pad": {
         "syntax": "<integer> && <symbol>",
@@ -50,7 +53,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/pad"
       },
       "prefix": {
         "syntax": "<symbol>",
@@ -59,7 +63,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/prefix"
       },
       "range": {
         "syntax": "[ [ <integer> | infinite ]{2} ]# | auto",
@@ -68,7 +73,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/range"
       },
       "speak-as": {
         "syntax": "auto | bullets | numbers | words | spell-out | <counter-style-name>",
@@ -77,7 +83,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/speak-as"
       },
       "suffix": {
         "syntax": "<symbol>",
@@ -86,7 +93,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/suffix"
       },
       "symbols": {
         "syntax": "<symbol>+",
@@ -95,7 +103,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/symbols"
       },
       "system": {
         "syntax": "cyclic | numeric | alphabetic | symbolic | additive | [ fixed <integer>? ] | [ extends <counter-style-name> ]",
@@ -104,7 +113,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/system"
       }
     },
     "status": "standard",
@@ -123,7 +133,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@document"
   },
   "@font-palette-values": {
-    "syntax": "@font-palette-values <dashed-ident> { <declaration-list> }",
+    "syntax": "@font-palette-values <dashed-ident> {\n  <declaration-list>\n}",
     "groups": [
       "CSS Fonts"
     ],
@@ -135,7 +145,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-palette-values/base-palette"
       },
       "font-family": {
         "syntax": "<family-name>#",
@@ -144,7 +155,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-palette-values/font-family"
       },
       "override-colors": {
         "syntax": "[ <integer [0,∞]> <color> ]#",
@@ -153,7 +165,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-palette-values/override-colors"
       }
     },
     "status": "standard",
@@ -175,7 +188,8 @@
         "percentages": "asSpecified",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "experimental"
+        "status": "experimental",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/ascent-override"
       },
       "descent-override": {
         "syntax": "normal | <percentage>",
@@ -184,7 +198,8 @@
         "percentages": "asSpecified",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "experimental"
+        "status": "experimental",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/descent-override"
       },
       "font-display": {
         "syntax": "[ auto | block | swap | fallback | optional ]",
@@ -193,7 +208,8 @@
         "initial": "auto",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "experimental"
+        "status": "experimental",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-display"
       },
       "font-family": {
         "syntax": "<family-name>",
@@ -202,7 +218,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-family"
       },
       "font-feature-settings": {
         "syntax": "normal | <feature-tag-value>#",
@@ -211,7 +228,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-feature-settings"
       },
       "font-variation-settings": {
         "syntax": "normal | [ <string> <number> ]#",
@@ -220,7 +238,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-variation-settings"
       },
       "font-stretch": {
         "syntax": "<font-stretch-absolute>{1,2}",
@@ -229,7 +248,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-stretch"
       },
       "font-style": {
         "syntax": "normal | italic | oblique <angle>{0,2}",
@@ -238,7 +258,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-style"
       },
       "font-weight": {
         "syntax": "<font-weight-absolute>{1,2}",
@@ -247,7 +268,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-weight"
       },
       "line-gap-override": {
         "syntax": "normal | <percentage>",
@@ -256,7 +278,8 @@
         "percentages": "asSpecified",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "experimental"
+        "status": "experimental",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/line-gap-override"
       },
       "size-adjust": {
         "syntax": "<percentage>",
@@ -265,7 +288,8 @@
         "percentages": "asSpecified",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "experimental"
+        "status": "experimental",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/size-adjust"
       },
       "src": {
         "syntax": "[ <url> [ format( <string># ) ]? | local( <family-name> ) ]#",
@@ -274,7 +298,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/src"
       },
       "unicode-range": {
         "syntax": "<unicode-range>#",
@@ -283,7 +308,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/unicode-range"
       }
     },
     "status": "standard",
@@ -399,7 +425,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@page/page-orientation"
       },
       "size": {
         "syntax": "<length>{1,2} | auto | [ <page-size> || [ portrait | landscape ] ]",
@@ -411,7 +438,8 @@
         "percentages": "no",
         "computed": "asSpecifiedRelativeToAbsoluteLengths",
         "order": "orderOfAppearance",
-        "status": "standard"
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@page/size"
       }
     },
     "status": "standard",
@@ -445,7 +473,8 @@
         "initial": "n/a (required)",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "experimental"
+        "status": "experimental",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property/syntax"
       },
       "inherits": {
         "syntax": "true | false",
@@ -454,7 +483,8 @@
         "initial": "auto",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "experimental"
+        "status": "experimental",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property/inherits"
       },
       "initial-value": {
         "syntax": "<declaration-value>?",
@@ -463,7 +493,8 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "experimental"
+        "status": "experimental",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property/initial-value"
       }
     },
     "status": "experimental",
