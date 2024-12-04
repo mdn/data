@@ -587,6 +587,9 @@
   "outline-radius": {
     "syntax": "<length> | <percentage>"
   },
+  "outline-line-style": {
+    "syntax": "none | dotted | dashed | solid | double | groove | ridge | inset | outset"
+  },
   "page-body": {
     "syntax": "<declaration>? [ ; <page-body> ]? | <page-margin-box> <page-body>"
   },
