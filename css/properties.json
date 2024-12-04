@@ -5115,10 +5115,10 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-optical-sizing"
   },
   "font-palette": {
-    "syntax": "normal | light | dark | <palette-identifier>",
+    "syntax": "normal | light | dark | <palette-identifier> | <palette-mix()>",
     "media": "visual",
     "inherited": true,
-    "animationType": "byComputedValueType",
+    "animationType": "byComputedValue",
     "percentages": "no",
     "groups": [
       "CSS Fonts"
@@ -7704,7 +7704,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/outline-offset"
   },
   "outline-style": {
-    "syntax": "auto | <'border-style'>",
+    "syntax": "auto | <outline-line-style>",
     "media": [
       "visual",
       "interactive"
@@ -10711,7 +10711,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/will-change"
   },
   "word-break": {
-    "syntax": "normal | break-all | keep-all | break-word",
+    "syntax": "normal | break-all | keep-all | break-word | auto-phrase",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
