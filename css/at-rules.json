@@ -188,7 +188,7 @@
         "percentages": "asSpecified",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "experimental",
+        "status": "standard",
         "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/ascent-override"
       },
       "descent-override": {
@@ -198,7 +198,7 @@
         "percentages": "asSpecified",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "experimental",
+        "status": "standard",
         "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/descent-override"
       },
       "font-display": {
@@ -208,7 +208,7 @@
         "initial": "auto",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "experimental",
+        "status": "standard",
         "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-display"
       },
       "font-family": {
@@ -278,7 +278,7 @@
         "percentages": "asSpecified",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "experimental",
+        "status": "standard",
         "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/line-gap-override"
       },
       "size-adjust": {
@@ -288,7 +288,7 @@
         "percentages": "asSpecified",
         "computed": "asSpecified",
         "order": "orderOfAppearance",
-        "status": "experimental",
+        "status": "standard",
         "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/size-adjust"
       },
       "src": {
@@ -473,7 +473,7 @@
         "initial": "n/a (required)",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "experimental",
+        "status": "standard",
         "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property/syntax"
       },
       "inherits": {
@@ -483,7 +483,7 @@
         "initial": "auto",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "experimental",
+        "status": "standard",
         "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property/inherits"
       },
       "initial-value": {
@@ -493,11 +493,11 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "experimental",
+        "status": "standard",
         "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property/initial-value"
       }
     },
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property"
   },
   "@scope": {
@@ -516,7 +516,7 @@
     "groups": [
       "CSS Animations"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@starting-style"
   },
   "@supports": {
