@@ -917,6 +917,9 @@
   "translateZ()": {
     "syntax": "translateZ( <length> )"
   },
+  "try-size": {
+    "syntax": "most-width | most-height | most-block-size | most-inline-size"
+  },
   "try-tactic": {
     "syntax": "flip-block || flip-inline || flip-start"
   },
