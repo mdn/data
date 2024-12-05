@@ -3988,7 +3988,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/break-inside"
   },
   "caption-side": {
-    "syntax": "top | bottom | block-start | block-end | inline-start | inline-end",
+    "syntax": "top | bottom",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
