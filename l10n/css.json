@@ -981,16 +981,13 @@
     "en-US": "{{SVGElement(\"ellipse\")}} and {{SVGElement(\"rect\")}} elements in {{SVGElement(\"svg\")}}"
   },
   "limitedSVGElementsGeometry": {
-    "en-US": "{{SVGElement(\"svg\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"image\")}}, and {{SVGElement(\"foreignObject\")}} elements in an <code>svg</code>"
-  },
-  "limitedSVGElementsPath": {
-    "en-US": "{{SVGElement(\"path\")}} elements in {{SVGElement(\"svg\")}}"
-  },
-  "limitedSVGElementsShapeText": {
-    "en-US": "SVG shapes and text content elements"
+    "en-US": "{{SVGElement(\"svg\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"image\")}}, and {{SVGElement(\"foreignObject\")}} elements in {{SVGElement(\"svg\")}}"
   },
   "limitedSVGElementsFilterPrimitives": {
     "en-US": "The set of elements that control the output of a {{SVGElement(\"filter\")}} element in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsFloodAndDropShadow": {
+    "en-US": "{{SVGElement(\"feFlood\")}} and {{SVGElement(\"feDropShadow\")}} elements in {{SVGElement(\"svg\")}}"
   },
   "limitedSVGElementsGraphics": {
     "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"foreignObject\")}}, {{SVGElement(\"image\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in {{SVGElement(\"svg\")}}"
@@ -998,17 +995,26 @@
   "limitedSVGElementsGraphicsAndUse": {
     "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"foreignObject\")}}, {{SVGElement(\"image\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"use\")}}, {{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in {{SVGElement(\"svg\")}}"
   },
+  "limitedSVGElementsLightSource": {
+    "en-US": "{{SVGElement(\"feDiffuseLighting\")}} and {{SVGElement(\"feSpecularLighting\")}} elements in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsPath": {
+    "en-US": "{{SVGElement(\"path\")}} element in {{SVGElement(\"svg\")}}"
+  },
   "limitedSVGElementsShapes": {
     "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, and {{SVGElement(\"rect\")}} elements in an <code>svg</code>"
   },
   "limitedSVGElementsShapesAndTextContent": {
     "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in an <code>svg</code>"
   },
+  "limitedSVGElementsShapeText": {
+    "en-US": "SVG shapes and text content elements"
+  },
   "limitedSVGElementsStop": {
     "en-US": "{{SVGElement(\"stop\")}} elements in {{SVGElement(\"svg\")}}"
   },
   "limitedSVGElementsTextContent": {
-    "en-US": "{{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in an <code>svg</code>"
+    "en-US": "{{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in {{SVGElement(\"svg\")}}"
   },
   "listEachItemConsistingOfAbsoluteLengthPercentageAndOrigin": {
     "de": "Eine Liste, bei der jeder Eintrag aus einem Versatz besteht, der durch eine Kombination aus absoluter Länge und einem Prozentsatz plus einem Ursprungsschlüsselwort definiert wird",

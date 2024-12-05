@@ -4150,7 +4150,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "Scalable Vector Graphics"
+      "Filter Effects"
     ],
     "initial": "linearRGB",
     "appliesto": "limitedSVGElementsFilterPrimitives",
@@ -4960,6 +4960,38 @@
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/float"
+  },
+  "flood-color": {
+    "syntax": "<color>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValue",
+    "percentages": "no",
+    "groups": [
+      "Filter Effects"
+    ],
+    "initial": "black",
+    "appliesto": "limitedSVGElementsFloodAndDropShadow",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flood-color"
+  },
+  "flood-opacity": {
+    "syntax": "<'opacity'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValue",
+    "percentages": "no",
+    "groups": [
+      "Filter Effects"
+    ],
+    "initial": "black",
+    "appliesto": "limitedSVGElementsFloodAndDropShadow",
+    "computed": "specifiedValueClipped0To1",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flood-opacity"
   },
   "font": {
     "syntax": "[ [ <'font-style'> || <font-variant-css21> || <'font-weight'> || <'font-stretch'> ]? <'font-size'> [ / <'line-height'> ]? <'font-family'> ] | caption | icon | menu | message-box | small-caption | status-bar",
@@ -6435,6 +6467,22 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/letter-spacing"
+  },
+  "lighting-color": {
+    "syntax": "<color>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValue",
+    "percentages": "no",
+    "groups": [
+      "Filter Effects"
+    ],
+    "initial": "white",
+    "appliesto": "limitedSVGElementsLightSource",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/lighting-color"
   },
   "line-break": {
     "syntax": "auto | loose | normal | strict | anywhere",
