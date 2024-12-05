@@ -8035,7 +8035,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-y"
   },
   "padding": {
-    "syntax": "[ <length> | <percentage> ]{1,4}",
+    "syntax": "<'padding-top'>{1,4}",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -8065,7 +8065,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding"
   },
   "padding-block": {
-    "syntax": "<'padding-left'>{1,2}",
+    "syntax": "<'padding-top'>{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -8087,7 +8087,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-block"
   },
   "padding-block-end": {
-    "syntax": "<'padding-left'>",
+    "syntax": "<'padding-top'>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -8103,7 +8103,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-block-end"
   },
   "padding-block-start": {
-    "syntax": "<'padding-left'>",
+    "syntax": "<'padding-top'>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -8119,7 +8119,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-block-start"
   },
   "padding-bottom": {
-    "syntax": "<length> | <percentage>",
+    "syntax": "<length-percentage [0,∞]>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -8139,7 +8139,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-bottom"
   },
   "padding-inline": {
-    "syntax": "<'padding-left'>{1,2}",
+    "syntax": "<'padding-top'>{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -8161,7 +8161,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-inline"
   },
   "padding-inline-end": {
-    "syntax": "<'padding-left'>",
+    "syntax": "<'padding-top'>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -8177,7 +8177,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-inline-end"
   },
   "padding-inline-start": {
-    "syntax": "<'padding-left'>",
+    "syntax": "<'padding-top'>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -8193,7 +8193,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-inline-start"
   },
   "padding-left": {
-    "syntax": "<length> | <percentage>",
+    "syntax": "<length-percentage [0,∞]>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -8213,7 +8213,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-left"
   },
   "padding-right": {
-    "syntax": "<length> | <percentage>",
+    "syntax": "<length-percentage [0,∞]>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -8233,7 +8233,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/padding-right"
   },
   "padding-top": {
-    "syntax": "<length> | <percentage>",
+    "syntax": "<length-percentage [0,∞]>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
