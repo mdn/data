@@ -6581,7 +6581,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/list-style-type"
   },
   "margin": {
-    "syntax": "[ <length> | <percentage> | auto ]{1,4}",
+    "syntax": "<'margin-top'>{1,4}",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -6610,7 +6610,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin"
   },
   "margin-block": {
-    "syntax": "<'margin-left'>{1,2}",
+    "syntax": "<'margin-top'>{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -6632,7 +6632,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-block"
   },
   "margin-block-end": {
-    "syntax": "<'margin-left'>",
+    "syntax": "<'margin-top'>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -6648,7 +6648,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-block-end"
   },
   "margin-block-start": {
-    "syntax": "<'margin-left'>",
+    "syntax": "<'margin-top'>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -6664,7 +6664,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-block-start"
   },
   "margin-bottom": {
-    "syntax": "<length> | <percentage> | auto",
+    "syntax": "<length-percentage> | auto",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -6683,7 +6683,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-bottom"
   },
   "margin-inline": {
-    "syntax": "<'margin-left'>{1,2}",
+    "syntax": "<'margin-top'>{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -6705,7 +6705,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-inline"
   },
   "margin-inline-end": {
-    "syntax": "<'margin-left'>",
+    "syntax": "<'margin-top'>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -6721,7 +6721,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-inline-end"
   },
   "margin-inline-start": {
-    "syntax": "<'margin-left'>",
+    "syntax": "<'margin-top'>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -6737,7 +6737,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-inline-start"
   },
   "margin-left": {
-    "syntax": "<length> | <percentage> | auto",
+    "syntax": "<length-percentage> | auto",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -6756,7 +6756,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-left"
   },
   "margin-right": {
-    "syntax": "<length> | <percentage> | auto",
+    "syntax": "<length-percentage> | auto",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
@@ -6775,7 +6775,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-right"
   },
   "margin-top": {
-    "syntax": "<length> | <percentage> | auto",
+    "syntax": "<length-percentage> | auto",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
