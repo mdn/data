@@ -1,5 +1,56 @@
 # Changelog
 
+## [2.13.0](https://github.com/mdn/data/compare/v2.12.2...v2.13.0) (2024-12-05)
+
+
+### Features
+
+* **css:** Add data for `lighting-color`, `flood-color`, `flood-opacity` ([#787](https://github.com/mdn/data/issues/787)) ([2e42c31](https://github.com/mdn/data/commit/2e42c3103bce792eeef80730844a04cb9c6db752))
+* **css:** Add data for `stop-color` & `stop-opacity` ([#782](https://github.com/mdn/data/issues/782)) ([9398267](https://github.com/mdn/data/commit/9398267d02156f7c43ad453fb3e0d67fa5159b52))
+* **css:** add mdn_url for features with documentations ([#803](https://github.com/mdn/data/issues/803)) ([dd04e07](https://github.com/mdn/data/commit/dd04e07a0e29e33ade56f5f696e09e1af0821d53))
+* **css:** Add missing `&lt;anchor-name&gt;` syntax for `position-anchor` property ([#792](https://github.com/mdn/data/issues/792)) ([350f183](https://github.com/mdn/data/commit/350f1835d2bc016a24edd9b809759599e8762fe1))
+* **css:** Add missing `&lt;position-area&gt;` syntax for `position-area` property ([#793](https://github.com/mdn/data/issues/793)) ([3722a02](https://github.com/mdn/data/commit/3722a0269192bdd5823eb7ecf3bd7f67769e3cb5))
+* **css:** Add missing `&lt;try-size&gt;` syntax for `position-try-order` property ([#796](https://github.com/mdn/data/issues/796)) ([0b93566](https://github.com/mdn/data/commit/0b9356679f0e8730ef771dbe02676771efbdd553))
+* **css:** Add missing `&lt;try-tactic&gt;` syntax for `position-try-fallbacks` property ([#795](https://github.com/mdn/data/issues/795)) ([76584aa](https://github.com/mdn/data/commit/76584aaf866eb03dd3745a5426dfb7a7b0f1b81c))
+* **css:** Add missing syntax `&lt;coord-box&gt;` `<offset-path>` for `offset-path` property ([#790](https://github.com/mdn/data/issues/790)) ([8438947](https://github.com/mdn/data/commit/8438947959896bcda9ec64dee96de7d1df565785))
+* **css:** Add missing syntax `&lt;dasharray&gt;` for `stroke-dasharray` ([#791](https://github.com/mdn/data/issues/791)) ([df08f67](https://github.com/mdn/data/commit/df08f676feed01e93a28942a2dbd313d99e171f8))
+* **css:** add missing syntax for `offset-path` property ([8438947](https://github.com/mdn/data/commit/8438947959896bcda9ec64dee96de7d1df565785))
+* **css:** Add missing syntax for `stroke` property ([#783](https://github.com/mdn/data/issues/783)) ([89c2196](https://github.com/mdn/data/commit/89c2196e390455500fe09874cb77caac55a8c418))
+* **css:** Allow at-rule descriptors also contain mdn_url key ([#805](https://github.com/mdn/data/issues/805)) ([7ebbdfa](https://github.com/mdn/data/commit/7ebbdfa0e12c7f785189fc8a2c891794c174b91f))
+* **css:** Fix/Add synatx for `font-palette` `&lt;palette-identifier&gt;` `palette-mix()` ([#785](https://github.com/mdn/data/issues/785)) ([d572bcb](https://github.com/mdn/data/commit/d572bcb6dd50f3be7acc87d6203c7b740a280cb2))
+* **css:** make at-rule descriptor also contain mdn_url key ([7ebbdfa](https://github.com/mdn/data/commit/7ebbdfa0e12c7f785189fc8a2c891794c174b91f))
+* **css:** remove non-supported caption-side values ([#818](https://github.com/mdn/data/issues/818)) ([f0b8774](https://github.com/mdn/data/commit/f0b8774ebcbe0d132b09d3d8ea6f109798c585be))
+* **css:** Support for `word-break:auto-phrase` ([#810](https://github.com/mdn/data/issues/810)) ([12e6074](https://github.com/mdn/data/commit/12e60743d224cd28ddfa60c7ecdd7cbda7621f7b))
+* **css:** sync at-rule status per bcd ([9c8b9eb](https://github.com/mdn/data/commit/9c8b9eb3b520fc231804978c91ca0fdc33d35fb1))
+* **css:** Sync at-rule status per bcd ([#800](https://github.com/mdn/data/issues/800)) ([9c8b9eb](https://github.com/mdn/data/commit/9c8b9eb3b520fc231804978c91ca0fdc33d35fb1))
+* **css:** sync property status per bcd ([06fa694](https://github.com/mdn/data/commit/06fa6946713d086d7d4986131679993d257cc4d7))
+* **css:** Sync property status per bcd ([#801](https://github.com/mdn/data/issues/801)) ([06fa694](https://github.com/mdn/data/commit/06fa6946713d086d7d4986131679993d257cc4d7))
+* **css:** sync selector status per bcd ([31d4ebe](https://github.com/mdn/data/commit/31d4ebe3cdf79c3a13c8c601c18bcc90c0cbb0fe))
+* **css:** Sync selector status per bcd ([#799](https://github.com/mdn/data/issues/799)) ([31d4ebe](https://github.com/mdn/data/commit/31d4ebe3cdf79c3a13c8c601c18bcc90c0cbb0fe))
+* **css:** Update `&lt;alpha-value&gt;` usage ([#784](https://github.com/mdn/data/issues/784)) ([87dc78b](https://github.com/mdn/data/commit/87dc78b7d7eeaecfda965eae58db307d81836668))
+* **css:** Update padding properties ([#816](https://github.com/mdn/data/issues/816)) ([8a9f3e2](https://github.com/mdn/data/commit/8a9f3e2518b6864fb202aa890147b1ef61a1ddea))
+* **css:** Update syntax for `outline-style` ([#808](https://github.com/mdn/data/issues/808)) ([14605dc](https://github.com/mdn/data/commit/14605dc6e92ae0437192ff074b8522e9cf377495))
+* **css:** Update syntax for at_font-palette-values/override-colors ([#780](https://github.com/mdn/data/issues/780)) ([6f8e474](https://github.com/mdn/data/commit/6f8e4743cc35dd2e87a13b19a68d905f683b59f1))
+* **css:** Update syntax for fit-content() ([#814](https://github.com/mdn/data/issues/814)) ([cd9f7ce](https://github.com/mdn/data/commit/cd9f7ce8ab072a215b48ef2ef805fb83a6f223d3))
+* **css:** Update syntax for margin properties ([#815](https://github.com/mdn/data/issues/815)) ([8d9f939](https://github.com/mdn/data/commit/8d9f939d9e71c684fba6eb112508a2fa9b9518d4))
+* **css:** Update syntax for sizing properties ([#813](https://github.com/mdn/data/issues/813)) ([cd06f28](https://github.com/mdn/data/commit/cd06f2885f7136b83126048e1f46d4fec10b38f3))
+
+
+### Bug Fixes
+
+* add missing syntax for `[@scope](https://github.com/scope)` ([0a8c8b6](https://github.com/mdn/data/commit/0a8c8b65e17963afad8bf0a527f87168c9fe46cc))
+* **css:** Add missing syntax `&lt;single-animation-composition&gt;` for `animation-composition` ([#789](https://github.com/mdn/data/issues/789)) ([e76c914](https://github.com/mdn/data/commit/e76c9149cb6920227860c8dc5a28e5d60905dfcf))
+* **css:** Add missing syntax for `[@scope](https://github.com/scope)` ([#788](https://github.com/mdn/data/issues/788)) ([0a8c8b6](https://github.com/mdn/data/commit/0a8c8b65e17963afad8bf0a527f87168c9fe46cc))
+* **css:** fill-opacity should accept percentages ([#786](https://github.com/mdn/data/issues/786)) ([42dcf9e](https://github.com/mdn/data/commit/42dcf9e71cd92e880a21d941d6fb009e1d9a9e92))
+* **css:** Fix incorrect mdn_url ([#804](https://github.com/mdn/data/issues/804)) ([f432647](https://github.com/mdn/data/commit/f432647f06782e0e49e9dd479626a3993cc01e63))
+* **css:** Fix syntax for `scroll-timeline-name` ([#809](https://github.com/mdn/data/issues/809)) ([f050f8b](https://github.com/mdn/data/commit/f050f8b9f51691a63e2e30d58b50a3a18e87847c))
+* **css:** Fix syntax for `text-wrap` ([#781](https://github.com/mdn/data/issues/781)) ([1b708b3](https://github.com/mdn/data/commit/1b708b3fca7460fe684cd642f790c6b395f156be))
+* **css:** Fix syntax for white-space ([#802](https://github.com/mdn/data/issues/802)) ([2cc41d0](https://github.com/mdn/data/commit/2cc41d0675807aaf391aa0dc66cb171b003f0c26))
+* **css:** make functions syntax consistent ([#817](https://github.com/mdn/data/issues/817)) ([eeffb3f](https://github.com/mdn/data/commit/eeffb3f3d798021d4a553cbd366d525abdd803ea))
+* **css:** Mark `&lt;shape&gt;` type as obsolete ([#797](https://github.com/mdn/data/issues/797)) ([c8067ba](https://github.com/mdn/data/commit/c8067ba06177a0eee22adc10006f56e36b80a219))
+* **css:** mark `element()` as experimental ([10594fb](https://github.com/mdn/data/commit/10594fb01e3949d4f74241fa01423014efba803e))
+* **css:** Mark `element()` as experimental ([#798](https://github.com/mdn/data/issues/798)) ([10594fb](https://github.com/mdn/data/commit/10594fb01e3949d4f74241fa01423014efba803e))
+
 ## [2.12.2](https://github.com/mdn/data/compare/v2.12.1...v2.12.2) (2024-11-05)
 
 
