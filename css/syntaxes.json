@@ -747,7 +747,7 @@
     "syntax": "<selector-list>"
   },
   "scroll()": {
-    "syntax": "scroll( [ <axis> || <scroller> ]? )"
+    "syntax": "scroll( [ <scroller> || <axis> ]? )"
   },
   "scroller": {
     "syntax": "root | nearest | self"
