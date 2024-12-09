@@ -2479,7 +2479,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border"
   },
   "border-block": {
-    "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
+    "syntax": "<'border-block-start'>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -2523,7 +2523,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-color"
   },
   "border-block-style": {
-    "syntax": "<'border-top-style'>",
+    "syntax": "<'border-top-style'>{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -2539,7 +2539,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-style"
   },
   "border-block-width": {
-    "syntax": "<'border-top-width'>",
+    "syntax": "<'border-top-width'>{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -2883,7 +2883,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-color"
   },
   "border-end-end-radius": {
-    "syntax": "<length-percentage>{1,2}",
+    "syntax": "<'border-top-left-radius'>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -2902,7 +2902,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-end-end-radius"
   },
   "border-end-start-radius": {
-    "syntax": "<length-percentage>{1,2}",
+    "syntax": "<'border-top-left-radius'>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -3056,7 +3056,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-image-width"
   },
   "border-inline": {
-    "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
+    "syntax": "<'border-block-start'>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -3128,7 +3128,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-color"
   },
   "border-inline-style": {
-    "syntax": "<'border-top-style'>",
+    "syntax": "<'border-top-style'>{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -3144,7 +3144,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-style"
   },
   "border-inline-width": {
-    "syntax": "<'border-top-width'>",
+    "syntax": "<'border-top-width'>{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -3510,7 +3510,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-spacing"
   },
   "border-start-end-radius": {
-    "syntax": "<length-percentage>{1,2}",
+    "syntax": "<'border-top-left-radius'>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -3529,7 +3529,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-start-end-radius"
   },
   "border-start-start-radius": {
-    "syntax": "<length-percentage>{1,2}",
+    "syntax": "<'border-top-left-radius'>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
