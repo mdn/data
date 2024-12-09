@@ -107,6 +107,12 @@
   "calc-constant": {
     "syntax": "e | pi | infinity | -infinity | NaN"
   },
+  "calc-size()": {
+    "syntax": "calc-size( <calc-size-basis>, <calc-sum> )"
+  },
+  "calc-size-basis": {
+    "syntax": "<intrinsic-size-keyword> | <calc-size()> | any | <calc-sum>"
+  },
   "cf-final-image": {
     "syntax": "<image> | <color>"
   },
