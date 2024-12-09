@@ -1,4 +1,14 @@
 {
+  "\"\"": {
+    "en-US": "\"\" (the empty string)",
+    "ja": "\"\" (空文字列)",
+    "zh-CN": "\"\"（空字符串）"
+  },
+  "\". \"": {
+    "en-US": "\". \" (full stop followed by a space)",
+    "ja": "\". \" (ピリオドの後に空白)",
+    "zh-CN": "\". \"（句号后跟一个空格）"
+  },
   "absoluteLength": {
     "de": "absolute {{cssxref(\"length\")}}",
     "en-US": "absolute {{cssxref(\"length\")}}",
@@ -262,13 +272,6 @@
     "ja": "すべての要素。ただし一部の値はインラインでない要素には効果がありません",
     "ru": "все элементы, хотя некоторые значения не работают на не строчных элементах"
   },
-  "allElementsThatGenerateAPrincipalBox": {
-    "en-US": "All elements that generate a <a href=\"https://drafts.csswg.org/css-display-4/#principal-box\">principal box</a>"
-  },
-  "allElementsTreeAbidingPseudoElementsPageMarginBoxes": {
-    "ja": "すべての要素、ツリーに現れる擬似要素、ページのマージンボックス",
-    "en-US": "All elements, tree-abiding pseudo-elements, and page margin boxes"
-  },
   "allElementsSVGContainerElements": {
     "de": "alle Elemente; In SVG gilt betrifft dies Containerelemente mit Ausnahme des {{SVGElement(\"defs\")}} Elements und allen Grafikelementen",
     "en-US": "all elements; In SVG, it applies to container elements excluding the {{SVGElement(\"defs\")}} element and all graphics elements",
@@ -286,6 +289,13 @@
   "allElementsThatCanReferenceImages": {
     "en-US": "Any element that can have an image applied to it, for example as a {{cssxref(\"background-image\")}}, {{cssxref(\"border-image\")}}, or {{cssxref(\"list-style-image\")}}.",
     "ja": "{{cssxref(\"background-image\")}}, {{cssxref(\"border-image\")}}, {{cssxref(\"list-style-image\")}} などで適用される画像を持つすべての要素。"
+  },
+  "allElementsThatGenerateAPrincipalBox": {
+    "en-US": "All elements that generate a <a href=\"https://drafts.csswg.org/css-display-4/#principal-box\">principal box</a>"
+  },
+  "allElementsTreeAbidingPseudoElementsPageMarginBoxes": {
+    "ja": "すべての要素、ツリーに現れる擬似要素、ページのマージンボックス",
+    "en-US": "All elements, tree-abiding pseudo-elements, and page margin boxes"
   },
   "allElementsUAsNotRequiredWhenCollapse": {
     "de": "alle Elemente; aber User Agents sind nicht gezwungen dies auf <code>table</code> und <code>inline-table</code> Elemente anzuwenden, falls {{cssxref(\"border-collapse\")}} <code>collapse</code> ist. Das Verhalten bei internen Tabellenelementen ist momentan undefiniert.",
@@ -476,6 +486,13 @@
     "fr": "<code>auto</code> pour les navigateurs de smartphones qui supportent l'expansion, <code>none</code> in dans les autres cas (non modifiable alors).",
     "ja": "文字拡大に対応しているスマートフォンブラウザーならば <code>auto</code>、それ以外の場合は <code>none</code> (そして変更不可)。",
     "ru": "<code>auto</code> для браузеров в смартфонах поддерживается увеличение, <code>none</code> в других случаях (и позже не изменяется)."
+  },
+  "autoForTranslucentColorRGBAOtherwiseRGB": {
+    "de": "Für das Schlüsselwort <code>auto</code> ist der berechnete Wert <code>currentcolor</code>. Für den Farbwert, falls der Wert durchscheinend ist, ist der berechnete Wert der entsprechende <code>rgba()</code> Wert. Falls nicht, ist er der entsprechende <code>rgb()</code> Wert. Das Schlüsselwort <code>transparent</code> wird zu <code>rgba(0,0,0,0)</code>.",
+    "en-US": "For the keyword <code>auto</code>, the computed value is <code>currentcolor</code>. For the color value, if the value is translucent, the computed value will be the <code>rgba()</code> corresponding one. If it isn't, it will be the <code>rgb()</code> corresponding one. The <code>transparent</code> keyword maps to <code>rgba(0,0,0,0)</code>.",
+    "fr": "Pour le mot-clé <code>auto</code>, la valeur calculée est <code>currentcolor</code>. Pour la valeur de la couleur, si la valeur est transparente, la valeur calculée sera la valeur <code>rgba()</code> correspondante. S'il n'y en a pas, ce sera la valeur <code>rgb()</code> correspondante. Le mot-clé <code>transparent</code> correspondra à <code>rgba(0,0,0,0)</code>.",
+    "ja": "キーワード <code>auto</code> の場合は、計算値も <code>currentcolor</code>。色の場合は、半透明であれば、計算値はそれに一致する <code>rbga()</code> で、不透明であれば、それに一致する <code>rgb()</code>。キーワード <code>transparent</code> は <code>rgba(0,0,0,0)</code> に対応付けられる。",
+    "ru": "Для ключевого слова <code>auto</code>, значение - <code>currentcolor</code>. Для значения цвета, если значение имеет прозрачность, соответственно, значение будет через <code>rgba()</code>. Если это не так, это будет <code>rgb()</code>. Ключевое слово <code>transparent</code> отображается, как <code>rgba(0,0,0,0)</code>."
   },
   "autoNonNegativeOrPercentage": {
     "de": "<code>auto</code>, eine nicht negative Zahl oder ein Prozentwert wie angegeben",
@@ -919,13 +936,6 @@
     "ja": "対話的",
     "ru": "интерактивный"
   },
-  "autoForTranslucentColorRGBAOtherwiseRGB": {
-    "de": "Für das Schlüsselwort <code>auto</code> ist der berechnete Wert <code>currentcolor</code>. Für den Farbwert, falls der Wert durchscheinend ist, ist der berechnete Wert der entsprechende <code>rgba()</code> Wert. Falls nicht, ist er der entsprechende <code>rgb()</code> Wert. Das Schlüsselwort <code>transparent</code> wird zu <code>rgba(0,0,0,0)</code>.",
-    "en-US": "For the keyword <code>auto</code>, the computed value is <code>currentcolor</code>. For the color value, if the value is translucent, the computed value will be the <code>rgba()</code> corresponding one. If it isn't, it will be the <code>rgb()</code> corresponding one. The <code>transparent</code> keyword maps to <code>rgba(0,0,0,0)</code>.",
-    "fr": "Pour le mot-clé <code>auto</code>, la valeur calculée est <code>currentcolor</code>. Pour la valeur de la couleur, si la valeur est transparente, la valeur calculée sera la valeur <code>rgba()</code> correspondante. S'il n'y en a pas, ce sera la valeur <code>rgb()</code> correspondante. Le mot-clé <code>transparent</code> correspondra à <code>rgba(0,0,0,0)</code>.",
-    "ja": "キーワード <code>auto</code> の場合は、計算値も <code>currentcolor</code>。色の場合は、半透明であれば、計算値はそれに一致する <code>rbga()</code> で、不透明であれば、それに一致する <code>rgb()</code>。キーワード <code>transparent</code> は <code>rgba(0,0,0,0)</code> に対応付けられる。",
-    "ru": "Для ключевого слова <code>auto</code>, значение - <code>currentcolor</code>. Для значения цвета, если значение имеет прозрачность, соответственно, значение будет через <code>rgba()</code>. Если это не так, это будет <code>rgb()</code>. Ключевое слово <code>transparent</code> отображается, как <code>rgba(0,0,0,0)</code>."
-  },
   "keywordOrNumericalValueBolderLighterTransformedToRealValue": {
     "de": "das Schlüsselwort oder der numerische Wert wie angegeben, wobei <code>bolder</code> und <code>lighter</code> in einen realen Wert umgewandelt werden",
     "en-US": "the keyword or the numerical value as specified, with <code>bolder</code> and <code>lighter</code> transformed to the real value",
@@ -980,14 +990,14 @@
   "limitedSVGElementsEllipseRect": {
     "en-US": "{{SVGElement(\"ellipse\")}} and {{SVGElement(\"rect\")}} elements in {{SVGElement(\"svg\")}}"
   },
-  "limitedSVGElementsGeometry": {
-    "en-US": "{{SVGElement(\"svg\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"image\")}}, and {{SVGElement(\"foreignObject\")}} elements in {{SVGElement(\"svg\")}}"
-  },
   "limitedSVGElementsFilterPrimitives": {
     "en-US": "The set of elements that control the output of a {{SVGElement(\"filter\")}} element in {{SVGElement(\"svg\")}}"
   },
   "limitedSVGElementsFloodAndDropShadow": {
     "en-US": "{{SVGElement(\"feFlood\")}} and {{SVGElement(\"feDropShadow\")}} elements in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsGeometry": {
+    "en-US": "{{SVGElement(\"svg\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"image\")}}, and {{SVGElement(\"foreignObject\")}} elements in {{SVGElement(\"svg\")}}"
   },
   "limitedSVGElementsGraphics": {
     "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"foreignObject\")}}, {{SVGElement(\"image\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in {{SVGElement(\"svg\")}}"
@@ -1075,16 +1085,16 @@
     "ja": "包含ブロックの論理的な高さ",
     "ru": "логическая высота контейнера"
   },
+  "logicalHeightOrWidthOfContainingBlock": {
+    "en-US": "relative to the containing block’s size in the corresponding axis (e.g. width for left or right, height for top or bottom)",
+    "ru": "относительно размера содержащего блока на соответствующей оси (например, ширина слева или справа, высота сверху и снизу)"
+  },
   "logicalWidthOfContainingBlock": {
     "de": "logische Breite des beinhaltenden Blocks",
     "en-US": "logical-width of containing block",
     "fr": "largeur logique du bloc englobant",
     "ja": "包含ブロックの論理的な幅",
     "ru": "логическая высота содержащего блока"
-  },
-  "logicalHeightOrWidthOfContainingBlock": {
-    "en-US": "relative to the containing block’s size in the corresponding axis (e.g. width for left or right, height for top or bottom)",
-    "ru": "относительно размера содержащего блока на соответствующей оси (например, ширина слева или справа, высота сверху и снизу)"
   },
   "lpc": {
     "de": "$1$, <a href=\"/de/docs/Web/CSS/percentage#interpolation\">Prozentsatz</a> oder <a href=\"/de/docs/Web/CSS/calc\"><code>calc()</code></a>;",
@@ -1325,15 +1335,15 @@
     "ja": "<a href=\"/en-US/docs/Web/CSS/position_value#interpolation\" title=\"<position> データ型の値は、横軸と縦軸に対して個別に補間されます。速度は両方とも同じ <easing-function> で定義されているので、点は線に沿って移動します。\">position</a>",
     "ru": "<a href=\"/ru/docs/Web/CSS/position_value#interpolation\" title=\"Значении типа данных <позиция> интерполизуются независимо как абсцисса или ордината. Скорость определяется по одной <временной функции> для обоих координат, точка будет двигаться следуя линии.\">позиция</a>"
   },
-  "positionedElementsWithADefaultAnchorElement": {
-    "en-US": "Positioned elements with a <a href=\"https://drafts.csswg.org/css-anchor-position-1/#default-anchor-element\">default anchor element</a>"
-  },
   "positionedElements": {
     "de": "positionierte Elemente",
     "en-US": "positioned elements",
     "fr": "éléments positionnés",
     "ja": "位置指定要素",
     "ru": "позиционированные элементы"
+  },
+  "positionedElementsWithADefaultAnchorElement": {
+    "en-US": "Positioned elements with a <a href=\"https://drafts.csswg.org/css-anchor-position-1/#default-anchor-element\">default anchor element</a>"
   },
   "rectangle": {
     "de": "<a href=\"/de/docs/Web/CSS/shape#interpolation\">Rechteck</a>",
@@ -1469,17 +1479,17 @@
     "ja": "マスク描画領域の寸法からマスクレイヤー画像の寸法を引いたものに対する相対値 ({{cssxref(\"background-position\")}} のテキストを参照)",
     "ru": "относятся к размеру маски области рисования минус размер маски слоя изображения (смотрите статью о {{cssxref(\"background-position\")}})"
   },
-  "referToSVGViewportSize": {
-    "en-US": "refer to the normalized diagonal of the current SVG viewport"
+  "referToSVGViewportDiagonal": {
+    "en-US": "refer to the normalized diagonal measure of the current SVG viewport’s applied {{SVGAttr(\"viewBox\")}}, or of the viewport itself if no `viewBox` is specified"
   },
   "referToSVGViewportHeight": {
     "en-US": "refer to the height of the current SVG viewport"
   },
+  "referToSVGViewportSize": {
+    "en-US": "refer to the normalized diagonal of the current SVG viewport"
+  },
   "referToSVGViewportWidth": {
     "en-US": "refer to the width of the current SVG viewport"
-  },
-  "referToSVGViewportDiagonal": {
-    "en-US": "refer to the normalized diagonal measure of the current SVG viewport’s applied {{SVGAttr(\"viewBox\")}}, or of the viewport itself if no `viewBox` is specified"
   },
   "referToTotalPathLength": {
     "de": "beziehen sich auf die Gesamtlänge des Pfads",
@@ -1799,16 +1809,6 @@
     "fr": "si la valeur est translucide, la valeur calculée est la fonction <code>rgba()</code>correspondante. Sinon, la fonction <code>rgb()</code>correspondante. Le mot-clé <code>transparent</code> devient <code>rgb(0,0,0)</code>.",
     "ja": "半透明の値なら、計算値はそれに対応する <code>rgba()</code>。さもなくばその値に対応する <code>rgb()</code>。<code>transparent</code> キーワードは <code>rgba(0,0,0,0)</code> にマップされる。",
     "ru": "Если значение полупрозрачно, значение будет соответствовать <code>rgba()</code>. А если не будет полупрозрачным, то будет использоваться <code>rgb()</code>. Ключевое слово <code>transparent</code> интерпретируется в <code>rgba(0,0,0,0)</code>."
-  },
-  "\"\"": {
-    "en-US": "\"\" (the empty string)",
-    "ja": "\"\" (空文字列)",
-    "zh-CN": "\"\"（空字符串）"
-  },
-  "\". \"": {
-    "en-US": "\". \" (full stop followed by a space)",
-    "ja": "\". \" (ピリオドの後に空白)",
-    "zh-CN": "\". \"（句号后跟一个空格）"
   },
   "twoAbsoluteLengthOrPercentages": {
     "de": "zwei absolute {{cssxref(\"length\")}} oder {{cssxref(\"percentage\")}}",
