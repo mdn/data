@@ -1086,7 +1086,7 @@
     "ru": "логическая высота контейнера"
   },
   "logicalHeightOrWidthOfContainingBlock": {
-    "en-US": "relative to the containing block’s size in the corresponding axis (e.g. width for left or right, height for top or bottom)",
+    "en-US": "relative to the containing block's size in the corresponding axis (e.g. width for left or right, height for top or bottom)",
     "ru": "относительно размера содержащего блока на соответствующей оси (например, ширина слева или справа, высота сверху и снизу)"
   },
   "logicalWidthOfContainingBlock": {
@@ -1354,7 +1354,7 @@
   },
   "referToBorderBox": {
     "de": "beziehen sich auf die Rahmenbox des Elements",
-    "en-US": "refer to the element’s border box",
+    "en-US": "refer to the element's border box",
     "fr": "fait référence à l'élément <code>border box</code>",
     "ja": "要素の境界ボックスに対する相対値",
     "ru": "относятся к границе элемента"
@@ -1480,7 +1480,7 @@
     "ru": "относятся к размеру маски области рисования минус размер маски слоя изображения (смотрите статью о {{cssxref(\"background-position\")}})"
   },
   "referToSVGViewportDiagonal": {
-    "en-US": "refer to the normalized diagonal measure of the current SVG viewport’s applied {{SVGAttr(\"viewBox\")}}, or of the viewport itself if no `viewBox` is specified"
+    "en-US": "refer to the normalized diagonal measure of the current SVG viewport's applied {{SVGAttr(\"viewBox\")}}, or of the viewport itself if no `viewBox` is specified"
   },
   "referToSVGViewportHeight": {
     "en-US": "refer to the height of the current SVG viewport"
