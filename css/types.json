@@ -69,12 +69,12 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/dimension"
   },
-  "display-outside": {
+  "display-box": {
     "groups": [
       "CSS Display"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-outside"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-box"
   },
   "display-inside": {
     "groups": [
@@ -83,13 +83,6 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-inside"
   },
-  "display-listitem": {
-    "groups": [
-      "CSS Display"
-    ],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-listitem"
-  },
   "display-internal": {
     "groups": [
       "CSS Display"
@@ -97,19 +90,26 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-internal"
   },
-  "display-box": {
-    "groups": [
-      "CSS Display"
-    ],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-box"
-  },
   "display-legacy": {
     "groups": [
       "CSS Display"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-legacy"
+  },
+  "display-listitem": {
+    "groups": [
+      "CSS Display"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-listitem"
+  },
+  "display-outside": {
+    "groups": [
+      "CSS Display"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-outside"
   },
   "easing-function": {
     "groups": [
