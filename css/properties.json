@@ -3127,22 +3127,6 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end"
   },
-  "border-inline-color": {
-    "syntax": "<'border-top-color'>{1,2}",
-    "media": "visual",
-    "inherited": false,
-    "animationType": "byComputedValueType",
-    "percentages": "no",
-    "groups": [
-      "CSS Logical Properties"
-    ],
-    "initial": "currentcolor",
-    "appliesto": "allElements",
-    "computed": "computedColor",
-    "order": "uniqueOrder",
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-color"
-  },
   "border-inline-end-color": {
     "syntax": "<'border-top-color'>",
     "media": "visual",
