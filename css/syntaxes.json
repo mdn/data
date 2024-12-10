@@ -101,6 +101,12 @@
   "calc-product": {
     "syntax": "<calc-value> [ '*' <calc-value> | '/' <number> ]*"
   },
+  "calc-size()": {
+    "syntax": "calc-size( <calc-size-basis>, <calc-sum> )"
+  },
+  "calc-size-basis": {
+    "syntax": "<intrinsic-size-keyword> | <calc-size()> | any | <calc-sum>"
+  },
   "calc-sum": {
     "syntax": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
   },
