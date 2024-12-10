@@ -308,15 +308,6 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/opacity"
   },
-  "path()": {
-    "syntax": "path( [ <fill-rule>, ]? <string> )",
-    "groups": [
-      "CSS Shapes",
-      "CSS Motion Path"
-    ],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/path"
-  },
   "paint()": {
     "syntax": "paint( <ident>, <declaration-value>? )",
     "groups": [
@@ -332,6 +323,15 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-palette/palette-mix"
+  },
+  "path()": {
+    "syntax": "path( [ <fill-rule>, ]? <string> )",
+    "groups": [
+      "CSS Shapes",
+      "CSS Motion Path"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/path"
   },
   "perspective()": {
     "syntax": "perspective( [ <length [0,∞]> | none ] )",
@@ -497,6 +497,15 @@
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline/scroll"
   },
+  "sepia()": {
+    "syntax": "sepia( <number-percentage> )",
+    "groups": [
+      "Filter Effects",
+      "CSS Color"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/sepia"
+  },
   "skew()": {
     "syntax": "skew( [ <angle> | <zero> ] , [ <angle> | <zero> ]? )",
     "groups": [
@@ -520,15 +529,6 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/skewY"
-  },
-  "sepia()": {
-    "syntax": "sepia( <number-percentage> )",
-    "groups": [
-      "Filter Effects",
-      "CSS Color"
-    ],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/sepia"
   },
   "target-counter()": {
     "syntax": "target-counter( [ <string> | <url> ] , <custom-ident> , <counter-style>? )",

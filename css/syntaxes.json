@@ -8,11 +8,11 @@
   "acos()": {
     "syntax": "acos( <calc-sum> )"
   },
-  "anchor-name": {
-    "syntax": "<dashed-ident>"
-  },
   "alpha-value": {
     "syntax": "<number> | <percentage>"
+  },
+  "anchor-name": {
+    "syntax": "<dashed-ident>"
   },
   "angle-percentage": {
     "syntax": "<angle> | <percentage>"
@@ -80,11 +80,11 @@
   "bg-size": {
     "syntax": "[ <length-percentage> | auto ]{1,2} | cover | contain"
   },
-  "blur()": {
-    "syntax": "blur( <length> )"
-  },
   "blend-mode": {
     "syntax": "normal | multiply | screen | overlay | darken | lighten | color-dodge | color-burn | hard-light | soft-light | difference | exclusion | hue | saturation | color | luminosity"
+  },
+  "blur()": {
+    "syntax": "blur( <length> )"
   },
   "box": {
     "syntax": "border-box | padding-box | content-box"
@@ -95,23 +95,23 @@
   "calc()": {
     "syntax": "calc( <calc-sum> )"
   },
-  "calc-sum": {
-    "syntax": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
+  "calc-constant": {
+    "syntax": "e | pi | infinity | -infinity | NaN"
   },
   "calc-product": {
     "syntax": "<calc-value> [ '*' <calc-value> | '/' <number> ]*"
-  },
-  "calc-value": {
-    "syntax": "<number> | <dimension> | <percentage> | <calc-constant> | ( <calc-sum> )"
-  },
-  "calc-constant": {
-    "syntax": "e | pi | infinity | -infinity | NaN"
   },
   "calc-size()": {
     "syntax": "calc-size( <calc-size-basis>, <calc-sum> )"
   },
   "calc-size-basis": {
     "syntax": "<intrinsic-size-keyword> | <calc-size()> | any | <calc-sum>"
+  },
+  "calc-sum": {
+    "syntax": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
+  },
+  "calc-value": {
+    "syntax": "<number> | <dimension> | <percentage> | <calc-constant> | ( <calc-sum> )"
   },
   "cf-final-image": {
     "syntax": "<image> | <color>"
@@ -134,6 +134,9 @@
   "color": {
     "syntax": "<rgb()> | <rgba()> | <hsl()> | <hsla()> | <hwb()> | <lab()> | <lch()> | <oklab()> | <oklch()> | <color()> | <hex-color> | <named-color> | <system-color> | <deprecated-system-color> | currentcolor | transparent"
   },
+  "color-interpolation-method": {
+    "syntax": "in [ <rectangular-color-space> | <polar-color-space> <hue-interpolation-method>? ]"
+  },
   "color-stop": {
     "syntax": "<color-stop-length> | <color-stop-angle>"
   },
@@ -146,9 +149,6 @@
   "color-stop-list": {
     "syntax": "[ <linear-color-stop> [, <linear-color-hint>]? ]# , <linear-color-stop>"
   },
-  "color-interpolation-method": {
-    "syntax": "in [ <rectangular-color-space> | <polar-color-space> <hue-interpolation-method>? ]"
-  },
   "combinator": {
     "syntax": "'>' | '+' | '~' | [ '||' ]"
   },
@@ -157,6 +157,12 @@
   },
   "compat-auto": {
     "syntax": "searchfield | textarea | push-button | slider-horizontal | checkbox | radio | square-button | menulist | listbox | meter | progress-bar | button"
+  },
+  "complex-selector": {
+    "syntax": "<compound-selector> [ <combinator>? <compound-selector> ]*"
+  },
+  "complex-selector-list": {
+    "syntax": "<complex-selector>#"
   },
   "composite-style": {
     "syntax": "clear | copy | source-over | source-in | source-out | source-atop | destination-over | destination-in | destination-out | destination-atop | xor"
@@ -170,17 +176,8 @@
   "compound-selector-list": {
     "syntax": "<compound-selector>#"
   },
-  "complex-selector": {
-    "syntax": "<compound-selector> [ <combinator>? <compound-selector> ]*"
-  },
-  "complex-selector-list": {
-    "syntax": "<complex-selector>#"
-  },
   "conic-gradient()": {
     "syntax": "conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )"
-  },
-  "contextual-alt-values": {
-    "syntax": "[ contextual | no-contextual ]"
   },
   "content-distribution": {
     "syntax": "space-between | space-around | space-evenly | stretch"
@@ -193,6 +190,9 @@
   },
   "content-replacement": {
     "syntax": "<image>"
+  },
+  "contextual-alt-values": {
+    "syntax": "[ contextual | no-contextual ]"
   },
   "contrast()": {
     "syntax": "contrast( [ <number-percentage> ] )"
@@ -256,6 +256,9 @@
   },
   "drop-shadow()": {
     "syntax": "drop-shadow( <length>{2,3} <color>? )"
+  },
+  "easing-function": {
+    "syntax": "linear | <cubic-bezier-timing-function> | <step-timing-function>"
   },
   "east-asian-variant-values": {
     "syntax": "[ jis78 | jis83 | jis90 | jis04 | simplified | traditional ]"
@@ -371,11 +374,11 @@
   "hue": {
     "syntax": "<number> | <angle>"
   },
-  "hue-rotate()": {
-    "syntax": "hue-rotate( <angle> )"
-  },
   "hue-interpolation-method": {
     "syntax": "[ shorter | longer | increasing | decreasing ] hue"
+  },
+  "hue-rotate()": {
+    "syntax": "hue-rotate( <angle> )"
   },
   "hwb()": {
     "syntax": "hwb( [<hue> | none] [<percentage> | none] [<percentage> | none] [ / [<alpha-value> | none] ]? )"
@@ -413,9 +416,6 @@
   "invert()": {
     "syntax": "invert( <number-percentage> )"
   },
-  "keyframes-name": {
-    "syntax": "<custom-ident> | <string>"
-  },
   "keyframe-block": {
     "syntax": "<keyframe-selector># {\n  <declaration-list>\n}"
   },
@@ -424,6 +424,9 @@
   },
   "keyframe-selector": {
     "syntax": "from | to | <percentage> | <timeline-range-name> <percentage>"
+  },
+  "keyframes-name": {
+    "syntax": "<custom-ident> | <string>"
   },
   "lab()": {
     "syntax": "lab( [<percentage> | <number> | none] [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ / [<alpha-value> | none] ]? )"
@@ -449,11 +452,11 @@
   "light-dark()": {
     "syntax": "light-dark( <color>, <color> )"
   },
-  "line-names": {
-    "syntax": "'[' <custom-ident>* ']'"
-  },
   "line-name-list": {
     "syntax": "[ <line-names> | <name-repeat> ]+"
+  },
+  "line-names": {
+    "syntax": "'[' <custom-ident>* ']'"
   },
   "line-style": {
     "syntax": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset"
@@ -563,6 +566,9 @@
   "ns-prefix": {
     "syntax": "[ <ident-token> | '*' ]? '|'"
   },
+  "nth": {
+    "syntax": "<an-plus-b> | even | odd"
+  },
   "number-percentage": {
     "syntax": "<number> | <percentage>"
   },
@@ -575,9 +581,6 @@
   "numeric-spacing-values": {
     "syntax": "[ proportional-nums | tabular-nums ]"
   },
-  "nth": {
-    "syntax": "<an-plus-b> | even | odd"
-  },
   "offset-path": {
     "syntax": "<ray()> | <url> | <basic-shape>"
   },
@@ -587,14 +590,14 @@
   "opacity-value": {
     "syntax": "<number> | <percentage>"
   },
-  "overflow-position": {
-    "syntax": "unsafe | safe"
+  "outline-line-style": {
+    "syntax": "none | dotted | dashed | solid | double | groove | ridge | inset | outset"
   },
   "outline-radius": {
     "syntax": "<length> | <percentage>"
   },
-  "outline-line-style": {
-    "syntax": "none | dotted | dashed | solid | double | groove | ridge | inset | outset"
+  "overflow-position": {
+    "syntax": "unsafe | safe"
   },
   "page-body": {
     "syntax": "<declaration>? [ ; <page-body> ]? | <page-margin-box> <page-body>"
@@ -605,20 +608,14 @@
   "page-margin-box-type": {
     "syntax": "@top-left-corner | @top-left | @top-center | @top-right | @top-right-corner | @bottom-left-corner | @bottom-left | @bottom-center | @bottom-right | @bottom-right-corner | @left-top | @left-middle | @left-bottom | @right-top | @right-middle | @right-bottom"
   },
-  "page-selector-list": {
-    "syntax": "[ <page-selector># ]?"
-  },
   "page-selector": {
     "syntax": "<pseudo-page>+ | <ident> <pseudo-page>*"
   },
+  "page-selector-list": {
+    "syntax": "[ <page-selector># ]?"
+  },
   "page-size": {
     "syntax": "A5 | A4 | A3 | B5 | B4 | JIS-B5 | JIS-B4 | letter | legal | ledger"
-  },
-  "paint-box": {
-    "syntax": "<visual-box> | fill-box | stroke-box"
-  },
-  "path()": {
-    "syntax": "path( [ <fill-rule>, ]? <string> )"
   },
   "paint": {
     "syntax": "none | <color> | <url> [none | <color>]? | context-fill | context-stroke"
@@ -626,17 +623,23 @@
   "paint()": {
     "syntax": "paint( <ident>, <declaration-value>? )"
   },
+  "paint-box": {
+    "syntax": "<visual-box> | fill-box | stroke-box"
+  },
   "palette-identifier": {
     "syntax": "<dashed-ident>"
+  },
+  "path()": {
+    "syntax": "path( [ <fill-rule>, ]? <string> )"
   },
   "perspective()": {
     "syntax": "perspective( [ <length [0,∞]> | none ] )"
   },
-  "polygon()": {
-    "syntax": "polygon( <fill-rule>? , [ <length-percentage> <length-percentage> ]# )"
-  },
   "polar-color-space": {
     "syntax": "hsl | hwb | lch | oklch"
+  },
+  "polygon()": {
+    "syntax": "polygon( <fill-rule>? , [ <length-percentage> <length-percentage> ]# )"
   },
   "position": {
     "syntax": "[ [ left | center | right ] || [ top | center | bottom ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ]? | [ [ left | right ] <length-percentage> ] && [ [ top | bottom ] <length-percentage> ] ]"
@@ -746,10 +749,10 @@
   "scaleZ()": {
     "syntax": "scaleZ( [ <number> | <percentage> ] )"
   },
-  "scope-start": {
+  "scope-end": {
     "syntax": "<selector-list>"
   },
-  "scope-end": {
+  "scope-start": {
     "syntax": "<selector-list>"
   },
   "scroll()": {
@@ -763,21 +766,6 @@
   },
   "self-position": {
     "syntax": "center | start | end | self-start | self-end | flex-start | flex-end"
-  },
-  "shape-radius": {
-    "syntax": "<length-percentage> | closest-side | farthest-side"
-  },
-  "sign()": {
-    "syntax": "sign( <calc-sum> )"
-  },
-  "skew()": {
-    "syntax": "skew( [ <angle> | <zero> ] , [ <angle> | <zero> ]? )"
-  },
-  "skewX()": {
-    "syntax": "skewX( [ <angle> | <zero> ] )"
-  },
-  "skewY()": {
-    "syntax": "skewY( [ <angle> | <zero> ] )"
   },
   "sepia()": {
     "syntax": "sepia( <number-percentage> )"
@@ -794,8 +782,14 @@
   "shape-box": {
     "syntax": "<box> | margin-box"
   },
+  "shape-radius": {
+    "syntax": "<length-percentage> | closest-side | farthest-side"
+  },
   "side-or-corner": {
     "syntax": "[ left | right ] || [ top | bottom ]"
+  },
+  "sign()": {
+    "syntax": "sign( <calc-sum> )"
   },
   "sin()": {
     "syntax": "sin( <calc-sum> )"
@@ -830,6 +824,15 @@
   "size": {
     "syntax": "closest-side | farthest-side | closest-corner | farthest-corner | <length> | <length-percentage>{2}"
   },
+  "skew()": {
+    "syntax": "skew( [ <angle> | <zero> ] , [ <angle> | <zero> ]? )"
+  },
+  "skewX()": {
+    "syntax": "skewX( [ <angle> | <zero> ] )"
+  },
+  "skewY()": {
+    "syntax": "skewY( [ <angle> | <zero> ] )"
+  },
   "sqrt()": {
     "syntax": "sqrt( <calc-sum> )"
   },
@@ -845,14 +848,14 @@
   "supports-condition": {
     "syntax": "not <supports-in-parens> | <supports-in-parens> [ and <supports-in-parens> ]* | <supports-in-parens> [ or <supports-in-parens> ]*"
   },
-  "supports-in-parens": {
-    "syntax": "( <supports-condition> ) | <supports-feature> | <general-enclosed>"
+  "supports-decl": {
+    "syntax": "( <declaration> )"
   },
   "supports-feature": {
     "syntax": "<supports-decl> | <supports-selector-fn>"
   },
-  "supports-decl": {
-    "syntax": "( <declaration> )"
+  "supports-in-parens": {
+    "syntax": "( <supports-condition> ) | <supports-feature> | <general-enclosed>"
   },
   "supports-selector-fn": {
     "syntax": "selector( <complex-selector> )"
@@ -883,9 +886,6 @@
   },
   "timeline-range-name": {
     "syntax": "cover | contain | entry | exit | entry-crossing | exit-crossing"
-  },
-  "easing-function": {
-    "syntax": "linear | <cubic-bezier-timing-function> | <step-timing-function>"
   },
   "track-breadth": {
     "syntax": "<length-percentage> | <flex> | min-content | max-content | auto"

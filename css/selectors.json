@@ -134,6 +134,15 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:any-link"
   },
+  ":blank": {
+    "syntax": ":blank",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:blank"
+  },
   ":checked": {
     "syntax": ":checked",
     "groups": [
@@ -151,15 +160,6 @@
     ],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:current"
-  },
-  ":blank": {
-    "syntax": ":blank",
-    "groups": [
-      "Pseudo-classes",
-      "Selectors"
-    ],
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:blank"
   },
   ":default": {
     "syntax": ":default",
@@ -242,24 +242,6 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:first-of-type"
   },
-  ":fullscreen": {
-    "syntax": ":fullscreen",
-    "groups": [
-      "Pseudo-classes",
-      "Selectors"
-    ],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:fullscreen"
-  },
-  ":future": {
-    "syntax": ":future",
-    "groups": [
-      "Pseudo-classes",
-      "Selectors"
-    ],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:future"
-  },
   ":focus": {
     "syntax": ":focus",
     "groups": [
@@ -286,6 +268,24 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:focus-within"
+  },
+  ":fullscreen": {
+    "syntax": ":fullscreen",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:fullscreen"
+  },
+  ":future": {
+    "syntax": ":future",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:future"
   },
   ":has": {
     "syntax": ":has( <forgiving-relative-selector-list> )",
@@ -323,15 +323,6 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:hover"
   },
-  ":indeterminate": {
-    "syntax": ":indeterminate",
-    "groups": [
-      "Pseudo-classes",
-      "Selectors"
-    ],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:indeterminate"
-  },
   ":in-range": {
     "syntax": ":in-range",
     "groups": [
@@ -340,6 +331,15 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:in-range"
+  },
+  ":indeterminate": {
+    "syntax": ":indeterminate",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:indeterminate"
   },
   ":invalid": {
     "syntax": ":invalid",
@@ -513,6 +513,15 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:paused"
   },
+  ":picture-in-picture": {
+    "syntax": ":picture-in-picture",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:picture-in-picture"
+  },
   ":placeholder-shown": {
     "syntax": ":placeholder-shown",
     "groups": [
@@ -596,15 +605,6 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:target"
   },
-  "::target-text": {
-    "syntax": "::target-text",
-    "groups": [
-      "Pseudo-elements",
-      "Selectors"
-    ],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::target-text"
-  },
   ":target-within": {
     "syntax": ":target-within",
     "groups": [
@@ -658,46 +658,6 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:where"
-  },
-  "::-moz-progress-bar": {
-    "syntax": "::-moz-progress-bar",
-    "groups": [
-      "Pseudo-elements",
-      "Selectors",
-      "Mozilla Extensions"
-    ],
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-moz-progress-bar"
-  },
-  "::-moz-range-progress": {
-    "syntax": "::-moz-range-progress",
-    "groups": [
-      "Pseudo-elements",
-      "Selectors",
-      "Mozilla Extensions"
-    ],
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-moz-range-progress"
-  },
-  "::-moz-range-thumb": {
-    "syntax": "::-moz-range-thumb",
-    "groups": [
-      "Pseudo-elements",
-      "Selectors",
-      "Mozilla Extensions"
-    ],
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-moz-range-thumb"
-  },
-  "::-moz-range-track": {
-    "syntax": "::-moz-range-track",
-    "groups": [
-      "Pseudo-elements",
-      "Selectors",
-      "Mozilla Extensions"
-    ],
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-moz-range-track"
   },
   "::-ms-browse": {
     "syntax": "::-ms-browse",
@@ -839,6 +799,46 @@
     "status": "nonstandard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-ms-value"
   },
+  "::-moz-progress-bar": {
+    "syntax": "::-moz-progress-bar",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors",
+      "Mozilla Extensions"
+    ],
+    "status": "nonstandard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-moz-progress-bar"
+  },
+  "::-moz-range-progress": {
+    "syntax": "::-moz-range-progress",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors",
+      "Mozilla Extensions"
+    ],
+    "status": "nonstandard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-moz-range-progress"
+  },
+  "::-moz-range-thumb": {
+    "syntax": "::-moz-range-thumb",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors",
+      "Mozilla Extensions"
+    ],
+    "status": "nonstandard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-moz-range-thumb"
+  },
+  "::-moz-range-track": {
+    "syntax": "::-moz-range-track",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors",
+      "Mozilla Extensions"
+    ],
+    "status": "nonstandard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-moz-range-track"
+  },
   "::-webkit-progress-bar": {
     "syntax": "::-webkit-progress-bar",
     "groups": [
@@ -978,15 +978,6 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::part"
   },
-  ":picture-in-picture": {
-    "syntax": ":picture-in-picture",
-    "groups": [
-      "Pseudo-classes",
-      "Selectors"
-    ],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:picture-in-picture"
-  },
   "::placeholder": {
     "syntax": "::placeholder",
     "groups": [
@@ -1022,6 +1013,15 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::spelling-error"
+  },
+  "::target-text": {
+    "syntax": "::target-text",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::target-text"
   },
   "::view-transition": {
     "syntax": "::view-transition",
