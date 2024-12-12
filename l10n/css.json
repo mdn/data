@@ -553,6 +553,9 @@
     "ru": "блочные контейнеры",
     "zh-CN": "区块容器"
   },
+  "blockContainersAndInlineBoxes": {
+    "en-US": "Block containers and inline boxes"
+  },
   "blockContainersAndMultiColumnContainers": {
     "de": "Blockcontainer und mehrspaltige Container",
     "en-US": "Block containers and multi-column containers",
@@ -1786,6 +1789,9 @@
   },
   "theKeywordListStyleImageNoneOrComputedValue": {
     "en-US": "The keyword <code>none</code> or the computed &lt;image&gt;"
+  },
+  "theSpecifiedKeyword": {
+    "en-US": "the specified keyword"
   },
   "transform": {
     "de": "Transformation",

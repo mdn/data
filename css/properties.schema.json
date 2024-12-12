@@ -171,6 +171,7 @@
         "specifiedValueNumberClipped0To1",
         "theComputedLengthAndVisualBox",
         "theKeywordListStyleImageNoneOrComputedValue",
+        "theSpecifiedKeyword",
         "translucentValuesRGBAOtherwiseRGB",
         "twoAbsoluteLengthOrPercentages",
         "twoAbsoluteLengths"
@@ -207,6 +208,7 @@
         "beforeAndAfterPseudos",
         "blockContainerElements",
         "blockContainers",
+        "blockContainersAndInlineBoxes",
         "blockContainersAndMultiColumnContainers",
         "blockContainersExceptMultiColumnContainers",
         "blockContainersExceptTableWrappers",
