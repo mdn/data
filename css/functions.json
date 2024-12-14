@@ -68,7 +68,8 @@
   "clamp()": {
     "syntax": "clamp( <calc-sum>#{3} )",
     "groups": [
-      "CSS Fonts"
+      "CSS Units",
+      "CSS Lengths"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/clamp"
