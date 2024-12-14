@@ -1,4 +1,22 @@
 {
+  "abs()": {
+    "syntax": "abs( <calc-sum> )",
+    "groups": [
+      "CSS Units",
+      "CSS Lengths"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/abs"
+  },
+  "acos()": {
+    "syntax": "acos( <calc-sum> )",
+    "groups": [
+      "CSS Units",
+      "CSS Lengths"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/acos"
+  },
   "anchor()": {
     "syntax": "anchor( <anchor-name>? && <anchor-side>, <length-percentage>? )",
     "groups": [
@@ -14,6 +32,33 @@
     ],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/anchor-size"
+  },
+  "asin()": {
+    "syntax": "asin( <calc-sum> )",
+    "groups": [
+      "CSS Units",
+      "CSS Lengths"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/asin"
+  },
+  "atan()": {
+    "syntax": "atan( <calc-sum> )",
+    "groups": [
+      "CSS Units",
+      "CSS Lengths"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/atan"
+  },
+  "atan2()": {
+    "syntax": "atan2( <calc-sum>, <calc-sum> )",
+    "groups": [
+      "CSS Units",
+      "CSS Lengths"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/atan2"
   },
   "attr()": {
     "syntax": "attr( <attr-name> <type-or-unit>? [, <attr-fallback> ]? )",
@@ -91,6 +136,15 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/contrast"
   },
+  "cos()": {
+    "syntax": "cos( <calc-sum> )",
+    "groups": [
+      "CSS Units",
+      "CSS Lengths"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/cos"
+  },
   "counter()": {
     "syntax": "counter( <counter-name>, <counter-style>? )",
     "groups": [
@@ -149,6 +203,15 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/env"
   },
+  "exp()": {
+    "syntax": "exp( <calc-sum> )",
+    "groups": [
+      "CSS Units",
+      "CSS Lengths"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/exp"
+  },
   "fit-content()": {
     "syntax": "fit-content( <length-percentage [0,∞]> )",
     "groups": [
@@ -190,6 +253,15 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/hue-rotate"
+  },
+  "hypot()": {
+    "syntax": "hypot( <calc-sum># )",
+    "groups": [
+      "CSS Units",
+      "CSS Lengths"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/hypot"
   },
   "image()": {
     "syntax": "image( <image-tags>? [ <image-src>? , <color>? ]! )",
@@ -240,6 +312,15 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/linear-gradient"
   },
+  "log()": {
+    "syntax": "log( <calc-sum>, <calc-sum>? )",
+    "groups": [
+      "CSS Units",
+      "CSS Lengths"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/log"
+  },
   "matrix()": {
     "syntax": "matrix( <number>#{6} )",
     "groups": [
@@ -282,6 +363,15 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/minmax"
+  },
+  "mod()": {
+    "syntax": "mod( <calc-sum>, <calc-sum> )",
+    "groups": [
+      "CSS Units",
+      "CSS Lengths"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mod"
   },
   "oklab()": {
     "syntax": "oklab( [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ / [<alpha-value> | none] ]? )",
@@ -349,6 +439,15 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/polygon"
   },
+  "pow()": {
+    "syntax": "pow( <calc-sum>, <calc-sum> )",
+    "groups": [
+      "CSS Units",
+      "CSS Lengths"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/pow"
+  },
   "radial-gradient()": {
     "syntax": "radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )",
     "groups": [
@@ -365,6 +464,15 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ray"
+  },
+  "rem()": {
+    "syntax": "rem( <calc-sum>, <calc-sum> )",
+    "groups": [
+      "CSS Units",
+      "CSS Lengths"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/rem"
   },
   "repeating-linear-gradient()": {
     "syntax": "repeating-linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )",
@@ -440,6 +548,15 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/rotateZ"
   },
+  "round()": {
+    "syntax": "round( <rounding-strategy>?, <calc-sum>, <calc-sum> )",
+    "groups": [
+      "CSS Units",
+      "CSS Lengths"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/round"
+  },
   "saturate()": {
     "syntax": "saturate( <number-percentage> )",
     "groups": [
@@ -506,6 +623,24 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/sepia"
   },
+  "sign()": {
+    "syntax": "sign( <calc-sum> )",
+    "groups": [
+      "CSS Units",
+      "CSS Lengths"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/sign"
+  },
+  "sin()": {
+    "syntax": "sin( <calc-sum> )",
+    "groups": [
+      "CSS Units",
+      "CSS Lengths"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/sin"
+  },
   "skew()": {
     "syntax": "skew( [ <angle> | <zero> ] , [ <angle> | <zero> ]? )",
     "groups": [
@@ -530,6 +665,15 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/skewY"
   },
+  "sqrt()": {
+    "syntax": "sqrt( <calc-sum> )",
+    "groups": [
+      "CSS Units",
+      "CSS Lengths"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/sqrt"
+  },
   "target-counter()": {
     "syntax": "target-counter( [ <string> | <url> ] , <custom-ident> , <counter-style>? )",
     "groups": [
@@ -550,6 +694,15 @@
       "CSS Miscellaneous"
     ],
     "status": "nonstandard"
+  },
+  "tan()": {
+    "syntax": "tan( <calc-sum> )",
+    "groups": [
+      "CSS Units",
+      "CSS Lengths"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/tan"
   },
   "translate()": {
     "syntax": "translate( <length-percentage> , <length-percentage>? )",
