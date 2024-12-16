@@ -450,7 +450,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/saturate"
   },
   "scale()": {
-    "syntax": "scale( <number> , <number>? )",
+    "syntax": "scale( [ <number> | <percentage> ]#{1,2} )",
     "groups": [
       "CSS Transforms"
     ],
@@ -458,7 +458,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scale"
   },
   "scale3d()": {
-    "syntax": "scale3d( <number> , <number> , <number> )",
+    "syntax": "scale3d( [ <number> | <percentage> ]#{3} )",
     "groups": [
       "CSS Transforms"
     ],
@@ -466,7 +466,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scale3d"
   },
   "scaleX()": {
-    "syntax": "scaleX( <number> )",
+    "syntax": "scaleX( [ <number> | <percentage> ] )",
     "groups": [
       "CSS Transforms"
     ],
@@ -474,7 +474,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scaleX"
   },
   "scaleY()": {
-    "syntax": "scaleY( <number> )",
+    "syntax": "scaleY( [ <number> | <percentage> ] )",
     "groups": [
       "CSS Transforms"
     ],
@@ -482,7 +482,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scaleY"
   },
   "scaleZ()": {
-    "syntax": "scaleZ( <number> )",
+    "syntax": "scaleZ( [ <number> | <percentage> ] )",
     "groups": [
       "CSS Transforms"
     ],
