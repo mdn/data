@@ -899,6 +899,9 @@
   "target-text()": {
     "syntax": "target-text( [ <string> | <url> ] , [ content | before | after | first-letter ]? )"
   },
+  "text-edge": {
+    "syntax": "[ text | cap | ex | ideographic | ideographic-ink ] [ text | alphabetic | ideographic | ideographic-ink ]?"
+  },
   "time-percentage": {
     "syntax": "<time> | <percentage>"
   },

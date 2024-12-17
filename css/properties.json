@@ -9774,6 +9774,51 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-anchor"
   },
+  "text-box": {
+    "syntax": "normal | <'text-box-trim'> || <'text-box-edge'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Inline"
+    ],
+    "initial": "normal",
+    "appliesto": "blockContainersAndInlineBoxes",
+    "computed": "theSpecifiedKeyword",
+    "order": "perGrammar",
+    "status": "standard"
+  },
+  "text-box-edge": {
+    "syntax": "auto | <text-edge>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Inline"
+    ],
+    "initial": "auto",
+    "appliesto": "blockContainersAndInlineBoxes",
+    "computed": "theSpecifiedKeyword",
+    "order": "perGrammar",
+    "status": "standard"
+  },
+  "text-box-trim": {
+    "syntax": "none | trim-start | trim-end | trim-both",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Inline"
+    ],
+    "initial": "none",
+    "appliesto": "blockContainersAndInlineBoxes",
+    "computed": "theSpecifiedKeyword",
+    "order": "perGrammar",
+    "status": "standard"
+  },
   "text-combine-upright": {
     "syntax": "none | all | [ digits <integer>? ]",
     "media": "visual",
