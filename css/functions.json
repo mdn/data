@@ -263,6 +263,14 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/hypot"
   },
+  "hwb()": {
+    "syntax": "hwb( [<hue> | none] [<percentage> | none] [<percentage> | none] [ / [<alpha-value> | none] ]? )",
+    "groups": [
+      "CSS Color"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/hwb"
+  },
   "image()": {
     "syntax": "image( <image-tags>? [ <image-src>? , <color>? ]! )",
     "groups": [
@@ -296,12 +304,44 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/invert"
   },
+  "lab()": {
+    "syntax": "lab( [<percentage> | <number> | none] [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ / [<alpha-value> | none] ]? )",
+    "groups": [
+      "CSS Color"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/lab"
+  },
+  "layer()": {
+    "syntax": "layer( <layer-name> )",
+    "groups": [
+      "CSS Cascading and Inheritance"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@import/layer_function"
+  },
+  "lch()": {
+    "syntax": "lch( [<percentage> | <number> | none] [ <percentage> | <number> | none] [ <hue> | none] [ / [<alpha-value> | none] ]? )",
+    "groups": [
+      "CSS Color"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/lch"
+  },
   "leader()": {
     "syntax": "leader( <leader-type> )",
     "groups": [
       "CSS Miscellaneous"
     ],
     "status": "nonstandard"
+  },
+  "light-dark()": {
+    "syntax": "light-dark( <color>, <color> )",
+    "groups": [
+      "CSS Color"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/light-dark"
   },
   "linear-gradient()": {
     "syntax": "linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )",
@@ -473,6 +513,15 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/rem"
+  },
+  "repeating-conic-gradient()": {
+    "syntax": "repeating-conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )",
+    "groups": [
+      "CSS Backgrounds and Borders",
+      "CSS Color"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-conic-gradient"
   },
   "repeating-linear-gradient()": {
     "syntax": "repeating-linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )",

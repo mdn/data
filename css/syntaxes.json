@@ -11,8 +11,14 @@
   "alpha-value": {
     "syntax": "<number> | <percentage>"
   },
+  "anchor()": {
+    "syntax": "anchor( <anchor-name>? && <anchor-side>, <length-percentage>? )"
+  },
   "anchor-name": {
     "syntax": "<dashed-ident>"
+  },
+  "anchor-size()": {
+    "syntax": "anchor-size( [ <anchor-name> || <anchor-size> ]? , <length-percentage>? )"
   },
   "angle-percentage": {
     "syntax": "<angle> | <percentage>"
@@ -320,6 +326,9 @@
   "final-bg-layer": {
     "syntax": "<'background-color'> || <bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <box> || <box>"
   },
+  "fit-content()": {
+    "syntax": "fit-content( <length-percentage [0,∞]> )"
+  },
   "fixed-breadth": {
     "syntax": "<length-percentage>"
   },
@@ -584,6 +593,12 @@
   "offset-path": {
     "syntax": "<ray()> | <url> | <basic-shape>"
   },
+  "oklab()": {
+    "syntax": "oklab( [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ / [<alpha-value> | none] ]? )"
+  },
+  "oklch()": {
+    "syntax": "oklch( [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ <hue> | none] [ / [<alpha-value> | none] ]? )"
+  },
   "opacity()": {
     "syntax": "opacity( [ <number-percentage> ] )"
   },
@@ -628,6 +643,9 @@
   },
   "palette-identifier": {
     "syntax": "<dashed-ident>"
+  },
+  "palette-mix()": {
+    "syntax": "palette-mix(<color-interpolation-method> , [ [normal | light | dark | <palette-identifier> | <palette-mix()> ] && <percentage [0,100]>? ]#{2})"
   },
   "path()": {
     "syntax": "path( [ <fill-rule>, ]? <string> )"
@@ -880,6 +898,9 @@
   },
   "target-text()": {
     "syntax": "target-text( [ <string> | <url> ] , [ content | before | after | first-letter ]? )"
+  },
+  "text-edge": {
+    "syntax": "[ text | cap | ex | ideographic | ideographic-ink ] [ text | alphabetic | ideographic | ideographic-ink ]?"
   },
   "time-percentage": {
     "syntax": "<time> | <percentage>"
