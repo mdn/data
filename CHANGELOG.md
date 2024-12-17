@@ -1,5 +1,25 @@
 # Changelog
 
+## [2.14.0](https://github.com/mdn/data/compare/v2.13.0...v2.14.0) (2024-12-17)
+
+
+### Features
+
+* **css:** Add data for `text-box-*` ([#826](https://github.com/mdn/data/issues/826)) ([ba25aa2](https://github.com/mdn/data/commit/ba25aa2353ef79b882f2c5ba6a3aecf55f5e2c08))
+* **css:** add missing `calc-size()` function ([#823](https://github.com/mdn/data/issues/823)) ([1ea6782](https://github.com/mdn/data/commit/1ea6782ce0acd0272e2c3f09674a2e3ae25b5a6a))
+* **css:** add missing css functions ([#827](https://github.com/mdn/data/issues/827)) ([a93d2bb](https://github.com/mdn/data/commit/a93d2bb0059c7aa1d70dd0a7647f6366693e7d65))
+* **css:** add missing css functions ([#829](https://github.com/mdn/data/issues/829)) ([9fe3138](https://github.com/mdn/data/commit/9fe31385c6abf5d2279ee252b0b440902c0e8e53))
+* **css:** add missing css functions to syntaxes ([#824](https://github.com/mdn/data/issues/824)) ([e403676](https://github.com/mdn/data/commit/e40367631abbf2790f6709f9828f7e15ff8b5d1e))
+* **css:** Update syntax for CSS logical properties ([#820](https://github.com/mdn/data/issues/820)) ([6b4cae7](https://github.com/mdn/data/commit/6b4cae7c0aa96c199a982f2b6efeda7ce67eb515))
+
+
+### Bug Fixes
+
+* **css:** correct syntax for scale related css functions ([#831](https://github.com/mdn/data/issues/831)) ([955ef5b](https://github.com/mdn/data/commit/955ef5b88342439b11f0fa21a63a4313b5b6ef49))
+* **css:** fix animate type of `scrollbar-width` ([#825](https://github.com/mdn/data/issues/825)) ([1f30436](https://github.com/mdn/data/commit/1f3043685edcd33f0a5f1416283a10d8bff4736f))
+* **css:** fix group for `clamp()` css function ([#830](https://github.com/mdn/data/issues/830)) ([424e985](https://github.com/mdn/data/commit/424e985c49e652b9af0999ea06932dfac87eb557))
+* **l10n:** fix incorrect punctuation marks ([#822](https://github.com/mdn/data/issues/822)) ([8059106](https://github.com/mdn/data/commit/805910649a56213a54da7114b08445afcc1e0c43))
+
 ## [2.13.0](https://github.com/mdn/data/compare/v2.12.2...v2.13.0) (2024-12-05)
 
 
