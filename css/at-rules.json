@@ -262,7 +262,7 @@
         "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/src"
       },
       "unicode-range": {
-        "syntax": "<unicode-range>#",
+        "syntax": "<unicode-range-token>#",
         "media": "all",
         "initial": "U+0-10FFFF",
         "percentages": "no",
