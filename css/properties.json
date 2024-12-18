@@ -2240,7 +2240,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/background-blend-mode"
   },
   "background-clip": {
-    "syntax": "<box>#",
+    "syntax": "<bg-clip>#",
     "media": "visual",
     "inherited": false,
     "animationType": "repeatableList",
