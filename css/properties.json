@@ -1375,7 +1375,7 @@
     "status": "nonstandard"
   },
   "-webkit-mask-clip": {
-    "syntax": "[ <coord-box> | border | padding | content | text ]#",
+    "syntax": "[ <coord-box> | no-clip | border | padding | content | text ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
