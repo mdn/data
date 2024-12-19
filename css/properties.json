@@ -1330,7 +1330,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-line-clamp"
   },
   "-webkit-mask": {
-    "syntax": "[ <mask-reference> || <position> [ / <bg-size> ]? || <repeat-style> || [ <box> | border | padding | content | text ] || [ <box> | border | padding | content ] ]#",
+    "syntax": "[ <mask-reference> || <position> [ / <bg-size> ]? || <repeat-style> || [ <shape-box> | border | padding | content | text ] || [ <shape-box> | border | padding | content ] ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
