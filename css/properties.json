@@ -1423,7 +1423,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-image"
   },
   "-webkit-mask-origin": {
-    "syntax": "<coord-box>#",
+    "syntax": "[ <coord-box> | border | padding | content ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
