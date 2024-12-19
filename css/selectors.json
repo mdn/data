@@ -53,23 +53,23 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Selector_list"
   },
-  "Adjacent sibling combinator": {
+  "Next-sibling combinator": {
     "syntax": "A + B",
     "groups": [
       "Combinators",
       "Selectors"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Adjacent_sibling_combinator"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Next-sibling_combinator"
   },
-  "General sibling combinator": {
+  "Subsequent-sibling combinator": {
     "syntax": "A ~ B",
     "groups": [
       "Combinators",
       "Selectors"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/General_sibling_combinator"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Subsequent-sibling_combinator"
   },
   "Child combinator": {
     "syntax": "A > B",
@@ -303,7 +303,7 @@
       "Selectors"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:host()"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:host_function"
   },
   ":host-context()": {
     "syntax": ":host-context( <compound-selector> )",
@@ -312,7 +312,7 @@
       "Selectors"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:host-context()"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:host-context"
   },
   ":hover": {
     "syntax": ":hover",
@@ -666,8 +666,7 @@
       "Selectors",
       "Microsoft Extensions"
     ],
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-ms-browse"
+    "status": "nonstandard"
   },
   "::-ms-check": {
     "syntax": "::-ms-check",
@@ -676,8 +675,7 @@
       "Selectors",
       "Microsoft Extensions"
     ],
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-ms-check"
+    "status": "nonstandard"
   },
   "::-ms-clear": {
     "syntax": "::-ms-clear",
@@ -686,8 +684,7 @@
       "Selectors",
       "Microsoft Extensions"
     ],
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-ms-clear"
+    "status": "nonstandard"
   },
   "::-ms-expand": {
     "syntax": "::-ms-expand",
@@ -696,8 +693,7 @@
       "Selectors",
       "Microsoft Extensions"
     ],
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-ms-expand"
+    "status": "nonstandard"
   },
   "::-ms-fill": {
     "syntax": "::-ms-fill",
@@ -706,8 +702,7 @@
       "Selectors",
       "Microsoft Extensions"
     ],
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-ms-fill"
+    "status": "nonstandard"
   },
   "::-ms-fill-lower": {
     "syntax": "::-ms-fill-lower",
@@ -716,8 +711,7 @@
       "Selectors",
       "Microsoft Extensions"
     ],
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-ms-fill-lower"
+    "status": "nonstandard"
   },
   "::-ms-fill-upper": {
     "syntax": "::-ms-fill-upper",
@@ -726,8 +720,7 @@
       "Selectors",
       "Microsoft Extensions"
     ],
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-ms-fill-upper"
+    "status": "nonstandard"
   },
   "::-ms-reveal": {
     "syntax": "::-ms-reveal",
@@ -736,8 +729,7 @@
       "Selectors",
       "Microsoft Extensions"
     ],
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-ms-reveal"
+    "status": "nonstandard"
   },
   "::-ms-thumb": {
     "syntax": "::-ms-thumb",
@@ -746,8 +738,7 @@
       "Selectors",
       "Microsoft Extensions"
     ],
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-ms-thumb"
+    "status": "nonstandard"
   },
   "::-ms-ticks-after": {
     "syntax": "::-ms-ticks-after",
@@ -756,8 +747,7 @@
       "Selectors",
       "Microsoft Extensions"
     ],
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-ms-ticks-after"
+    "status": "nonstandard"
   },
   "::-ms-ticks-before": {
     "syntax": "::-ms-ticks-before",
@@ -766,8 +756,7 @@
       "Selectors",
       "Microsoft Extensions"
     ],
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-ms-ticks-before"
+    "status": "nonstandard"
   },
   "::-ms-tooltip": {
     "syntax": "::-ms-tooltip",
@@ -776,8 +765,7 @@
       "Selectors",
       "Microsoft Extensions"
     ],
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-ms-tooltip"
+    "status": "nonstandard"
   },
   "::-ms-track": {
     "syntax": "::-ms-track",
@@ -786,8 +774,7 @@
       "Selectors",
       "Microsoft Extensions"
     ],
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-ms-track"
+    "status": "nonstandard"
   },
   "::-ms-value": {
     "syntax": "::-ms-value",
@@ -796,8 +783,7 @@
       "Selectors",
       "Microsoft Extensions"
     ],
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-ms-value"
+    "status": "nonstandard"
   },
   "::-moz-progress-bar": {
     "syntax": "::-moz-progress-bar",
@@ -930,8 +916,7 @@
       "Pseudo-elements",
       "Selectors"
     ],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::cue-region"
+    "status": "standard"
   },
   "::first-letter": {
     "syntax": "/* CSS3 syntax */\n::first-letter\n\n/* CSS2 syntax */\n:first-letter",
