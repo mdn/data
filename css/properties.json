@@ -1375,7 +1375,7 @@
     "status": "nonstandard"
   },
   "-webkit-mask-clip": {
-    "syntax": "[ <box> | border | padding | content | text ]#",
+    "syntax": "[ <coord-box> | border | padding | content | text ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -7112,7 +7112,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-width"
   },
   "mask-clip": {
-    "syntax": "[ <geometry-box> | no-clip ]#",
+    "syntax": "[ <coord-box> | no-clip ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
