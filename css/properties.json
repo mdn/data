@@ -1375,7 +1375,7 @@
     "status": "nonstandard"
   },
   "-webkit-mask-clip": {
-    "syntax": "[ <box> | border | padding | content | text ]#",
+    "syntax": "[ <coord-box> | no-clip | border | padding | content | text ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -1423,7 +1423,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-image"
   },
   "-webkit-mask-origin": {
-    "syntax": "[ <box> | border | padding | content ]#",
+    "syntax": "[ <coord-box> | border | padding | content ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -7096,7 +7096,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-width"
   },
   "mask-clip": {
-    "syntax": "[ <geometry-box> | no-clip ]#",
+    "syntax": "[ <coord-box> | no-clip ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -7160,7 +7160,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mask-mode"
   },
   "mask-origin": {
-    "syntax": "<geometry-box>#",
+    "syntax": "<coord-box>#",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
