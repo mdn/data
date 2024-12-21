@@ -2099,22 +2099,6 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/aspect-ratio"
   },
-  "azimuth": {
-    "syntax": "<angle> | [ [ left-side | far-left | left | center-left | center | center-right | right | far-right | right-side ] || behind ] | leftwards | rightwards",
-    "media": "aural",
-    "inherited": true,
-    "animationType": "discrete",
-    "percentages": "no",
-    "groups": [
-      "CSS Speech"
-    ],
-    "initial": "center",
-    "appliesto": "allElements",
-    "computed": "normalizedAngle",
-    "order": "orderOfAppearance",
-    "status": "obsolete",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/azimuth"
-  },
   "backdrop-filter": {
     "syntax": "none | <filter-function-list>",
     "media": "visual",
