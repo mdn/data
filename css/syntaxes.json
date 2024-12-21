@@ -81,7 +81,7 @@
     "syntax": "none | <image>"
   },
   "bg-layer": {
-    "syntax": "<bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <box> || <box>"
+    "syntax": "<bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <visual-box> || <visual-box>"
   },
   "bg-position": {
     "syntax": "[ [ left | center | right | top | bottom | <length-percentage> ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ] | [ center | [ left | right ] <length-percentage>? ] && [ center | [ top | bottom ] <length-percentage>? ] ]"
@@ -94,9 +94,6 @@
   },
   "blur()": {
     "syntax": "blur( <length> )"
-  },
-  "box": {
-    "syntax": "border-box | padding-box | content-box"
   },
   "brightness()": {
     "syntax": "brightness( <number-percentage> )"
@@ -327,7 +324,7 @@
     "syntax": "[ <filter-function> | <url> ]+"
   },
   "final-bg-layer": {
-    "syntax": "<'background-color'> || <bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <box> || <box>"
+    "syntax": "<'background-color'> || <bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <visual-box> || <visual-box>"
   },
   "fit-content()": {
     "syntax": "fit-content( <length-percentage [0,∞]> )"
@@ -801,7 +798,7 @@
     "syntax": "rect(<top>, <right>, <bottom>, <left>)"
   },
   "shape-box": {
-    "syntax": "<box> | margin-box"
+    "syntax": "<visual-box> | margin-box"
   },
   "shape-radius": {
     "syntax": "<length-percentage> | closest-side | farthest-side"
