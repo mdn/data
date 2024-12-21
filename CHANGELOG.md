@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.15.0](https://github.com/mdn/data/compare/v2.14.0...v2.15.0) (2024-12-21)
+
+
+### Features
+
+* **css:** Remove never-supported obsolute azimuth feature ([#832](https://github.com/mdn/data/issues/832)) ([c4ab0f3](https://github.com/mdn/data/commit/c4ab0f316b691ff576c5a058cf5297bbf577b8a9))
+* **css:** Replace `&lt;box&gt;` type with `<visual-box>` type ([#842](https://github.com/mdn/data/issues/842)) ([57b11d6](https://github.com/mdn/data/commit/57b11d685a7a030f4fdb79f020aa74afa0d81adc))
+* **css:** Update synatx for `background-origin` ([#838](https://github.com/mdn/data/issues/838)) ([aa45cc7](https://github.com/mdn/data/commit/aa45cc7cbe8f19e464ebaa1fee5feddbe9e7b6ca))
+* **css:** Update syntax for @font-face/unicode-range ([#833](https://github.com/mdn/data/issues/833)) ([5186311](https://github.com/mdn/data/commit/5186311bb3a880d11143a5029fbff69e99355d13))
+* **css:** Update syntax for `[-webkit]-mask-{clip,origin}` ([#839](https://github.com/mdn/data/issues/839)) ([c73adfe](https://github.com/mdn/data/commit/c73adfec11d1849c32e149d9be9a093ea7bd3922))
+* **css:** Update syntax for `background-clip` ([#835](https://github.com/mdn/data/issues/835)) ([76d7860](https://github.com/mdn/data/commit/76d78604b877742bce965b58014b1bc8ad66820c))
+* **css:** Update syntax for `image-rendering` property `smooth` value ([#834](https://github.com/mdn/data/issues/834)) ([22b6586](https://github.com/mdn/data/commit/22b65866b1dadaed758af0b4f97c4e061114ac04))
+
+
+### Bug Fixes
+
+* **css:** Fix mdn_url for functions ([#840](https://github.com/mdn/data/issues/840)) ([ec24bf4](https://github.com/mdn/data/commit/ec24bf4aba47d7bd309b01b3240f5f091a23da99))
+* **css:** Fix mdn_url for selectors and types ([#836](https://github.com/mdn/data/issues/836)) ([f5689dc](https://github.com/mdn/data/commit/f5689dc3437a12e00461315945efadb6af751e36))
+
 ## [2.14.0](https://github.com/mdn/data/compare/v2.13.0...v2.14.0) (2024-12-17)
 
 
