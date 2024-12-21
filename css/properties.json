@@ -6076,7 +6076,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/image-orientation"
   },
   "image-rendering": {
-    "syntax": "auto | crisp-edges | pixelated",
+    "syntax": "auto | crisp-edges | pixelated | smooth",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
