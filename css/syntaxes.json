@@ -74,6 +74,9 @@
   "basic-shape": {
     "syntax": "<inset()> | <circle()> | <ellipse()> | <polygon()> | <path()>"
   },
+  "bg-clip": {
+    "syntax": "<visual-box> | border-area | text"
+  },
   "bg-image": {
     "syntax": "none | <image>"
   },
