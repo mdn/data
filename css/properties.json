@@ -1763,8 +1763,7 @@
     "appliesto": "gridContainersWithMasonryLayoutInTheirBlockAxis",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/align-tracks"
+    "status": "nonstandard"
   },
   "all": {
     "syntax": "initial | inherit | unset | revert | revert-layer",
@@ -6413,8 +6412,7 @@
     "appliesto": "gridContainersWithMasonryLayoutInTheirInlineAxis",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/justify-tracks"
+    "status": "nonstandard"
   },
   "left": {
     "syntax": "<length> | <percentage> | auto",
@@ -7252,8 +7250,8 @@
     "appliesto": "gridContainersWithMasonryLayout",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/masonry-auto-flow"
+    "status": "nonstandard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid-auto-flow"
   },
   "math-depth": {
     "syntax": "auto-add | add(<integer>) | <integer>",
