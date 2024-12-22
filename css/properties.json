@@ -28,8 +28,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-accelerator"
+    "status": "nonstandard"
   },
   "-ms-block-progression": {
     "syntax": "tb | rl | bt | lr",
@@ -44,8 +43,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-block-progression"
+    "status": "nonstandard"
   },
   "-ms-content-zoom-chaining": {
     "syntax": "none | chained",
@@ -60,8 +58,7 @@
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-chaining"
+    "status": "nonstandard"
   },
   "-ms-content-zoom-limit": {
     "syntax": "<'-ms-content-zoom-limit-min'> <'-ms-content-zoom-limit-max'>",
@@ -85,8 +82,7 @@
       "-ms-content-zoom-limit-min"
     ],
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-limit"
+    "status": "nonstandard"
   },
   "-ms-content-zoom-limit-max": {
     "syntax": "<percentage>",
@@ -101,8 +97,7 @@
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-limit-max"
+    "status": "nonstandard"
   },
   "-ms-content-zoom-limit-min": {
     "syntax": "<percentage>",
@@ -117,8 +112,7 @@
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-limit-min"
+    "status": "nonstandard"
   },
   "-ms-content-zoom-snap": {
     "syntax": "<'-ms-content-zoom-snap-type'> || <'-ms-content-zoom-snap-points'>",
@@ -139,8 +133,7 @@
       "-ms-content-zoom-snap-points"
     ],
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-snap"
+    "status": "nonstandard"
   },
   "-ms-content-zoom-snap-points": {
     "syntax": "snapInterval( <percentage>, <percentage> ) | snapList( <percentage># )",
@@ -155,8 +148,7 @@
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-snap-points"
+    "status": "nonstandard"
   },
   "-ms-content-zoom-snap-type": {
     "syntax": "none | proximity | mandatory",
@@ -171,8 +163,7 @@
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-snap-type"
+    "status": "nonstandard"
   },
   "-ms-content-zooming": {
     "syntax": "none | zoom",
@@ -187,8 +178,7 @@
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zooming"
+    "status": "nonstandard"
   },
   "-ms-filter": {
     "syntax": "<string>",
@@ -203,8 +193,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-filter"
+    "status": "nonstandard"
   },
   "-ms-flow-from": {
     "syntax": "[ none | <custom-ident> ]#",
@@ -219,8 +208,7 @@
     "appliesto": "nonReplacedElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-flow-from"
+    "status": "nonstandard"
   },
   "-ms-flow-into": {
     "syntax": "[ none | <custom-ident> ]#",
@@ -235,8 +223,7 @@
     "appliesto": "iframeElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-flow-into"
+    "status": "nonstandard"
   },
   "-ms-grid-columns": {
     "syntax": "none | <track-list> | <auto-track-list>",
@@ -251,8 +238,7 @@
     "appliesto": "gridContainers",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-grid-columns"
+    "status": "nonstandard"
   },
   "-ms-grid-rows": {
     "syntax": "none | <track-list> | <auto-track-list>",
@@ -267,8 +253,7 @@
     "appliesto": "gridContainers",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-grid-rows"
+    "status": "nonstandard"
   },
   "-ms-high-contrast-adjust": {
     "syntax": "auto | none",
@@ -283,8 +268,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-high-contrast-adjust"
+    "status": "nonstandard"
   },
   "-ms-hyphenate-limit-chars": {
     "syntax": "auto | <integer>{1,3}",
@@ -299,8 +283,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-hyphenate-limit-chars"
+    "status": "nonstandard"
   },
   "-ms-hyphenate-limit-lines": {
     "syntax": "no-limit | <integer>",
@@ -315,8 +298,7 @@
     "appliesto": "blockContainerElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-hyphenate-limit-lines"
+    "status": "nonstandard"
   },
   "-ms-hyphenate-limit-zone": {
     "syntax": "<percentage> | <length>",
@@ -331,8 +313,7 @@
     "appliesto": "blockContainerElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-hyphenate-limit-zone"
+    "status": "nonstandard"
   },
   "-ms-ime-align": {
     "syntax": "auto | after",
@@ -347,8 +328,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-ime-align"
+    "status": "nonstandard"
   },
   "-ms-overflow-style": {
     "syntax": "auto | none | scrollbar | -ms-autohiding-scrollbar",
@@ -363,8 +343,7 @@
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-overflow-style"
+    "status": "nonstandard"
   },
   "-ms-scroll-chaining": {
     "syntax": "chained | none",
@@ -379,8 +358,7 @@
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-chaining"
+    "status": "nonstandard"
   },
   "-ms-scroll-limit": {
     "syntax": "<'-ms-scroll-limit-x-min'> <'-ms-scroll-limit-y-min'> <'-ms-scroll-limit-x-max'> <'-ms-scroll-limit-y-max'>",
@@ -405,8 +383,7 @@
       "-ms-scroll-limit-y-max"
     ],
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit"
+    "status": "nonstandard"
   },
   "-ms-scroll-limit-x-max": {
     "syntax": "auto | <length>",
@@ -421,8 +398,7 @@
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit-x-max"
+    "status": "nonstandard"
   },
   "-ms-scroll-limit-x-min": {
     "syntax": "<length>",
@@ -437,8 +413,7 @@
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit-x-min"
+    "status": "nonstandard"
   },
   "-ms-scroll-limit-y-max": {
     "syntax": "auto | <length>",
@@ -453,8 +428,7 @@
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit-y-max"
+    "status": "nonstandard"
   },
   "-ms-scroll-limit-y-min": {
     "syntax": "<length>",
@@ -469,8 +443,7 @@
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit-y-min"
+    "status": "nonstandard"
   },
   "-ms-scroll-rails": {
     "syntax": "none | railed",
@@ -485,8 +458,7 @@
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-rails"
+    "status": "nonstandard"
   },
   "-ms-scroll-snap-points-x": {
     "syntax": "snapInterval( <length-percentage>, <length-percentage> ) | snapList( <length-percentage># )",
@@ -501,8 +473,7 @@
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-points-x"
+    "status": "nonstandard"
   },
   "-ms-scroll-snap-points-y": {
     "syntax": "snapInterval( <length-percentage>, <length-percentage> ) | snapList( <length-percentage># )",
@@ -517,8 +488,7 @@
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-points-y"
+    "status": "nonstandard"
   },
   "-ms-scroll-snap-type": {
     "syntax": "none | proximity | mandatory",
@@ -533,8 +503,7 @@
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-type"
+    "status": "nonstandard"
   },
   "-ms-scroll-snap-x": {
     "syntax": "<'-ms-scroll-snap-type'> <'-ms-scroll-snap-points-x'>",
@@ -555,8 +524,7 @@
       "-ms-scroll-snap-points-x"
     ],
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-x"
+    "status": "nonstandard"
   },
   "-ms-scroll-snap-y": {
     "syntax": "<'-ms-scroll-snap-type'> <'-ms-scroll-snap-points-y'>",
@@ -577,8 +545,7 @@
       "-ms-scroll-snap-points-y"
     ],
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-y"
+    "status": "nonstandard"
   },
   "-ms-scroll-translation": {
     "syntax": "none | vertical-to-horizontal",
@@ -593,8 +560,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-translation"
+    "status": "nonstandard"
   },
   "-ms-scrollbar-3dlight-color": {
     "syntax": "<color>",
@@ -609,8 +575,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-3dlight-color"
+    "status": "nonstandard"
   },
   "-ms-scrollbar-arrow-color": {
     "syntax": "<color>",
@@ -625,8 +590,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-arrow-color"
+    "status": "nonstandard"
   },
   "-ms-scrollbar-base-color": {
     "syntax": "<color>",
@@ -641,8 +605,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-base-color"
+    "status": "nonstandard"
   },
   "-ms-scrollbar-darkshadow-color": {
     "syntax": "<color>",
@@ -657,8 +620,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-darkshadow-color"
+    "status": "nonstandard"
   },
   "-ms-scrollbar-face-color": {
     "syntax": "<color>",
@@ -673,8 +635,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-face-color"
+    "status": "nonstandard"
   },
   "-ms-scrollbar-highlight-color": {
     "syntax": "<color>",
@@ -689,8 +650,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-highlight-color"
+    "status": "nonstandard"
   },
   "-ms-scrollbar-shadow-color": {
     "syntax": "<color>",
@@ -705,8 +665,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-shadow-color"
+    "status": "nonstandard"
   },
   "-ms-scrollbar-track-color": {
     "syntax": "<color>",
@@ -721,8 +680,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-track-color"
+    "status": "nonstandard"
   },
   "-ms-text-autospace": {
     "syntax": "none | ideograph-alpha | ideograph-numeric | ideograph-parenthesis | ideograph-space",
@@ -737,8 +695,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-text-autospace"
+    "status": "nonstandard"
   },
   "-ms-touch-select": {
     "syntax": "grippers | none",
@@ -753,8 +710,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-touch-select"
+    "status": "nonstandard"
   },
   "-ms-user-select": {
     "syntax": "none | element | text",
@@ -769,8 +725,7 @@
     "appliesto": "nonReplacedElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-user-select"
+    "status": "nonstandard"
   },
   "-ms-wrap-flow": {
     "syntax": "auto | both | start | end | maximum | clear",
@@ -785,8 +740,7 @@
     "appliesto": "blockLevelElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-wrap-flow"
+    "status": "nonstandard"
   },
   "-ms-wrap-margin": {
     "syntax": "<length>",
@@ -801,8 +755,7 @@
     "appliesto": "exclusionElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-wrap-margin"
+    "status": "nonstandard"
   },
   "-ms-wrap-through": {
     "syntax": "wrap | none",
@@ -817,8 +770,7 @@
     "appliesto": "blockLevelElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-ms-wrap-through"
+    "status": "nonstandard"
   },
   "-moz-appearance": {
     "syntax": "none | button | button-arrow-down | button-arrow-next | button-arrow-previous | button-arrow-up | button-bevel | button-focus | caret | checkbox | checkbox-container | checkbox-label | checkmenuitem | dualbutton | groupbox | listbox | listitem | menuarrow | menubar | menucheckbox | menuimage | menuitem | menuitemtext | menulist | menulist-button | menulist-text | menulist-textfield | menupopup | menuradio | menuseparator | meterbar | meterchunk | progressbar | progressbar-vertical | progresschunk | progresschunk-vertical | radio | radio-container | radio-label | radiomenuitem | range | range-thumb | resizer | resizerpanel | scale-horizontal | scalethumbend | scalethumb-horizontal | scalethumbstart | scalethumbtick | scalethumb-vertical | scale-vertical | scrollbarbutton-down | scrollbarbutton-left | scrollbarbutton-right | scrollbarbutton-up | scrollbarthumb-horizontal | scrollbarthumb-vertical | scrollbartrack-horizontal | scrollbartrack-vertical | searchfield | separator | sheet | spinner | spinner-downbutton | spinner-textfield | spinner-upbutton | splitter | statusbar | statusbarpanel | tab | tabpanel | tabpanels | tab-scroll-arrow-back | tab-scroll-arrow-forward | textfield | textfield-multiline | toolbar | toolbarbutton | toolbarbutton-dropdown | toolbargripper | toolbox | tooltip | treeheader | treeheadercell | treeheadersortarrow | treeitem | treeline | treetwisty | treetwistyopen | treeview | -moz-mac-unified-toolbar | -moz-win-borderless-glass | -moz-win-browsertabbar-toolbox | -moz-win-communicationstext | -moz-win-communications-toolbox | -moz-win-exclude-glass | -moz-win-glass | -moz-win-mediatext | -moz-win-media-toolbox | -moz-window-button-box | -moz-window-button-box-maximized | -moz-window-button-close | -moz-window-button-maximize | -moz-window-button-minimize | -moz-window-button-restore | -moz-window-frame-bottom | -moz-window-frame-left | -moz-window-frame-right | -moz-window-titlebar | -moz-window-titlebar-maximized",
