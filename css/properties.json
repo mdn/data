@@ -12,7 +12,7 @@
     "appliesto": "allElements",
     "computed": "asSpecifiedWithVarsSubstituted",
     "order": "perGrammar",
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/--*"
   },
   "-ms-accelerator": {
