@@ -850,8 +850,7 @@
     "appliesto": "allElementsExceptGeneratedContentOrPseudoElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-binding"
+    "status": "nonstandard"
   },
   "-moz-border-bottom-colors": {
     "syntax": "<color>+ | none",
@@ -866,8 +865,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-border-bottom-colors"
+    "status": "nonstandard"
   },
   "-moz-border-left-colors": {
     "syntax": "<color>+ | none",
@@ -882,8 +880,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-border-left-colors"
+    "status": "nonstandard"
   },
   "-moz-border-right-colors": {
     "syntax": "<color>+ | none",
@@ -898,8 +895,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-border-right-colors"
+    "status": "nonstandard"
   },
   "-moz-border-top-colors": {
     "syntax": "<color>+ | none",
@@ -914,8 +910,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-border-top-colors"
+    "status": "nonstandard"
   },
   "-moz-context-properties": {
     "syntax": "none | [ fill | fill-opacity | stroke | stroke-opacity ]#",
@@ -930,8 +925,7 @@
     "appliesto": "allElementsThatCanReferenceImages",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-context-properties"
+    "status": "nonstandard"
   },
   "-moz-float-edge": {
     "syntax": "border-box | content-box | margin-box | padding-box",
@@ -1030,8 +1024,7 @@
       "-moz-outline-radius-bottomleft"
     ],
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius"
+    "status": "nonstandard"
   },
   "-moz-outline-radius-bottomleft": {
     "syntax": "<outline-radius>",
@@ -1046,8 +1039,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius-bottomleft"
+    "status": "nonstandard"
   },
   "-moz-outline-radius-bottomright": {
     "syntax": "<outline-radius>",
@@ -1062,8 +1054,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius-bottomright"
+    "status": "nonstandard"
   },
   "-moz-outline-radius-topleft": {
     "syntax": "<outline-radius>",
@@ -1078,8 +1069,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius-topleft"
+    "status": "nonstandard"
   },
   "-moz-outline-radius-topright": {
     "syntax": "<outline-radius>",
@@ -1094,8 +1084,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius-topright"
+    "status": "nonstandard"
   },
   "-moz-stack-sizing": {
     "syntax": "ignore | stretch-to-fit",
@@ -1110,8 +1099,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-stack-sizing"
+    "status": "nonstandard"
   },
   "-moz-text-blink": {
     "syntax": "none | blink",
@@ -1126,8 +1114,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-text-blink"
+    "status": "nonstandard"
   },
   "-moz-user-focus": {
     "syntax": "ignore | normal | select-after | select-before | select-menu | select-same | select-all | none",
@@ -1175,7 +1162,7 @@
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-user-modify"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/user-modify"
   },
   "-moz-window-dragging": {
     "syntax": "drag | no-drag",
@@ -1190,8 +1177,7 @@
     "appliesto": "allElementsCreatingNativeWindows",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-window-dragging"
+    "status": "nonstandard"
   },
   "-moz-window-shadow": {
     "syntax": "default | menu | tooltip | sheet | none",
@@ -1206,8 +1192,7 @@
     "appliesto": "allElementsCreatingNativeWindows",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-window-shadow"
+    "status": "nonstandard"
   },
   "-webkit-appearance": {
     "syntax": "none | button | button-bevel | caret | checkbox | default-button | inner-spin-button | listbox | listitem | media-controls-background | media-controls-fullscreen-background | media-current-time-display | media-enter-fullscreen-button | media-exit-fullscreen-button | media-fullscreen-button | media-mute-button | media-overlay-play-button | media-play-button | media-seek-back-button | media-seek-forward-button | media-slider | media-sliderthumb | media-time-remaining-display | media-toggle-closed-captions-button | media-volume-slider | media-volume-slider-container | media-volume-sliderthumb | menulist | menulist-button | menulist-text | menulist-textfield | meter | progress-bar | progress-bar-value | push-button | radio | searchfield | searchfield-cancel-button | searchfield-decoration | searchfield-results-button | searchfield-results-decoration | slider-horizontal | slider-vertical | sliderthumb-horizontal | sliderthumb-vertical | square-button | textarea | textfield | -apple-pay-button",
