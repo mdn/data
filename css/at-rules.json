@@ -191,16 +191,6 @@
         "status": "standard",
         "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-feature-settings"
       },
-      "font-variation-settings": {
-        "syntax": "normal | [ <string> <number> ]#",
-        "media": "all",
-        "initial": "normal",
-        "percentages": "no",
-        "computed": "asSpecified",
-        "order": "orderOfAppearance",
-        "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-variation-settings"
-      },
       "font-stretch": {
         "syntax": "<font-stretch-absolute>{1,2}",
         "media": "all",
@@ -220,6 +210,16 @@
         "order": "uniqueOrder",
         "status": "standard",
         "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-style"
+      },
+      "font-variation-settings": {
+        "syntax": "normal | [ <string> <number> ]#",
+        "media": "all",
+        "initial": "normal",
+        "percentages": "no",
+        "computed": "asSpecified",
+        "order": "orderOfAppearance",
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-variation-settings"
       },
       "font-weight": {
         "syntax": "<font-weight-absolute>{1,2}",
@@ -466,16 +466,6 @@
       "CSS Houdini"
     ],
     "descriptors": {
-      "syntax": {
-        "syntax": "<string>",
-        "media": "all",
-        "percentages": "no",
-        "initial": "n/a (required)",
-        "computed": "asSpecified",
-        "order": "uniqueOrder",
-        "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property/syntax"
-      },
       "inherits": {
         "syntax": "true | false",
         "media": "all",
@@ -495,6 +485,16 @@
         "order": "uniqueOrder",
         "status": "standard",
         "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property/initial-value"
+      },
+      "syntax": {
+        "syntax": "<string>",
+        "media": "all",
+        "percentages": "no",
+        "initial": "n/a (required)",
+        "computed": "asSpecified",
+        "order": "uniqueOrder",
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property/syntax"
       }
     },
     "status": "standard",
