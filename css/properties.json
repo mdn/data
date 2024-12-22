@@ -1563,8 +1563,7 @@
     "appliesto": "scrollingBoxes",
     "computed": "asSpecified",
     "order": "orderOfAppearance",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-overflow-scrolling"
+    "status": "nonstandard"
   },
   "-webkit-tap-highlight-color": {
     "syntax": "<color>",
@@ -1811,8 +1810,7 @@
     "appliesto": "allElements",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/anchor-scope"
+    "status": "experimental"
   },
   "animation": {
     "syntax": "<single-animation>#",
@@ -6120,8 +6118,7 @@
     "appliesto": "textFields",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "obsolete",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ime-mode"
+    "status": "obsolete"
   },
   "initial-letter": {
     "syntax": "normal | [ <number> <integer>? ]",
@@ -6152,8 +6149,7 @@
     "appliesto": "firstLetterPseudoElementsAndInlineLevelFirstChildren",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/initial-letter-align"
+    "status": "experimental"
   },
   "inline-size": {
     "syntax": "<'width'>",
@@ -9215,8 +9211,7 @@
     "appliesto": "allElements",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
-    "status": "obsolete",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-coordinate"
+    "status": "obsolete"
   },
   "scroll-snap-destination": {
     "syntax": "<position>",
@@ -9231,8 +9226,7 @@
     "appliesto": "scrollContainers",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
-    "status": "obsolete",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-destination"
+    "status": "obsolete"
   },
   "scroll-snap-points-x": {
     "syntax": "none | repeat( <length-percentage> )",
@@ -9247,8 +9241,7 @@
     "appliesto": "scrollContainers",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
-    "status": "obsolete",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-points-x"
+    "status": "obsolete"
   },
   "scroll-snap-points-y": {
     "syntax": "none | repeat( <length-percentage> )",
@@ -9263,8 +9256,7 @@
     "appliesto": "scrollContainers",
     "computed": "asSpecifiedRelativeToAbsoluteLengths",
     "order": "uniqueOrder",
-    "status": "obsolete",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-points-y"
+    "status": "obsolete"
   },
   "scroll-snap-stop": {
     "syntax": "normal | always",
@@ -9311,8 +9303,7 @@
     "appliesto": "scrollContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "obsolete",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-x"
+    "status": "obsolete"
   },
   "scroll-snap-type-y": {
     "syntax": "none | mandatory | proximity",
@@ -9327,8 +9318,7 @@
     "appliesto": "scrollContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "obsolete",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-y"
+    "status": "obsolete"
   },
   "scroll-timeline": {
     "syntax": "[ <'scroll-timeline-name'> <'scroll-timeline-axis'>? ]#",
