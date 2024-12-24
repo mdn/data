@@ -120,6 +120,20 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style"
   },
+  "@container": {
+    "syntax": "@container <container-condition># {\n  <block-contents>\n}",
+    "interfaces": [
+      "CSSGroupingRule",
+      "CSSConditionRule",
+      "CSSContainerRule"
+    ],
+    "groups": [
+      "CSS Conditional Rules",
+      "CSS Containment"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@container"
+  },
   "@document": {
     "syntax": "@document [ <url> | url-prefix(<string>) | domain(<string>) | media-document(<string>) | regexp(<string>) ]# {\n  <group-rule-body>\n}",
     "interfaces": [
