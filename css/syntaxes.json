@@ -236,6 +236,9 @@
   "cubic-bezier-timing-function": {
     "syntax": "ease | ease-in | ease-out | ease-in-out | cubic-bezier(<number [0,1]>, <number>, <number [0,1]>, <number>)"
   },
+  "custom-color-space": {
+    "syntax": "<dashed-ident>"
+  },
   "dasharray": {
     "syntax": "[ [ <length-percentage> | <number> ]+ ]#"
   },
