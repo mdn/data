@@ -141,7 +141,10 @@
     "syntax": "<rgb()> | <rgba()> | <hsl()> | <hsla()> | <hwb()> | <lab()> | <lch()> | <oklab()> | <oklch()> | <color()> | <hex-color> | <named-color> | <system-color> | <deprecated-system-color> | currentcolor | transparent"
   },
   "color-interpolation-method": {
-    "syntax": "in [ <rectangular-color-space> | <polar-color-space> <hue-interpolation-method>? ]"
+    "syntax": "in [ <rectangular-color-space> | <polar-color-space> <hue-interpolation-method>? | <custom-color-space> ]"
+  },
+  "color-mix()": {
+    "syntax": "color-mix( <color-interpolation-method> , [ <color> && <percentage [0,100]>? ]#{2})"
   },
   "color-stop": {
     "syntax": "<color-stop-length> | <color-stop-angle>"
