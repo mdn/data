@@ -17,6 +17,9 @@
   "anchor-name": {
     "syntax": "<dashed-ident>"
   },
+  "anchor-side": {
+    "syntax": "inside | outside | top | left | right | bottom | start | end | self-start | self-end | <percentage> | center"
+  },
   "anchor-size()": {
     "syntax": "anchor-size( [ <anchor-name> || <anchor-size> ]? , <length-percentage>? )"
   },
