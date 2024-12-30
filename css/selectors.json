@@ -179,7 +179,7 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:defined"
   },
-  ":dir": {
+  ":dir()": {
     "syntax": ":dir( [ ltr | rtl ] )",
     "groups": [
       "Pseudo-classes",
@@ -287,7 +287,7 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:future"
   },
-  ":has": {
+  ":has()": {
     "syntax": ":has( <forgiving-relative-selector-list> )",
     "groups": [
       "Pseudo-classes",
@@ -350,7 +350,7 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:invalid"
   },
-  ":is": {
+  ":is()": {
     "syntax": ":is( <forgiving-selector-list> )",
     "groups": [
       "Pseudo-classes",
@@ -359,7 +359,7 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:is"
   },
-  ":lang": {
+  ":lang()": {
     "syntax": ":lang( <language-code> )",
     "groups": [
       "Pseudo-classes",
@@ -423,7 +423,7 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:modal"
   },
-  ":not": {
+  ":not()": {
     "syntax": ":not( <complex-selector-list> )",
     "groups": [
       "Pseudo-classes",
@@ -432,7 +432,7 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:not"
   },
-  ":nth-child": {
+  ":nth-child()": {
     "syntax": ":nth-child( <nth> [ of <complex-selector-list> ]? )",
     "groups": [
       "Pseudo-classes",
@@ -441,7 +441,7 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-child"
   },
-  ":nth-last-child": {
+  ":nth-last-child()": {
     "syntax": ":nth-last-child( <nth> [ of <complex-selector-list> ]? )",
     "groups": [
       "Pseudo-classes",
@@ -450,7 +450,7 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-last-child"
   },
-  ":nth-last-of-type": {
+  ":nth-last-of-type()": {
     "syntax": ":nth-last-of-type( <nth> )",
     "groups": [
       "Pseudo-classes",
@@ -459,7 +459,7 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-last-of-type"
   },
-  ":nth-of-type": {
+  ":nth-of-type()": {
     "syntax": ":nth-of-type( <nth> )",
     "groups": [
       "Pseudo-classes",
@@ -659,7 +659,7 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:visited"
   },
-  ":where": {
+  ":where()": {
     "syntax": ":where( <complex-selector-list> )",
     "groups": [
       "Pseudo-classes",
@@ -911,7 +911,16 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::before"
   },
   "::cue": {
-    "syntax": "::cue | ::cue( <selector> )",
+    "syntax": "::cue",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::cue"
+  },
+  "::cue()": {
+    "syntax": "::cue( <selector> )",
     "groups": [
       "Pseudo-elements",
       "Selectors"
@@ -920,7 +929,15 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::cue"
   },
   "::cue-region": {
-    "syntax": "::cue-region | ::cue-region( <selector> )",
+    "syntax": "::cue-region",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors"
+    ],
+    "status": "standard"
+  },
+  "::cue-region()": {
+    "syntax": "::cue-region( <selector> )",
     "groups": [
       "Pseudo-elements",
       "Selectors"
@@ -963,7 +980,7 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::marker"
   },
-  "::part": {
+  "::part()": {
     "syntax": "::part( <ident>+ )",
     "groups": [
       "Pseudo-elements",
@@ -990,7 +1007,7 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::selection"
   },
-  "::slotted": {
+  "::slotted()": {
     "syntax": "::slotted( <compound-selector> )",
     "groups": [
       "Pseudo-elements",
@@ -1026,7 +1043,7 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition"
   },
-  "::view-transition-group": {
+  "::view-transition-group()": {
     "syntax": "::view-transition-group([ '*' | <custom-ident> ])",
     "groups": [
       "Pseudo-elements",
@@ -1035,7 +1052,7 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-group"
   },
-  "::view-transition-image-pair": {
+  "::view-transition-image-pair()": {
     "syntax": "::view-transition-image-pair([ '*' | <custom-ident> ])",
     "groups": [
       "Pseudo-elements",
@@ -1044,7 +1061,7 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-image-pair"
   },
-  "::view-transition-new": {
+  "::view-transition-new()": {
     "syntax": "::view-transition-new([ '*' | <custom-ident> ])",
     "groups": [
       "Pseudo-elements",
@@ -1053,7 +1070,7 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-new"
   },
-  "::view-transition-old": {
+  "::view-transition-old()": {
     "syntax": "::view-transition-old([ '*' | <custom-ident> ])",
     "groups": [
       "Pseudo-elements",
