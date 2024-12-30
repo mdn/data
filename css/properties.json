@@ -4474,7 +4474,7 @@
       "container-type"
     ],
     "groups": [
-      "CSS Containment"
+      "CSS Conditional Rules"
     ],
     "initial": [
       "container-name",
@@ -4496,7 +4496,7 @@
     "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
-      "CSS Containment"
+      "CSS Conditional Rules"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -4512,7 +4512,7 @@
     "animationType": "color",
     "percentages": "no",
     "groups": [
-      "CSS Containment"
+      "CSS Conditional Rules"
     ],
     "initial": "normal",
     "appliesto": "allElements",
