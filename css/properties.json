@@ -1686,6 +1686,22 @@
     "order": "uniqueOrder",
     "status": "nonstandard"
   },
+  "-webkit-user-select": {
+    "syntax": "auto | text | none | all",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "WebKit Extensions"
+    ],
+    "initial": "auto",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/user-select"
+  },
   "accent-color": {
     "syntax": "auto | <color>",
     "media": "interactive",
@@ -2090,7 +2106,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Basic User Interface"
+      "CSS Box Sizing"
     ],
     "initial": "auto",
     "appliesto": "allElementsExceptInlineBoxesAndInternalRubyOrTableBoxes",
@@ -4362,7 +4378,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Containment"
+      "CSS Box Sizing"
     ],
     "initial": "none",
     "appliesto": "elementsForWhichSizeContainmentCanApply",
@@ -4377,7 +4393,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Containment"
+      "CSS Box Sizing"
     ],
     "initial": "none",
     "appliesto": "elementsForWhichSizeContainmentCanApply",
@@ -4392,7 +4408,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Containment"
+      "CSS Box Sizing"
     ],
     "initial": "none",
     "appliesto": "elementsForWhichSizeContainmentCanApply",
@@ -4414,7 +4430,7 @@
       "contain-intrinsic-height"
     ],
     "groups": [
-      "CSS Containment"
+      "CSS Box Sizing"
     ],
     "initial": [
       "contain-intrinsic-width",
@@ -4436,7 +4452,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Containment"
+      "CSS Box Sizing"
     ],
     "initial": "none",
     "appliesto": "elementsForWhichSizeContainmentCanApply",
@@ -4458,7 +4474,7 @@
       "container-type"
     ],
     "groups": [
-      "CSS Containment"
+      "CSS Conditional Rules"
     ],
     "initial": [
       "container-name",
@@ -4480,7 +4496,7 @@
     "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
-      "CSS Containment"
+      "CSS Conditional Rules"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -4496,7 +4512,7 @@
     "animationType": "color",
     "percentages": "no",
     "groups": [
-      "CSS Containment"
+      "CSS Conditional Rules"
     ],
     "initial": "normal",
     "appliesto": "allElements",
@@ -10550,7 +10566,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/unicode-bidi"
   },
   "user-select": {
-    "syntax": "auto | text | none | contain | all",
+    "syntax": "auto | text | none | all",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
