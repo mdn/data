@@ -23,7 +23,7 @@ The 3 properties seen above are all required:
 
 * `syntax` (string): This is the formal syntax of the at-rule and is usually found in the specification.
 * `groups` (array of strings): CSS is organized in modules like "CSS Fonts" or "CSS Animations". MDN organizes features in these groups as well — `groups` should contain the name of the module(s) the at-rule is defined in.
-* `status` (enum string): This is either `standard`, `nonstandard`, or `experimental` depending on the standardization status of the feature.
+* `status` (enum string): This is either `standard`, `nonstandard`, `experimental` or `obsolete` depending on the standardization status of the feature.
 
 There are 3 more properties that are optional:
 * `mdn_url` (string): a URL linking to the at-rule's page on MDN. This URL must omit the localization part of the URL (such as `en-US/`).
