@@ -96,7 +96,8 @@
               "enum": [
                 "standard",
                 "nonstandard",
-                "experimental"
+                "experimental",
+                "obsolete"
               ]
             },
             "mdn_url": {
@@ -118,7 +119,8 @@
         "enum": [
           "standard",
           "nonstandard",
-          "experimental"
+          "experimental",
+          "obsolete"
         ]
       },
       "mdn_url": {
