@@ -884,7 +884,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::-webkit-slider-thumb"
   },
   "::after": {
-    "syntax": "/* CSS3 syntax */\n::after\n\n/* CSS2 syntax */\n:after",
+    "syntax": "::after",
     "groups": [
       "Pseudo-elements",
       "Selectors"
@@ -902,7 +902,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::backdrop"
   },
   "::before": {
-    "syntax": "/* CSS3 syntax */\n::before\n\n/* CSS2 syntax */\n:before",
+    "syntax": "::before",
     "groups": [
       "Pseudo-elements",
       "Selectors"
@@ -928,7 +928,7 @@
     "status": "standard"
   },
   "::first-letter": {
-    "syntax": "/* CSS3 syntax */\n::first-letter\n\n/* CSS2 syntax */\n:first-letter",
+    "syntax": "::first-letter",
     "groups": [
       "Pseudo-elements",
       "Selectors"
@@ -937,7 +937,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::first-letter"
   },
   "::first-line": {
-    "syntax": "/* CSS3 syntax */\n::first-line\n\n/* CSS2 syntax */\n:first-line",
+    "syntax": "::first-line",
     "groups": [
       "Pseudo-elements",
       "Selectors"
