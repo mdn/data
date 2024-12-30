@@ -2106,7 +2106,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Basic User Interface"
+      "CSS Box Sizing"
     ],
     "initial": "auto",
     "appliesto": "allElementsExceptInlineBoxesAndInternalRubyOrTableBoxes",
@@ -4378,7 +4378,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Containment"
+      "CSS Box Sizing"
     ],
     "initial": "none",
     "appliesto": "elementsForWhichSizeContainmentCanApply",
@@ -4393,7 +4393,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Containment"
+      "CSS Box Sizing"
     ],
     "initial": "none",
     "appliesto": "elementsForWhichSizeContainmentCanApply",
@@ -4408,7 +4408,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Containment"
+      "CSS Box Sizing"
     ],
     "initial": "none",
     "appliesto": "elementsForWhichSizeContainmentCanApply",
@@ -4430,7 +4430,7 @@
       "contain-intrinsic-height"
     ],
     "groups": [
-      "CSS Containment"
+      "CSS Box Sizing"
     ],
     "initial": [
       "contain-intrinsic-width",
@@ -4452,7 +4452,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Containment"
+      "CSS Box Sizing"
     ],
     "initial": "none",
     "appliesto": "elementsForWhichSizeContainmentCanApply",
