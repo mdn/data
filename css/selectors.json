@@ -944,6 +944,23 @@
     ],
     "status": "standard"
   },
+  "::details-content": {
+    "syntax": "::details-content",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors"
+    ],
+    "status": "experimental"
+  },
+  "::file-selector-button": {
+    "syntax": "::file-selector-button",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::file-selector-button"
+  },
   "::first-letter": {
     "syntax": "::first-letter",
     "groups": [
@@ -970,6 +987,15 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::grammar-error"
+  },
+  "::highlight()": {
+    "syntax": "::highlight( <custom-ident> )",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::highlight"
   },
   "::marker": {
     "syntax": "::marker",
