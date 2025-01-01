@@ -659,6 +659,15 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:visited"
   },
+  ":volume-locked": {
+    "syntax": ":volume-locked",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:volume-locked"
+  },
   ":where()": {
     "syntax": ":where( <complex-selector-list> )",
     "groups": [
@@ -667,6 +676,14 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:where"
+  },
+  ":xr-overlay": {
+    "syntax": ":xr-overlay",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "experimental"
   },
   "::-ms-browse": {
     "syntax": "::-ms-browse",
