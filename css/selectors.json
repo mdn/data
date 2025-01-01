@@ -125,6 +125,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:active"
   },
+  ":active-view-transition": {
+    "syntax": ":active-view-transition",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "standard"
+  },
+  ":active-view-transition-type()": {
+    "syntax": ":active-view-transition-type( <custom-ident># )",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "standard"
+  },
   ":any-link": {
     "syntax": ":any-link",
     "groups": [
@@ -134,6 +150,15 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:any-link"
   },
+  ":autofill": {
+    "syntax": ":autofill",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:autofill"
+  },
   ":blank": {
     "syntax": ":blank",
     "groups": [
@@ -142,6 +167,15 @@
     ],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:blank"
+  },
+  ":buffering": {
+    "syntax": ":buffering",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:buffering"
   },
   ":checked": {
     "syntax": ":checked",
