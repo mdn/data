@@ -330,6 +330,24 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:has"
   },
+  ":has-slotted": {
+    "syntax": ":has-slotted",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:has-slotted"
+  },
+  ":host": {
+    "syntax": ":host",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:host"
+  },
   ":host()": {
     "syntax": ":host( <compound-selector> )",
     "groups": [
@@ -456,6 +474,15 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:modal"
+  },
+  ":muted": {
+    "syntax": ":muted",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:muted"
   },
   ":not()": {
     "syntax": ":not( <complex-selector-list> )",
