@@ -610,6 +610,15 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:playing"
   },
+  ":popover-open": {
+    "syntax": ":popover-open",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:popover-open"
+  },
   ":read-only": {
     "syntax": ":read-only",
     "groups": [
@@ -665,6 +674,33 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:scope"
+  },
+  ":seeking": {
+    "syntax": ":seeking",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:seeking"
+  },
+  ":stalled": {
+    "syntax": ":stalled",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:stalled"
+  },
+  ":state()": {
+    "syntax": ":state( <custom-ident> )",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:state"
   },
   ":target": {
     "syntax": ":target",
