@@ -327,7 +327,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-palette-values"
   },
   "@import": {
-    "syntax": "@import [ <string> | <url> ]\n        [ layer | layer(<layer-name>) ]?\n        [ supports( [ <supports-condition> | <declaration> ] ) ]?\n        <media-query-list>? ;",
+    "syntax": "@import [ <url> | <string> ] [ layer | layer(<layer-name>) ]? <import-conditions>;",
     "groups": [
       "CSS Conditional Rules",
       "Media Queries"
