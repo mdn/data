@@ -1,5 +1,39 @@
 # Changelog
 
+## [2.15.0](https://github.com/mdn/data/compare/v2.14.0...v2.15.0) (2025-01-03)
+
+
+### Features
+
+* **css:** Add data for css `[@view-transition](https://github.com/view-transition)` at-rule ([#851](https://github.com/mdn/data/issues/851)) ([f326618](https://github.com/mdn/data/commit/f32661804f3d76269dd933e4c8c52053deede037))
+* **css:** add legacy `-webkit-user-select` property ([#864](https://github.com/mdn/data/issues/864)) ([37b9934](https://github.com/mdn/data/commit/37b993409c32a601201540cf13a5ed1dc93c37eb))
+* **css:** add missing `:modal` pseudo-classes ([#862](https://github.com/mdn/data/issues/862)) ([314b1ce](https://github.com/mdn/data/commit/314b1cee99a5736e48671c23befdcd49ca31e176))
+* **css:** Add missing `anchor-side` syntax for `anchor()` ([#860](https://github.com/mdn/data/issues/860)) ([774d6c5](https://github.com/mdn/data/commit/774d6c5aa583932461a48b0bed04854d311b1e6a))
+* **css:** add missing `anchor-size` syntax for `anchor-size()` ([#861](https://github.com/mdn/data/issues/861)) ([37bf01a](https://github.com/mdn/data/commit/37bf01a6a45a7fb49513f5c49333deebf21bd5e7))
+* **css:** add missing pseudo classes [a-c] ([#871](https://github.com/mdn/data/issues/871)) ([7a57280](https://github.com/mdn/data/commit/7a57280a0d946fd4474b68f14f79d830e134a480))
+* **css:** add missing pseudo classes [h-m] ([#872](https://github.com/mdn/data/issues/872)) ([59d6142](https://github.com/mdn/data/commit/59d61421303d0f25c80a8f9a2d5632c0b05a1a46))
+* **css:** add missing pseudo classes [p-s] ([#873](https://github.com/mdn/data/issues/873)) ([10e61fd](https://github.com/mdn/data/commit/10e61fdaa9024852fae24cfc695b4e12d4bb055b))
+* **css:** add missing pseudo classes [v-x] ([#874](https://github.com/mdn/data/issues/874)) ([a8104c4](https://github.com/mdn/data/commit/a8104c424d9e4e32fd4623ee267912e4ce3bd036))
+* **css:** add missing pseudo elements ([#868](https://github.com/mdn/data/issues/868)) ([23379df](https://github.com/mdn/data/commit/23379df6cf7cd4eebdf538aaf42bbe799f7c2535))
+* **css:** consistent naming for function-like pseudo-classes ([#865](https://github.com/mdn/data/issues/865)) ([8d17ec8](https://github.com/mdn/data/commit/8d17ec8526b7ca5807c3a41d102181a9665d511a))
+* **css:** Remove never-supported obsolute azimuth feature ([#832](https://github.com/mdn/data/issues/832)) ([c4ab0f3](https://github.com/mdn/data/commit/c4ab0f316b691ff576c5a058cf5297bbf577b8a9))
+* **css:** Replace `&lt;box&gt;` type with `<visual-box>` type ([#842](https://github.com/mdn/data/issues/842)) ([57b11d6](https://github.com/mdn/data/commit/57b11d685a7a030f4fdb79f020aa74afa0d81adc))
+* **css:** Update css2 syntax for some pseudo-elements ([#866](https://github.com/mdn/data/issues/866)) ([7798a1c](https://github.com/mdn/data/commit/7798a1c6661e4c3f5dabf554f5898e38028d886d))
+* **css:** Update synatx for `background-origin` ([#838](https://github.com/mdn/data/issues/838)) ([aa45cc7](https://github.com/mdn/data/commit/aa45cc7cbe8f19e464ebaa1fee5feddbe9e7b6ca))
+* **css:** Update syntax for @font-face/unicode-range ([#833](https://github.com/mdn/data/issues/833)) ([5186311](https://github.com/mdn/data/commit/5186311bb3a880d11143a5029fbff69e99355d13))
+* **css:** Update syntax for `[-webkit]-mask-{clip,origin}` ([#839](https://github.com/mdn/data/issues/839)) ([c73adfe](https://github.com/mdn/data/commit/c73adfec11d1849c32e149d9be9a093ea7bd3922))
+* **css:** Update syntax for `background-clip` ([#835](https://github.com/mdn/data/issues/835)) ([76d7860](https://github.com/mdn/data/commit/76d78604b877742bce965b58014b1bc8ad66820c))
+* **css:** Update syntax for `image-rendering` property `smooth` value ([#834](https://github.com/mdn/data/issues/834)) ([22b6586](https://github.com/mdn/data/commit/22b65866b1dadaed758af0b4f97c4e061114ac04))
+
+
+### Bug Fixes
+
+* **css:** Add group field for CSS Box Sizing module ([#855](https://github.com/mdn/data/issues/855)) ([97536bb](https://github.com/mdn/data/commit/97536bbb68d255948d1b9f27d71fde7b3c584a4f))
+* **css:** Fix group field for CSS Containment module ([#854](https://github.com/mdn/data/issues/854)) ([7f652b0](https://github.com/mdn/data/commit/7f652b09cdfefa0b89ff7aecd90a9b93c40c735f))
+* **css:** Fix mdn_url for functions ([#840](https://github.com/mdn/data/issues/840)) ([ec24bf4](https://github.com/mdn/data/commit/ec24bf4aba47d7bd309b01b3240f5f091a23da99))
+* **css:** Fix mdn_url for selectors and types ([#836](https://github.com/mdn/data/issues/836)) ([f5689dc](https://github.com/mdn/data/commit/f5689dc3437a12e00461315945efadb6af751e36))
+* **css:** incorrect mdn_url for `repeating-radial-gradient()` ([#844](https://github.com/mdn/data/issues/844)) ([0500654](https://github.com/mdn/data/commit/0500654aa73283c4908e0fa2565f2b7875147f2d))
+
 ## [2.14.0](https://github.com/mdn/data/compare/v2.13.0...v2.14.0) (2024-12-17)
 
 
