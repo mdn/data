@@ -329,6 +329,7 @@
   "@import": {
     "syntax": "@import [ <string> | <url> ]\n        [ layer | layer(<layer-name>) ]?\n        [ supports( [ <supports-condition> | <declaration> ] ) ]?\n        <media-query-list>? ;",
     "groups": [
+      "CSS Cascading and Inheritance",
       "CSS Conditional Rules",
       "Media Queries"
     ],
