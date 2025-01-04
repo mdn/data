@@ -6282,7 +6282,7 @@
     "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
-      "CSS Units"
+      "CSS Values and Units"
     ],
     "initial": "numeric-only",
     "appliesto": "allElements",
