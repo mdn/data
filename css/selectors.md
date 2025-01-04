@@ -21,7 +21,7 @@ A selector object looks like this:
 
 The three properties shown above are all required:
 * `syntax` (string): The syntax of the selector (e.g. `::after` with two colons indicating a [pseudo-element](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Pseudo-classes_and_pseudo-elements#Pseudo-elements), `:hover` with one colon indicating a [pseudo-class](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Pseudo-classes_and_pseudo-elements#Pseudo-classes), or `A ~ B` indicating a [combinator](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Combinators_and_multiple_selectors#Combinators)).
-* `groups` (array of strings): CSS is organized in modules like "CSS Units" or "CSS Lengths". MDN organizes features in these groups as well — `groups` should contain the name of the module(s) the selector is defined in.
+* `groups` (array of strings): CSS is organized in modules like "CSS Values and Units". MDN organizes features in these groups as well — `groups` should contain the name of the module(s) the selector is defined in.
 * `status` (enum string): This is either `standard`, `nonstandard`, `experimental` or `obsolete` depending on the standardization status of the feature.
 
 There is another property that is optional:
