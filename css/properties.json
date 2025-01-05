@@ -1724,7 +1724,7 @@
     "animationType": "eachOfShorthandPropertiesExceptUnicodeBiDiAndDirection",
     "percentages": "no",
     "groups": [
-      "CSS Miscellaneous"
+      "CSS Cascading and Inheritance"
     ],
     "initial": "noPracticalInitialValue",
     "appliesto": "allElements",
@@ -10058,7 +10058,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Miscellaneous"
+      "Scalable Vector Graphics"
     ],
     "initial": "auto",
     "appliesto": "textElements",
