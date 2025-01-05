@@ -329,9 +329,6 @@
   "feature-value-name": {
     "syntax": "<custom-ident>"
   },
-  "fill-rule": {
-    "syntax": "nonzero | evenodd"
-  },
   "filter-function": {
     "syntax": "<blur()> | <brightness()> | <contrast()> | <drop-shadow()> | <grayscale()> | <hue-rotate()> | <invert()> | <opacity()> | <saturate()> | <sepia()>"
   },
@@ -663,7 +660,7 @@
     "syntax": "palette-mix(<color-interpolation-method> , [ [normal | light | dark | <palette-identifier> | <palette-mix()> ] && <percentage [0,100]>? ]#{2})"
   },
   "path()": {
-    "syntax": "path( [ <fill-rule>, ]? <string> )"
+    "syntax": "path( <'fill-rule'>? , <string> )"
   },
   "perspective()": {
     "syntax": "perspective( [ <length [0,∞]> | none ] )"
@@ -672,7 +669,7 @@
     "syntax": "hsl | hwb | lch | oklch"
   },
   "polygon()": {
-    "syntax": "polygon( <fill-rule>? , [ <length-percentage> <length-percentage> ]# )"
+    "syntax": "polygon( <'fill-rule'>? , [ <length-percentage> <length-percentage> ]# )"
   },
   "position": {
     "syntax": "[ [ left | center | right ] || [ top | center | bottom ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ]? | [ [ left | right ] <length-percentage> ] && [ [ top | bottom ] <length-percentage> ] ]"
