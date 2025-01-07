@@ -22,4 +22,4 @@ A unit object looks like this:
 
 The 2 properties are both required.
 * `groups` (array of strings): CSS is organized in modules like "CSS Units" or "CSS Lengths". MDN organizes features in these groups as well — `groups` should contain the name of the module(s) the unit is defined in.
-* `status` (enum string): This is either `standard`, `nonstandard`, or `experimental` depending on the standardization status of the feature.
+* `status` (enum string): This is either `standard`, `nonstandard`, `experimental` or `obsolete` depending on the standardization status of the feature.
