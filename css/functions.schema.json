@@ -1,8 +1,27 @@
 {
+  "definitions": {
+    "status": {
+      "enum": [
+        "standard",
+        "nonstandard",
+        "experimental",
+        "obsolete"
+      ]
+    },
+    "mdn_url": {
+      "type": "string",
+      "pattern": "^https://developer.mozilla.org/docs/"
+    }
+  },
   "type": "object",
   "additionalProperties": {
     "type": "object",
     "additionalProperties": false,
+    "required": [
+      "syntax",
+      "groups",
+      "status"
+    ],
     "properties": {
       "syntax": {
         "type": "string"
@@ -16,22 +35,11 @@
         }
       },
       "status": {
-        "enum": [
-          "standard",
-          "nonstandard",
-          "experimental",
-          "obsolete"
-        ]
+        "$ref": "#/definitions/status"
       },
       "mdn_url": {
-        "type": "string",
-        "pattern": "^https://developer.mozilla.org/docs/Web/CSS/"
+        "$ref": "#/definitions/mdn_url"
       }
-    },
-    "required": [
-      "syntax",
-      "groups",
-      "status"
-    ]
+    }
   }
 }

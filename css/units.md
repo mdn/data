@@ -1,7 +1,7 @@
 # Units
 
-[data](https://github.com/mdn/data/blob/master/css/units.json) |
-[schema](https://github.com/mdn/data/blob/master/css/units.schema.json)
+[data](https://github.com/mdn/data/blob/main/css/units.json) |
+[schema](https://github.com/mdn/data/blob/main/css/units.schema.json)
 
 Units are CSS units like `em` or `px`. Most of them are defined in the
 [CSS Values and Units specification](https://drafts.csswg.org/css-values/).
@@ -22,4 +22,4 @@ A unit object looks like this:
 
 The 2 properties are both required.
 * `groups` (array of strings): CSS is organized in modules like "CSS Units" or "CSS Lengths". MDN organizes features in these groups as well — `groups` should contain the name of the module(s) the unit is defined in.
-* `status` (enum string): This is either `standard`, `nonstandard`, or `experimental` depending on the standardization status of the feature.
+* `status` (enum string): This is either `standard`, `nonstandard`, `experimental` or `obsolete` depending on the standardization status of the feature.

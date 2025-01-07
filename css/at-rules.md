@@ -1,7 +1,7 @@
 # At-rules
 
-[data](https://github.com/mdn/data/blob/master/css/at-rules.json) |
-[schema](https://github.com/mdn/data/blob/master/css/at-rules.schema.json)
+[data](https://github.com/mdn/data/blob/main/css/at-rules.json) |
+[schema](https://github.com/mdn/data/blob/main/css/at-rules.schema.json)
 
 An [at-rule](https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule) is a CSS statement beginning with an at sign (@) that instructs CSS how to behave. There are several available identifiers defining what CSS should do in certain situations.
 
@@ -23,7 +23,7 @@ The 3 properties seen above are all required:
 
 * `syntax` (string): This is the formal syntax of the at-rule and is usually found in the specification.
 * `groups` (array of strings): CSS is organized in modules like "CSS Fonts" or "CSS Animations". MDN organizes features in these groups as well — `groups` should contain the name of the module(s) the at-rule is defined in.
-* `status` (enum string): This is either `standard`, `nonstandard`, or `experimental` depending on the standardization status of the feature.
+* `status` (enum string): This is either `standard`, `nonstandard`, `experimental` or `obsolete` depending on the standardization status of the feature.
 
 There are 3 more properties that are optional:
 * `mdn_url` (string): a URL linking to the at-rule's page on MDN. This URL must omit the localization part of the URL (such as `en-US/`).

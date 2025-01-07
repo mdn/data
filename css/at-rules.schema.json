@@ -96,13 +96,17 @@
               "enum": [
                 "standard",
                 "nonstandard",
-                "experimental"
+                "experimental",
+                "obsolete"
               ]
+            },
+            "mdn_url": {
+              "type": "string",
+              "pattern": "^https://developer.mozilla.org/docs/Web/CSS/"
             }
           },
           "required": [
             "syntax",
-            "media",
             "initial",
             "percentages",
             "computed",
@@ -115,7 +119,8 @@
         "enum": [
           "standard",
           "nonstandard",
-          "experimental"
+          "experimental",
+          "obsolete"
         ]
       },
       "mdn_url": {

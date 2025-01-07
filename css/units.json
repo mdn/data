@@ -1,4 +1,11 @@
 {
+  "cap": {
+    "groups": [
+      "CSS Units",
+      "CSS Lengths"
+    ],
+    "status": "standard"
+  },
   "ch": {
     "groups": [
       "CSS Units",
@@ -74,6 +81,13 @@
     "groups": [
       "CSS Units",
       "CSS Frequencies"
+    ],
+    "status": "standard"
+  },
+  "ic": {
+    "groups": [
+      "CSS Units",
+      "CSS Lengths"
     ],
     "status": "standard"
   },

@@ -1,7 +1,7 @@
 # Syntaxes
 
-[data](https://github.com/mdn/data/blob/master/css/syntaxes.json) |
-[schema](https://github.com/mdn/data/blob/master/css/syntaxes.schema.json)
+[data](https://github.com/mdn/data/blob/main/css/syntaxes.json) |
+[schema](https://github.com/mdn/data/blob/main/css/syntaxes.schema.json)
 
 [CSS value definition syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Value_definition_syntax) is used for the formal syntax of CSS properties. The syntaxes.json file defines many of these CSS syntaxes.
 
@@ -25,7 +25,7 @@ Definition of `<attachment>` in syntaxes.json:
 ```
 
 CSS syntaxes might be more complex than just keywords separated by a pipe (`|`). For example, the syntax might contain values that are referencing
-[CSS types](https://github.com/mdn/data/blob/master/css/types.md):
+[CSS types](https://github.com/mdn/data/blob/main/css/types.md):
 
 ```json
 "alpha-value": {
@@ -40,7 +40,7 @@ Or, syntaxes might reference other syntaxes that are also defined in syntaxes.js
   "syntax": "<length> | <percentage>"
 },
 "shape-radius": {
-    "syntax": "<length-percentage> | closest-side | farthest-side"
+  "syntax": "<length-percentage> | closest-side | farthest-side"
 },
 ```
 

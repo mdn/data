@@ -54,40 +54,20 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/custom-ident"
   },
+  "dashed-ident": {
+    "groups": [
+      "CSS Animations",
+      "CSS Types"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/dashed-ident"
+  },
   "dimension": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/dimension"
-  },
-  "display-outside": {
-    "groups": [
-      "CSS Display"
-    ],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-outside"
-  },
-  "display-inside": {
-    "groups": [
-      "CSS Display"
-    ],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-inside"
-  },
-  "display-listitem": {
-    "groups": [
-      "CSS Display"
-    ],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-listitem"
-  },
-  "display-internal": {
-    "groups": [
-      "CSS Display"
-    ],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-internal"
   },
   "display-box": {
     "groups": [
@@ -96,12 +76,49 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-box"
   },
+  "display-inside": {
+    "groups": [
+      "CSS Display"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-inside"
+  },
+  "display-internal": {
+    "groups": [
+      "CSS Display"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-internal"
+  },
   "display-legacy": {
     "groups": [
       "CSS Display"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-legacy"
+  },
+  "display-listitem": {
+    "groups": [
+      "CSS Display"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-listitem"
+  },
+  "display-outside": {
+    "groups": [
+      "CSS Display"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-outside"
+  },
+  "easing-function": {
+    "groups": [
+      "CSS Animations",
+      "CSS Transitions",
+      "CSS Types"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/easing-function"
   },
   "filter-function": {
     "groups": [
@@ -144,7 +161,8 @@
     "groups": [
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ident"
   },
   "image": {
     "groups": [
@@ -175,12 +193,26 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/length-percentage"
   },
+  "line-style": {
+    "groups": [
+      "CSS Types"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/line-style"
+  },
   "number": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/number"
+  },
+  "overflow": {
+    "groups": [
+      "CSS Types"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow_value"
   },
   "percentage": {
     "groups": [
@@ -214,7 +246,7 @@
     "groups": [
       "CSS Types"
     ],
-    "status": "standard",
+    "status": "obsolete",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape"
   },
   "string": {
@@ -238,15 +270,6 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/time-percentage"
   },
-  "timing-function": {
-    "groups": [
-      "CSS Animations",
-      "CSS Transitions",
-      "CSS Types"
-    ],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/timing-function"
-  },
   "transform-function": {
     "groups": [
       "CSS Transforms",
@@ -260,6 +283,6 @@
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/url"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/url_value"
   }
 }
