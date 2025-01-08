@@ -1125,7 +1125,8 @@
     "syntax": "::part( <ident>+ )",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "CSS Shadow Parts"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::part"
