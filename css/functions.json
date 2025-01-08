@@ -119,6 +119,14 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/clamp"
   },
+  "color()": {
+    "syntax": "color( [from <color>]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )",
+    "groups": [
+      "CSS Color"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/color"
+  },
   "conic-gradient()": {
     "syntax": "conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )",
     "groups": [
@@ -255,6 +263,14 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/hue-rotate"
   },
+  "hwb()": {
+    "syntax": "hwb( [ <hue> | none ] [ <percentage> | <number> | none ] [ <percentage> | <number> | none ] [ / [ <alpha-value> | none ] ]? )",
+    "groups": [
+      "CSS Color"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/hwb"
+  },
   "hypot()": {
     "syntax": "hypot( <calc-sum># )",
     "groups": [
@@ -263,14 +279,6 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/hypot"
-  },
-  "hwb()": {
-    "syntax": "hwb( [ <hue> | none ] [ <percentage> | <number> | none ] [ <percentage> | <number> | none ] [ / [ <alpha-value> | none ] ]? )",
-    "groups": [
-      "CSS Color"
-    ],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/hwb"
   },
   "image()": {
     "syntax": "image( <image-tags>? [ <image-src>? , <color>? ]! )",
@@ -540,7 +548,7 @@
       "CSS Color"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-linear-gradient"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-radial-gradient"
   },
   "rgb()": {
     "syntax": "rgb( [ <number> | <percentage> | none ]{3} [ / [ <alpha-value> | none ] ]?  ) | rgb( <percentage>#{3} , <alpha-value>? ) | rgb( <number>#{3} , <alpha-value>? )",
@@ -724,6 +732,15 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/sqrt"
   },
+  "tan()": {
+    "syntax": "tan( <calc-sum> )",
+    "groups": [
+      "CSS Units",
+      "CSS Lengths"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/tan"
+  },
   "target-counter()": {
     "syntax": "target-counter( [ <string> | <url> ] , <custom-ident> , <counter-style>? )",
     "groups": [
@@ -744,15 +761,6 @@
       "CSS Miscellaneous"
     ],
     "status": "nonstandard"
-  },
-  "tan()": {
-    "syntax": "tan( <calc-sum> )",
-    "groups": [
-      "CSS Units",
-      "CSS Lengths"
-    ],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/tan"
   },
   "translate()": {
     "syntax": "translate( <length-percentage> , <length-percentage>? )",
