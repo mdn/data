@@ -10127,7 +10127,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-spacing-trim"
   },
   "text-transform": {
-    "syntax": "none | capitalize | uppercase | lowercase | full-width | full-size-kana | math-auto",
+    "syntax": "none | [ capitalize | uppercase | lowercase ] || full-width || full-size-kana | math-auto",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
