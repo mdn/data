@@ -344,7 +344,7 @@
   "filter-function": {
     "syntax": "<blur()> | <brightness()> | <contrast()> | <drop-shadow()> | <grayscale()> | <hue-rotate()> | <invert()> | <opacity()> | <saturate()> | <sepia()>"
   },
-  "filter-function-list": {
+  "filter-value-list": {
     "syntax": "[ <filter-function> | <url> ]+"
   },
   "final-bg-layer": {
