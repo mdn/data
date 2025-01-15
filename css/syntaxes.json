@@ -17,6 +17,12 @@
   "anchor-name": {
     "syntax": "<dashed-ident>"
   },
+  "anchor-side": {
+    "syntax": "inside | outside | top | left | right | bottom | start | end | self-start | self-end | <percentage> | center"
+  },
+  "anchor-size": {
+    "syntax": "width | height | block | inline | self-block | self-inline"
+  },
   "anchor-size()": {
     "syntax": "anchor-size( [ <anchor-name> || <anchor-size> ]? , <length-percentage>? )"
   },
@@ -140,8 +146,14 @@
   "color": {
     "syntax": "<rgb()> | <rgba()> | <hsl()> | <hsla()> | <hwb()> | <lab()> | <lch()> | <oklab()> | <oklch()> | <color()> | <hex-color> | <named-color> | <system-color> | <deprecated-system-color> | currentcolor | transparent"
   },
+  "color()": {
+    "syntax": "color( [from <color>]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
+  },
   "color-interpolation-method": {
-    "syntax": "in [ <rectangular-color-space> | <polar-color-space> <hue-interpolation-method>? ]"
+    "syntax": "in [ <rectangular-color-space> | <polar-color-space> <hue-interpolation-method>? | <custom-color-space> ]"
+  },
+  "color-mix()": {
+    "syntax": "color-mix( <color-interpolation-method> , [ <color> && <percentage [0,100]>? ]#{2})"
   },
   "color-stop": {
     "syntax": "<color-stop-length> | <color-stop-angle>"
@@ -154,6 +166,9 @@
   },
   "color-stop-list": {
     "syntax": "[ <linear-color-stop> [, <linear-color-hint>]? ]# , <linear-color-stop>"
+  },
+  "colorspace-params": {
+    "syntax": "[<custom-params> | <predefined-rgb-params> | <xyz-params>]"
   },
   "combinator": {
     "syntax": "'>' | '+' | '~' | [ '||' ]"
@@ -232,6 +247,12 @@
   },
   "cubic-bezier-timing-function": {
     "syntax": "ease | ease-in | ease-out | ease-in-out | cubic-bezier(<number [0,1]>, <number>, <number [0,1]>, <number>)"
+  },
+  "custom-color-space": {
+    "syntax": "<dashed-ident>"
+  },
+  "custom-params": {
+    "syntax": "<dashed-ident> [ <number> | <percentage> | none ]+"
   },
   "dasharray": {
     "syntax": "[ [ <length-percentage> | <number> ]+ ]#"
@@ -668,6 +689,12 @@
   "pow()": {
     "syntax": "pow( <calc-sum>, <calc-sum> )"
   },
+  "predefined-rgb": {
+    "syntax": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020"
+  },
+  "predefined-rgb-params": {
+    "syntax": "<predefined-rgb> [ <number> | <percentage> | none ]{3}"
+  },
   "pseudo-class-selector": {
     "syntax": "':' <ident-token> | ':' <function-token> <any-value> ')'"
   },
@@ -970,5 +997,11 @@
   },
   "wq-name": {
     "syntax": "<ns-prefix>? <ident-token>"
+  },
+  "xyz": {
+    "syntax": "xyz | xyz-d50 | xyz-d65"
+  },
+  "xyz-params": {
+    "syntax": "<xyz> [ <number> | <percentage> | none ]{3}"
   }
 }
