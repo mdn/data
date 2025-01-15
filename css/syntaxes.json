@@ -156,7 +156,10 @@
     "syntax": "color( [from <color>]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
   },
   "color-interpolation-method": {
-    "syntax": "in [ <rectangular-color-space> | <polar-color-space> <hue-interpolation-method>? ]"
+    "syntax": "in [ <rectangular-color-space> | <polar-color-space> <hue-interpolation-method>? | <custom-color-space> ]"
+  },
+  "color-mix()": {
+    "syntax": "color-mix( <color-interpolation-method> , [ <color> && <percentage [0,100]>? ]#{2})"
   },
   "color-stop": {
     "syntax": "<color-stop-length> | <color-stop-angle>"
@@ -250,6 +253,9 @@
   },
   "cubic-bezier-timing-function": {
     "syntax": "ease | ease-in | ease-out | ease-in-out | cubic-bezier(<number [0,1]>, <number>, <number [0,1]>, <number>)"
+  },
+  "custom-color-space": {
+    "syntax": "<dashed-ident>"
   },
   "custom-params": {
     "syntax": "<dashed-ident> [ <number> | <percentage> | none ]+"
