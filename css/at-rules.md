@@ -27,7 +27,7 @@ The 3 properties seen above are all required:
 
 There are 3 more properties that are optional:
 * `mdn_url` (string): a URL linking to the at-rule's page on MDN. This URL must omit the localization part of the URL (such as `en-US/`).
-* `interfaces` (array of strings): These are the [CSSOM](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model) interfaces that belong to the at-rule.
+* `interfaces` (array of strings): These are the [CSSOM](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model) interfaces that belong to the at-rule. Note that inherited interfaces like `CSSGroupingRule` or `CSSConditionRule` should not be included.
 * `descriptors` (object): see below
 
 ## Structure for at-rules with descriptors
