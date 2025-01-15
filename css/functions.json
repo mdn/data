@@ -120,12 +120,20 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/clamp"
   },
   "color()": {
-    "syntax": "color( [from <color>]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )",
+    "syntax": "color( [ from <color> ]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )",
     "groups": [
       "CSS Color"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/color"
+  },
+  "color-mix()": {
+    "syntax": "color-mix( <color-interpolation-method> , [ <color> && <percentage [0,100]>? ]#{2})",
+    "groups": [
+      "CSS Color"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/color-mix"
   },
   "conic-gradient()": {
     "syntax": "conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )",
