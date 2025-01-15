@@ -99,10 +99,10 @@
     "syntax": "normal | multiply | screen | overlay | darken | lighten | color-dodge | color-burn | hard-light | soft-light | difference | exclusion | hue | saturation | color | luminosity"
   },
   "blur()": {
-    "syntax": "blur( <length> )"
+    "syntax": "blur( <length>? )"
   },
   "brightness()": {
-    "syntax": "brightness( <number-percentage> )"
+    "syntax": "brightness( [ <number> | <percentage> ]? )"
   },
   "calc()": {
     "syntax": "calc( <calc-sum> )"
@@ -150,7 +150,10 @@
     "syntax": "color( [from <color>]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
   },
   "color-interpolation-method": {
-    "syntax": "in [ <rectangular-color-space> | <polar-color-space> <hue-interpolation-method>? ]"
+    "syntax": "in [ <rectangular-color-space> | <polar-color-space> <hue-interpolation-method>? | <custom-color-space> ]"
+  },
+  "color-mix()": {
+    "syntax": "color-mix( <color-interpolation-method> , [ <color> && <percentage [0,100]>? ]#{2})"
   },
   "color-stop": {
     "syntax": "<color-stop-length> | <color-stop-angle>"
@@ -213,7 +216,7 @@
     "syntax": "[ contextual | no-contextual ]"
   },
   "contrast()": {
-    "syntax": "contrast( [ <number-percentage> ] )"
+    "syntax": "contrast( [ <number> | <percentage> ]? )"
   },
   "coord-box": {
     "syntax": "<paint-box> | view-box"
@@ -244,6 +247,9 @@
   },
   "cubic-bezier-timing-function": {
     "syntax": "ease | ease-in | ease-out | ease-in-out | cubic-bezier(<number [0,1]>, <number>, <number [0,1]>, <number>)"
+  },
+  "custom-color-space": {
+    "syntax": "<dashed-ident>"
   },
   "custom-params": {
     "syntax": "<dashed-ident> [ <number> | <percentage> | none ]+"
@@ -276,7 +282,7 @@
     "syntax": "block | inline | run-in"
   },
   "drop-shadow()": {
-    "syntax": "drop-shadow( <length>{2,3} <color>? )"
+    "syntax": "drop-shadow( [ <color>? && <length>{2,3} ] )"
   },
   "easing-function": {
     "syntax": "linear | <cubic-bezier-timing-function> | <step-timing-function>"
@@ -381,7 +387,7 @@
     "syntax": "<linear-gradient()> | <repeating-linear-gradient()> | <radial-gradient()> | <repeating-radial-gradient()> | <conic-gradient()> | <repeating-conic-gradient()>"
   },
   "grayscale()": {
-    "syntax": "grayscale( <number-percentage> )"
+    "syntax": "grayscale( [ <number> | <percentage> ]? )"
   },
   "grid-line": {
     "syntax": "auto | <custom-ident> | [ <integer> && <custom-ident>? ] | [ span && [ <integer> || <custom-ident> ] ]"
@@ -402,7 +408,7 @@
     "syntax": "[ shorter | longer | increasing | decreasing ] hue"
   },
   "hue-rotate()": {
-    "syntax": "hue-rotate( <angle> )"
+    "syntax": "hue-rotate( [ <angle> | <zero> ]? )"
   },
   "hwb()": {
     "syntax": "hwb( [<hue> | none] [<percentage> | none] [<percentage> | none] [ / [<alpha-value> | none] ]? )"
@@ -438,7 +444,7 @@
     "syntax": "inset( <length-percentage>{1,4} [ round <'border-radius'> ]? )"
   },
   "invert()": {
-    "syntax": "invert( <number-percentage> )"
+    "syntax": "invert( [ <number> | <percentage> ]? )"
   },
   "keyframe-block": {
     "syntax": "<keyframe-selector># {\n  <declaration-list>\n}"
@@ -615,7 +621,7 @@
     "syntax": "oklch( [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ <hue> | none] [ / [<alpha-value> | none] ]? )"
   },
   "opacity()": {
-    "syntax": "opacity( [ <number-percentage> ] )"
+    "syntax": "opacity( [ <number> | <percentage> ]? )"
   },
   "opacity-value": {
     "syntax": "<number> | <percentage>"
@@ -771,7 +777,7 @@
     "syntax": "nearest | up | down | to-zero"
   },
   "saturate()": {
-    "syntax": "saturate( <number-percentage> )"
+    "syntax": "saturate( [ <number> | <percentage> ]? )"
   },
   "scale()": {
     "syntax": "scale( [ <number> | <percentage> ]#{1,2} )"
@@ -807,7 +813,7 @@
     "syntax": "center | start | end | self-start | self-end | flex-start | flex-end"
   },
   "sepia()": {
-    "syntax": "sepia( <number-percentage> )"
+    "syntax": "sepia( [ <number> | <percentage> ]? )"
   },
   "shadow": {
     "syntax": "inset? && <length>{2,4} && <color>?"
