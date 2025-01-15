@@ -6,7 +6,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Variables"
+      "CSS Custom Properties for Cascading Variables"
     ],
     "initial": "seeProse",
     "appliesto": "allElements",

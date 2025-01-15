@@ -805,7 +805,7 @@
   "var()": {
     "syntax": "var( <custom-property-name> , <declaration-value>? )",
     "groups": [
-      "CSS Variables"
+      "CSS Custom Properties for Cascading Variables"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/var"
