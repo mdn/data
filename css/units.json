@@ -1,70 +1,61 @@
 {
   "cap": {
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "ch": {
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "cm": {
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "deg": {
     "groups": [
-      "CSS Units",
-      "CSS Angles"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "dpcm": {
     "groups": [
-      "CSS Units",
-      "CSS Resolutions"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "dpi": {
     "groups": [
-      "CSS Units",
-      "CSS Resolutions"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "dppx": {
     "groups": [
-      "CSS Units",
-      "CSS Resolutions"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "em": {
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "ex": {
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "fr": {
     "groups": [
-      "CSS Units",
+      "CSS Values and Units",
       "CSS Flexible Lengths",
       "CSS Grid Layout"
     ],
@@ -72,141 +63,121 @@
   },
   "grad": {
     "groups": [
-      "CSS Units",
-      "CSS Angles"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "Hz": {
     "groups": [
-      "CSS Units",
-      "CSS Frequencies"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "ic": {
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "in": {
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "kHz": {
     "groups": [
-      "CSS Units",
-      "CSS Frequencies"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "mm": {
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "ms": {
     "groups": [
-      "CSS Units",
-      "CSS Times"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "pc": {
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "pt": {
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "px": {
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "Q": {
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "rad": {
     "groups": [
-      "CSS Units",
-      "CSS Angles"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "rem": {
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "s": {
     "groups": [
-      "CSS Units",
-      "CSS Times"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "turn": {
     "groups": [
-      "CSS Units",
-      "CSS Angles"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "vh": {
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "vmax": {
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "vmin": {
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "vw": {
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard"
   },
   "x": {
     "groups": [
-      "CSS Units",
-      "CSS Resolutions"
+      "CSS Values and Units"
     ],
     "status": "standard"
   }
