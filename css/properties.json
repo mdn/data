@@ -6119,21 +6119,6 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inline-size"
   },
-  "input-security": {
-    "syntax": "auto | none",
-    "media": "interactive",
-    "inherited": false,
-    "animationType": "byComputedValueType",
-    "percentages": "no",
-    "groups": [
-      "CSS Basic User Interface"
-    ],
-    "initial": "auto",
-    "appliesto": "sensitiveTextInputs",
-    "computed": "asSpecified",
-    "order": "perGrammar",
-    "status": "standard"
-  },
   "inset": {
     "syntax": "<'top'>{1,4}",
     "media": "visual",
