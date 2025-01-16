@@ -197,7 +197,7 @@
   "element()": {
     "syntax": "element( <id-selector> )",
     "groups": [
-      "CSS Miscellaneous"
+      "CSS Images"
     ],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/element"
@@ -343,9 +343,9 @@
   "leader()": {
     "syntax": "leader( <leader-type> )",
     "groups": [
-      "CSS Miscellaneous"
+      "CSS Generated Content"
     ],
-    "status": "nonstandard"
+    "status": "standard"
   },
   "light-dark()": {
     "syntax": "light-dark( <color>, <color> )",
@@ -758,9 +758,9 @@
   "target-text()": {
     "syntax": "target-text( [ <string> | <url> ] , [ content | before | after | first-letter ]? )",
     "groups": [
-      "CSS Miscellaneous"
+      "CSS Generated Content"
     ],
-    "status": "nonstandard"
+    "status": "standard"
   },
   "translate()": {
     "syntax": "translate( <length-percentage> , <length-percentage>? )",
@@ -805,7 +805,7 @@
   "var()": {
     "syntax": "var( <custom-property-name> , <declaration-value>? )",
     "groups": [
-      "CSS Miscellaneous"
+      "CSS Custom Properties for Cascading Variables"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/var"
