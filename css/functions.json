@@ -244,7 +244,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/grayscale"
   },
   "hsl()": {
-    "syntax": "hsl( <hue> <percentage> <percentage> [ / <alpha-value> ]? ) | hsl( <hue>, <percentage>, <percentage>, <alpha-value>? )",
+    "syntax": "hsl( [ <hue> | none ] [ <percentage> | <number> | none ] [ <percentage> | <number> | none ] [ / [ <alpha-value> | none ] ]? ) | hsl( <hue>, <percentage>, <percentage>, <alpha-value>? )",
     "groups": [
       "CSS Color"
     ],
@@ -252,7 +252,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/hsl"
   },
   "hsla()": {
-    "syntax": "hsla( <hue> <percentage> <percentage> [ / <alpha-value> ]? ) | hsla( <hue>, <percentage>, <percentage>, <alpha-value>? )",
+    "syntax": "hsla( [ <hue> | none ] [ <percentage> | <number> | none ] [ <percentage> | <number> | none ] [ / [ <alpha-value> | none ] ]? ) | hsla( <hue>, <percentage>, <percentage>, <alpha-value>? )",
     "groups": [
       "CSS Color"
     ],
@@ -268,7 +268,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/hue-rotate"
   },
   "hwb()": {
-    "syntax": "hwb( [<hue> | none] [<percentage> | none] [<percentage> | none] [ / [<alpha-value> | none] ]? )",
+    "syntax": "hwb( [ <hue> | none ] [ <percentage> | <number> | none ] [ <percentage> | <number> | none ] [ / [ <alpha-value> | none ] ]? )",
     "groups": [
       "CSS Color"
     ],
@@ -553,7 +553,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-radial-gradient"
   },
   "rgb()": {
-    "syntax": "rgb( <percentage>{3} [ / <alpha-value> ]? ) | rgb( <number>{3} [ / <alpha-value> ]? ) | rgb( <percentage>#{3} , <alpha-value>? ) | rgb( <number>#{3} , <alpha-value>? )",
+    "syntax": "rgb( [ <number> | <percentage> | none ]{3} [ / [ <alpha-value> | none ] ]?  ) | rgb( <percentage>#{3} , <alpha-value>? ) | rgb( <number>#{3} , <alpha-value>? )",
     "groups": [
       "CSS Color"
     ],
@@ -561,7 +561,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/rgb"
   },
   "rgba()": {
-    "syntax": "rgba( <percentage>{3} [ / <alpha-value> ]? ) | rgba( <number>{3} [ / <alpha-value> ]? ) | rgba( <percentage>#{3} , <alpha-value>? ) | rgba( <number>#{3} , <alpha-value>? )",
+    "syntax": "rgba( [ <number> | <percentage> | none ]{3} [ / [ <alpha-value> | none ] ]?  ) | rgba( <percentage>#{3} , <alpha-value>? ) | rgba( <number>#{3} , <alpha-value>? )",
     "groups": [
       "CSS Color"
     ],
