@@ -161,7 +161,7 @@
         "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/descent-override"
       },
       "font-display": {
-        "syntax": "[ auto | block | swap | fallback | optional ]",
+        "syntax": "auto | block | swap | fallback | optional",
         "media": "visual",
         "percentages": "no",
         "initial": "auto",
