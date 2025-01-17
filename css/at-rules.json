@@ -334,6 +334,7 @@
       "CSSImportRule"
     ],
     "groups": [
+      "CSS Cascading and Inheritance",
       "CSS Conditional Rules",
       "Media Queries"
     ],
