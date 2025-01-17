@@ -4494,7 +4494,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Counter Styles"
+      "CSS Lists and Counters"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -4510,7 +4510,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Counter Styles"
+      "CSS Lists and Counters"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -4526,7 +4526,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Counter Styles"
+      "CSS Lists and Counters"
     ],
     "initial": "none",
     "appliesto": "allElements",
