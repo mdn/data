@@ -466,7 +466,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-palette/palette-mix"
   },
   "path()": {
-    "syntax": "path( [ <fill-rule>, ]? <string> )",
+    "syntax": "path( <'fill-rule'>? , <string> )",
     "groups": [
       "CSS Shapes",
       "CSS Motion Path"
@@ -483,7 +483,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/perspective"
   },
   "polygon()": {
-    "syntax": "polygon( <fill-rule>? , [ <length-percentage> <length-percentage> ]# )",
+    "syntax": "polygon( <'fill-rule'>? , [ <length-percentage> <length-percentage> ]# )",
     "groups": [
       "CSS Shapes"
     ],
