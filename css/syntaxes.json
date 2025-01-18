@@ -146,14 +146,14 @@
   "color": {
     "syntax": "<color-base> | currentColor | <system-color> | <light-dark()> | <deprecated-system-color>"
   },
+  "color()": {
+    "syntax": "color( [from <color>]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
+  },
   "color-base": {
     "syntax": "<hex-color> | <color-function> | <named-color> | <color-mix()> | transparent"
   },
   "color-function": {
     "syntax": "<rgb()> | <rgba()> | <hsl()> | <hsla()> | <hwb()> | <lab()> | <lch()> | <oklab()> | <oklch()> | <color()>"
-  },
-  "color()": {
-    "syntax": "color( [from <color>]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
   },
   "color-interpolation-method": {
     "syntax": "in [ <rectangular-color-space> | <polar-color-space> <hue-interpolation-method>? | <custom-color-space> ]"
