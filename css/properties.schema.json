@@ -47,6 +47,7 @@
     "percentages": {
       "enum": [
         "blockSizeOfContainingBlock",
+        "convertedToNumber",
         "dependsOnLayoutModel",
         "inlineSizeOfContainingBlock",
         "lengthsAsPercentages",
@@ -126,6 +127,7 @@
         "asSpecified",
         "asSpecifiedAppliesToEachProperty",
         "asSpecifiedButVisibleOrClipReplacedToAutoOrHiddenIfOtherValueDifferent",
+        "asSpecifiedButWithPercentageConvertedToTheEquivalentNumber",
         "asSpecifiedExceptMatchParent",
         "asSpecifiedExceptPositionedFloatingAndRootElementsKeywordMaybeDifferent",
         "asSpecifiedRelativeToAbsoluteLengths",
