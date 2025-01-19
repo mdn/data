@@ -180,7 +180,6 @@
   "cross-fade()": {
     "syntax": "cross-fade( <cf-mixing-image> , <cf-final-image>? )",
     "groups": [
-      "Filter Effects",
       "CSS Color"
     ],
     "status": "standard",
