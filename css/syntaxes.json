@@ -911,6 +911,12 @@
   "symbol": {
     "syntax": "<string> | <image> | <custom-ident>"
   },
+  "symbols()": {
+    "syntax": "symbols( <symbols-type>? [ <string> | <image> ]+ )"
+  },
+  "symbols-type": {
+    "syntax": "cyclic | numeric | alphabetic | symbolic | fixed"
+  },
   "system-color": {
     "syntax": "AccentColor | AccentColorText | ActiveText | ButtonBorder | ButtonFace | ButtonText | Canvas | CanvasText | Field | FieldText | GrayText | Highlight | HighlightText | LinkText | Mark | MarkText | SelectedItem | SelectedItemText | VisitedText"
   },
