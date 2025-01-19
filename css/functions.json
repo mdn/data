@@ -732,6 +732,14 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/sqrt"
   },
+  "symbols()": {
+    "syntax": "symbols( <symbols-type>? [ <string> | <image> ]+ )",
+    "groups": [
+      "CSS Counter Styles"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/symbols"
+  },
   "tan()": {
     "syntax": "tan( <calc-sum> )",
     "groups": [
