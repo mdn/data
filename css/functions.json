@@ -468,8 +468,7 @@
   "path()": {
     "syntax": "path( [ <fill-rule>, ]? <string> )",
     "groups": [
-      "CSS Shapes",
-      "CSS Motion Path"
+      "CSS Shapes"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/path"
@@ -511,7 +510,7 @@
   "ray()": {
     "syntax": "ray( <angle> && <ray-size>? && contain? && [at <position>]? )",
     "groups": [
-      "CSS Motion Path"
+      "Motion Path"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ray"
