@@ -206,6 +206,39 @@
   "conic-gradient()": {
     "syntax": "conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )"
   },
+  "container-name": {
+    "syntax": "<custom-ident>"
+  },
+  "container-query": {
+    "syntax": "not <query-in-parens> | <query-in-parens> [ [ and <query-in-parens> ]* | [ or <query-in-parens> ]* ]"
+  },
+  "query-in-parens": {
+    "syntax": "( <container-query> ) | ( <size-feature> ) | style( <style-query> ) | scroll-state( <scroll-state-query> ) | <general-enclosed>"
+  },
+  "style-query": {
+    "syntax": "not <style-in-parens> | <style-in-parens> [ [ and <style-in-parens> ]* | [ or <style-in-parens> ]* ] | <style-feature> "
+  },
+  "style-in-parens": {
+    "syntax": "( <style-query> ) | ( <style-feature> ) | <general-enclosed>"
+  },
+  "scroll-state-query": {
+    "syntax": "not <scroll-state-in-parens> | <scroll-state-in-parens> [ [ and <scroll-state-in-parens> ]* | [ or <scroll-state-in-parens> ]* ] | <scroll-state-feature>  "
+  },
+  "scroll-state-in-parens": {
+    "syntax": "( <scroll-state-query> ) | ( <scroll-state-feature> ) | <general-enclosed>"
+  },
+  "scroll-state-feature": {
+    "syntax": "<media-feature>"
+  },
+  "size-feature": {
+    "syntax": "<media-feature>"
+  },
+  "style-feature": {
+    "syntax": "<declaration>: <declaration-value> | <custom-property-name>: <declaration-value>"
+  },
+  "container-condition": {
+    "syntax": "[ <container-name>? <container-query>? ]!"
+  },
   "content-distribution": {
     "syntax": "space-between | space-around | space-evenly | stretch"
   },
