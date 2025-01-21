@@ -554,6 +554,15 @@
         "computed": "asSpecified",
         "order": "uniqueOrder",
         "status": "standard"
+      },
+      "types": {
+        "syntax": "none | <custom-ident>+",
+        "media": "all",
+        "initial": "none",
+        "percentages": "no",
+        "computed": "asSpecified",
+        "order": "uniqueOrder",
+        "status": "standard"
       }
     },
     "status": "standard",
