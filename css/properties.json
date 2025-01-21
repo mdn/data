@@ -9425,6 +9425,21 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape-rendering"
   },
+  "speak-as": {
+    "syntax": "normal | spell-out || digits || [ literal-punctuation | no-punctuation ]",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Speech"
+    ],
+    "initial": "auto",
+    "appliesto": "allElements",
+    "computed": "specifiedValue",
+    "order": "perGrammar",
+    "status": "experimental"
+  },
   "stop-color": {
     "syntax": "<'color'>",
     "media": "visual",
