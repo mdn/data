@@ -496,7 +496,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:not"
   },
   ":nth-child()": {
-    "syntax": ":nth-child( <nth> [ of <complex-selector-list> ]? )",
+    "syntax": ":nth-child( <an+b> [ of <complex-selector-list> ]? )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
@@ -505,7 +505,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-child"
   },
   ":nth-last-child()": {
-    "syntax": ":nth-last-child( <nth> [ of <complex-selector-list> ]? )",
+    "syntax": ":nth-last-child( <an+b> [ of <complex-selector-list> ]? )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
@@ -514,7 +514,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-last-child"
   },
   ":nth-last-of-type()": {
-    "syntax": ":nth-last-of-type( <nth> )",
+    "syntax": ":nth-last-of-type( <an+b> )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
@@ -523,7 +523,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-last-of-type"
   },
   ":nth-of-type()": {
-    "syntax": ":nth-of-type( <nth> )",
+    "syntax": ":nth-of-type( <an+b> )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
