@@ -334,8 +334,7 @@
       "CSSImportRule"
     ],
     "groups": [
-      "CSS Conditional Rules",
-      "Media Queries"
+      "CSS Cascading and Inheritance"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@import"
