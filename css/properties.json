@@ -10045,7 +10045,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Basic User Interface"
+      "CSS Overflow"
     ],
     "initial": "clip",
     "appliesto": "blockContainerElements",
