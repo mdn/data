@@ -230,7 +230,7 @@
   "fit-content()": {
     "syntax": "fit-content( <length-percentage [0,∞]> )",
     "groups": [
-      "CSS Box Sizing"
+      "CSS Grid Layout"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fit-content_function"
