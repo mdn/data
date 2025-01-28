@@ -3864,7 +3864,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Box Sizing"
     ],
     "initial": "content-box",
     "appliesto": "allElementsAcceptingWidthOrHeight",
@@ -4256,6 +4256,7 @@
     "animationType": "length",
     "percentages": "no",
     "groups": [
+      "CSS Box Sizing",
       "CSS Columns"
     ],
     "initial": "auto",
@@ -5952,7 +5953,7 @@
     "animationType": "lpc",
     "percentages": "regardingHeightOfGeneratedBoxContainingBlockPercentagesRelativeToContainingBlock",
     "groups": [
-      "CSS Box Model"
+      "CSS Box Sizing"
     ],
     "initial": "auto",
     "appliesto": "allElementsButNonReplacedAndTableColumns",
@@ -7258,7 +7259,7 @@
     "animationType": "lpc",
     "percentages": "regardingHeightOfGeneratedBoxContainingBlockPercentagesNone",
     "groups": [
-      "CSS Box Model"
+      "CSS Box Sizing"
     ],
     "initial": "none",
     "appliesto": "allElementsButNonReplacedAndTableColumns",
@@ -7305,7 +7306,7 @@
     "animationType": "lpc",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
-      "CSS Box Model"
+      "CSS Box Sizing"
     ],
     "initial": "none",
     "appliesto": "allElementsButNonReplacedAndTableRows",
@@ -7337,7 +7338,7 @@
     "animationType": "lpc",
     "percentages": "regardingHeightOfGeneratedBoxContainingBlockPercentages0",
     "groups": [
-      "CSS Box Model"
+      "CSS Box Sizing"
     ],
     "initial": "auto",
     "appliesto": "allElementsButNonReplacedAndTableColumns",
@@ -7369,7 +7370,7 @@
     "animationType": "lpc",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
-      "CSS Box Model"
+      "CSS Box Sizing"
     ],
     "initial": "auto",
     "appliesto": "allElementsButNonReplacedAndTableRows",
@@ -10703,7 +10704,7 @@
     "animationType": "lpc",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
-      "CSS Box Model"
+      "CSS Box Sizing"
     ],
     "initial": "auto",
     "appliesto": "allElementsButNonReplacedAndTableRows",
