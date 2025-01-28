@@ -230,6 +230,7 @@
   "fit-content()": {
     "syntax": "fit-content( <length-percentage [0,∞]> )",
     "groups": [
+      "CSS Box Sizing",
       "CSS Grid Layout"
     ],
     "status": "standard",
