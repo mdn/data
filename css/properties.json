@@ -7879,7 +7879,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Overscroll Behavior"
     ],
     "initial": "auto",
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
@@ -7898,7 +7898,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Overscroll Behavior"
     ],
     "initial": "auto",
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
@@ -7914,7 +7914,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Overscroll Behavior"
     ],
     "initial": "auto",
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
@@ -7930,7 +7930,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Overscroll Behavior"
     ],
     "initial": "auto",
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
@@ -7946,7 +7946,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Overscroll Behavior"
     ],
     "initial": "auto",
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
