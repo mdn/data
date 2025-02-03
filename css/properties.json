@@ -8181,7 +8181,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Pages"
+      "CSS Paged Media"
     ],
     "initial": "auto",
     "appliesto": "blockElementsInNormalFlow",
@@ -8200,7 +8200,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Pages"
+      "CSS Paged Media"
     ],
     "initial": "auto",
     "appliesto": "blockElementsInNormalFlow",
@@ -8219,7 +8219,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Pages"
+      "CSS Paged Media"
     ],
     "initial": "auto",
     "appliesto": "blockElementsInNormalFlow",
@@ -8238,7 +8238,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Pages"
+      "CSS Paged Media"
     ],
     "initial": "auto",
     "appliesto": "blockElementsInNormalFlow",
