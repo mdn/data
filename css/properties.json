@@ -4119,7 +4119,7 @@
     "animationType": "integer",
     "percentages": "no",
     "groups": [
-      "CSS Columns"
+      "CSS Multi-column Layout"
     ],
     "initial": "auto",
     "appliesto": "blockContainersExceptTableWrappers",
@@ -4135,7 +4135,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Columns"
+      "CSS Multi-column Layout"
     ],
     "initial": "balance",
     "appliesto": "multicolElements",
@@ -4151,7 +4151,8 @@
     "animationType": "lpc",
     "percentages": "referToDimensionOfContentArea",
     "groups": [
-      "CSS Box Alignment"
+      "CSS Box Alignment",
+      "CSS Multi-column Layout"
     ],
     "initial": "normal",
     "appliesto": "multiColumnElementsFlexContainersGridContainers",
@@ -4171,7 +4172,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Columns"
+      "CSS Multi-column Layout"
     ],
     "initial": [
       "column-rule-width",
@@ -4195,7 +4196,7 @@
     "animationType": "color",
     "percentages": "no",
     "groups": [
-      "CSS Columns"
+      "CSS Multi-column Layout"
     ],
     "initial": "currentcolor",
     "appliesto": "multicolElements",
@@ -4211,7 +4212,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Columns"
+      "CSS Multi-column Layout"
     ],
     "initial": "none",
     "appliesto": "multicolElements",
@@ -4227,7 +4228,7 @@
     "animationType": "length",
     "percentages": "no",
     "groups": [
-      "CSS Columns"
+      "CSS Multi-column Layout"
     ],
     "initial": "medium",
     "appliesto": "multicolElements",
@@ -4243,7 +4244,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Columns"
+      "CSS Multi-column Layout"
     ],
     "initial": "none",
     "appliesto": "inFlowBlockLevelElements",
@@ -4260,7 +4261,7 @@
     "percentages": "no",
     "groups": [
       "CSS Box Sizing",
-      "CSS Columns"
+      "CSS Multi-column Layout"
     ],
     "initial": "auto",
     "appliesto": "blockContainersExceptTableWrappers",
@@ -4279,7 +4280,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Columns"
+      "CSS Multi-column Layout"
     ],
     "initial": [
       "column-width",
