@@ -1719,6 +1719,9 @@
     "ja": "指定された整数値または絶対的な長さ",
     "ru": "указанное целое число или абсолютная длина"
   },
+  "specifiedValue": {
+    "en-US": "specified value"
+  },
   "specifiedValueClipped0To1": {
     "de": "der angegebene Wert, auf den Bereich <code>[0,1]</code> abgeschnitten",
     "en-US": "the specified value, clipped in the range <code>[0,1]</code>",

@@ -2,7 +2,7 @@
   "@charset": {
     "syntax": "@charset \"<charset>\";",
     "groups": [
-      "CSS Charsets"
+      "CSS Syntax"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@charset"
@@ -123,8 +123,7 @@
   "@document": {
     "syntax": "@document [ <url> | url-prefix(<string>) | domain(<string>) | media-document(<string>) | regexp(<string>) ]# {\n  <group-rule-body>\n}",
     "interfaces": [
-      "CSSGroupingRule",
-      "CSSConditionRule"
+      "CSSDocumentRule"
     ],
     "groups": [
       "CSS Conditional Rules"
@@ -288,6 +287,9 @@
   },
   "@font-palette-values": {
     "syntax": "@font-palette-values <dashed-ident> {\n  <declaration-list>\n}",
+    "interfaces": [
+      "CSSFontPaletteValuesRule"
+    ],
     "groups": [
       "CSS Fonts"
     ],
@@ -328,6 +330,9 @@
   },
   "@import": {
     "syntax": "@import [ <string> | <url> ]\n        [ layer | layer(<layer-name>) ]?\n        [ supports( [ <supports-condition> | <declaration> ] ) ]?\n        <media-query-list>? ;",
+    "interfaces": [
+      "CSSImportRule"
+    ],
     "groups": [
       "CSS Conditional Rules",
       "Media Queries"
@@ -362,10 +367,7 @@
   "@media": {
     "syntax": "@media <media-query-list> {\n  <group-rule-body>\n}",
     "interfaces": [
-      "CSSGroupingRule",
-      "CSSConditionRule",
-      "CSSMediaRule",
-      "CSSCustomMediaRule"
+      "CSSMediaRule"
     ],
     "groups": [
       "CSS Conditional Rules",
@@ -376,6 +378,9 @@
   },
   "@namespace": {
     "syntax": "@namespace <namespace-prefix>? [ <string> | <url> ];",
+    "interfaces": [
+      "CSSNamespaceRule"
+    ],
     "groups": [
       "CSS Namespaces"
     ],
@@ -388,7 +393,7 @@
       "CSSPageRule"
     ],
     "groups": [
-      "CSS Pages"
+      "CSS Paged Media"
     ],
     "descriptors": {
       "bleed": {
@@ -459,7 +464,6 @@
   "@property": {
     "syntax": "@property <custom-property-name> {\n  <declaration-list>\n}",
     "interfaces": [
-      "CSS",
       "CSSPropertyRule"
     ],
     "groups": [
@@ -502,6 +506,9 @@
   },
   "@scope": {
     "syntax": "@scope [(<scope-start>)]? [to (<scope-end>)]? {\n  <rule-list>\n}",
+    "interfaces": [
+      "CSSScopeRule"
+    ],
     "groups": [
       "CSS Conditional Rules"
     ],
@@ -522,8 +529,6 @@
   "@supports": {
     "syntax": "@supports <supports-condition> {\n  <group-rule-body>\n}",
     "interfaces": [
-      "CSSGroupingRule",
-      "CSSConditionRule",
       "CSSSupportsRule"
     ],
     "groups": [
@@ -543,6 +548,15 @@
     "descriptors": {
       "navigation": {
         "syntax": "auto | none",
+        "media": "all",
+        "initial": "none",
+        "percentages": "no",
+        "computed": "asSpecified",
+        "order": "uniqueOrder",
+        "status": "standard"
+      },
+      "types": {
+        "syntax": "none | <custom-ident>+",
         "media": "all",
         "initial": "none",
         "percentages": "no",
