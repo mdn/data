@@ -20,7 +20,7 @@
   "anchor()": {
     "syntax": "anchor( <anchor-name>? && <anchor-side>, <length-percentage>? )",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/anchor"
@@ -28,7 +28,7 @@
   "anchor-size()": {
     "syntax": "anchor-size( [ <anchor-name> || <anchor-size> ]? , <length-percentage>? )",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/anchor-size"

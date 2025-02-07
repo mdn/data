@@ -1743,7 +1743,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": "none",
     "appliesto": "allElementsThatGenerateAPrincipalBox",
@@ -1759,7 +1759,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -8402,7 +8402,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": "auto",
     "appliesto": "absolutelyPositionedElements",
@@ -8418,7 +8418,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": "none",
     "appliesto": "positionedElementsWithADefaultAnchorElement",
@@ -8440,7 +8440,7 @@
       "position-try-order"
     ],
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": [
       "position-try-fallbacks",
@@ -8462,7 +8462,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": "none",
     "appliesto": "absolutelyPositionedElements",
@@ -8478,7 +8478,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": "normal",
     "appliesto": "absolutelyPositionedElements",
@@ -8494,7 +8494,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": "anchors-visible",
     "appliesto": "absolutelyPositionedElements",
