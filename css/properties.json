@@ -4050,7 +4050,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "Scalable Vector Graphics"
+      "CSS Masking"
     ],
     "initial": "nonzero",
     "appliesto": "limitedSVGElementsGraphics",
