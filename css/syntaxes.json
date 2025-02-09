@@ -132,7 +132,7 @@
     "syntax": "<percentage>? && <image>"
   },
   "circle()": {
-    "syntax": "circle( [ <shape-radius> ]? [ at <position> ]? )"
+    "syntax": "circle( <radial-size>? [ at <position> ]? )"
   },
   "clamp()": {
     "syntax": "clamp( <calc-sum>#{3} )"
@@ -303,7 +303,7 @@
     "syntax": "element( <id-selector> )"
   },
   "ellipse()": {
-    "syntax": "ellipse( [ <shape-radius>{2} ]? [ at <position> ]? )"
+    "syntax": "ellipse( <radial-size>? [ at <position> ]? )"
   },
   "ending-shape": {
     "syntax": "circle | ellipse"
@@ -710,8 +710,14 @@
   "quote": {
     "syntax": "open-quote | close-quote | no-open-quote | no-close-quote"
   },
+  "radial-extent": {
+    "syntax": "closest-corner | closest-side | farthest-corner | farthest-side"
+  },
   "radial-gradient()": {
     "syntax": "radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )"
+  },
+  "radial-size": {
+    "syntax": "<radial-extent> | <length [0,∞]> | <length-percentage [0,∞]>{2}"
   },
   "ratio": {
     "syntax": "<number [0,∞]> [ / <number [0,∞]> ]?"
@@ -829,9 +835,6 @@
   },
   "shape-box": {
     "syntax": "<visual-box> | margin-box"
-  },
-  "shape-radius": {
-    "syntax": "<length-percentage> | closest-side | farthest-side"
   },
   "side-or-corner": {
     "syntax": "[ left | right ] || [ top | bottom ]"
