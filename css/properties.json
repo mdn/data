@@ -9422,7 +9422,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Shapes"
+      "Scalable Vector Graphics"
     ],
     "initial": "auto",
     "appliesto": "limitedSVGElementsShapes",
