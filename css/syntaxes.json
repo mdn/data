@@ -734,6 +734,9 @@
   "relative-size": {
     "syntax": "larger | smaller"
   },
+  "rect()": {
+    "syntax": "rect( [ <length-percentage> | auto ]{4} [ round <'border-radius'> ]? )"
+  },
   "rem()": {
     "syntax": "rem( <calc-sum>, <calc-sum> )"
   },
@@ -1000,6 +1003,9 @@
   },
   "wq-name": {
     "syntax": "<ns-prefix>? <ident-token>"
+  },
+  "xywh()": {
+    "syntax": "xywh( <length-percentage>{2} <length-percentage [0,∞]>{2} [ round <'border-radius'> ]? )"
   },
   "xyz": {
     "syntax": "xyz | xyz-d50 | xyz-d65"
