@@ -2375,7 +2375,7 @@
     "animationType": "lpc",
     "percentages": "blockSizeOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "auto",
     "appliesto": "sameAsWidthAndHeight",
@@ -2426,7 +2426,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "border-block-width",
@@ -2450,7 +2450,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
@@ -2470,7 +2470,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "border-top-width",
@@ -2494,7 +2494,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
@@ -2510,7 +2510,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -2526,7 +2526,7 @@
     "animationType": "byComputedValueType",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "medium",
     "appliesto": "allElements",
@@ -2546,7 +2546,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "border-width",
@@ -2570,7 +2570,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
@@ -2586,7 +2586,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -2602,7 +2602,7 @@
     "animationType": "byComputedValueType",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "medium",
     "appliesto": "allElements",
@@ -2618,7 +2618,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -2634,7 +2634,7 @@
     "animationType": "byComputedValueType",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "medium",
     "appliesto": "allElements",
@@ -2826,7 +2826,7 @@
     "animationType": "lpc",
     "percentages": "referToDimensionOfBorderBox",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "allElementsUAsNotRequiredWhenCollapse",
@@ -2845,7 +2845,7 @@
     "animationType": "lpc",
     "percentages": "referToDimensionOfBorderBox",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "allElementsUAsNotRequiredWhenCollapse",
@@ -3003,7 +3003,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "border-inline-width",
@@ -3027,7 +3027,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
@@ -3047,7 +3047,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "border-width",
@@ -3071,7 +3071,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
@@ -3087,7 +3087,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -3103,7 +3103,7 @@
     "animationType": "byComputedValueType",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "medium",
     "appliesto": "allElements",
@@ -3123,7 +3123,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "border-width",
@@ -3147,7 +3147,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
@@ -3163,7 +3163,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -3179,7 +3179,7 @@
     "animationType": "byComputedValueType",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "medium",
     "appliesto": "allElements",
@@ -3195,7 +3195,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -3211,7 +3211,7 @@
     "animationType": "byComputedValueType",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "medium",
     "appliesto": "allElements",
@@ -3453,7 +3453,7 @@
     "animationType": "lpc",
     "percentages": "referToDimensionOfBorderBox",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "allElementsUAsNotRequiredWhenCollapse",
@@ -3472,7 +3472,7 @@
     "animationType": "lpc",
     "percentages": "referToDimensionOfBorderBox",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "allElementsUAsNotRequiredWhenCollapse",
@@ -6115,7 +6115,7 @@
     "animationType": "lpc",
     "percentages": "inlineSizeOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "auto",
     "appliesto": "sameAsWidthAndHeight",
@@ -6131,7 +6131,7 @@
     "animationType": "lpc",
     "percentages": "logicalHeightOrWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "top",
@@ -6157,7 +6157,7 @@
     "animationType": "lpc",
     "percentages": "logicalHeightOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "inset-block-start",
@@ -6179,7 +6179,7 @@
     "animationType": "lpc",
     "percentages": "logicalHeightOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -6195,7 +6195,7 @@
     "animationType": "lpc",
     "percentages": "logicalHeightOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -6211,7 +6211,7 @@
     "animationType": "lpc",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "inset-inline-start",
@@ -6233,7 +6233,7 @@
     "animationType": "lpc",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -6249,7 +6249,7 @@
     "animationType": "lpc",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -6586,7 +6586,7 @@
     "animationType": "length",
     "percentages": "dependsOnLayoutModel",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "margin-block-start",
@@ -6608,7 +6608,7 @@
     "animationType": "length",
     "percentages": "dependsOnLayoutModel",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "sameAsMargin",
@@ -6624,7 +6624,7 @@
     "animationType": "length",
     "percentages": "dependsOnLayoutModel",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "sameAsMargin",
@@ -6659,7 +6659,7 @@
     "animationType": "length",
     "percentages": "dependsOnLayoutModel",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "margin-inline-start",
@@ -6681,7 +6681,7 @@
     "animationType": "length",
     "percentages": "dependsOnLayoutModel",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "sameAsMargin",
@@ -6697,7 +6697,7 @@
     "animationType": "length",
     "percentages": "dependsOnLayoutModel",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "sameAsMargin",
@@ -7248,7 +7248,7 @@
     "animationType": "lpc",
     "percentages": "blockSizeOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "none",
     "appliesto": "sameAsWidthAndHeight",
@@ -7280,7 +7280,7 @@
     "animationType": "lpc",
     "percentages": "inlineSizeOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "none",
     "appliesto": "sameAsWidthAndHeight",
@@ -7327,7 +7327,7 @@
     "animationType": "lpc",
     "percentages": "blockSizeOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "sameAsWidthAndHeight",
@@ -7359,7 +7359,7 @@
     "animationType": "lpc",
     "percentages": "inlineSizeOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "sameAsWidthAndHeight",
@@ -7993,7 +7993,7 @@
     "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "padding-block-start",
@@ -8015,7 +8015,7 @@
     "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "allElementsExceptInternalTableDisplayTypes",
@@ -8031,7 +8031,7 @@
     "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "allElementsExceptInternalTableDisplayTypes",
@@ -8067,7 +8067,7 @@
     "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "padding-inline-start",
@@ -8089,7 +8089,7 @@
     "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "allElementsExceptInternalTableDisplayTypes",
@@ -8105,7 +8105,7 @@
     "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "allElementsExceptInternalTableDisplayTypes",
