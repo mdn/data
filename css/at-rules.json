@@ -521,7 +521,7 @@
       "CSSStartingStyleRule"
     ],
     "groups": [
-      "CSS Animations"
+      "CSS Transitions"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@starting-style"
