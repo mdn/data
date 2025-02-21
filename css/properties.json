@@ -6,7 +6,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Variables"
+      "CSS Custom Properties for Cascading Variables"
     ],
     "initial": "seeProse",
     "appliesto": "allElements",
@@ -1661,7 +1661,8 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Alignment"
+      "CSS Box Alignment",
+      "CSS Flexible Box Layout"
     ],
     "initial": "normal",
     "appliesto": "blockContainersMultiColumnContainersFlexContainersGridContainers",
@@ -1677,7 +1678,8 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Alignment"
+      "CSS Box Alignment",
+      "CSS Flexible Box Layout"
     ],
     "initial": "normal",
     "appliesto": "allElements",
@@ -1693,7 +1695,8 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Alignment"
+      "CSS Box Alignment",
+      "CSS Flexible Box Layout"
     ],
     "initial": "auto",
     "appliesto": "flexItemsGridItemsAndAbsolutelyPositionedBoxes",
@@ -1724,7 +1727,7 @@
     "animationType": "eachOfShorthandPropertiesExceptUnicodeBiDiAndDirection",
     "percentages": "no",
     "groups": [
-      "CSS Miscellaneous"
+      "CSS Cascading and Inheritance"
     ],
     "initial": "noPracticalInitialValue",
     "appliesto": "allElements",
@@ -3864,7 +3867,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Box Sizing"
     ],
     "initial": "content-box",
     "appliesto": "allElementsAcceptingWidthOrHeight",
@@ -4116,7 +4119,7 @@
     "animationType": "integer",
     "percentages": "no",
     "groups": [
-      "CSS Columns"
+      "CSS Multi-column Layout"
     ],
     "initial": "auto",
     "appliesto": "blockContainersExceptTableWrappers",
@@ -4132,7 +4135,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Columns"
+      "CSS Multi-column Layout"
     ],
     "initial": "balance",
     "appliesto": "multicolElements",
@@ -4148,7 +4151,8 @@
     "animationType": "lpc",
     "percentages": "referToDimensionOfContentArea",
     "groups": [
-      "CSS Box Alignment"
+      "CSS Box Alignment",
+      "CSS Multi-column Layout"
     ],
     "initial": "normal",
     "appliesto": "multiColumnElementsFlexContainersGridContainers",
@@ -4168,7 +4172,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Columns"
+      "CSS Multi-column Layout"
     ],
     "initial": [
       "column-rule-width",
@@ -4192,7 +4196,7 @@
     "animationType": "color",
     "percentages": "no",
     "groups": [
-      "CSS Columns"
+      "CSS Multi-column Layout"
     ],
     "initial": "currentcolor",
     "appliesto": "multicolElements",
@@ -4208,7 +4212,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Columns"
+      "CSS Multi-column Layout"
     ],
     "initial": "none",
     "appliesto": "multicolElements",
@@ -4224,7 +4228,7 @@
     "animationType": "length",
     "percentages": "no",
     "groups": [
-      "CSS Columns"
+      "CSS Multi-column Layout"
     ],
     "initial": "medium",
     "appliesto": "multicolElements",
@@ -4240,7 +4244,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Columns"
+      "CSS Multi-column Layout"
     ],
     "initial": "none",
     "appliesto": "inFlowBlockLevelElements",
@@ -4256,7 +4260,8 @@
     "animationType": "length",
     "percentages": "no",
     "groups": [
-      "CSS Columns"
+      "CSS Box Sizing",
+      "CSS Multi-column Layout"
     ],
     "initial": "auto",
     "appliesto": "blockContainersExceptTableWrappers",
@@ -4275,7 +4280,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Columns"
+      "CSS Multi-column Layout"
     ],
     "initial": [
       "column-width",
@@ -5952,7 +5957,7 @@
     "animationType": "lpc",
     "percentages": "regardingHeightOfGeneratedBoxContainingBlockPercentagesRelativeToContainingBlock",
     "groups": [
-      "CSS Box Model"
+      "CSS Box Sizing"
     ],
     "initial": "auto",
     "appliesto": "allElementsButNonReplacedAndTableColumns",
@@ -6118,21 +6123,6 @@
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/inline-size"
-  },
-  "input-security": {
-    "syntax": "auto | none",
-    "media": "interactive",
-    "inherited": false,
-    "animationType": "byComputedValueType",
-    "percentages": "no",
-    "groups": [
-      "CSS Basic User Interface"
-    ],
-    "initial": "auto",
-    "appliesto": "sensitiveTextInputs",
-    "computed": "asSpecified",
-    "order": "perGrammar",
-    "status": "standard"
   },
   "inset": {
     "syntax": "<'top'>{1,4}",
@@ -6307,7 +6297,8 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Alignment"
+      "CSS Box Alignment",
+      "CSS Flexible Box Layout"
     ],
     "initial": "normal",
     "appliesto": "flexContainers",
@@ -7273,7 +7264,7 @@
     "animationType": "lpc",
     "percentages": "regardingHeightOfGeneratedBoxContainingBlockPercentagesNone",
     "groups": [
-      "CSS Box Model"
+      "CSS Box Sizing"
     ],
     "initial": "none",
     "appliesto": "allElementsButNonReplacedAndTableColumns",
@@ -7320,7 +7311,7 @@
     "animationType": "lpc",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
-      "CSS Box Model"
+      "CSS Box Sizing"
     ],
     "initial": "none",
     "appliesto": "allElementsButNonReplacedAndTableRows",
@@ -7352,7 +7343,7 @@
     "animationType": "lpc",
     "percentages": "regardingHeightOfGeneratedBoxContainingBlockPercentages0",
     "groups": [
-      "CSS Box Model"
+      "CSS Box Sizing"
     ],
     "initial": "auto",
     "appliesto": "allElementsButNonReplacedAndTableColumns",
@@ -7384,7 +7375,7 @@
     "animationType": "lpc",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
-      "CSS Box Model"
+      "CSS Box Sizing"
     ],
     "initial": "auto",
     "appliesto": "allElementsButNonReplacedAndTableRows",
@@ -7889,7 +7880,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Overscroll Behavior"
     ],
     "initial": "auto",
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
@@ -7908,7 +7899,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Overscroll Behavior"
     ],
     "initial": "auto",
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
@@ -7924,7 +7915,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Overscroll Behavior"
     ],
     "initial": "auto",
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
@@ -7940,7 +7931,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Overscroll Behavior"
     ],
     "initial": "auto",
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
@@ -7956,7 +7947,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Overscroll Behavior"
     ],
     "initial": "auto",
     "appliesto": "nonReplacedBlockAndInlineBlockElements",
@@ -8190,7 +8181,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Pages"
+      "CSS Paged Media"
     ],
     "initial": "auto",
     "appliesto": "blockElementsInNormalFlow",
@@ -8209,7 +8200,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Pages"
+      "CSS Paged Media"
     ],
     "initial": "auto",
     "appliesto": "blockElementsInNormalFlow",
@@ -8228,7 +8219,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Pages"
+      "CSS Paged Media"
     ],
     "initial": "auto",
     "appliesto": "blockElementsInNormalFlow",
@@ -8247,7 +8238,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Pages"
+      "CSS Paged Media"
     ],
     "initial": "auto",
     "appliesto": "blockElementsInNormalFlow",
@@ -9440,6 +9431,21 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape-rendering"
   },
+  "speak-as": {
+    "syntax": "normal | spell-out || digits || [ literal-punctuation | no-punctuation ]",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Speech"
+    ],
+    "initial": "auto",
+    "appliesto": "allElements",
+    "computed": "specifiedValue",
+    "order": "perGrammar",
+    "status": "experimental"
+  },
   "stop-color": {
     "syntax": "<'color'>",
     "media": "visual",
@@ -10058,7 +10064,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Miscellaneous"
+      "Scalable Vector Graphics"
     ],
     "initial": "auto",
     "appliesto": "textElements",
@@ -10105,7 +10111,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-size-adjust"
   },
   "text-spacing-trim": {
-    "syntax": "space-all | normal | space-first | trim-start | trim-both | trim-all | auto",
+    "syntax": "space-all | normal | space-first | trim-start",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -10665,7 +10671,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/white-space"
   },
   "white-space-collapse": {
-    "syntax": "collapse | discard | preserve | preserve-breaks | preserve-spaces | break-spaces",
+    "syntax": "collapse | preserve | preserve-breaks | preserve-spaces | break-spaces",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -10703,7 +10709,7 @@
     "animationType": "lpc",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
-      "CSS Box Model"
+      "CSS Box Sizing"
     ],
     "initial": "auto",
     "appliesto": "allElementsButNonReplacedAndTableRows",

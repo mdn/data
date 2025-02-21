@@ -99,10 +99,10 @@
     "syntax": "normal | multiply | screen | overlay | darken | lighten | color-dodge | color-burn | hard-light | soft-light | difference | exclusion | hue | saturation | color | luminosity"
   },
   "blur()": {
-    "syntax": "blur( <length> )"
+    "syntax": "blur( <length>? )"
   },
   "brightness()": {
-    "syntax": "brightness( <number-percentage> )"
+    "syntax": "brightness( [ <number> | <percentage> ]? )"
   },
   "calc()": {
     "syntax": "calc( <calc-sum> )"
@@ -144,13 +144,22 @@
     "syntax": "<url>"
   },
   "color": {
-    "syntax": "<rgb()> | <rgba()> | <hsl()> | <hsla()> | <hwb()> | <lab()> | <lch()> | <oklab()> | <oklch()> | <color()> | <hex-color> | <named-color> | <system-color> | <deprecated-system-color> | currentcolor | transparent"
+    "syntax": "<color-base> | currentColor | <system-color> | <light-dark()> | <deprecated-system-color>"
+  },
+  "color-base": {
+    "syntax": "<hex-color> | <color-function> | <named-color> | <color-mix()> | transparent"
+  },
+  "color-function": {
+    "syntax": "<rgb()> | <rgba()> | <hsl()> | <hsla()> | <hwb()> | <lab()> | <lch()> | <oklab()> | <oklch()> | <color()>"
   },
   "color()": {
     "syntax": "color( [from <color>]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
   },
   "color-interpolation-method": {
-    "syntax": "in [ <rectangular-color-space> | <polar-color-space> <hue-interpolation-method>? ]"
+    "syntax": "in [ <rectangular-color-space> | <polar-color-space> <hue-interpolation-method>? | <custom-color-space> ]"
+  },
+  "color-mix()": {
+    "syntax": "color-mix( <color-interpolation-method> , [ <color> && <percentage [0,100]>? ]#{2})"
   },
   "color-stop": {
     "syntax": "<color-stop-length> | <color-stop-angle>"
@@ -213,7 +222,7 @@
     "syntax": "[ contextual | no-contextual ]"
   },
   "contrast()": {
-    "syntax": "contrast( [ <number-percentage> ] )"
+    "syntax": "contrast( [ <number> | <percentage> ]? )"
   },
   "coord-box": {
     "syntax": "<paint-box> | view-box"
@@ -245,6 +254,9 @@
   "cubic-bezier-timing-function": {
     "syntax": "ease | ease-in | ease-out | ease-in-out | cubic-bezier(<number [0,1]>, <number>, <number [0,1]>, <number>)"
   },
+  "custom-color-space": {
+    "syntax": "<dashed-ident>"
+  },
   "custom-params": {
     "syntax": "<dashed-ident> [ <number> | <percentage> | none ]+"
   },
@@ -252,7 +264,7 @@
     "syntax": "[ [ <length-percentage> | <number> ]+ ]#"
   },
   "deprecated-system-color": {
-    "syntax": "ActiveBorder | ActiveCaption | AppWorkspace | Background | ButtonFace | ButtonHighlight | ButtonShadow | ButtonText | CaptionText | GrayText | Highlight | HighlightText | InactiveBorder | InactiveCaption | InactiveCaptionText | InfoBackground | InfoText | Menu | MenuText | Scrollbar | ThreeDDarkShadow | ThreeDFace | ThreeDHighlight | ThreeDLightShadow | ThreeDShadow | Window | WindowFrame | WindowText"
+    "syntax": "ActiveBorder | ActiveCaption | AppWorkspace | Background | ButtonHighlight | ButtonShadow | CaptionText | InactiveBorder | InactiveCaption | InactiveCaptionText | InfoBackground | InfoText | Menu | MenuText | Scrollbar | ThreeDDarkShadow | ThreeDFace | ThreeDHighlight | ThreeDLightShadow | ThreeDShadow | Window | WindowFrame | WindowText"
   },
   "discretionary-lig-values": {
     "syntax": "[ discretionary-ligatures | no-discretionary-ligatures ]"
@@ -276,7 +288,7 @@
     "syntax": "block | inline | run-in"
   },
   "drop-shadow()": {
-    "syntax": "drop-shadow( <length>{2,3} <color>? )"
+    "syntax": "drop-shadow( [ <color>? && <length>{2,3} ] )"
   },
   "easing-function": {
     "syntax": "linear | <cubic-bezier-timing-function> | <step-timing-function>"
@@ -329,9 +341,6 @@
   "feature-value-name": {
     "syntax": "<custom-ident>"
   },
-  "fill-rule": {
-    "syntax": "nonzero | evenodd"
-  },
   "filter-function": {
     "syntax": "<blur()> | <brightness()> | <contrast()> | <drop-shadow()> | <grayscale()> | <hue-rotate()> | <invert()> | <opacity()> | <saturate()> | <sepia()>"
   },
@@ -381,7 +390,7 @@
     "syntax": "<linear-gradient()> | <repeating-linear-gradient()> | <radial-gradient()> | <repeating-radial-gradient()> | <conic-gradient()> | <repeating-conic-gradient()>"
   },
   "grayscale()": {
-    "syntax": "grayscale( <number-percentage> )"
+    "syntax": "grayscale( [ <number> | <percentage> ]? )"
   },
   "grid-line": {
     "syntax": "auto | <custom-ident> | [ <integer> && <custom-ident>? ] | [ span && [ <integer> || <custom-ident> ] ]"
@@ -390,10 +399,10 @@
     "syntax": "[ historical-ligatures | no-historical-ligatures ]"
   },
   "hsl()": {
-    "syntax": "hsl( <hue> <percentage> <percentage> [ / <alpha-value> ]? ) | hsl( <hue>, <percentage>, <percentage>, <alpha-value>? )"
+    "syntax": "hsl( <hue>, <percentage>, <percentage>, <alpha-value>? ) | hsl( [ <hue> | none ] [ <percentage> | <number> | none ] [ <percentage> | <number> | none ] [ / [ <alpha-value> | none ] ]? )"
   },
   "hsla()": {
-    "syntax": "hsla( <hue> <percentage> <percentage> [ / <alpha-value> ]? ) | hsla( <hue>, <percentage>, <percentage>, <alpha-value>? )"
+    "syntax": "hsla( <hue>, <percentage>, <percentage>, <alpha-value>? ) | hsla( [ <hue> | none ] [ <percentage> | <number> | none ] [ <percentage> | <number> | none ] [ / [ <alpha-value> | none ] ]? )"
   },
   "hue": {
     "syntax": "<number> | <angle>"
@@ -402,10 +411,10 @@
     "syntax": "[ shorter | longer | increasing | decreasing ] hue"
   },
   "hue-rotate()": {
-    "syntax": "hue-rotate( <angle> )"
+    "syntax": "hue-rotate( [ <angle> | <zero> ]? )"
   },
   "hwb()": {
-    "syntax": "hwb( [<hue> | none] [<percentage> | none] [<percentage> | none] [ / [<alpha-value> | none] ]? )"
+    "syntax": "hwb( [ <hue> | none ] [ <percentage> | <number> | none ] [ <percentage> | <number> | none ] [ / [ <alpha-value> | none ] ]? )"
   },
   "hypot()": {
     "syntax": "hypot( <calc-sum># )"
@@ -438,7 +447,7 @@
     "syntax": "inset( <length-percentage>{1,4} [ round <'border-radius'> ]? )"
   },
   "invert()": {
-    "syntax": "invert( <number-percentage> )"
+    "syntax": "invert( [ <number> | <percentage> ]? )"
   },
   "keyframe-block": {
     "syntax": "<keyframe-selector># {\n  <declaration-list>\n}"
@@ -582,7 +591,7 @@
     "syntax": "repeat( [ <integer [1,∞]> | auto-fill ], <line-names>+ )"
   },
   "named-color": {
-    "syntax": "transparent | aliceblue | antiquewhite | aqua | aquamarine | azure | beige | bisque | black | blanchedalmond | blue | blueviolet | brown | burlywood | cadetblue | chartreuse | chocolate | coral | cornflowerblue | cornsilk | crimson | cyan | darkblue | darkcyan | darkgoldenrod | darkgray | darkgreen | darkgrey | darkkhaki | darkmagenta | darkolivegreen | darkorange | darkorchid | darkred | darksalmon | darkseagreen | darkslateblue | darkslategray | darkslategrey | darkturquoise | darkviolet | deeppink | deepskyblue | dimgray | dimgrey | dodgerblue | firebrick | floralwhite | forestgreen | fuchsia | gainsboro | ghostwhite | gold | goldenrod | gray | green | greenyellow | grey | honeydew | hotpink | indianred | indigo | ivory | khaki | lavender | lavenderblush | lawngreen | lemonchiffon | lightblue | lightcoral | lightcyan | lightgoldenrodyellow | lightgray | lightgreen | lightgrey | lightpink | lightsalmon | lightseagreen | lightskyblue | lightslategray | lightslategrey | lightsteelblue | lightyellow | lime | limegreen | linen | magenta | maroon | mediumaquamarine | mediumblue | mediumorchid | mediumpurple | mediumseagreen | mediumslateblue | mediumspringgreen | mediumturquoise | mediumvioletred | midnightblue | mintcream | mistyrose | moccasin | navajowhite | navy | oldlace | olive | olivedrab | orange | orangered | orchid | palegoldenrod | palegreen | paleturquoise | palevioletred | papayawhip | peachpuff | peru | pink | plum | powderblue | purple | rebeccapurple | red | rosybrown | royalblue | saddlebrown | salmon | sandybrown | seagreen | seashell | sienna | silver | skyblue | slateblue | slategray | slategrey | snow | springgreen | steelblue | tan | teal | thistle | tomato | turquoise | violet | wheat | white | whitesmoke | yellow | yellowgreen"
+    "syntax": "aliceblue | antiquewhite | aqua | aquamarine | azure | beige | bisque | black | blanchedalmond | blue | blueviolet | brown | burlywood | cadetblue | chartreuse | chocolate | coral | cornflowerblue | cornsilk | crimson | cyan | darkblue | darkcyan | darkgoldenrod | darkgray | darkgreen | darkgrey | darkkhaki | darkmagenta | darkolivegreen | darkorange | darkorchid | darkred | darksalmon | darkseagreen | darkslateblue | darkslategray | darkslategrey | darkturquoise | darkviolet | deeppink | deepskyblue | dimgray | dimgrey | dodgerblue | firebrick | floralwhite | forestgreen | fuchsia | gainsboro | ghostwhite | gold | goldenrod | gray | green | greenyellow | grey | honeydew | hotpink | indianred | indigo | ivory | khaki | lavender | lavenderblush | lawngreen | lemonchiffon | lightblue | lightcoral | lightcyan | lightgoldenrodyellow | lightgray | lightgreen | lightgrey | lightpink | lightsalmon | lightseagreen | lightskyblue | lightslategray | lightslategrey | lightsteelblue | lightyellow | lime | limegreen | linen | magenta | maroon | mediumaquamarine | mediumblue | mediumorchid | mediumpurple | mediumseagreen | mediumslateblue | mediumspringgreen | mediumturquoise | mediumvioletred | midnightblue | mintcream | mistyrose | moccasin | navajowhite | navy | oldlace | olive | olivedrab | orange | orangered | orchid | palegoldenrod | palegreen | paleturquoise | palevioletred | papayawhip | peachpuff | peru | pink | plum | powderblue | purple | rebeccapurple | red | rosybrown | royalblue | saddlebrown | salmon | sandybrown | seagreen | seashell | sienna | silver | skyblue | slateblue | slategray | slategrey | snow | springgreen | steelblue | tan | teal | thistle | tomato | turquoise | violet | wheat | white | whitesmoke | yellow | yellowgreen"
   },
   "namespace-prefix": {
     "syntax": "<ident>"
@@ -615,7 +624,7 @@
     "syntax": "oklch( [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ <hue> | none] [ / [<alpha-value> | none] ]? )"
   },
   "opacity()": {
-    "syntax": "opacity( [ <number-percentage> ] )"
+    "syntax": "opacity( [ <number> | <percentage> ]? )"
   },
   "opacity-value": {
     "syntax": "<number> | <percentage>"
@@ -663,7 +672,7 @@
     "syntax": "palette-mix(<color-interpolation-method> , [ [normal | light | dark | <palette-identifier> | <palette-mix()> ] && <percentage [0,100]>? ]#{2})"
   },
   "path()": {
-    "syntax": "path( [ <fill-rule>, ]? <string> )"
+    "syntax": "path( <'fill-rule'>? , <string> )"
   },
   "perspective()": {
     "syntax": "perspective( [ <length [0,∞]> | none ] )"
@@ -672,7 +681,7 @@
     "syntax": "hsl | hwb | lch | oklch"
   },
   "polygon()": {
-    "syntax": "polygon( <fill-rule>? , [ <length-percentage> <length-percentage> ]# )"
+    "syntax": "polygon( <'fill-rule'>? , [ <length-percentage> <length-percentage> ]# )"
   },
   "position": {
     "syntax": "[ [ left | center | right ] || [ top | center | bottom ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ]? | [ [ left | right ] <length-percentage> ] && [ [ top | bottom ] <length-percentage> ] ]"
@@ -744,10 +753,10 @@
     "syntax": "reversed( <counter-name> )"
   },
   "rgb()": {
-    "syntax": "rgb( <percentage>{3} [ / <alpha-value> ]? ) | rgb( <number>{3} [ / <alpha-value> ]? ) | rgb( <percentage>#{3} , <alpha-value>? ) | rgb( <number>#{3} , <alpha-value>? )"
+    "syntax": "rgb( <percentage>#{3} , <alpha-value>? ) | rgb( <number>#{3} , <alpha-value>? ) | rgb( [ <number> | <percentage> | none ]{3} [ / [ <alpha-value> | none ] ]? )"
   },
   "rgba()": {
-    "syntax": "rgba( <percentage>{3} [ / <alpha-value> ]? ) | rgba( <number>{3} [ / <alpha-value> ]? ) | rgba( <percentage>#{3} , <alpha-value>? ) | rgba( <number>#{3} , <alpha-value>? )"
+    "syntax": "rgba( <percentage>#{3} , <alpha-value>? ) | rgba( <number>#{3} , <alpha-value>? ) | rgba( [ <number> | <percentage> | none ]{3} [ / [ <alpha-value> | none ] ]? )"
   },
   "rotate()": {
     "syntax": "rotate( [ <angle> | <zero> ] )"
@@ -771,7 +780,7 @@
     "syntax": "nearest | up | down | to-zero"
   },
   "saturate()": {
-    "syntax": "saturate( <number-percentage> )"
+    "syntax": "saturate( [ <number> | <percentage> ]? )"
   },
   "scale()": {
     "syntax": "scale( [ <number> | <percentage> ]#{1,2} )"
@@ -807,7 +816,7 @@
     "syntax": "center | start | end | self-start | self-end | flex-start | flex-end"
   },
   "sepia()": {
-    "syntax": "sepia( <number-percentage> )"
+    "syntax": "sepia( [ <number> | <percentage> ]? )"
   },
   "shadow": {
     "syntax": "inset? && <length>{2,4} && <color>?"
