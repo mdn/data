@@ -230,7 +230,8 @@
   "fit-content()": {
     "syntax": "fit-content( <length-percentage [0,∞]> )",
     "groups": [
-      "CSS Box Model"
+      "CSS Box Sizing",
+      "CSS Grid Layout"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fit-content_function"
@@ -244,7 +245,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/grayscale"
   },
   "hsl()": {
-    "syntax": "hsl( <hue> <percentage> <percentage> [ / <alpha-value> ]? ) | hsl( <hue>, <percentage>, <percentage>, <alpha-value>? )",
+    "syntax": "hsl( <hue>, <percentage>, <percentage>, <alpha-value>? ) | hsl( [ <hue> | none ] [ <percentage> | <number> | none ] [ <percentage> | <number> | none ] [ / [ <alpha-value> | none ] ]? )",
     "groups": [
       "CSS Color"
     ],
@@ -252,7 +253,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/hsl"
   },
   "hsla()": {
-    "syntax": "hsla( <hue> <percentage> <percentage> [ / <alpha-value> ]? ) | hsla( <hue>, <percentage>, <percentage>, <alpha-value>? )",
+    "syntax": "hsla( <hue>, <percentage>, <percentage>, <alpha-value>? ) | hsla( [ <hue> | none ] [ <percentage> | <number> | none ] [ <percentage> | <number> | none ] [ / [ <alpha-value> | none ] ]? )",
     "groups": [
       "CSS Color"
     ],
@@ -268,7 +269,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/hue-rotate"
   },
   "hwb()": {
-    "syntax": "hwb( [<hue> | none] [<percentage> | none] [<percentage> | none] [ / [<alpha-value> | none] ]? )",
+    "syntax": "hwb( [ <hue> | none ] [ <percentage> | <number> | none ] [ <percentage> | <number> | none ] [ / [ <alpha-value> | none ] ]? )",
     "groups": [
       "CSS Color"
     ],
@@ -452,7 +453,7 @@
   "paint()": {
     "syntax": "paint( <ident>, <declaration-value>? )",
     "groups": [
-      "CSS Backgrounds and Borders"
+      "CSS Houdini"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/image/paint"
@@ -466,7 +467,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-palette/palette-mix"
   },
   "path()": {
-    "syntax": "path( [ <fill-rule>, ]? <string> )",
+    "syntax": "path( <'fill-rule'>? , <string> )",
     "groups": [
       "CSS Shapes"
     ],
@@ -482,7 +483,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/perspective"
   },
   "polygon()": {
-    "syntax": "polygon( <fill-rule>? , [ <length-percentage> <length-percentage> ]# )",
+    "syntax": "polygon( <'fill-rule'>? , [ <length-percentage> <length-percentage> ]# )",
     "groups": [
       "CSS Shapes"
     ],
@@ -552,7 +553,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-radial-gradient"
   },
   "rgb()": {
-    "syntax": "rgb( <percentage>{3} [ / <alpha-value> ]? ) | rgb( <number>{3} [ / <alpha-value> ]? ) | rgb( <percentage>#{3} , <alpha-value>? ) | rgb( <number>#{3} , <alpha-value>? )",
+    "syntax": "rgb( <percentage>#{3} , <alpha-value>? ) | rgb( <number>#{3} , <alpha-value>? ) | rgb( [ <number> | <percentage> | none ]{3} [ / [ <alpha-value> | none ] ]?  )",
     "groups": [
       "CSS Color"
     ],
@@ -560,7 +561,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/rgb"
   },
   "rgba()": {
-    "syntax": "rgba( <percentage>{3} [ / <alpha-value> ]? ) | rgba( <number>{3} [ / <alpha-value> ]? ) | rgba( <percentage>#{3} , <alpha-value>? ) | rgba( <number>#{3} , <alpha-value>? )",
+    "syntax": "rgba( <percentage>#{3} , <alpha-value>? ) | rgba( <number>#{3} , <alpha-value>? ) | rgba( [ <number> | <percentage> | none ]{3} [ / [ <alpha-value> | none ] ]?  )",
     "groups": [
       "CSS Color"
     ],

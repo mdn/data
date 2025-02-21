@@ -393,7 +393,7 @@
       "CSSPageRule"
     ],
     "groups": [
-      "CSS Pages"
+      "CSS Paged Media"
     ],
     "descriptors": {
       "bleed": {
@@ -548,6 +548,15 @@
     "descriptors": {
       "navigation": {
         "syntax": "auto | none",
+        "media": "all",
+        "initial": "none",
+        "percentages": "no",
+        "computed": "asSpecified",
+        "order": "uniqueOrder",
+        "status": "standard"
+      },
+      "types": {
+        "syntax": "none | <custom-ident>+",
         "media": "all",
         "initial": "none",
         "percentages": "no",
