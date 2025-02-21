@@ -350,9 +350,6 @@
   "feature-value-name": {
     "syntax": "<custom-ident>"
   },
-  "fill-rule": {
-    "syntax": "nonzero | evenodd"
-  },
   "filter-function": {
     "syntax": "<blur()> | <brightness()> | <contrast()> | <drop-shadow()> | <grayscale()> | <hue-rotate()> | <invert()> | <opacity()> | <saturate()> | <sepia()>"
   },
@@ -411,10 +408,10 @@
     "syntax": "[ historical-ligatures | no-historical-ligatures ]"
   },
   "hsl()": {
-    "syntax": "hsl( <hue> <percentage> <percentage> [ / <alpha-value> ]? ) | hsl( <hue>, <percentage>, <percentage>, <alpha-value>? )"
+    "syntax": "hsl( <hue>, <percentage>, <percentage>, <alpha-value>? ) | hsl( [ <hue> | none ] [ <percentage> | <number> | none ] [ <percentage> | <number> | none ] [ / [ <alpha-value> | none ] ]? )"
   },
   "hsla()": {
-    "syntax": "hsla( <hue> <percentage> <percentage> [ / <alpha-value> ]? ) | hsla( <hue>, <percentage>, <percentage>, <alpha-value>? )"
+    "syntax": "hsla( <hue>, <percentage>, <percentage>, <alpha-value>? ) | hsla( [ <hue> | none ] [ <percentage> | <number> | none ] [ <percentage> | <number> | none ] [ / [ <alpha-value> | none ] ]? )"
   },
   "hue": {
     "syntax": "<number> | <angle>"
@@ -426,7 +423,7 @@
     "syntax": "hue-rotate( [ <angle> | <zero> ]? )"
   },
   "hwb()": {
-    "syntax": "hwb( [<hue> | none] [<percentage> | none] [<percentage> | none] [ / [<alpha-value> | none] ]? )"
+    "syntax": "hwb( [ <hue> | none ] [ <percentage> | <number> | none ] [ <percentage> | <number> | none ] [ / [ <alpha-value> | none ] ]? )"
   },
   "hypot()": {
     "syntax": "hypot( <calc-sum># )"
@@ -684,7 +681,7 @@
     "syntax": "palette-mix(<color-interpolation-method> , [ [normal | light | dark | <palette-identifier> | <palette-mix()> ] && <percentage [0,100]>? ]#{2})"
   },
   "path()": {
-    "syntax": "path( [ <fill-rule>, ]? <string> )"
+    "syntax": "path( <'fill-rule'>? , <string> )"
   },
   "perspective()": {
     "syntax": "perspective( [ <length [0,∞]> | none ] )"
@@ -693,7 +690,7 @@
     "syntax": "hsl | hwb | lch | oklch"
   },
   "polygon()": {
-    "syntax": "polygon( <fill-rule>? , [ <length-percentage> <length-percentage> ]# )"
+    "syntax": "polygon( <'fill-rule'>? , [ <length-percentage> <length-percentage> ]# )"
   },
   "position": {
     "syntax": "[ [ left | center | right ] || [ top | center | bottom ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ]? | [ [ left | right ] <length-percentage> ] && [ [ top | bottom ] <length-percentage> ] ]"
@@ -768,10 +765,10 @@
     "syntax": "reversed( <counter-name> )"
   },
   "rgb()": {
-    "syntax": "rgb( <percentage>{3} [ / <alpha-value> ]? ) | rgb( <number>{3} [ / <alpha-value> ]? ) | rgb( <percentage>#{3} , <alpha-value>? ) | rgb( <number>#{3} , <alpha-value>? )"
+    "syntax": "rgb( <percentage>#{3} , <alpha-value>? ) | rgb( <number>#{3} , <alpha-value>? ) | rgb( [ <number> | <percentage> | none ]{3} [ / [ <alpha-value> | none ] ]? )"
   },
   "rgba()": {
-    "syntax": "rgba( <percentage>{3} [ / <alpha-value> ]? ) | rgba( <number>{3} [ / <alpha-value> ]? ) | rgba( <percentage>#{3} , <alpha-value>? ) | rgba( <number>#{3} , <alpha-value>? )"
+    "syntax": "rgba( <percentage>#{3} , <alpha-value>? ) | rgba( <number>#{3} , <alpha-value>? ) | rgba( [ <number> | <percentage> | none ]{3} [ / [ <alpha-value> | none ] ]? )"
   },
   "rotate()": {
     "syntax": "rotate( [ <angle> | <zero> ] )"
