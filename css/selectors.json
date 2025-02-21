@@ -163,7 +163,8 @@
     "syntax": ":blank",
     "groups": [
       "Pseudo-classes",
-      "Selectors"
+      "Selectors",
+      "CSS Paged Media"
     ],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:blank"
@@ -253,7 +254,8 @@
     "syntax": ":first",
     "groups": [
       "Pseudo-classes",
-      "Selectors"
+      "Selectors",
+      "CSS Paged Media"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:first"
@@ -443,7 +445,7 @@
     "groups": [
       "Pseudo-classes",
       "Selectors",
-      "CSS Pages"
+      "CSS Paged Media"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:left"
@@ -651,7 +653,7 @@
     "groups": [
       "Pseudo-classes",
       "Selectors",
-      "CSS Pages"
+      "CSS Paged Media"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:right"
@@ -660,8 +662,7 @@
     "syntax": ":root",
     "groups": [
       "Pseudo-classes",
-      "Selectors",
-      "CSS Pages"
+      "Selectors"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:root"
