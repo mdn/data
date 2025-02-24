@@ -1,5 +1,64 @@
 # Changelog
 
+## [2.16.0](https://github.com/mdn/data/compare/v2.15.0...v2.16.0) (2025-02-24)
+
+
+### Features
+
+* **css:** Add `@view-transition/types` ([#887](https://github.com/mdn/data/issues/887)) ([451f3bf](https://github.com/mdn/data/commit/451f3bfbc0e20385df62be531048f5f4767bfcb8))
+* **css:** Add css `symbols()` function ([#905](https://github.com/mdn/data/issues/905)) ([2f71ad9](https://github.com/mdn/data/commit/2f71ad960049b32b2b27dca1343c04f0e7d8bf31))
+* **css:** Add CSS Shadow Parts group to `::part()` ([#892](https://github.com/mdn/data/issues/892)) ([d8fbd6a](https://github.com/mdn/data/commit/d8fbd6a59efc964af6a308118905b9aa3953980a))
+* **css:** Add data for experimental `speak-as` property ([#889](https://github.com/mdn/data/issues/889)) ([2cfb53a](https://github.com/mdn/data/commit/2cfb53a9dc9c62e9b1710244bb6391cc66cdd5bd))
+* **css:** Add missing `rect()` and `xywh()` functions ([#927](https://github.com/mdn/data/issues/927)) ([90a3446](https://github.com/mdn/data/commit/90a3446b10f8fa92e96624a0db27cc3e66bbac93))
+* **css:** Add rest standard selectors ([510bd92](https://github.com/mdn/data/commit/510bd9208f45197ebb9a0209e96e9282f54b0bf4))
+* **css:** Add rest two standard selectors ([#893](https://github.com/mdn/data/issues/893)) ([510bd92](https://github.com/mdn/data/commit/510bd9208f45197ebb9a0209e96e9282f54b0bf4))
+* **css:** Update `filter-function-list` to `filter-value-list` ([#897](https://github.com/mdn/data/issues/897)) ([34b32b1](https://github.com/mdn/data/commit/34b32b16f8c294818a01b8984da7fd852d4a026a))
+* **css:** Update group definitions for CSS View Transitions ([#894](https://github.com/mdn/data/issues/894)) ([76a3bbe](https://github.com/mdn/data/commit/76a3bbec2d8baf63e0554891818368a5d7aaefb9))
+* **css:** Update group value for CSS Lists and Counters group ([#898](https://github.com/mdn/data/issues/898)) ([0cd5a25](https://github.com/mdn/data/commit/0cd5a2586a8019bba778f68dbb410e5b83ca75df))
+* **css:** Update status for page-break-* properties ([#909](https://github.com/mdn/data/issues/909)) ([51fec53](https://github.com/mdn/data/commit/51fec532762433c69511538dc8f0a9337c6d2b21))
+* **css:** Update synatx for css `zoom` property ([#901](https://github.com/mdn/data/issues/901)) ([5c57b10](https://github.com/mdn/data/commit/5c57b10e4152f44ee3fe631a665666c0cd98fdc8))
+* **css:** Update syntax for `@font-face/font-display` ([#875](https://github.com/mdn/data/issues/875)) ([8cf4abe](https://github.com/mdn/data/commit/8cf4abe05c2ef66d715c01f57caf6168f20acf9c))
+* **css:** Update syntax for `an+b` type ([#907](https://github.com/mdn/data/issues/907)) ([ffeb23b](https://github.com/mdn/data/commit/ffeb23be1ba674c390fdc1fd331e2030b599562d))
+* **css:** Update syntax for `circle()` and `ellipse()` functions ([#928](https://github.com/mdn/data/issues/928)) ([fbc345f](https://github.com/mdn/data/commit/fbc345f588660358e2de08f56f3b58a26cc82a78))
+* **css:** Update syntax for `outline` ([#877](https://github.com/mdn/data/issues/877)) ([8791748](https://github.com/mdn/data/commit/8791748babe9e837618b94450449eb4ae8084b3a))
+* **css:** Update syntax for `path()` & `polygon()` ([#885](https://github.com/mdn/data/issues/885)) ([7b41d05](https://github.com/mdn/data/commit/7b41d05b928ee49b2401fd7696c3546ba4c1d1db))
+* **css:** Update syntax for `text-transform:math-auto` ([#896](https://github.com/mdn/data/issues/896)) ([3c1a279](https://github.com/mdn/data/commit/3c1a2792f85ff0e67673cc1b4ec48050a7311ecd))
+* **css:** Update syntax for `white-space` ([#878](https://github.com/mdn/data/issues/878)) ([14ad879](https://github.com/mdn/data/commit/14ad8799c9831adaa8fd305fc89b6dc0865b2a4d))
+* **css:** Update syntax for color functions ([#867](https://github.com/mdn/data/issues/867)) ([b172f0a](https://github.com/mdn/data/commit/b172f0ad135d430cde8813d005a0da268023771c))
+
+
+### Miscellaneous
+
+* **ci:** remove unused workflows ([#920](https://github.com/mdn/data/issues/920)) ([a4c3d9b](https://github.com/mdn/data/commit/a4c3d9b9f076a68b643488f00bb64205da6758c5))
+* **css:** Add align-* and justify-* properties with CSS Flexible Bo… ([#912](https://github.com/mdn/data/issues/912)) ([74a60ad](https://github.com/mdn/data/commit/74a60adf573711801f2c198ff934c189bde0eadf))
+* **css:** Add align-* and justify-* properties with CSS Flexible Box Layout group ([74a60ad](https://github.com/mdn/data/commit/74a60adf573711801f2c198ff934c189bde0eadf))
+* **css:** Add CSS Anchor Positioning group ([#922](https://github.com/mdn/data/issues/922)) ([0c3a40b](https://github.com/mdn/data/commit/0c3a40b2772bbc2e98c53b75580ec2765846273c))
+* **css:** Fix group for `clip-rule` ([#925](https://github.com/mdn/data/issues/925)) ([abca3c7](https://github.com/mdn/data/commit/abca3c7400c86606b777d1c700d64cea37a398e1))
+* **css:** Fix group for `shape-rendering` ([#926](https://github.com/mdn/data/issues/926)) ([b8cd457](https://github.com/mdn/data/commit/b8cd4570604b1532361ec84f0cceacf9e3b06bb0))
+* **css:** Fix group for css `env()` function ([#915](https://github.com/mdn/data/issues/915)) ([6c947bc](https://github.com/mdn/data/commit/6c947bc9a3bb67eed78978321948e4040bdb3cc9))
+* **css:** FIx group for CSS Box Sizing ([#914](https://github.com/mdn/data/issues/914)) ([9c304df](https://github.com/mdn/data/commit/9c304dff73fb6b08c0c0b57d74637ecb06e24efb))
+* **css:** Fix group for CSS Display module features ([#916](https://github.com/mdn/data/issues/916)) ([e19ddbd](https://github.com/mdn/data/commit/e19ddbd39003ed6b58916a6d829b817f19eae61f))
+* **css:** Fix group for CSS Images module ([#935](https://github.com/mdn/data/issues/935)) ([068de27](https://github.com/mdn/data/commit/068de2721afc2ac688a2ac85cfc7824ad0201631))
+* **css:** Fix group for some CSS Inline module feature ([#921](https://github.com/mdn/data/issues/921)) ([925fbc4](https://github.com/mdn/data/commit/925fbc455db5343da9f9a876287870c584e2ed77))
+* **css:** Fix group key for `text-overflow` ([#910](https://github.com/mdn/data/issues/910)) ([7000695](https://github.com/mdn/data/commit/7000695b54d006848666f10d82433cfa0b94a212))
+* **css:** Fix group value for CSS Overscroll Behavior features ([#917](https://github.com/mdn/data/issues/917)) ([e3976c9](https://github.com/mdn/data/commit/e3976c91bdc8d24644fc58947991b11905bf1675))
+* **css:** Fox group for CSS Display module features ([e19ddbd](https://github.com/mdn/data/commit/e19ddbd39003ed6b58916a6d829b817f19eae61f))
+* **css:** Remove never used CSSOM View group ([#904](https://github.com/mdn/data/issues/904)) ([10abfad](https://github.com/mdn/data/commit/10abfad86be783bc15fd8ddaac172019b5184b54))
+* **css:** Remove non-existent 'CSS Flexible Lengths' group ([#913](https://github.com/mdn/data/issues/913)) ([015220c](https://github.com/mdn/data/commit/015220c81fdfae71531e4289c466f8e972f52c79))
+* **css:** Remove not existed CSS Flexible Lengths group ([015220c](https://github.com/mdn/data/commit/015220c81fdfae71531e4289c466f8e972f52c79))
+* **css:** Rename CSS Columns to CSS Multi-column Layout ([#919](https://github.com/mdn/data/issues/919)) ([8debe78](https://github.com/mdn/data/commit/8debe7824793745eba3593f0c0b63c873eb42efc))
+* **css:** Rename CSS Device Adaptation to CSS Viewport ([#900](https://github.com/mdn/data/issues/900)) ([0ade227](https://github.com/mdn/data/commit/0ade2279b8abef1051725698842537d51d5c9d6a))
+* **css:** Rename CSS Logical Properties to CSS Logical Properties and Values ([#929](https://github.com/mdn/data/issues/929)) ([9ba094b](https://github.com/mdn/data/commit/9ba094bc31c7a24d7f78f8aa775758792e222bda))
+* **css:** Rename CSS Motion Path to Motion Path ([#902](https://github.com/mdn/data/issues/902)) ([9138aa7](https://github.com/mdn/data/commit/9138aa74e167490c1feffb1b29ae3a333efc1348))
+* **css:** Rename CSS Pages group to CSS Paged Media group ([#918](https://github.com/mdn/data/issues/918)) ([34b49a3](https://github.com/mdn/data/commit/34b49a31edf442a1bef33691fc64869b2de4bdf3))
+* **css:** Rename CSS Scrollbars to CSS Scrollbars Styling to match spec ([#895](https://github.com/mdn/data/issues/895)) ([79d0ace](https://github.com/mdn/data/commit/79d0ace62c27c183ff6098f76e09d80346cb7dc7))
+* **css:** Update for CSS Generated Content group ([#890](https://github.com/mdn/data/issues/890)) ([8060a0a](https://github.com/mdn/data/commit/8060a0a8464f8dbdb70fc95843370cc6a3fb032c))
+* **css:** Update group for `[@import](https://github.com/import)` ([#908](https://github.com/mdn/data/issues/908)) ([194f3b0](https://github.com/mdn/data/commit/194f3b0b412101233f87a6f3cb372cec87a7956a))
+* **css:** Update group for `paint()` function ([#891](https://github.com/mdn/data/issues/891)) ([845020b](https://github.com/mdn/data/commit/845020b38a0bbfdd2247d67b09f1c5979258763e))
+* **css:** Update group for CSS Animations ([#931](https://github.com/mdn/data/issues/931)) ([4186fe3](https://github.com/mdn/data/commit/4186fe368ddc25c9bf8599a07053a488cf023878))
+* **css:** Update group for CSS Fonts ([#932](https://github.com/mdn/data/issues/932)) ([b6ec854](https://github.com/mdn/data/commit/b6ec8543081f76ce8f2acf2bf2748dc7d0596781))
+* **css:** Update group for CSS Text ([#933](https://github.com/mdn/data/issues/933)) ([68917b2](https://github.com/mdn/data/commit/68917b2dc0ef43f784344261f236da90154ad773))
+
 ## [2.15.0](https://github.com/mdn/data/compare/v2.14.0...v2.15.0) (2025-01-16)
 
 
