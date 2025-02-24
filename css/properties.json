@@ -2053,7 +2053,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/aspect-ratio"
   },
   "backdrop-filter": {
-    "syntax": "none | <filter-function-list>",
+    "syntax": "none | <filter-value-list>",
     "media": "visual",
     "inherited": false,
     "animationType": "filterList",
@@ -4736,7 +4736,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fill-rule"
   },
   "filter": {
-    "syntax": "none | <filter-function-list>",
+    "syntax": "none | <filter-value-list>",
     "media": "visual",
     "inherited": false,
     "animationType": "filterList",
