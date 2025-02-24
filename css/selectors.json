@@ -147,7 +147,8 @@
     "syntax": ":active-view-transition",
     "groups": [
       "Pseudo-classes",
-      "Selectors"
+      "Selectors",
+      "CSS View Transitions"
     ],
     "status": "standard"
   },
@@ -155,7 +156,8 @@
     "syntax": ":active-view-transition-type( <custom-ident># )",
     "groups": [
       "Pseudo-classes",
-      "Selectors"
+      "Selectors",
+      "CSS View Transitions"
     ],
     "status": "standard"
   },
@@ -1198,7 +1200,8 @@
     "syntax": "::view-transition",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "CSS View Transitions"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition"
@@ -1207,7 +1210,8 @@
     "syntax": "::view-transition-group([ '*' | <custom-ident> ])",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "CSS View Transitions"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-group"
@@ -1216,7 +1220,8 @@
     "syntax": "::view-transition-image-pair([ '*' | <custom-ident> ])",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "CSS View Transitions"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-image-pair"
@@ -1225,7 +1230,8 @@
     "syntax": "::view-transition-new([ '*' | <custom-ident> ])",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "CSS View Transitions"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-new"
@@ -1234,7 +1240,8 @@
     "syntax": "::view-transition-old([ '*' | <custom-ident> ])",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "CSS View Transitions"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-old"
