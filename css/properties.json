@@ -8206,7 +8206,7 @@
     "appliesto": "blockElementsInNormalFlow",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "standard",
+    "status": "obsolete",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/page-break-after"
   },
   "page-break-before": {
@@ -8225,7 +8225,7 @@
     "appliesto": "blockElementsInNormalFlow",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "standard",
+    "status": "obsolete",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/page-break-before"
   },
   "page-break-inside": {
@@ -8244,7 +8244,7 @@
     "appliesto": "blockElementsInNormalFlow",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "standard",
+    "status": "obsolete",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/page-break-inside"
   },
   "paint-order": {
