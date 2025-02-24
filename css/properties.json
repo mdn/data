@@ -10860,7 +10860,7 @@
     "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
-      "Microsoft Extensions"
+      "CSS Viewport"
     ],
     "initial": "normal",
     "appliesto": "allElements",
