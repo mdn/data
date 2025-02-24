@@ -7605,7 +7605,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/orphans"
   },
   "outline": {
-    "syntax": "[ <'outline-width'> || <'outline-style'> || <'outline-color'> ]",
+    "syntax": "<'outline-width'> || <'outline-style'> || <'outline-color'>",
     "media": [
       "visual",
       "interactive"
