@@ -10854,18 +10854,18 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/z-index"
   },
   "zoom": {
-    "syntax": "normal | reset | <number> | <percentage>",
+    "syntax": "normal | reset | <number [0,∞]> || <percentage [0,∞]>",
     "media": "visual",
     "inherited": false,
     "animationType": "notAnimatable",
-    "percentages": "no",
+    "percentages": "convertedToNumber",
     "groups": [
       "CSS Viewport"
     ],
-    "initial": "normal",
+    "initial": "1",
     "appliesto": "allElements",
-    "computed": "asSpecified",
-    "order": "uniqueOrder",
+    "computed": "asSpecifiedButWithPercentageConvertedToTheEquivalentNumber",
+    "order": "perGrammar",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/zoom"
   }
