@@ -8255,7 +8255,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Text"
+      "Scalable Vector Graphics"
     ],
     "initial": "normal",
     "appliesto": "textElements",
@@ -10102,7 +10102,7 @@
     "animationType": "byComputedValueType",
     "percentages": "referToSizeOfFont",
     "groups": [
-      "CSS Text"
+      "CSS Mobile Text Size Adjustment"
     ],
     "initial": "autoForSmartphoneBrowsersSupportingInflation",
     "appliesto": "allElements",
