@@ -42,7 +42,6 @@
       "CSS Will Change",
       "CSS Counter Styles",
       "CSS Lists and Counters",
-      "CSS Animations",
       "CSS Types"
     ],
     "status": "standard",
@@ -50,7 +49,6 @@
   },
   "dashed-ident": {
     "groups": [
-      "CSS Animations",
       "CSS Types"
     ],
     "status": "standard",
@@ -107,7 +105,6 @@
   },
   "easing-function": {
     "groups": [
-      "CSS Animations",
       "CSS Transitions",
       "CSS Types"
     ],

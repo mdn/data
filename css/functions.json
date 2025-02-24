@@ -676,7 +676,7 @@
   "scroll()": {
     "syntax": "scroll( [ <scroller> || <axis> ]? )",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline/scroll"
@@ -829,7 +829,7 @@
   "view()": {
     "syntax": "view([<axis> || <'view-timeline-inset'>]?)",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline/view"

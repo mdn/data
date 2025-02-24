@@ -1941,7 +1941,7 @@
     ],
     "percentages": "relativeToTimelineRangeIfSpecifiedOtherwiseEntireTimeline",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": [
       "animation-range-start",
@@ -1963,7 +1963,7 @@
     "animationType": "notAnimatable",
     "percentages": "relativeToTimelineRangeIfSpecifiedOtherwiseEntireTimeline",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": "normal",
     "appliesto": "allElements",
@@ -1979,7 +1979,7 @@
     "animationType": "notAnimatable",
     "percentages": "relativeToTimelineRangeIfSpecifiedOtherwiseEntireTimeline",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": "normal",
     "appliesto": "allElements",
@@ -9273,7 +9273,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": [
       "scroll-timeline-name",
@@ -9295,7 +9295,7 @@
     "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": "block",
     "appliesto": "scrollContainers",
@@ -9311,7 +9311,7 @@
     "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": "none",
     "appliesto": "scrollContainers",
@@ -10250,7 +10250,7 @@
     "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -10561,7 +10561,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": [
       "view-timeline-name",
@@ -10583,7 +10583,7 @@
     "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": "block",
     "appliesto": "allElements",
@@ -10599,7 +10599,7 @@
     "animationType": "byComputedValueType",
     "percentages": "relativeToCorrespondingDimensionOfRelevantScrollport",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": "auto",
     "appliesto": "allElements",
@@ -10615,7 +10615,7 @@
     "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": "none",
     "appliesto": "allElements",
