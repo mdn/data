@@ -44,6 +44,15 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Attribute_selectors"
   },
+  "Nesting selector": {
+    "syntax": "A { &B { } }",
+    "groups": [
+      "Basic Selectors",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Nesting_selector"
+  },
   "Selector list": {
     "syntax": ",",
     "groups": [
@@ -97,6 +106,15 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Column_combinator"
+  },
+  "Namespace separator": {
+    "syntax": "A | B",
+    "groups": [
+      "Combinators",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Namespace_separator"
   },
   "Pseudo-classes": {
     "syntax": ":",
