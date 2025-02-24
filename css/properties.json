@@ -4646,6 +4646,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
+      "CSS Inline",
       "Scalable Vector Graphics"
     ],
     "initial": "auto",
@@ -6444,7 +6445,7 @@
     "animationType": "numberOrLength",
     "percentages": "referToElementFontSize",
     "groups": [
-      "CSS Fonts"
+      "CSS Inline"
     ],
     "initial": "normal",
     "appliesto": "allElements",
@@ -10536,7 +10537,7 @@
     "animationType": "length",
     "percentages": "referToLineHeight",
     "groups": [
-      "CSS Table"
+      "CSS Inline"
     ],
     "initial": "baseline",
     "appliesto": "inlineLevelAndTableCellElements",
