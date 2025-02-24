@@ -213,7 +213,7 @@
   "env()": {
     "syntax": "env( <custom-ident> , <declaration-value>? )",
     "groups": [
-      "CSS Box Model"
+      "CSS Environment Variables"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/env"
