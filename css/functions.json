@@ -103,7 +103,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/calc-size"
   },
   "circle()": {
-    "syntax": "circle( [ <shape-radius> ]? [ at <position> ]? )",
+    "syntax": "circle( <radial-size>? [ at <position> ]? )",
     "groups": [
       "CSS Shapes"
     ],
@@ -203,7 +203,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/element"
   },
   "ellipse()": {
-    "syntax": "ellipse( [ <shape-radius>{2} ]? [ at <position> ]? )",
+    "syntax": "ellipse( <radial-size>? [ at <position> ]? )",
     "groups": [
       "CSS Shapes"
     ],

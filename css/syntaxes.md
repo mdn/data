@@ -39,9 +39,6 @@ Or, syntaxes might reference other syntaxes that are also defined in syntaxes.js
 "length-percentage": {
   "syntax": "<length> | <percentage>"
 },
-"shape-radius": {
-  "syntax": "<length-percentage> | closest-side | farthest-side"
-},
 ```
 
 For more information about the formal grammar of CSS syntaxes, see [CSS value definition syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Value_definition_syntax).
