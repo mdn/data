@@ -63,7 +63,7 @@
   "attr()": {
     "syntax": "attr( <attr-name> <type-or-unit>? [, <attr-fallback> ]? )",
     "groups": [
-      "CSS Generated Content"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/attr"
@@ -346,7 +346,7 @@
     "groups": [
       "CSS Generated Content"
     ],
-    "status": "standard"
+    "status": "experimental"
   },
   "light-dark()": {
     "syntax": "light-dark( <color>, <color> )",
@@ -760,23 +760,23 @@
   "target-counter()": {
     "syntax": "target-counter( [ <string> | <url> ] , <custom-ident> , <counter-style>? )",
     "groups": [
-      "CSS Lists and Counters"
+      "CSS Generated Content"
     ],
-    "status": "nonstandard"
+    "status": "experimental"
   },
   "target-counters()": {
     "syntax": "target-counters( [ <string> | <url> ] , <custom-ident> , <string> , <counter-style>? )",
     "groups": [
-      "CSS Lists and Counters"
+      "CSS Generated Content"
     ],
-    "status": "nonstandard"
+    "status": "experimental"
   },
   "target-text()": {
     "syntax": "target-text( [ <string> | <url> ] , [ content | before | after | first-letter ]? )",
     "groups": [
       "CSS Generated Content"
     ],
-    "status": "standard"
+    "status": "experimental"
   },
   "translate()": {
     "syntax": "translate( <length-percentage> , <length-percentage>? )",
