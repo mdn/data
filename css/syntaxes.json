@@ -11,6 +11,9 @@
   "alpha-value": {
     "syntax": "<number> | <percentage>"
   },
+  "an+b": {
+    "syntax": "odd | even | <integer> | <n-dimension> | '+'?† n | -n | <ndashdigit-dimension> | '+'?† <ndashdigit-ident> | <dashndashdigit-ident> | <n-dimension> <signed-integer> | '+'?† n <signed-integer> | -n <signed-integer> | <ndash-dimension> <signless-integer> | '+'?† n- <signless-integer> | -n- <signless-integer> | <n-dimension> ['+' | '-'] <signless-integer> | '+'?† n ['+' | '-'] <signless-integer> | -n ['+' | '-'] <signless-integer>"
+  },
   "anchor()": {
     "syntax": "anchor( <anchor-name>? && <anchor-side>, <length-percentage>? )"
   },
@@ -263,6 +266,9 @@
   "dasharray": {
     "syntax": "[ [ <length-percentage> | <number> ]+ ]#"
   },
+  "dashndashdigit-ident": {
+    "syntax": "<ident-token>"
+  },
   "deprecated-system-color": {
     "syntax": "ActiveBorder | ActiveCaption | AppWorkspace | Background | ButtonHighlight | ButtonShadow | CaptionText | InactiveBorder | InactiveCaption | InactiveCaptionText | InfoBackground | InfoText | Menu | MenuText | Scrollbar | ThreeDDarkShadow | ThreeDFace | ThreeDHighlight | ThreeDLightShadow | ThreeDShadow | Window | WindowFrame | WindowText"
   },
@@ -421,6 +427,9 @@
   },
   "id-selector": {
     "syntax": "<hash-token>"
+  },
+  "integer": {
+    "syntax": "<number-token>"
   },
   "image": {
     "syntax": "<url> | <image()> | <image-set()> | <element()> | <paint()> | <cross-fade()> | <gradient>"
@@ -587,6 +596,18 @@
   "mod()": {
     "syntax": "mod( <calc-sum>, <calc-sum> )"
   },
+  "n-dimension": {
+    "syntax": "<dimension-token>"
+  },
+  "ndash-dimension": {
+    "syntax": "<dimension-token>"
+  },
+  "ndashdigit-dimension": {
+    "syntax": "<dimension-token>"
+  },
+  "ndashdigit-ident": {
+    "syntax": "<ident-token>"
+  },
   "name-repeat": {
     "syntax": "repeat( [ <integer [1,∞]> | auto-fill ], <line-names>+ )"
   },
@@ -598,9 +619,6 @@
   },
   "ns-prefix": {
     "syntax": "[ <ident-token> | '*' ]? '|'"
-  },
-  "nth": {
-    "syntax": "<an-plus-b> | even | odd"
   },
   "number-percentage": {
     "syntax": "<number> | <percentage>"
@@ -838,6 +856,12 @@
   },
   "sign()": {
     "syntax": "sign( <calc-sum> )"
+  },
+  "signed-integer": {
+    "syntax": "<number-token>"
+  },
+  "signless-integer": {
+    "syntax": "<number-token>"
   },
   "sin()": {
     "syntax": "sin( <calc-sum> )"

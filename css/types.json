@@ -1,10 +1,4 @@
 {
-  "an-plus-b": {
-    "groups": [
-      "Selectors"
-    ],
-    "status": "standard"
-  },
   "angle": {
     "groups": [
       "CSS Types"
