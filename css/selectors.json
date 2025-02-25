@@ -358,7 +358,7 @@
       "Pseudo-classes",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:has-slotted"
   },
   ":host": {
