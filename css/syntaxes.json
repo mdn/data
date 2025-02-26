@@ -150,7 +150,7 @@
     "syntax": "<color-base> | currentColor | <system-color> | <light-dark()> | <deprecated-system-color>"
   },
   "color()": {
-    "syntax": "color( [from <color>]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
+    "syntax": "color( [ from <color> ]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
   },
   "color-base": {
     "syntax": "<hex-color> | <color-function> | <named-color> | <color-mix()> | transparent"
