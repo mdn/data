@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.17.0](https://github.com/mdn/data/compare/v2.16.0...v2.17.0) (2025-02-26)
+
+
+### Features
+
+* **css:** Sync syntax for some css functions ([#938](https://github.com/mdn/data/issues/938)) ([de14073](https://github.com/mdn/data/commit/de140730e5ee83da2d84182c05bc4395c20140f9))
+
+
+### Miscellaneous
+
+* **css:** Add mdn_url for newly documented features ([#937](https://github.com/mdn/data/issues/937)) ([7384ff1](https://github.com/mdn/data/commit/7384ff1ae98ac4a138e72abe9d003cc57ec05134))
+* **css:** Update status for `:has-slotted` ([#936](https://github.com/mdn/data/issues/936)) ([43ac794](https://github.com/mdn/data/commit/43ac7940de5aaa7da62230dc41908719d34accd3))
+
 ## [2.16.0](https://github.com/mdn/data/compare/v2.15.0...v2.16.0) (2025-02-24)
 
 
