@@ -20,7 +20,7 @@
   "anchor()": {
     "syntax": "anchor( <anchor-name>? && <anchor-side>, <length-percentage>? )",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/anchor"
@@ -28,7 +28,7 @@
   "anchor-size()": {
     "syntax": "anchor-size( [ <anchor-name> || <anchor-size> ]? , <length-percentage>? )",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/anchor-size"
@@ -63,7 +63,7 @@
   "attr()": {
     "syntax": "attr( <attr-name> <type-or-unit>? [, <attr-fallback> ]? )",
     "groups": [
-      "CSS Generated Content"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/attr"
@@ -103,7 +103,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/calc-size"
   },
   "circle()": {
-    "syntax": "circle( [ <shape-radius> ]? [ at <position> ]? )",
+    "syntax": "circle( <radial-size>? [ at <position> ]? )",
     "groups": [
       "CSS Shapes"
     ],
@@ -138,8 +138,7 @@
   "conic-gradient()": {
     "syntax": "conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )",
     "groups": [
-      "CSS Backgrounds and Borders",
-      "CSS Color"
+      "CSS Images"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/conic-gradient"
@@ -180,8 +179,7 @@
   "cross-fade()": {
     "syntax": "cross-fade( <cf-mixing-image> , <cf-final-image>? )",
     "groups": [
-      "Filter Effects",
-      "CSS Color"
+      "CSS Images"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/cross-fade"
@@ -203,7 +201,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/element"
   },
   "ellipse()": {
-    "syntax": "ellipse( [ <shape-radius>{2} ]? [ at <position> ]? )",
+    "syntax": "ellipse( <radial-size>? [ at <position> ]? )",
     "groups": [
       "CSS Shapes"
     ],
@@ -213,7 +211,7 @@
   "env()": {
     "syntax": "env( <custom-ident> , <declaration-value>? )",
     "groups": [
-      "CSS Box Model"
+      "CSS Environment Variables"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/env"
@@ -346,7 +344,7 @@
     "groups": [
       "CSS Generated Content"
     ],
-    "status": "standard"
+    "status": "experimental"
   },
   "light-dark()": {
     "syntax": "light-dark( <color>, <color> )",
@@ -359,8 +357,7 @@
   "linear-gradient()": {
     "syntax": "linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )",
     "groups": [
-      "CSS Backgrounds and Borders",
-      "CSS Color"
+      "CSS Images"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/linear-gradient"
@@ -469,8 +466,7 @@
   "path()": {
     "syntax": "path( <'fill-rule'>? , <string> )",
     "groups": [
-      "CSS Shapes",
-      "CSS Motion Path"
+      "CSS Shapes"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/path"
@@ -503,8 +499,7 @@
   "radial-gradient()": {
     "syntax": "radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )",
     "groups": [
-      "CSS Backgrounds and Borders",
-      "CSS Color"
+      "CSS Images"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/radial-gradient"
@@ -512,10 +507,18 @@
   "ray()": {
     "syntax": "ray( <angle> && <ray-size>? && contain? && [at <position>]? )",
     "groups": [
-      "CSS Motion Path"
+      "Motion Path"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ray"
+  },
+  "rect()": {
+    "syntax": "rect( [ <length-percentage> | auto ]{4} [ round <'border-radius'> ]? )",
+    "groups": [
+      "CSS Shapes"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/rect"
   },
   "rem()": {
     "syntax": "rem( <calc-sum>, <calc-sum> )",
@@ -529,8 +532,7 @@
   "repeating-conic-gradient()": {
     "syntax": "repeating-conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )",
     "groups": [
-      "CSS Backgrounds and Borders",
-      "CSS Color"
+      "CSS Images"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-conic-gradient"
@@ -538,8 +540,7 @@
   "repeating-linear-gradient()": {
     "syntax": "repeating-linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )",
     "groups": [
-      "CSS Backgrounds and Borders",
-      "CSS Color"
+      "CSS Images"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-linear-gradient"
@@ -547,14 +548,13 @@
   "repeating-radial-gradient()": {
     "syntax": "repeating-radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )",
     "groups": [
-      "CSS Backgrounds and Borders",
-      "CSS Color"
+      "CSS Images"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-radial-gradient"
   },
   "rgb()": {
-    "syntax": "rgb( <percentage>#{3} , <alpha-value>? ) | rgb( <number>#{3} , <alpha-value>? ) | rgb( [ <number> | <percentage> | none ]{3} [ / [ <alpha-value> | none ] ]?  )",
+    "syntax": "rgb( <percentage>#{3} , <alpha-value>? ) | rgb( <number>#{3} , <alpha-value>? ) | rgb( [ <number> | <percentage> | none ]{3} [ / [ <alpha-value> | none ] ]? )",
     "groups": [
       "CSS Color"
     ],
@@ -562,7 +562,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/rgb"
   },
   "rgba()": {
-    "syntax": "rgba( <percentage>#{3} , <alpha-value>? ) | rgba( <number>#{3} , <alpha-value>? ) | rgba( [ <number> | <percentage> | none ]{3} [ / [ <alpha-value> | none ] ]?  )",
+    "syntax": "rgba( <percentage>#{3} , <alpha-value>? ) | rgba( <number>#{3} , <alpha-value>? ) | rgba( [ <number> | <percentage> | none ]{3} [ / [ <alpha-value> | none ] ]? )",
     "groups": [
       "CSS Color"
     ],
@@ -669,7 +669,7 @@
   "scroll()": {
     "syntax": "scroll( [ <scroller> || <axis> ]? )",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline/scroll"
@@ -733,6 +733,14 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/sqrt"
   },
+  "symbols()": {
+    "syntax": "symbols( <symbols-type>? [ <string> | <image> ]+ )",
+    "groups": [
+      "CSS Counter Styles"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/symbols"
+  },
   "tan()": {
     "syntax": "tan( <calc-sum> )",
     "groups": [
@@ -745,23 +753,23 @@
   "target-counter()": {
     "syntax": "target-counter( [ <string> | <url> ] , <custom-ident> , <counter-style>? )",
     "groups": [
-      "CSS Lists and Counters"
+      "CSS Generated Content"
     ],
-    "status": "nonstandard"
+    "status": "experimental"
   },
   "target-counters()": {
     "syntax": "target-counters( [ <string> | <url> ] , <custom-ident> , <string> , <counter-style>? )",
     "groups": [
-      "CSS Lists and Counters"
+      "CSS Generated Content"
     ],
-    "status": "nonstandard"
+    "status": "experimental"
   },
   "target-text()": {
     "syntax": "target-text( [ <string> | <url> ] , [ content | before | after | first-letter ]? )",
     "groups": [
       "CSS Generated Content"
     ],
-    "status": "standard"
+    "status": "experimental"
   },
   "translate()": {
     "syntax": "translate( <length-percentage> , <length-percentage>? )",
@@ -814,9 +822,17 @@
   "view()": {
     "syntax": "view([<axis> || <'view-timeline-inset'>]?)",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline/view"
+  },
+  "xywh()": {
+    "syntax": "xywh( <length-percentage>{2} <length-percentage [0,∞]>{2} [ round <'border-radius'> ]? )",
+    "groups": [
+      "CSS Shapes"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/xywh"
   }
 }

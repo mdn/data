@@ -44,6 +44,15 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Attribute_selectors"
   },
+  "Nesting selector": {
+    "syntax": "A { &B { } }",
+    "groups": [
+      "Basic Selectors",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Nesting_selector"
+  },
   "Selector list": {
     "syntax": ",",
     "groups": [
@@ -98,6 +107,15 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Column_combinator"
   },
+  "Namespace separator": {
+    "syntax": "A | B",
+    "groups": [
+      "Combinators",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Namespace_separator"
+  },
   "Pseudo-classes": {
     "syntax": ":",
     "groups": [
@@ -129,7 +147,8 @@
     "syntax": ":active-view-transition",
     "groups": [
       "Pseudo-classes",
-      "Selectors"
+      "Selectors",
+      "CSS View Transitions"
     ],
     "status": "standard"
   },
@@ -137,7 +156,8 @@
     "syntax": ":active-view-transition-type( <custom-ident># )",
     "groups": [
       "Pseudo-classes",
-      "Selectors"
+      "Selectors",
+      "CSS View Transitions"
     ],
     "status": "standard"
   },
@@ -338,7 +358,7 @@
       "Pseudo-classes",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:has-slotted"
   },
   ":host": {
@@ -496,7 +516,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:not"
   },
   ":nth-child()": {
-    "syntax": ":nth-child( <nth> [ of <complex-selector-list> ]? )",
+    "syntax": ":nth-child( <an+b> [ of <complex-selector-list> ]? )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
@@ -505,7 +525,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-child"
   },
   ":nth-last-child()": {
-    "syntax": ":nth-last-child( <nth> [ of <complex-selector-list> ]? )",
+    "syntax": ":nth-last-child( <an+b> [ of <complex-selector-list> ]? )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
@@ -514,7 +534,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-last-child"
   },
   ":nth-last-of-type()": {
-    "syntax": ":nth-last-of-type( <nth> )",
+    "syntax": ":nth-last-of-type( <an+b> )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
@@ -523,7 +543,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:nth-last-of-type"
   },
   ":nth-of-type()": {
-    "syntax": ":nth-of-type( <nth> )",
+    "syntax": ":nth-of-type( <an+b> )",
     "groups": [
       "Pseudo-classes",
       "Selectors"
@@ -1065,7 +1085,8 @@
       "Pseudo-elements",
       "Selectors"
     ],
-    "status": "experimental"
+    "status": "experimental",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::details-content"
   },
   "::file-selector-button": {
     "syntax": "::file-selector-button",
@@ -1116,7 +1137,8 @@
     "syntax": "::marker",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "CSS Lists and Counters"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::marker"
@@ -1125,7 +1147,8 @@
     "syntax": "::part( <ident>+ )",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "CSS Shadow Parts"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::part"
@@ -1179,7 +1202,8 @@
     "syntax": "::view-transition",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "CSS View Transitions"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition"
@@ -1188,7 +1212,8 @@
     "syntax": "::view-transition-group([ '*' | <custom-ident> ])",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "CSS View Transitions"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-group"
@@ -1197,7 +1222,8 @@
     "syntax": "::view-transition-image-pair([ '*' | <custom-ident> ])",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "CSS View Transitions"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-image-pair"
@@ -1206,7 +1232,8 @@
     "syntax": "::view-transition-new([ '*' | <custom-ident> ])",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "CSS View Transitions"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-new"
@@ -1215,7 +1242,8 @@
     "syntax": "::view-transition-old([ '*' | <custom-ident> ])",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "CSS View Transitions"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::view-transition-old"

@@ -1743,7 +1743,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": "none",
     "appliesto": "allElementsThatGenerateAPrincipalBox",
@@ -1759,7 +1759,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -1941,7 +1941,7 @@
     ],
     "percentages": "relativeToTimelineRangeIfSpecifiedOtherwiseEntireTimeline",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": [
       "animation-range-start",
@@ -1963,7 +1963,7 @@
     "animationType": "notAnimatable",
     "percentages": "relativeToTimelineRangeIfSpecifiedOtherwiseEntireTimeline",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": "normal",
     "appliesto": "allElements",
@@ -1979,7 +1979,7 @@
     "animationType": "notAnimatable",
     "percentages": "relativeToTimelineRangeIfSpecifiedOtherwiseEntireTimeline",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": "normal",
     "appliesto": "allElements",
@@ -2053,7 +2053,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/aspect-ratio"
   },
   "backdrop-filter": {
-    "syntax": "none | <filter-function-list>",
+    "syntax": "none | <filter-value-list>",
     "media": "visual",
     "inherited": false,
     "animationType": "filterList",
@@ -2375,7 +2375,7 @@
     "animationType": "lpc",
     "percentages": "blockSizeOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "auto",
     "appliesto": "sameAsWidthAndHeight",
@@ -2426,7 +2426,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "border-block-width",
@@ -2450,7 +2450,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
@@ -2470,7 +2470,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "border-top-width",
@@ -2494,7 +2494,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
@@ -2510,7 +2510,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -2526,7 +2526,7 @@
     "animationType": "byComputedValueType",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "medium",
     "appliesto": "allElements",
@@ -2546,7 +2546,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "border-width",
@@ -2570,7 +2570,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
@@ -2586,7 +2586,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -2602,7 +2602,7 @@
     "animationType": "byComputedValueType",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "medium",
     "appliesto": "allElements",
@@ -2618,7 +2618,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -2634,7 +2634,7 @@
     "animationType": "byComputedValueType",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "medium",
     "appliesto": "allElements",
@@ -2826,7 +2826,7 @@
     "animationType": "lpc",
     "percentages": "referToDimensionOfBorderBox",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "allElementsUAsNotRequiredWhenCollapse",
@@ -2845,7 +2845,7 @@
     "animationType": "lpc",
     "percentages": "referToDimensionOfBorderBox",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "allElementsUAsNotRequiredWhenCollapse",
@@ -3003,7 +3003,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "border-inline-width",
@@ -3027,7 +3027,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
@@ -3047,7 +3047,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "border-width",
@@ -3071,7 +3071,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
@@ -3087,7 +3087,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -3103,7 +3103,7 @@
     "animationType": "byComputedValueType",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "medium",
     "appliesto": "allElements",
@@ -3123,7 +3123,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "border-width",
@@ -3147,7 +3147,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "currentcolor",
     "appliesto": "allElements",
@@ -3163,7 +3163,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -3179,7 +3179,7 @@
     "animationType": "byComputedValueType",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "medium",
     "appliesto": "allElements",
@@ -3195,7 +3195,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -3211,7 +3211,7 @@
     "animationType": "byComputedValueType",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "medium",
     "appliesto": "allElements",
@@ -3453,7 +3453,7 @@
     "animationType": "lpc",
     "percentages": "referToDimensionOfBorderBox",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "allElementsUAsNotRequiredWhenCollapse",
@@ -3472,7 +3472,7 @@
     "animationType": "lpc",
     "percentages": "referToDimensionOfBorderBox",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "allElementsUAsNotRequiredWhenCollapse",
@@ -4050,7 +4050,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "Scalable Vector Graphics"
+      "CSS Masking"
     ],
     "initial": "nonzero",
     "appliesto": "limitedSVGElementsGraphics",
@@ -4499,7 +4499,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Counter Styles"
+      "CSS Lists and Counters"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -4515,7 +4515,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Counter Styles"
+      "CSS Lists and Counters"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -4531,7 +4531,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Counter Styles"
+      "CSS Lists and Counters"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -4646,6 +4646,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
+      "CSS Inline",
       "Scalable Vector Graphics"
     ],
     "initial": "auto",
@@ -4736,7 +4737,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fill-rule"
   },
   "filter": {
-    "syntax": "none | <filter-function-list>",
+    "syntax": "none | <filter-value-list>",
     "media": "visual",
     "inherited": false,
     "animationType": "filterList",
@@ -6115,7 +6116,7 @@
     "animationType": "lpc",
     "percentages": "inlineSizeOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "auto",
     "appliesto": "sameAsWidthAndHeight",
@@ -6131,7 +6132,7 @@
     "animationType": "lpc",
     "percentages": "logicalHeightOrWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "top",
@@ -6157,7 +6158,7 @@
     "animationType": "lpc",
     "percentages": "logicalHeightOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "inset-block-start",
@@ -6179,7 +6180,7 @@
     "animationType": "lpc",
     "percentages": "logicalHeightOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -6195,7 +6196,7 @@
     "animationType": "lpc",
     "percentages": "logicalHeightOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -6211,7 +6212,7 @@
     "animationType": "lpc",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "inset-inline-start",
@@ -6233,7 +6234,7 @@
     "animationType": "lpc",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -6249,7 +6250,7 @@
     "animationType": "lpc",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -6435,7 +6436,8 @@
     "appliesto": "blockContainersExceptMultiColumnContainers",
     "computed": "asSpecified",
     "order": "perGrammar",
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/line-clamp"
   },
   "line-height": {
     "syntax": "normal | <number> | <length> | <percentage>",
@@ -6444,7 +6446,7 @@
     "animationType": "numberOrLength",
     "percentages": "referToElementFontSize",
     "groups": [
-      "CSS Fonts"
+      "CSS Inline"
     ],
     "initial": "normal",
     "appliesto": "allElements",
@@ -6465,7 +6467,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Fonts"
+      "CSS Rhythmic Sizing"
     ],
     "initial": "0",
     "appliesto": "blockContainers",
@@ -6586,7 +6588,7 @@
     "animationType": "length",
     "percentages": "dependsOnLayoutModel",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "margin-block-start",
@@ -6608,7 +6610,7 @@
     "animationType": "length",
     "percentages": "dependsOnLayoutModel",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "sameAsMargin",
@@ -6624,7 +6626,7 @@
     "animationType": "length",
     "percentages": "dependsOnLayoutModel",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "sameAsMargin",
@@ -6659,7 +6661,7 @@
     "animationType": "length",
     "percentages": "dependsOnLayoutModel",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "margin-inline-start",
@@ -6681,7 +6683,7 @@
     "animationType": "length",
     "percentages": "dependsOnLayoutModel",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "sameAsMargin",
@@ -6697,7 +6699,7 @@
     "animationType": "length",
     "percentages": "dependsOnLayoutModel",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "sameAsMargin",
@@ -7248,7 +7250,7 @@
     "animationType": "lpc",
     "percentages": "blockSizeOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "none",
     "appliesto": "sameAsWidthAndHeight",
@@ -7280,7 +7282,7 @@
     "animationType": "lpc",
     "percentages": "inlineSizeOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "none",
     "appliesto": "sameAsWidthAndHeight",
@@ -7327,7 +7329,7 @@
     "animationType": "lpc",
     "percentages": "blockSizeOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "sameAsWidthAndHeight",
@@ -7359,7 +7361,7 @@
     "animationType": "lpc",
     "percentages": "inlineSizeOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "sameAsWidthAndHeight",
@@ -7450,7 +7452,7 @@
       "offset-anchor"
     ],
     "groups": [
-      "CSS Motion Path"
+      "Motion Path"
     ],
     "initial": [
       "offset-position",
@@ -7479,7 +7481,7 @@
     "animationType": "position",
     "percentages": "relativeToWidthAndHeight",
     "groups": [
-      "CSS Motion Path"
+      "Motion Path"
     ],
     "initial": "auto",
     "appliesto": "transformableElements",
@@ -7495,7 +7497,7 @@
     "animationType": "lpc",
     "percentages": "referToTotalPathLength",
     "groups": [
-      "CSS Motion Path"
+      "Motion Path"
     ],
     "initial": "0",
     "appliesto": "transformableElements",
@@ -7511,7 +7513,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Motion Path"
+      "Motion Path"
     ],
     "initial": "none",
     "appliesto": "transformableElements",
@@ -7528,7 +7530,7 @@
     "animationType": "position",
     "percentages": "referToSizeOfContainingBlock",
     "groups": [
-      "CSS Motion Path"
+      "Motion Path"
     ],
     "initial": "normal",
     "appliesto": "transformableElements",
@@ -7544,7 +7546,7 @@
     "animationType": "angleOrBasicShapeOrPath",
     "percentages": "no",
     "groups": [
-      "CSS Motion Path"
+      "Motion Path"
     ],
     "initial": "auto",
     "appliesto": "transformableElements",
@@ -7579,7 +7581,7 @@
     "animationType": "integer",
     "percentages": "no",
     "groups": [
-      "CSS Flexible Box Layout"
+      "CSS Display"
     ],
     "initial": "0",
     "appliesto": "flexItemsGridItemsAbsolutelyPositionedContainerChildren",
@@ -7605,7 +7607,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/orphans"
   },
   "outline": {
-    "syntax": "[ <'outline-width'> || <'outline-style'> || <'outline-color'> ]",
+    "syntax": "<'outline-width'> || <'outline-style'> || <'outline-color'>",
     "media": [
       "visual",
       "interactive"
@@ -7993,7 +7995,7 @@
     "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "padding-block-start",
@@ -8015,7 +8017,7 @@
     "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "allElementsExceptInternalTableDisplayTypes",
@@ -8031,7 +8033,7 @@
     "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "allElementsExceptInternalTableDisplayTypes",
@@ -8067,7 +8069,7 @@
     "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": [
       "padding-inline-start",
@@ -8089,7 +8091,7 @@
     "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "allElementsExceptInternalTableDisplayTypes",
@@ -8105,7 +8107,7 @@
     "animationType": "length",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties"
+      "CSS Logical Properties and Values"
     ],
     "initial": "0",
     "appliesto": "allElementsExceptInternalTableDisplayTypes",
@@ -8206,7 +8208,7 @@
     "appliesto": "blockElementsInNormalFlow",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "standard",
+    "status": "obsolete",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/page-break-after"
   },
   "page-break-before": {
@@ -8225,7 +8227,7 @@
     "appliesto": "blockElementsInNormalFlow",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "standard",
+    "status": "obsolete",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/page-break-before"
   },
   "page-break-inside": {
@@ -8244,7 +8246,7 @@
     "appliesto": "blockElementsInNormalFlow",
     "computed": "asSpecified",
     "order": "uniqueOrder",
-    "status": "standard",
+    "status": "obsolete",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/page-break-inside"
   },
   "paint-order": {
@@ -8254,7 +8256,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Text"
+      "Scalable Vector Graphics"
     ],
     "initial": "normal",
     "appliesto": "textElements",
@@ -8402,7 +8404,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": "auto",
     "appliesto": "absolutelyPositionedElements",
@@ -8418,7 +8420,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": "none",
     "appliesto": "positionedElementsWithADefaultAnchorElement",
@@ -8440,7 +8442,7 @@
       "position-try-order"
     ],
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": [
       "position-try-fallbacks",
@@ -8462,7 +8464,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": "none",
     "appliesto": "absolutelyPositionedElements",
@@ -8478,7 +8480,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": "normal",
     "appliesto": "absolutelyPositionedElements",
@@ -8494,7 +8496,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Anchor Positioning"
     ],
     "initial": "anchors-visible",
     "appliesto": "absolutelyPositionedElements",
@@ -9272,7 +9274,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": [
       "scroll-timeline-name",
@@ -9294,7 +9296,7 @@
     "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": "block",
     "appliesto": "scrollContainers",
@@ -9310,7 +9312,7 @@
     "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": "none",
     "appliesto": "scrollContainers",
@@ -9326,7 +9328,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Scrollbars"
+      "CSS Scrollbars Styling"
     ],
     "initial": "auto",
     "appliesto": "scrollingBoxes",
@@ -9358,7 +9360,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Scrollbars"
+      "CSS Scrollbars Styling"
     ],
     "initial": "auto",
     "appliesto": "scrollingBoxes",
@@ -9422,7 +9424,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Shapes"
+      "Scalable Vector Graphics"
     ],
     "initial": "auto",
     "appliesto": "limitedSVGElementsShapes",
@@ -10045,7 +10047,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Basic User Interface"
+      "CSS Overflow"
     ],
     "initial": "clip",
     "appliesto": "blockContainerElements",
@@ -10101,7 +10103,7 @@
     "animationType": "byComputedValueType",
     "percentages": "referToSizeOfFont",
     "groups": [
-      "CSS Text"
+      "CSS Mobile Text Size Adjustment"
     ],
     "initial": "autoForSmartphoneBrowsersSupportingInflation",
     "appliesto": "allElements",
@@ -10127,13 +10129,14 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-spacing-trim"
   },
   "text-transform": {
-    "syntax": "none | capitalize | uppercase | lowercase | full-width | full-size-kana",
+    "syntax": "none | [ capitalize | uppercase | lowercase ] || full-width || full-size-kana | math-auto",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Text"
+      "CSS Text",
+      "MathML"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -10248,7 +10251,7 @@
     "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -10535,7 +10538,7 @@
     "animationType": "length",
     "percentages": "referToLineHeight",
     "groups": [
-      "CSS Table"
+      "CSS Inline"
     ],
     "initial": "baseline",
     "appliesto": "inlineLevelAndTableCellElements",
@@ -10559,7 +10562,7 @@
     ],
     "percentages": "no",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": [
       "view-timeline-name",
@@ -10581,7 +10584,7 @@
     "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": "block",
     "appliesto": "allElements",
@@ -10597,7 +10600,7 @@
     "animationType": "byComputedValueType",
     "percentages": "relativeToCorrespondingDimensionOfRelevantScrollport",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": "auto",
     "appliesto": "allElements",
@@ -10613,7 +10616,7 @@
     "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
-      "CSS Animations"
+      "Scroll-driven Animations"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -10645,7 +10648,8 @@
     "animationType": "visibility",
     "percentages": "no",
     "groups": [
-      "CSS Box Model"
+      "CSS Display",
+      "Scalable Vector Graphics"
     ],
     "initial": "visible",
     "appliesto": "allElements",
@@ -10655,7 +10659,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/visibility"
   },
   "white-space": {
-    "syntax": "normal | pre | nowrap | pre-wrap | pre-line | break-spaces | [ <'white-space-collapse'> || <'text-wrap'> ]",
+    "syntax": "normal | pre | pre-wrap | pre-line | <'white-space-collapse'> || <'text-wrap-mode'>",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -10853,18 +10857,18 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/z-index"
   },
   "zoom": {
-    "syntax": "normal | reset | <number> | <percentage>",
+    "syntax": "normal | reset | <number [0,∞]> || <percentage [0,∞]>",
     "media": "visual",
     "inherited": false,
     "animationType": "notAnimatable",
-    "percentages": "no",
+    "percentages": "convertedToNumber",
     "groups": [
-      "Microsoft Extensions"
+      "CSS Viewport"
     ],
-    "initial": "normal",
+    "initial": "1",
     "appliesto": "allElements",
-    "computed": "asSpecified",
-    "order": "uniqueOrder",
+    "computed": "asSpecifiedButWithPercentageConvertedToTheEquivalentNumber",
+    "order": "perGrammar",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/zoom"
   }

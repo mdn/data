@@ -11,6 +11,9 @@
   "alpha-value": {
     "syntax": "<number> | <percentage>"
   },
+  "an+b": {
+    "syntax": "odd | even | <integer> | <n-dimension> | '+'?† n | -n | <ndashdigit-dimension> | '+'?† <ndashdigit-ident> | <dashndashdigit-ident> | <n-dimension> <signed-integer> | '+'?† n <signed-integer> | -n <signed-integer> | <ndash-dimension> <signless-integer> | '+'?† n- <signless-integer> | -n- <signless-integer> | <n-dimension> ['+' | '-'] <signless-integer> | '+'?† n ['+' | '-'] <signless-integer> | -n ['+' | '-'] <signless-integer>"
+  },
   "anchor()": {
     "syntax": "anchor( <anchor-name>? && <anchor-side>, <length-percentage>? )"
   },
@@ -132,7 +135,7 @@
     "syntax": "<percentage>? && <image>"
   },
   "circle()": {
-    "syntax": "circle( [ <shape-radius> ]? [ at <position> ]? )"
+    "syntax": "circle( <radial-size>? [ at <position> ]? )"
   },
   "clamp()": {
     "syntax": "clamp( <calc-sum>#{3} )"
@@ -146,14 +149,14 @@
   "color": {
     "syntax": "<color-base> | currentColor | <system-color> | <light-dark()> | <deprecated-system-color>"
   },
+  "color()": {
+    "syntax": "color( [ from <color> ]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
+  },
   "color-base": {
     "syntax": "<hex-color> | <color-function> | <named-color> | <color-mix()> | transparent"
   },
   "color-function": {
     "syntax": "<rgb()> | <rgba()> | <hsl()> | <hsla()> | <hwb()> | <lab()> | <lch()> | <oklab()> | <oklch()> | <color()>"
-  },
-  "color()": {
-    "syntax": "color( [from <color>]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
   },
   "color-interpolation-method": {
     "syntax": "in [ <rectangular-color-space> | <polar-color-space> <hue-interpolation-method>? | <custom-color-space> ]"
@@ -272,6 +275,9 @@
   "dasharray": {
     "syntax": "[ [ <length-percentage> | <number> ]+ ]#"
   },
+  "dashndashdigit-ident": {
+    "syntax": "<ident-token>"
+  },
   "deprecated-system-color": {
     "syntax": "ActiveBorder | ActiveCaption | AppWorkspace | Background | ButtonHighlight | ButtonShadow | CaptionText | InactiveBorder | InactiveCaption | InactiveCaptionText | InfoBackground | InfoText | Menu | MenuText | Scrollbar | ThreeDDarkShadow | ThreeDFace | ThreeDHighlight | ThreeDLightShadow | ThreeDShadow | Window | WindowFrame | WindowText"
   },
@@ -312,7 +318,7 @@
     "syntax": "element( <id-selector> )"
   },
   "ellipse()": {
-    "syntax": "ellipse( [ <shape-radius>{2} ]? [ at <position> ]? )"
+    "syntax": "ellipse( <radial-size>? [ at <position> ]? )"
   },
   "ending-shape": {
     "syntax": "circle | ellipse"
@@ -353,7 +359,7 @@
   "filter-function": {
     "syntax": "<blur()> | <brightness()> | <contrast()> | <drop-shadow()> | <grayscale()> | <hue-rotate()> | <invert()> | <opacity()> | <saturate()> | <sepia()>"
   },
-  "filter-function-list": {
+  "filter-value-list": {
     "syntax": "[ <filter-function> | <url> ]+"
   },
   "final-bg-layer": {
@@ -430,6 +436,9 @@
   },
   "id-selector": {
     "syntax": "<hash-token>"
+  },
+  "integer": {
+    "syntax": "<number-token>"
   },
   "image": {
     "syntax": "<url> | <image()> | <image-set()> | <element()> | <paint()> | <cross-fade()> | <gradient>"
@@ -596,6 +605,18 @@
   "mod()": {
     "syntax": "mod( <calc-sum>, <calc-sum> )"
   },
+  "n-dimension": {
+    "syntax": "<dimension-token>"
+  },
+  "ndash-dimension": {
+    "syntax": "<dimension-token>"
+  },
+  "ndashdigit-dimension": {
+    "syntax": "<dimension-token>"
+  },
+  "ndashdigit-ident": {
+    "syntax": "<ident-token>"
+  },
   "name-repeat": {
     "syntax": "repeat( [ <integer [1,∞]> | auto-fill ], <line-names>+ )"
   },
@@ -607,9 +628,6 @@
   },
   "ns-prefix": {
     "syntax": "[ <ident-token> | '*' ]? '|'"
-  },
-  "nth": {
-    "syntax": "<an-plus-b> | even | odd"
   },
   "number-percentage": {
     "syntax": "<number> | <percentage>"
@@ -722,8 +740,14 @@
   "quote": {
     "syntax": "open-quote | close-quote | no-open-quote | no-close-quote"
   },
+  "radial-extent": {
+    "syntax": "closest-corner | closest-side | farthest-corner | farthest-side"
+  },
   "radial-gradient()": {
     "syntax": "radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )"
+  },
+  "radial-size": {
+    "syntax": "<radial-extent> | <length [0,∞]> | <length-percentage [0,∞]>{2}"
   },
   "ratio": {
     "syntax": "<number [0,∞]> [ / <number [0,∞]> ]?"
@@ -745,6 +769,9 @@
   },
   "relative-size": {
     "syntax": "larger | smaller"
+  },
+  "rect()": {
+    "syntax": "rect( [ <length-percentage> | auto ]{4} [ round <'border-radius'> ]? )"
   },
   "rem()": {
     "syntax": "rem( <calc-sum>, <calc-sum> )"
@@ -851,14 +878,17 @@
   "shape-box": {
     "syntax": "<visual-box> | margin-box"
   },
-  "shape-radius": {
-    "syntax": "<length-percentage> | closest-side | farthest-side"
-  },
   "side-or-corner": {
     "syntax": "[ left | right ] || [ top | bottom ]"
   },
   "sign()": {
     "syntax": "sign( <calc-sum> )"
+  },
+  "signed-integer": {
+    "syntax": "<number-token>"
+  },
+  "signless-integer": {
+    "syntax": "<number-token>"
   },
   "sin()": {
     "syntax": "sin( <calc-sum> )"
@@ -943,6 +973,12 @@
   },
   "symbol": {
     "syntax": "<string> | <image> | <custom-ident>"
+  },
+  "symbols()": {
+    "syntax": "symbols( <symbols-type>? [ <string> | <image> ]+ )"
+  },
+  "symbols-type": {
+    "syntax": "cyclic | numeric | alphabetic | symbolic | fixed"
   },
   "system-color": {
     "syntax": "AccentColor | AccentColorText | ActiveText | ButtonBorder | ButtonFace | ButtonText | Canvas | CanvasText | Field | FieldText | GrayText | Highlight | HighlightText | LinkText | Mark | MarkText | SelectedItem | SelectedItemText | VisitedText"
@@ -1033,6 +1069,9 @@
   },
   "wq-name": {
     "syntax": "<ns-prefix>? <ident-token>"
+  },
+  "xywh()": {
+    "syntax": "xywh( <length-percentage>{2} <length-percentage [0,∞]>{2} [ round <'border-radius'> ]? )"
   },
   "xyz": {
     "syntax": "xyz | xyz-d50 | xyz-d65"
