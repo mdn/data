@@ -1,10 +1,4 @@
 {
-  "an-plus-b": {
-    "groups": [
-      "Selectors"
-    ],
-    "status": "standard"
-  },
   "angle": {
     "groups": [
       "CSS Types"
@@ -111,7 +105,6 @@
   },
   "easing-function": {
     "groups": [
-      "CSS Animations",
       "CSS Transitions",
       "CSS Types"
     ],

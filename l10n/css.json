@@ -431,6 +431,9 @@
     "ca": "com s'especifica, excepte que si {{cssxref(\"overflow-x\")}} o bé {{cssxref(\"overflow-y\")}} són diferents de <code>visible</code> o <code>clip</code>, aquests dos valors computen a <code>auto</code> o <code>hidden</code> respectivament",
     "ja": "指定通り、ただし {{cssxref(\"overflow-x\")}} と {{cssxref(\"overflow-y\")}} のどちらかが <code>visible</code> でも </code>clip</code> でもない場合は、 <code>visible</code>/<code>clip</code> はそれぞれ <code>auto</code>/<code>hidden</code> と計算される"
   },
+  "asSpecifiedButWithPercentageConvertedToTheEquivalentNumber": {
+    "en-US": "as specified, but with {{cssxref(\"&lt;percentage&gt;\")}} converted to the equivalent {{cssxref(\"&lt;number&gt;\")}}"
+  },
   "asSpecifiedExceptMatchParent": {
     "de": "wie angegeben, außer für den <code>match-parent</code> Wert, welcher in Bezug auf den <code>direction</code> Wert des Elternelements berechnet wird und einen berechneten Wert von <code>left</code> oder <code>right</code> ergibt",
     "en-US": "as specified, except for the <code>match-parent</code> value which is calculated against its parent's <code>direction</code> value and results in a computed value of either <code>left</code> or <code>right</code>",
@@ -681,6 +684,9 @@
     "fr": "continu",
     "ja": "連続メディア",
     "ru": "продолжительный"
+  },
+  "convertedToNumber": {
+    "en-US": "Converted to {{cssxref(\"&lt;number&gt;\")}}"
   },
   "createsStackingContext": {
     "de": "Erstellt <a href=\"/de/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context\">Stapelkontext</a>",
