@@ -10625,6 +10625,21 @@
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-timeline-name"
   },
+  "view-transition-class": {
+    "syntax": "none | <custom-ident>+",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS View Transitions"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard"
+  },
   "view-transition-name": {
     "syntax": "none | <custom-ident>",
     "media": "visual",
