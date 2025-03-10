@@ -732,6 +732,14 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:target"
   },
+  ":target-current": {
+    "syntax": ":target-current",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "experimental"
+  },
   ":target-within": {
     "syntax": ":target-within",
     "groups": [
@@ -1161,6 +1169,22 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::placeholder"
+  },
+  "::scroll-marker": {
+    "syntax": "::scroll-marker",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors"
+    ],
+    "status": "experimental"
+  },
+  "::scroll-marker-group": {
+    "syntax": "::scroll-marker-group",
+    "groups": [
+      "Pseudo-elements",
+      "Selectors"
+    ],
+    "status": "experimental"
   },
   "::selection": {
     "syntax": "::selection",
