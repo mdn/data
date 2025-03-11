@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.18.0](https://github.com/mdn/data/compare/v2.17.0...v2.18.0) (2025-03-10)
+
+
+### Features
+
+* **css:** Add data for `:target-current` `::scroll-marker` `::scroll-marker-group` ([#941](https://github.com/mdn/data/issues/941)) ([7e25ddc](https://github.com/mdn/data/commit/7e25ddc576dc27ae8454c2748e823571f87cb38d))
+* **css:** Add data for `view-transition-class` ([#940](https://github.com/mdn/data/issues/940)) ([6f35883](https://github.com/mdn/data/commit/6f358838c7225ccbcd8ec4c364499202529eb07a))
+
 ## [2.17.0](https://github.com/mdn/data/compare/v2.16.0...v2.17.0) (2025-02-26)
 
 
