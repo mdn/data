@@ -428,9 +428,6 @@
   "id-selector": {
     "syntax": "<hash-token>"
   },
-  "integer": {
-    "syntax": "<number-token>"
-  },
   "image": {
     "syntax": "<url> | <image()> | <image-set()> | <element()> | <paint()> | <cross-fade()> | <gradient>"
   },
@@ -454,6 +451,9 @@
   },
   "inset()": {
     "syntax": "inset( <length-percentage>{1,4} [ round <'border-radius'> ]? )"
+  },
+  "integer": {
+    "syntax": "<number-token>"
   },
   "invert()": {
     "syntax": "invert( [ <number> | <percentage> ]? )"
@@ -599,15 +599,6 @@
   "n-dimension": {
     "syntax": "<dimension-token>"
   },
-  "ndash-dimension": {
-    "syntax": "<dimension-token>"
-  },
-  "ndashdigit-dimension": {
-    "syntax": "<dimension-token>"
-  },
-  "ndashdigit-ident": {
-    "syntax": "<ident-token>"
-  },
   "name-repeat": {
     "syntax": "repeat( [ <integer [1,∞]> | auto-fill ], <line-names>+ )"
   },
@@ -616,6 +607,15 @@
   },
   "namespace-prefix": {
     "syntax": "<ident>"
+  },
+  "ndash-dimension": {
+    "syntax": "<dimension-token>"
+  },
+  "ndashdigit-dimension": {
+    "syntax": "<dimension-token>"
+  },
+  "ndashdigit-ident": {
+    "syntax": "<ident-token>"
   },
   "ns-prefix": {
     "syntax": "[ <ident-token> | '*' ]? '|'"
@@ -746,6 +746,9 @@
   "ray-size": {
     "syntax": "closest-side | closest-corner | farthest-side | farthest-corner | sides"
   },
+  "rect()": {
+    "syntax": "rect( [ <length-percentage> | auto ]{4} [ round <'border-radius'> ]? )"
+  },
   "rectangular-color-space": {
     "syntax": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020 | lab | oklab | xyz | xyz-d50 | xyz-d65"
   },
@@ -757,9 +760,6 @@
   },
   "relative-size": {
     "syntax": "larger | smaller"
-  },
-  "rect()": {
-    "syntax": "rect( [ <length-percentage> | auto ]{4} [ round <'border-radius'> ]? )"
   },
   "rem()": {
     "syntax": "rem( <calc-sum>, <calc-sum> )"
