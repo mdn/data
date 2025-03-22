@@ -10553,7 +10553,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/vertical-align"
   },
   "view-timeline": {
-    "syntax": "[ <'view-timeline-name'> <'view-timeline-axis'>? ]#",
+    "syntax": "[ <'view-timeline-name'> [ <'view-timeline-axis'> || <'view-timeline-inset'> ]? ]#",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -10610,7 +10610,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-timeline-inset"
   },
   "view-timeline-name": {
-    "syntax": "none | <dashed-ident>#",
+    "syntax": "[ none | <dashed-ident> ]#",
     "media": "interactive",
     "inherited": false,
     "animationType": "notAnimatable",
