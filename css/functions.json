@@ -355,7 +355,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/light-dark"
   },
   "linear-gradient()": {
-    "syntax": "linear-gradient( [ [ <angle> | <zero> | to <side-or-corner> ] || <color-interpolation-method> ]? , <color-stop-list> )",
+    "syntax": "linear-gradient( [ <linear-gradient-syntax> ] )",
     "groups": [
       "CSS Images"
     ],
@@ -538,7 +538,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-conic-gradient"
   },
   "repeating-linear-gradient()": {
-    "syntax": "repeating-linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )",
+    "syntax": "repeating-linear-gradient( [ <linear-gradient-syntax> ] )",
     "groups": [
       "CSS Images"
     ],

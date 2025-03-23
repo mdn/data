@@ -513,7 +513,10 @@
     "syntax": "<color> <color-stop-length>?"
   },
   "linear-gradient()": {
-    "syntax": "linear-gradient( [ [ <angle> | <zero> | to <side-or-corner> ] || <color-interpolation-method> ]? , <color-stop-list> )"
+    "syntax": "linear-gradient( [ <linear-gradient-syntax> ] )"
+  },
+  "linear-gradient-syntax": {
+    "syntax": "[ [ <angle> | <zero> | to <side-or-corner> ] || <color-interpolation-method> ]? , <color-stop-list>"
   },
   "log()": {
     "syntax": "log( <calc-sum>, <calc-sum>? )"
@@ -771,7 +774,7 @@
     "syntax": "repeating-conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )"
   },
   "repeating-linear-gradient()": {
-    "syntax": "repeating-linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )"
+    "syntax": "repeating-linear-gradient( [ <linear-gradient-syntax> ] )"
   },
   "repeating-radial-gradient()": {
     "syntax": "repeating-radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )"
