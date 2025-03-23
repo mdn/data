@@ -311,9 +311,6 @@
   "ellipse()": {
     "syntax": "ellipse( <radial-size>? [ at <position> ]? )"
   },
-  "ending-shape": {
-    "syntax": "circle | ellipse"
-  },
   "env()": {
     "syntax": "env( <custom-ident> , <declaration-value>? )"
   },
@@ -732,7 +729,13 @@
     "syntax": "closest-corner | closest-side | farthest-corner | farthest-side"
   },
   "radial-gradient()": {
-    "syntax": "radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )"
+    "syntax": "radial-gradient( [ <radial-gradient-syntax> ] )"
+  },
+  "radial-gradient-syntax": {
+    "syntax": "[ [ [ <radial-shape> || <radial-size> ]? [ at <position> ]? ] || <color-interpolation-method> ]? , <color-stop-list>"
+  },
+  "radial-shape": {
+    "syntax": "circle | ellipse"
   },
   "radial-size": {
     "syntax": "<radial-extent> | <length [0,∞]> | <length-percentage [0,∞]>{2}"
@@ -774,7 +777,7 @@
     "syntax": "repeating-linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )"
   },
   "repeating-radial-gradient()": {
-    "syntax": "repeating-radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )"
+    "syntax": "repeating-radial-gradient( [ <radial-gradient-syntax> ] )"
   },
   "reversed-counter-name": {
     "syntax": "reversed( <counter-name> )"
@@ -898,9 +901,6 @@
   },
   "single-transition-property": {
     "syntax": "all | <custom-ident>"
-  },
-  "size": {
-    "syntax": "closest-side | farthest-side | closest-corner | farthest-corner | <length> | <length-percentage>{2}"
   },
   "skew()": {
     "syntax": "skew( [ <angle> | <zero> ] , [ <angle> | <zero> ]? )"

@@ -497,7 +497,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/pow"
   },
   "radial-gradient()": {
-    "syntax": "radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )",
+    "syntax": "radial-gradient( [ <radial-gradient-syntax> ] )",
     "groups": [
       "CSS Images"
     ],
@@ -546,7 +546,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-linear-gradient"
   },
   "repeating-radial-gradient()": {
-    "syntax": "repeating-radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )",
+    "syntax": "repeating-radial-gradient( [ <radial-gradient-syntax> ] )",
     "groups": [
       "CSS Images"
     ],
