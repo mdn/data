@@ -184,6 +184,14 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/cross-fade"
   },
+  "cubic-bezier()": {
+    "syntax": "cubic-bezier( [ <number [0,1]>, <number> ]#{2} )",
+    "groups": [
+      "CSS Easing Functions"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/easing-function/cubic-bezier"
+  },
   "drop-shadow()": {
     "syntax": "drop-shadow( [ <color>? && <length>{2,3} ] )",
     "groups": [
@@ -353,6 +361,14 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/light-dark"
+  },
+  "linear()": {
+    "syntax": "linear( [ <number> && <percentage>{0,2} ]# )",
+    "groups": [
+      "CSS Easing Functions"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/easing-function/linear"
   },
   "linear-gradient()": {
     "syntax": "linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )",
@@ -732,6 +748,14 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/sqrt"
+  },
+  "steps()": {
+    "syntax": "steps( <integer>, <step-position>? )",
+    "groups": [
+      "CSS Easing Functions"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/easing-function/steps"
   },
   "symbols()": {
     "syntax": "symbols( <symbols-type>? [ <string> | <image> ]+ )",
