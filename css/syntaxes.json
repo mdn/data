@@ -513,7 +513,7 @@
     "syntax": "<color> <color-stop-length>?"
   },
   "linear-gradient()": {
-    "syntax": "linear-gradient( [ [ <angle> | to <side-or-corner> ] || <color-interpolation-method> ]? , <color-stop-list> )"
+    "syntax": "linear-gradient( [ [ <angle> | <zero> | to <side-or-corner> ] || <color-interpolation-method> ]? , <color-stop-list> )"
   },
   "log()": {
     "syntax": "log( <calc-sum>, <calc-sum>? )"
