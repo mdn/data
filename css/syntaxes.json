@@ -33,13 +33,13 @@
     "syntax": "<angle> | <percentage>"
   },
   "angular-color-hint": {
-    "syntax": "<angle-percentage>"
+    "syntax": "<angle-percentage> | <zero>"
   },
   "angular-color-stop": {
-    "syntax": "<color> && <color-stop-angle>?"
+    "syntax": "<color> <color-stop-angle>?"
   },
   "angular-color-stop-list": {
-    "syntax": "[ <angular-color-stop> [, <angular-color-hint>]? ]# , <angular-color-stop>"
+    "syntax": "<angular-color-stop> , [ <angular-color-hint>? , <angular-color-stop> ]#?"
   },
   "animateable-feature": {
     "syntax": "scroll-position | contents | <custom-ident>"
@@ -168,13 +168,13 @@
     "syntax": "<color-stop-length> | <color-stop-angle>"
   },
   "color-stop-angle": {
-    "syntax": "<angle-percentage>{1,2}"
+    "syntax": "[ <angle-percentage> | <zero> ]{1,2}"
   },
   "color-stop-length": {
     "syntax": "<length-percentage>{1,2}"
   },
   "color-stop-list": {
-    "syntax": "[ <linear-color-stop> [, <linear-color-hint>]? ]# , <linear-color-stop>"
+    "syntax": "<linear-color-stop> , [ <linear-color-hint>? , <linear-color-stop> ]#?"
   },
   "colorspace-params": {
     "syntax": "[<custom-params> | <predefined-rgb-params> | <xyz-params>]"
