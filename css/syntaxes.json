@@ -207,7 +207,7 @@
     "syntax": "<compound-selector>#"
   },
   "conic-gradient()": {
-    "syntax": "conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )"
+    "syntax": "conic-gradient( [ [ [ from <angle> ]? [ at <position> ]? ] || <color-interpolation-method> ]? , <angular-color-stop-list> )"
   },
   "content-distribution": {
     "syntax": "space-between | space-around | space-evenly | stretch"
