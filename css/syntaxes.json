@@ -380,14 +380,17 @@
   "frequency-percentage": {
     "syntax": "<frequency> | <percentage>"
   },
+  "generic-complete": {
+    "syntax": "serif | sans-serif | system-ui | cursive | fantasy | math | monospace"
+  },
   "general-enclosed": {
     "syntax": "[ <function-token> <any-value> ) ] | ( <ident> <any-value> )"
   },
   "generic-family": {
-    "syntax": "serif | sans-serif | cursive | fantasy | monospace"
+    "syntax": "<generic-complete> | <generic-incomplete> | emoji | fangsong"
   },
-  "generic-name": {
-    "syntax": "serif | sans-serif | cursive | fantasy | monospace"
+  "generic-incomplete": {
+    "syntax": "ui-serif | ui-sans-serif | ui-monospace | ui-rounded"
   },
   "geometry-box": {
     "syntax": "<shape-box> | fill-box | stroke-box | view-box"
