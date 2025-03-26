@@ -340,7 +340,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@import"
   },
   "@keyframes": {
-    "syntax": "@keyframes <keyframes-name> {\n  <keyframe-block-list>\n}",
+    "syntax": "@keyframes <keyframes-name> {\n  <qualified-rule-list>\n}",
     "interfaces": [
       "CSSKeyframeRule",
       "CSSKeyframesRule"
