@@ -2368,6 +2368,21 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/background-size"
   },
+  "baseline-shift": {
+    "syntax": "<length-percentage> | sub | super | top | center | bottom | baseline",
+    "media": "none",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "referTtoTheUsedValueOfLineHeight",
+    "groups": [
+      "CSS Inline"
+    ],
+    "initial": "0",
+    "appliesto": "InlineLevelBoxesAndSVGTextContentElements",
+    "computed": "theSpecifiedKeywordOrAComputedLengthPercentageValue",
+    "order": "perGrammar",
+    "status": "standard"
+  },
   "block-size": {
     "syntax": "<'width'>",
     "media": "visual",
