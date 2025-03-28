@@ -105,8 +105,7 @@
   },
   "easing-function": {
     "groups": [
-      "CSS Transitions",
-      "CSS Types"
+      "CSS Easing Functions"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/easing-function"
