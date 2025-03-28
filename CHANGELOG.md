@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.19.0](https://github.com/mdn/data/compare/v2.18.0...v2.19.0) (2025-03-28)
+
+
+### Features
+
+* **css:** Add `:open` ([2e6ee08](https://github.com/mdn/data/commit/2e6ee0843a895ca7d71485b4899a53f8746ec430))
+* **css:** Add data for `:open` ([#953](https://github.com/mdn/data/issues/953)) ([2e6ee08](https://github.com/mdn/data/commit/2e6ee0843a895ca7d71485b4899a53f8746ec430))
+* **css:** Update syntax for `<generic-family>` ([#952](https://github.com/mdn/data/issues/952)) ([1fd7137](https://github.com/mdn/data/commit/1fd71379d8960c44c6535afe45a7435268c214cd))
+
+
+### Miscellaneous
+
+* **css:** Adjust feature order by alphabet ([#944](https://github.com/mdn/data/issues/944)) ([ddc6e0d](https://github.com/mdn/data/commit/ddc6e0dba0e74a5f4d2f748abb6526800c3046be))
+
 ## [2.18.0](https://github.com/mdn/data/compare/v2.17.0...v2.18.0) (2025-03-10)
 
 
