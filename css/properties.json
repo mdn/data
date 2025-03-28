@@ -2369,7 +2369,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/background-size"
   },
   "baseline-shift": {
-    "syntax": "<length-percentage> | sub | super | top | center | bottom | baseline",
+    "syntax": "<length-percentage> | sub | super | baseline",
     "media": "none",
     "inherited": false,
     "animationType": "byComputedValueType",
