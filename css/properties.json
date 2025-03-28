@@ -1720,6 +1720,22 @@
     "order": "uniqueOrder",
     "status": "nonstandard"
   },
+  "alignment-baseline": {
+    "syntax": "baseline | text-bottom | alphabetic | ideographic | middle | central | mathematical | text-top | auto | before-edge | after-edge | text-before-edge | text-after-edge | hanging",
+    "media": "none",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Inline"
+    ],
+    "initial": "baseline",
+    "appliesto": "inlineLevelBoxesFlexItemsGridItemsTableCellsAndSVGTextContentElements",
+    "computed": "specifiedKeyword",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/alignment-baseline"
+  },
   "all": {
     "syntax": "initial | inherit | unset | revert | revert-layer",
     "media": "noPracticalMedia",
