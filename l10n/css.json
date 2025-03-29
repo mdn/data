@@ -924,6 +924,9 @@
     "ja": "インラインレベルおよびテーブルセル要素",
     "ru": "строчным элементам и ячейкам таблиц"
   },
+  "inlineLevelBoxesFlexItemsGridItemsTableCellsAndSVGTextContentElements": {
+    "en-US": "inline-level boxes, flex items, grid items, table cells, and SVG text content elements"
+  },
   "inlineSizeOfContainingBlock": {
     "de": "Inlinegröße des beinhaltenden Blocks",
     "en-US": "inline-size of containing block",
@@ -1724,6 +1727,9 @@
     "fr": "l'entier spécifié ou une longueur absolue",
     "ja": "指定された整数値または絶対的な長さ",
     "ru": "указанное целое число или абсолютная длина"
+  },
+  "specifiedKeyword": {
+    "en-US": "specified keyword"
   },
   "specifiedValue": {
     "en-US": "specified value"
