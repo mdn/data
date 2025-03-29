@@ -4445,7 +4445,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/container-name"
   },
   "container-type": {
-    "syntax": "normal | size | inline-size",
+    "syntax": "normal | [ [ size | inline-size ] || scroll-state ]",
     "media": "visual",
     "inherited": false,
     "animationType": "color",
