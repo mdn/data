@@ -300,7 +300,7 @@
     "syntax": "drop-shadow( [ <color>? && <length>{2,3} ] )"
   },
   "easing-function": {
-    "syntax": "<linear-easing-function> | <cubic-bezier-timing-function> | <step-easing-function>"
+    "syntax": "<linear-easing-function> | <cubic-bezier-easing-function> | <step-easing-function>"
   },
   "east-asian-variant-values": {
     "syntax": "[ jis78 | jis83 | jis90 | jis04 | simplified | traditional ]"
