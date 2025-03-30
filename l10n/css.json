@@ -1728,9 +1728,6 @@
     "ja": "指定された整数値または絶対的な長さ",
     "ru": "указанное целое число или абсолютная длина"
   },
-  "specifiedKeyword": {
-    "en-US": "specified keyword"
-  },
   "specifiedValue": {
     "en-US": "specified value"
   },

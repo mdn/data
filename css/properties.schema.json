@@ -169,7 +169,6 @@
         "sameAsMinWidthAndMinHeight",
         "sameAsWidthAndHeight",
         "specifiedIntegerOrAbsoluteLength",
-        "specifiedKeyword",
         "specifiedValue",
         "specifiedValueClipped0To1",
         "specifiedValueNumberClipped0To1",

@@ -1721,7 +1721,7 @@
     "status": "nonstandard"
   },
   "alignment-baseline": {
-    "syntax": "baseline | alphabetic | ideographic | middle | central | mathematical | auto | before-edge | after-edge | text-before-edge | text-after-edge | hanging",
+    "syntax": "baseline | alphabetic | ideographic | middle | central | mathematical | text-before-edge | text-after-edge",
     "media": "none",
     "inherited": false,
     "animationType": "discrete",
