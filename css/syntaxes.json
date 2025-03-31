@@ -209,6 +209,15 @@
   "conic-gradient()": {
     "syntax": "conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )"
   },
+  "container-condition": {
+    "syntax": "[ <container-name>? <container-query>? ]!"
+  },
+  "container-name": {
+    "syntax": "<custom-ident>"
+  },
+  "container-query": {
+    "syntax": "not <query-in-parens> | <query-in-parens> [ [ and <query-in-parens> ]* | [ or <query-in-parens> ]* ]"
+  },
   "content-distribution": {
     "syntax": "space-between | space-around | space-evenly | stretch"
   },
@@ -728,6 +737,9 @@
   "pseudo-page": {
     "syntax": ": [ left | right | first | blank ]"
   },
+  "query-in-parens": {
+    "syntax": "( <container-query> ) | ( <size-feature> ) | style( <style-query> ) | scroll-state( <scroll-state-query> ) | <general-enclosed>"
+  },
   "quote": {
     "syntax": "open-quote | close-quote | no-open-quote | no-close-quote"
   },
@@ -839,6 +851,15 @@
   "scroller": {
     "syntax": "root | nearest | self"
   },
+  "scroll-state-feature": {
+    "syntax": "<media-query-list>"
+  },
+  "scroll-state-in-parens": {
+    "syntax": "( <scroll-state-query> ) | ( <scroll-state-feature> ) | <general-enclosed>"
+  },
+  "scroll-state-query": {
+    "syntax": "not <scroll-state-in-parens> | <scroll-state-in-parens> [ [ and <scroll-state-in-parens> ]* | [ or <scroll-state-in-parens> ]* ] | <scroll-state-feature>  "
+  },
   "selector-list": {
     "syntax": "<complex-selector-list>"
   },
@@ -905,6 +926,9 @@
   "size": {
     "syntax": "closest-side | farthest-side | closest-corner | farthest-corner | <length> | <length-percentage>{2}"
   },
+  "size-feature": {
+    "syntax": "<media-query-list>"
+  },
   "skew()": {
     "syntax": "skew( [ <angle> | <zero> ] , [ <angle> | <zero> ]? )"
   },
@@ -922,6 +946,15 @@
   },
   "step-timing-function": {
     "syntax": "step-start | step-end | steps(<integer>[, <step-position>]?)"
+  },
+  "style-feature": {
+    "syntax": "<declaration>"
+  },
+  "style-in-parens": {
+    "syntax": "( <style-query> ) | ( <style-feature> ) | <general-enclosed>"
+  },
+  "style-query": {
+    "syntax": "not <style-in-parens> | <style-in-parens> [ [ and <style-in-parens> ]* | [ or <style-in-parens> ]* ] | <style-feature> "
   },
   "subclass-selector": {
     "syntax": "<id-selector> | <class-selector> | <attribute-selector> | <pseudo-class-selector>"
