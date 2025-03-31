@@ -263,8 +263,11 @@
   "cross-fade()": {
     "syntax": "cross-fade( <cf-mixing-image> , <cf-final-image>? )"
   },
+  "cubic-bezier()": {
+    "syntax": "cubic-bezier( [ <number [0,1]>, <number> ]#{2} )"
+  },
   "cubic-bezier-timing-function": {
-    "syntax": "ease | ease-in | ease-out | ease-in-out | cubic-bezier(<number [0,1]>, <number>, <number [0,1]>, <number>)"
+    "syntax": "ease | ease-in | ease-out | ease-in-out | <cubic-bezier()>"
   },
   "custom-color-space": {
     "syntax": "<dashed-ident>"
@@ -306,7 +309,7 @@
     "syntax": "drop-shadow( [ <color>? && <length>{2,3} ] )"
   },
   "easing-function": {
-    "syntax": "linear | <cubic-bezier-timing-function> | <step-timing-function>"
+    "syntax": "<linear-easing-function> | <cubic-bezier-easing-function> | <step-easing-function>"
   },
   "east-asian-variant-values": {
     "syntax": "[ jis78 | jis83 | jis90 | jis04 | simplified | traditional ]"
@@ -518,11 +521,17 @@
   "line-width": {
     "syntax": "<length> | thin | medium | thick"
   },
+  "linear()": {
+    "syntax": "linear( [ <number> && <percentage>{0,2} ]# )"
+  },
   "linear-color-hint": {
     "syntax": "<length-percentage>"
   },
   "linear-color-stop": {
     "syntax": "<color> <color-stop-length>?"
+  },
+  "linear-easing-function": {
+    "syntax": "linear | <linear()>"
   },
   "linear-gradient()": {
     "syntax": "linear-gradient( [ [ <angle> | to <side-or-corner> ] || <color-interpolation-method> ]? , <color-stop-list> )"
@@ -944,8 +953,11 @@
   "step-position": {
     "syntax": "jump-start | jump-end | jump-none | jump-both | start | end"
   },
-  "step-timing-function": {
-    "syntax": "step-start | step-end | steps(<integer>[, <step-position>]?)"
+  "step-easing-function": {
+    "syntax": "step-start | step-end | <steps()>"
+  },
+  "steps()": {
+    "syntax": "steps( <integer>, <step-position>? )"
   },
   "style-feature": {
     "syntax": "<declaration>"
