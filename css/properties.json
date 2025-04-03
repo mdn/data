@@ -9565,6 +9565,21 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke"
   },
+  "stroke-color": {
+    "syntax": "<color>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "byComputedValue",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "transparent",
+    "appliesto": "textAndSVGShapes",
+    "computed": "computedColor",
+    "order": "perGrammar",
+    "status": "experimental"
+  },
   "stroke-dasharray": {
     "syntax": "none | <dasharray>",
     "media": "visual",
