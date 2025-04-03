@@ -329,7 +329,8 @@
     "syntax": ":fullscreen",
     "groups": [
       "Pseudo-classes",
-      "Selectors"
+      "Selectors",
+      "Fullscreen API"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:fullscreen"
@@ -356,7 +357,8 @@
     "syntax": ":has-slotted",
     "groups": [
       "Pseudo-classes",
-      "Selectors"
+      "Selectors",
+      "CSS Scoping"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:has-slotted"
@@ -365,7 +367,8 @@
     "syntax": ":host",
     "groups": [
       "Pseudo-classes",
-      "Selectors"
+      "Selectors",
+      "CSS Scoping"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:host"
@@ -374,7 +377,8 @@
     "syntax": ":host( <compound-selector> )",
     "groups": [
       "Pseudo-classes",
-      "Selectors"
+      "Selectors",
+      "CSS Scoping"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:host_function"
@@ -383,7 +387,8 @@
     "syntax": ":host-context( <compound-selector> )",
     "groups": [
       "Pseudo-classes",
-      "Selectors"
+      "Selectors",
+      "CSS Scoping"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:host-context"
@@ -745,7 +750,8 @@
     "syntax": ":target-current",
     "groups": [
       "Pseudo-classes",
-      "Selectors"
+      "Selectors",
+      "CSS Overflow"
     ],
     "status": "experimental"
   },
@@ -816,7 +822,8 @@
     "syntax": ":xr-overlay",
     "groups": [
       "Pseudo-classes",
-      "Selectors"
+      "Selectors",
+      "WebXR DOM Overlays"
     ],
     "status": "experimental"
   },
@@ -1066,7 +1073,8 @@
     "syntax": "::cue",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "WebVTT"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::cue"
@@ -1075,7 +1083,8 @@
     "syntax": "::cue( <selector> )",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "WebVTT"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::cue"
@@ -1084,7 +1093,8 @@
     "syntax": "::cue-region",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "WebVTT"
     ],
     "status": "standard"
   },
@@ -1092,7 +1102,8 @@
     "syntax": "::cue-region( <selector> )",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "WebVTT"
     ],
     "status": "standard"
   },
@@ -1145,7 +1156,8 @@
     "syntax": "::highlight( <custom-ident> )",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "CSS Custom Highlight API"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::highlight"
@@ -1183,7 +1195,8 @@
     "syntax": "::scroll-marker",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "CSS Overflow"
     ],
     "status": "experimental"
   },
@@ -1191,7 +1204,8 @@
     "syntax": "::scroll-marker-group",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "CSS Overflow"
     ],
     "status": "experimental"
   },
@@ -1208,7 +1222,8 @@
     "syntax": "::slotted( <compound-selector> )",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "CSS Scoping"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::slotted"
