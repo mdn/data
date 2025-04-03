@@ -8746,6 +8746,21 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-behavior"
   },
+  "scroll-initial-target": {
+    "syntax": "none | nearest",
+    "media": "noPracticalMedia",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "theSpecifiedKeyword",
+    "order": "perGrammar",
+    "status": "experimental"
+  },
   "scroll-margin": {
     "syntax": "<length>{1,4}",
     "media": "visual",
