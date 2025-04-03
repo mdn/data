@@ -1631,9 +1631,9 @@
     "ru": "заменяемые элементы",
     "zh-CN": "替换元素"
   },
-  "rubyAnnotationsContainers": {
+  "rubyAnnotationContainers": {
     "de": "Ruby-Anmerkungscontainer",
-    "en-US": "ruby annotations containers",
+    "en-US": "ruby annotation containers",
     "fr": "annotations ruby des conteneurs",
     "ja": "ルビ注釈コンテナー",
     "ru": "контейнеры ruby-аннотаций"
