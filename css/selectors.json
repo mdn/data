@@ -1067,7 +1067,8 @@
     "syntax": "::checkmark",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "CSS Form Control Styling"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::checkmark"
