@@ -246,6 +246,13 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/string"
   },
+  "text-edge": {
+    "groups": [
+      "CSS Types"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-edge"
+  },
   "time": {
     "groups": [
       "CSS Types"
