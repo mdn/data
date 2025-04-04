@@ -360,7 +360,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/easing-function/linear"
   },
   "linear-gradient()": {
-    "syntax": "linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )",
+    "syntax": "linear-gradient( [ <linear-gradient-syntax> ] )",
     "groups": [
       "CSS Images"
     ],
@@ -536,7 +536,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-conic-gradient"
   },
   "repeating-linear-gradient()": {
-    "syntax": "repeating-linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )",
+    "syntax": "repeating-linear-gradient( [ <linear-gradient-syntax> ] )",
     "groups": [
       "CSS Images"
     ],
