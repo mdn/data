@@ -1171,6 +1171,14 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::part"
   },
+  "::picker()": {
+    "syntax": "::picker( <form-control-identifier>+ )",
+    "groups": [
+      "CSS Form Control Styling"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::picker"
+  },
   "::placeholder": {
     "syntax": "::placeholder",
     "groups": [

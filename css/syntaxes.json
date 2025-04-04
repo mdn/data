@@ -389,6 +389,9 @@
   "font-weight-absolute": {
     "syntax": "normal | bold | <number [1,1000]>"
   },
+  "form-control-identifier": {
+    "syntax": "select"
+  },
   "frequency-percentage": {
     "syntax": "<frequency> | <percentage>"
   },
