@@ -2378,7 +2378,7 @@
       "CSS Inline"
     ],
     "initial": "0",
-    "appliesto": "InlineLevelBoxesAndSVGTextContentElements",
+    "appliesto": "inlineLevelBoxesAndSVGTextContentElements",
     "computed": "theSpecifiedKeywordOrAComputedLengthPercentageValue",
     "order": "perGrammar",
     "status": "standard"

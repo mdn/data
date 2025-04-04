@@ -253,7 +253,7 @@
         "inFlowChildrenOfBoxElements",
         "inlineBoxesAndBlockContainers",
         "inlineLevelAndTableCellElements",
-        "InlineLevelBoxesAndSVGTextContentElements",
+        "inlineLevelBoxesAndSVGTextContentElements",
         "limitedSVGElements",
         "limitedSVGElementsCircle",
         "limitedSVGElementsEllipse",

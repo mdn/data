@@ -924,7 +924,7 @@
     "ja": "インラインレベルおよびテーブルセル要素",
     "ru": "строчным элементам и ячейкам таблиц"
   },
-  "InlineLevelBoxesAndSVGTextContentElements": {
+  "inlineLevelBoxesAndSVGTextContentElements": {
     "en-US": "inline-level boxes and SVG text content elements"
   },
   "inlineSizeOfContainingBlock": {
