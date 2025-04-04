@@ -1087,7 +1087,7 @@
       "Pseudo-elements",
       "Selectors"
     ],
-    "status": "standard"
+    "status": "experimental"
   },
   "::cue-region()": {
     "syntax": "::cue-region( <selector> )",
@@ -1095,7 +1095,7 @@
       "Pseudo-elements",
       "Selectors"
     ],
-    "status": "standard"
+    "status": "experimental"
   },
   "::details-content": {
     "syntax": "::details-content",
