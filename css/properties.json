@@ -3696,7 +3696,7 @@
     "animationType": "lpc",
     "percentages": "referToContainingBlockHeight",
     "groups": [
-      "CSS Positioning"
+      "CSS Positioned Layout"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -4018,7 +4018,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Positioned Layout"
     ],
     "initial": "none",
     "appliesto": "blockLevelElements",
@@ -4461,7 +4461,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/container-name"
   },
   "container-type": {
-    "syntax": "normal | size | inline-size",
+    "syntax": "normal | [ [ size | inline-size ] || scroll-state ]",
     "media": "visual",
     "inherited": false,
     "animationType": "color",
@@ -4908,7 +4908,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Positioned Layout"
     ],
     "initial": "none",
     "appliesto": "allElementsNoEffectIfDisplayNone",
@@ -5124,18 +5124,18 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-palette"
   },
   "font-size": {
-    "syntax": "<absolute-size> | <relative-size> | <length-percentage>",
+    "syntax": "<absolute-size> | <relative-size> | <length-percentage [0,∞]> | math",
     "media": "visual",
     "inherited": true,
-    "animationType": "length",
+    "animationType": "byComputedValueType",
     "percentages": "referToParentElementsFontSize",
     "groups": [
       "CSS Fonts"
     ],
     "initial": "medium",
     "appliesto": "allElementsAndText",
-    "computed": "asSpecifiedRelativeToAbsoluteLengths",
-    "order": "uniqueOrder",
+    "computed": "absoluteLength",
+    "order": "perGrammar",
     "alsoAppliesTo": [
       "::first-letter",
       "::first-line",
@@ -5199,7 +5199,7 @@
       "::first-line",
       "::placeholder"
     ],
-    "status": "standard",
+    "status": "obsolete",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-stretch"
   },
   "font-style": {
@@ -6148,7 +6148,8 @@
     "animationType": "lpc",
     "percentages": "logicalHeightOrWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties and Values"
+      "CSS Logical Properties and Values",
+      "CSS Positioned Layout"
     ],
     "initial": [
       "top",
@@ -6174,7 +6175,8 @@
     "animationType": "lpc",
     "percentages": "logicalHeightOfContainingBlock",
     "groups": [
-      "CSS Logical Properties and Values"
+      "CSS Logical Properties and Values",
+      "CSS Positioned Layout"
     ],
     "initial": [
       "inset-block-start",
@@ -6196,7 +6198,8 @@
     "animationType": "lpc",
     "percentages": "logicalHeightOfContainingBlock",
     "groups": [
-      "CSS Logical Properties and Values"
+      "CSS Logical Properties and Values",
+      "CSS Positioned Layout"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -6212,7 +6215,8 @@
     "animationType": "lpc",
     "percentages": "logicalHeightOfContainingBlock",
     "groups": [
-      "CSS Logical Properties and Values"
+      "CSS Logical Properties and Values",
+      "CSS Positioned Layout"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -6228,7 +6232,8 @@
     "animationType": "lpc",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties and Values"
+      "CSS Logical Properties and Values",
+      "CSS Positioned Layout"
     ],
     "initial": [
       "inset-inline-start",
@@ -6250,7 +6255,8 @@
     "animationType": "lpc",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties and Values"
+      "CSS Logical Properties and Values",
+      "CSS Positioned Layout"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -6266,7 +6272,8 @@
     "animationType": "lpc",
     "percentages": "logicalWidthOfContainingBlock",
     "groups": [
-      "CSS Logical Properties and Values"
+      "CSS Logical Properties and Values",
+      "CSS Positioned Layout"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -6282,7 +6289,7 @@
     "animationType": "notAnimatable",
     "percentages": "no",
     "groups": [
-      "CSS Units"
+      "CSS Values and Units"
     ],
     "initial": "numeric-only",
     "appliesto": "allElements",
@@ -6378,7 +6385,7 @@
     "animationType": "lpc",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
-      "CSS Positioning"
+      "CSS Positioned Layout"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -7451,6 +7458,21 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/object-position"
   },
+  "object-view-box": {
+    "syntax": "none | <basic-shape-rect>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "asIfPossibleOtherwiseDiscrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Images"
+    ],
+    "initial": "none",
+    "appliesto": "replacedElements",
+    "computed": "specifiedKeywordOrComputedFunction",
+    "order": "perGrammar",
+    "status": "experimental"
+  },
   "offset": {
     "syntax": "[ <'offset-position'>? [ <'offset-path'> [ <'offset-distance'> || <'offset-rotate'> ]? ]? ]! [ / <'offset-anchor'> ]?",
     "media": "visual",
@@ -7882,7 +7904,7 @@
     "animationType": "discreteButVisibleForDurationWhenAnimatedNone",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Positioned Layout"
     ],
     "initial": "none",
     "appliesto": "allElements",
@@ -8403,7 +8425,7 @@
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Positioned Layout"
     ],
     "initial": "static",
     "appliesto": "allElements",
@@ -8592,7 +8614,7 @@
     "animationType": "lpc",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
-      "CSS Positioning"
+      "CSS Positioned Layout"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -8745,6 +8767,21 @@
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-behavior"
+  },
+  "scroll-initial-target": {
+    "syntax": "none | nearest",
+    "media": "noPracticalMedia",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "CSS Scroll Snap"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "theSpecifiedKeyword",
+    "order": "perGrammar",
+    "status": "experimental"
   },
   "scroll-margin": {
     "syntax": "<length>{1,4}",
@@ -10283,7 +10320,7 @@
     "animationType": "lpc",
     "percentages": "referToContainingBlockHeight",
     "groups": [
-      "CSS Positioning"
+      "CSS Positioned Layout"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",
@@ -10569,7 +10606,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/vertical-align"
   },
   "view-timeline": {
-    "syntax": "[ <'view-timeline-name'> <'view-timeline-axis'>? ]#",
+    "syntax": "[ <'view-timeline-name'> [ <'view-timeline-axis'> || <'view-timeline-inset'> ]? ]#",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -10626,7 +10663,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-timeline-inset"
   },
   "view-timeline-name": {
-    "syntax": "none | <dashed-ident>#",
+    "syntax": "[ none | <dashed-ident> ]#",
     "media": "interactive",
     "inherited": false,
     "animationType": "notAnimatable",
@@ -10877,7 +10914,7 @@
     "animationType": "integer",
     "percentages": "no",
     "groups": [
-      "CSS Positioning"
+      "CSS Positioned Layout"
     ],
     "initial": "auto",
     "appliesto": "positionedElements",

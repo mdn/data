@@ -33,13 +33,13 @@
     "syntax": "<angle> | <percentage>"
   },
   "angular-color-hint": {
-    "syntax": "<angle-percentage>"
+    "syntax": "<angle-percentage> | <zero>"
   },
   "angular-color-stop": {
-    "syntax": "<color> && <color-stop-angle>?"
+    "syntax": "<color> <color-stop-angle>?"
   },
   "angular-color-stop-list": {
-    "syntax": "[ <angular-color-stop> [, <angular-color-hint>]? ]# , <angular-color-stop>"
+    "syntax": "<angular-color-stop> , [ <angular-color-hint>? , <angular-color-stop> ]#?"
   },
   "animateable-feature": {
     "syntax": "scroll-position | contents | <custom-ident>"
@@ -81,7 +81,10 @@
     "syntax": "[ first | last ]? baseline"
   },
   "basic-shape": {
-    "syntax": "<inset()> | <circle()> | <ellipse()> | <polygon()> | <path()>"
+    "syntax": "<inset()> | <xywh()> | <rect()> | <circle()> | <ellipse()> | <polygon()> | <path()>"
+  },
+  "basic-shape-rect": {
+    "syntax": "<inset()> | <rect()> | <xywh()>"
   },
   "bg-clip": {
     "syntax": "<visual-box> | border-area | text"
@@ -168,13 +171,13 @@
     "syntax": "<color-stop-length> | <color-stop-angle>"
   },
   "color-stop-angle": {
-    "syntax": "<angle-percentage>{1,2}"
+    "syntax": "[ <angle-percentage> | <zero> ]{1,2}"
   },
   "color-stop-length": {
     "syntax": "<length-percentage>{1,2}"
   },
   "color-stop-list": {
-    "syntax": "[ <linear-color-stop> [, <linear-color-hint>]? ]# , <linear-color-stop>"
+    "syntax": "<linear-color-stop> , [ <linear-color-hint>? , <linear-color-stop> ]#?"
   },
   "colorspace-params": {
     "syntax": "[<custom-params> | <predefined-rgb-params> | <xyz-params>]"
@@ -207,7 +210,10 @@
     "syntax": "<compound-selector>#"
   },
   "conic-gradient()": {
-    "syntax": "conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )"
+    "syntax": "conic-gradient( [ <conic-gradient-syntax> ] )"
+  },
+  "conic-gradient-syntax": {
+    "syntax": "[ [ [ from [ <angle> | <zero> ] ]? [ at <position> ]? ] || <color-interpolation-method> ]? , <angular-color-stop-list>"
   },
   "container-condition": {
     "syntax": "[ <container-name>? <container-query>? ]!"
@@ -323,9 +329,6 @@
   "ellipse()": {
     "syntax": "ellipse( <radial-size>? [ at <position> ]? )"
   },
-  "ending-shape": {
-    "syntax": "circle | ellipse"
-  },
   "env()": {
     "syntax": "env( <custom-ident> , <declaration-value>? )"
   },
@@ -388,6 +391,9 @@
   },
   "font-weight-absolute": {
     "syntax": "normal | bold | <number [1,1000]>"
+  },
+  "form-control-identifier": {
+    "syntax": "select"
   },
   "frequency-percentage": {
     "syntax": "<frequency> | <percentage>"
@@ -476,11 +482,8 @@
   "keyframe-block": {
     "syntax": "<keyframe-selector># {\n  <declaration-list>\n}"
   },
-  "keyframe-block-list": {
-    "syntax": "<keyframe-block>+"
-  },
   "keyframe-selector": {
-    "syntax": "from | to | <percentage> | <timeline-range-name> <percentage>"
+    "syntax": "from | to | <percentage [0,100]> | <timeline-range-name> <percentage>"
   },
   "keyframes-name": {
     "syntax": "<custom-ident> | <string>"
@@ -534,7 +537,10 @@
     "syntax": "linear | <linear()>"
   },
   "linear-gradient()": {
-    "syntax": "linear-gradient( [ [ <angle> | to <side-or-corner> ] || <color-interpolation-method> ]? , <color-stop-list> )"
+    "syntax": "linear-gradient( [ <linear-gradient-syntax> ] )"
+  },
+  "linear-gradient-syntax": {
+    "syntax": "[ [ <angle> | <zero> | to <side-or-corner> ] || <color-interpolation-method> ]? , <color-stop-list>"
   },
   "log()": {
     "syntax": "log( <calc-sum>, <calc-sum>? )"
@@ -756,7 +762,13 @@
     "syntax": "closest-corner | closest-side | farthest-corner | farthest-side"
   },
   "radial-gradient()": {
-    "syntax": "radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )"
+    "syntax": "radial-gradient( [ <radial-gradient-syntax> ] )"
+  },
+  "radial-gradient-syntax": {
+    "syntax": "[ [ [ <radial-shape> || <radial-size> ]? [ at <position> ]? ] || <color-interpolation-method> ]? , <color-stop-list>"
+  },
+  "radial-shape": {
+    "syntax": "circle | ellipse"
   },
   "radial-size": {
     "syntax": "<radial-extent> | <length [0,∞]> | <length-percentage [0,∞]>{2}"
@@ -792,13 +804,13 @@
     "syntax": "repeat-x | repeat-y | [ repeat | space | round | no-repeat ]{1,2}"
   },
   "repeating-conic-gradient()": {
-    "syntax": "repeating-conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )"
+    "syntax": "repeating-conic-gradient( [ <conic-gradient-syntax> ] )"
   },
   "repeating-linear-gradient()": {
-    "syntax": "repeating-linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )"
+    "syntax": "repeating-linear-gradient( [ <linear-gradient-syntax> ] )"
   },
   "repeating-radial-gradient()": {
-    "syntax": "repeating-radial-gradient( [ <ending-shape> || <size> ]? [ at <position> ]? , <color-stop-list> )"
+    "syntax": "repeating-radial-gradient( [ <radial-gradient-syntax> ] )"
   },
   "reversed-counter-name": {
     "syntax": "reversed( <counter-name> )"
