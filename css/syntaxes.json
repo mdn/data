@@ -476,11 +476,8 @@
   "keyframe-block": {
     "syntax": "<keyframe-selector># {\n  <declaration-list>\n}"
   },
-  "keyframe-block-list": {
-    "syntax": "<keyframe-block>+"
-  },
   "keyframe-selector": {
-    "syntax": "from | to | <percentage> | <timeline-range-name> <percentage>"
+    "syntax": "from | to | <percentage [0,100]> | <timeline-range-name> <percentage>"
   },
   "keyframes-name": {
     "syntax": "<custom-ident> | <string>"
