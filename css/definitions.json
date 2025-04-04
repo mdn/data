@@ -1,8 +1,6 @@
 {
   "groupList": {
     "enum": [
-      "Basic Selectors",
-      "Combinators",
       "Compositing and Blending",
       "CSS Anchor Positioning",
       "CSS Angles",
@@ -43,6 +41,7 @@
       "CSS Overscroll Behavior",
       "CSS Paged Media",
       "CSS Positioning",
+      "CSS Pseudo-Elements",
       "CSS Resolutions",
       "CSS Rhythmic Sizing",
       "CSS Ruby",
@@ -69,16 +68,12 @@
       "CSS Writing Modes",
       "Filter Effects",
       "Fullscreen API",
-      "Grouping Selectors",
       "MathML",
       "Media Queries",
       "Microsoft Extensions",
       "Motion Path",
       "Mozilla Extensions",
       "Pointer Events",
-      "Pseudo",
-      "Pseudo-classes",
-      "Pseudo-elements",
       "Selectors",
       "Scalable Vector Graphics",
       "Scroll-driven Animations",
