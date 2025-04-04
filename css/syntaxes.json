@@ -81,7 +81,7 @@
     "syntax": "[ first | last ]? baseline"
   },
   "basic-shape": {
-    "syntax": "<inset()> | <circle()> | <ellipse()> | <polygon()> | <path()>"
+    "syntax": "<inset()> | <xywh()> | <rect()> | <circle()> | <ellipse()> | <polygon()> | <path()>"
   },
   "bg-clip": {
     "syntax": "<visual-box> | border-area | text"
