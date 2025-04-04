@@ -7451,6 +7451,21 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/object-position"
   },
+  "object-view-box": {
+    "syntax": "none | <basic-shape-rect>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "asIfPossibleOtherwiseDiscrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Images"
+    ],
+    "initial": "none",
+    "appliesto": "replacedElements",
+    "computed": "specifiedKeywordOrComputedFunction",
+    "order": "perGrammar",
+    "status": "experimental"
+  },
   "offset": {
     "syntax": "[ <'offset-position'>? [ <'offset-path'> [ <'offset-distance'> || <'offset-rotate'> ]? ]? ]! [ / <'offset-anchor'> ]?",
     "media": "visual",
