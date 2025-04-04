@@ -1066,8 +1066,6 @@
   "::checkmark": {
     "syntax": "::checkmark",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "CSS Form Control Styling"
     ],
     "status": "standard",
