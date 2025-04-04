@@ -5124,18 +5124,18 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-palette"
   },
   "font-size": {
-    "syntax": "<absolute-size> | <relative-size> | <length-percentage>",
+    "syntax": "<absolute-size> | <relative-size> | <length-percentage [0,∞]> | math",
     "media": "visual",
     "inherited": true,
-    "animationType": "length",
+    "animationType": "byComputedValueType",
     "percentages": "referToParentElementsFontSize",
     "groups": [
       "CSS Fonts"
     ],
     "initial": "medium",
     "appliesto": "allElementsAndText",
-    "computed": "asSpecifiedRelativeToAbsoluteLengths",
-    "order": "uniqueOrder",
+    "computed": "absoluteLength",
+    "order": "perGrammar",
     "alsoAppliesTo": [
       "::first-letter",
       "::first-line",
