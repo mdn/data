@@ -16,6 +16,7 @@
       "enum": [
         "angleBasicShapeOrPath",
         "angleOrBasicShapeOrPath",
+        "asIfPossibleOtherwiseDiscrete",
         "basicShapeOtherwiseNo",
         "byComputedValue",
         "byComputedValueType",
@@ -169,6 +170,7 @@
         "sameAsMinWidthAndMinHeight",
         "sameAsWidthAndHeight",
         "specifiedIntegerOrAbsoluteLength",
+        "specifiedKeywordOrComputedFunction",
         "specifiedValue",
         "specifiedValueClipped0To1",
         "specifiedValueNumberClipped0To1",

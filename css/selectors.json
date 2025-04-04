@@ -938,21 +938,21 @@
     "groups": [
       "WebVTT"
     ],
-    "status": "standard"
+    "status": "experimental"
   },
   "::cue-region()": {
     "syntax": "::cue-region( <selector> )",
     "groups": [
       "WebVTT"
     ],
-    "status": "standard"
+    "status": "experimental"
   },
   "::details-content": {
     "syntax": "::details-content",
     "groups": [
       "CSS Pseudo-Elements"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::details-content"
   },
   "::file-selector-button": {
@@ -1012,6 +1012,14 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::part"
+  },
+  "::picker()": {
+    "syntax": "::picker( <form-control-identifier>+ )",
+    "groups": [
+      "CSS Form Control Styling"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::picker"
   },
   "::placeholder": {
     "syntax": "::placeholder",
