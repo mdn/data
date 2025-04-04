@@ -569,6 +569,15 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:only-of-type"
   },
+  ":open": {
+    "syntax": ":open",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:open"
+  },
   ":optional": {
     "syntax": ":optional",
     "groups": [
@@ -1039,7 +1048,8 @@
     "syntax": "::backdrop",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "CSS Positioned Layout"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::backdrop"
@@ -1077,7 +1087,7 @@
       "Pseudo-elements",
       "Selectors"
     ],
-    "status": "standard"
+    "status": "experimental"
   },
   "::cue-region()": {
     "syntax": "::cue-region( <selector> )",
@@ -1085,7 +1095,7 @@
       "Pseudo-elements",
       "Selectors"
     ],
-    "status": "standard"
+    "status": "experimental"
   },
   "::details-content": {
     "syntax": "::details-content",
@@ -1093,7 +1103,7 @@
       "Pseudo-elements",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::details-content"
   },
   "::file-selector-button": {
@@ -1160,6 +1170,14 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::part"
+  },
+  "::picker()": {
+    "syntax": "::picker( <form-control-identifier>+ )",
+    "groups": [
+      "CSS Form Control Styling"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::picker"
   },
   "::placeholder": {
     "syntax": "::placeholder",

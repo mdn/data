@@ -120,6 +120,17 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style"
   },
+  "@container": {
+    "syntax": "@container <container-condition># {\n  <block-contents>\n}",
+    "interfaces": [
+      "CSSContainerRule"
+    ],
+    "groups": [
+      "CSS Conditional Rules"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@container"
+  },
   "@document": {
     "syntax": "@document [ <url> | url-prefix(<string>) | domain(<string>) | media-document(<string>) | regexp(<string>) ]# {\n  <group-rule-body>\n}",
     "interfaces": [
@@ -197,7 +208,7 @@
         "percentages": "no",
         "computed": "asSpecified",
         "order": "uniqueOrder",
-        "status": "standard",
+        "status": "obsolete",
         "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-stretch"
       },
       "font-style": {
@@ -340,7 +351,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@import"
   },
   "@keyframes": {
-    "syntax": "@keyframes <keyframes-name> {\n  <keyframe-block-list>\n}",
+    "syntax": "@keyframes <keyframes-name> {\n  <qualified-rule-list>\n}",
     "interfaces": [
       "CSSKeyframeRule",
       "CSSKeyframesRule"

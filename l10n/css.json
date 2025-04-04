@@ -392,6 +392,9 @@
     "ja": "{{cssxref(\"basic-shape\")}} で定義された通り (与えられている場合は {{cssxref(\"shape-box\")}} が続く)、 URI を絶対化した {{cssxref(\"image\")}}、それ以外は指定通り。",
     "ru": "как определено для {{cssxref(\"basic-shape\")}} (c {{cssxref(\"shape-box\")}} последующим, если передается),  {{cssxref(\"image\")}} с его абсолютным URI, если другое не указано"
   },
+  "asIfPossibleOtherwiseDiscrete": {
+    "en-US": "as if possible, otherwise discrete"
+  },
   "asLength": {
     "de": "als {{cssxref(\"length\")}}",
     "en-US": "as {{cssxref(\"length\")}}",
@@ -926,6 +929,9 @@
   },
   "inlineLevelBoxesAndSVGTextContentElements": {
     "en-US": "inline-level boxes and SVG text content elements"
+  },
+  "inlineLevelBoxesFlexItemsGridItemsTableCellsAndSVGTextContentElements": {
+    "en-US": "inline-level boxes, flex items, grid items, table cells, and SVG text content elements"
   },
   "inlineSizeOfContainingBlock": {
     "de": "Inlinegröße des beinhaltenden Blocks",
@@ -1730,6 +1736,9 @@
     "fr": "l'entier spécifié ou une longueur absolue",
     "ja": "指定された整数値または絶対的な長さ",
     "ru": "указанное целое число или абсолютная длина"
+  },
+  "specifiedKeywordOrComputedFunction": {
+    "en-US": "specified keyword, or computed function"
   },
   "specifiedValue": {
     "en-US": "specified value"

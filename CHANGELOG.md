@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.19.0](https://github.com/mdn/data/compare/v2.18.0...v2.19.0) (2025-03-31)
+
+
+### Features
+
+* add `[@container](https://github.com/container)` at-rule ([#853](https://github.com/mdn/data/issues/853)) ([a11537c](https://github.com/mdn/data/commit/a11537cc1a599a8e62b4516846a4ffa008ab2537))
+* **css:** Add `:open` ([2e6ee08](https://github.com/mdn/data/commit/2e6ee0843a895ca7d71485b4899a53f8746ec430))
+* **css:** Add data for `:open` ([#953](https://github.com/mdn/data/issues/953)) ([2e6ee08](https://github.com/mdn/data/commit/2e6ee0843a895ca7d71485b4899a53f8746ec430))
+* **css:** Add data for `alignment-baseline` ([#956](https://github.com/mdn/data/issues/956)) ([820cf9b](https://github.com/mdn/data/commit/820cf9bd582c7d4202a56bebdc264929c3d84eb7))
+* **css:** Update syntax for `<easing-function>` ([#951](https://github.com/mdn/data/issues/951)) ([1b834c8](https://github.com/mdn/data/commit/1b834c86bcaa0de6a07f06ade3aab83c247c13c8))
+* **css:** Update syntax for `<generic-family>` ([#952](https://github.com/mdn/data/issues/952)) ([1fd7137](https://github.com/mdn/data/commit/1fd71379d8960c44c6535afe45a7435268c214cd))
+
+
+### Miscellaneous
+
+* **css:** Adjust feature order by alphabet ([#944](https://github.com/mdn/data/issues/944)) ([ddc6e0d](https://github.com/mdn/data/commit/ddc6e0dba0e74a5f4d2f748abb6526800c3046be))
+
 ## [2.18.0](https://github.com/mdn/data/compare/v2.17.0...v2.18.0) (2025-03-10)
 
 
