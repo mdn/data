@@ -1173,8 +1173,6 @@
   "::picker()": {
     "syntax": "::picker( <form-control-identifier>+ )",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "CSS Form Control Styling"
     ],
     "status": "standard",
