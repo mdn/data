@@ -2,8 +2,7 @@
   "abs()": {
     "syntax": "abs( <calc-sum> )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/abs"
@@ -11,8 +10,7 @@
   "acos()": {
     "syntax": "acos( <calc-sum> )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/acos"
@@ -36,8 +34,7 @@
   "asin()": {
     "syntax": "asin( <calc-sum> )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/asin"
@@ -45,8 +42,7 @@
   "atan()": {
     "syntax": "atan( <calc-sum> )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/atan"
@@ -54,8 +50,7 @@
   "atan2()": {
     "syntax": "atan2( <calc-sum>, <calc-sum> )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/atan2"
@@ -87,8 +82,7 @@
   "calc()": {
     "syntax": "calc( <calc-sum> )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/calc"
@@ -96,8 +90,7 @@
   "calc-size()": {
     "syntax": "calc-size( <calc-size-basis>, <calc-sum> )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/calc-size"
@@ -113,8 +106,7 @@
   "clamp()": {
     "syntax": "clamp( <calc-sum>#{3} )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/clamp"
@@ -136,7 +128,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/color-mix"
   },
   "conic-gradient()": {
-    "syntax": "conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )",
+    "syntax": "conic-gradient( [ <conic-gradient-syntax> ] )",
     "groups": [
       "CSS Images"
     ],
@@ -154,8 +146,7 @@
   "cos()": {
     "syntax": "cos( <calc-sum> )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/cos"
@@ -183,6 +174,14 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/cross-fade"
+  },
+  "cubic-bezier()": {
+    "syntax": "cubic-bezier( [ <number [0,1]>, <number> ]#{2} )",
+    "groups": [
+      "CSS Easing Functions"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/easing-function/cubic-bezier"
   },
   "drop-shadow()": {
     "syntax": "drop-shadow( [ <color>? && <length>{2,3} ] )",
@@ -219,8 +218,7 @@
   "exp()": {
     "syntax": "exp( <calc-sum> )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/exp"
@@ -277,8 +275,7 @@
   "hypot()": {
     "syntax": "hypot( <calc-sum># )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/hypot"
@@ -354,8 +351,16 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/light-dark"
   },
+  "linear()": {
+    "syntax": "linear( [ <number> && <percentage>{0,2} ]# )",
+    "groups": [
+      "CSS Easing Functions"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/easing-function/linear"
+  },
   "linear-gradient()": {
-    "syntax": "linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )",
+    "syntax": "linear-gradient( [ <linear-gradient-syntax> ] )",
     "groups": [
       "CSS Images"
     ],
@@ -365,8 +370,7 @@
   "log()": {
     "syntax": "log( <calc-sum>, <calc-sum>? )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/log"
@@ -390,8 +394,7 @@
   "max()": {
     "syntax": "max( <calc-sum># )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/max"
@@ -399,8 +402,7 @@
   "min()": {
     "syntax": "min( <calc-sum># )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/min"
@@ -408,8 +410,7 @@
   "minmax()": {
     "syntax": "minmax( [ <length-percentage> | min-content | max-content | auto ] , [ <length-percentage> | <flex> | min-content | max-content | auto ] )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/minmax"
@@ -417,8 +418,7 @@
   "mod()": {
     "syntax": "mod( <calc-sum>, <calc-sum> )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mod"
@@ -490,8 +490,7 @@
   "pow()": {
     "syntax": "pow( <calc-sum>, <calc-sum> )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/pow"
@@ -523,14 +522,13 @@
   "rem()": {
     "syntax": "rem( <calc-sum>, <calc-sum> )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/rem"
   },
   "repeating-conic-gradient()": {
-    "syntax": "repeating-conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )",
+    "syntax": "repeating-conic-gradient( [ <conic-gradient-syntax> ] )",
     "groups": [
       "CSS Images"
     ],
@@ -538,7 +536,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-conic-gradient"
   },
   "repeating-linear-gradient()": {
-    "syntax": "repeating-linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )",
+    "syntax": "repeating-linear-gradient( [ <linear-gradient-syntax> ] )",
     "groups": [
       "CSS Images"
     ],
@@ -612,8 +610,7 @@
   "round()": {
     "syntax": "round( <rounding-strategy>?, <calc-sum>, <calc-sum> )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/round"
@@ -685,8 +682,7 @@
   "sign()": {
     "syntax": "sign( <calc-sum> )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/sign"
@@ -694,8 +690,7 @@
   "sin()": {
     "syntax": "sin( <calc-sum> )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/sin"
@@ -727,11 +722,18 @@
   "sqrt()": {
     "syntax": "sqrt( <calc-sum> )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/sqrt"
+  },
+  "steps()": {
+    "syntax": "steps( <integer>, <step-position>? )",
+    "groups": [
+      "CSS Easing Functions"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/easing-function/steps"
   },
   "symbols()": {
     "syntax": "symbols( <symbols-type>? [ <string> | <image> ]+ )",
@@ -744,8 +746,7 @@
   "tan()": {
     "syntax": "tan( <calc-sum> )",
     "groups": [
-      "CSS Units",
-      "CSS Lengths"
+      "CSS Values and Units"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/tan"

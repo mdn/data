@@ -569,6 +569,15 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:only-of-type"
   },
+  ":open": {
+    "syntax": ":open",
+    "groups": [
+      "Pseudo-classes",
+      "Selectors"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:open"
+  },
   ":optional": {
     "syntax": ":optional",
     "groups": [
@@ -1039,7 +1048,8 @@
     "syntax": "::backdrop",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "CSS Positioned Layout"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::backdrop"
@@ -1093,7 +1103,7 @@
       "Pseudo-elements",
       "Selectors"
     ],
-    "status": "experimental",
+    "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::details-content"
   },
   "::file-selector-button": {

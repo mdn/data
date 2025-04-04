@@ -924,6 +924,9 @@
     "ja": "インラインレベルおよびテーブルセル要素",
     "ru": "строчным элементам и ячейкам таблиц"
   },
+  "inlineLevelBoxesFlexItemsGridItemsTableCellsAndSVGTextContentElements": {
+    "en-US": "inline-level boxes, flex items, grid items, table cells, and SVG text content elements"
+  },
   "inlineSizeOfContainingBlock": {
     "de": "Inlinegröße des beinhaltenden Blocks",
     "en-US": "inline-size of containing block",
