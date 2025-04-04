@@ -83,6 +83,9 @@
   "basic-shape": {
     "syntax": "<inset()> | <xywh()> | <rect()> | <circle()> | <ellipse()> | <polygon()> | <path()>"
   },
+  "basic-shape-rect": {
+    "syntax": "<inset()> | <rect()> | <xywh()>"
+  },
   "bg-clip": {
     "syntax": "<visual-box> | border-area | text"
   },
