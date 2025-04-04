@@ -128,7 +128,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/color-mix"
   },
   "conic-gradient()": {
-    "syntax": "conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )",
+    "syntax": "conic-gradient( [ <conic-gradient-syntax> ] )",
     "groups": [
       "CSS Images"
     ],
@@ -528,7 +528,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/rem"
   },
   "repeating-conic-gradient()": {
-    "syntax": "repeating-conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )",
+    "syntax": "repeating-conic-gradient( [ <conic-gradient-syntax> ] )",
     "groups": [
       "CSS Images"
     ],

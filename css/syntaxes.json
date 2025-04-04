@@ -207,7 +207,10 @@
     "syntax": "<compound-selector>#"
   },
   "conic-gradient()": {
-    "syntax": "conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )"
+    "syntax": "conic-gradient( [ <conic-gradient-syntax> ] )"
+  },
+  "conic-gradient-syntax": {
+    "syntax": "[ [ [ from [ <angle> | <zero> ] ]? [ at <position> ]? ] || <color-interpolation-method> ]? , <angular-color-stop-list>"
   },
   "container-condition": {
     "syntax": "[ <container-name>? <container-query>? ]!"
@@ -792,7 +795,7 @@
     "syntax": "repeat-x | repeat-y | [ repeat | space | round | no-repeat ]{1,2}"
   },
   "repeating-conic-gradient()": {
-    "syntax": "repeating-conic-gradient( [ from <angle> ]? [ at <position> ]?, <angular-color-stop-list> )"
+    "syntax": "repeating-conic-gradient( [ <conic-gradient-syntax> ] )"
   },
   "repeating-linear-gradient()": {
     "syntax": "repeating-linear-gradient( [ <angle> | to <side-or-corner> ]? , <color-stop-list> )"
