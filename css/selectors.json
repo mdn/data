@@ -1173,8 +1173,6 @@
   "::picker-icon": {
     "syntax": "::picker-icon",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "CSS Form Control Styling"
     ],
     "status": "standard",
