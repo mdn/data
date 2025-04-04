@@ -1048,7 +1048,8 @@
     "syntax": "::backdrop",
     "groups": [
       "Pseudo-elements",
-      "Selectors"
+      "Selectors",
+      "CSS Positioned Layout"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::backdrop"
