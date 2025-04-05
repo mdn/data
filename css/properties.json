@@ -2389,7 +2389,7 @@
     "media": "none",
     "inherited": false,
     "animationType": "byComputedValueType",
-    "percentages": "referTtoTheUsedValueOfLineHeight",
+    "percentages": "referToTheUsedValueOfLineHeight",
     "groups": [
       "CSS Inline"
     ],
