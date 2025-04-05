@@ -1509,7 +1509,7 @@
   "referToSVGViewportWidth": {
     "en-US": "refer to the width of the current SVG viewport"
   },
-  "referTtoTheUsedValueOfLineHeight": {
+  "referToTheUsedValueOfLineHeight": {
     "en-US": "refer to the used value of {{cssxref(\"line-height\")}}"
   },
   "referToTotalPathLength": {
