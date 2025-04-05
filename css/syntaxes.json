@@ -272,7 +272,7 @@
   "cubic-bezier()": {
     "syntax": "cubic-bezier( [ <number [0,1]>, <number> ]#{2} )"
   },
-  "cubic-bezier-timing-function": {
+  "cubic-bezier-easing-function": {
     "syntax": "ease | ease-in | ease-out | ease-in-out | <cubic-bezier()>"
   },
   "custom-color-space": {
