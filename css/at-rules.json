@@ -47,7 +47,7 @@
         "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/negative"
       },
       "pad": {
-        "syntax": "<integer> && <symbol>",
+        "syntax": "<integer [0,∞]> && <symbol>",
         "media": "all",
         "initial": "0 \"\"",
         "percentages": "no",
