@@ -295,6 +295,7 @@
         "tableCellElements",
         "tableElements",
         "textAndBlockContainers",
+        "textAndSVGShapes",
         "textElements",
         "textFields",
         "transformableElements",

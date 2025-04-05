@@ -1792,6 +1792,9 @@
     "en-US": "text and block containers",
     "zh-CN": "文本和区块容器"
   },
+  "textAndSVGShapes": {
+    "en-US": "text and SVG shapes"
+  },
   "textElements": {
     "de": "Textelemente",
     "en-US": "text elements",
