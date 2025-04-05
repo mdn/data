@@ -17,7 +17,7 @@
     ],
     "descriptors": {
       "additive-symbols": {
-        "syntax": "[ <integer> && <symbol> ]#",
+        "syntax": "[ <integer [0,∞]> && <symbol> ]#",
         "media": "all",
         "initial": "n/a (required)",
         "percentages": "no",
