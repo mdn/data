@@ -1498,7 +1498,7 @@
     "ru": "относятся к размеру маски области рисования минус размер маски слоя изображения (смотрите статью о {{cssxref(\"background-position\")}})"
   },
   "referToSVGViewportDiagonal": {
-    "en-US": "refer to the normalized diagonal measure of the current SVG viewport's applied {{SVGAttr(\"viewBox\")}}, or of the viewport itself if no `viewBox` is specified"
+    "en-US": "refer to the normalized diagonal measure of the current SVG viewport's applied {{SVGAttr(\"viewBox\")}}, or of the viewport itself if no <code>viewBox</code> is specified"
   },
   "referToSVGViewportHeight": {
     "en-US": "refer to the height of the current SVG viewport"
