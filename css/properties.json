@@ -4492,7 +4492,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/container-type"
   },
   "content": {
-    "syntax": "normal | none | [ <content-replacement> | <content-list> ] [/ [ <string> | <counter> ]+ ]?",
+    "syntax": "normal | none | [ <content-replacement> | <content-list> ] [ / [ <string> | <counter> | <attr()> ]+ ]?",
     "media": "all",
     "inherited": false,
     "animationType": "discrete",
