@@ -17,7 +17,7 @@
     ],
     "descriptors": {
       "additive-symbols": {
-        "syntax": "[ <integer> && <symbol> ]#",
+        "syntax": "[ <integer [0,∞]> && <symbol> ]#",
         "media": "all",
         "initial": "n/a (required)",
         "percentages": "no",
@@ -444,7 +444,7 @@
         "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@page/page-orientation"
       },
       "size": {
-        "syntax": "<length>{1,2} | auto | [ <page-size> || [ portrait | landscape ] ]",
+        "syntax": "<length [0,∞]>{1,2} | auto | [ <page-size> || [ portrait | landscape ] ]",
         "media": [
           "visual",
           "paged"

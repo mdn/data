@@ -927,6 +927,9 @@
     "ja": "インラインレベルおよびテーブルセル要素",
     "ru": "строчным элементам и ячейкам таблиц"
   },
+  "inlineLevelBoxesAndSVGTextContentElements": {
+    "en-US": "inline-level boxes and SVG text content elements"
+  },
   "inlineLevelBoxesFlexItemsGridItemsTableCellsAndSVGTextContentElements": {
     "en-US": "inline-level boxes, flex items, grid items, table cells, and SVG text content elements"
   },
@@ -1495,7 +1498,7 @@
     "ru": "относятся к размеру маски области рисования минус размер маски слоя изображения (смотрите статью о {{cssxref(\"background-position\")}})"
   },
   "referToSVGViewportDiagonal": {
-    "en-US": "refer to the normalized diagonal measure of the current SVG viewport's applied {{SVGAttr(\"viewBox\")}}, or of the viewport itself if no `viewBox` is specified"
+    "en-US": "refer to the normalized diagonal measure of the current SVG viewport's applied {{SVGAttr(\"viewBox\")}}, or of the viewport itself if no <code>viewBox</code> is specified"
   },
   "referToSVGViewportHeight": {
     "en-US": "refer to the height of the current SVG viewport"
@@ -1505,6 +1508,9 @@
   },
   "referToSVGViewportWidth": {
     "en-US": "refer to the width of the current SVG viewport"
+  },
+  "referTtoTheUsedValueOfLineHeight": {
+    "en-US": "refer to the used value of {{cssxref(\"line-height\")}}"
   },
   "referToTotalPathLength": {
     "de": "beziehen sich auf die Gesamtlänge des Pfads",
@@ -1810,6 +1816,9 @@
   },
   "theSpecifiedKeyword": {
     "en-US": "the specified keyword"
+  },
+  "theSpecifiedKeywordOrAComputedLengthPercentageValue": {
+    "en-US": "the specified keyword or a computed <length-percentage> value"
   },
   "transform": {
     "de": "Transformation",
