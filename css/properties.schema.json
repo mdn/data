@@ -81,6 +81,7 @@
         "referToSVGViewportSize",
         "referToSVGViewportWidth",
         "referToSVGViewportDiagonal",
+        "referTtoTheUsedValueOfLineHeight",
         "referToTotalPathLength",
         "referToWidthAndHeightOfElement",
         "referToWidthOfAffectedGlyph",
@@ -177,6 +178,7 @@
         "theComputedLengthAndVisualBox",
         "theKeywordListStyleImageNoneOrComputedValue",
         "theSpecifiedKeyword",
+        "theSpecifiedKeywordOrAComputedLengthPercentageValue",
         "translucentValuesRGBAOtherwiseRGB",
         "twoAbsoluteLengthOrPercentages",
         "twoAbsoluteLengths"
@@ -253,6 +255,7 @@
         "inlineBoxesAndBlockContainers",
         "inFlowChildrenOfBoxElements",
         "inlineLevelAndTableCellElements",
+        "inlineLevelBoxesAndSVGTextContentElements",
         "inlineLevelBoxesFlexItemsGridItemsTableCellsAndSVGTextContentElements",
         "limitedSVGElements",
         "limitedSVGElementsCircle",

@@ -927,6 +927,9 @@
     "ja": "インラインレベルおよびテーブルセル要素",
     "ru": "строчным элементам и ячейкам таблиц"
   },
+  "inlineLevelBoxesAndSVGTextContentElements": {
+    "en-US": "inline-level boxes and SVG text content elements"
+  },
   "inlineLevelBoxesFlexItemsGridItemsTableCellsAndSVGTextContentElements": {
     "en-US": "inline-level boxes, flex items, grid items, table cells, and SVG text content elements"
   },
@@ -1506,6 +1509,9 @@
   "referToSVGViewportWidth": {
     "en-US": "refer to the width of the current SVG viewport"
   },
+  "referTtoTheUsedValueOfLineHeight": {
+    "en-US": "refer to the used value of {{cssxref(\"line-height\")}}"
+  },
   "referToTotalPathLength": {
     "de": "beziehen sich auf die Gesamtlänge des Pfads",
     "en-US": "refer to the total path length",
@@ -1813,6 +1819,9 @@
   },
   "theSpecifiedKeyword": {
     "en-US": "the specified keyword"
+  },
+  "theSpecifiedKeywordOrAComputedLengthPercentageValue": {
+    "en-US": "the specified keyword or a computed <length-percentage> value"
   },
   "transform": {
     "de": "Transformation",
