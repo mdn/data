@@ -1,5 +1,42 @@
 # Changelog
 
+## [2.20.0](https://github.com/mdn/data/compare/v2.19.0...v2.20.0) (2025-04-07)
+
+
+### Features
+
+* **css:** Add data for `::checkmark` ([#960](https://github.com/mdn/data/issues/960)) ([ad9ebf0](https://github.com/mdn/data/commit/ad9ebf0e3056c64839c75fcc6e3752962c588973))
+* **css:** Add data for `::picker-icon` ([#961](https://github.com/mdn/data/issues/961)) ([a2b6f97](https://github.com/mdn/data/commit/a2b6f977e658fce615bae3d40a4d5d5a1f87683b))
+* **css:** Add data for `::picker()` ([#962](https://github.com/mdn/data/issues/962)) ([931d63d](https://github.com/mdn/data/commit/931d63d22a2bbfdb7780f477b6bb4a932a44317d))
+* **css:** Add data for `<text-edge>` ([#959](https://github.com/mdn/data/issues/959)) ([c7acf92](https://github.com/mdn/data/commit/c7acf9247e99dec35ba8771ce3faea2b5ea8a140))
+* **css:** Add data for `baseline-shift` ([#957](https://github.com/mdn/data/issues/957)) ([25e6f28](https://github.com/mdn/data/commit/25e6f28fe734860e9698134bd02c7a6a9fa008de))
+* **css:** Add data for `object-view-box` ([#969](https://github.com/mdn/data/issues/969)) ([20a9429](https://github.com/mdn/data/commit/20a94290614bedfb8ba4504621eea8fa2f8e4213))
+* **css:** Add data for `scroll-initial-target` ([#964](https://github.com/mdn/data/issues/964)) ([9f08805](https://github.com/mdn/data/commit/9f088058a79b2429533f40ca7d04aeb10bc2ab52))
+* **css:** Fix syntax for `font-size` ([4866a9d](https://github.com/mdn/data/commit/4866a9d87f0ca334dd906cea23a4418b91ca38c7))
+* **css:** Fix syntax for `view-timeline` ([4318469](https://github.com/mdn/data/commit/4318469c71820b616502147303d035c37e6edcfc))
+* **css:** Update syntax for `[@keyframes](https://github.com/keyframes)` ([#954](https://github.com/mdn/data/issues/954)) ([767a605](https://github.com/mdn/data/commit/767a6057fb95165370301426ca763fe3d7b97e84))
+* **css:** Update syntax for `*-conic-gradient()` ([#947](https://github.com/mdn/data/issues/947)) ([4277471](https://github.com/mdn/data/commit/4277471269b6280da9494ee6fcada0adbdb077b3))
+* **css:** Update syntax for `*-linear-gradient()` ([#948](https://github.com/mdn/data/issues/948)) ([f9775b1](https://github.com/mdn/data/commit/f9775b1001756df575d9e5c9a80731f07922a71f))
+* **css:** Update syntax for `*-radial-gradient()` ([#950](https://github.com/mdn/data/issues/950)) ([f9066d3](https://github.com/mdn/data/commit/f9066d39b65d3fbbc3de320a850a3ebf2fdf7fbb))
+* **css:** Update syntax for `<basic-shape>` ([#971](https://github.com/mdn/data/issues/971)) ([d4bc9b3](https://github.com/mdn/data/commit/d4bc9b343ca80f7bc763a6e4799971ec11487f9b))
+* **css:** Update syntax for `container-type` ([#955](https://github.com/mdn/data/issues/955)) ([8ffa50e](https://github.com/mdn/data/commit/8ffa50e5b52ca71f2632f1382822197c60d1ceff))
+* **css:** Update syntax for `font-size` ([#945](https://github.com/mdn/data/issues/945)) ([4866a9d](https://github.com/mdn/data/commit/4866a9d87f0ca334dd906cea23a4418b91ca38c7))
+* **css:** Update syntax for `view-timeline` ([#946](https://github.com/mdn/data/issues/946)) ([4318469](https://github.com/mdn/data/commit/4318469c71820b616502147303d035c37e6edcfc))
+* **css:** Update syntax for gradient related  features ([#949](https://github.com/mdn/data/issues/949)) ([503b88f](https://github.com/mdn/data/commit/503b88f8f034dcd83b12595c2896bf4015497831))
+
+
+### Bug Fixes
+
+* Replace Markdown formatting with HTML ([#974](https://github.com/mdn/data/issues/974)) ([a7c5cb3](https://github.com/mdn/data/commit/a7c5cb3f4696fd495abdba4b6e54f950c2802210))
+
+
+### Miscellaneous
+
+* **css:** Mark `::cue-region` as experimental ([#966](https://github.com/mdn/data/issues/966)) ([8c84202](https://github.com/mdn/data/commit/8c84202187606509283c6b2ec33835f280f54963))
+* **css:** merge CSS Units group into CSS Values and Units ([#879](https://github.com/mdn/data/issues/879)) ([c6f42b0](https://github.com/mdn/data/commit/c6f42b033e342ff79a9a95e232aefa4d77cd54ef))
+* **css:** Rename CSS Positioning group to CSS Positioned Layout group ([#923](https://github.com/mdn/data/issues/923)) ([3660ce1](https://github.com/mdn/data/commit/3660ce185d7c78168b14cd1bb261fa97156fbf0b))
+* **css:** Sync features's status with bcd ([#943](https://github.com/mdn/data/issues/943)) ([d473c4f](https://github.com/mdn/data/commit/d473c4fcc3f7c8b6097a54cbe108859c25849638))
+
 ## [2.19.0](https://github.com/mdn/data/compare/v2.18.0...v2.19.0) (2025-03-31)
 
 
