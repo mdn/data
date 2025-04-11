@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.21.0](https://github.com/mdn/data/compare/v2.20.0...v2.21.0) (2025-04-11)
+
+
+### Features
+
+* **css:** Update syntax for `@counter-style/additive-symbols` descriptor ([#978](https://github.com/mdn/data/issues/978)) ([61a3662](https://github.com/mdn/data/commit/61a3662b9575960b2f90385745774470b654905b))
+* **css:** Update syntax for `@page/size` descriptor ([#977](https://github.com/mdn/data/issues/977)) ([f56fae7](https://github.com/mdn/data/commit/f56fae746e0d33d3a3913689c2aea9c6bf70dcbb))
+
+
+### Miscellaneous
+
+* **css:** Fix typo ([#975](https://github.com/mdn/data/issues/975)) ([8bf5a33](https://github.com/mdn/data/commit/8bf5a335342a27f105629e578fdedba584d7b750))
+
 ## [2.20.0](https://github.com/mdn/data/compare/v2.19.0...v2.20.0) (2025-04-07)
 
 
