@@ -162,6 +162,7 @@
         "normalOnElementsForPseudosNoneAbsoluteURIStringOrAsSpecified",
         "oneToFourPercentagesOrAbsoluteLengthsPlusFill",
         "optimumValueOfAbsoluteLengthOrNormal",
+        "percentage",
         "percentageAsSpecifiedAbsoluteLengthOrNone",
         "percentageAsSpecifiedOrAbsoluteLength",
         "percentageAutoOrAbsoluteLength",

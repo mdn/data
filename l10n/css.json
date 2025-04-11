@@ -1298,6 +1298,9 @@
     "ja": "形式文法における値の出現順",
     "ru": "порядок появления в формальной грамматике значений"
   },
+  "percentage": {
+    "en-US": "percentage"
+  },
   "percentageAsSpecifiedAbsoluteLengthOrNone": {
     "de": "der Prozentwert wie angegeben oder die absolute Länge oder <code>none</code>",
     "en-US": "the percentage as specified or the absolute length or <code>none</code>",
