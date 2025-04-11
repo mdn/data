@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.22.0](https://github.com/mdn/data/compare/v2.21.0...v2.22.0) (2025-04-11)
+
+
+### Features
+
+* **css:** Update syntax for `@counter-style/pad` descriptor ([#979](https://github.com/mdn/data/issues/979)) ([bd9b855](https://github.com/mdn/data/commit/bd9b855ca412a813e96fe28ce5b266f7e1a3d0e0))
+
+
+### Bug Fixes
+
+* **css:** Rename `<cubic-bezier-timing-function>` to `<cubic-bezier-easing-function>` ([#970](https://github.com/mdn/data/issues/970)) ([0374e4f](https://github.com/mdn/data/commit/0374e4f77f803bf47d4811883350e07cb7e6c4a6))
+* **css:** Rename `cubic-bezier-timing-function` to `cubic-bezier-easing-function`, fixes [#968](https://github.com/mdn/data/issues/968) ([0374e4f](https://github.com/mdn/data/commit/0374e4f77f803bf47d4811883350e07cb7e6c4a6))
+
 ## [2.21.0](https://github.com/mdn/data/compare/v2.20.0...v2.21.0) (2025-04-11)
 
 
