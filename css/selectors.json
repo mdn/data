@@ -2,7 +2,6 @@
   "Type selectors": {
     "syntax": "element",
     "groups": [
-      "Basic Selectors",
       "Selectors"
     ],
     "status": "standard",
@@ -11,7 +10,6 @@
   "Class selectors": {
     "syntax": ".class",
     "groups": [
-      "Basic Selectors",
       "Selectors"
     ],
     "status": "standard",
@@ -20,7 +18,6 @@
   "ID selectors": {
     "syntax": "#id",
     "groups": [
-      "Basic Selectors",
       "Selectors"
     ],
     "status": "standard",
@@ -29,7 +26,6 @@
   "Universal selectors": {
     "syntax": "*",
     "groups": [
-      "Basic Selectors",
       "Selectors"
     ],
     "status": "standard",
@@ -38,7 +34,6 @@
   "Attribute selectors": {
     "syntax": "[attr=value]",
     "groups": [
-      "Basic Selectors",
       "Selectors"
     ],
     "status": "standard",
@@ -47,8 +42,7 @@
   "Nesting selector": {
     "syntax": "A { &B { } }",
     "groups": [
-      "Basic Selectors",
-      "Selectors"
+      "CSS Nesting"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Nesting_selector"
@@ -56,7 +50,6 @@
   "Selector list": {
     "syntax": ",",
     "groups": [
-      "Grouping Selectors",
       "Selectors"
     ],
     "status": "standard",
@@ -65,7 +58,6 @@
   "Next-sibling combinator": {
     "syntax": "A + B",
     "groups": [
-      "Combinators",
       "Selectors"
     ],
     "status": "standard",
@@ -74,7 +66,6 @@
   "Subsequent-sibling combinator": {
     "syntax": "A ~ B",
     "groups": [
-      "Combinators",
       "Selectors"
     ],
     "status": "standard",
@@ -83,7 +74,6 @@
   "Child combinator": {
     "syntax": "A > B",
     "groups": [
-      "Combinators",
       "Selectors"
     ],
     "status": "standard",
@@ -92,7 +82,6 @@
   "Descendant combinator": {
     "syntax": "A B",
     "groups": [
-      "Combinators",
       "Selectors"
     ],
     "status": "standard",
@@ -101,7 +90,6 @@
   "Column combinator": {
     "syntax": "A || B",
     "groups": [
-      "Combinators",
       "Selectors"
     ],
     "status": "standard",
@@ -110,8 +98,7 @@
   "Namespace separator": {
     "syntax": "A | B",
     "groups": [
-      "Combinators",
-      "Selectors"
+      "CSS Namespaces"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Namespace_separator"
@@ -119,7 +106,6 @@
   "Pseudo-classes": {
     "syntax": ":",
     "groups": [
-      "Pseudo",
       "Selectors"
     ],
     "status": "standard",
@@ -128,7 +114,6 @@
   "Pseudo-elements": {
     "syntax": "::",
     "groups": [
-      "Pseudo",
       "Selectors"
     ],
     "status": "standard",
@@ -137,7 +122,6 @@
   ":active": {
     "syntax": ":active",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -146,8 +130,6 @@
   ":active-view-transition": {
     "syntax": ":active-view-transition",
     "groups": [
-      "Pseudo-classes",
-      "Selectors",
       "CSS View Transitions"
     ],
     "status": "standard"
@@ -155,8 +137,6 @@
   ":active-view-transition-type()": {
     "syntax": ":active-view-transition-type( <custom-ident># )",
     "groups": [
-      "Pseudo-classes",
-      "Selectors",
       "CSS View Transitions"
     ],
     "status": "standard"
@@ -164,7 +144,6 @@
   ":any-link": {
     "syntax": ":any-link",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -173,7 +152,6 @@
   ":autofill": {
     "syntax": ":autofill",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -182,8 +160,6 @@
   ":blank": {
     "syntax": ":blank",
     "groups": [
-      "Pseudo-classes",
-      "Selectors",
       "CSS Paged Media"
     ],
     "status": "experimental",
@@ -192,7 +168,6 @@
   ":buffering": {
     "syntax": ":buffering",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -201,7 +176,6 @@
   ":checked": {
     "syntax": ":checked",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -210,7 +184,6 @@
   ":current": {
     "syntax": ":current",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "experimental",
@@ -219,7 +192,6 @@
   ":default": {
     "syntax": ":default",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -228,7 +200,6 @@
   ":defined": {
     "syntax": ":defined",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -237,7 +208,6 @@
   ":dir()": {
     "syntax": ":dir( [ ltr | rtl ] )",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -246,7 +216,6 @@
   ":disabled": {
     "syntax": ":disabled",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -255,7 +224,6 @@
   ":empty": {
     "syntax": ":empty",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -264,7 +232,6 @@
   ":enabled": {
     "syntax": ":enabled",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -273,8 +240,6 @@
   ":first": {
     "syntax": ":first",
     "groups": [
-      "Pseudo-classes",
-      "Selectors",
       "CSS Paged Media"
     ],
     "status": "standard",
@@ -283,7 +248,6 @@
   ":first-child": {
     "syntax": ":first-child",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -292,7 +256,6 @@
   ":first-of-type": {
     "syntax": ":first-of-type",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -301,7 +264,6 @@
   ":focus": {
     "syntax": ":focus",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -310,7 +272,6 @@
   ":focus-visible": {
     "syntax": ":focus-visible",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -319,7 +280,6 @@
   ":focus-within": {
     "syntax": ":focus-within",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -328,8 +288,8 @@
   ":fullscreen": {
     "syntax": ":fullscreen",
     "groups": [
-      "Pseudo-classes",
-      "Selectors"
+      "Selectors",
+      "Fullscreen API"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:fullscreen"
@@ -337,7 +297,6 @@
   ":future": {
     "syntax": ":future",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -346,7 +305,6 @@
   ":has()": {
     "syntax": ":has( <forgiving-relative-selector-list> )",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -355,8 +313,7 @@
   ":has-slotted": {
     "syntax": ":has-slotted",
     "groups": [
-      "Pseudo-classes",
-      "Selectors"
+      "CSS Scoping"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:has-slotted"
@@ -364,8 +321,7 @@
   ":host": {
     "syntax": ":host",
     "groups": [
-      "Pseudo-classes",
-      "Selectors"
+      "CSS Scoping"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:host"
@@ -373,8 +329,7 @@
   ":host()": {
     "syntax": ":host( <compound-selector> )",
     "groups": [
-      "Pseudo-classes",
-      "Selectors"
+      "CSS Scoping"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:host_function"
@@ -382,8 +337,7 @@
   ":host-context()": {
     "syntax": ":host-context( <compound-selector> )",
     "groups": [
-      "Pseudo-classes",
-      "Selectors"
+      "CSS Scoping"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/:host-context"
@@ -391,7 +345,6 @@
   ":hover": {
     "syntax": ":hover",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -400,7 +353,6 @@
   ":in-range": {
     "syntax": ":in-range",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -409,7 +361,6 @@
   ":indeterminate": {
     "syntax": ":indeterminate",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -418,7 +369,6 @@
   ":invalid": {
     "syntax": ":invalid",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -427,7 +377,6 @@
   ":is()": {
     "syntax": ":is( <forgiving-selector-list> )",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -436,7 +385,6 @@
   ":lang()": {
     "syntax": ":lang( <language-code> )",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -445,7 +393,6 @@
   ":last-child": {
     "syntax": ":last-child",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -454,7 +401,6 @@
   ":last-of-type": {
     "syntax": ":last-of-type",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -463,8 +409,6 @@
   ":left": {
     "syntax": ":left",
     "groups": [
-      "Pseudo-classes",
-      "Selectors",
       "CSS Paged Media"
     ],
     "status": "standard",
@@ -473,7 +417,6 @@
   ":link": {
     "syntax": ":link",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -482,7 +425,6 @@
   ":local-link": {
     "syntax": ":local-link",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "experimental",
@@ -491,7 +433,6 @@
   ":modal": {
     "syntax": ":modal",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -500,7 +441,6 @@
   ":muted": {
     "syntax": ":muted",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -509,7 +449,6 @@
   ":not()": {
     "syntax": ":not( <complex-selector-list> )",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -518,7 +457,6 @@
   ":nth-child()": {
     "syntax": ":nth-child( <an+b> [ of <complex-selector-list> ]? )",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -527,7 +465,6 @@
   ":nth-last-child()": {
     "syntax": ":nth-last-child( <an+b> [ of <complex-selector-list> ]? )",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -536,7 +473,6 @@
   ":nth-last-of-type()": {
     "syntax": ":nth-last-of-type( <an+b> )",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -545,7 +481,6 @@
   ":nth-of-type()": {
     "syntax": ":nth-of-type( <an+b> )",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -554,7 +489,6 @@
   ":only-child": {
     "syntax": ":only-child",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -563,7 +497,6 @@
   ":only-of-type": {
     "syntax": ":only-of-type",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -572,7 +505,6 @@
   ":open": {
     "syntax": ":open",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -581,7 +513,6 @@
   ":optional": {
     "syntax": ":optional",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -590,7 +521,6 @@
   ":out-of-range": {
     "syntax": ":out-of-range",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -599,7 +529,6 @@
   ":past": {
     "syntax": ":past",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -608,7 +537,6 @@
   ":paused": {
     "syntax": ":paused",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -617,7 +545,6 @@
   ":picture-in-picture": {
     "syntax": ":picture-in-picture",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -626,7 +553,6 @@
   ":placeholder-shown": {
     "syntax": ":placeholder-shown",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -635,7 +561,6 @@
   ":playing": {
     "syntax": ":playing",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -644,7 +569,6 @@
   ":popover-open": {
     "syntax": ":popover-open",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -653,7 +577,6 @@
   ":read-only": {
     "syntax": ":read-only",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -662,7 +585,6 @@
   ":read-write": {
     "syntax": ":read-write",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -671,7 +593,6 @@
   ":required": {
     "syntax": ":required",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -680,8 +601,6 @@
   ":right": {
     "syntax": ":right",
     "groups": [
-      "Pseudo-classes",
-      "Selectors",
       "CSS Paged Media"
     ],
     "status": "standard",
@@ -690,7 +609,6 @@
   ":root": {
     "syntax": ":root",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -699,7 +617,6 @@
   ":scope": {
     "syntax": ":scope",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -708,7 +625,6 @@
   ":seeking": {
     "syntax": ":seeking",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -717,7 +633,6 @@
   ":stalled": {
     "syntax": ":stalled",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -726,7 +641,6 @@
   ":state()": {
     "syntax": ":state( <custom-ident> )",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -735,7 +649,6 @@
   ":target": {
     "syntax": ":target",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -744,15 +657,13 @@
   ":target-current": {
     "syntax": ":target-current",
     "groups": [
-      "Pseudo-classes",
-      "Selectors"
+      "CSS Overflow"
     ],
     "status": "experimental"
   },
   ":target-within": {
     "syntax": ":target-within",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "experimental",
@@ -761,7 +672,6 @@
   ":user-invalid": {
     "syntax": ":user-invalid",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -770,7 +680,6 @@
   ":user-valid": {
     "syntax": ":user-valid",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -779,7 +688,6 @@
   ":valid": {
     "syntax": ":valid",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -788,7 +696,6 @@
   ":visited": {
     "syntax": ":visited",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -797,7 +704,6 @@
   ":volume-locked": {
     "syntax": ":volume-locked",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -806,7 +712,6 @@
   ":where()": {
     "syntax": ":where( <complex-selector-list> )",
     "groups": [
-      "Pseudo-classes",
       "Selectors"
     ],
     "status": "standard",
@@ -815,16 +720,13 @@
   ":xr-overlay": {
     "syntax": ":xr-overlay",
     "groups": [
-      "Pseudo-classes",
-      "Selectors"
+      "WebXR DOM Overlays"
     ],
     "status": "experimental"
   },
   "::-ms-browse": {
     "syntax": "::-ms-browse",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "Microsoft Extensions"
     ],
     "status": "nonstandard"
@@ -832,8 +734,6 @@
   "::-ms-check": {
     "syntax": "::-ms-check",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "Microsoft Extensions"
     ],
     "status": "nonstandard"
@@ -841,8 +741,6 @@
   "::-ms-clear": {
     "syntax": "::-ms-clear",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "Microsoft Extensions"
     ],
     "status": "nonstandard"
@@ -850,8 +748,6 @@
   "::-ms-expand": {
     "syntax": "::-ms-expand",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "Microsoft Extensions"
     ],
     "status": "nonstandard"
@@ -859,8 +755,6 @@
   "::-ms-fill": {
     "syntax": "::-ms-fill",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "Microsoft Extensions"
     ],
     "status": "nonstandard"
@@ -868,8 +762,6 @@
   "::-ms-fill-lower": {
     "syntax": "::-ms-fill-lower",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "Microsoft Extensions"
     ],
     "status": "nonstandard"
@@ -877,8 +769,6 @@
   "::-ms-fill-upper": {
     "syntax": "::-ms-fill-upper",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "Microsoft Extensions"
     ],
     "status": "nonstandard"
@@ -886,8 +776,6 @@
   "::-ms-reveal": {
     "syntax": "::-ms-reveal",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "Microsoft Extensions"
     ],
     "status": "nonstandard"
@@ -895,8 +783,6 @@
   "::-ms-thumb": {
     "syntax": "::-ms-thumb",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "Microsoft Extensions"
     ],
     "status": "nonstandard"
@@ -904,8 +790,6 @@
   "::-ms-ticks-after": {
     "syntax": "::-ms-ticks-after",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "Microsoft Extensions"
     ],
     "status": "nonstandard"
@@ -913,8 +797,6 @@
   "::-ms-ticks-before": {
     "syntax": "::-ms-ticks-before",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "Microsoft Extensions"
     ],
     "status": "nonstandard"
@@ -922,8 +804,6 @@
   "::-ms-tooltip": {
     "syntax": "::-ms-tooltip",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "Microsoft Extensions"
     ],
     "status": "nonstandard"
@@ -931,8 +811,6 @@
   "::-ms-track": {
     "syntax": "::-ms-track",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "Microsoft Extensions"
     ],
     "status": "nonstandard"
@@ -940,8 +818,6 @@
   "::-ms-value": {
     "syntax": "::-ms-value",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "Microsoft Extensions"
     ],
     "status": "nonstandard"
@@ -949,8 +825,6 @@
   "::-moz-progress-bar": {
     "syntax": "::-moz-progress-bar",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "Mozilla Extensions"
     ],
     "status": "nonstandard",
@@ -959,8 +833,6 @@
   "::-moz-range-progress": {
     "syntax": "::-moz-range-progress",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "Mozilla Extensions"
     ],
     "status": "nonstandard",
@@ -969,8 +841,6 @@
   "::-moz-range-thumb": {
     "syntax": "::-moz-range-thumb",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "Mozilla Extensions"
     ],
     "status": "nonstandard",
@@ -979,8 +849,6 @@
   "::-moz-range-track": {
     "syntax": "::-moz-range-track",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "Mozilla Extensions"
     ],
     "status": "nonstandard",
@@ -989,8 +857,6 @@
   "::-webkit-progress-bar": {
     "syntax": "::-webkit-progress-bar",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "WebKit Extensions"
     ],
     "status": "nonstandard",
@@ -999,8 +865,6 @@
   "::-webkit-progress-inner-value": {
     "syntax": "::-webkit-progress-inner-value",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "WebKit Extensions"
     ],
     "status": "nonstandard"
@@ -1008,8 +872,6 @@
   "::-webkit-progress-value": {
     "syntax": "::-webkit-progress-value",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "WebKit Extensions"
     ],
     "status": "nonstandard",
@@ -1018,8 +880,6 @@
   "::-webkit-slider-runnable-track": {
     "syntax": "::-webkit-slider-runnable-track",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "WebKit Extensions"
     ],
     "status": "nonstandard",
@@ -1028,8 +888,6 @@
   "::-webkit-slider-thumb": {
     "syntax": "::-webkit-slider-thumb",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "WebKit Extensions"
     ],
     "status": "nonstandard",
@@ -1038,8 +896,7 @@
   "::after": {
     "syntax": "::after",
     "groups": [
-      "Pseudo-elements",
-      "Selectors"
+      "CSS Pseudo-Elements"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::after"
@@ -1047,9 +904,7 @@
   "::backdrop": {
     "syntax": "::backdrop",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
-      "CSS Positioned Layout"
+      "CSS Pseudo-Elements"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::backdrop"
@@ -1057,8 +912,7 @@
   "::before": {
     "syntax": "::before",
     "groups": [
-      "Pseudo-elements",
-      "Selectors"
+      "CSS Pseudo-Elements"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::before"
@@ -1074,8 +928,7 @@
   "::cue": {
     "syntax": "::cue",
     "groups": [
-      "Pseudo-elements",
-      "Selectors"
+      "WebVTT"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::cue"
@@ -1083,8 +936,7 @@
   "::cue()": {
     "syntax": "::cue( <selector> )",
     "groups": [
-      "Pseudo-elements",
-      "Selectors"
+      "WebVTT"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::cue"
@@ -1092,24 +944,21 @@
   "::cue-region": {
     "syntax": "::cue-region",
     "groups": [
-      "Pseudo-elements",
-      "Selectors"
+      "WebVTT"
     ],
     "status": "experimental"
   },
   "::cue-region()": {
     "syntax": "::cue-region( <selector> )",
     "groups": [
-      "Pseudo-elements",
-      "Selectors"
+      "WebVTT"
     ],
     "status": "experimental"
   },
   "::details-content": {
     "syntax": "::details-content",
     "groups": [
-      "Pseudo-elements",
-      "Selectors"
+      "CSS Pseudo-Elements"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::details-content"
@@ -1117,8 +966,7 @@
   "::file-selector-button": {
     "syntax": "::file-selector-button",
     "groups": [
-      "Pseudo-elements",
-      "Selectors"
+      "CSS Pseudo-Elements"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::file-selector-button"
@@ -1126,8 +974,7 @@
   "::first-letter": {
     "syntax": "::first-letter",
     "groups": [
-      "Pseudo-elements",
-      "Selectors"
+      "CSS Pseudo-Elements"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::first-letter"
@@ -1135,8 +982,7 @@
   "::first-line": {
     "syntax": "::first-line",
     "groups": [
-      "Pseudo-elements",
-      "Selectors"
+      "CSS Pseudo-Elements"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::first-line"
@@ -1144,8 +990,7 @@
   "::grammar-error": {
     "syntax": "::grammar-error",
     "groups": [
-      "Pseudo-elements",
-      "Selectors"
+      "CSS Pseudo-Elements"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::grammar-error"
@@ -1153,8 +998,8 @@
   "::highlight()": {
     "syntax": "::highlight( <custom-ident> )",
     "groups": [
-      "Pseudo-elements",
-      "Selectors"
+      "CSS Pseudo-Elements",
+      "CSS Custom Highlight API"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::highlight"
@@ -1162,8 +1007,7 @@
   "::marker": {
     "syntax": "::marker",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
+      "CSS Pseudo-Elements",
       "CSS Lists and Counters"
     ],
     "status": "standard",
@@ -1172,8 +1016,6 @@
   "::part()": {
     "syntax": "::part( <ident>+ )",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "CSS Shadow Parts"
     ],
     "status": "standard",
@@ -1198,8 +1040,7 @@
   "::placeholder": {
     "syntax": "::placeholder",
     "groups": [
-      "Pseudo-elements",
-      "Selectors"
+      "CSS Pseudo-Elements"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::placeholder"
@@ -1207,24 +1048,21 @@
   "::scroll-marker": {
     "syntax": "::scroll-marker",
     "groups": [
-      "Pseudo-elements",
-      "Selectors"
+      "CSS Overflow"
     ],
     "status": "experimental"
   },
   "::scroll-marker-group": {
     "syntax": "::scroll-marker-group",
     "groups": [
-      "Pseudo-elements",
-      "Selectors"
+      "CSS Overflow"
     ],
     "status": "experimental"
   },
   "::selection": {
     "syntax": "::selection",
     "groups": [
-      "Pseudo-elements",
-      "Selectors"
+      "CSS Pseudo-Elements"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::selection"
@@ -1232,8 +1070,7 @@
   "::slotted()": {
     "syntax": "::slotted( <compound-selector> )",
     "groups": [
-      "Pseudo-elements",
-      "Selectors"
+      "CSS Scoping"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::slotted"
@@ -1241,8 +1078,7 @@
   "::spelling-error": {
     "syntax": "::spelling-error",
     "groups": [
-      "Pseudo-elements",
-      "Selectors"
+      "CSS Pseudo-Elements"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::spelling-error"
@@ -1250,8 +1086,7 @@
   "::target-text": {
     "syntax": "::target-text",
     "groups": [
-      "Pseudo-elements",
-      "Selectors"
+      "CSS Pseudo-Elements"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/::target-text"
@@ -1259,8 +1094,6 @@
   "::view-transition": {
     "syntax": "::view-transition",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "CSS View Transitions"
     ],
     "status": "standard",
@@ -1269,8 +1102,6 @@
   "::view-transition-group()": {
     "syntax": "::view-transition-group([ '*' | <custom-ident> ])",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "CSS View Transitions"
     ],
     "status": "standard",
@@ -1279,8 +1110,6 @@
   "::view-transition-image-pair()": {
     "syntax": "::view-transition-image-pair([ '*' | <custom-ident> ])",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "CSS View Transitions"
     ],
     "status": "standard",
@@ -1289,8 +1118,6 @@
   "::view-transition-new()": {
     "syntax": "::view-transition-new([ '*' | <custom-ident> ])",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "CSS View Transitions"
     ],
     "status": "standard",
@@ -1299,8 +1126,6 @@
   "::view-transition-old()": {
     "syntax": "::view-transition-old([ '*' | <custom-ident> ])",
     "groups": [
-      "Pseudo-elements",
-      "Selectors",
       "CSS View Transitions"
     ],
     "status": "standard",
