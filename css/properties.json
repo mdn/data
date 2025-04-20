@@ -6674,12 +6674,13 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-block-start"
   },
   "margin-bottom": {
-    "syntax": "<length-percentage> | auto",
+    "syntax": "<length-percentage> | auto | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
+      "CSS Anchor Positioning",
       "CSS Box Model"
     ],
     "initial": "0",
@@ -6747,12 +6748,13 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-inline-start"
   },
   "margin-left": {
-    "syntax": "<length-percentage> | auto",
+    "syntax": "<length-percentage> | auto | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
+      "CSS Anchor Positioning",
       "CSS Box Model"
     ],
     "initial": "0",
@@ -6766,12 +6768,13 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-left"
   },
   "margin-right": {
-    "syntax": "<length-percentage> | auto",
+    "syntax": "<length-percentage> | auto | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
+      "CSS Anchor Positioning",
       "CSS Box Model"
     ],
     "initial": "0",
@@ -6785,12 +6788,13 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-right"
   },
   "margin-top": {
-    "syntax": "<length-percentage> | auto",
+    "syntax": "<length-percentage> | auto | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
+      "CSS Anchor Positioning",
       "CSS Box Model"
     ],
     "initial": "0",
