@@ -3705,12 +3705,13 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-width"
   },
   "bottom": {
-    "syntax": "<length> | <percentage> | auto",
+    "syntax": "auto | <length-percentage> | <anchor()> | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
     "percentages": "referToContainingBlockHeight",
     "groups": [
+      "CSS Anchor Positioning",
       "CSS Positioned Layout"
     ],
     "initial": "auto",
@@ -6394,12 +6395,13 @@
     "status": "nonstandard"
   },
   "left": {
-    "syntax": "<length> | <percentage> | auto",
+    "syntax": "auto | <length-percentage> | <anchor()> | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
+      "CSS Anchor Positioning",
       "CSS Positioned Layout"
     ],
     "initial": "auto",
@@ -8623,12 +8625,13 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/resize"
   },
   "right": {
-    "syntax": "<length> | <percentage> | auto",
+    "syntax": "auto | <length-percentage> | <anchor()> | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
+      "CSS Anchor Positioning",
       "CSS Positioned Layout"
     ],
     "initial": "auto",
@@ -10329,12 +10332,13 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/timeline-scope"
   },
   "top": {
-    "syntax": "<length> | <percentage> | auto",
+    "syntax": "auto | <length-percentage> | <anchor()> | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
     "percentages": "referToContainingBlockHeight",
     "groups": [
+      "CSS Anchor Positioning",
       "CSS Positioned Layout"
     ],
     "initial": "auto",
