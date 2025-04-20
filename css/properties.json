@@ -1672,7 +1672,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/align-content"
   },
   "align-items": {
-    "syntax": "normal | stretch | <baseline-position> | [ <overflow-position>? <self-position> ]",
+    "syntax": "normal | stretch | <baseline-position> | [ <overflow-position>? <self-position> ] | anchor-center",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -1689,7 +1689,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/align-items"
   },
   "align-self": {
-    "syntax": "auto | normal | stretch | <baseline-position> | <overflow-position>? <self-position>",
+    "syntax": "auto | normal | stretch | <baseline-position> | <overflow-position>? <self-position> | anchor-center",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -6347,7 +6347,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/justify-content"
   },
   "justify-items": {
-    "syntax": "normal | stretch | <baseline-position> | <overflow-position>? [ <self-position> | left | right ] | legacy | legacy && [ left | right | center ]",
+    "syntax": "normal | stretch | <baseline-position> | <overflow-position>? [ <self-position> | left | right ] | legacy | legacy && [ left | right | center ] | anchor-center",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -6363,7 +6363,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/justify-items"
   },
   "justify-self": {
-    "syntax": "auto | normal | stretch | <baseline-position> | <overflow-position>? [ <self-position> | left | right ]",
+    "syntax": "auto | normal | stretch | <baseline-position> | <overflow-position>? [ <self-position> | left | right ] | anchor-center",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
