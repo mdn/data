@@ -2929,7 +2929,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-image"
   },
   "border-image-outset": {
-    "syntax": "[ <length> | <number> ]{1,4}",
+    "syntax": "[ <length [0,∞]> | <number [0,∞]> ]{1,4}  ",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -2967,7 +2967,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-image-repeat"
   },
   "border-image-slice": {
-    "syntax": "<number-percentage>{1,4} && fill?",
+    "syntax": "[ <number [0,∞]> | <percentage [0,∞]> ]{1,4}  && fill?",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -3005,7 +3005,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-image-source"
   },
   "border-image-width": {
-    "syntax": "[ <length-percentage> | <number> | auto ]{1,4}",
+    "syntax": "[ <length-percentage [0,∞]> | <number [0,∞]> | auto ]{1,4}",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
