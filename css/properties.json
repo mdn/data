@@ -3462,7 +3462,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-right-width"
   },
   "border-spacing": {
-    "syntax": "<length> <length>?",
+    "syntax": "<length>{1,2}",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
