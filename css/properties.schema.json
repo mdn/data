@@ -285,7 +285,7 @@
         "positionedElements",
         "positionedElementsWithADefaultAnchorElement",
         "replacedElements",
-        "rubyAnnotationsContainers",
+        "rubyAnnotationContainers",
         "rubyBasesAnnotationsBaseAnnotationContainers",
         "sameAsMargin",
         "sameAsWidthAndHeight",
