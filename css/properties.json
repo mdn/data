@@ -4965,7 +4965,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flood-opacity"
   },
   "font": {
-    "syntax": "[ [ <'font-style'> || <font-variant-css21> || <'font-weight'> || <'font-stretch'> ]? <'font-size'> [ / <'line-height'> ]? <'font-family'> ] | caption | icon | menu | message-box | small-caption | status-bar",
+    "syntax": "[ [ <'font-style'> || <font-variant-css2> || <'font-weight'> || <font-width-css3> ]? <'font-size'> [ / <'line-height'> ]? <'font-family'># ] | <system-family-name>",
     "media": "visual",
     "inherited": true,
     "animationType": [
@@ -5200,7 +5200,7 @@
     "syntax": "<font-stretch-absolute>",
     "media": "visual",
     "inherited": true,
-    "animationType": "fontStretch",
+    "animationType": "see",
     "percentages": "no",
     "groups": [
       "CSS Fonts"
