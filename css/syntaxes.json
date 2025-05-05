@@ -386,11 +386,14 @@
   "font-stretch-absolute": {
     "syntax": "normal | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded | <percentage>"
   },
-  "font-variant-css21": {
-    "syntax": "[ normal | small-caps ]"
+  "font-variant-css2": {
+    "syntax": "normal | small-caps"
   },
   "font-weight-absolute": {
     "syntax": "normal | bold | <number [1,1000]>"
+  },
+  "font-width-css3": {
+    "syntax": "normal | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded"
   },
   "form-control-identifier": {
     "syntax": "select"
@@ -1009,6 +1012,9 @@
   },
   "system-color": {
     "syntax": "AccentColor | AccentColorText | ActiveText | ButtonBorder | ButtonFace | ButtonText | Canvas | CanvasText | Field | FieldText | GrayText | Highlight | HighlightText | LinkText | Mark | MarkText | SelectedItem | SelectedItemText | VisitedText"
+  },
+  "system-family-name": {
+    "syntax": "caption | icon | menu | message-box | small-caption | status-bar"
   },
   "tan()": {
     "syntax": "tan( <calc-sum> )"
