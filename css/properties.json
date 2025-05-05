@@ -5200,7 +5200,7 @@
     "syntax": "<font-stretch-absolute>",
     "media": "visual",
     "inherited": true,
-    "animationType": "see",
+    "animationType": "fontStretch",
     "percentages": "no",
     "groups": [
       "CSS Fonts"
