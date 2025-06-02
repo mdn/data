@@ -29,7 +29,7 @@
   "homepage": "https://developer.mozilla.org",
   "devDependencies": {
     "ajv": "^6.12.6",
-    "better-ajv-errors": "^1.1.2"
+    "better-ajv-errors": "^2.0.2"
   },
   "scripts": {
     "lint": "node test/lint",
