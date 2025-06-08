@@ -10759,7 +10759,7 @@
     "status": "standard"
   },
   "view-transition-name": {
-    "syntax": "none | <custom-ident>",
+    "syntax": "none | <custom-ident> | match-element",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
