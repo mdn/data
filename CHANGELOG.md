@@ -1,5 +1,28 @@
 # Changelog
 
+## [2.22.0](https://github.com/mdn/data/compare/v2.21.0...v2.22.0) (2025-06-24)
+
+
+### Features
+
+* **css:** Add `view-transition-name: match-element` ([#995](https://github.com/mdn/data/issues/995)) ([a2da61c](https://github.com/mdn/data/commit/a2da61c3c9e0d7cb6ba38b14d0ba8c65979e2538))
+* **css:** Add data for `font-width` ([#972](https://github.com/mdn/data/issues/972)) ([980e137](https://github.com/mdn/data/commit/980e1373907929968d30f34ed7fd62133f96198d))
+* **css:** Add data for `ruby-overhang` ([#967](https://github.com/mdn/data/issues/967)) ([f54b7ab](https://github.com/mdn/data/commit/f54b7ab63e7a0cffe669015eada88bdbc7c20a4d))
+* **css:** Add data for `stroke-color` ([#963](https://github.com/mdn/data/issues/963)) ([a5ff0b3](https://github.com/mdn/data/commit/a5ff0b34907912c944c79514f9999074c2b3afe3))
+* **css:** Update syntax for `@counter-style/pad` descriptor ([#979](https://github.com/mdn/data/issues/979)) ([bd9b855](https://github.com/mdn/data/commit/bd9b855ca412a813e96fe28ce5b266f7e1a3d0e0))
+* **css:** Update syntax for `font` ([#992](https://github.com/mdn/data/issues/992)) ([81fa08f](https://github.com/mdn/data/commit/81fa08fc2595efd3866fe386b9de4bcd5bf62c3d))
+
+
+### Bug Fixes
+
+* **css:** Rename `<cubic-bezier-timing-function>` to `<cubic-bezier-easing-function>` ([#970](https://github.com/mdn/data/issues/970)) ([0374e4f](https://github.com/mdn/data/commit/0374e4f77f803bf47d4811883350e07cb7e6c4a6))
+* **css:** Rename `cubic-bezier-timing-function` to `cubic-bezier-easing-function`, fixes [#968](https://github.com/mdn/data/issues/968) ([0374e4f](https://github.com/mdn/data/commit/0374e4f77f803bf47d4811883350e07cb7e6c4a6))
+
+
+### Miscellaneous
+
+* **deps-dev:** bump better-ajv-errors from 1.2.0 to 2.0.2 ([#994](https://github.com/mdn/data/issues/994)) ([1254a45](https://github.com/mdn/data/commit/1254a459d658e00263e964c631f9e6f3daeef7ee))
+
 ## [2.21.0](https://github.com/mdn/data/compare/v2.20.0...v2.21.0) (2025-04-11)
 
 
