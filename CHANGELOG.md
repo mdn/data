@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.22.1](https://github.com/mdn/data/compare/v2.22.0...v2.22.1) (2025-07-01)
+
+
+### Miscellaneous
+
+* **deps:** bump node from v20 to v22 ([#997](https://github.com/mdn/data/issues/997)) ([bc192b0](https://github.com/mdn/data/commit/bc192b0e59581ada90bb71cf8fc5ef1d3916c43e))
+
 ## [2.22.0](https://github.com/mdn/data/compare/v2.21.0...v2.22.0) (2025-06-24)
 
 
