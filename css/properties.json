@@ -5184,7 +5184,7 @@
     "syntax": "<font-stretch-absolute>",
     "media": "visual",
     "inherited": true,
-    "animationType": "fontStretch",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Fonts"
@@ -5520,7 +5520,7 @@
     "syntax": "<font-weight-absolute> | bolder | lighter",
     "media": "visual",
     "inherited": true,
-    "animationType": "fontWeight",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Fonts"

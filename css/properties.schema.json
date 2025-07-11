@@ -27,8 +27,6 @@
         "discreteButVisibleForDurationWhenAnimatedNone",
         "eachOfShorthandPropertiesExceptUnicodeBiDiAndDirection",
         "filterList",
-        "fontStretch",
-        "fontWeight",
         "integer",
         "length",
         "lpc",

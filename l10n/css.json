@@ -834,20 +834,6 @@
     "ru": "плавает",
     "zh-CN": "浮动元素"
   },
-  "fontStretch": {
-    "de": "<a href=\"/de/docs/Web/CSS/font-stretch#interpolation\">Schriftbreite</a>",
-    "en-US": "a <a href=\"/en-US/docs/Web/CSS/font-stretch#interpolation\" title=\"Font stretch values are interpolated in discrete steps. The interpolation happens as though the ordered values are equally spaced real numbers; the result is rounded to the nearest value, with values exactly halfway between two values rounded towards the later value, that is the most expanded one.\">font stretch</a>",
-    "fr": "une <a href=\"/fr/docs/Web/CSS/font-stretch#interpolation\" title=\"Les valeurs de font stretch sont interpolées de façon discrète. L'interpolation s'effectue comme si les valeurs, dans l'ordre, étaient des nombres également distribués : le résultat est arrondi à la valeur la plus proche, les valeurs situées exactement entre deux valeurs sont arrondies à la valeur supérieure.\"><code>font stretch</code></a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/font-stretch#interpolation\" title=\"フォントの伸張値は、離散的な段階で補間されます。補間は、順序づけられた値が等間隔の実数であるかのように行われます。結果は、最も近い値に丸められ、 2 つの値のちょうど中間の値は、最も拡張された値である後の値に向かって丸められます。\">フォントの伸長値</a>",
-    "ru": "<a href=\"/ru/docs/Web/CSS/font-stretch#interpolation\" title=\"Значения ширины начертания шрифта интерполируются по дискретным шагам. Интерполяция происходит по упорядоченно расположенным значениям в пространстве действительных чисел; результат округляется к ближайшему значению, точно между двумя соседними значениями, округляется в сторону большего значения, которое является наиболее широким.\">ширина начертания шрифта</a>"
-  },
-  "fontWeight": {
-    "de": "<a href=\"/de/docs/Web/CSS/font-weight#interpolation\">Schriftgewichtung</a>",
-    "en-US": "a <a href=\"/en-US/docs/Web/CSS/font-weight#interpolation\" title=\"Font weight values are interpolated via discrete steps (multiples of 100). The interpolation happens in real number space and is converted to an integer by rounding to the nearest multiple of 100, with values halfway between multiples of 100 rounded towards positive infinity.\">font weight</a>",
-    "fr": "une <a href=\"/fr/docs/Web/CSS/font-weight#interpolation\" title=\"Les valeurs de graisse de police sont interpolées via des étapes discrètes (multiple de 100). L'interpolation a lieu dans un espace de nombres réels et est convertis en un entier arroundi au plus proche multiple de 100, avec les valeurs à mis chemin entre les multiples de 100, arrondies vers l'infini positif.\">graisse de police</a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/font-weight#interpolation\" title=\"フォントの太さは、離散的な段階 (100 の倍数) で補間されます。補間は実数空間で行われ、 100 の倍数に最も近い倍数に丸めて整数に変換され、 100 の倍数の中間の値は正の無限大に向けて丸められます。\">フォントの太さ</a>",
-    "ru": "<a href=\"/ru/docs/Web/CSS/font-weight#interpolation\" title=\"Значения жирности шрифта интерполируются через целое число дискретных шагов (умноженных на 100). Интерполяция происходит в пространстве действительных чисел, а получившееся значение преобразуется в целое путём округления до ближайшей сотни, со значениями точно между соседними множителями, округляемыми в сторону положительной бесконечности.\">жирность шрифта</a>"
-  },
   "forLengthAbsoluteValueOtherwisePercentage": {
     "de": "for {{cssxref(\"length\")}} the absolute value, otherwise a percentage",
     "en-US": "for {{cssxref(\"length\")}} the absolute value, otherwise a percentage",
