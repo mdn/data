@@ -911,22 +911,6 @@
     "status": "nonstandard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-force-broken-image-icon"
   },
-  "-moz-image-region": {
-    "syntax": "<shape> | auto",
-    "media": "visual",
-    "inherited": true,
-    "animationType": "discrete",
-    "percentages": "no",
-    "groups": [
-      "Mozilla Extensions"
-    ],
-    "initial": "auto",
-    "appliesto": "xulImageElements",
-    "computed": "asSpecified",
-    "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-image-region"
-  },
   "-moz-orient": {
     "syntax": "inline | block | horizontal | vertical",
     "media": "visual",
@@ -3848,7 +3832,7 @@
       "Mozilla Extensions",
       "WebKit Extensions"
     ],
-    "initial": "inlineAxisHorizontalInXUL",
+    "initial": "inline-axis",
     "appliesto": "elementsWithDisplayBoxOrInlineBox",
     "computed": "asSpecified",
     "order": "uniqueOrder",

@@ -299,8 +299,7 @@
         "textAndSVGShapes",
         "textElements",
         "textFields",
-        "transformableElements",
-        "xulImageElements"
+        "transformableElements"
       ]
     },
     "alsoApplyTo": {
