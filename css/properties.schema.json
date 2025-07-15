@@ -27,8 +27,6 @@
         "discreteButVisibleForDurationWhenAnimatedNone",
         "eachOfShorthandPropertiesExceptUnicodeBiDiAndDirection",
         "filterList",
-        "fontStretch",
-        "fontWeight",
         "integer",
         "length",
         "lpc",
@@ -299,8 +297,7 @@
         "textAndSVGShapes",
         "textElements",
         "textFields",
-        "transformableElements",
-        "xulImageElements"
+        "transformableElements"
       ]
     },
     "alsoApplyTo": {

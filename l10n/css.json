@@ -713,11 +713,11 @@
     "ru": "зависит от браузера"
   },
   "directChildrenOfElementsWithDisplayMozBoxMozInlineBox": {
-    "de": "Elemente, die direkte Kinder eines Elements mit einem CSS {{cssxref(\"display\")}} Wert von {{cssxref(\"-moz-box\")}} oder {{cssxref(\"-moz-inline-box\")}} oder {{cssxref(\"-webkit-box\")}} oder {{cssxref(\"-webkit-inline-box\")}} sind",
-    "en-US": "elements that are direct children of an element with a CSS {{cssxref(\"display\")}} value of {{cssxref(\"-moz-box\")}} or {{cssxref(\"-moz-inline-box\")}} or {{cssxref(\"-webkit-box\")}} or {{cssxref(\"-webkit-inline-box\")}}",
-    "fr": "éléments qui sont des fils direct d'un élément avec {{cssxref(\"display\")}} qui vaut {{cssxref(\"-moz-box\")}} ou {{cssxref(\"-moz-inline-box\")}} ou {{cssxref(\"-webkit-box\")}} ou {{cssxref(\"-webkit-inline-box\")}}",
-    "ja": "CSS の {{cssxref(\"display\")}} の値が {{cssxref(\"-moz-box\")}}, {{cssxref(\"-moz-inline-box\")}}, {{cssxref(\"-webkit-box\")}}, {{cssxref(\"-webkit-inline-box\")}} のいずれかである要素の直接の子要素",
-    "ru": "элементы, являющиеся прямыми потомками элемента со свойством {cssxref(\"display\")}} равным {{cssxref(\"-moz-box\")}}, {{cssxref(\"-moz-inline-box\")}}, {{cssxref(\"-webkit-box\")}} или {{cssxref(\"-webkit-inline-box\")}}"
+    "de": "Elemente, die direkte Kinder eines Elements mit einem CSS {{cssxref(\"display\")}} Wert von <code>-moz-box</code> oder <code>-moz-inline-box</code> oder <code>-webkit-box</code> oder <code>-webkit-inline-box</code> sind",
+    "en-US": "elements that are direct children of an element with a CSS {{cssxref(\"display\")}} value of <code>-moz-box</code> or <code>-moz-inline-box</code> or <code>-webkit-box</code> or <code>-webkit-inline-box</code>",
+    "fr": "éléments qui sont des fils direct d'un élément avec {{cssxref(\"display\")}} qui vaut <code>-moz-box</code> ou <code>-moz-inline-box</code> ou <code>-webkit-box</code> ou <code>-webkit-inline-box</code>",
+    "ja": "CSS の {{cssxref(\"display\")}} の値が <code>-moz-box</code>, <code>-moz-inline-box</code>, <code>-webkit-box</code>, <code>-webkit-inline-box</code> のいずれかである要素の直接の子要素",
+    "ru": "элементы, являющиеся прямыми потомками элемента со свойством {cssxref(\"display\")}} равным <code>-moz-box</code>, <code>-moz-inline-box</code>, <code>-webkit-box</code> или <code>-webkit-inline-box</code>"
   },
   "discrete": {
     "de": "diskret",
@@ -834,20 +834,6 @@
     "ru": "плавает",
     "zh-CN": "浮动元素"
   },
-  "fontStretch": {
-    "de": "<a href=\"/de/docs/Web/CSS/font-stretch#interpolation\">Schriftbreite</a>",
-    "en-US": "a <a href=\"/en-US/docs/Web/CSS/font-stretch#interpolation\" title=\"Font stretch values are interpolated in discrete steps. The interpolation happens as though the ordered values are equally spaced real numbers; the result is rounded to the nearest value, with values exactly halfway between two values rounded towards the later value, that is the most expanded one.\">font stretch</a>",
-    "fr": "une <a href=\"/fr/docs/Web/CSS/font-stretch#interpolation\" title=\"Les valeurs de font stretch sont interpolées de façon discrète. L'interpolation s'effectue comme si les valeurs, dans l'ordre, étaient des nombres également distribués : le résultat est arrondi à la valeur la plus proche, les valeurs situées exactement entre deux valeurs sont arrondies à la valeur supérieure.\"><code>font stretch</code></a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/font-stretch#interpolation\" title=\"フォントの伸張値は、離散的な段階で補間されます。補間は、順序づけられた値が等間隔の実数であるかのように行われます。結果は、最も近い値に丸められ、 2 つの値のちょうど中間の値は、最も拡張された値である後の値に向かって丸められます。\">フォントの伸長値</a>",
-    "ru": "<a href=\"/ru/docs/Web/CSS/font-stretch#interpolation\" title=\"Значения ширины начертания шрифта интерполируются по дискретным шагам. Интерполяция происходит по упорядоченно расположенным значениям в пространстве действительных чисел; результат округляется к ближайшему значению, точно между двумя соседними значениями, округляется в сторону большего значения, которое является наиболее широким.\">ширина начертания шрифта</a>"
-  },
-  "fontWeight": {
-    "de": "<a href=\"/de/docs/Web/CSS/font-weight#interpolation\">Schriftgewichtung</a>",
-    "en-US": "a <a href=\"/en-US/docs/Web/CSS/font-weight#interpolation\" title=\"Font weight values are interpolated via discrete steps (multiples of 100). The interpolation happens in real number space and is converted to an integer by rounding to the nearest multiple of 100, with values halfway between multiples of 100 rounded towards positive infinity.\">font weight</a>",
-    "fr": "une <a href=\"/fr/docs/Web/CSS/font-weight#interpolation\" title=\"Les valeurs de graisse de police sont interpolées via des étapes discrètes (multiple de 100). L'interpolation a lieu dans un espace de nombres réels et est convertis en un entier arroundi au plus proche multiple de 100, avec les valeurs à mis chemin entre les multiples de 100, arrondies vers l'infini positif.\">graisse de police</a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/font-weight#interpolation\" title=\"フォントの太さは、離散的な段階 (100 の倍数) で補間されます。補間は実数空間で行われ、 100 の倍数に最も近い倍数に丸めて整数に変換され、 100 の倍数の中間の値は正の無限大に向けて丸められます。\">フォントの太さ</a>",
-    "ru": "<a href=\"/ru/docs/Web/CSS/font-weight#interpolation\" title=\"Значения жирности шрифта интерполируются через целое число дискретных шагов (умноженных на 100). Интерполяция происходит в пространстве действительных чисел, а получившееся значение преобразуется в целое путём округления до ближайшей сотни, со значениями точно между соседними множителями, округляемыми в сторону положительной бесконечности.\">жирность шрифта</a>"
-  },
   "forLengthAbsoluteValueOtherwisePercentage": {
     "de": "for {{cssxref(\"length\")}} the absolute value, otherwise a percentage",
     "en-US": "for {{cssxref(\"length\")}} the absolute value, otherwise a percentage",
@@ -909,13 +895,6 @@
     "fr": "les éléments fils dans le flux des éléments de boîte",
     "ja": "フロー内のボックス要素の子",
     "ru": "потомки блочных элементов в потоке"
-  },
-  "inlineAxisHorizontalInXUL": {
-    "de": "<code>inline-axis</code> (<code>horizontal</code> in <a href=\"/de/docs/Mozilla/Tech/XUL\">XUL</a>)",
-    "en-US": "<code>inline-axis</code> (<code>horizontal</code> in <a href=\"/en-US/docs/Mozilla/Tech/XUL\">XUL</a>)",
-    "fr": "<code>inline-axis</code> (<code>horizontal</code> en <a href=\"/fr/docs/Mozilla/Tech/XUL\">XUL</a>)",
-    "ja": "<code>inline-axis</code> (<a href=\"/ja/docs/Mozilla/Tech/XUL\">XUL</a> における <code>horizontal</code>)",
-    "ru": "<code>inline-axis</code> (<code>horizontal</code> в <a href=\"/ru/docs/Mozilla/Tech/XUL\">XUL</a>)"
   },
   "inlineBoxesAndBlockContainers": {
     "en-US": "Inline boxes and block containers"
@@ -1901,14 +1880,6 @@
     "ja": "<code>visual</code>。ただし連続メディアではオーバーフローした列に効果なし",
     "ru": "<code>visual</code>, но в сплошной среде, не имеет никакого эффекта при переполнении колонок",
     "zh-CN": "<code>visual</code>，但在连续媒体中，对溢出的列没有影响"
-  },
-  "xulImageElements": {
-    "de": "XUL {{XULElem(\"image\")}} Elementen und {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}} und {{cssxref(\":-moz-tree-checkbox\")}} Pseudoelementen. <strong>Hinweis:</strong> <code>-moz-image-region</code> funktioniert nur mit {{XULElem(\"image\")}} Elementen, bei denen das Symbol durch {{cssxref(\"list-style-image\")}} angegeben wird. Es funktioniert nicht mit XUL <code>&lt;image src=\"url\" /&gt;</code>.",
-    "en-US": "XUL {{XULElem(\"image\")}} elements and {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}}, and {{cssxref(\":-moz-tree-checkbox\")}} pseudo-elements. <strong>Note:</strong> <code>-moz-image-region</code> only works with {{XULElem(\"image\")}} elements where the icon is specified using {{cssxref(\"list-style-image\")}}. It will not work with XUL <code>&lt;image src=\"url\" /&gt;</code>.",
-    "fr": "éléments XUL {{XULElem(\"image\")}} et aux pseudo-éléments {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}} et {{cssxref(\":-moz-tree-checkbox\")}}. <strong>Note&nbsp;:</strong> <code>-moz-image-region</code> ne fonctionnera qu'avec les éléments {{XULElem(\"image\")}} où l'icône est définie avec {{cssxref(\"list-style-image\")}}. Cela ne fonctionnera pas avec l'<code>&lt;image src=\"url\" /&gt;</code> XUL.",
-    "ja": "XUL の {{XULElem(\"image\")}} 要素と {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}}, {{cssxref(\":-moz-tree-checkbox\")}} の各擬似要素。 <strong>注:</strong> <code>-moz-image-region</code> はアイコンが {{cssxref(\"list-style-image\")}} を使用して指定された {{XULElem(\"image\")}} 要素でしか機能しません。 XUL の <code>&lt;image src=\"url\" /&gt;</code> では機能しません。",
-    "ru": "XUL {{XULElem(\"image\")}} элементы и {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}} и {{cssxref(\":-moz-tree-checkbox\")}} псевдоэлементы. <strong>Заметьте:</strong> <code>-moz-image-region</code> работает только с элементами {{XULElem(\"image\")}}, где иконка определяется использованием {{cssxref(\"list-style-image\")}}. Это не будет работать с XUL <code>&lt;image src=\"url\" /&gt;</code>.",
-    "zh-CN": "XUL {{XULElem(\"image\")}} 元素以及 {{cssxref(\":-moz-tree-image\")}}、{{cssxref(\":-moz-tree-twisty\")}} 和 {{cssxref(\":-moz-tree-checkbox\")}} 伪元素。<strong>注意：</strong><code>-moz-image-region</code> 属性仅适用于通过 {{cssxref(\"list-style-image\")}} 来指定图标的 XUL {{XULElem(\"image\")}} 元素。它不适用于 XUL 标签为 <code>&lt;image src=\"url\" /&gt;</code> 的元素。"
   },
   "yes": {
     "de": "Ja",
