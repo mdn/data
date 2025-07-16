@@ -1852,7 +1852,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-direction"
   },
   "animation-duration": {
-    "syntax": "<time>#",
+    "syntax": "[ auto | <time [0s,∞]> ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "notAnimatable",
