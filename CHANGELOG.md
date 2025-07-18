@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.23.0](https://github.com/mdn/data/compare/v2.22.1...v2.23.0) (2025-07-16)
+
+
+### Features
+
+* **css:** Update syntax for `animation-duration` ([#985](https://github.com/mdn/data/issues/985)) ([5f8c626](https://github.com/mdn/data/commit/5f8c626b4f13cb9f7cb866b0addc205e276cd6d3))
+
+
+### Bug Fixes
+
+* **css:** Remove broken links ([ffbeedf](https://github.com/mdn/data/commit/ffbeedfe6605d463a6a02694e794e0a4ea9ef54b))
+
 ## [2.22.1](https://github.com/mdn/data/compare/v2.22.0...v2.22.1) (2025-07-01)
 
 
