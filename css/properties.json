@@ -2021,7 +2021,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timing-function"
   },
   "appearance": {
-    "syntax": "none | auto | textfield | menulist-button | <compat-auto>",
+    "syntax": "none | auto | <compat-auto> | <compat-special>",
     "media": "all",
     "inherited": false,
     "animationType": "discrete",
