@@ -189,7 +189,10 @@
     "syntax": "[ common-ligatures | no-common-ligatures ]"
   },
   "compat-auto": {
-    "syntax": "searchfield | textarea | push-button | slider-horizontal | checkbox | radio | square-button | menulist | listbox | meter | progress-bar | button"
+    "syntax": "searchfield | textarea | checkbox | radio | menulist | listbox | meter | progress-bar | button"
+  },
+  "compat-special": {
+    "syntax": "textfield | menulist-button"
   },
   "complex-selector": {
     "syntax": "<compound-selector> [ <combinator>? <compound-selector> ]*"
