@@ -90,7 +90,7 @@
     "syntax": "<visual-box> | border-area | text"
   },
   "bg-image": {
-    "syntax": "none | <image>"
+    "syntax": "<image> | none"
   },
   "bg-layer": {
     "syntax": "<bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <visual-box> || <visual-box>"
@@ -99,7 +99,7 @@
     "syntax": "[ [ left | center | right | top | bottom | <length-percentage> ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ] | [ center | [ left | right ] <length-percentage>? ] && [ center | [ top | bottom ] <length-percentage>? ] ]"
   },
   "bg-size": {
-    "syntax": "[ <length-percentage> | auto ]{1,2} | cover | contain"
+    "syntax": "[ <length-percentage [0,∞]> | auto ]{1,2} | cover | contain"
   },
   "blend-mode": {
     "syntax": "normal | multiply | screen | overlay | darken | lighten | color-dodge | color-burn | hard-light | soft-light | difference | exclusion | hue | saturation | color | luminosity"
@@ -372,7 +372,7 @@
     "syntax": "[ <filter-function> | <url> ]+"
   },
   "final-bg-layer": {
-    "syntax": "<'background-color'> || <bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <visual-box> || <visual-box>"
+    "syntax": "<bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <visual-box> || <visual-box> || <'background-color'>"
   },
   "fit-content()": {
     "syntax": "fit-content( <length-percentage [0,∞]> )"
