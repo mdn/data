@@ -1,5 +1,23 @@
 # Changelog
 
+## [2.24.0](https://github.com/mdn/data/compare/v2.23.0...v2.24.0) (2025-08-13)
+
+
+### Features
+
+* **css:** Add `anchor-center` keyword value support for `{align,justify}-{items,self}` ([#982](https://github.com/mdn/data/issues/982)) ([58d5371](https://github.com/mdn/data/commit/58d5371ad9294c805846e77e5ef0fe61e26ae097))
+* **css:** Simplify syntax for `border-spacing` ([#991](https://github.com/mdn/data/issues/991)) ([cf71325](https://github.com/mdn/data/commit/cf71325ff833f571ef6a515909752a7b85e58751))
+* **css:** Simply syntax for `border-spacing` ([cf71325](https://github.com/mdn/data/commit/cf71325ff833f571ef6a515909752a7b85e58751))
+* **css:** Update syntax for `appearance` ([#986](https://github.com/mdn/data/issues/986)) ([4c63ed1](https://github.com/mdn/data/commit/4c63ed10eadbeb4f70f5e9e6798c2dfca3d28894))
+* **css:** Update syntax for `border-*-radius` ([#989](https://github.com/mdn/data/issues/989)) ([464fe0a](https://github.com/mdn/data/commit/464fe0a942d30336b5c08c4ea9f86da98e76fe38))
+* **css:** Update syntax for `border-image-*` ([#990](https://github.com/mdn/data/issues/990)) ([377f8d8](https://github.com/mdn/data/commit/377f8d8fd62b1278de87ccd135886c1713043052))
+* **css:** Update syntax for `bottom` `top` `left` `right` ([#983](https://github.com/mdn/data/issues/983)) ([1a3d1dd](https://github.com/mdn/data/commit/1a3d1dd1f37ece9c0faa62850e1d2dfa8c2d99ca))
+* **css:** Update syntax for `content` property ([#976](https://github.com/mdn/data/issues/976)) ([c5111ee](https://github.com/mdn/data/commit/c5111ee3b4b3707a976c3db6e7dde44219681709))
+* **css:** Update syntax for `margin-*` ([#984](https://github.com/mdn/data/issues/984)) ([8008a3d](https://github.com/mdn/data/commit/8008a3d99f41683a96948ae8132b94e0e2af177b))
+* **css:** Update syntax of `mix-blend-mode` ([#988](https://github.com/mdn/data/issues/988)) ([d3fd073](https://github.com/mdn/data/commit/d3fd073941e5c1c4255e95ccea5543166b35f90f))
+* **css:** Update the syntax for `background-*` ([#987](https://github.com/mdn/data/issues/987)) ([c892cd5](https://github.com/mdn/data/commit/c892cd5120984518c6033fc500c05da98e487e39))
+* **css:** Update the syntax to match the spec ([c892cd5](https://github.com/mdn/data/commit/c892cd5120984518c6033fc500c05da98e487e39))
+
 ## [2.23.0](https://github.com/mdn/data/compare/v2.22.1...v2.23.0) (2025-07-16)
 
 
