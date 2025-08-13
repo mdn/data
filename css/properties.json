@@ -2709,7 +2709,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-color"
   },
   "border-bottom-left-radius": {
-    "syntax": "<length-percentage>{1,2}",
+    "syntax": "<length-percentage [0,∞]>{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -2728,7 +2728,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-left-radius"
   },
   "border-bottom-right-radius": {
-    "syntax": "<length-percentage>{1,2}",
+    "syntax": "<length-percentage [0,∞]>{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -2785,7 +2785,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-width"
   },
   "border-collapse": {
-    "syntax": "collapse | separate",
+    "syntax": "separate | collapse",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -3324,7 +3324,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-left-width"
   },
   "border-radius": {
-    "syntax": "<length-percentage>{1,4} [ / <length-percentage>{1,4} ]?",
+    "syntax": "<length-percentage [0,∞]>{1,4} [ / <length-percentage [0,∞]>{1,4} ]?",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -3579,7 +3579,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-top-color"
   },
   "border-top-left-radius": {
-    "syntax": "<length-percentage>{1,2}",
+    "syntax": "<length-percentage [0,∞]>{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -3598,7 +3598,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-top-left-radius"
   },
   "border-top-right-radius": {
-    "syntax": "<length-percentage>{1,2}",
+    "syntax": "<length-percentage [0,∞]>{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
