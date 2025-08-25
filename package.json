@@ -1,6 +1,6 @@
 {
   "name": "mdn-data",
-  "version": "2.20.0",
+  "version": "2.24.0",
   "description": "Open Web data by the Mozilla Developer Network",
   "main": "index.js",
   "files": [
@@ -29,7 +29,7 @@
   "homepage": "https://developer.mozilla.org",
   "devDependencies": {
     "ajv": "^6.12.6",
-    "better-ajv-errors": "^1.1.2"
+    "better-ajv-errors": "^2.0.2"
   },
   "scripts": {
     "lint": "node test/lint",

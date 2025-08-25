@@ -27,8 +27,6 @@
         "discreteButVisibleForDurationWhenAnimatedNone",
         "eachOfShorthandPropertiesExceptUnicodeBiDiAndDirection",
         "filterList",
-        "fontStretch",
-        "fontWeight",
         "integer",
         "length",
         "lpc",
@@ -81,7 +79,7 @@
         "referToSVGViewportSize",
         "referToSVGViewportWidth",
         "referToSVGViewportDiagonal",
-        "referTtoTheUsedValueOfLineHeight",
+        "referToTheUsedValueOfLineHeight",
         "referToTotalPathLength",
         "referToWidthAndHeightOfElement",
         "referToWidthOfAffectedGlyph",
@@ -162,6 +160,7 @@
         "normalOnElementsForPseudosNoneAbsoluteURIStringOrAsSpecified",
         "oneToFourPercentagesOrAbsoluteLengthsPlusFill",
         "optimumValueOfAbsoluteLengthOrNormal",
+        "percentage",
         "percentageAsSpecifiedAbsoluteLengthOrNone",
         "percentageAsSpecifiedOrAbsoluteLength",
         "percentageAutoOrAbsoluteLength",
@@ -285,7 +284,7 @@
         "positionedElements",
         "positionedElementsWithADefaultAnchorElement",
         "replacedElements",
-        "rubyAnnotationsContainers",
+        "rubyAnnotationContainers",
         "rubyBasesAnnotationsBaseAnnotationContainers",
         "sameAsMargin",
         "sameAsWidthAndHeight",
@@ -295,10 +294,10 @@
         "tableCellElements",
         "tableElements",
         "textAndBlockContainers",
+        "textAndSVGShapes",
         "textElements",
         "textFields",
-        "transformableElements",
-        "xulImageElements"
+        "transformableElements"
       ]
     },
     "alsoApplyTo": {

@@ -27,7 +27,7 @@ jobs:
 
       - name: Setup
         if: ${{ github.event.inputs.force-npm-publish || steps.release.outputs.release_created }}
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Checkout
         if: ${{ github.event.inputs.force-npm-publish || steps.release.outputs.release_created }}

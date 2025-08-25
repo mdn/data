@@ -1,5 +1,78 @@
 # Changelog
 
+## [2.24.0](https://github.com/mdn/data/compare/v2.23.0...v2.24.0) (2025-08-13)
+
+
+### Features
+
+* **css:** Add `anchor-center` keyword value support for `{align,justify}-{items,self}` ([#982](https://github.com/mdn/data/issues/982)) ([58d5371](https://github.com/mdn/data/commit/58d5371ad9294c805846e77e5ef0fe61e26ae097))
+* **css:** Simplify syntax for `border-spacing` ([#991](https://github.com/mdn/data/issues/991)) ([cf71325](https://github.com/mdn/data/commit/cf71325ff833f571ef6a515909752a7b85e58751))
+* **css:** Simply syntax for `border-spacing` ([cf71325](https://github.com/mdn/data/commit/cf71325ff833f571ef6a515909752a7b85e58751))
+* **css:** Update syntax for `appearance` ([#986](https://github.com/mdn/data/issues/986)) ([4c63ed1](https://github.com/mdn/data/commit/4c63ed10eadbeb4f70f5e9e6798c2dfca3d28894))
+* **css:** Update syntax for `border-*-radius` ([#989](https://github.com/mdn/data/issues/989)) ([464fe0a](https://github.com/mdn/data/commit/464fe0a942d30336b5c08c4ea9f86da98e76fe38))
+* **css:** Update syntax for `border-image-*` ([#990](https://github.com/mdn/data/issues/990)) ([377f8d8](https://github.com/mdn/data/commit/377f8d8fd62b1278de87ccd135886c1713043052))
+* **css:** Update syntax for `bottom` `top` `left` `right` ([#983](https://github.com/mdn/data/issues/983)) ([1a3d1dd](https://github.com/mdn/data/commit/1a3d1dd1f37ece9c0faa62850e1d2dfa8c2d99ca))
+* **css:** Update syntax for `content` property ([#976](https://github.com/mdn/data/issues/976)) ([c5111ee](https://github.com/mdn/data/commit/c5111ee3b4b3707a976c3db6e7dde44219681709))
+* **css:** Update syntax for `margin-*` ([#984](https://github.com/mdn/data/issues/984)) ([8008a3d](https://github.com/mdn/data/commit/8008a3d99f41683a96948ae8132b94e0e2af177b))
+* **css:** Update syntax of `mix-blend-mode` ([#988](https://github.com/mdn/data/issues/988)) ([d3fd073](https://github.com/mdn/data/commit/d3fd073941e5c1c4255e95ccea5543166b35f90f))
+* **css:** Update the syntax for `background-*` ([#987](https://github.com/mdn/data/issues/987)) ([c892cd5](https://github.com/mdn/data/commit/c892cd5120984518c6033fc500c05da98e487e39))
+* **css:** Update the syntax to match the spec ([c892cd5](https://github.com/mdn/data/commit/c892cd5120984518c6033fc500c05da98e487e39))
+
+## [2.23.0](https://github.com/mdn/data/compare/v2.22.1...v2.23.0) (2025-07-16)
+
+
+### Features
+
+* **css:** Update syntax for `animation-duration` ([#985](https://github.com/mdn/data/issues/985)) ([5f8c626](https://github.com/mdn/data/commit/5f8c626b4f13cb9f7cb866b0addc205e276cd6d3))
+
+
+### Bug Fixes
+
+* **css:** Remove broken links ([ffbeedf](https://github.com/mdn/data/commit/ffbeedfe6605d463a6a02694e794e0a4ea9ef54b))
+
+## [2.22.1](https://github.com/mdn/data/compare/v2.22.0...v2.22.1) (2025-07-01)
+
+
+### Miscellaneous
+
+* **deps:** bump node from v20 to v22 ([#997](https://github.com/mdn/data/issues/997)) ([bc192b0](https://github.com/mdn/data/commit/bc192b0e59581ada90bb71cf8fc5ef1d3916c43e))
+
+## [2.22.0](https://github.com/mdn/data/compare/v2.21.0...v2.22.0) (2025-06-24)
+
+
+### Features
+
+* **css:** Add `view-transition-name: match-element` ([#995](https://github.com/mdn/data/issues/995)) ([a2da61c](https://github.com/mdn/data/commit/a2da61c3c9e0d7cb6ba38b14d0ba8c65979e2538))
+* **css:** Add data for `font-width` ([#972](https://github.com/mdn/data/issues/972)) ([980e137](https://github.com/mdn/data/commit/980e1373907929968d30f34ed7fd62133f96198d))
+* **css:** Add data for `ruby-overhang` ([#967](https://github.com/mdn/data/issues/967)) ([f54b7ab](https://github.com/mdn/data/commit/f54b7ab63e7a0cffe669015eada88bdbc7c20a4d))
+* **css:** Add data for `stroke-color` ([#963](https://github.com/mdn/data/issues/963)) ([a5ff0b3](https://github.com/mdn/data/commit/a5ff0b34907912c944c79514f9999074c2b3afe3))
+* **css:** Update syntax for `@counter-style/pad` descriptor ([#979](https://github.com/mdn/data/issues/979)) ([bd9b855](https://github.com/mdn/data/commit/bd9b855ca412a813e96fe28ce5b266f7e1a3d0e0))
+* **css:** Update syntax for `font` ([#992](https://github.com/mdn/data/issues/992)) ([81fa08f](https://github.com/mdn/data/commit/81fa08fc2595efd3866fe386b9de4bcd5bf62c3d))
+
+
+### Bug Fixes
+
+* **css:** Rename `<cubic-bezier-timing-function>` to `<cubic-bezier-easing-function>` ([#970](https://github.com/mdn/data/issues/970)) ([0374e4f](https://github.com/mdn/data/commit/0374e4f77f803bf47d4811883350e07cb7e6c4a6))
+* **css:** Rename `cubic-bezier-timing-function` to `cubic-bezier-easing-function`, fixes [#968](https://github.com/mdn/data/issues/968) ([0374e4f](https://github.com/mdn/data/commit/0374e4f77f803bf47d4811883350e07cb7e6c4a6))
+
+
+### Miscellaneous
+
+* **deps-dev:** bump better-ajv-errors from 1.2.0 to 2.0.2 ([#994](https://github.com/mdn/data/issues/994)) ([1254a45](https://github.com/mdn/data/commit/1254a459d658e00263e964c631f9e6f3daeef7ee))
+
+## [2.21.0](https://github.com/mdn/data/compare/v2.20.0...v2.21.0) (2025-04-11)
+
+
+### Features
+
+* **css:** Update syntax for `@counter-style/additive-symbols` descriptor ([#978](https://github.com/mdn/data/issues/978)) ([61a3662](https://github.com/mdn/data/commit/61a3662b9575960b2f90385745774470b654905b))
+* **css:** Update syntax for `@page/size` descriptor ([#977](https://github.com/mdn/data/issues/977)) ([f56fae7](https://github.com/mdn/data/commit/f56fae746e0d33d3a3913689c2aea9c6bf70dcbb))
+
+
+### Miscellaneous
+
+* **css:** Fix typo ([#975](https://github.com/mdn/data/issues/975)) ([8bf5a33](https://github.com/mdn/data/commit/8bf5a335342a27f105629e578fdedba584d7b750))
+
 ## [2.20.0](https://github.com/mdn/data/compare/v2.19.0...v2.20.0) (2025-04-07)
 
 

@@ -911,22 +911,6 @@
     "status": "nonstandard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-force-broken-image-icon"
   },
-  "-moz-image-region": {
-    "syntax": "<shape> | auto",
-    "media": "visual",
-    "inherited": true,
-    "animationType": "discrete",
-    "percentages": "no",
-    "groups": [
-      "Mozilla Extensions"
-    ],
-    "initial": "auto",
-    "appliesto": "xulImageElements",
-    "computed": "asSpecified",
-    "order": "uniqueOrder",
-    "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-moz-image-region"
-  },
   "-moz-orient": {
     "syntax": "inline | block | horizontal | vertical",
     "media": "visual",
@@ -1672,7 +1656,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/align-content"
   },
   "align-items": {
-    "syntax": "normal | stretch | <baseline-position> | [ <overflow-position>? <self-position> ]",
+    "syntax": "normal | stretch | <baseline-position> | [ <overflow-position>? <self-position> ] | anchor-center",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -1689,7 +1673,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/align-items"
   },
   "align-self": {
-    "syntax": "auto | normal | stretch | <baseline-position> | <overflow-position>? <self-position>",
+    "syntax": "auto | normal | stretch | <baseline-position> | <overflow-position>? <self-position> | anchor-center",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -1868,7 +1852,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-direction"
   },
   "animation-duration": {
-    "syntax": "<time>#",
+    "syntax": "[ auto | <time [0s,∞]> ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "notAnimatable",
@@ -2037,7 +2021,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timing-function"
   },
   "appearance": {
-    "syntax": "none | auto | textfield | menulist-button | <compat-auto>",
+    "syntax": "none | auto | <compat-auto> | <compat-special>",
     "media": "all",
     "inherited": false,
     "animationType": "discrete",
@@ -2101,7 +2085,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/backface-visibility"
   },
   "background": {
-    "syntax": "[ <bg-layer> , ]* <final-bg-layer>",
+    "syntax": "<bg-layer>#? , <final-bg-layer>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -2389,7 +2373,7 @@
     "media": "none",
     "inherited": false,
     "animationType": "byComputedValueType",
-    "percentages": "referTtoTheUsedValueOfLineHeight",
+    "percentages": "referToTheUsedValueOfLineHeight",
     "groups": [
       "CSS Inline"
     ],
@@ -2725,7 +2709,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-color"
   },
   "border-bottom-left-radius": {
-    "syntax": "<length-percentage>{1,2}",
+    "syntax": "<length-percentage [0,∞]>{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -2744,7 +2728,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-left-radius"
   },
   "border-bottom-right-radius": {
-    "syntax": "<length-percentage>{1,2}",
+    "syntax": "<length-percentage [0,∞]>{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -2801,7 +2785,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-width"
   },
   "border-collapse": {
-    "syntax": "collapse | separate",
+    "syntax": "separate | collapse",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -2929,7 +2913,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-image"
   },
   "border-image-outset": {
-    "syntax": "[ <length> | <number> ]{1,4}",
+    "syntax": "[ <length [0,∞]> | <number [0,∞]> ]{1,4}  ",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -2967,7 +2951,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-image-repeat"
   },
   "border-image-slice": {
-    "syntax": "<number-percentage>{1,4} && fill?",
+    "syntax": "[ <number [0,∞]> | <percentage [0,∞]> ]{1,4}  && fill?",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -3005,7 +2989,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-image-source"
   },
   "border-image-width": {
-    "syntax": "[ <length-percentage> | <number> | auto ]{1,4}",
+    "syntax": "[ <length-percentage [0,∞]> | <number [0,∞]> | auto ]{1,4}",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -3340,7 +3324,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-left-width"
   },
   "border-radius": {
-    "syntax": "<length-percentage>{1,4} [ / <length-percentage>{1,4} ]?",
+    "syntax": "<length-percentage [0,∞]>{1,4} [ / <length-percentage [0,∞]>{1,4} ]?",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -3462,7 +3446,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-right-width"
   },
   "border-spacing": {
-    "syntax": "<length> <length>?",
+    "syntax": "<length>{1,2}",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
@@ -3595,7 +3579,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-top-color"
   },
   "border-top-left-radius": {
-    "syntax": "<length-percentage>{1,2}",
+    "syntax": "<length-percentage [0,∞]>{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -3614,7 +3598,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-top-left-radius"
   },
   "border-top-right-radius": {
-    "syntax": "<length-percentage>{1,2}",
+    "syntax": "<length-percentage [0,∞]>{1,2}",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
@@ -3705,12 +3689,13 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-width"
   },
   "bottom": {
-    "syntax": "<length> | <percentage> | auto",
+    "syntax": "auto | <length-percentage> | <anchor()> | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
     "percentages": "referToContainingBlockHeight",
     "groups": [
+      "CSS Anchor Positioning",
       "CSS Positioned Layout"
     ],
     "initial": "auto",
@@ -3848,7 +3833,7 @@
       "Mozilla Extensions",
       "WebKit Extensions"
     ],
-    "initial": "inlineAxisHorizontalInXUL",
+    "initial": "inline-axis",
     "appliesto": "elementsWithDisplayBoxOrInlineBox",
     "computed": "asSpecified",
     "order": "uniqueOrder",
@@ -4492,7 +4477,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/container-type"
   },
   "content": {
-    "syntax": "normal | none | [ <content-replacement> | <content-list> ] [/ [ <string> | <counter> ]+ ]?",
+    "syntax": "normal | none | [ <content-replacement> | <content-list> ] [ / [ <string> | <counter> | <attr()> ]+ ]?",
     "media": "all",
     "inherited": false,
     "animationType": "discrete",
@@ -4965,7 +4950,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flood-opacity"
   },
   "font": {
-    "syntax": "[ [ <'font-style'> || <font-variant-css21> || <'font-weight'> || <'font-stretch'> ]? <'font-size'> [ / <'line-height'> ]? <'font-family'> ] | caption | icon | menu | message-box | small-caption | status-bar",
+    "syntax": "[ [ <'font-style'> || <font-variant-css2> || <'font-weight'> || <font-width-css3> ]? <'font-size'> [ / <'line-height'> ]? <'font-family'># ] | <system-family-name>",
     "media": "visual",
     "inherited": true,
     "animationType": [
@@ -5200,7 +5185,7 @@
     "syntax": "<font-stretch-absolute>",
     "media": "visual",
     "inherited": true,
-    "animationType": "fontStretch",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Fonts"
@@ -5536,7 +5521,7 @@
     "syntax": "<font-weight-absolute> | bolder | lighter",
     "media": "visual",
     "inherited": true,
-    "animationType": "fontWeight",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Fonts"
@@ -5552,6 +5537,26 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-weight"
+  },
+  "font-width": {
+    "syntax": "normal | <percentage [0,∞]> | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Fonts"
+    ],
+    "initial": "normal",
+    "appliesto": "allElementsAndText",
+    "computed": "percentage",
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter",
+      "::first-line",
+      "::placeholder"
+    ],
+    "status": "experimental"
   },
   "forced-color-adjust": {
     "syntax": "auto | none | preserve-parent-color",
@@ -6347,7 +6352,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/justify-content"
   },
   "justify-items": {
-    "syntax": "normal | stretch | <baseline-position> | <overflow-position>? [ <self-position> | left | right ] | legacy | legacy && [ left | right | center ]",
+    "syntax": "normal | stretch | <baseline-position> | <overflow-position>? [ <self-position> | left | right ] | legacy | legacy && [ left | right | center ] | anchor-center",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -6363,7 +6368,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/justify-items"
   },
   "justify-self": {
-    "syntax": "auto | normal | stretch | <baseline-position> | <overflow-position>? [ <self-position> | left | right ]",
+    "syntax": "auto | normal | stretch | <baseline-position> | <overflow-position>? [ <self-position> | left | right ] | anchor-center",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -6394,12 +6399,13 @@
     "status": "nonstandard"
   },
   "left": {
-    "syntax": "<length> | <percentage> | auto",
+    "syntax": "auto | <length-percentage> | <anchor()> | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
+      "CSS Anchor Positioning",
       "CSS Positioned Layout"
     ],
     "initial": "auto",
@@ -6674,12 +6680,13 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-block-start"
   },
   "margin-bottom": {
-    "syntax": "<length-percentage> | auto",
+    "syntax": "<length-percentage> | auto | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
+      "CSS Anchor Positioning",
       "CSS Box Model"
     ],
     "initial": "0",
@@ -6747,12 +6754,13 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-inline-start"
   },
   "margin-left": {
-    "syntax": "<length-percentage> | auto",
+    "syntax": "<length-percentage> | auto | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
+      "CSS Anchor Positioning",
       "CSS Box Model"
     ],
     "initial": "0",
@@ -6766,12 +6774,13 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-left"
   },
   "margin-right": {
-    "syntax": "<length-percentage> | auto",
+    "syntax": "<length-percentage> | auto | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
+      "CSS Anchor Positioning",
       "CSS Box Model"
     ],
     "initial": "0",
@@ -6785,12 +6794,13 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/margin-right"
   },
   "margin-top": {
-    "syntax": "<length-percentage> | auto",
+    "syntax": "<length-percentage> | auto | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
+      "CSS Anchor Positioning",
       "CSS Box Model"
     ],
     "initial": "0",
@@ -7425,7 +7435,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/min-width"
   },
   "mix-blend-mode": {
-    "syntax": "<blend-mode> | plus-lighter",
+    "syntax": "<blend-mode> | plus-darker | plus-lighter",
     "media": "visual",
     "inherited": false,
     "animationType": "notAnimatable",
@@ -8623,12 +8633,13 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/resize"
   },
   "right": {
-    "syntax": "<length> | <percentage> | auto",
+    "syntax": "auto | <length-percentage> | <anchor()> | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
     "percentages": "referToWidthOfContainingBlock",
     "groups": [
+      "CSS Anchor Positioning",
       "CSS Positioned Layout"
     ],
     "initial": "auto",
@@ -8697,10 +8708,25 @@
       "CSS Ruby"
     ],
     "initial": "separate",
-    "appliesto": "rubyAnnotationsContainers",
+    "appliesto": "rubyAnnotationContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "experimental"
+  },
+  "ruby-overhang": {
+    "syntax": "auto | none",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Ruby"
+    ],
+    "initial": "auto",
+    "appliesto": "rubyAnnotationContainers",
+    "computed": "theSpecifiedKeyword",
+    "order": "perGrammar",
+    "status": "standard"
   },
   "ruby-position": {
     "syntax": "[ alternate || [ over | under ] ] | inter-character",
@@ -8712,7 +8738,7 @@
       "CSS Ruby"
     ],
     "initial": "alternate",
-    "appliesto": "rubyAnnotationsContainers",
+    "appliesto": "rubyAnnotationContainers",
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "standard",
@@ -9580,6 +9606,21 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/stroke"
   },
+  "stroke-color": {
+    "syntax": "<color>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "byComputedValue",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "transparent",
+    "appliesto": "textAndSVGShapes",
+    "computed": "computedColor",
+    "order": "perGrammar",
+    "status": "experimental"
+  },
   "stroke-dasharray": {
     "syntax": "none | <dasharray>",
     "media": "visual",
@@ -10329,12 +10370,13 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/timeline-scope"
   },
   "top": {
-    "syntax": "<length> | <percentage> | auto",
+    "syntax": "auto | <length-percentage> | <anchor()> | <anchor-size()>",
     "media": "visual",
     "inherited": false,
     "animationType": "lpc",
     "percentages": "referToContainingBlockHeight",
     "groups": [
+      "CSS Anchor Positioning",
       "CSS Positioned Layout"
     ],
     "initial": "auto",
@@ -10709,7 +10751,7 @@
     "status": "standard"
   },
   "view-transition-name": {
-    "syntax": "none | <custom-ident>",
+    "syntax": "none | <custom-ident> | match-element",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",

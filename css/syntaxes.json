@@ -90,7 +90,7 @@
     "syntax": "<visual-box> | border-area | text"
   },
   "bg-image": {
-    "syntax": "none | <image>"
+    "syntax": "<image> | none"
   },
   "bg-layer": {
     "syntax": "<bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <visual-box> || <visual-box>"
@@ -99,7 +99,7 @@
     "syntax": "[ [ left | center | right | top | bottom | <length-percentage> ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ] | [ center | [ left | right ] <length-percentage>? ] && [ center | [ top | bottom ] <length-percentage>? ] ]"
   },
   "bg-size": {
-    "syntax": "[ <length-percentage> | auto ]{1,2} | cover | contain"
+    "syntax": "[ <length-percentage [0,∞]> | auto ]{1,2} | cover | contain"
   },
   "blend-mode": {
     "syntax": "normal | multiply | screen | overlay | darken | lighten | color-dodge | color-burn | hard-light | soft-light | difference | exclusion | hue | saturation | color | luminosity"
@@ -189,7 +189,10 @@
     "syntax": "[ common-ligatures | no-common-ligatures ]"
   },
   "compat-auto": {
-    "syntax": "searchfield | textarea | push-button | slider-horizontal | checkbox | radio | square-button | menulist | listbox | meter | progress-bar | button"
+    "syntax": "searchfield | textarea | checkbox | radio | menulist | listbox | meter | progress-bar | button"
+  },
+  "compat-special": {
+    "syntax": "textfield | menulist-button"
   },
   "complex-selector": {
     "syntax": "<compound-selector> [ <combinator>? <compound-selector> ]*"
@@ -228,7 +231,7 @@
     "syntax": "space-between | space-around | space-evenly | stretch"
   },
   "content-list": {
-    "syntax": "[ <string> | contents | <image> | <counter> | <quote> | <target> | <leader()> ]+"
+    "syntax": "[ <string> | <image | <attr()> | <quote> | <counter> ]+ "
   },
   "content-position": {
     "syntax": "center | start | end | flex-start | flex-end"
@@ -272,7 +275,7 @@
   "cubic-bezier()": {
     "syntax": "cubic-bezier( [ <number [0,1]>, <number> ]#{2} )"
   },
-  "cubic-bezier-timing-function": {
+  "cubic-bezier-easing-function": {
     "syntax": "ease | ease-in | ease-out | ease-in-out | <cubic-bezier()>"
   },
   "custom-color-space": {
@@ -369,7 +372,7 @@
     "syntax": "[ <filter-function> | <url> ]+"
   },
   "final-bg-layer": {
-    "syntax": "<'background-color'> || <bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <visual-box> || <visual-box>"
+    "syntax": "<bg-image> || <bg-position> [ / <bg-size> ]? || <repeat-style> || <attachment> || <visual-box> || <visual-box> || <'background-color'>"
   },
   "fit-content()": {
     "syntax": "fit-content( <length-percentage [0,∞]> )"
@@ -386,11 +389,14 @@
   "font-stretch-absolute": {
     "syntax": "normal | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded | <percentage>"
   },
-  "font-variant-css21": {
-    "syntax": "[ normal | small-caps ]"
+  "font-variant-css2": {
+    "syntax": "normal | small-caps"
   },
   "font-weight-absolute": {
     "syntax": "normal | bold | <number [1,1000]>"
+  },
+  "font-width-css3": {
+    "syntax": "normal | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded"
   },
   "form-control-identifier": {
     "syntax": "select"
@@ -1009,6 +1015,9 @@
   },
   "system-color": {
     "syntax": "AccentColor | AccentColorText | ActiveText | ButtonBorder | ButtonFace | ButtonText | Canvas | CanvasText | Field | FieldText | GrayText | Highlight | HighlightText | LinkText | Mark | MarkText | SelectedItem | SelectedItemText | VisitedText"
+  },
+  "system-family-name": {
+    "syntax": "caption | icon | menu | message-box | small-caption | status-bar"
   },
   "tan()": {
     "syntax": "tan( <calc-sum> )"
