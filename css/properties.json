@@ -9816,6 +9816,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-anchor"
   },
+  "text-autospace": {
+    "syntax": "normal | <autospace> | auto ",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Text"
+    ],
+    "initial": "normal",
+    "appliesto": "textElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-autospace"
+  },
   "text-box": {
     "syntax": "normal | <'text-box-trim'> || <'text-box-edge'>",
     "media": "visual",
