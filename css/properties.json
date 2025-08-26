@@ -9817,7 +9817,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-anchor"
   },
   "text-autospace": {
-    "syntax": "normal | <autospace> | auto ",
+    "syntax": "normal | <autospace> | auto",
     "media": "visual",
     "inherited": true,
     "animationType": "discrete",
