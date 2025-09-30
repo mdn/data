@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.25.0](https://github.com/mdn/data/compare/v2.24.0...v2.25.0) (2025-09-30)
+
+
+### Features
+
+* **css:** Update syntax for `cursor` ([#1009](https://github.com/mdn/data/issues/1009)) ([1e013f3](https://github.com/mdn/data/commit/1e013f36a948731a11c2fcee1d08961365f95d77))
+* **css:** Update syntax for `cursor` property ([1e013f3](https://github.com/mdn/data/commit/1e013f36a948731a11c2fcee1d08961365f95d77))
+
+
+### Miscellaneous
+
+* **css:** Update group field for css selectors ([#965](https://github.com/mdn/data/issues/965)) ([632fd10](https://github.com/mdn/data/commit/632fd10ca9723c54a8bed0851be726ff62d62016))
+* **deps:** bump actions/checkout from 4 to 5 ([#1002](https://github.com/mdn/data/issues/1002)) ([a342f40](https://github.com/mdn/data/commit/a342f40b60a3ff80d011a6235750a96584f93998))
+
 ## [2.24.0](https://github.com/mdn/data/compare/v2.23.0...v2.24.0) (2025-08-13)
 
 
