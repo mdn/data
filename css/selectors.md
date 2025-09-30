@@ -13,7 +13,7 @@ A selector object looks like this:
 "General sibling selectors": {
   "syntax": "A ~ B",
   "groups": [
-    "Combinators"
+    "Selectors"
   ],
   "status": "standard"
 }
