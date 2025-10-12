@@ -56,7 +56,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/atan2"
   },
   "attr()": {
-    "syntax": "attr( <attr-name> <type-or-unit>? [, <attr-fallback> ]? )",
+    "syntax": "attr( <attr-name> <attr-type>? , <declaration-value>? )",
     "groups": [
       "CSS Values and Units"
     ],
