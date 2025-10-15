@@ -37,6 +37,7 @@ jobs:
         with:
           registry-url: "https://registry.npmjs.org/"
           node-version-file: ".nvmrc"
+          package-manager-cache: false
 
       - name: Install
         if: ${{ github.event.inputs.force-npm-publish || steps.release.outputs.release_created }}
