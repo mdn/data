@@ -6,12 +6,6 @@ on:
   schedule:
     - cron: "0 9 * * 5"
 
-# See: https://github.com/actions/stale#recommended-permissions
-permissions:
-  actions: write
-  issues: write
-  pull-requests: write
-
 jobs:
   mark-as-idle:
     uses: mdn/workflows/.github/workflows/idle.yml@main
