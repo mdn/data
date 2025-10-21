@@ -202,6 +202,7 @@
         "allElementsExceptTableRowColumnGroupsTableRowsColumns",
         "allElementsExceptTableRowGroupsRowsColumnGroupsAndColumns",
         "allElementsNoEffectIfDisplayNone",
+        "allElementsNoEffectIfDisplayNoneOrContents",
         "allElementsSomeValuesNoEffectOnNonInlineElements",
         "allElementsSVGContainerElements",
         "allElementsSVGContainerGraphicsAndGraphicsReferencingElements",
