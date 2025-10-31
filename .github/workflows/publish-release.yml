@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  id-token: write # OIDC for npm Trusted Publishing
   pull-requests: write
 
 jobs:
@@ -39,12 +40,15 @@ jobs:
           node-version-file: ".nvmrc"
           package-manager-cache: false
 
+      # Ensure npm 11.5.1 or later for trusted publishing
+      - name: Install latest npm
+        if: ${{ github.event.inputs.force-npm-publish || steps.release.outputs.release_created }}
+        run: npm install -g npm@latest
+
       - name: Install
         if: ${{ github.event.inputs.force-npm-publish || steps.release.outputs.release_created }}
         run: npm ci
 
       - name: Publish
         if: ${{ github.event.inputs.force-npm-publish || steps.release.outputs.release_created }}
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm publish --access public --provenance
