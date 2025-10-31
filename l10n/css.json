@@ -1,10 +1,21 @@
 {
+  "\"\"": {
+    "en-US": "\"\" (the empty string)",
+    "ja": "\"\" (空文字列)",
+    "zh-CN": "\"\"（空字符串）"
+  },
+  "\". \"": {
+    "en-US": "\". \" (full stop followed by a space)",
+    "ja": "\". \" (ピリオドの後に空白)",
+    "zh-CN": "\". \"（句号后跟一个空格）"
+  },
   "absoluteLength": {
     "de": "absolute {{cssxref(\"length\")}}",
     "en-US": "absolute {{cssxref(\"length\")}}",
     "fr": "une longueur (type {{cssxref(\"length\")}}) absolue",
     "ja": "絶対的な{{cssxref(\"length\", \"長さ\")}}",
     "ru": "абсолютная {{cssxref(\"length\")}}",
+    "zh-CN": "绝对 {{cssxref(\"length\")}}",
     "zh-TW": "絕對{{cssxref(\"length\")}}"
   },
   "absoluteLength0ForNone": {
@@ -13,6 +24,7 @@
     "fr": "une longueur absolue ; si le mot-clé <code>none</code> est spécifié, la valeur calculée sera <code>0</code>",
     "ja": "絶対的な長さ、キーワード <code>none</code> が指定されると計算値は <code>0</code> になる",
     "ru": "абсолютная длина; если указано ключевое слово <code>none</code>, вычисленное значение - <code>0</code>",
+    "zh-CN": "绝对长度；如果指定关键词为 <code>none</code>，则计算值为 <code>0</code>",
     "zh-TW": "絕對長度；若指定了關鍵字 <code>none</code>，計算值則為 <code>0</code>"
   },
   "absoluteLength0IfColumnRuleStyleNoneOrHidden": {
@@ -21,6 +33,7 @@
     "fr": "une longueur absolue ou <code>0</code> si {{cssxref(\"column-rule-style\")}} vaut <code>none</code> ou <code>hidden</code>",
     "ja": "絶対的な長さ、列の罫線のスタイルが <code>none</code> か <code>hidden</code> なら <code>0</code>",
     "ru": "абсолютная длина; <code>0</code>, если {{cssxref(\"column-rule-style\")}} - <code>none</code> или <code>hidden</code>",
+    "zh-CN": "绝对长度；如果 {{cssxref(\"column-rule-style\")}} 设为 <code>none</code> 或 <code>hidden</code>，则为 <code>0</code>",
     "zh-TW": "絕對長度；若 {{cssxref(\"column-rule-style\")}} 為 <code>none</code> 或 <code>hidden</code>，則為 <code>0</code>"
   },
   "absoluteLengthOr0IfBorderBottomStyleNoneOrHidden": {
@@ -29,6 +42,7 @@
     "fr": "la longueur absolue ou <code>0</code> si {{cssxref(\"border-bottom-style\")}} vaut <code>none</code> ou <code>hidden</code>",
     "ja": "絶対的な長さ、または {{cssxref(\"border-bottom-style\")}} が <code>none</code> または <code>hidden</code> の場合は <code>0</code>",
     "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-bottom-style\")}} - <code>none</code> или <code>hidden</code>",
+    "zh-CN": "绝对长度；或如果 {{cssxref(\"border-bottom-style\")}} 的值是 <code>none</code> 或 <code>hidden</code>，则为 <code>0</code>",
     "zh-TW": "絕對長度，若 {{cssxref(\"border-bottom-style\")}} 為 <code>none</code> 或 <code>hidden</code>，則為 <code>0</code>"
   },
   "absoluteLengthOr0IfBorderLeftStyleNoneOrHidden": {
@@ -37,6 +51,7 @@
     "fr": "la longueur absolue ou <code>0</code> si {{cssxref(\"border-left-style\")}} vaut <code>none</code> ou <code>hidden</code>",
     "ja": "絶対的な長さ、または {{cssxref(\"border-left-style\")}} が <code>none</code> または <code>hidden</code> の場合は <code>0</code>",
     "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-left-style\")}} - <code>none</code> или <code>hidden</code>",
+    "zh-CN": "绝对长度；或如果 {{cssxref(\"border-left-style\")}} 的值为 <code>none</code> 或 <code>hidden</code>，则为 <code>0</code>",
     "zh-TW": "絕對長度，若 {{cssxref(\"border-left-style\")}} 為 <code>none</code> 或 <code>hidden</code>，則為 <code>0</code>"
   },
   "absoluteLengthOr0IfBorderRightStyleNoneOrHidden": {
@@ -45,6 +60,7 @@
     "fr": "la longueur absolue ou <code>0</code> si {{cssxref(\"border-right-style\")}} vaut <code>none</code> ou <code>hidden</code>",
     "ja": "絶対的な長さ、または {{cssxref(\"border-right-style\")}} が <code>none</code> または <code>hidden</code> の場合は <code>0</code>",
     "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-right-style\")}} - <code>none</code> или <code>hidden</code>",
+    "zh-CN": "绝对长度；或如果 {{cssxref(\"border-right-style\")}} 的值为 <code>none</code> 或 <code>hidden</code>，则为 <code>0</code>",
     "zh-TW": "絕對長度，若 {{cssxref(\"border-right-style\")}} 為 <code>none</code> 或 <code>hidden</code>，則為 <code>0</code>"
   },
   "absoluteLengthOr0IfBorderTopStyleNoneOrHidden": {
@@ -53,6 +69,7 @@
     "fr": "la longueur absolue ou <code>0</code> si {{cssxref(\"border-top-style\")}} vaut <code>none</code> ou <code>hidden</code>",
     "ja": "絶対的な長さ、または {{cssxref(\"border-top-style\")}} が <code>none</code> または <code>hidden</code> の場合は <code>0</code>",
     "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-top-style\")}} - <code>none</code> или <code>hidden</code>",
+    "zh-CN": "绝对长度；或如果 {{cssxref(\"border-top-style\")}} 的值为 <code>none</code> 或 <code>hidden</code>，则为 <code>0</code>",
     "zh-TW": "絕對長度，若 {{cssxref(\"border-top-style\")}} 為 <code>none</code> 或 <code>hidden</code>，則為 <code>0</code>"
   },
   "absoluteLengthOrAsSpecified": {
@@ -61,6 +78,7 @@
     "fr": "pour les valeurs en pourcentages ou en longueur, la longueur absolue, sinon, comme spécifié",
     "ja": "パーセンテージか length を指定すると絶対的な値、それ以外は指定通り",
     "ru": "для процентов и значений длин, абсолютной длины, если другое не указано",
+    "zh-CN": "对于百分比和长度值，其为绝对长度，否则为指定值",
     "zh-TW": "百分比和長度值時為絕對長度，否則按指定值"
   },
   "absoluteLengthOrKeyword": {
@@ -95,6 +113,9 @@
     "ru": "для {{cssxref(\"length\")}} абсолютного значения, иначе процент",
     "zh-TW": "{{cssxref(\"length\")}}情況下為絕對值，否則為百分比"
   },
+  "absoluteLengthOrPercentageNumbersConverted": {
+    "en-US": "an absolute {{cssxref(\"length\")}} or {{cssxref(\"percentage\")}}, numbers converted to absolute lengths first"
+  },
   "absoluteLengthsSpecifiedColorAsSpecified": {
     "de": "Längen absolut gemacht; angegebene Farben berechnet; ansonsten wie angegeben",
     "en-US": "any length made absolute; any specified color computed; otherwise as specified",
@@ -117,6 +138,7 @@
     "fr": "la valeur absolue valant zéro ou plus",
     "ja": "ゼロ以上の絶対的な長さ",
     "ru": "абсолютная длина, ноль или больше",
+    "zh-CN": "绝对长度，零或更大",
     "zh-TW": "大於 0 的絕對長度"
   },
   "absolutelyPositionedElements": {
@@ -125,6 +147,7 @@
     "fr": "éléments positionnés de manière absolue",
     "ja": "絶対位置指定された要素",
     "ru": "абсолютно позиционированные элементы",
+    "zh-CN": "绝对定位元素",
     "zh-TW": "絕對定位的元素"
   },
   "absoluteURIOrNone": {
@@ -133,6 +156,7 @@
     "fr": "une URI absolue ou <code>none</code>",
     "ja": "絶対 URI または <code>none</code>",
     "ru": "абсолютный URI или <code>none</code>",
+    "zh-CN": "绝对 URI 或 <code>none</code>",
     "zh-TW": "絕對 URI 或 <code>none</code>"
   },
   "all": {
@@ -141,6 +165,7 @@
     "fr": "tous",
     "ja": "すべて",
     "ru": "всё",
+    "zh-CN": "所有",
     "zh-TW": "全部"
   },
   "allElements": {
@@ -150,6 +175,7 @@
     "ja": "すべての要素",
     "pl": "wszystkich elementów",
     "ru": "все элементы",
+    "zh-CN": "所有元素",
     "zh-TW": "所有元素"
   },
   "allElementsAcceptingWidthOrHeight": {
@@ -172,6 +198,7 @@
   "allElementsAndText": {
     "en-US": "all elements and text",
     "ja": "すべての要素とテキスト",
+    "zh-CN": "所有元素和文本",
     "zh-TW": "所有元素和文字"
   },
   "allElementsButNonReplacedAndTableColumns": {
@@ -181,6 +208,7 @@
     "fr": "tous les éléments sauf les éléments en ligne non remplacés, les colonnes de tableaux et les groupes de colonnes",
     "ja": "非置換インライン要素、テーブルの列、列グループを除くすべての要素",
     "ru": "все элементы, кроме незаменяемых строчных элементов, табличных колонок и групп колонок",
+    "zh-CN": "适用于所有元素，但不包括非替换行级元素、表格列和列组",
     "zh-TW": "所有元素，除了非置換的行內元素、表格行和行群組"
   },
   "allElementsButNonReplacedAndTableRows": {
@@ -279,10 +307,6 @@
     "ru": "все элементы, хотя некоторые значения не работают на не строчных элементах",
     "zh-TW": "所有元素，但某些值對非行內元素無效"
   },
-  "allElementsTreeAbidingPseudoElementsPageMarginBoxes": {
-    "ja": "すべての要素、ツリーに現れる擬似要素、ページのマージンボックス",
-    "en-US": "All elements, tree-abiding pseudo-elements, and page margin boxes"
-  },
   "allElementsSVGContainerElements": {
     "de": "alle Elemente; In SVG gilt betrifft dies Containerelemente mit Ausnahme des {{SVGElement(\"defs\")}} Elements und allen Grafikelementen",
     "en-US": "all elements; In SVG, it applies to container elements excluding the {{SVGElement(\"defs\")}} element and all graphics elements",
@@ -303,6 +327,13 @@
     "en-US": "Any element that can have an image applied to it, for example as a {{cssxref(\"background-image\")}}, {{cssxref(\"border-image\")}}, or {{cssxref(\"list-style-image\")}}.",
     "ja": "{{cssxref(\"background-image\")}}, {{cssxref(\"border-image\")}}, {{cssxref(\"list-style-image\")}} などで適用される画像を持つすべての要素。",
     "zh-TW": "任何可以套用圖片的元素，例如作為 {{cssxref(\"background-image\")}}、{{cssxref(\"border-image\")}} 或 {{cssxref(\"list-style-image\")}}。"
+  },
+  "allElementsThatGenerateAPrincipalBox": {
+    "en-US": "All elements that generate a <a href=\"https://drafts.csswg.org/css-display-4/#principal-box\">principal box</a>"
+  },
+  "allElementsTreeAbidingPseudoElementsPageMarginBoxes": {
+    "ja": "すべての要素、ツリーに現れる擬似要素、ページのマージンボックス",
+    "en-US": "All elements, tree-abiding pseudo-elements, and page margin boxes"
   },
   "allElementsUAsNotRequiredWhenCollapse": {
     "de": "alle Elemente; aber User Agents sind nicht gezwungen dies auf <code>table</code> und <code>inline-table</code> Elemente anzuwenden, falls {{cssxref(\"border-collapse\")}} <code>collapse</code> ist. Das Verhalten bei internen Tabellenelementen ist momentan undefiniert.",
@@ -351,17 +382,18 @@
     "zh-TW": "作為 &lt;angle&gt;、&lt;basic-shape&gt; 或 &lt;path()&gt;"
   },
   "angleRoundedToNextQuarter": {
-    "de": "ein {{xref_cssangle}}, auf den nächsten Viertel von <code>0deg</code> gerundet (üblicherweise  <code>1turn)</code>",
-    "en-US": "an {{xref_cssangle}}, rounded to the next quarter turn from <code>0deg</code> and normalized, that is moduloing the value by <code>1turn</code>",
-    "fr": "un {{xref_cssangle}}, arrondi au quart de tour supérieur (à partir de <code>0deg</code>) puis normalisé (modulo) pour obtenir l'angle relatif à un tour",
-    "ja": "<code>0deg</code> から次の 4 分の 1 回転に丸めて正規化した {{xref_cssangle}} を <code>1turn</code> で割った余り",
-    "ru": "{{xref_cssangle}}, с округлением до следующей четверти оборота от <code>0deg</code> и нормализованный так, что значение - <code>1 поворот</code>"
+    "de": "ein {{cssxref(\"angle\")}}, auf den nächsten Viertel von <code>0deg</code> gerundet (üblicherweise  <code>1turn)</code>",
+    "en-US": "an {{cssxref(\"angle\")}}, rounded to the next quarter turn from <code>0deg</code> and normalized, that is moduloing the value by <code>1turn</code>",
+    "fr": "un {{cssxref(\"angle\")}}, arrondi au quart de tour supérieur (à partir de <code>0deg</code>) puis normalisé (modulo) pour obtenir l'angle relatif à un tour",
+    "ja": "<code>0deg</code> から次の 4 分の 1 回転に丸めて正規化した {{cssxref(\"angle\")}} を <code>1turn</code> で割った余り",
+    "ru": "{{cssxref(\"angle\")}}, с округлением до следующей четверти оборота от <code>0deg</code> и нормализованный так, что значение - <code>1 поворот</code>"
   },
   "animationType": {
     "de": "Animationstyp",
     "en-US": "Animation type",
     "fr": "Type d'animation",
     "ja": "アニメーションの種類",
+    "zh-CN": "动画类型",
     "zh-TW": "動畫類型"
   },
   "anyElementEffectOnProgressAndMeter": {
@@ -396,6 +428,9 @@
     "de": "<code>auto</code> wird wie angegeben berechnet und <code>&lt;color&gt;</code> Werte werden wie für die {{cssxref(\"color\")}} Eigenschaft berechnet.",
     "ja": "<code>auto</code> は仕様通りに計算され、 <code>&lt;color&gt;</code> 値は {{cssxref(\"color\")}} プロパティで定義されたように計算される。"
   },
+  "asColorOrAbsoluteURL": {
+    "en-US": "as specified, but with <code>&lt;color&gt;</code> values computed and <code>&lt;url&gt;</code> values made absolute"
+  },
   "asDefinedForBasicShapeWithAbsoluteURIOtherwiseAsSpecified": {
     "de": "wie definiert für {{cssxref(\"basic-shape\")}} (gefolgt von {{cssxref(\"shape-box\")}}, falls angegeben), dem {{cssxref(\"image\")}}, dessen URI absolut gemacht wurde, ansonsten wie angegeben.",
     "en-US": "as defined for {{cssxref(\"basic-shape\")}} (with {{cssxref(\"shape-box\")}} following, if supplied), the {{cssxref(\"image\")}} with its URI made absolute, otherwise as specified.",
@@ -403,19 +438,24 @@
     "ja": "{{cssxref(\"basic-shape\")}} で定義された通り (与えられている場合は {{cssxref(\"shape-box\")}} が続く)、 URI を絶対化した {{cssxref(\"image\")}}、それ以外は指定通り。",
     "ru": "как определено для {{cssxref(\"basic-shape\")}} (c {{cssxref(\"shape-box\")}} последующим, если передается),  {{cssxref(\"image\")}} с его абсолютным URI, если другое не указано"
   },
+  "asIfPossibleOtherwiseDiscrete": {
+    "en-US": "as if possible, otherwise discrete"
+  },
   "asLength": {
     "de": "als {{cssxref(\"length\")}}",
     "en-US": "as {{cssxref(\"length\")}}",
     "fr": "comme {{cssxref(\"length\")}}",
     "ja": "{{cssxref(\"length\")}} 通り",
-    "ru": "как {{cssxref(\"length\")}}"
+    "ru": "как {{cssxref(\"length\")}}",
+    "zh-CN": "为 {{cssxref(\"length\")}} 值"
   },
   "asLonghands": {
     "de": "wie die jeweiligen Kurzschreibweisen:",
     "en-US": "as each of the properties of the shorthand:",
     "fr": "pour chaque propriété individuelle de la propriété raccourcie&nbsp;:",
     "ja": "一括指定の次の各プロパティとして",
-    "ru": "как и у каждого из подсвойств этого свойства:"
+    "ru": "как и у каждого из подсвойств этого свойства:",
+    "zh-CN": "该简写所对应的每个属性："
   },
   "asSpecified": {
     "de": "wie angegeben",
@@ -440,6 +480,9 @@
     "ca": "com s'especifica, excepte que si {{cssxref(\"overflow-x\")}} o bé {{cssxref(\"overflow-y\")}} són diferents de <code>visible</code> o <code>clip</code>, aquests dos valors computen a <code>auto</code> o <code>hidden</code> respectivament",
     "ja": "指定通り、ただし {{cssxref(\"overflow-x\")}} と {{cssxref(\"overflow-y\")}} のどちらかが <code>visible</code> でも </code>clip</code> でもない場合は、 <code>visible</code>/<code>clip</code> はそれぞれ <code>auto</code>/<code>hidden</code> と計算される"
   },
+  "asSpecifiedButWithPercentageConvertedToTheEquivalentNumber": {
+    "en-US": "as specified, but with {{cssxref(\"&lt;percentage&gt;\")}} converted to the equivalent {{cssxref(\"&lt;number&gt;\")}}"
+  },
   "asSpecifiedExceptMatchParent": {
     "de": "wie angegeben, außer für den <code>match-parent</code> Wert, welcher in Bezug auf den <code>direction</code> Wert des Elternelements berechnet wird und einen berechneten Wert von <code>left</code> oder <code>right</code> ergibt",
     "en-US": "as specified, except for the <code>match-parent</code> value which is calculated against its parent's <code>direction</code> value and results in a computed value of either <code>left</code> or <code>right</code>",
@@ -452,7 +495,8 @@
     "en-US": "as the specified value, except for positioned and floating elements and the root element. In both cases the computed value may be a keyword other than the one specified.",
     "fr": "comme la valeur spécifiée, excepté pour les éléments positionnés et flottants, ainsi que pour l'élément racine. Dans les deux cas, la valeur calculée peut être un mot clé différent de celui spécifié.",
     "ja": "指定通り。ただし位置指定された要素とフロート、ルート要素を除く。これらは計算値が指定したものと違うキーワードになる可能性があります",
-    "ru": "как указанное значение, кроме как для позиционированных и плавающих элементов и корневого элемента. В обоих случаях вычисляемое значение может быть ключевым словом, отличным от указанного."
+    "ru": "как указанное значение, кроме как для позиционированных и плавающих элементов и корневого элемента. В обоих случаях вычисляемое значение может быть ключевым словом, отличным от указанного.",
+    "zh-CN": "为指定的值，但定位元素、浮动元素和根元素除外。在这两种情况下，计算值可能是不同于指定值的其他关键字。"
   },
   "asSpecifiedRelativeToAbsoluteLengths": {
     "de": "relativ zur gleichen Achse der Innenabstandsbox des Scrollcontainers",
@@ -494,6 +538,13 @@
     "fr": "<code>auto</code> pour les navigateurs de smartphones qui supportent l'expansion, <code>none</code> in dans les autres cas (non modifiable alors).",
     "ja": "文字拡大に対応しているスマートフォンブラウザーならば <code>auto</code>、それ以外の場合は <code>none</code> (そして変更不可)。",
     "ru": "<code>auto</code> для браузеров в смартфонах поддерживается увеличение, <code>none</code> в других случаях (и позже не изменяется)."
+  },
+  "autoForTranslucentColorRGBAOtherwiseRGB": {
+    "de": "Für das Schlüsselwort <code>auto</code> ist der berechnete Wert <code>currentcolor</code>. Für den Farbwert, falls der Wert durchscheinend ist, ist der berechnete Wert der entsprechende <code>rgba()</code> Wert. Falls nicht, ist er der entsprechende <code>rgb()</code> Wert. Das Schlüsselwort <code>transparent</code> wird zu <code>rgba(0,0,0,0)</code>.",
+    "en-US": "For the keyword <code>auto</code>, the computed value is <code>currentcolor</code>. For the color value, if the value is translucent, the computed value will be the <code>rgba()</code> corresponding one. If it isn't, it will be the <code>rgb()</code> corresponding one. The <code>transparent</code> keyword maps to <code>rgba(0,0,0,0)</code>.",
+    "fr": "Pour le mot-clé <code>auto</code>, la valeur calculée est <code>currentcolor</code>. Pour la valeur de la couleur, si la valeur est transparente, la valeur calculée sera la valeur <code>rgba()</code> correspondante. S'il n'y en a pas, ce sera la valeur <code>rgb()</code> correspondante. Le mot-clé <code>transparent</code> correspondra à <code>rgba(0,0,0,0)</code>.",
+    "ja": "キーワード <code>auto</code> の場合は、計算値も <code>currentcolor</code>。色の場合は、半透明であれば、計算値はそれに一致する <code>rbga()</code> で、不透明であれば、それに一致する <code>rgb()</code>。キーワード <code>transparent</code> は <code>rgba(0,0,0,0)</code> に対応付けられる。",
+    "ru": "Для ключевого слова <code>auto</code>, значение - <code>currentcolor</code>. Для значения цвета, если значение имеет прозрачность, соответственно, значение будет через <code>rgba()</code>. Если это не так, это будет <code>rgb()</code>. Ключевое слово <code>transparent</code> отображается, как <code>rgba(0,0,0,0)</code>."
   },
   "autoNonNegativeOrPercentage": {
     "de": "<code>auto</code>, eine nicht negative Zahl oder ein Prozentwert wie angegeben",
@@ -543,14 +594,19 @@
     "en-US": "block container elements",
     "fr": "les éléments conteneurs de blocs",
     "ja": "ブロックコンテナー要素",
-    "ru": "блочные контейнеры"
+    "ru": "блочные контейнеры",
+    "zh-CN": "区块容器元素"
   },
   "blockContainers": {
     "de": "Blockcontainer",
     "en-US": "block containers",
     "fr": "conteneurs de type bloc",
     "ja": "ブロックコンテナー",
-    "ru": "блочные контейнеры"
+    "ru": "блочные контейнеры",
+    "zh-CN": "区块容器"
+  },
+  "blockContainersAndInlineBoxes": {
+    "en-US": "Block containers and inline boxes"
   },
   "blockContainersAndMultiColumnContainers": {
     "de": "Blockcontainer und mehrspaltige Container",
@@ -570,6 +626,12 @@
   "blockContainersFlexContainersGridContainers": {
     "en-US": "Block-containers, flex containers, and grid containers",
     "ja": "ブロックコンテナー, フレックスコンテナー, グリッドコンテナー"
+  },
+  "blockContainersFlexContainersGridContainersInlineBoxesTableRowsSVGTextContentElements": {
+    "en-US": "Block-containers, flex containers, grid containers, inline boxes, table rows, and SVG text content elements"
+  },
+  "blockContainersMultiColumnContainersFlexContainersGridContainers": {
+    "en-US": "Block-containers, multi-column containers, flex containers"
   },
   "blockElementsInNormalFlow": {
     "de": "Blocklevelelemente in normalem Fluss des Wurzelelements. User Agents können es auch auf andere Elemente wie <code>table-row</code>-Elemente anwenden.",
@@ -600,11 +662,16 @@
     "en-US": "box elements",
     "fr": "éléments de boîte",
     "ja": "ボックス要素",
-    "ru": "блочные элементы"
+    "ru": "блочные элементы",
+    "zh-CN": "盒元素"
+  },
+  "byComputedValue": {
+    "en-US": "by computed value"
   },
   "byComputedValueType": {
     "en-US": "by computed value type",
-    "ja": "計算値の型による"
+    "ja": "計算値の型による",
+    "zh-CN": "按计算值的类型"
   },
   "byComputedValueTypeNormalAnimatesAsObliqueZeroDeg": {
     "en-US": "by computed value type; <code>normal</code> animates as <code>oblique 0deg</code>"
@@ -615,7 +682,7 @@
     "fr": "Ordre canonique",
     "ja": "正規順序",
     "ru": "Канонический порядок",
-    "zh-CN": "正规顺序"
+    "zh-CN": "规范顺序"
   },
   "childrenOfBoxElements": {
     "de": "Kindelemente von Boxelementen",
@@ -643,7 +710,8 @@
     "en-US": "computed color",
     "fr": "couleur calculée",
     "ja": "色の計算値",
-    "ru": "вычисленный цвет"
+    "ru": "вычисленный цвет",
+    "zh-CN": "颜色计算值"
   },
   "consistsOfTwoDimensionKeywords": {
     "de": "Besteht aus zwei Schlüsselwörtern, einem pro Richtung",
@@ -667,13 +735,16 @@
     "ru": "продолжительный",
     "zh-TW": "連續"
   },
+  "convertedToNumber": {
+    "en-US": "Converted to {{cssxref(\"&lt;number&gt;\")}}"
+  },
   "createsStackingContext": {
-    "de": "Erstellt <a href=\"/de/docs/Web/CSS/CSS_Positioning/z_index_verstehen/Der_Stackingkontext\">Stapelkontext</a>",
-    "en-US": "Creates <a href=\"/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context\">stacking context</a>",
-    "fr": "Crée un <a href=\"/fr/docs/Web/CSS/Comprendre_z-index/L'empilement_de_couches\">contexte d'empilement</a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context\">重ね合わせコンテキスト</a>の生成",
-    "ru": "Создаёт <a href=\"/ru/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context\">контекст наложения</a>",
-    "zh-TW": "建立<a href=\"/zh-TW/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context\">堆疊內容</a>"
+    "de": "Erstellt <a href=\"/de/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context\">Stapelkontext</a>",
+    "en-US": "Creates <a href=\"/en-US/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context\">stacking context</a>",
+    "fr": "Crée un <a href=\"/fr/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context\">contexte d'empilement</a>",
+    "ja": "<a href=\"/ja/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context\">重ね合わせコンテキスト</a>の生成",
+    "ru": "Создаёт <a href=\"/ru/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context\">контекст наложения</a>",
+    "zh-TW": "建立<a href=\"/zh-TW/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context\">堆疊內容</a>"
   },
   "dependsOnLayoutModel": {
     "de": "hängt vom Layoutmodell ab",
@@ -692,24 +763,26 @@
     "zh-TW": "取決於使用者代理"
   },
   "directChildrenOfElementsWithDisplayMozBoxMozInlineBox": {
-    "de": "Elemente, die direkte Kinder eines Elements mit einem CSS {{cssxref(\"display\")}} Wert von {{cssxref(\"-moz-box\")}} oder {{cssxref(\"-moz-inline-box\")}} oder {{cssxref(\"-webkit-box\")}} oder {{cssxref(\"-webkit-inline-box\")}} sind",
-    "en-US": "elements that are direct children of an element with a CSS {{cssxref(\"display\")}} value of {{cssxref(\"-moz-box\")}} or {{cssxref(\"-moz-inline-box\")}} or {{cssxref(\"-webkit-box\")}} or {{cssxref(\"-webkit-inline-box\")}}",
-    "fr": "éléments qui sont des fils direct d'un élément avec {{cssxref(\"display\")}} qui vaut {{cssxref(\"-moz-box\")}} ou {{cssxref(\"-moz-inline-box\")}} ou {{cssxref(\"-webkit-box\")}} ou {{cssxref(\"-webkit-inline-box\")}}",
-    "ja": "CSS の {{cssxref(\"display\")}} の値が {{cssxref(\"-moz-box\")}}, {{cssxref(\"-moz-inline-box\")}}, {{cssxref(\"-webkit-box\")}}, {{cssxref(\"-webkit-inline-box\")}} のいずれかである要素の直接の子要素",
-    "ru": "элементы, являющиеся прямыми потомками элемента со свойством {cssxref(\"display\")}} равным {{cssxref(\"-moz-box\")}}, {{cssxref(\"-moz-inline-box\")}}, {{cssxref(\"-webkit-box\")}} или {{cssxref(\"-webkit-inline-box\")}}"
+    "de": "Elemente, die direkte Kinder eines Elements mit einem CSS {{cssxref(\"display\")}} Wert von <code>-moz-box</code> oder <code>-moz-inline-box</code> oder <code>-webkit-box</code> oder <code>-webkit-inline-box</code> sind",
+    "en-US": "elements that are direct children of an element with a CSS {{cssxref(\"display\")}} value of <code>-moz-box</code> or <code>-moz-inline-box</code> or <code>-webkit-box</code> or <code>-webkit-inline-box</code>",
+    "fr": "éléments qui sont des fils direct d'un élément avec {{cssxref(\"display\")}} qui vaut <code>-moz-box</code> ou <code>-moz-inline-box</code> ou <code>-webkit-box</code> ou <code>-webkit-inline-box</code>",
+    "ja": "CSS の {{cssxref(\"display\")}} の値が <code>-moz-box</code>, <code>-moz-inline-box</code>, <code>-webkit-box</code>, <code>-webkit-inline-box</code> のいずれかである要素の直接の子要素",
+    "ru": "элементы, являющиеся прямыми потомками элемента со свойством {cssxref(\"display\")}} равным <code>-moz-box</code>, <code>-moz-inline-box</code>, <code>-webkit-box</code> или <code>-webkit-inline-box</code>"
   },
   "discrete": {
     "de": "diskret",
     "en-US": "discrete",
     "fr": "discrète",
     "ja": "離散値",
+    "zh-CN": "离散值",
     "zh-TW": "離散"
   },
   "discreteButVisibleForDurationWhenAnimatedHidden": {
     "en-US": "Discrete behavior except when animating to or from <code>hidden</code> is visible for the entire duration"
   },
   "discreteButVisibleForDurationWhenAnimatedNone": {
-    "en-US": "Discrete behavior except when animating to or from <code>none</code> is visible for the entire duration"
+    "en-US": "Discrete behavior except when animating to or from <code>none</code> is visible for the entire duration",
+    "zh-CN": "离散行为，但如果动画过渡以 <code>none</code> 开始或结束，则其在整个持续时间内都是可见的"
   },
   "eachOfShorthandPropertiesExceptUnicodeBiDiAndDirection": {
     "de": "wie jede der Kurzschreibweisen Eigenschaften (alle Eigenschaften außer {{cssxref(\"unicode-bidi\")}} und {{cssxref(\"direction\")}})",
@@ -719,7 +792,12 @@
     "ru": "как у каждого из подсвойств этого свойства (все свойства, кроме {{cssxref(\"unicode-bidi\")}} и {{cssxref(\"direction\")}})"
   },
   "elementsForWhichSizeContainmentCanApply": {
-    "en-US": "elements for which size containment can apply"
+    "en-US": "elements for which size containment can apply",
+    "zh-CN": "可应用尺寸局限的元素"
+  },
+  "elementsWithDefaultPreferredSize": {
+    "en-US": "Elements with default preferred size",
+    "zh-CN": "具有默认偏好尺寸的元素"
   },
   "elementsWithDisplayBoxOrInlineBox": {
     "de": "Elemente mit einem CSS {{cssxref(\"display\")}} Wert von <code>box</code> oder <code>inline-box</code>",
@@ -734,6 +812,7 @@
     "fr": "éléments avec <code>{{cssxref(\"display\")}}: marker;</code>",
     "ja": "<code>{{cssxref(\"display\")}}: marker;</code> の要素",
     "ru": "элементы с <code>{{cssxref(\"display\")}}: marker;</code>",
+    "zh-CN": "设置了 <code>{{cssxref(\"display\")}}: marker;</code> 的元素",
     "zh-TW": "具 <code>{{cssxref(\"display\")}}: marker;</code> 的元素"
   },
   "elementsWithDisplayMozBoxMozInlineBox": {
@@ -754,7 +833,8 @@
   },
   "exclusionElements": {
     "en-US": "exclusion elements",
-    "ja": "除外要素"
+    "ja": "除外要素",
+    "zh-CN": "排除元素"
   },
   "filterList": {
     "de": "eine <a href=\"/de/docs/Web/CSS/filter#interpolation\" title=\"Falls beide Filter Funktionslisten gleicher Länge ohne URLs haben, wird jede der Filterfunktionen nach ihren spezifischen Regeln interpoliert. Falls sie unterschiedliche Längen haben, werden die fehlenden äquivalenten Filterfunktionen der längeren Liste unter Verwendung der Standardwerte an das Ende der kürzeren Liste angehängt, anschließend werden alle Filterfunktionen entsprechend ihrer spezifischen Regeln interpoliert. Falls ein Filter 'none' ist, wird er durch die Filterfunktionsliste der anderen unter Verwendung der Standardwerte ersetzt, anschließend werden alle Filterfunktionen entsprechend ihrer spezifischen Regeln interpoliert. Ansonsten wird diskrete Interpolation verwendet.\">Filterfunktionsliste</a>",
@@ -775,6 +855,7 @@
     "fr": "conteneurs flexibles",
     "ja": "フレックスコンテナー",
     "ru": "flex-контейнеры",
+    "zh-CN": "弹性容器",
     "zh-TW": "彈性容器"
   },
   "flexItemsAndAbsolutelyPositionedFlexContainerChildren": {
@@ -810,28 +891,16 @@
     "fr": "flottants",
     "ja": "浮動要素",
     "ru": "плавает",
+    "zh-CN": "浮动元素",
     "zh-TW": "浮動"
   },
-  "fontStretch": {
-    "de": "<a href=\"/de/docs/Web/CSS/font-stretch#interpolation\">Schriftbreite</a>",
-    "en-US": "a <a href=\"/en-US/docs/Web/CSS/font-stretch#interpolation\" title=\"Font stretch values are interpolated in discrete steps. The interpolation happens as though the ordered values are equally spaced real numbers; the result is rounded to the nearest value, with values exactly halfway between two values rounded towards the later value, that is the most expanded one.\">font stretch</a>",
-    "fr": "une <a href=\"/fr/docs/Web/CSS/font-stretch#interpolation\" title=\"Les valeurs de font stretch sont interpolées de façon discrète. L'interpolation s'effectue comme si les valeurs, dans l'ordre, étaient des nombres également distribués : le résultat est arrondi à la valeur la plus proche, les valeurs situées exactement entre deux valeurs sont arrondies à la valeur supérieure.\"><code>font stretch</code></a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/font-stretch#interpolation\" title=\"フォントの伸張値は、離散的な段階で補間されます。補間は、順序づけられた値が等間隔の実数であるかのように行われます。結果は、最も近い値に丸められ、 2 つの値のちょうど中間の値は、最も拡張された値である後の値に向かって丸められます。\">フォントの伸長値</a>",
-    "ru": "<a href=\"/ru/docs/Web/CSS/font-stretch#interpolation\" title=\"Значения ширины начертания шрифта интерполируются по дискретным шагам. Интерполяция происходит по упорядоченно расположенным значениям в пространстве действительных чисел; результат округляется к ближайшему значению, точно между двумя соседними значениями, округляется в сторону большего значения, которое является наиболее широким.\">ширина начертания шрифта</a>"
-  },
-  "fontWeight": {
-    "de": "<a href=\"/de/docs/Web/CSS/font-weight#interpolation\">Schriftgewichtung</a>",
-    "en-US": "a <a href=\"/en-US/docs/Web/CSS/font-weight#interpolation\" title=\"Font weight values are interpolated via discrete steps (multiples of 100). The interpolation happens in real number space and is converted to an integer by rounding to the nearest multiple of 100, with values halfway between multiples of 100 rounded towards positive infinity.\">font weight</a>",
-    "fr": "une <a href=\"/fr/docs/Web/CSS/font-weight#interpolation\" title=\"Les valeurs de graisse de police sont interpolées via des étapes discrètes (multiple de 100). L'interpolation a lieu dans un espace de nombres réels et est convertis en un entier arroundi au plus proche multiple de 100, avec les valeurs à mis chemin entre les multiples de 100, arrondies vers l'infini positif.\">graisse de police</a>",
-    "ja": "<a href=\"/ja/docs/Web/CSS/font-weight#interpolation\" title=\"フォントの太さは、離散的な段階 (100 の倍数) で補間されます。補間は実数空間で行われ、 100 の倍数に最も近い倍数に丸めて整数に変換され、 100 の倍数の中間の値は正の無限大に向けて丸められます。\">フォントの太さ</a>",
-    "ru": "<a href=\"/ru/docs/Web/CSS/font-weight#interpolation\" title=\"Значения жирности шрифта интерполируются через целое число дискретных шагов (умноженных на 100). Интерполяция происходит в пространстве действительных чисел, а получившееся значение преобразуется в целое путём округления до ближайшей сотни, со значениями точно между соседними множителями, округляемыми в сторону положительной бесконечности.\">жирность шрифта</a>"
-  },
   "forLengthAbsoluteValueOtherwisePercentage": {
-    "de": "for {{xref_csslength}} the absolute value, otherwise a percentage",
-    "en-US": "for {{xref_csslength}} the absolute value, otherwise a percentage",
-    "fr": "pour une valeur de type {{xref_csslength}} sa valeur absolue, sinon un pourcentage",
-    "ja": "{{xref_csslength}} の場合は絶対的な値、それ以外の場合はパーセント値",
-    "ru": "для {{xref_csslength}} абсолютное значение, иначе процент"
+    "de": "for {{cssxref(\"length\")}} the absolute value, otherwise a percentage",
+    "en-US": "for {{cssxref(\"length\")}} the absolute value, otherwise a percentage",
+    "fr": "pour une valeur de type {{cssxref(\"length\")}} sa valeur absolue, sinon un pourcentage",
+    "ja": "{{cssxref(\"length\")}} の場合は絶対的な値、それ以外の場合はパーセント値",
+    "ru": "для {{cssxref(\"length\")}} абсолютное значение, иначе процент",
+    "zh-CN": "对于 {{cssxref(\"length\")}} 则为绝对值，否则为百分比值"
   },
   "gridContainers": {
     "de": "Gridcontainer",
@@ -839,6 +908,7 @@
     "fr": "conteneurs de grille",
     "ja": "グリッドコンテナー",
     "ru": "сеточные контейнеры",
+    "zh-CN": "网格容器",
     "zh-TW": "格線容器"
   },
   "gridContainersWithMasonryLayout": {
@@ -866,6 +936,7 @@
   "iframeElements": {
     "en-US": "iframe elements",
     "ja": "iframe 要素",
+    "zh-CN": "iframe 元素",
     "zh-TW": "iframe 元素"
   },
   "images": {
@@ -874,6 +945,7 @@
     "fr": "images",
     "ja": "画像",
     "ru": "изображения",
+    "zh-CN": "图像",
     "zh-TW": "圖片"
   },
   "inFlowBlockLevelElements": {
@@ -891,14 +963,6 @@
     "ja": "フロー内のボックス要素の子",
     "ru": "потомки блочных элементов в потоке"
   },
-  "inlineAxisHorizontalInXUL": {
-    "de": "<code>inline-axis</code> (<code>horizontal</code> in <a href=\"/de/docs/Mozilla/Tech/XUL\">XUL</a>)",
-    "en-US": "<code>inline-axis</code> (<code>horizontal</code> in <a href=\"/en-US/docs/Mozilla/Tech/XUL\">XUL</a>)",
-    "fr": "<code>inline-axis</code> (<code>horizontal</code> en <a href=\"/fr/docs/Mozilla/Tech/XUL\">XUL</a>)",
-    "ja": "<code>inline-axis</code> (<a href=\"/ja/docs/Mozilla/Tech/XUL\">XUL</a> における <code>horizontal</code>)",
-    "ru": "<code>inline-axis</code> (<code>horizontal</code> в <a href=\"/ru/docs/Mozilla/Tech/XUL\">XUL</a>)",
-    "zh-TW": "<code>inline-axis</code> (<a href=\"/zh-TW/docs/Mozilla/Tech/XUL\">XUL</a> 中的 <code>horizontal</code>)"
-  },
   "inlineBoxesAndBlockContainers": {
     "en-US": "Inline boxes and block containers",
     "zh-TW": "行內方塊和區塊容器"
@@ -910,6 +974,12 @@
     "ja": "インラインレベルおよびテーブルセル要素",
     "ru": "строчным элементам и ячейкам таблиц",
     "zh-TW": "行內層和表格儲存格元素"
+  },
+  "inlineLevelBoxesAndSVGTextContentElements": {
+    "en-US": "inline-level boxes and SVG text content elements"
+  },
+  "inlineLevelBoxesFlexItemsGridItemsTableCellsAndSVGTextContentElements": {
+    "en-US": "inline-level boxes, flex items, grid items, table cells, and SVG text content elements"
   },
   "inlineSizeOfContainingBlock": {
     "de": "Inlinegröße des beinhaltenden Blocks",
@@ -932,13 +1002,6 @@
     "ja": "対話的",
     "ru": "интерактивный",
     "zh-TW": "可互動"
-  },
-  "autoForTranslucentColorRGBAOtherwiseRGB": {
-    "de": "Für das Schlüsselwort <code>auto</code> ist der berechnete Wert <code>currentcolor</code>. Für den Farbwert, falls der Wert durchscheinend ist, ist der berechnete Wert der entsprechende <code>rgba()</code> Wert. Falls nicht, ist er der entsprechende <code>rgb()</code> Wert. Das Schlüsselwort <code>transparent</code> wird zu <code>rgba(0,0,0,0)</code>.",
-    "en-US": "For the keyword <code>auto</code>, the computed value is <code>currentcolor</code>. For the color value, if the value is translucent, the computed value will be the <code>rgba()</code> corresponding one. If it isn't, it will be the <code>rgb()</code> corresponding one. The <code>transparent</code> keyword maps to <code>rgba(0,0,0,0)</code>.",
-    "fr": "Pour le mot-clé <code>auto</code>, la valeur calculée est <code>currentcolor</code>. Pour la valeur de la couleur, si la valeur est transparente, la valeur calculée sera la valeur <code>rgba()</code> correspondante. S'il n'y en a pas, ce sera la valeur <code>rgb()</code> correspondante. Le mot-clé <code>transparent</code> correspondra à <code>rgba(0,0,0,0)</code>.",
-    "ja": "キーワード <code>auto</code> の場合は、計算値も <code>currentcolor</code>。色の場合は、半透明であれば、計算値はそれに一致する <code>rbga()</code> で、不透明であれば、それに一致する <code>rgb()</code>。キーワード <code>transparent</code> は <code>rgba(0,0,0,0)</code> に対応付けられる。",
-    "ru": "Для ключевого слова <code>auto</code>, значение - <code>currentcolor</code>. Для значения цвета, если значение имеет прозрачность, соответственно, значение будет через <code>rgba()</code>. Если это не так, это будет <code>rgb()</code>. Ключевое слово <code>transparent</code> отображается, как <code>rgba(0,0,0,0)</code>."
   },
   "keywordOrNumericalValueBolderLighterTransformedToRealValue": {
     "de": "das Schlüsselwort oder der numerische Wert wie angegeben, wobei <code>bolder</code> und <code>lighter</code> in einen realen Wert umgewandelt werden",
@@ -980,11 +1043,56 @@
     "en-US": "The length or percentage before the keywords, if both are present. If several keywords are present, they appear in the same order as their appearance in the formal grammar.",
     "fr": "La longueur ou le pourcentage avant les mots-clés, si les deux sont présents. Si plusieurs mots-clés sont présents, ils apparaissent dans le même ordre que dans la grammaire formelle.",
     "ja": "両方がある場合は、キーワードの前に長さまたはパーセント値。複数のキーワードがある場合は、形式文法での出現順と同じ順序で現れる。",
-    "ru": "Длина или процент до ключевых слов, если присутствуют оба. Если присутствуют несколько ключевых слов, они появляются в том же порядке, как и в формальной грамматике.",
+    "ru": "Длина или процент до ключевых слов, если присутствуют оба. Если присутствуют несколько ключевых слов, они появляются в том же порядке, как и в формальной грамматике."
   },
   "lengthsAsPercentages": {
     "en-US": "The lengths may be specified as percentages",
     "zh-TW": "長度可以指定為百分比"
+  },
+  "limitedSVGElementsCircle": {
+    "en-US": "{{SVGElement(\"circle\")}} element in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsEllipse": {
+    "en-US": "{{SVGElement(\"ellipse\")}} and {{SVGElement(\"circle\")}} elements in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsEllipseRect": {
+    "en-US": "{{SVGElement(\"ellipse\")}} and {{SVGElement(\"rect\")}} elements in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsFilterPrimitives": {
+    "en-US": "The set of elements that control the output of a {{SVGElement(\"filter\")}} element in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsFloodAndDropShadow": {
+    "en-US": "{{SVGElement(\"feFlood\")}} and {{SVGElement(\"feDropShadow\")}} elements in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsGeometry": {
+    "en-US": "{{SVGElement(\"svg\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"image\")}}, and {{SVGElement(\"foreignObject\")}} elements in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsGraphics": {
+    "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"foreignObject\")}}, {{SVGElement(\"image\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsGraphicsAndUse": {
+    "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"foreignObject\")}}, {{SVGElement(\"image\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"use\")}}, {{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsLightSource": {
+    "en-US": "{{SVGElement(\"feDiffuseLighting\")}} and {{SVGElement(\"feSpecularLighting\")}} elements in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsPath": {
+    "en-US": "{{SVGElement(\"path\")}} element in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsShapes": {
+    "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, and {{SVGElement(\"rect\")}} elements in an <code>svg</code>"
+  },
+  "limitedSVGElementsShapesAndTextContent": {
+    "en-US": "{{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"path\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, {{SVGElement(\"rect\")}}, {{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in an <code>svg</code>"
+  },
+  "limitedSVGElementsShapeText": {
+    "en-US": "SVG shapes and text content elements"
+  },
+  "limitedSVGElementsStop": {
+    "en-US": "{{SVGElement(\"stop\")}} elements in {{SVGElement(\"svg\")}}"
+  },
+  "limitedSVGElementsTextContent": {
+    "en-US": "{{SVGElement(\"text\")}}, {{SVGElement(\"textPath\")}}, and {{SVGElement(\"tspan\")}} elements in {{SVGElement(\"svg\")}}"
   },
   "listEachItemConsistingOfAbsoluteLengthPercentageAndOrigin": {
     "de": "Eine Liste, bei der jeder Eintrag aus einem Versatz besteht, der durch eine Kombination aus absoluter Länge und einem Prozentsatz plus einem Ursprungsschlüsselwort definiert wird",
@@ -992,6 +1100,9 @@
     "fr": "Une liste dont chaque élément se compose d'un décalage (exprimé comme la combinaison d'une longueur absolue et d'un pourcentage) et d'un mot-clé pour l'origine",
     "ja": "絶対長とパーセント値の組み合わせで与えられるオフセットと原点のキーワードを、各項目として構成されるリスト。",
     "ru": "Список, каждый элемент которого состоит из: смещения, данного комбинацией абсолютной длины и процентов плюс ключевое слово"
+  },
+  "listEachItemConsistingOfAbsoluteLengthPercentageOrKeyword": {
+    "en-US": "A comma separated list of absolute lengths or percentages, numbers converted to absolute lengths first, or keyword specified"
   },
   "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage": {
     "en-US": "A list where each item may be 'normal', a length percentage, or a timeline range name and a length percentage",
@@ -1016,11 +1127,11 @@
     "zh-TW": "清單，每個項目應為區分大小寫的 CSS 識別符或關鍵字 <code>none</code>、<code>auto</code>"
   },
   "listEachItemTwoKeywordsOriginOffsets": {
-    "de": "a list, each item consisting of two keywords representing the origin undtwo offsets from that origin, each given as an absolute length (if given a {{xref_csslength}}), otherwise as a percentage",
-    "en-US": "a list, each item consisting of two keywords representing the origin and two offsets from that origin, each given as an absolute length (if given a {{xref_csslength}}), otherwise as a percentage",
-    "fr": "une liste dont chaque élément consiste en deux mots-clé représentant l'origine et deux offsets depuis cette origine, chacun étant une longueur absolue (si spécifié comme une {{xref_csslength}}), ou un pourcentage",
-    "ja": "それぞれの項目が原点を表す 2 つのキーワードおよびその原点からの 2 つのオフセット値であるリストであり、それぞれが絶対的な長さ ({{xref_csslength}} が与えられた場合) またはパーセント値で与えられる",
-    "ru": "список, каждый элемент которого состоит из двух ключевых слов, представляющих начало координат и два смещения от этого начала, каждое из которых задаётся абсолютной длиной (если дано {{xref_csslength}}), иначе как проценты"
+    "de": "a list, each item consisting of two keywords representing the origin undtwo offsets from that origin, each given as an absolute length (if given a {{cssxref(\"length\")}}), otherwise as a percentage",
+    "en-US": "a list, each item consisting of two keywords representing the origin and two offsets from that origin, each given as an absolute length (if given a {{cssxref(\"length\")}}), otherwise as a percentage",
+    "fr": "une liste dont chaque élément consiste en deux mots-clé représentant l'origine et deux offsets depuis cette origine, chacun étant une longueur absolue (si spécifié comme une {{cssxref(\"length\")}}), ou un pourcentage",
+    "ja": "それぞれの項目が原点を表す 2 つのキーワードおよびその原点からの 2 つのオフセット値であるリストであり、それぞれが絶対的な長さ ({{cssxref(\"length\")}} が与えられた場合) またはパーセント値で与えられる",
+    "ru": "список, каждый элемент которого состоит из двух ключевых слов, представляющих начало координат и два смещения от этого начала, каждое из которых задаётся абсолютной длиной (если дано {{cssxref(\"length\")}}), иначе как проценты"
   },
   "listItems": {
     "de": "Listenelemente",
@@ -1028,6 +1139,7 @@
     "fr": "éléments de liste",
     "ja": " リスト項目",
     "ru": "список элементов",
+    "zh-CN": "列表项",
     "zh-TW": "清單項目"
   },
   "listSeparator": {
@@ -1036,6 +1148,7 @@
     "fr": ", ",
     "ja": "、",
     "ru": ", ",
+    "zh-CN": "、",
     "zh-TW": "、"
   },
   "logicalHeightOfContainingBlock": {
@@ -1046,6 +1159,10 @@
     "ru": "логическая высота контейнера",
     "zh-TW": "包含方塊的邏輯高度"
   },
+  "logicalHeightOrWidthOfContainingBlock": {
+    "en-US": "relative to the containing block's size in the corresponding axis (e.g. width for left or right, height for top or bottom)",
+    "ru": "относительно размера содержащего блока на соответствующей оси (например, ширина слева или справа, высота сверху и снизу)"
+  },
   "logicalWidthOfContainingBlock": {
     "de": "logische Breite des beinhaltenden Blocks",
     "en-US": "logical-width of containing block",
@@ -1053,10 +1170,6 @@
     "ja": "包含ブロックの論理的な幅",
     "ru": "логическая высота содержащего блока",
     "zh-TW": "包含方塊的邏輯寬度"
-  },
-  "logicalHeightOrWidthOfContainingBlock": {
-    "en-US": "relative to the containing block’s size in the corresponding axis (e.g. width for left or right, height for top or bottom)",
-    "ru": "относительно размера содержащего блока на соответствующей оси (например, ширина слева или справа, высота сверху и снизу)"
   },
   "lpc": {
     "de": "$1$, <a href=\"/de/docs/Web/CSS/percentage#interpolation\">Prozentsatz</a> oder <a href=\"/de/docs/Web/CSS/calc\"><code>calc()</code></a>;",
@@ -1084,6 +1197,7 @@
     "fr": "les éléments {{SVGElement(\"mask\")}}",
     "ja": "{{SVGElement(\"mask\")}} 要素",
     "ru": "{{SVGElement(\"mask\")}} элементы",
+    "zh-CN": "{{SVGElement(\"mask\")}} 元素",
     "zh-TW": "{{SVGElement(\"mask\")}} 元素"
   },
   "maxZoomFactor": {
@@ -1228,6 +1342,7 @@
     "en-US": "either number or length",
     "ja": "数値または長さ",
     "ru": "число или длина",
+    "zh-CN": "数字或长度均可",
     "zh-TW": "數字或長度"
   },
   "oneOrTwoValuesLengthAbsoluteKeywordsPercentages": {
@@ -1259,6 +1374,9 @@
     "fr": "l'ordre d'apparition dans la grammaire formelle des valeurs",
     "ja": "形式文法における値の出現順",
     "ru": "порядок появления в формальной грамматике значений"
+  },
+  "percentage": {
+    "en-US": "percentage"
   },
   "percentageAsSpecifiedAbsoluteLengthOrNone": {
     "de": "der Prozentwert wie angegeben oder die absolute Länge oder <code>none</code>",
@@ -1329,6 +1447,9 @@
     "ja": "位置指定要素",
     "ru": "позиционированные элементы"
   },
+  "positionedElementsWithADefaultAnchorElement": {
+    "en-US": "Positioned elements with a <a href=\"https://drafts.csswg.org/css-anchor-position-1/#default-anchor-element\">default anchor element</a>"
+  },
   "rectangle": {
     "de": "<a href=\"/de/docs/Web/CSS/shape#interpolation\">Rechteck</a>",
     "en-US": "a <a href=\"/en-US/docs/Web/CSS/shape#interpolation\" title=\"Values of the <shape> CSS data type which are rectangles are interpolated over their top, right, bottom and left component, each treated as a real, floating-point number.\">rectangle</a>",
@@ -1338,7 +1459,7 @@
   },
   "referToBorderBox": {
     "de": "beziehen sich auf die Rahmenbox des Elements",
-    "en-US": "refer to the element’s border box",
+    "en-US": "refer to the element's border box",
     "fr": "fait référence à l'élément <code>border box</code>",
     "ja": "要素の境界ボックスに対する相対値",
     "ru": "относятся к границе элемента",
@@ -1475,6 +1596,21 @@
     "ja": "マスク描画領域の寸法からマスクレイヤー画像の寸法を引いたものに対する相対値 ({{cssxref(\"background-position\")}} のテキストを参照)",
     "ru": "относятся к размеру маски области рисования минус размер маски слоя изображения (смотрите статью о {{cssxref(\"background-position\")}})"
   },
+  "referToSVGViewportDiagonal": {
+    "en-US": "refer to the normalized diagonal measure of the current SVG viewport's applied {{SVGAttr(\"viewBox\")}}, or of the viewport itself if no <code>viewBox</code> is specified"
+  },
+  "referToSVGViewportHeight": {
+    "en-US": "refer to the height of the current SVG viewport"
+  },
+  "referToSVGViewportSize": {
+    "en-US": "refer to the normalized diagonal of the current SVG viewport"
+  },
+  "referToSVGViewportWidth": {
+    "en-US": "refer to the width of the current SVG viewport"
+  },
+  "referToTheUsedValueOfLineHeight": {
+    "en-US": "refer to the used value of {{cssxref(\"line-height\")}}"
+  },
   "referToTotalPathLength": {
     "de": "beziehen sich auf die Gesamtlänge des Pfads",
     "en-US": "refer to the total path length",
@@ -1542,8 +1678,7 @@
     "en-US": "The percentage is calculated with respect to the height of the generated box's containing block. If the height of the containing block is not specified explicitly (i.e., it depends on content height), and this element is not absolutely positioned, the percentage value is treated as <code>none</code>.",
     "fr": "Le pourcentage est par rapport à la hauteur de la boîte générée par le bloc contenant. Si la hauteur du bloc contenant n'est pas explicitement spécifiée (c'est-à-dire qu'elle dépend de la hauteur du contenu), et si cet élément n'est pas absolument positionné, la valeur du pourcentage est traitée comme si elle valait <code>none</code>.",
     "ja": "パーセント値は、生成ボックスの包含ブロックの高さを基準に計算されます。 包含ブロックの高さが明示的に定義されず (すなわち、コンテンツの高さに依存します)、この要素が絶対位置指定されていない場合は、パーセント値は <code>none</code> として扱われます。",
-    "ru": "Процент для генерируемого блока рассчитывается по отношению к высоте содержащего блока. Если высота содержащего блока не задана явно (т.е. зависит от высоты содержимого), и этот элемент позиционирован не абсолютно, процентное значение интерпретируется как <code>none</code>.",
-    "zh"
+    "ru": "Процент для генерируемого блока рассчитывается по отношению к высоте содержащего блока. Если высота содержащего блока не задана явно (т.е. зависит от высоты содержимого), и этот элемент позиционирован не абсолютно, процентное значение интерпретируется как <code>none</code>."
   },
   "regardingHeightOfGeneratedBoxContainingBlockPercentagesRelativeToContainingBlock": {
     "de": "Der Prozentwert wird unter Berücksichtigung der Höhe des die generierte Box beinhaltenden Blocks berechnet. Falls die Höhe des beinhaltenden Blocks nicht explizit angegeben wurde (d. h. sie hängt von der Höhe des Inhalts ab) und dieses Element nicht absolut positioniert ist, ist der berechnete Wert <code>auto</code>. Eine prozentuale Höhe beim Wurzelelement ist relativ zum ursprünglichen beinhaltenden Block.",
@@ -1608,11 +1743,12 @@
     "en-US": "replaced elements",
     "fr": "éléments remplacés",
     "ja": "置換要素",
-    "ru": "заменяемые элементы"
+    "ru": "заменяемые элементы",
+    "zh-CN": "替换元素"
   },
-  "rubyAnnotationsContainers": {
+  "rubyAnnotationContainers": {
     "de": "Ruby-Anmerkungscontainer",
-    "en-US": "ruby annotations containers",
+    "en-US": "ruby annotation containers",
     "fr": "annotations ruby des conteneurs",
     "ja": "ルビ注釈コンテナー",
     "ru": "контейнеры ruby-аннотаций",
@@ -1700,7 +1836,8 @@
     "en-US": "a simple list of ",
     "fr": "une simple liste de ",
     "ja": "単純なリスト: ",
-    "ru": "простой список из "
+    "ru": "простой список из ",
+    "zh-CN": "由以下类型组成的简单列表："
   },
   "simpleListOfLpc": {
     "en-US": "simple list of length, percentage, or calc",
@@ -1718,6 +1855,12 @@
     "ja": "指定された整数値または絶対的な長さ",
     "ru": "указанное целое число или абсолютная длина",
     "zh-TW": "指定的整數或絕對長度"
+  },
+  "specifiedKeywordOrComputedFunction": {
+    "en-US": "specified keyword, or computed function"
+  },
+  "specifiedValue": {
+    "en-US": "specified value"
   },
   "specifiedValueClipped0To1": {
     "de": "der angegebene Wert, auf den Bereich <code>[0,1]</code> abgeschnitten",
@@ -1747,6 +1890,7 @@
     "fr": "éléments qui sont des légendes de tableaux",
     "ja": "表のキャプション要素",
     "ru": "заголовки таблиц",
+    "zh-CN": "表格标题元素",
     "zh-TW": "表格標題元素"
   },
   "tableCellElements": {
@@ -1755,6 +1899,7 @@
     "fr": "éléments qui sont des cellules de tableau",
     "ja": "表のセル要素",
     "ru": "ячейки таблицы",
+    "zh-CN": "表格单元格元素",
     "zh-TW": "表格儲存格元素"
   },
   "tableElements": {
@@ -1763,11 +1908,16 @@
     "fr": "des éléments <code>table</code> and <code>inline-table</code>",
     "ja": "<code>table</code> および <code>inline-table</code> 要素",
     "ru": "<code>table</code> и <code>inline-table</code> элементы",
+    "zh-CN": "<code>table</code> 和 <code>inline-table</code> 元素",
     "zh-TW": "<code>table</code> 和 <code>inline-table</code> 元素"
   },
   "textAndBlockContainers": {
     "en-US": "text and block containers",
+    "zh-CN": "文本和区块容器",
     "zh-TW": "文字和區塊容器"
+  },
+  "textAndSVGShapes": {
+    "en-US": "text and SVG shapes"
   },
   "textElements": {
     "de": "Textelemente",
@@ -1775,6 +1925,7 @@
     "fr": "éléments textes",
     "ja": "テキスト要素",
     "ru": "текстовые элементы",
+    "zh-CN": "文本元素",
     "zh-TW": "文字元素"
   },
   "textFields": {
@@ -1783,6 +1934,7 @@
     "fr": "champs de texte",
     "ja": "テキストフィールド",
     "ru": "текстовые поля",
+    "zh-CN": "文本字段",
     "zh-TW": "文字欄位"
   },
   "theComputedLengthAndVisualBox": {
@@ -1792,6 +1944,12 @@
   "theKeywordListStyleImageNoneOrComputedValue": {
     "en-US": "The keyword <code>none</code> or the computed &lt;image&gt;",
     "zh-TW": "關鍵字 <code>none</code> 或計算後的 &lt;image&gt;"
+  },
+  "theSpecifiedKeyword": {
+    "en-US": "the specified keyword"
+  },
+  "theSpecifiedKeywordOrAComputedLengthPercentageValue": {
+    "en-US": "the specified keyword or a computed <length-percentage> value"
   },
   "transform": {
     "de": "Transformation",
@@ -1808,6 +1966,7 @@
     "ja": "座標変換可能要素",
     "pt-BR": "qualquer elemento transformavel",
     "ru": "трансформируемые элементы",
+    "zh-CN": "可变换元素",
     "zh-TW": "可變形元素"
   },
   "translucentValuesRGBAOtherwiseRGB": {
@@ -1816,16 +1975,6 @@
     "fr": "si la valeur est translucide, la valeur calculée est la fonction <code>rgba()</code>correspondante. Sinon, la fonction <code>rgb()</code>correspondante. Le mot-clé <code>transparent</code> devient <code>rgb(0,0,0)</code>.",
     "ja": "半透明の値なら、計算値はそれに対応する <code>rgba()</code>。さもなくばその値に対応する <code>rgb()</code>。<code>transparent</code> キーワードは <code>rgba(0,0,0,0)</code> にマップされる。",
     "ru": "Если значение полупрозрачно, значение будет соответствовать <code>rgba()</code>. А если не будет полупрозрачным, то будет использоваться <code>rgb()</code>. Ключевое слово <code>transparent</code> интерпретируется в <code>rgba(0,0,0,0)</code>."
-  },
-  "\"\"": {
-    "en-US": "\"\" (the empty string)",
-    "ja": "\"\" (空文字列)",
-    "zh-TW": "\"\"（空字串）"
-  },
-  "\". \"": {
-    "en-US": "\". \" (full stop followed by a space)",
-    "ja": "\". \" (ピリオドの後に空白)",
-    "zh-TW": "\". \"（句號後加空格）"
   },
   "twoAbsoluteLengthOrPercentages": {
     "de": "zwei absolute {{cssxref(\"length\")}} oder {{cssxref(\"percentage\")}}",
@@ -1841,6 +1990,7 @@
     "fr": "deux longueurs absolues",
     "ja": "２つの絶対的な長さ",
     "ru": "две абсолютные длины",
+    "zh-CN": "两个绝对长度",
     "zh-TW": "兩個絕對長度"
   },
   "uniqueOrder": {
@@ -1872,6 +2022,7 @@
     "fr": "visuel",
     "ja": "視覚",
     "ru": "визуальный",
+    "zh-CN": "视觉",
     "zh-TW": "視覺"
   },
   "visualInContinuousMediaNoEffectInOverflowColumns": {
@@ -1879,15 +2030,8 @@
     "en-US": "<code>visual</code>, but, in continuous media, has no effect in overflow columns",
     "fr": "<code>visual</code>, mais n'a pas d'effet sur le débordement des colonnes pour un média continu",
     "ja": "<code>visual</code>。ただし連続メディアではオーバーフローした列に効果なし",
-    "ru": "<code>visual</code>, но в сплошной среде, не имеет никакого эффекта при переполнении колонок"
-  },
-  "xulImageElements": {
-    "de": "XUL {{XULElem(\"image\")}} Elementen und {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}} und {{cssxref(\":-moz-tree-checkbox\")}} Pseudoelementen. <strong>Hinweis:</strong> <code>-moz-image-region</code> funktioniert nur mit {{XULElem(\"image\")}} Elementen, bei denen das Symbol durch {{cssxref(\"list-style-image\")}} angegeben wird. Es funktioniert nicht mit XUL <code>&lt;image src=\"url\" /&gt;</code>.",
-    "en-US": "XUL {{XULElem(\"image\")}} elements and {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}}, and {{cssxref(\":-moz-tree-checkbox\")}} pseudo-elements. <strong>Note:</strong> <code>-moz-image-region</code> only works with {{XULElem(\"image\")}} elements where the icon is specified using {{cssxref(\"list-style-image\")}}. It will not work with XUL <code>&lt;image src=\"url\" /&gt;</code>.",
-    "fr": "éléments XUL {{XULElem(\"image\")}} et aux pseudo-éléments {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}} et {{cssxref(\":-moz-tree-checkbox\")}}. <strong>Note&nbsp;:</strong> <code>-moz-image-region</code> ne fonctionnera qu'avec les éléments {{XULElem(\"image\")}} où l'icône est définie avec {{cssxref(\"list-style-image\")}}. Cela ne fonctionnera pas avec l'<code>&lt;image src=\"url\" /&gt;</code> XUL.",
-    "ja": "XUL の {{XULElem(\"image\")}} 要素と {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}}, {{cssxref(\":-moz-tree-checkbox\")}} の各擬似要素。 <strong>注:</strong> <code>-moz-image-region</code> はアイコンが {{cssxref(\"list-style-image\")}} を使用して指定された {{XULElem(\"image\")}} 要素でしか機能しません。 XUL の <code>&lt;image src=\"url\" /&gt;</code> では機能しません。",
-    "ru": "XUL {{XULElem(\"image\")}} элементы и {{cssxref(\":-moz-tree-image\")}}, {{cssxref(\":-moz-tree-twisty\")}} и {{cssxref(\":-moz-tree-checkbox\")}} псевдоэлементы. <strong>Заметьте:</strong> <code>-moz-image-region</code> работает только с элементами {{XULElem(\"image\")}}, где иконка определяется использованием {{cssxref(\"list-style-image\")}}. Это не будет работать с XUL <code>&lt;image src=\"url\" /&gt;</code>.",
-    "zh-TW": "XUL {{XULElem(\"image\")}} 元素和 {{cssxref(\":-moz-tree-image\")}}、{{cssxref(\":-moz-tree-twisty\")}} 和 {{cssxref(\":-moz-tree-checkbox\")}} 偽元素。 <strong>注意：</strong> <code>-moz-image-region</code> 只能在使用 {{cssxref(\"list-style-image\")}} 指定圖示的 {{XULElem(\"image\")}} 元素中使用。無法在 XUL <code>&lt;image src=\"url\" /&gt;</code> 中使用。"
+    "ru": "<code>visual</code>, но в сплошной среде, не имеет никакого эффекта при переполнении колонок",
+    "zh-CN": "<code>visual</code>，但在连续媒体中，对溢出的列没有影响"
   },
   "yes": {
     "de": "Ja",
@@ -1896,11 +2040,13 @@
     "ja": "あり",
     "pl": "tak",
     "ru": "да",
+    "zh-CN": "是",
     "zh-TW": "是"
   },
   "zoomForTheTopLevelNoneForTheRest": {
     "en-US": "zoom for the top level element, none for all other elements",
     "ja": "最上位要素では zoom、その他の要素では none",
+    "zh-CN": "顶层元素为 zoom，所有其他元素为 none",
     "zh-TW": "最上層元素為 zoom，所有其他元素為 none"
   }
 }

@@ -19,7 +19,8 @@
         "enum": [
           "standard",
           "nonstandard",
-          "experimental"
+          "experimental",
+          "obsolete"
         ]
       },
       "mdn_url": {

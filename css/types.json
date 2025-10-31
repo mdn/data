@@ -1,10 +1,4 @@
 {
-  "an-plus-b": {
-    "groups": [
-      "Selectors"
-    ],
-    "status": "standard"
-  },
   "angle": {
     "groups": [
       "CSS Types"
@@ -48,7 +42,6 @@
       "CSS Will Change",
       "CSS Counter Styles",
       "CSS Lists and Counters",
-      "CSS Animations",
       "CSS Types"
     ],
     "status": "standard",
@@ -56,7 +49,6 @@
   },
   "dashed-ident": {
     "groups": [
-      "CSS Animations",
       "CSS Types"
     ],
     "status": "standard",
@@ -69,12 +61,12 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/dimension"
   },
-  "display-outside": {
+  "display-box": {
     "groups": [
       "CSS Display"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-outside"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-box"
   },
   "display-inside": {
     "groups": [
@@ -83,26 +75,12 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-inside"
   },
-  "display-listitem": {
-    "groups": [
-      "CSS Display"
-    ],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-listitem"
-  },
   "display-internal": {
     "groups": [
       "CSS Display"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-internal"
-  },
-  "display-box": {
-    "groups": [
-      "CSS Display"
-    ],
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-box"
   },
   "display-legacy": {
     "groups": [
@@ -111,11 +89,23 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-legacy"
   },
+  "display-listitem": {
+    "groups": [
+      "CSS Display"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-listitem"
+  },
+  "display-outside": {
+    "groups": [
+      "CSS Display"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-outside"
+  },
   "easing-function": {
     "groups": [
-      "CSS Animations",
-      "CSS Transitions",
-      "CSS Types"
+      "CSS Easing Functions"
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/easing-function"
@@ -161,7 +151,8 @@
     "groups": [
       "CSS Types"
     ],
-    "status": "standard"
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ident"
   },
   "image": {
     "groups": [
@@ -245,7 +236,7 @@
     "groups": [
       "CSS Types"
     ],
-    "status": "standard",
+    "status": "obsolete",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape"
   },
   "string": {
@@ -254,6 +245,14 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/string"
+  },
+  "text-edge": {
+    "groups": [
+      "CSS Types",
+      "CSS Inline"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-edge"
   },
   "time": {
     "groups": [
@@ -282,6 +281,6 @@
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/url"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/url_value"
   }
 }

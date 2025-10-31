@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  id-token: write # OIDC for npm Trusted Publishing
   pull-requests: write
 
 jobs:
@@ -22,19 +23,27 @@ jobs:
 
     steps:
       - name: Release
-        uses: GoogleCloudPlatform/release-please-action@v4
+        uses: GoogleCloudPlatform/release-please-action@16a9c90856f42705d54a6fda1823352bdc62cf38 # v4.4.0
         id: release
 
       - name: Setup
         if: ${{ github.event.inputs.force-npm-publish || steps.release.outputs.release_created }}
-        uses: actions/checkout@v4
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          persist-credentials: false
 
       - name: Checkout
         if: ${{ github.event.inputs.force-npm-publish || steps.release.outputs.release_created }}
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # v6.0.0
         with:
           registry-url: "https://registry.npmjs.org/"
           node-version-file: ".nvmrc"
+          package-manager-cache: false
+
+      # Ensure npm 11.5.1 or later for trusted publishing
+      - name: Install latest npm
+        if: ${{ github.event.inputs.force-npm-publish || steps.release.outputs.release_created }}
+        run: npm install -g npm@latest
 
       - name: Install
         if: ${{ github.event.inputs.force-npm-publish || steps.release.outputs.release_created }}
@@ -42,6 +51,4 @@ jobs:
 
       - name: Publish
         if: ${{ github.event.inputs.force-npm-publish || steps.release.outputs.release_created }}
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm publish --access public --provenance
