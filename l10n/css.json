@@ -209,7 +209,7 @@
     "ja": "非置換インライン要素、テーブルの列、列グループを除くすべての要素",
     "ru": "все элементы, кроме незаменяемых строчных элементов, табличных колонок и групп колонок",
     "zh-CN": "适用于所有元素，但不包括非替换行级元素、表格列和列组",
-    "zh-TW": "所有元素，除了非置換的行內元素、表格行和行群組"
+    "zh-TW": "所有元素，除了非替換的行內元素、表格行和行群組"
   },
   "allElementsButNonReplacedAndTableRows": {
     "de": "alle Elemente außer nicht ersetzte Inlineelemente, Tabellenzeilen und Zeilengruppen",
@@ -217,7 +217,7 @@
     "fr": "tous les éléments sauf les éléments en ligne non remplacés, les lignes de tableaux et les groupes de lignes",
     "ja": "置換要素でないインライン要素、テーブルの行、行グループを除くすべての要素",
     "ru": "все элементы, кроме незаменяемых строчных элементов, табличных строк и групп строк",
-    "zh-TW": "所有元素，除了非置換的行內元素、表格列和列群組"
+    "zh-TW": "所有元素，除了非替換的行內元素、表格列和列群組"
   },
   "allElementsCreatingNativeWindows": {
     "de": "alle Elemente, die native Fenster erstellen, z. B. &lt;window&gt;, &lt;panel&gt;",
@@ -257,7 +257,7 @@
     "fr": "tous les éléments sauf : les éléments en ligne non remplacés, les lignes, les groupes de lignes, les colonnes et les groupes de colonnes pour les tableaux",
     "ja": "非置換インライン要素、表の行、行グループ、表の列、列グループを除くすべての要素",
     "ru": "все элементы, кроме: незаменяемых строчных элементов, строк и колонок таблиц",
-    "zh-TW": "所有元素，除了非置換的行內元素、表格行、行群組、表格列和列群組"
+    "zh-TW": "所有元素，除了非替換的行內元素、表格列、列群組、表格欄和欄群組"
   },
   "allElementsExceptTableDisplayTypes": {
     "de": "alle Elemente außer Elemente mit Tabellen-{{cssxref(\"display\")}}-Typen, die nicht <code>table-caption</code>, <code>table</code> und <code>inline-table</code> entsprechen",
@@ -289,7 +289,7 @@
     "fr": "tous les éléments exceptés les groupes de lignes, les lignes, les groupes de colonnes et les colonnes de tableaux",
     "ja": "表の行グループ、列グループ、行、列を除くすべての要素",
     "ru": "все элементы, кроме групп табличных строк, столбцов, групп столбцов и столбцов",
-    "zh-TW": "所有元素，除了表格行群組、行、表格列群組和列"
+    "zh-TW": "所有元素，除了表格列群組、列、表格欄群組和欄"
   },
   "allElementsNoEffectIfDisplayNone": {
     "de": "alle Elemente, hat jedoch keinen Effekt, falls der Wert von {{cssxref(\"display\")}} <code>none</code> ist",
@@ -752,7 +752,7 @@
     "fr": "dépend du modèle en couches",
     "ja": "レイアウトモデルに依存",
     "ru": "зависит от модели макета",
-    "zh-TW": "取決於配置模型"
+    "zh-TW": "取決於布置模型"
   },
   "dependsOnUserAgent": {
     "de": "hängt vom User Agent ab",
@@ -1686,7 +1686,7 @@
     "fr": "Le pourcentage est exprimé par rapport à la hauteur de la boîte générée par le bloc contenant. Si la hauteur du bloc contenant n'est pas explicitement spécifiée (c'est-à-dire qu'elle dépend de la hauteur du contenu), et si cet élément n'est pas absolument positionné, la valeur du pourcentage est traitée comme <code>auto</code> et la hauteur du pourcentage sur l'élément racine est relative au bloc contenant initial.",
     "ja": "パーセント値は、生成ボックスの包含ブロックの高さを基準に計算されます。 包含ブロックの高さが明示的に定義されず (すなわち、コンテンツの高さに依存します)、この要素が絶対位置指定されていない場合は、値は <code>auto</code> になります。ルート要素で高さをパーセント値で指定すると、初期包含ブロックに対する相対値になります。",
     "ru": "Процент для генерируемого блока рассчитывается по отношению к высоте содержащего блока. Если высота содержащего блока не задана явно (т.е. зависит от высоты содержимого), и этот этот элемент позиционирован не абсолютно, значение будет <code>auto</code>. Процентная высота на корневом элементе относительна первоначальному блоку.",
-    "zh-TW": "百分比根據產生方塊的包含區塊的高度計算。如果包含區塊的高度沒有明確指定（即取決於內容高度），且此元素未絕對定位，則計算值為 <code>auto</code>。根元素的百分比高度相對於初始包含區塊。"
+    "zh-TW": "百分比根據產生方塊所包含區塊的高度計算。如果包含區塊的高度沒有明確指定（即取決於內容高度），且此元素非絕對定位，則計算值為 <code>auto</code>。根元素的百分比高度相對於初始包含區塊。"
   },
   "relatedAtRule": {
     "de": "Zugehörige <a href=\"/de/docs/Web/CSS/At-Regel\">@-Regel</a>",
