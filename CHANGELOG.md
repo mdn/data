@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.25.0](https://github.com/mdn/data/compare/v2.24.0...v2.25.0) (2025-10-31)
+
+
+### Features
+
+* **css:** Update `attr()` syntax to CSS Values Level 5 ([#1015](https://github.com/mdn/data/issues/1015)) ([d105f7e](https://github.com/mdn/data/commit/d105f7e74d966586f96607907916a13088a832bb))
+* **css:** Update syntax for `cursor` ([#1009](https://github.com/mdn/data/issues/1009)) ([1e013f3](https://github.com/mdn/data/commit/1e013f36a948731a11c2fcee1d08961365f95d77))
+* **css:** Update syntax for `cursor` property ([1e013f3](https://github.com/mdn/data/commit/1e013f36a948731a11c2fcee1d08961365f95d77))
+
+
+### Miscellaneous
+
+* **CODEOWNERS:** add Engineering for workflows and CODEOWNERS ([#1014](https://github.com/mdn/data/issues/1014)) ([25fbde6](https://github.com/mdn/data/commit/25fbde6f5c7b347d7fab80ab17d603454327c99e))
+* **css:** Update group field for css selectors ([#965](https://github.com/mdn/data/issues/965)) ([632fd10](https://github.com/mdn/data/commit/632fd10ca9723c54a8bed0851be726ff62d62016))
+* **npm:** migrate to Trusted Publishing ([#1021](https://github.com/mdn/data/issues/1021)) ([e78c3bf](https://github.com/mdn/data/commit/e78c3bf82c846ad3d535869dd515136cda2a4470))
+
 ## [2.24.0](https://github.com/mdn/data/compare/v2.23.0...v2.24.0) (2025-08-13)
 
 
