@@ -431,7 +431,7 @@
         "status": "standard"
       },
       "page-orientation": {
-        "syntax": "upright | rotate-left | rotate-right ",
+        "syntax": "upright | rotate-left | rotate-right",
         "media": [
           "visual",
           "paged"

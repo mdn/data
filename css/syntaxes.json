@@ -234,7 +234,7 @@
     "syntax": "space-between | space-around | space-evenly | stretch"
   },
   "content-list": {
-    "syntax": "[ <string> | <image | <attr()> | <quote> | <counter> ]+ "
+    "syntax": "[ <string> | <image | <attr()> | <quote> | <counter> ]+"
   },
   "content-position": {
     "syntax": "center | start | end | flex-start | flex-end"
@@ -891,7 +891,7 @@
     "syntax": "( <scroll-state-query> ) | ( <scroll-state-feature> ) | <general-enclosed>"
   },
   "scroll-state-query": {
-    "syntax": "not <scroll-state-in-parens> | <scroll-state-in-parens> [ [ and <scroll-state-in-parens> ]* | [ or <scroll-state-in-parens> ]* ] | <scroll-state-feature>  "
+    "syntax": "not <scroll-state-in-parens> | <scroll-state-in-parens> [ [ and <scroll-state-in-parens> ]* | [ or <scroll-state-in-parens> ]* ] | <scroll-state-feature>"
   },
   "selector-list": {
     "syntax": "<complex-selector-list>"
@@ -990,7 +990,7 @@
     "syntax": "( <style-query> ) | ( <style-feature> ) | <general-enclosed>"
   },
   "style-query": {
-    "syntax": "not <style-in-parens> | <style-in-parens> [ [ and <style-in-parens> ]* | [ or <style-in-parens> ]* ] | <style-feature> "
+    "syntax": "not <style-in-parens> | <style-in-parens> [ [ and <style-in-parens> ]* | [ or <style-in-parens> ]* ] | <style-feature>"
   },
   "subclass-selector": {
     "syntax": "<id-selector> | <class-selector> | <attribute-selector> | <pseudo-class-selector>"
