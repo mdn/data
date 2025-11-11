@@ -234,7 +234,7 @@
     "syntax": "space-between | space-around | space-evenly | stretch"
   },
   "content-list": {
-    "syntax": "[ <string> | <image | <attr()> | <quote> | <counter> ]+"
+    "syntax": "[ <string> | <image> | <attr()> | <quote> | <counter> ]+"
   },
   "content-position": {
     "syntax": "center | start | end | flex-start | flex-end"
