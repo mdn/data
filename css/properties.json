@@ -2913,7 +2913,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-image"
   },
   "border-image-outset": {
-    "syntax": "[ <length [0,∞]> | <number [0,∞]> ]{1,4}  ",
+    "syntax": "[ <length [0,∞]> | <number [0,∞]> ]{1,4}",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
