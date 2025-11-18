@@ -750,7 +750,7 @@
     "syntax": "pow( <calc-sum>, <calc-sum> )"
   },
   "predefined-rgb": {
-    "syntax": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020"
+    "syntax": "srgb | srgb-linear | display-p3 | display-p3-linear | a98-rgb | prophoto-rgb | rec2020"
   },
   "predefined-rgb-params": {
     "syntax": "<predefined-rgb> [ <number> | <percentage> | none ]{3}"
@@ -798,7 +798,7 @@
     "syntax": "rect( [ <length-percentage> | auto ]{4} [ round <'border-radius'> ]? )"
   },
   "rectangular-color-space": {
-    "syntax": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020 | lab | oklab | xyz | xyz-d50 | xyz-d65"
+    "syntax": "srgb | srgb-linear | display-p3 | display-p3-linear | a98-rgb | prophoto-rgb | rec2020 | lab | oklab | xyz | xyz-d50 | xyz-d65"
   },
   "relative-selector": {
     "syntax": "<combinator>? <complex-selector>"
