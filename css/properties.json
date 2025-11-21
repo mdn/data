@@ -10786,7 +10786,7 @@
     "syntax": "visible | hidden | collapse",
     "media": "visual",
     "inherited": true,
-    "animationType": "visibility",
+    "animationType": "discrete",
     "percentages": "no",
     "groups": [
       "CSS Display",
