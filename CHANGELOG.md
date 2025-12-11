@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.25.1](https://github.com/mdn/data/compare/v2.25.0...v2.25.1) (2025-12-11)
+
+
+### Bug Fixes
+
+* **css/properties:** visibility has discrete animation type ([#1026](https://github.com/mdn/data/issues/1026)) ([1e102cb](https://github.com/mdn/data/commit/1e102cb2935329a840adacdbdd76fe188ce2188c))
+* remove unnecessary whitespace in 'syntax' members ([#1023](https://github.com/mdn/data/issues/1023)) ([acf8de2](https://github.com/mdn/data/commit/acf8de2db3364eddd323db593cd394e9bb662c54))
+
+
+### Miscellaneous
+
+* **deps:** bump node from v22 to v24 ([#1031](https://github.com/mdn/data/issues/1031)) ([d05bb58](https://github.com/mdn/data/commit/d05bb58034f8ba84458f7fda03862d84cd287125))
+* **l10n:** update zh-TW translation ([#719](https://github.com/mdn/data/issues/719)) ([f1e5757](https://github.com/mdn/data/commit/f1e57573a4a237bffd415fbc40edd322ef5d0c38))
+
 ## [2.25.0](https://github.com/mdn/data/compare/v2.24.0...v2.25.0) (2025-10-31)
 
 
