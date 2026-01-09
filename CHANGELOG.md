@@ -1,5 +1,26 @@
 # Changelog
 
+## [2.26.0](https://github.com/mdn/data/compare/v2.25.0...v2.26.0) (2026-01-09)
+
+
+### Features
+
+* **css:** Update position-anchor data to include none ([858754e](https://github.com/mdn/data/commit/858754ee2001867beb331d1d643238fd61436777))
+
+
+### Bug Fixes
+
+* **css/properties:** visibility has discrete animation type ([#1026](https://github.com/mdn/data/issues/1026)) ([1e102cb](https://github.com/mdn/data/commit/1e102cb2935329a840adacdbdd76fe188ce2188c))
+* remove unnecessary whitespace in 'syntax' members ([#1023](https://github.com/mdn/data/issues/1023)) ([acf8de2](https://github.com/mdn/data/commit/acf8de2db3364eddd323db593cd394e9bb662c54))
+
+
+### Miscellaneous
+
+* **deps-dev:** bump ajv from 6.12.6 to 7.2.4 ([#1028](https://github.com/mdn/data/issues/1028)) ([9338b1f](https://github.com/mdn/data/commit/9338b1f1f6ca88c730894fd504774aa436ea7e7a))
+* **deps-dev:** bump better-ajv-errors from 2.0.2 to 2.0.3 ([#1033](https://github.com/mdn/data/issues/1033)) ([8def48a](https://github.com/mdn/data/commit/8def48a19ca759b1f737ae3aa514fd398a400ce9))
+* **deps:** bump node from v22 to v24 ([#1031](https://github.com/mdn/data/issues/1031)) ([d05bb58](https://github.com/mdn/data/commit/d05bb58034f8ba84458f7fda03862d84cd287125))
+* **l10n:** update zh-TW translation ([#719](https://github.com/mdn/data/issues/719)) ([f1e5757](https://github.com/mdn/data/commit/f1e57573a4a237bffd415fbc40edd322ef5d0c38))
+
 ## [2.25.0](https://github.com/mdn/data/compare/v2.24.0...v2.25.0) (2025-10-31)
 
 
