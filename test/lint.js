@@ -1,13 +1,13 @@
 var fs = require('fs');
 var path = require('path');
-var Ajv = require('ajv');
+var Ajv = require('ajv').default;
 var betterAjvErrors = require('better-ajv-errors').default;
 var dictPaths = ['api', 'css', 'l10n'];
 var hasErrors = false;
 var ajv = new Ajv({
   $data: true,
   allErrors: true,
-  jsonPointers: true
+  strict: false
 });
 
 ajv.addKeyword('property-reference', {
