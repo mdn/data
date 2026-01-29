@@ -560,6 +560,9 @@
     "ja": "絶対位置指定要素に対しては <code>auto</code> は自分自身に対して計算し、それ以外のすべてのボックスに対しては親の {{cssxref(\"align-items\")}} の計算値 (から古いキーワードを引いた値) に計算し、親が無ければ <code>start</code> になる。この動作は {{cssxref(\"justify-self\")}} で説明したとおり、レイアウトモデルの依存する。それ以外の場合は指定された値となる。",
     "ru": "при <code>auto</code> абсолютно позиционированные элементы вычисляют сами и вычисленное значение {{cssxref(\"align-items\")}} для родителя (кроме ключевых слов) на остальных блоках, или <code>start</code>, если у блока нет родителя. Его поведение зависит от модели макета, описываемой {{cssxref(\"justify-self\")}}. Иначе указанное значение."
   },
+  "autoOrAbsoluteLength": {
+    "en-US": "<code>auto</code> if specified as <code>auto</code>, otherwise for {{cssxref(\"length\")}} the absolute value specified"
+  },
   "autoOrRectangle": {
     "de": "<code>auto</code>, falls als <code>auto</code> angegeben, ansonsten ein Rechteck mit vier Werten, von denen jeder <code>auto</code> ist, falls als <code>auto</code> angegeben, ansonsten die berechnete Länge",
     "en-US": "<code>auto</code> if specified as <code>auto</code>, otherwise a rectangle with four values, each of which is <code>auto</code> if specified as <code>auto</code> or the computed length otherwise",
