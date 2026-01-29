@@ -4580,6 +4580,416 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/content-visibility"
   },
+  "corner-block-end-shape": {
+    "syntax": "<corner-shape-value>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "corner-end-start-shape",
+      "corner-end-end-shape"
+    ],
+    "percentages": "no",
+    "groups": [
+      "CSS Backgrounds and Borders"
+    ],
+    "initial": [
+      "corner-end-start-shape",
+      "corner-end-end-shape"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "corner-end-start-shape",
+      "corner-end-end-shape"
+    ],
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-block-end-shape"
+  },
+  "corner-block-start-shape": {
+    "syntax": "<corner-shape-value>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "corner-start-start-shape",
+      "corner-start-end-shape"
+    ],
+    "percentages": "no",
+    "groups": [
+      "CSS Backgrounds and Borders"
+    ],
+    "initial": [
+      "corner-start-start-shape",
+      "corner-start-end-shape"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "corner-start-start-shape",
+      "corner-start-end-shape"
+    ],
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-block-start-shape"
+  },
+  "corner-bottom-shape": {
+    "syntax": "<corner-shape-value>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "corner-bottom-left-shape",
+      "corner-bottom-right-shape"
+    ],
+    "percentages": "no",
+    "groups": [
+      "CSS Backgrounds and Borders"
+    ],
+    "initial": [
+      "corner-bottom-left-shape",
+      "corner-bottom-right-shape"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "corner-bottom-left-shape",
+      "corner-bottom-right-shape"
+    ],
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-bottom-shape"
+  },
+  "corner-bottom-left-shape": {
+    "syntax": "<corner-shape-value>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "superellipseInterpolation",
+    "percentages": "no",
+    "groups": [
+      "CSS Backgrounds and Borders"
+    ],
+    "initial": "round",
+    "appliesto": "allElements",
+    "computed": "correspondingSuperellipse",
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-bottom-left-shape"
+  },
+  "corner-bottom-right-shape": {
+    "syntax": "<corner-shape-value>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "superellipseInterpolation",
+    "percentages": "no",
+    "groups": [
+      "CSS Backgrounds and Borders"
+    ],
+    "initial": "round",
+    "appliesto": "allElements",
+    "computed": "correspondingSuperellipse",
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-bottom-right-shape"
+  },
+  "corner-end-end-shape": {
+    "syntax": "<corner-shape-value>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "superellipseInterpolation",
+    "percentages": "no",
+    "groups": [
+      "CSS Backgrounds and Borders"
+    ],
+    "initial": "round",
+    "appliesto": "allElements",
+    "computed": "correspondingSuperellipse",
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-end-end-shape"
+  },
+  "corner-end-start-shape": {
+    "syntax": "<corner-shape-value>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "superellipseInterpolation",
+    "percentages": "no",
+    "groups": [
+      "CSS Backgrounds and Borders"
+    ],
+    "initial": "round",
+    "appliesto": "allElements",
+    "computed": "correspondingSuperellipse",
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-end-start-shape"
+  },
+  "corner-inline-end-shape": {
+    "syntax": "<corner-shape-value>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "corner-start-end-shape",
+      "corner-end-end-shape"
+    ],
+    "percentages": "no",
+    "groups": [
+      "CSS Backgrounds and Borders"
+    ],
+    "initial": [
+      "corner-start-end-shape",
+      "corner-end-end-shape"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "corner-start-end-shape",
+      "corner-end-end-shape"
+    ],
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-inline-end-shape"
+  },
+  "corner-inline-start-shape": {
+    "syntax": "<corner-shape-value>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "corner-start-start-shape",
+      "corner-start-end-shape"
+    ],
+    "percentages": "no",
+    "groups": [
+      "CSS Backgrounds and Borders"
+    ],
+    "initial": [
+      "corner-start-start-shape",
+      "corner-start-end-shape"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "corner-start-start-shape",
+      "corner-start-end-shape"
+    ],
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-inline-start-shape"
+  },
+  "corner-left-shape": {
+    "syntax": "<corner-shape-value>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "corner-top-left-shape",
+      "corner-bottom-left-shape"
+    ],
+    "percentages": "no",
+    "groups": [
+      "CSS Backgrounds and Borders"
+    ],
+    "initial": [
+      "corner-top-left-shape",
+      "corner-bottom-left-shape"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "corner-top-left-shape",
+      "corner-bottom-left-shape"
+    ],
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-left-shape"
+  },
+  "corner-right-shape": {
+    "syntax": "<corner-shape-value>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "corner-top-right-shape",
+      "corner-bottom-right-shape"
+    ],
+    "percentages": "no",
+    "groups": [
+      "CSS Backgrounds and Borders"
+    ],
+    "initial": [
+      "corner-top-right-shape",
+      "corner-bottom-right-shape"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "corner-top-right-shape",
+      "corner-bottom-right-shape"
+    ],
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-right-shape"
+  },
+  "corner-shape": {
+    "syntax": "<corner-shape-value>{1,4}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "corner-top-left-shape",
+      "corner-top-right-shape",
+      "corner-bottom-left-shape",
+      "corner-bottom-right-shape"
+    ],
+    "percentages": "no",
+    "groups": [
+      "CSS Backgrounds and Borders"
+    ],
+    "initial": [
+      "corner-top-left-shape",
+      "corner-top-right-shape",
+      "corner-bottom-left-shape",
+      "corner-bottom-right-shape"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "corner-top-left-shape",
+      "corner-top-right-shape",
+      "corner-bottom-left-shape",
+      "corner-bottom-right-shape"
+    ],
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-shape"
+  },
+  "corner-start-start-shape": {
+    "syntax": "<corner-shape-value>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "superellipseInterpolation",
+    "percentages": "no",
+    "groups": [
+      "CSS Backgrounds and Borders"
+    ],
+    "initial": "round",
+    "appliesto": "allElements",
+    "computed": "correspondingSuperellipse",
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-start-start-shape"
+  },
+  "corner-start-end-shape": {
+    "syntax": "<corner-shape-value>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "superellipseInterpolation",
+    "percentages": "no",
+    "groups": [
+      "CSS Backgrounds and Borders"
+    ],
+    "initial": "round",
+    "appliesto": "allElements",
+    "computed": "correspondingSuperellipse",
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-start-end-shape"
+  },
+  "corner-top-shape": {
+    "syntax": "<corner-shape-value>{1,2}",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "corner-top-left-shape",
+      "corner-top-right-shape"
+    ],
+    "percentages": "no",
+    "groups": [
+      "CSS Backgrounds and Borders"
+    ],
+    "initial": [
+      "corner-top-left-shape",
+      "corner-top-right-shape"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "corner-top-left-shape",
+      "corner-top-right-shape"
+    ],
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-top-shape"
+  },
+  "corner-top-left-shape": {
+    "syntax": "<corner-shape-value>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "superellipseInterpolation",
+    "percentages": "no",
+    "groups": [
+      "CSS Backgrounds and Borders"
+    ],
+    "initial": "round",
+    "appliesto": "allElements",
+    "computed": "correspondingSuperellipse",
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-top-left-shape"
+  },
+  "corner-top-right-shape": {
+    "syntax": "<corner-shape-value>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "superellipseInterpolation",
+    "percentages": "no",
+    "groups": [
+      "CSS Backgrounds and Borders"
+    ],
+    "initial": "round",
+    "appliesto": "allElements",
+    "computed": "correspondingSuperellipse",
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/corner-top-right-shape"
+  },
   "counter-increment": {
     "syntax": "[ <counter-name> <integer>? ]+ | none",
     "media": "all",
