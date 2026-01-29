@@ -561,7 +561,7 @@
     "ru": "при <code>auto</code> абсолютно позиционированные элементы вычисляют сами и вычисленное значение {{cssxref(\"align-items\")}} для родителя (кроме ключевых слов) на остальных блоках, или <code>start</code>, если у блока нет родителя. Его поведение зависит от модели макета, описываемой {{cssxref(\"justify-self\")}}. Иначе указанное значение."
   },
   "autoOrAbsoluteLength": {
-    "en-US": "<code>auto</code> if specified as <code>auto</code>, otherwise for {{cssxref(\"length\")}} the absolute value specified" 
+    "en-US": "<code>auto</code> if specified as <code>auto</code>, otherwise for {{cssxref(\"length\")}} the absolute value specified"
   },
   "autoOrRectangle": {
     "de": "<code>auto</code>, falls als <code>auto</code> angegeben, ansonsten ein Rechteck mit vier Werten, von denen jeder <code>auto</code> ist, falls als <code>auto</code> angegeben, ansonsten die berechnete Länge",
