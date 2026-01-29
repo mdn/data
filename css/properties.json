@@ -3957,11 +3957,12 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/caption-side"
   },
   "caret": {
-    "syntax": "<'caret-color'> || <'caret-shape'>",
+    "syntax": "<'caret-color'> || <'caret-animation'> || <'caret-shape'>",
     "media": "interactive",
     "inherited": true,
     "animationType": [
       "caret-color",
+      "caret-animation",
       "caret-shape"
     ],
     "percentages": "no",
@@ -3970,15 +3971,33 @@
     ],
     "initial": [
       "caret-color",
+      "caret-animation",
       "caret-shape"
     ],
-    "appliesto": "elementsThatAcceptInput",
+    "appliesto": "textOrElementsThatAcceptInput",
     "computed": [
       "caret-color",
+      "caret-animation",
       "caret-shape"
     ],
     "order": "perGrammar",
     "status": "standard"
+  },
+  "caret-animation": {
+    "syntax": "auto | manual",
+    "media": "interactive",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Basic User Interface"
+    ],
+    "initial": "auto",
+    "appliesto": "textOrElementsThatAcceptInput",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/caret-animation"
   },
   "caret-color": {
     "syntax": "auto | <color>",
@@ -3990,7 +4009,7 @@
       "CSS Basic User Interface"
     ],
     "initial": "auto",
-    "appliesto": "allElements",
+    "appliesto": "textOrElementsThatAcceptInput",
     "computed": "asAutoOrColor",
     "order": "perGrammar",
     "status": "standard",
@@ -4006,7 +4025,7 @@
       "CSS Basic User Interface"
     ],
     "initial": "auto",
-    "appliesto": "elementsThatAcceptInput",
+    "appliesto": "textOrElementsThatAcceptInput",
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "standard"
