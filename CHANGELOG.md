@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.27.0](https://github.com/mdn/data/compare/v2.26.0...v2.27.0) (2026-01-29)
+
+
+### Features
+
+* **css:** add caret-animation ([#1039](https://github.com/mdn/data/issues/1039)) ([ef18b7f](https://github.com/mdn/data/commit/ef18b7f76f25d42514d598aeaae0d35fb446fa66))
+* **css:** add column-height + column-wrap ([#1038](https://github.com/mdn/data/issues/1038)) ([95d0b81](https://github.com/mdn/data/commit/95d0b8102d13591ebc875891af41b5ea9325cc0f))
+* **css:** add corner-shape ([#1040](https://github.com/mdn/data/issues/1040)) ([103dcdc](https://github.com/mdn/data/commit/103dcdc6e8d6a85dc5282bf57d949edfde314b2c))
+* **css:** add remaining missing formal definitions ([#1041](https://github.com/mdn/data/issues/1041)) ([b59751e](https://github.com/mdn/data/commit/b59751eeecc7eaee14ea27d62f70aa6540247922))
+* **css:** add scroll-marker-group + scroll-target-group ([#1036](https://github.com/mdn/data/issues/1036)) ([9818bbf](https://github.com/mdn/data/commit/9818bbf8dbdf6b670f90fb032e80330314ada057))
+
 ## [2.26.0](https://github.com/mdn/data/compare/v2.25.0...v2.26.0) (2026-01-09)
 
 
