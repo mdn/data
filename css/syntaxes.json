@@ -251,6 +251,9 @@
   "coord-box": {
     "syntax": "<paint-box> | view-box"
   },
+  "corner-shape-value": {
+    "syntax": "round | scoop | bevel | notch | square | squircle | <superellipse()>"
+  },
   "cos()": {
     "syntax": "cos( <calc-sum> )"
   },
@@ -994,6 +997,9 @@
   },
   "subclass-selector": {
     "syntax": "<id-selector> | <class-selector> | <attribute-selector> | <pseudo-class-selector>"
+  },
+  "superellipse()": {
+    "syntax": "superellipse(<number> | infinity | -infinity)"
   },
   "supports-condition": {
     "syntax": "not <supports-in-parens> | <supports-in-parens> [ and <supports-in-parens> ]* | <supports-in-parens> [ or <supports-in-parens> ]*"

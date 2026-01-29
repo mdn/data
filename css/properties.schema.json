@@ -39,6 +39,7 @@
         "shadowList",
         "simpleListOfLpc",
         "simpleListOfLpcDifferenceLpc",
+        "superellipseInterpolation",
         "transform",
         "visibility"
       ]
@@ -142,6 +143,7 @@
         "computedColor",
         "consistsOfTwoDimensionKeywords",
         "consistsOfTwoKeywordsForOriginAndOffsets",
+        "correspondingSuperellipse",
         "forLengthAbsoluteValueOtherwisePercentage",
         "autoForTranslucentColorRGBAOtherwiseRGB",
         "keywordOrNumericalValueBolderLighterTransformedToRealValue",

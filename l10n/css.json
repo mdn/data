@@ -738,6 +738,9 @@
   "convertedToNumber": {
     "en-US": "Converted to {{cssxref(\"&lt;number&gt;\")}}"
   },
+  "correspondingSuperellipse": {
+    "en-US": "The corresponding <a href=\"/en-US/docs/Web/CSS/Reference/Values/superellipse\">superellipse()</a> value." 
+  },
   "createsStackingContext": {
     "de": "Erstellt <a href=\"/de/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context\">Stapelkontext</a>",
     "en-US": "Creates <a href=\"/en-US/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context\">stacking context</a>",
@@ -1883,6 +1886,9 @@
     "fr": "<code>start</code>, ou une valeur non nommée se comportant comme <code>left</code> si {{cssxref(\"direction\")}} est <code>ltr</code>, <code>right</code> si {{cssxref(\"direction\")}} est <code>rtl</code> si <code>start</code> n'est pas supporté par le navigateur",
     "ja": "<code>start</code>。<code>start</code> に対応していないブラウザーでは、{{cssxref(\"direction\", \"書字方向\")}}が <code>ltr</code> なら <code>left</code>、<code>rtl</code> なら <code>right</code> として動作する無名の値",
     "ru": "<code>start</code>, или неназванное значение, которое действует как <code>left</code>, если {{cssxref(\"direction\")}}: <code>ltr</code> или как <code>right</code>, если {{cssxref(\"direction\")}}: <code>rtl</code>, а если <code>start</code> не поддерживается браузером."
+  },
+  "superellipseInterpolation": {
+    "en-US": "Animates as per <a href=\"https://drafts.csswg.org/css-borders/#superellipse-interpolation\">superellipse interpolation</a>." 
   },
   "tableCaptionElements": {
     "de": "table-caption Elemente",
