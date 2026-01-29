@@ -9022,6 +9022,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-top"
   },
+  "scroll-marker-group": {
+    "syntax": "none | before | after",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Overflow"
+    ],
+    "initial": "none",
+    "appliesto": "scrollContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-marker-group"
+  },
   "scroll-padding": {
     "syntax": "[ auto | <length-percentage> ]{1,4}",
     "media": "visual",
@@ -9357,6 +9373,22 @@
     "computed": "asSpecified",
     "order": "uniqueOrder",
     "status": "obsolete"
+  },
+  "scroll-target-group": {
+    "syntax": "none | auto",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Overflow"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/scroll-target-group"
   },
   "scroll-timeline": {
     "syntax": "[ <'scroll-timeline-name'> <'scroll-timeline-axis'>? ]#",
