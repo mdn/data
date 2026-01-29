@@ -4177,6 +4177,23 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/column-gap"
   },
+  "column-height": {
+    "syntax": "auto | <length [0,∞]>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Box Sizing",
+      "CSS Multi-column Layout"
+    ],
+    "initial": "auto",
+    "appliesto": "blockContainersExceptTableWrappers",
+    "computed": "autoOrAbsoluteLength",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/column-height"
+  },
   "column-rule": {
     "syntax": "<'column-rule-width'> || <'column-rule-style'> || <'column-rule-color'>",
     "media": "visual",
@@ -4270,10 +4287,10 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/column-span"
   },
   "column-width": {
-    "syntax": "<length> | auto",
+    "syntax": "auto | <length [0,∞]>",
     "media": "visual",
     "inherited": false,
-    "animationType": "length",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Box Sizing",
@@ -4281,18 +4298,36 @@
     ],
     "initial": "auto",
     "appliesto": "blockContainersExceptTableWrappers",
-    "computed": "absoluteLengthZeroOrLarger",
+    "computed": "autoOrAbsoluteLength",
     "order": "perGrammar",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/column-width"
   },
+  "column-wrap": {
+    "syntax": "auto | nowrap | wrap",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Box Sizing",
+      "CSS Multi-column Layout"
+    ],
+    "initial": "auto",
+    "appliesto": "multicolElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/column-wrap"
+  },
   "columns": {
-    "syntax": "<'column-width'> || <'column-count'>",
+    "syntax": "[ <'column-width'> || <'column-count'> ] [ / <'column-height'> ]?",
     "media": "visual",
     "inherited": false,
     "animationType": [
       "column-width",
-      "column-count"
+      "column-count",
+      "column-height"
     ],
     "percentages": "no",
     "groups": [
@@ -4300,12 +4335,14 @@
     ],
     "initial": [
       "column-width",
-      "column-count"
+      "column-count",
+      "column-height"
     ],
     "appliesto": "blockContainersExceptTableWrappers",
     "computed": [
       "column-width",
-      "column-count"
+      "column-count",
+      "column-height"
     ],
     "order": "perGrammar",
     "status": "standard",

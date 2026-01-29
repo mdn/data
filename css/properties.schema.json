@@ -138,6 +138,7 @@
         "asSpecifiedWithVarsSubstituted",
         "autoOnAbsolutelyPositionedElementsValueOfAlignItemsOnParent",
         "autoOrRectangle",
+        "autoOrAbsoluteLength",
         "colorPlusThreeAbsoluteLengths",
         "computedColor",
         "consistsOfTwoDimensionKeywords",
