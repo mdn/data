@@ -739,7 +739,7 @@
     "en-US": "Converted to {{cssxref(\"&lt;number&gt;\")}}"
   },
   "correspondingSuperellipse": {
-    "en-US": "The corresponding <a href=\"/en-US/docs/Web/CSS/Reference/Values/superellipse\">superellipse()</a> value." 
+    "en-US": "The corresponding <a href=\"/en-US/docs/Web/CSS/Reference/Values/superellipse\">superellipse()</a> value."
   },
   "createsStackingContext": {
     "de": "Erstellt <a href=\"/de/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context\">Stapelkontext</a>",
