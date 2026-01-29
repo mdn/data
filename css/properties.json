@@ -2383,6 +2383,22 @@
     "order": "perGrammar",
     "status": "standard"
   },
+  "baseline-source": {
+    "syntax": "auto | first | last",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Inline"
+    ],
+    "initial": "auto",
+    "appliesto": "inlineLevelBoxes",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/baseline-source"
+  },
   "block-size": {
     "syntax": "<'width'>",
     "media": "visual",
@@ -4728,6 +4744,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/dominant-baseline"
   },
+  "dynamic-range-limit": {
+    "syntax": "standard | no-limit | constrained | <dynamic-range-limit-mix()>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "byDynamicRangeLimitMix",
+    "percentages": "no",
+    "groups": [
+      "CSS Color"
+    ],
+    "initial": "no-limit",
+    "appliesto": "allElements",
+    "computed": "computedValueForDynamicRangeLimit",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/dynamic-range-limit"
+  },
   "empty-cells": {
     "syntax": "show | hide",
     "media": "visual",
@@ -6389,6 +6421,79 @@
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/isolation"
+  },
+  "interactivity": {
+    "syntax": "auto | inert",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Basic User Interface"
+    ],
+    "initial": "auto",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/interactivity"
+  },
+  "interest-delay": {
+    "syntax": "<'interest-delay-start'>{1,2}",
+    "media": "visual",
+    "inherited": true,
+    "animationType": [
+      "interest-delay-start",
+      "interest-delay-end"
+    ],
+    "percentages": "no",
+    "groups": [
+      "CSS Basic User Interface"
+    ],
+    "initial": [
+      "interest-delay-start",
+      "interest-delay-end"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "interest-delay-start",
+      "interest-delay-end"
+    ],
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/interest-delay-end"
+  },
+  "interest-delay-end": {
+    "syntax": "normal | <time>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Basic User Interface"
+    ],
+    "initial": "normal",
+    "appliesto": "allElements",
+    "computed": "normalOrComputedTime",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/interest-delay-end"
+  },
+  "interest-delay-start": {
+    "syntax": "normal | <time>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Basic User Interface"
+    ],
+    "initial": "normal",
+    "appliesto": "allElements",
+    "computed": "normalOrComputedTime",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/interest-delay-start"
   },
   "justify-content": {
     "syntax": "normal | <content-distribution> | <overflow-position>? [ <content-position> | left | right ]",
@@ -8672,6 +8777,38 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/r"
   },
+  "reading-flow": {
+    "syntax": "normal | source-order | flex-visual | flex-flow | grid-rows | grid-columns | grid-order",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "CSS Display"
+    ],
+    "initial": "normal",
+    "appliesto": "blockContainersFlexContainersGridContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/reading-flow"
+  },
+  "reading-order": {
+    "syntax": "<integer>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Display"
+    ],
+    "initial": "0",
+    "appliesto": "blockContainersFlexContainersGridContainers",
+    "computed": "specifiedInteger",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/reading-order"
+  },
   "resize": {
     "syntax": "none | both | horizontal | vertical | block | inline",
     "media": "visual",
@@ -10036,6 +10173,27 @@
     ],
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-color"
+  },
+  "text-decoration-inset": {
+    "syntax": "<length>{1,2} | auto",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValue",
+    "percentages": "no",
+    "groups": [
+      "CSS Text Decoration"
+    ],
+    "initial": "0",
+    "appliesto": "allElements",
+    "computed": "absoluteLengthOrKeyword",
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::first-letter",
+      "::first-line",
+      "::placeholder"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-inset"
   },
   "text-decoration-line": {
     "syntax": "none | [ underline || overline || line-through || blink ] | spelling-error | grammar-error",
