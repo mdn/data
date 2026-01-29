@@ -679,6 +679,9 @@
   "byComputedValueTypeNormalAnimatesAsObliqueZeroDeg": {
     "en-US": "by computed value type; <code>normal</code> animates as <code>oblique 0deg</code>"
   },
+  "byDynamicRangeLimitMix": {
+    "en-US": "By <a href=\"/en-US/docs/Web/CSS/Reference/Values/dynamic-range-limit-mix\"><code>dynamic-range-limit-mix()</code></a>"
+  },
   "canonicalOrder": {
     "de": "Kanonische Reihenfolge",
     "en-US": "Canonical order",
@@ -715,6 +718,9 @@
     "ja": "色の計算値",
     "ru": "вычисленный цвет",
     "zh-CN": "颜色计算值"
+  },
+  "computedValueForDynamicRangeLimit": {
+    "en-US": "See <a href=\"https://drafts.csswg.org/css-color-hdr/#computing-dynamic-range-limit\">Computed value for dynamic-range-limit</a>"
   },
   "consistsOfTwoDimensionKeywords": {
     "de": "Besteht aus zwei Schlüsselwörtern, einem pro Richtung",
@@ -977,6 +983,9 @@
     "ja": "インラインレベルおよびテーブルセル要素",
     "ru": "строчным элементам и ячейкам таблиц",
     "zh-TW": "行內層和表格儲存格元素"
+  },
+  "inlineLevelBoxes": {
+    "en-US": "inline-level boxes"
   },
   "inlineLevelBoxesAndSVGTextContentElements": {
     "en-US": "inline-level boxes and SVG text content elements"
@@ -1327,6 +1336,9 @@
     "fr": "Sur les éléments, le résultat du calcul est toujours <code>normal</code>. Sur {{cssxref(\"::before\")}} et {{cssxref(\"::after\")}}, si <code>normal</code> est spécifié, cela donnera <code>none</code>. Sinon, pour les valeurs d'URI, on aura l'URI absolue ; pour les valeurs <code>attr()</code>, on aura la chaine résultante ; pour les autres mots-clé, ce sera comme spécifié.",
     "ja": "要素の場合は、常に <code>normal</code> と計算される。 {{cssxref(\"::before\")}} および {{cssxref(\"::after\")}} の場合、 <code>normal</code> が指定されていれば計算値は <code>none</code>。それ以外の場合、 URI 値の場合は絶対 URI、 <code>attr()</code> 値の場合は結果の文字列、その他のキーワードについては指定通り。",
     "ru": "На элементах всегда вычисляется как <code>normal</code>. На {{cssxref(\"::before\")}} и {{cssxref(\"::after\")}}, если <code>normal</code> указано, интерпретируется как <code>none</code>. Иначе, для значений URI, абсолютного URI; для значений <code>attr()</code> - результирующая строка; для других ключевых слов, как указано."
+  },
+  "normalOrComputedTime": {
+    "en-US": "<code>normal</code> or a computed time"
   },
   "notAnimatable": {
     "en-US": "Not animatable",
@@ -1850,6 +1862,9 @@
   "simpleListOfLpcDifferenceLpc": {
     "en-US": "simple list of length, percentage, or calc, provided the only differences are in the values of the length, percentage, or calc components in the list",
     "ja": "長さ、パーセント値、 calc の単純なリストであり、唯一の違いはリスト内の長さ、パーセント値、 calc の部分の値のみ"
+  },
+  "specifiedInteger": {
+    "en-US": "The specified integer"
   },
   "specifiedIntegerOrAbsoluteLength": {
     "de": "die angegebene Ganzzahl oder eine absolute Länge",

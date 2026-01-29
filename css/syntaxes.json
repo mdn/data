@@ -323,6 +323,9 @@
   "drop-shadow()": {
     "syntax": "drop-shadow( [ <color>? && <length>{2,3} ] )"
   },
+  "dynamic-range-limit-mix()": {
+    "syntax": "dynamic-range-limit-mix( [ <'dynamic-range-limit'> && <percentage [0,100]> ]#{2,} )"
+  },
   "easing-function": {
     "syntax": "<linear-easing-function> | <cubic-bezier-easing-function> | <step-easing-function>"
   },
