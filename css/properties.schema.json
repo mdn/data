@@ -296,6 +296,7 @@
         "textAndBlockContainers",
         "textAndSVGShapes",
         "textElements",
+        "textOrElementsThatAcceptInput",
         "textFields",
         "transformableElements"
       ]

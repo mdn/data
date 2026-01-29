@@ -1928,6 +1928,9 @@
     "zh-CN": "文本元素",
     "zh-TW": "文字元素"
   },
+  "textOrElementsThatAcceptInput": {
+    "en-US": "Text or elements that accept text input"
+  },
   "textFields": {
     "de": "Textfelder",
     "en-US": "text fields",
