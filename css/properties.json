@@ -4788,7 +4788,7 @@
       "corner-top-left-shape",
       "corner-top-right-shape",
       "corner-bottom-left-shape",
-      "corner-bottom-left-shape"
+      "corner-bottom-right-shape"
     ],
     "percentages": "no",
     "groups": [
@@ -4798,14 +4798,14 @@
       "corner-top-left-shape",
       "corner-top-right-shape",
       "corner-bottom-left-shape",
-      "corner-bottom-left-shape"
+      "corner-bottom-right-shape"
     ],
     "appliesto": "allElements",
     "computed": [
       "corner-top-left-shape",
       "corner-top-right-shape",
       "corner-bottom-left-shape",
-      "corner-bottom-left-shape"
+      "corner-bottom-right-shape"
     ],
     "order": "perGrammar",
     "alsoAppliesTo": [
