@@ -1888,7 +1888,7 @@
     "ru": "<code>start</code>, или неназванное значение, которое действует как <code>left</code>, если {{cssxref(\"direction\")}}: <code>ltr</code> или как <code>right</code>, если {{cssxref(\"direction\")}}: <code>rtl</code>, а если <code>start</code> не поддерживается браузером."
   },
   "superellipseInterpolation": {
-    "en-US": "Animates as per <a href=\"https://drafts.csswg.org/css-borders/#superellipse-interpolation\">superellipse interpolation</a>." 
+    "en-US": "Animates as per <a href=\"https://drafts.csswg.org/css-borders/#superellipse-interpolation\">superellipse interpolation</a>."
   },
   "tableCaptionElements": {
     "de": "table-caption Elemente",
