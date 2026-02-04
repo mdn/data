@@ -1077,7 +1077,7 @@
   "length": {
     "de": "<a href=\"/de/docs/Web/CSS/Reference/Values/length#interpolation\">Längenangabe</a>",
     "en-US": "a <a href=\"/en-US/docs/Web/CSS/Reference/Values/length#interpolation\" title=\"Values of the <length> CSS data type are interpolated as real, floating-point numbers.\">length</a>",
-    "fr": "une <a href=\"/fr/docs/Web/CSS/Reference/Values/length#interpolation\" title=\"Les valeurs du type &lt;length&gt; sont interpolées comme des nombres réels à virgule flottante.\">longueur</a>",
+    "fr": "une <a href=\"/fr/docs/Web/CSS/Reference/Values/length#interpolation\" title=\"Les valeurs du type <length>; sont interpolées comme des nombres réels à virgule flottante.\">longueur</a>",
     "ja": "<a href=\"/ja/docs/Web/CSS/Reference/Values/length#interpolation\" title=\"CSS の <length> データ型の値は、実数すなわち浮動小数点数として補間されます。\">length</a>",
     "ru": "<a href=\"/ru/docs/Web/CSS/Reference/Values/length#interpolation\" title=\"Значения типа данных CSS <длина> интерполируются как вещественные числа с плавающей запятой.\">длина</a>"
   },
