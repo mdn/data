@@ -23,7 +23,7 @@
   "absoluteLength0ForNone": {
     "de": "eine absolute Länge; falls das Schlüsselwort <code>none</code> angegeben wurde, ist der berechnete Wert <code>0</code>",
     "en-US": "an absolute length; if the keyword <code>none</code> is specified, the computed value is <code>0</code>",
-    "fr": "une longueur absolue&nbsp;; si le mot-clé <code>none</code> est définie, la valeur calculée sera <code>0</code>",
+    "fr": "une longueur absolue&nbsp;; si le mot-clé <code>none</code> est défini, la valeur calculée sera <code>0</code>",
     "ja": "絶対的な長さ、キーワード <code>none</code> が指定されると計算値は <code>0</code> になる",
     "ru": "абсолютная длина; если указано ключевое слово <code>none</code>, вычисленное значение - <code>0</code>",
     "zh-CN": "绝对长度；如果指定关键词为 <code>none</code>，则计算值为 <code>0</code>",
@@ -193,7 +193,7 @@
     "de": "alle Elemente, {{cssxref(\"::before\")}} und {{cssxref(\"::after\")}} <a href=\"/de/docs/Web/CSS/Reference/Selectors/Pseudo-elements\">Pseudoelemente</a>",
     "en-US": "all elements, {{cssxref(\"::before\")}} and {{cssxref(\"::after\")}} <a href=\"/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements\">pseudo-elements</a>",
     "es": "todos los elementos y los <a href=\"/es/docs/Web/CSS/Reference/Selectors/Pseudo-elements\">pseudoelementos</a> {{cssxref(\"::before\")}} y {{cssxref(\"::after\")}}",
-    "fr": "tous les éléments, ainsi que les <a href=\"/fr/docs/Web/CSS/Reference/Selectors/Pseudo-elements\">pseudo-elements</a> {{cssxref(\"::before\")}} et {{cssxref(\"::after\")}}",
+    "fr": "tous les éléments, ainsi que les <a href=\"/fr/docs/Web/CSS/Reference/Selectors/Pseudo-elements\">pseudo-éléments</a> {{cssxref(\"::before\")}} et {{cssxref(\"::after\")}}",
     "ja": "すべての要素、{{cssxref(\"::before\")}} / {{cssxref(\"::after\")}} <a href=\"/ja/docs/Web/CSS/Reference/Selectors/Pseudo-elements\">擬似要素</a>",
     "ru": "все элементы, {{cssxref(\"::before\")}} и {{cssxref(\"::after\")}} <a href=\"/ru/docs/Web/CSS/Reference/Selectors/Pseudo-elements\">псевдоэлементы</a>",
     "zh-TW": "所有元素，{{cssxref(\"::before\")}} 和 {{cssxref(\"::after\")}} <a href=\"/zh-TW/docs/Web/CSS/Reference/Selectors/Pseudo-elements\">偽元素</a>"
@@ -1770,7 +1770,7 @@
     "de": "Der Prozentwert wird unter Berücksichtigung der Höhe des die generierte Box beinhaltenden Blocks berechnet. Falls die Höhe des beinhaltenden Blocks nicht explizit angegeben wurde (d. h. sie hängt von der Höhe des Inhalts ab) und dieses Element nicht absolut positioniert ist, wird der Prozentwert wie <code>0</code> behandelt.",
     "en-US": "The percentage is calculated with respect to the height of the generated box's containing block. If the height of the containing block is not specified explicitly (i.e., it depends on content height), and this element is not absolutely positioned, the percentage value is treated as <code>0</code>.",
     "es": "Se refiere a la altura del bloque contenedor.",
-    "fr": "Le pourcentage est exprimé par rapport à la hauteur de la boîte générée par le bloc contenant. Si la hauteur du bloc contenant n'est pas explicitement définie (c'est-à-dire qu'elle dépend de la hauteur du contenu), et si cet élément n'est pas absolument positionné , la valeur du pourcentage est traitée comme si elle valait <code>0</code>.",
+    "fr": "Le pourcentage est exprimé par rapport à la hauteur de la boîte générée par le bloc contenant. Si la hauteur du bloc contenant n'est pas explicitement définie (c'est-à-dire qu'elle dépend de la hauteur du contenu), et si cet élément n'est pas absolument positionné, la valeur du pourcentage est traitée comme si elle valait <code>0</code>.",
     "ja": "パーセント値は、生成ボックスの包含ブロックの高さを基準に計算されます。 包含ブロックの高さが明示的に定義されず (この場合コンテンツの高さに依存します) この要素が絶対位置指定されていない場合は、パーセント値は 0 として扱われます。",
     "ru": "Процент для генерируемого блока рассчитывается по отношению к высоте содержащего блока. Если высота содержащего блока не задана явно (т.е. зависит от высоты содержимого), и этот этот элемент позиционирован не абсолютно, процентное значение интерпретируется как <code>0</code>."
   },
