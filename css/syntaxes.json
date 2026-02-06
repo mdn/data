@@ -1002,7 +1002,7 @@
     "syntax": "<id-selector> | <class-selector> | <attribute-selector> | <pseudo-class-selector>"
   },
   "superellipse()": {
-    "syntax": "superellipse(<number> | infinity | -infinity)"
+    "syntax": "superellipse( [ <number> | infinity | -infinity ] )"
   },
   "supports-condition": {
     "syntax": "not <supports-in-parens> | <supports-in-parens> [ and <supports-in-parens> ]* | <supports-in-parens> [ or <supports-in-parens> ]*"
