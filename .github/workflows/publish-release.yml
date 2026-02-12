@@ -40,11 +40,6 @@ jobs:
           node-version-file: ".nvmrc"
           package-manager-cache: false
 
-      # Ensure npm 11.5.1 or later for trusted publishing
-      - name: Install latest npm
-        if: ${{ github.event.inputs.force-npm-publish || steps.release.outputs.release_created }}
-        run: npm install -g npm@latest
-
       - name: Install
         if: ${{ github.event.inputs.force-npm-publish || steps.release.outputs.release_created }}
         run: npm ci
