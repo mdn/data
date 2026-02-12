@@ -2034,7 +2034,7 @@
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-trigger"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-trigger"
   },
   "appearance": {
     "syntax": "none | auto | <compat-auto> | <compat-special>",
@@ -11086,7 +11086,7 @@
     ],
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/timeline-trigger"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger"
   },
   "timeline-trigger-name": {
     "syntax": "none | <dashed-ident>#",
@@ -11102,7 +11102,7 @@
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/timeline-trigger-name"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-name"
   },
   "timeline-trigger-exit-range": {
     "syntax": "[ <'timeline-trigger-exit-range-start'> <'timeline-trigger-exit-range-end'>? ]#",
@@ -11127,7 +11127,7 @@
     ],
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/timeline-trigger-exit-range"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-exit-range"
   },
   "timeline-trigger-exit-range-end": {
     "syntax": "[ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
@@ -11143,7 +11143,7 @@
     "computed": "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage",
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/timeline-trigger-exit-range-end"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-exit-range-end"
   },
   "timeline-trigger-exit-range-start": {
     "syntax": "[ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
@@ -11159,7 +11159,7 @@
     "computed": "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage",
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/timeline-trigger-exit-range-start"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-exit-range-start"
   },
   "timeline-trigger-range": {
     "syntax": "[ <'timeline-trigger-range-start'> <'timeline-trigger-range-end'>? ]#",
@@ -11184,7 +11184,7 @@
     ],
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/timeline-trigger-range"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-range"
   },
   "timeline-trigger-range-end": {
     "syntax": "[ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
@@ -11200,7 +11200,7 @@
     "computed": "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage",
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/timeline-trigger-range-end"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-range-end"
   },
   "timeline-trigger-range-start": {
     "syntax": "[ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
@@ -11216,7 +11216,7 @@
     "computed": "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage",
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/timeline-trigger-range-start"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-range-start"
   },
   "timeline-trigger-source": {
     "syntax": "<single-animation-timeline>#",
@@ -11232,7 +11232,7 @@
     "computed": "listOfNoneAutoIdentScrollOrView",
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/timeline-trigger-source"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-source"
   },
   "top": {
     "syntax": "auto | <length-percentage> | <anchor()> | <anchor-size()>",
@@ -11472,7 +11472,7 @@
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/trigger-scope"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/trigger-scope"
   },
   "unicode-bidi": {
     "syntax": "normal | embed | isolate | bidi-override | isolate-override | plaintext",
