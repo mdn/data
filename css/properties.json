@@ -11138,7 +11138,7 @@
     "groups": [
       "CSS Animations"
     ],
-    "initial": "normal",
+    "initial": "auto",
     "appliesto": "allElements",
     "computed": "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage",
     "order": "perGrammar",
@@ -11154,7 +11154,7 @@
     "groups": [
       "CSS Animations"
     ],
-    "initial": "normal",
+    "initial": "auto",
     "appliesto": "allElements",
     "computed": "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage",
     "order": "perGrammar",
