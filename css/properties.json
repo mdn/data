@@ -11130,7 +11130,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-exit-range"
   },
   "timeline-trigger-exit-range-end": {
-    "syntax": "[ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+    "syntax": "[ auto | normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "notAnimatable",
@@ -11146,7 +11146,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-exit-range-end"
   },
   "timeline-trigger-exit-range-start": {
-    "syntax": "[ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+    "syntax": "[ auto | normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
     "media": "visual",
     "inherited": false,
     "animationType": "notAnimatable",
