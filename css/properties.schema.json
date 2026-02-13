@@ -159,6 +159,7 @@
         "listEachItemHasTwoKeywordsOnePerDimension",
         "listEachItemIdentifierOrNoneAuto",
         "listEachItemTwoKeywordsOriginOffsets",
+        "listOfNoneAutoIdentScrollOrView",
         "noneOrImageWithAbsoluteURI",
         "noneOrOrderedListOfIdentifiers",
         "normalizedAngle",

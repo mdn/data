@@ -44,6 +44,9 @@
   "animateable-feature": {
     "syntax": "scroll-position | contents | <custom-ident>"
   },
+  "animation-action": {
+    "syntax": "none | play | play-once | play-forwards | play-backwards | pause | reset | replay"
+  },
   "asin()": {
     "syntax": "asin( <calc-sum> )"
   },

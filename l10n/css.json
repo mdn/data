@@ -1219,6 +1219,10 @@
     "zh-CN": "列表项",
     "zh-TW": "清單項目"
   },
+  "listOfNoneAutoIdentScrollOrView": {
+    "en-US": "A list, with each item being either the keyword <code>none</code>, the keyword <code>auto</code>, a case-sensitive {{cssxref(\"&lt;ident>\")}}, a computed {{cssxref(\"animation-timeline/scroll\")}} function, or a computed {{cssxref(\"animation-timeline/view\")}} function.",
+    "fr": "Une liste dont chaque élément est soit le mot-clé <code>none</code>, le mot-clé <code>auto</code>, un identifiant ({{CSSxRef(\"&lt;ident>\")}}), sensible à la casse, une fonction calculée {{CSSxRef(\"animation-timeline/scroll\")}} ou une fonction calculée {{CSSxRef(\"animation-timeline/view\")}}."
+  },
   "listSeparator": {
     "de": ", ",
     "en-US": ", ",

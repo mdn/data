@@ -2020,6 +2020,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timing-function"
   },
+  "animation-trigger": {
+    "syntax": "[ none | [ <dashed-ident> <animation-action>+ ]+ ]#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-trigger"
+  },
   "appearance": {
     "syntax": "none | auto | <compat-auto> | <compat-special>",
     "media": "all",
@@ -11041,6 +11057,183 @@
     "status": "experimental",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/timeline-scope"
   },
+  "timeline-trigger": {
+    "syntax": "none | [ <'timeline-trigger-name'> <'timeline-trigger-source'> <'timeline-trigger-range'> [ '/' <'timeline-trigger-exit-range'> ]? ]#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "timeline-trigger-name",
+      "timeline-trigger-source",
+      "timeline-trigger-range",
+      "timeline-trigger-exit-range"
+    ],
+    "percentages": "no",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": [
+      "timeline-trigger-name",
+      "timeline-trigger-source",
+      "timeline-trigger-range",
+      "timeline-trigger-exit-range"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "timeline-trigger-name",
+      "timeline-trigger-source",
+      "timeline-trigger-range",
+      "timeline-trigger-exit-range"
+    ],
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger"
+  },
+  "timeline-trigger-name": {
+    "syntax": "none | <dashed-ident>#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-name"
+  },
+  "timeline-trigger-exit-range": {
+    "syntax": "[ <'timeline-trigger-exit-range-start'> <'timeline-trigger-exit-range-end'>? ]#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": [
+      "timeline-trigger-exit-range-start",
+      "timeline-trigger-exit-range-end"
+    ],
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": [
+      "timeline-trigger-exit-range-start",
+      "timeline-trigger-exit-range-end"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "timeline-trigger-exit-range-start",
+      "timeline-trigger-exit-range-end"
+    ],
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-exit-range"
+  },
+  "timeline-trigger-exit-range-end": {
+    "syntax": "[ auto | normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "relativeToTimelineRangeIfSpecifiedOtherwiseEntireTimeline",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": "normal",
+    "appliesto": "allElements",
+    "computed": "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-exit-range-end"
+  },
+  "timeline-trigger-exit-range-start": {
+    "syntax": "[ auto | normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "relativeToTimelineRangeIfSpecifiedOtherwiseEntireTimeline",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": "normal",
+    "appliesto": "allElements",
+    "computed": "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-exit-range-start"
+  },
+  "timeline-trigger-range": {
+    "syntax": "[ <'timeline-trigger-range-start'> <'timeline-trigger-range-end'>? ]#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": [
+      "timeline-trigger-range-start",
+      "timeline-trigger-range-end"
+    ],
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": [
+      "timeline-trigger-range-start",
+      "timeline-trigger-range-end"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "timeline-trigger-range-start",
+      "timeline-trigger-range-end"
+    ],
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-range"
+  },
+  "timeline-trigger-range-end": {
+    "syntax": "[ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "relativeToTimelineRangeIfSpecifiedOtherwiseEntireTimeline",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": "normal",
+    "appliesto": "allElements",
+    "computed": "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-range-end"
+  },
+  "timeline-trigger-range-start": {
+    "syntax": "[ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "relativeToTimelineRangeIfSpecifiedOtherwiseEntireTimeline",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": "normal",
+    "appliesto": "allElements",
+    "computed": "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-range-start"
+  },
+  "timeline-trigger-source": {
+    "syntax": "<single-animation-timeline>#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": "auto",
+    "appliesto": "allElements",
+    "computed": "listOfNoneAutoIdentScrollOrView",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-source"
+  },
   "top": {
     "syntax": "auto | <length-percentage> | <anchor()> | <anchor-size()>",
     "media": "visual",
@@ -11264,6 +11457,22 @@
     "stacking": true,
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/translate"
+  },
+  "trigger-scope": {
+    "syntax": "none | all | <dashed-ident>#",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "notAnimatable",
+    "percentages": "no",
+    "groups": [
+      "CSS Animations"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/trigger-scope"
   },
   "unicode-bidi": {
     "syntax": "normal | embed | isolate | bidi-override | isolate-override | plaintext",
