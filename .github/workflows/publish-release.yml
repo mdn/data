@@ -26,24 +26,19 @@ jobs:
         uses: GoogleCloudPlatform/release-please-action@16a9c90856f42705d54a6fda1823352bdc62cf38 # v4.4.0
         id: release
 
-      - name: Setup
+      - name: Checkout
         if: ${{ github.event.inputs.force-npm-publish || steps.release.outputs.release_created }}
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           persist-credentials: false
 
-      - name: Checkout
+      - name: Setup Node
         if: ${{ github.event.inputs.force-npm-publish || steps.release.outputs.release_created }}
         uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6.2.0
         with:
           registry-url: "https://registry.npmjs.org/"
           node-version-file: ".nvmrc"
           package-manager-cache: false
-
-      # Ensure npm 11.5.1 or later for trusted publishing
-      - name: Install latest npm
-        if: ${{ github.event.inputs.force-npm-publish || steps.release.outputs.release_created }}
-        run: npm install -g npm@latest
 
       - name: Install
         if: ${{ github.event.inputs.force-npm-publish || steps.release.outputs.release_created }}
