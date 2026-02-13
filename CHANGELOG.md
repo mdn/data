@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.27.1](https://github.com/mdn/data/compare/v2.27.0...v2.27.1) (2026-02-13)
+
+
+### Miscellaneous
+
+* **fr:** translation and update of strings ([#1043](https://github.com/mdn/data/issues/1043)) ([aaa7252](https://github.com/mdn/data/commit/aaa72524aeb87d317f739e227101e247c8597461))
+
 ## [2.27.0](https://github.com/mdn/data/compare/v2.26.0...v2.27.0) (2026-01-29)
 
 
