@@ -5,8 +5,7 @@ on:
       - main
   pull_request:
 
-    # No GITHUB_TOKEN permissions, as we don't use it.
-permissions: {}
+permissions: {} # No GITHUB_TOKEN permissions, as we don't use it.
 
 jobs:
   build:
