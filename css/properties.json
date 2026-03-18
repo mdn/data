@@ -11526,8 +11526,8 @@
     "syntax": "baseline | sub | super | text-top | text-bottom | middle | top | bottom | <percentage> | <length>",
     "media": "visual",
     "inherited": false,
-    "animationType": "asLonghands",
-    "percentages": "N/A",
+    "animationType": "discrete",
+    "percentages": "no",
     "groups": [
       "CSS Inline"
     ],
