@@ -11526,14 +11526,14 @@
     "syntax": "baseline | sub | super | text-top | text-bottom | middle | top | bottom | <percentage> | <length>",
     "media": "visual",
     "inherited": false,
-    "animationType": "see individual properties",
+    "animationType": "asLonghands",
     "percentages": "N/A",
     "groups": [
       "CSS Inline"
     ],
     "initial": "baseline",
-    "appliesto": "see individual properties",
-    "computed": "see individual properties",
+    "appliesto": "asLonghands",
+    "computed": "asLonghands",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter",
