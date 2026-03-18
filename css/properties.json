@@ -11526,14 +11526,14 @@
     "syntax": "baseline | sub | super | text-top | text-bottom | middle | top | bottom | <percentage> | <length>",
     "media": "visual",
     "inherited": false,
-    "animationType": "length",
-    "percentages": "referToLineHeight",
+    "animationType": "discrete",
+    "percentages": "no",
     "groups": [
       "CSS Inline"
     ],
     "initial": "baseline",
-    "appliesto": "inlineLevelAndTableCellElements",
-    "computed": "absoluteLengthOrKeyword",
+    "appliesto": "asLonghands",
+    "computed": "asLonghands",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter",
