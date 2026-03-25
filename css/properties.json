@@ -10165,7 +10165,7 @@
   "shape-rendering": {
     "syntax": "auto | optimizeSpeed | crispEdges | geometricPrecision",
     "media": "visual",
-    "inherited": false,
+    "inherited": true,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
