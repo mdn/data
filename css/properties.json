@@ -9364,7 +9364,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ruby-position"
   },
   "rx": {
-    "syntax": "<length> | <percentage>",
+    "syntax": "<length-percentage> | auto",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -9372,7 +9372,7 @@
     "groups": [
       "Scalable Vector Graphics"
     ],
-    "initial": "0",
+    "initial": "auto",
     "appliesto": "limitedSVGElementsEllipseRect",
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "perGrammar",
@@ -9380,7 +9380,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/rx"
   },
   "ry": {
-    "syntax": "<length> | <percentage>",
+    "syntax": "<length-percentage> | auto",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
@@ -9388,7 +9388,7 @@
     "groups": [
       "Scalable Vector Graphics"
     ],
-    "initial": "0",
+    "initial": "auto",
     "appliesto": "limitedSVGElementsEllipseRect",
     "computed": "percentageAsSpecifiedOrAbsoluteLength",
     "order": "perGrammar",
