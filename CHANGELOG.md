@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.28.0](https://github.com/mdn/data/compare/v2.27.1...v2.28.0) (2026-04-03)
+
+
+### Features
+
+* **css:** Update syntax and initial value for `rx` `ry` ([#1058](https://github.com/mdn/data/issues/1058)) ([2e4cbca](https://github.com/mdn/data/commit/2e4cbcaf41a1923bffd74bd216a5e1d68af04495))
+
 ## [2.27.1](https://github.com/mdn/data/compare/v2.27.0...v2.27.1) (2026-02-13)
 
 
