@@ -1146,37 +1146,111 @@
     "status": "nonstandard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/appearance"
   },
-  "-webkit-border-before": {
-    "syntax": "<'border-width'> || <'border-style'> || <color>",
+  "-webkit-border-after": {
+    "syntax": "<'border-top'>",
     "media": "visual",
-    "inherited": true,
-    "animationType": "discrete",
-    "percentages": [
-      "-webkit-border-before-width"
+    "inherited": false,
+    "animationType": [
+      "border-block-end-width",
+      "border-block-end-style",
+      "border-block-end-color"
     ],
+    "percentages": "no",
     "groups": [
       "WebKit Extensions"
     ],
     "initial": [
-      "border-width",
-      "border-style",
-      "color"
+      "border-block-end-width",
+      "border-block-end-style",
+      "border-block-end-color"
     ],
     "appliesto": "allElements",
     "computed": [
-      "border-width",
-      "border-style",
-      "color"
+      "border-block-end-width",
+      "border-block-end-style",
+      "border-block-end-color"
+    ],
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-webkit-border-after-color": {
+    "syntax": "<'border-top-color'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "color",
+    "percentages": "no",
+    "groups": [
+      "WebKit Extensions"
+    ],
+    "initial": "currentcolor",
+    "appliesto": "allElements",
+    "computed": "computedColor",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-webkit-border-after-style": {
+    "syntax": "<'border-top-style'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "WebKit Extensions"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-webkit-border-after-width": {
+    "syntax": "<'border-top-width'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "WebKit Extensions"
+    ],
+    "initial": "medium",
+    "appliesto": "allElements",
+    "computed": "absoluteLength",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-webkit-border-before": {
+    "syntax": "<'border-top'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "border-block-start-width",
+      "border-block-start-style",
+      "border-block-start-color"
+    ],
+    "percentages": "no",
+    "groups": [
+      "WebKit Extensions"
+    ],
+    "initial": [
+      "border-block-start-width",
+      "border-block-start-style",
+      "border-block-start-color"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "border-block-start-width",
+      "border-block-start-style",
+      "border-block-start-color"
     ],
     "order": "uniqueOrder",
     "status": "nonstandard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-border-before"
   },
   "-webkit-border-before-color": {
-    "syntax": "<color>",
+    "syntax": "<'border-top-color'>",
     "media": "visual",
-    "inherited": true,
-    "animationType": "discrete",
+    "inherited": false,
+    "animationType": "color",
     "percentages": "no",
     "groups": [
       "WebKit Extensions"
@@ -1188,9 +1262,9 @@
     "status": "nonstandard"
   },
   "-webkit-border-before-style": {
-    "syntax": "<'border-style'>",
+    "syntax": "<'border-top-style'>",
     "media": "visual",
-    "inherited": true,
+    "inherited": false,
     "animationType": "discrete",
     "percentages": "no",
     "groups": [
@@ -1203,17 +1277,161 @@
     "status": "nonstandard"
   },
   "-webkit-border-before-width": {
-    "syntax": "<'border-width'>",
+    "syntax": "<'border-top-width'>",
     "media": "visual",
-    "inherited": true,
-    "animationType": "discrete",
-    "percentages": "logicalWidthOfContainingBlock",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
     "groups": [
       "WebKit Extensions"
     ],
     "initial": "medium",
     "appliesto": "allElements",
-    "computed": "absoluteLengthZeroIfBorderStyleNoneOrHidden",
+    "computed": "absoluteLength",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-webkit-border-end": {
+    "syntax": "<'border-top'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "border-inline-end-width",
+      "border-inline-end-style",
+      "border-inline-end-color"
+    ],
+    "percentages": "no",
+    "groups": [
+      "WebKit Extensions"
+    ],
+    "initial": [
+      "border-inline-end-width",
+      "border-inline-end-style",
+      "border-inline-end-color"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "border-inline-end-width",
+      "border-inline-end-style",
+      "border-inline-end-color"
+    ],
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-webkit-border-end-color": {
+    "syntax": "<'border-top-color'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "color",
+    "percentages": "no",
+    "groups": [
+      "WebKit Extensions"
+    ],
+    "initial": "currentcolor",
+    "appliesto": "allElements",
+    "computed": "computedColor",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-webkit-border-end-style": {
+    "syntax": "<'border-top-style'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "WebKit Extensions"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-webkit-border-end-width": {
+    "syntax": "<'border-top-width'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "WebKit Extensions"
+    ],
+    "initial": "medium",
+    "appliesto": "allElements",
+    "computed": "absoluteLength",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-webkit-border-start": {
+    "syntax": "<'border-top'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "border-inline-start-width",
+      "border-inline-start-style",
+      "border-inline-start-color"
+    ],
+    "percentages": "no",
+    "groups": [
+      "WebKit Extensions"
+    ],
+    "initial": [
+      "border-inline-start-width",
+      "border-inline-start-style",
+      "border-inline-start-color"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "border-inline-start-width",
+      "border-inline-start-style",
+      "border-inline-start-color"
+    ],
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-webkit-border-start-color": {
+    "syntax": "<'border-top-color'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "color",
+    "percentages": "no",
+    "groups": [
+      "WebKit Extensions"
+    ],
+    "initial": "currentcolor",
+    "appliesto": "allElements",
+    "computed": "computedColor",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-webkit-border-start-style": {
+    "syntax": "<'border-top-style'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "WebKit Extensions"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "uniqueOrder",
+    "status": "nonstandard"
+  },
+  "-webkit-border-start-width": {
+    "syntax": "<'border-top-width'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "WebKit Extensions"
+    ],
+    "initial": "medium",
+    "appliesto": "allElements",
+    "computed": "absoluteLength",
     "order": "uniqueOrder",
     "status": "nonstandard"
   },
