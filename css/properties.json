@@ -3529,7 +3529,7 @@
     "syntax": "<length>{1,2}",
     "media": "visual",
     "inherited": true,
-    "animationType": "discrete",
+    "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
       "CSS Table"
