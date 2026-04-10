@@ -2580,7 +2580,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
-    "percentages": "logicalWidthOfContainingBlock",
+    "percentages": "no",
     "groups": [
       "CSS Logical Properties and Values"
     ],
@@ -2656,7 +2656,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
-    "percentages": "logicalWidthOfContainingBlock",
+    "percentages": "no",
     "groups": [
       "CSS Logical Properties and Values"
     ],
@@ -2693,11 +2693,11 @@
     "syntax": "<'border-top-width'>{1,2}",
     "media": "visual",
     "inherited": false,
-    "percentages": "logicalWidthOfContainingBlock",
     "animationType": [
       "border-block-start-width",
       "border-block-end-width"
     ],
+    "percentages": "no",
     "groups": [
       "CSS Logical Properties and Values"
     ],
@@ -3181,7 +3181,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
-    "percentages": "logicalWidthOfContainingBlock",
+    "percentages": "no",
     "groups": [
       "CSS Logical Properties and Values"
     ],
@@ -3257,7 +3257,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValueType",
-    "percentages": "logicalWidthOfContainingBlock",
+    "percentages": "no",
     "groups": [
       "CSS Logical Properties and Values"
     ],
@@ -3294,11 +3294,11 @@
     "syntax": "<'border-top-width'>{1,2}",
     "media": "visual",
     "inherited": false,
-    "percentages": "logicalWidthOfContainingBlock",
     "animationType": [
       "border-inline-start-width",
       "border-inline-end-width"
     ],
+    "percentages": "no",
     "groups": [
       "CSS Logical Properties and Values"
     ],
