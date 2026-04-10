@@ -2463,7 +2463,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border"
   },
   "border-block": {
-    "syntax": "<'border-block-start'>",
+    "syntax": "<'border-top'>",
     "media": "visual",
     "inherited": false,
     "animationType": [
@@ -2494,41 +2494,50 @@
     "syntax": "<'border-top-color'>{1,2}",
     "media": "visual",
     "inherited": false,
-    "animationType": "byComputedValueType",
-    "percentages": "no",
-    "groups": [
-      "CSS Logical Properties and Values"
-    ],
-    "initial": "currentcolor",
-    "appliesto": "allElements",
-    "computed": "computedColor",
-    "order": "uniqueOrder",
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-color"
-  },
-  "border-block-end": {
-    "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
-    "media": "visual",
-    "inherited": false,
     "animationType": [
-      "border-block-end-color",
-      "border-block-end-style",
-      "border-block-end-width"
+      "border-block-start-color",
+      "border-block-end-color"
     ],
     "percentages": "no",
     "groups": [
       "CSS Logical Properties and Values"
     ],
     "initial": [
-      "border-top-width",
-      "border-top-style",
-      "border-top-color"
+      "border-block-start-color",
+      "border-block-end-color"
     ],
     "appliesto": "allElements",
     "computed": [
-      "border-top-width",
-      "border-top-style",
-      "border-top-color"
+      "border-block-start-color",
+      "border-block-end-color"
+    ],
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-color"
+  },
+  "border-block-end": {
+    "syntax": "<'border-top'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "border-block-end-width",
+      "border-block-end-style",
+      "border-block-end-color"
+    ],
+    "percentages": "no",
+    "groups": [
+      "CSS Logical Properties and Values"
+    ],
+    "initial": [
+      "border-block-end-width",
+      "border-block-end-style",
+      "border-block-end-color"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "border-block-end-width",
+      "border-block-end-style",
+      "border-block-end-color"
     ],
     "order": "uniqueOrder",
     "status": "standard",
@@ -2583,27 +2592,27 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end-width"
   },
   "border-block-start": {
-    "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
+    "syntax": "<'border-top'>",
     "media": "visual",
     "inherited": false,
     "animationType": [
-      "border-block-start-color",
+      "border-block-start-width",
       "border-block-start-style",
-      "border-block-start-width"
+      "border-block-start-color"
     ],
     "percentages": "no",
     "groups": [
       "CSS Logical Properties and Values"
     ],
     "initial": [
-      "border-width",
-      "border-style",
-      "color"
+      "border-block-start-width",
+      "border-block-start-style",
+      "border-block-start-color"
     ],
     "appliesto": "allElements",
     "computed": [
-      "border-width",
-      "border-style",
+      "border-block-start-width",
+      "border-block-start-style",
       "border-block-start-color"
     ],
     "order": "uniqueOrder",
@@ -2667,9 +2676,15 @@
     "groups": [
       "CSS Logical Properties and Values"
     ],
-    "initial": "none",
+    "initial": [
+      "border-block-start-style",
+      "border-block-end-style"
+    ],
     "appliesto": "allElements",
-    "computed": "asSpecified",
+    "computed": [
+      "border-block-start-style",
+      "border-block-end-style"
+    ],
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-style"
@@ -2678,14 +2693,23 @@
     "syntax": "<'border-top-width'>{1,2}",
     "media": "visual",
     "inherited": false,
-    "animationType": "byComputedValueType",
     "percentages": "logicalWidthOfContainingBlock",
+    "animationType": [
+      "border-block-start-width",
+      "border-block-end-width"
+    ],
     "groups": [
       "CSS Logical Properties and Values"
     ],
-    "initial": "medium",
+    "initial": [
+      "border-block-start-width",
+      "border-block-end-width"
+    ],
     "appliesto": "allElements",
-    "computed": "absoluteLengthZeroIfBorderStyleNoneOrHidden",
+    "computed": [
+      "border-block-start-width",
+      "border-block-end-width"
+    ],
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-width"
@@ -2695,9 +2719,9 @@
     "media": "visual",
     "inherited": false,
     "animationType": [
-      "border-bottom-color",
+      "border-bottom-width",
       "border-bottom-style",
-      "border-bottom-width"
+      "border-bottom-color"
     ],
     "percentages": "no",
     "groups": [
@@ -2837,10 +2861,10 @@
     "media": "visual",
     "inherited": false,
     "animationType": [
-      "border-bottom-color",
-      "border-left-color",
+      "border-top-color",
       "border-right-color",
-      "border-top-color"
+      "border-bottom-color",
+      "border-left-color"
     ],
     "percentages": "no",
     "groups": [
@@ -2854,10 +2878,10 @@
     ],
     "appliesto": "allElements",
     "computed": [
-      "border-bottom-color",
-      "border-left-color",
+      "border-top-color",
       "border-right-color",
-      "border-top-color"
+      "border-bottom-color",
+      "border-left-color"
     ],
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -2909,11 +2933,11 @@
     "media": "visual",
     "inherited": false,
     "animationType": [
-      "border-image-outset",
-      "border-image-repeat",
-      "border-image-slice",
       "border-image-source",
-      "border-image-width"
+      "border-image-slice",
+      "border-image-width",
+      "border-image-outset",
+      "border-image-repeat"
     ],
     "percentages": [
       "border-image-slice",
@@ -2931,11 +2955,11 @@
     ],
     "appliesto": "allElementsExceptTableElementsWhenCollapse",
     "computed": [
-      "border-image-outset",
-      "border-image-repeat",
-      "border-image-slice",
       "border-image-source",
-      "border-image-width"
+      "border-image-slice",
+      "border-image-width",
+      "border-image-outset",
+      "border-image-repeat"
     ],
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -3040,13 +3064,13 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-image-width"
   },
   "border-inline": {
-    "syntax": "<'border-block-start'>",
+    "syntax": "<'border-top'>",
     "media": "visual",
     "inherited": false,
     "animationType": [
-      "border-inline-color",
+      "border-inline-width",
       "border-inline-style",
-      "border-inline-width"
+      "border-inline-color"
     ],
     "percentages": "no",
     "groups": [
@@ -3071,40 +3095,49 @@
     "syntax": "<'border-top-color'>{1,2}",
     "media": "visual",
     "inherited": false,
-    "animationType": "byComputedValueType",
-    "percentages": "no",
-    "groups": [
-      "CSS Logical Properties and Values"
-    ],
-    "initial": "currentcolor",
-    "appliesto": "allElements",
-    "computed": "computedColor",
-    "order": "uniqueOrder",
-    "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-color"
-  },
-  "border-inline-end": {
-    "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
-    "media": "visual",
-    "inherited": false,
     "animationType": [
-      "border-inline-end-color",
-      "border-inline-end-style",
-      "border-inline-end-width"
+      "border-inline-start-color",
+      "border-inline-end-color"
     ],
     "percentages": "no",
     "groups": [
       "CSS Logical Properties and Values"
     ],
     "initial": [
-      "border-width",
-      "border-style",
-      "color"
+      "border-inline-start-color",
+      "border-inline-end-color"
     ],
     "appliesto": "allElements",
     "computed": [
-      "border-width",
-      "border-style",
+      "border-inline-start-color",
+      "border-inline-end-color"
+    ],
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-color"
+  },
+  "border-inline-end": {
+    "syntax": "<'border-top'>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": [
+      "border-inline-end-width",
+      "border-inline-end-style",
+      "border-inline-end-color"
+    ],
+    "percentages": "no",
+    "groups": [
+      "CSS Logical Properties and Values"
+    ],
+    "initial": [
+      "border-inline-end-width",
+      "border-inline-end-style",
+      "border-inline-end-color"
+    ],
+    "appliesto": "allElements",
+    "computed": [
+      "border-inline-end-width",
+      "border-inline-end-style",
       "border-inline-end-color"
     ],
     "order": "uniqueOrder",
@@ -3160,27 +3193,27 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end-width"
   },
   "border-inline-start": {
-    "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
+    "syntax": "<'border-top'>",
     "media": "visual",
     "inherited": false,
     "animationType": [
-      "border-inline-start-color",
+      "border-inline-start-width",
       "border-inline-start-style",
-      "border-inline-start-width"
+      "border-inline-start-color"
     ],
     "percentages": "no",
     "groups": [
       "CSS Logical Properties and Values"
     ],
     "initial": [
-      "border-width",
-      "border-style",
-      "color"
+      "border-inline-start-width",
+      "border-inline-start-style",
+      "border-inline-start-color"
     ],
     "appliesto": "allElements",
     "computed": [
-      "border-width",
-      "border-style",
+      "border-inline-start-width",
+      "border-inline-start-style",
       "border-inline-start-color"
     ],
     "order": "uniqueOrder",
@@ -3244,9 +3277,15 @@
     "groups": [
       "CSS Logical Properties and Values"
     ],
-    "initial": "none",
+    "initial": [
+      "border-inline-start-style",
+      "border-inline-end-style"
+    ],
     "appliesto": "allElements",
-    "computed": "asSpecified",
+    "computed": [
+      "border-inline-start-style",
+      "border-inline-end-style"
+    ],
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-style"
@@ -3255,14 +3294,23 @@
     "syntax": "<'border-top-width'>{1,2}",
     "media": "visual",
     "inherited": false,
-    "animationType": "byComputedValueType",
     "percentages": "logicalWidthOfContainingBlock",
+    "animationType": [
+      "border-inline-start-width",
+      "border-inline-end-width"
+    ],
     "groups": [
       "CSS Logical Properties and Values"
     ],
-    "initial": "medium",
+    "initial": [
+      "border-inline-start-width",
+      "border-inline-end-width"
+    ],
     "appliesto": "allElements",
-    "computed": "absoluteLengthZeroIfBorderStyleNoneOrHidden",
+    "computed": [
+      "border-inline-start-width",
+      "border-inline-end-width"
+    ],
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-width"
@@ -3272,9 +3320,9 @@
     "media": "visual",
     "inherited": false,
     "animationType": [
-      "border-left-color",
+      "border-left-width",
       "border-left-style",
-      "border-left-width"
+      "border-left-color"
     ],
     "percentages": "no",
     "groups": [
@@ -3377,10 +3425,10 @@
     ],
     "appliesto": "allElementsUAsNotRequiredWhenCollapse",
     "computed": [
-      "border-bottom-left-radius",
-      "border-bottom-right-radius",
       "border-top-left-radius",
-      "border-top-right-radius"
+      "border-top-right-radius",
+      "border-bottom-right-radius",
+      "border-bottom-left-radius"
     ],
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -3394,9 +3442,9 @@
     "media": "visual",
     "inherited": false,
     "animationType": [
-      "border-right-color",
+      "border-right-width",
       "border-right-style",
-      "border-right-width"
+      "border-right-color"
     ],
     "percentages": "no",
     "groups": [
@@ -3548,10 +3596,10 @@
     ],
     "appliesto": "allElements",
     "computed": [
-      "border-bottom-style",
-      "border-left-style",
+      "border-top-style",
       "border-right-style",
-      "border-top-style"
+      "border-bottom-style",
+      "border-left-style"
     ],
     "order": "uniqueOrder",
     "alsoAppliesTo": [
@@ -3565,9 +3613,9 @@
     "media": "visual",
     "inherited": false,
     "animationType": [
-      "border-top-color",
+      "border-top-width",
       "border-top-style",
-      "border-top-width"
+      "border-top-color"
     ],
     "percentages": "no",
     "groups": [
@@ -3691,10 +3739,10 @@
     "media": "visual",
     "inherited": false,
     "animationType": [
-      "border-bottom-width",
-      "border-left-width",
+      "border-top-width",
       "border-right-width",
-      "border-top-width"
+      "border-bottom-width",
+      "border-left-width"
     ],
     "percentages": "no",
     "groups": [
@@ -3708,10 +3756,10 @@
     ],
     "appliesto": "allElements",
     "computed": [
-      "border-bottom-width",
-      "border-left-width",
+      "border-top-width",
       "border-right-width",
-      "border-top-width"
+      "border-bottom-width",
+      "border-left-width"
     ],
     "order": "uniqueOrder",
     "alsoAppliesTo": [
