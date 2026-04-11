@@ -4250,9 +4250,9 @@
     "media": "visual",
     "inherited": false,
     "animationType": [
-      "column-rule-color",
+      "column-rule-width",
       "column-rule-style",
-      "column-rule-width"
+      "column-rule-color"
     ],
     "percentages": "no",
     "groups": [
@@ -4265,9 +4265,9 @@
     ],
     "appliesto": "multicolElements",
     "computed": [
-      "column-rule-color",
+      "column-rule-width",
       "column-rule-style",
-      "column-rule-width"
+      "column-rule-color"
     ],
     "order": "perGrammar",
     "status": "standard",
