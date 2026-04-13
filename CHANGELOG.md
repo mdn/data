@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.28.0](https://github.com/mdn/data/compare/v2.27.1...v2.28.0) (2026-04-13)
+
+
+### Features
+
+* **css:** Add and fix `-webkit-border-start/end/before/after-*` ([#1061](https://github.com/mdn/data/issues/1061)) ([903bf40](https://github.com/mdn/data/commit/903bf407d085fa85c6a7cb2736232f75bf5b5412))
+* **css:** add schema validation and supplementary documentation for custom properties ([#1057](https://github.com/mdn/data/issues/1057)) ([fd3122b](https://github.com/mdn/data/commit/fd3122bb4daa0ffe930b73767e42b9c7ae1f4ceb))
+* **css:** Update syntax and initial value for `rx` `ry` ([#1058](https://github.com/mdn/data/issues/1058)) ([2e4cbca](https://github.com/mdn/data/commit/2e4cbcaf41a1923bffd74bd216a5e1d68af04495))
+
 ## [2.27.1](https://github.com/mdn/data/compare/v2.27.0...v2.27.1) (2026-02-13)
 
 
