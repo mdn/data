@@ -117,7 +117,3 @@ There are 3 more properties that are optional:
 * `mdn_url` (string): a URL linking to the property's page on MDN. This URL must omit the localization part of the URL (such as `en-US/`).
 * `stacking` (boolean): Whether or not the property creates a stacking context. See [stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context) for details.
 * `alsoAppliesTo` (enum): To which elements the property also applies to. See the schema for [a list of enums](https://github.com/mdn/data/blob/main/css/properties.schema.json#L253).
-
-### Custom Properties
-
-Custom properties are a special case, since they have variable keys. These keys must be prefixed by two dashes, (e.g. `--brand-color`), and are validated by a regular expression in the [`patternProperties` section of the schema](https://github.com/mdn/data/blob/main/css/properties.schema.json#L472).

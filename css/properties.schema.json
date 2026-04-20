@@ -468,10 +468,5 @@
         "$ref": "#/definitions/mdn_url"
       }
     }
-  },
-  "patternProperties": {
-    "^--": {
-      "$ref": "#/definitions/additionalProperties"
-    }
   }
 }
