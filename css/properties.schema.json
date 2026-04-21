@@ -471,7 +471,7 @@
   },
   "patternProperties": {
     "^--": {
-      "$ref": "#/definitions/additionalProperties"
+      "$ref": "#/additionalProperties"
     }
   }
 }
