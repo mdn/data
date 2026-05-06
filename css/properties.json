@@ -4516,9 +4516,9 @@
     "media": "visual",
     "inherited": false,
     "animationType": [
-      "column-rule-color",
+      "column-rule-width",
       "column-rule-style",
-      "column-rule-width"
+      "column-rule-color"
     ],
     "percentages": "no",
     "groups": [
@@ -4531,9 +4531,9 @@
     ],
     "appliesto": "multicolElements",
     "computed": [
-      "column-rule-color",
+      "column-rule-width",
       "column-rule-style",
-      "column-rule-width"
+      "column-rule-color"
     ],
     "order": "perGrammar",
     "status": "standard",
@@ -4556,7 +4556,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/column-rule-color"
   },
   "column-rule-style": {
-    "syntax": "<'border-style'>",
+    "syntax": "<line-style>",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -4572,7 +4572,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/column-rule-style"
   },
   "column-rule-width": {
-    "syntax": "<'border-width'>",
+    "syntax": "<line-width>",
     "media": "visual",
     "inherited": false,
     "animationType": "length",
