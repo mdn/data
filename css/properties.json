@@ -9266,7 +9266,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position"
   },
   "position-anchor": {
-    "syntax": "auto | none | <anchor-name>",
+    "syntax": "normal | auto | none | <anchor-name> | match-parent",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
@@ -9274,7 +9274,7 @@
     "groups": [
       "CSS Anchor Positioning"
     ],
-    "initial": "none",
+    "initial": "normal",
     "appliesto": "absolutelyPositionedElements",
     "computed": "asSpecified",
     "order": "perGrammar",
