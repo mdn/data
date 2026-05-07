@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.28.1](https://github.com/mdn/data/compare/v2.28.0...v2.28.1) (2026-05-06)
+
+
+### Bug Fixes
+
+* **css:** correct the malformed reference in patternProperties for custom properties schema. ([#1065](https://github.com/mdn/data/issues/1065)) ([4c1ab15](https://github.com/mdn/data/commit/4c1ab15184c128412f9ba84796e12325ffeed91b))
+* **css:** Fix `border-*` animationType, computed, initial, percentages, and syntax ([#1060](https://github.com/mdn/data/issues/1060)) ([b1c81f0](https://github.com/mdn/data/commit/b1c81f0bc4f0b2f58b2e5858dd8c6f63d3ffca8d))
+* **css:** Fix syntax for `column-rule-style/width` and canonical order ([#1062](https://github.com/mdn/data/issues/1062)) ([9c52cb4](https://github.com/mdn/data/commit/9c52cb48b3345f1ecc69e3afb7bead64e2d8d5f6))
+
 ## [2.28.0](https://github.com/mdn/data/compare/v2.27.1...v2.28.0) (2026-04-13)
 
 
