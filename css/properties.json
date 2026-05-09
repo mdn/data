@@ -1214,7 +1214,7 @@
     ],
     "initial": "medium",
     "appliesto": "allElements",
-    "computed": "absoluteLength",
+    "computed": "absoluteLengthSnappedAsLineWidth",
     "order": "uniqueOrder",
     "status": "nonstandard"
   },
@@ -1287,7 +1287,7 @@
     ],
     "initial": "medium",
     "appliesto": "allElements",
-    "computed": "absoluteLength",
+    "computed": "absoluteLengthSnappedAsLineWidth",
     "order": "uniqueOrder",
     "status": "nonstandard"
   },
@@ -1359,7 +1359,7 @@
     ],
     "initial": "medium",
     "appliesto": "allElements",
-    "computed": "absoluteLength",
+    "computed": "absoluteLengthSnappedAsLineWidth",
     "order": "uniqueOrder",
     "status": "nonstandard"
   },
@@ -1431,7 +1431,7 @@
     ],
     "initial": "medium",
     "appliesto": "allElements",
-    "computed": "absoluteLength",
+    "computed": "absoluteLengthSnappedAsLineWidth",
     "order": "uniqueOrder",
     "status": "nonstandard"
   },
@@ -2804,7 +2804,7 @@
     ],
     "initial": "medium",
     "appliesto": "allElements",
-    "computed": "absoluteLengthZeroIfBorderStyleNoneOrHidden",
+    "computed": "absoluteLengthSnappedAsLineWidth",
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end-width"
@@ -2880,7 +2880,7 @@
     ],
     "initial": "medium",
     "appliesto": "allElements",
-    "computed": "absoluteLengthZeroIfBorderStyleNoneOrHidden",
+    "computed": "absoluteLengthSnappedAsLineWidth",
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start-width"
@@ -3050,7 +3050,7 @@
     ],
     "initial": "medium",
     "appliesto": "allElements",
-    "computed": "absoluteLengthOr0IfBorderBottomStyleNoneOrHidden",
+    "computed": "absoluteLengthSnappedAsLineWidth",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter"
@@ -3405,7 +3405,7 @@
     ],
     "initial": "medium",
     "appliesto": "allElements",
-    "computed": "absoluteLengthZeroIfBorderStyleNoneOrHidden",
+    "computed": "absoluteLengthSnappedAsLineWidth",
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end-width"
@@ -3481,7 +3481,7 @@
     ],
     "initial": "medium",
     "appliesto": "allElements",
-    "computed": "absoluteLengthZeroIfBorderStyleNoneOrHidden",
+    "computed": "absoluteLengthSnappedAsLineWidth",
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start-width"
@@ -3613,7 +3613,7 @@
     ],
     "initial": "medium",
     "appliesto": "allElements",
-    "computed": "absoluteLengthOr0IfBorderLeftStyleNoneOrHidden",
+    "computed": "absoluteLengthSnappedAsLineWidth",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter"
@@ -3735,7 +3735,7 @@
     ],
     "initial": "medium",
     "appliesto": "allElements",
-    "computed": "absoluteLengthOr0IfBorderRightStyleNoneOrHidden",
+    "computed": "absoluteLengthSnappedAsLineWidth",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter"
@@ -3944,7 +3944,7 @@
     ],
     "initial": "medium",
     "appliesto": "allElements",
-    "computed": "absoluteLengthOr0IfBorderTopStyleNoneOrHidden",
+    "computed": "absoluteLengthSnappedAsLineWidth",
     "order": "uniqueOrder",
     "alsoAppliesTo": [
       "::first-letter"
@@ -4582,7 +4582,7 @@
     ],
     "initial": "medium",
     "appliesto": "multicolElements",
-    "computed": "absoluteLength0IfColumnRuleStyleNoneOrHidden",
+    "computed": "absoluteLengthSnappedAsLineWidth",
     "order": "perGrammar",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/column-rule-width"
@@ -8586,7 +8586,7 @@
     ],
     "initial": "0",
     "appliesto": "allElements",
-    "computed": "asSpecifiedRelativeToAbsoluteLengths",
+    "computed": "absoluteLengthSnappedAsLineWidth",
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/outline-offset"
@@ -8624,7 +8624,7 @@
     ],
     "initial": "medium",
     "appliesto": "allElements",
-    "computed": "absoluteLength0ForNone",
+    "computed": "absoluteLengthSnappedAsLineWidth",
     "order": "uniqueOrder",
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/outline-width"

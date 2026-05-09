@@ -119,6 +119,9 @@
     "en-US": "an absolute {{cssxref(\"length\")}} or {{cssxref(\"percentage\")}}, numbers converted to absolute lengths first",
     "fr": "une longueur ({{cssxref(\"length\")}}) absolue ou un pourcentage ({{cssxref(\"percentage\")}}), les nombres étant d'abord convertis en longueurs absolues"
   },
+  "absoluteLengthSnappedAsLineWidth": {
+    "en-US": "the absolute length, <a title=\"To snap a &lt;length&gt; len as a line width:&#10;1. If len is an integer number of device pixels, leave it as is.&#10;2. If the absolute value of len is greater than zero, but less than 1 device pixel, round it away from zero to &pm;1 device pixel.&#10;3. If the absolute value of len is greater than 1 device pixel, round it towards zero to the nearest integer number of device pixels.\">snapped as a line width</a>"
+  },
   "absoluteLengthsSpecifiedColorAsSpecified": {
     "de": "Längen absolut gemacht; angegebene Farben berechnet; ansonsten wie angegeben",
     "en-US": "any length made absolute; any specified color computed; otherwise as specified",
