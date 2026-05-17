@@ -87,7 +87,7 @@
     "syntax": "[ first | last ]? baseline"
   },
   "basic-shape": {
-    "syntax": "<inset()> | <xywh()> | <rect()> | <circle()> | <ellipse()> | <polygon()> | <path()>"
+    "syntax": "<inset()> | <xywh()> | <rect()> | <circle()> | <ellipse()> | <polygon()> | <path()> | shape()"
   },
   "basic-shape-rect": {
     "syntax": "<inset()> | <rect()> | <xywh()>"
