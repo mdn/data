@@ -8339,7 +8339,7 @@
   "object-position": {
     "syntax": "<position>",
     "media": "visual",
-    "inherited": true,
+    "inherited": false,
     "animationType": "repeatableList",
     "percentages": "referToWidthAndHeightOfElement",
     "groups": [
