@@ -30,4 +30,3 @@ jobs:
             chore
             build
             ci
-          requireScope: false
