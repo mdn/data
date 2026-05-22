@@ -11929,6 +11929,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-transition-name"
   },
+  "view-transition-scope": {
+    "syntax": "none | all",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS View Transitions"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/view-transition-scope"
+  },
   "visibility": {
     "syntax": "visible | hidden | collapse",
     "media": "visual",
