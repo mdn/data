@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.28.2](https://github.com/mdn/data/compare/v2.28.1...v2.28.2) (2026-06-22)
+
+
+### Bug Fixes
+
+* **css:** `object-position` is not inherited ([#1072](https://github.com/mdn/data/issues/1072)) ([263efe7](https://github.com/mdn/data/commit/263efe763539713d05fe949e937b296df98cb00d))
+* **css:** `object-position` is not inherited by default ([263efe7](https://github.com/mdn/data/commit/263efe763539713d05fe949e937b296df98cb00d))
+
 ## [2.28.1](https://github.com/mdn/data/compare/v2.28.0...v2.28.1) (2026-05-06)
 
 
