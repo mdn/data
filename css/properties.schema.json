@@ -116,6 +116,7 @@
         "absoluteLengthOrNormal",
         "absoluteLengthOrPercentage",
         "absoluteLengthOrPercentageNumbersConverted",
+        "absoluteLengthSnappedAsLineWidth",
         "absoluteLengthsSpecifiedColorAsSpecified",
         "absoluteLengthZeroIfBorderStyleNoneOrHidden",
         "absoluteLengthZeroOrLarger",
