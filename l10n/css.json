@@ -20,60 +20,6 @@
     "zh-CN": "绝对 {{cssxref(\"length\")}}",
     "zh-TW": "絕對{{cssxref(\"length\")}}"
   },
-  "absoluteLength0ForNone": {
-    "de": "eine absolute Länge; falls das Schlüsselwort <code>none</code> angegeben wurde, ist der berechnete Wert <code>0</code>",
-    "en-US": "an absolute length; if the keyword <code>none</code> is specified, the computed value is <code>0</code>",
-    "fr": "une longueur absolue&nbsp;; si le mot-clé <code>none</code> est défini, la valeur calculée sera <code>0</code>",
-    "ja": "絶対的な長さ、キーワード <code>none</code> が指定されると計算値は <code>0</code> になる",
-    "ru": "абсолютная длина; если указано ключевое слово <code>none</code>, вычисленное значение - <code>0</code>",
-    "zh-CN": "绝对长度；如果指定关键词为 <code>none</code>，则计算值为 <code>0</code>",
-    "zh-TW": "絕對長度；若指定了關鍵字 <code>none</code>，計算值則為 <code>0</code>"
-  },
-  "absoluteLength0IfColumnRuleStyleNoneOrHidden": {
-    "de": "die absolute Länge; <code>0</code> falls {{cssxref(\"column-rule-style\")}} <code>none</code> oder <code>hidden</code> ist",
-    "en-US": "the absolute length; <code>0</code> if the {{cssxref(\"column-rule-style\")}} is <code>none</code> or <code>hidden</code>",
-    "fr": "une longueur absolue ou <code>0</code> si {{cssxref(\"column-rule-style\")}} vaut <code>none</code> ou <code>hidden</code>",
-    "ja": "絶対的な長さ、列の罫線のスタイルが <code>none</code> か <code>hidden</code> なら <code>0</code>",
-    "ru": "абсолютная длина; <code>0</code>, если {{cssxref(\"column-rule-style\")}} - <code>none</code> или <code>hidden</code>",
-    "zh-CN": "绝对长度；如果 {{cssxref(\"column-rule-style\")}} 设为 <code>none</code> 或 <code>hidden</code>，则为 <code>0</code>",
-    "zh-TW": "絕對長度；若 {{cssxref(\"column-rule-style\")}} 為 <code>none</code> 或 <code>hidden</code>，則為 <code>0</code>"
-  },
-  "absoluteLengthOr0IfBorderBottomStyleNoneOrHidden": {
-    "de": "die absolute Länge; <code>0</code> falls {{cssxref(\"border-bottom-style\")}} <code>none</code> oder <code>hidden</code> ist",
-    "en-US": "the absolute length or <code>0</code> if {{cssxref(\"border-bottom-style\")}} is <code>none</code> or <code>hidden</code>",
-    "fr": "la longueur absolue ou <code>0</code> si {{cssxref(\"border-bottom-style\")}} vaut <code>none</code> ou <code>hidden</code>",
-    "ja": "絶対的な長さ、または {{cssxref(\"border-bottom-style\")}} が <code>none</code> または <code>hidden</code> の場合は <code>0</code>",
-    "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-bottom-style\")}} - <code>none</code> или <code>hidden</code>",
-    "zh-CN": "绝对长度；或如果 {{cssxref(\"border-bottom-style\")}} 的值是 <code>none</code> 或 <code>hidden</code>，则为 <code>0</code>",
-    "zh-TW": "絕對長度，若 {{cssxref(\"border-bottom-style\")}} 為 <code>none</code> 或 <code>hidden</code>，則為 <code>0</code>"
-  },
-  "absoluteLengthOr0IfBorderLeftStyleNoneOrHidden": {
-    "de": "die absolute Länge; <code>0</code> falls {{cssxref(\"border-left-style\")}} <code>none</code> oder <code>hidden</code> ist",
-    "en-US": "the absolute length or <code>0</code> if {{cssxref(\"border-left-style\")}} is <code>none</code> or <code>hidden</code>",
-    "fr": "la longueur absolue ou <code>0</code> si {{cssxref(\"border-left-style\")}} vaut <code>none</code> ou <code>hidden</code>",
-    "ja": "絶対的な長さ、または {{cssxref(\"border-left-style\")}} が <code>none</code> または <code>hidden</code> の場合は <code>0</code>",
-    "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-left-style\")}} - <code>none</code> или <code>hidden</code>",
-    "zh-CN": "绝对长度；或如果 {{cssxref(\"border-left-style\")}} 的值为 <code>none</code> 或 <code>hidden</code>，则为 <code>0</code>",
-    "zh-TW": "絕對長度，若 {{cssxref(\"border-left-style\")}} 為 <code>none</code> 或 <code>hidden</code>，則為 <code>0</code>"
-  },
-  "absoluteLengthOr0IfBorderRightStyleNoneOrHidden": {
-    "de": "die absolute Länge; <code>0</code> falls {{cssxref(\"border-right-style\")}} <code>none</code> oder <code>hidden</code> ist",
-    "en-US": "the absolute length or <code>0</code> if {{cssxref(\"border-right-style\")}} is <code>none</code> or <code>hidden</code>",
-    "fr": "la longueur absolue ou <code>0</code> si {{cssxref(\"border-right-style\")}} vaut <code>none</code> ou <code>hidden</code>",
-    "ja": "絶対的な長さ、または {{cssxref(\"border-right-style\")}} が <code>none</code> または <code>hidden</code> の場合は <code>0</code>",
-    "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-right-style\")}} - <code>none</code> или <code>hidden</code>",
-    "zh-CN": "绝对长度；或如果 {{cssxref(\"border-right-style\")}} 的值为 <code>none</code> 或 <code>hidden</code>，则为 <code>0</code>",
-    "zh-TW": "絕對長度，若 {{cssxref(\"border-right-style\")}} 為 <code>none</code> 或 <code>hidden</code>，則為 <code>0</code>"
-  },
-  "absoluteLengthOr0IfBorderTopStyleNoneOrHidden": {
-    "de": "die absolute Länge; <code>0</code> falls {{cssxref(\"border-top-style\")}} <code>none</code> oder <code>hidden</code> ist",
-    "en-US": "the absolute length or <code>0</code> if {{cssxref(\"border-top-style\")}} is <code>none</code> or <code>hidden</code>",
-    "fr": "la longueur absolue ou <code>0</code> si {{cssxref(\"border-top-style\")}} vaut <code>none</code> ou <code>hidden</code>",
-    "ja": "絶対的な長さ、または {{cssxref(\"border-top-style\")}} が <code>none</code> または <code>hidden</code> の場合は <code>0</code>",
-    "ru": "абсолютная длина или <code>0</code>, если {{cssxref(\"border-top-style\")}} - <code>none</code> или <code>hidden</code>",
-    "zh-CN": "绝对长度；或如果 {{cssxref(\"border-top-style\")}} 的值为 <code>none</code> 或 <code>hidden</code>，则为 <code>0</code>",
-    "zh-TW": "絕對長度，若 {{cssxref(\"border-top-style\")}} 為 <code>none</code> 或 <code>hidden</code>，則為 <code>0</code>"
-  },
   "absoluteLengthOrAsSpecified": {
     "de": "für Prozent- und Längenwerte die absolute Länge, ansonsten wie angegeben",
     "en-US": "for percentage and length values, the absolute length, otherwise as specified",
@@ -129,14 +75,6 @@
     "ja": "指定値（length は全て絶対値となり、color については計算値となる）",
     "ru": "любая абсолютная длина; работает любой указанный цвет; если другое не указано",
     "zh-TW": "任何長度均為絕對值；任何指定顏色均為計算值；否則按指定值"
-  },
-  "absoluteLengthZeroIfBorderStyleNoneOrHidden": {
-    "de": "absolute Länge; <code>0</code>, falls der Rahmenstil <code>none</code> oder <code>hidden</code> ist",
-    "en-US": "absolute length; <code>0</code> if the border style is <code>none</code> or <code>hidden</code>",
-    "fr": "une longueur absolue&nbsp;; <code>0</code> si le style de la bordure vaut <code>none</code> ou <code>hidden</code>",
-    "ja": "絶対的な長さ、境界スタイルが <code>none</code> または <code>hidden</code> であれば <code>0</code>",
-    "ru": "абсолютная длина; <code>0</code>, если стиль рамки <code>none</code> или <code>hidden</code>",
-    "zh-TW": "絕對長度；若框線樣式為 <code>none</code> 或 <code>hidden</code>，則為 <code>0</code>"
   },
   "absoluteLengthZeroOrLarger": {
     "de": "the absolute length, zero oder larger",

@@ -104,12 +104,6 @@
     "computed": {
       "enum": [
         "absoluteLength",
-        "absoluteLength0ForNone",
-        "absoluteLength0IfColumnRuleStyleNoneOrHidden",
-        "absoluteLengthOr0IfBorderBottomStyleNoneOrHidden",
-        "absoluteLengthOr0IfBorderLeftStyleNoneOrHidden",
-        "absoluteLengthOr0IfBorderRightStyleNoneOrHidden",
-        "absoluteLengthOr0IfBorderTopStyleNoneOrHidden",
         "absoluteLengthOrAsSpecified",
         "absoluteLengthOrKeyword",
         "absoluteLengthOrNone",
@@ -118,7 +112,6 @@
         "absoluteLengthOrPercentageNumbersConverted",
         "absoluteLengthSnappedAsLineWidth",
         "absoluteLengthsSpecifiedColorAsSpecified",
-        "absoluteLengthZeroIfBorderStyleNoneOrHidden",
         "absoluteLengthZeroOrLarger",
         "absoluteURIOrNone",
         "angleRoundedToNextQuarter",
