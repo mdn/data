@@ -6370,6 +6370,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/forced-color-adjust"
   },
+  "frame-sizing": {
+    "syntax": "auto | content-width | content-height | content-block-size | content-inline-size",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Box Sizing"
+    ],
+    "initial": "auto",
+    "appliesto": "replacedElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/frame-sizing"
+  },
   "gap": {
     "syntax": "<'row-gap'> <'column-gap'>?",
     "media": "visual",
