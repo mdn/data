@@ -3750,7 +3750,7 @@
     "animationType": "byComputedValueType",
     "percentages": "no",
     "groups": [
-      "CSS Logical Properties and Values"
+      "CSS Backgrounds and Borders"
     ],
     "initial": "none",
     "appliesto": "allElements",
