@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.29.0](https://github.com/mdn/data/compare/v2.28.1...v2.29.0) (2026-07-16)
+
+
+### Features
+
+* Add frame-sizing CSS property ([#1078](https://github.com/mdn/data/issues/1078)) ([63d45ef](https://github.com/mdn/data/commit/63d45ef8f366758edf561ca1918ae6d29beaa753))
+* **css:** update computed for `border/column-rule/outline-width`, `outline-offset` ([#1069](https://github.com/mdn/data/issues/1069)) ([dbf4dd3](https://github.com/mdn/data/commit/dbf4dd31b2cafa3bcb75ace51456fb791deab1f4))
+
+
+### Bug Fixes
+
+* **css:** `object-position` is not inherited ([#1072](https://github.com/mdn/data/issues/1072)) ([263efe7](https://github.com/mdn/data/commit/263efe763539713d05fe949e937b296df98cb00d))
+* **css:** `object-position` is not inherited by default ([263efe7](https://github.com/mdn/data/commit/263efe763539713d05fe949e937b296df98cb00d))
+* **css:** Correct border-shape group ([#1079](https://github.com/mdn/data/issues/1079)) ([68efdc9](https://github.com/mdn/data/commit/68efdc9bc5ff82af48ba79853e4e54aebf9e66d5))
+
 ## [2.28.1](https://github.com/mdn/data/compare/v2.28.0...v2.28.1) (2026-05-06)
 
 
