@@ -7410,7 +7410,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
-    "percentages": "n/a",
+    "percentages": "no",
     "groups": [
       "CSS Values and Units"
     ],
