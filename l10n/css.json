@@ -1286,6 +1286,9 @@
     "ru": "<code>none</code> (но это значение перезаписано в дефолтном CSS браузера)",
     "zh-TW": "<code>none</code>（但此值會在使用者代理 CSS 中被覆寫）"
   },
+  "noneOrAbsoluteLength": {
+    "en-US": "The keyword <code>none</code> or an absolute length."
+  },
   "noneOrImageWithAbsoluteURI": {
     "de": "<code>none</code> oder das Bild mit absoluter URI",
     "en-US": "<code>none</code> or the image with its URI made absolute",
@@ -1409,6 +1412,9 @@
     "fr": "l'ordre d'apparition dans la grammaire formelle des valeurs",
     "ja": "形式文法における値の出現順",
     "ru": "порядок появления в формальной грамматике значений"
+  },
+  "pathCircleEllipseLinePolygonPolylineRect": {
+    "en-US": "The SVG {{SVGElement(\"path\")}}, {{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, and {{SVGElement(\"rect\")}} elements."
   },
   "percentage": {
     "en-US": "percentage",

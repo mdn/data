@@ -9213,6 +9213,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/paint-order"
   },
+  "path-length": {
+    "syntax": "none | <length> [0,∞]",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "byComputedValue",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "none",
+    "appliesto": "pathCircleEllipseLinePolygonPolylineRect",
+    "computed": "noneOrAbsoluteLength",
+    "order": "uniqueOrder",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/path-length"
+  },
   "perspective": {
     "syntax": "none | <length>",
     "media": "visual",
