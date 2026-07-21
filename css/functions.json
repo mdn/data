@@ -463,6 +463,14 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-palette/palette-mix"
   },
+  "param()": {
+    "syntax": "mod( <dashed-ident>, <declaration-value>? )",
+    "groups": [
+      "CSS Values and Units"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/param"
+  },
   "path()": {
     "syntax": "path( <'fill-rule'>? , <string> )",
     "groups": [
