@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.30.0](https://github.com/mdn/data/compare/v2.29.0...v2.30.0) (2026-07-21)
+
+
+### Features
+
+* added data for link-parameters property and param() function ([#1082](https://github.com/mdn/data/issues/1082)) ([c840ba3](https://github.com/mdn/data/commit/c840ba36dd771d91bddfe4f6c1bcecd33f165c05))
+
 ## [2.29.0](https://github.com/mdn/data/compare/v2.28.1...v2.29.0) (2026-07-16)
 
 
