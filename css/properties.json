@@ -5665,6 +5665,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flex-grow"
   },
+  "flex-line-count": {
+    "syntax": "<integer [1,∞]>",
+    "media": "visual",
+    "inherited": false,
+    "animationType": "number",
+    "percentages": "no",
+    "groups": [
+      "CSS Flexible Box Layout"
+    ],
+    "initial": "1",
+    "appliesto": "multilineFlexContainers",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flex-line-count"
+  },
   "flex-shrink": {
     "syntax": "<number>",
     "media": "visual",
@@ -5682,7 +5698,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flex-shrink"
   },
   "flex-wrap": {
-    "syntax": "nowrap | wrap | wrap-reverse",
+    "syntax": "nowrap | [ wrap | wrap-reverse ] || balance",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
