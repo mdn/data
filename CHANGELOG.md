@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.31.0](https://github.com/mdn/data/compare/v2.30.0...v2.31.0) (2026-08-04)
+
+
+### Features
+
+* Add data for the path-length property ([#1081](https://github.com/mdn/data/issues/1081)) ([692e827](https://github.com/mdn/data/commit/692e827084cc155328f129f9c5eeb25afc602a64))
+
 ## [2.30.0](https://github.com/mdn/data/compare/v2.29.0...v2.30.0) (2026-07-30)
 
 
