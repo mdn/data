@@ -10947,7 +10947,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-color"
   },
   "text-decoration-inset": {
-    "syntax": "<length>{1,2} | auto",
+    "syntax": "<length-percentage>{1,2} | auto",
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValue",
