@@ -10951,7 +10951,7 @@
     "media": "visual",
     "inherited": false,
     "animationType": "byComputedValue",
-    "percentages": "no",
+    "percentages": "referToSizeOfElement",
     "groups": [
       "CSS Text Decoration"
     ],
