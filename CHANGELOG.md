@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.32.0](https://github.com/mdn/data/compare/v2.31.0...v2.32.0) (2026-08-11)
+
+
+### Features
+
+* updated the value for `text-decoration-inset` ([#1087](https://github.com/mdn/data/issues/1087)) ([17eeb6c](https://github.com/mdn/data/commit/17eeb6cd60efe64cf01d23db106b33aad37ef6bf))
+
 ## [2.31.0](https://github.com/mdn/data/compare/v2.30.0...v2.31.0) (2026-08-04)
 
 
