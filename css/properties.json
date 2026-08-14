@@ -11135,6 +11135,25 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis-style"
   },
+  "text-fit": {
+    "syntax": "[ none | grow | shrink ] [consistent | per-line | per-line-all]? <percentage>?",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Text"
+    ],
+    "initial": "none",
+    "appliesto": "blockContainerElements",
+    "computed": "specifiedKeywordOrComputedPercentage",
+    "order": "perGrammar",
+    "alsoAppliesTo": [
+      "::placeholder"
+    ],
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-fit"
+  },
   "text-indent": {
     "syntax": "<length-percentage> && hanging? && each-line?",
     "media": "visual",
