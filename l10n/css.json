@@ -1921,6 +1921,9 @@
     "en-US": "specified keyword, or computed function",
     "fr": "mot-clé défini, ou fonction calculée"
   },
+  "specifiedKeywordOrComputedPercentage": {
+    "en-US": "specified keyword, or computed <code>&lt;percentage&gt;</code>"
+  },
   "specifiedValue": {
     "en-US": "specified value",
     "fr": "valeur définie"
