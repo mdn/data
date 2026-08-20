@@ -16,7 +16,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/acos"
   },
   "alpha()": {
-    "syntax": "alpha( [from <color>] / [<alpha-value>] )",
+    "syntax": "alpha(from <<color>> / [<<alpha-value>> | none])",
     "groups": [
       "CSS Color"
     ],
