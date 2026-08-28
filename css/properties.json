@@ -12247,7 +12247,7 @@
     "syntax": "normal | reset | <number [0,∞]> || <percentage [0,∞]>",
     "media": "visual",
     "inherited": false,
-    "animationType": "notAnimatable",
+    "animationType": "byComputedValueType",
     "percentages": "convertedToNumber",
     "groups": [
       "CSS Viewport"
