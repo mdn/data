@@ -184,7 +184,7 @@
   "allElementsExceptInlineBoxesAndInternalRubyOrTableBoxes": {
     "de": "all elements except inline boxes and internal ruby or table boxes",
     "en-US": "all elements except inline boxes and internal ruby or table boxes",
-    "fr": "all elements except inline boxes and internal ruby or table boxes",
+    "fr": "tous les éléments sauf les boîtes en incise et les ruby ou tableaux internes",
     "ja": "インラインボックスおよび内部のルビまたは表ボックスを除くすべての要素",
     "ru": "all elements except inline boxes and internal ruby or table boxes",
     "zh-TW": "所有元素，除了行內區塊和內部的音標或表格區塊"
