@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.34.0](https://github.com/mdn/data/compare/v2.33.0...v2.34.0) (2026-08-28)
+
+
+### Features
+
+* Mark zoom property as animatable ([#1093](https://github.com/mdn/data/issues/1093)) ([4a9c8bf](https://github.com/mdn/data/commit/4a9c8bf5c7cc5bdca2c0371975f134f34562db4f))
+
+## [2.33.0](https://github.com/mdn/data/compare/v2.32.0...v2.33.0) (2026-08-14)
+
+
+### Features
+
+* Add data for text-fit property ([#1089](https://github.com/mdn/data/issues/1089)) ([3ed3bdc](https://github.com/mdn/data/commit/3ed3bdc886b2559bd4de679f03c46fc1d9448e46))
+
 ## [2.32.0](https://github.com/mdn/data/compare/v2.31.0...v2.32.0) (2026-08-11)
 
 
