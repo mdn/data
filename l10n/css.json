@@ -960,33 +960,33 @@
   },
   "inlineBoxesAndBlockContainers": {
     "en-US": "Inline boxes and block containers",
-    "fr": "boîtes un incise et conteneurs de bloc",
+    "fr": "boîtes en incise et conteneurs de bloc",
     "zh-TW": "行內方塊和區塊容器"
   },
   "inlineLevelAndTableCellElements": {
     "de": "Inline- und table-cell Elemente",
     "en-US": "inline-level and table-cell elements",
-    "fr": "éléments un incise et à ceux qui sont des cellules de tableau",
+    "fr": "éléments en incise et à ceux qui sont des cellules de tableau",
     "ja": "インラインレベルおよびテーブルセル要素",
     "ru": "строчным элементам и ячейкам таблиц",
     "zh-TW": "行內層和表格儲存格元素"
   },
   "inlineLevelBoxes": {
     "en-US": "inline-level boxes",
-    "fr": "boîtes un incise"
+    "fr": "boîtes en incise"
   },
   "inlineLevelBoxesAndSVGTextContentElements": {
     "en-US": "inline-level boxes and SVG text content elements",
-    "fr": "boîtes un incise et éléments de contenu textuel SVG"
+    "fr": "boîtes en incise et éléments de contenu textuel SVG"
   },
   "inlineLevelBoxesFlexItemsGridItemsTableCellsAndSVGTextContentElements": {
     "en-US": "inline-level boxes, flex items, grid items, table cells, and SVG text content elements",
-    "fr": "boîtes un incise, éléments flexibles, éléments de grille, cellules de tableau et éléments de contenu textuel SVG"
+    "fr": "boîtes en incise, éléments flexibles, éléments de grille, cellules de tableau et éléments de contenu textuel SVG"
   },
   "inlineSizeOfContainingBlock": {
     "de": "Inlinegröße des beinhaltenden Blocks",
     "en-US": "inline-size of containing block",
-    "fr": "la taille un incise du bloc englobant",
+    "fr": "la taille en incise du bloc englobant",
     "ja": "包含ブロックの inline-size",
     "ru": "встроенный размер содержащего блока"
   },
