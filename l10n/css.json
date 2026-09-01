@@ -66,7 +66,8 @@
     "fr": "une longueur ({{cssxref(\"length\")}}) absolue ou un pourcentage ({{cssxref(\"percentage\")}}), les nombres étant d'abord convertis en longueurs absolues"
   },
   "absoluteLengthSnappedAsLineWidth": {
-    "en-US": "the absolute {{cssxref(\"length\")}}, snapped as a line width"
+    "en-US": "the absolute {{cssxref(\"length\")}}, snapped as a line width",
+    "fr": "la longueur ({{cssxref(\"length\")}}) absolue, ajustée à la largeur d'une ligne"
   },
   "absoluteLengthsSpecifiedColorAsSpecified": {
     "de": "Längen absolut gemacht; angegebene Farben berechnet; ansonsten wie angegeben",
@@ -150,7 +151,7 @@
     "de": "alle Elemente außer nicht ersetzte Inlineelemente, Tabellenspalten und Spaltengruppen",
     "en-US": "all elements but non-replaced inline elements, table columns, and column groups",
     "es": "elementos de bloque o remplazados",
-    "fr": "tous les éléments sauf les éléments en ligne non remplacés, les colonnes de tableaux et les groupes de colonnes",
+    "fr": "tous les éléments sauf les éléments en incise non remplacés, les colonnes de tableaux et les groupes de colonnes",
     "ja": "非置換インライン要素、テーブルの列、列グループを除くすべての要素",
     "ru": "все элементы, кроме незаменяемых строчных элементов, табличных колонок и групп колонок",
     "zh-CN": "适用于所有元素，但不包括非替换行级元素、表格列和列组",
@@ -159,7 +160,7 @@
   "allElementsButNonReplacedAndTableRows": {
     "de": "alle Elemente außer nicht ersetzte Inlineelemente, Tabellenzeilen und Zeilengruppen",
     "en-US": "all elements but non-replaced inline elements, table rows, and row groups",
-    "fr": "tous les éléments sauf les éléments en ligne non remplacés, les lignes de tableaux et les groupes de lignes",
+    "fr": "tous les éléments sauf les éléments en incise non remplacés, les lignes de tableaux et les groupes de lignes",
     "ja": "置換要素でないインライン要素、テーブルの行、行グループを除くすべての要素",
     "ru": "все элементы, кроме незаменяемых строчных элементов, табличных строк и групп строк",
     "zh-TW": "所有元素，除了非替換的行內元素、表格列和列群組"
@@ -183,7 +184,7 @@
   "allElementsExceptInlineBoxesAndInternalRubyOrTableBoxes": {
     "de": "all elements except inline boxes and internal ruby or table boxes",
     "en-US": "all elements except inline boxes and internal ruby or table boxes",
-    "fr": "all elements except inline boxes and internal ruby or table boxes",
+    "fr": "tous les éléments sauf les boîtes en incise et les ruby ou tableaux internes",
     "ja": "インラインボックスおよび内部のルビまたは表ボックスを除くすべての要素",
     "ru": "all elements except inline boxes and internal ruby or table boxes",
     "zh-TW": "所有元素，除了行內區塊和內部的音標或表格區塊"
@@ -199,7 +200,7 @@
   "allElementsExceptNonReplacedInlineElementsTableRowsColumnsRowColumnGroups": {
     "de": "alle Elemente außer: nicht ersetzte Inlineelemente, Tabellenzeilen, Zeilengruppen, Tabellenspalten und Spaltengruppen",
     "en-US": "all elements except: non-replaced inline elements, table rows, row groups, table columns, and column groups",
-    "fr": "tous les éléments sauf&nbsp;: les éléments en ligne non remplacés, les lignes, les groupes de lignes, les colonnes et les groupes de colonnes pour les tableaux",
+    "fr": "tous les éléments sauf&nbsp;: les éléments en incise non remplacés, les lignes, les groupes de lignes, les colonnes et les groupes de colonnes pour les tableaux",
     "ja": "非置換インライン要素、表の行、行グループ、表の列、列グループを除くすべての要素",
     "ru": "все элементы, кроме: незаменяемых строчных элементов, строк и колонок таблиц",
     "zh-TW": "所有元素，除了非替換的行內元素、表格列、列群組、表格欄和欄群組"
@@ -247,7 +248,7 @@
   "allElementsSomeValuesNoEffectOnNonInlineElements": {
     "de": "Alle Elemente, einige Werte haben keine Wirkung bei non-inline Elementen",
     "en-US": "all elements, though some values have no effect on non-inline elements",
-    "fr": "tous les éléments bien que certaines valeurs n'aient pas d'effet sur les éléments qui ne sont pas en ligne",
+    "fr": "tous les éléments bien que certaines valeurs n'aient pas d'effet sur les éléments qui ne sont pas en incise",
     "ja": "すべての要素。ただし一部の値はインラインでない要素には効果がありません",
     "ru": "все элементы, хотя некоторые значения не работают на не строчных элементах",
     "zh-TW": "所有元素，但某些值對非行內元素無效"
@@ -378,12 +379,13 @@
     "ja": "<code>auto</code> は仕様通りに計算され、 <code>&lt;color&gt;</code> 値は {{cssxref(\"color\")}} プロパティで定義されたように計算される。"
   },
   "asColorOrAbsoluteURL": {
-    "en-US": "as specified, but with <code>&lt;color&gt;</code> values computed and <code>&lt;url&gt;</code> values made absolute"
+    "en-US": "as specified, but with <code>&lt;color&gt;</code> values computed and <code>&lt;url&gt;</code> values made absolute",
+    "fr": "comme défini, mais avec les valeurs <code>&lt;color&gt;</code> calculées et les valeurs <code>&lt;url&gt;</code> rendues absolues"
   },
   "asDefinedForBasicShapeWithAbsoluteURIOtherwiseAsSpecified": {
     "de": "wie definiert für {{cssxref(\"basic-shape\")}} (gefolgt von {{cssxref(\"shape-box\")}}, falls angegeben), dem {{cssxref(\"image\")}}, dessen URI absolut gemacht wurde, ansonsten wie angegeben.",
     "en-US": "as defined for {{cssxref(\"basic-shape\")}} (with {{cssxref(\"shape-box\")}} following, if supplied), the {{cssxref(\"image\")}} with its URI made absolute, otherwise as specified.",
-    "fr": "comme défini pour {{cssxref(\"basic-shape\")}} (avec {{cssxref(\"shape-box\")}} qui suit s'il est utilisé), l'{{cssxref(\"image\")}} avec son URI rendue absolue, sinon, comme défini.",
+    "fr": "comme défini pour {{cssxref(\"basic-shape\")}} (avec {{cssxref(\"shape-box\")}} qui suit s'il est utilisé), une {{cssxref(\"image\")}} avec son URI rendue absolue, sinon, comme défini.",
     "ja": "{{cssxref(\"basic-shape\")}} で定義された通り (与えられている場合は {{cssxref(\"shape-box\")}} が続く)、 URI を絶対化した {{cssxref(\"image\")}}、それ以外は指定通り。",
     "ru": "как определено для {{cssxref(\"basic-shape\")}} (c {{cssxref(\"shape-box\")}} последующим, если передается),  {{cssxref(\"image\")}} с его абсолютным URI, если другое не указано"
   },
@@ -515,7 +517,8 @@
     "ru": "при <code>auto</code> абсолютно позиционированные элементы вычисляют сами и вычисленное значение {{cssxref(\"align-items\")}} для родителя (кроме ключевых слов) на остальных блоках, или <code>start</code>, если у блока нет родителя. Его поведение зависит от модели макета, описываемой {{cssxref(\"justify-self\")}}. Иначе указанное значение."
   },
   "autoOrAbsoluteLength": {
-    "en-US": "<code>auto</code> if specified as <code>auto</code>, otherwise for {{cssxref(\"length\")}} the absolute value specified"
+    "en-US": "<code>auto</code> if specified as <code>auto</code>, otherwise for {{cssxref(\"length\")}} the absolute value specified",
+    "fr": "<code>auto</code> si défini comme <code>auto</code>, sinon pour la longueur ({{cssxref(\"length\")}}) la valeur absolue définie"
   },
   "autoOrRectangle": {
     "de": "<code>auto</code>, falls als <code>auto</code> angegeben, ansonsten ein Rechteck mit vier Werten, von denen jeder <code>auto</code> ist, falls als <code>auto</code> angegeben, ansonsten die berechnete Länge",
@@ -564,7 +567,7 @@
   },
   "blockContainersAndInlineBoxes": {
     "en-US": "Block containers and inline boxes",
-    "fr": "Conteneurs de type bloc et boîtes en ligne"
+    "fr": "Conteneurs de type bloc et boîtes en incise"
   },
   "blockContainersAndMultiColumnContainers": {
     "de": "Blockcontainer und mehrspaltige Container",
@@ -591,7 +594,7 @@
   },
   "blockContainersFlexContainersGridContainersInlineBoxesTableRowsSVGTextContentElements": {
     "en-US": "Block-containers, flex containers, grid containers, inline boxes, table rows, and SVG text content elements",
-    "fr": "Conteneurs de type bloc, conteneurs flexibles, conteneurs de grille, boîtes en ligne, lignes de tableau et éléments de contenu textuel SVG"
+    "fr": "Conteneurs de type bloc, conteneurs flexibles, conteneurs de grille, boîtes en incise, lignes de tableau et éléments de contenu textuel SVG"
   },
   "blockContainersMultiColumnContainersFlexContainersGridContainers": {
     "en-US": "Block-containers, multi-column containers, flex containers",
@@ -818,6 +821,7 @@
   },
   "exclusionElements": {
     "en-US": "exclusion elements",
+    "fr": "éléments d'exclusion",
     "ja": "除外要素",
     "zh-CN": "排除元素"
   },
@@ -830,7 +834,7 @@
   "firstLetterPseudoElementsAndInlineLevelFirstChildren": {
     "de": "{{cssxref(\"::first-letter\")}} Pseudoelemente und Inline-Level-Elemente, die die ersten Kinder eines Blockcontainers sind",
     "en-US": "{{cssxref(\"::first-letter\")}} pseudo-elements and inline-level first child of a block container",
-    "fr": "pseudo-éléments {{cssxref(\"::first-letter\")}} et le premier fils, en ligne (<i lang=\"en\">inline</i>) d'un conteneur de bloc",
+    "fr": "pseudo-éléments {{cssxref(\"::first-letter\")}} et le premier fils, en incise (<i lang=\"en\">inline</i>) d'un conteneur de bloc",
     "ja": "{{cssxref(\"::first-letter\")}} 擬似要素と、ブロックコンテナーの最初のインラインレベルの子",
     "ru": "{{cssxref(\"::first-letter\")}} псевдоэлементы и первые строчные потомки блока"
   },
@@ -912,7 +916,7 @@
   },
   "gridContainersWithMasonryLayoutInTheirInlineAxis": {
     "en-US": "Grid containers with masonry layout in their inline axis",
-    "fr": "Conteneurs de grille avec une mise en page en maçonnerie dans leur axe en ligne",
+    "fr": "Conteneurs de grille avec une mise en page en maçonnerie dans leur axe en incise",
     "ja": "インライン軸がマソンリーレイアウトのグリッドコンテナー",
     "zh-TW": "行內軸採瀑布流版面的格線容器"
   },
@@ -956,33 +960,33 @@
   },
   "inlineBoxesAndBlockContainers": {
     "en-US": "Inline boxes and block containers",
-    "fr": "boîtes en ligne et conteneurs de bloc",
+    "fr": "boîtes en incise et conteneurs de bloc",
     "zh-TW": "行內方塊和區塊容器"
   },
   "inlineLevelAndTableCellElements": {
     "de": "Inline- und table-cell Elemente",
     "en-US": "inline-level and table-cell elements",
-    "fr": "éléments en ligne et à ceux qui sont des cellules de tableau",
+    "fr": "éléments en incise et à ceux qui sont des cellules de tableau",
     "ja": "インラインレベルおよびテーブルセル要素",
     "ru": "строчным элементам и ячейкам таблиц",
     "zh-TW": "行內層和表格儲存格元素"
   },
   "inlineLevelBoxes": {
     "en-US": "inline-level boxes",
-    "fr": "boîtes en ligne"
+    "fr": "boîtes en incise"
   },
   "inlineLevelBoxesAndSVGTextContentElements": {
     "en-US": "inline-level boxes and SVG text content elements",
-    "fr": "boîtes en ligne et éléments de contenu textuel SVG"
+    "fr": "boîtes en incise et éléments de contenu textuel SVG"
   },
   "inlineLevelBoxesFlexItemsGridItemsTableCellsAndSVGTextContentElements": {
     "en-US": "inline-level boxes, flex items, grid items, table cells, and SVG text content elements",
-    "fr": "boîtes en ligne, éléments flexibles, éléments de grille, cellules de tableau et éléments de contenu textuel SVG"
+    "fr": "boîtes en incise, éléments flexibles, éléments de grille, cellules de tableau et éléments de contenu textuel SVG"
   },
   "inlineSizeOfContainingBlock": {
     "de": "Inlinegröße des beinhaltenden Blocks",
     "en-US": "inline-size of containing block",
-    "fr": "la taille en ligne du bloc englobant",
+    "fr": "la taille en incise du bloc englobant",
     "ja": "包含ブロックの inline-size",
     "ru": "встроенный размер содержащего блока"
   },
@@ -1287,7 +1291,8 @@
     "zh-TW": "<code>none</code>（但此值會在使用者代理 CSS 中被覆寫）"
   },
   "noneOrAbsoluteLength": {
-    "en-US": "The keyword <code>none</code> or an absolute length."
+    "en-US": "The keyword <code>none</code> or an absolute length.",
+    "fr": "Le mot-clé <code>none</code> ou une longueur absolue."
   },
   "noneOrImageWithAbsoluteURI": {
     "de": "<code>none</code> oder das Bild mit absoluter URI",
@@ -1306,7 +1311,7 @@
   "nonReplacedBlockAndInlineBlockElements": {
     "de": "nicht ersetzte Blocklevel Elemente und nicht ersetzte Inlineblock Elemente",
     "en-US": "non-replaced block-level elements and non-replaced inline-block elements",
-    "fr": "les éléments de bloc non remplacés et les éléments en bloc en ligne et en bloc (inline-block)",
+    "fr": "les éléments de bloc non remplacés et les éléments en bloc en incise et en bloc (inline-block)",
     "ja": "非置換ブロックレベル要素と非置換インラインブロック要素",
     "ru": "не заменяемые блочные и inline-block элементы"
   },
@@ -1325,7 +1330,7 @@
   "nonReplacedInlineElements": {
     "de": "nicht ersetzte Inlineelemente",
     "en-US": "non-replaced inline elements",
-    "fr": "les éléments en ligne non remplacés",
+    "fr": "les éléments en incise non remplacés",
     "ja": "置換でないインライン要素",
     "ru": "не заменяемые строчные элементы"
   },
@@ -1414,7 +1419,8 @@
     "ru": "порядок появления в формальной грамматике значений"
   },
   "pathCircleEllipseLinePolygonPolylineRect": {
-    "en-US": "The SVG {{SVGElement(\"path\")}}, {{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, and {{SVGElement(\"rect\")}} elements."
+    "en-US": "The SVG {{SVGElement(\"path\")}}, {{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}}, and {{SVGElement(\"rect\")}} elements.",
+    "fr": "Les éléments SVG {{SVGElement(\"path\")}}, {{SVGElement(\"circle\")}}, {{SVGElement(\"ellipse\")}}, {{SVGElement(\"line\")}}, {{SVGElement(\"polygon\")}}, {{SVGElement(\"polyline\")}} et {{SVGElement(\"rect\")}}."
   },
   "percentage": {
     "en-US": "percentage",
@@ -1758,10 +1764,12 @@
   },
   "relativeToCorrespondingDimensionOfRelevantScrollport": {
     "en-US": "Relative to the corresponding dimension of the relevant scrollport",
+    "fr": "Relatif à la dimension correspondante du conteneur de défilement pertinent",
     "ja": "関連するスクロールポートの対応する寸法との相対値"
   },
   "relativeToMaskBorderImageArea": {
     "en-US": "relative to width/height of the mask border image area",
+    "fr": "relatif à la largeur/hauteur de la zone de l'image de la bordure du masque",
     "ja": "境界マスク画像領域の幅/高さに対する相対値",
     "zh-TW": "相對於遮罩框線圖片區域的寬度/高度"
   },
@@ -1922,7 +1930,8 @@
     "fr": "mot-clé défini, ou fonction calculée"
   },
   "specifiedKeywordOrComputedPercentage": {
-    "en-US": "specified keyword, or computed <code>&lt;percentage&gt;</code>"
+    "en-US": "specified keyword, or computed <code>&lt;percentage&gt;</code>",
+    "fr": "mot-clé défini, ou le pourcentage (<code>&lt;percentage&gt;</code>) calculé"
   },
   "specifiedValue": {
     "en-US": "specified value",
