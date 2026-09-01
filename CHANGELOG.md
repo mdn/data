@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.35.0](https://github.com/mdn/data/compare/v2.34.0...v2.35.0) (2026-09-01)
+
+
+### Features
+
+* added the syntax for alpha() function ([#1092](https://github.com/mdn/data/issues/1092)) ([53f04b6](https://github.com/mdn/data/commit/53f04b69fbe6c97b2785e99d87e9136ab005591d))
+
+
+### Miscellaneous
+
+* **l10n:** update French strings ([#1091](https://github.com/mdn/data/issues/1091)) ([ab126e2](https://github.com/mdn/data/commit/ab126e2867073e3c0ce5f516b6922d23dce02514))
+
 ## [2.34.0](https://github.com/mdn/data/compare/v2.33.0...v2.34.0) (2026-08-28)
 
 
