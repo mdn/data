@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.36.0](https://github.com/mdn/data/compare/v2.35.0...v2.36.0) (2026-09-11)
+
+
+### Features
+
+* add data for scroll-axis-lock ([#1097](https://github.com/mdn/data/issues/1097)) ([a60e210](https://github.com/mdn/data/commit/a60e210171b517ad8c2f30db252fe7ab59baeb04))
+
 ## [2.35.0](https://github.com/mdn/data/compare/v2.34.0...v2.35.0) (2026-09-01)
 
 
