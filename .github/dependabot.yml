@@ -2,22 +2,42 @@ version: 2
 
 updates:
   - package-ecosystem: npm
-    directory: "/"
+    directory: /
     schedule:
       interval: daily
     open-pull-requests-limit: 10
+    cooldown:
+      default-days: 3
+    groups:
+      npm-prod:
+        dependency-type: production
+        update-types:
+          - minor
+          - patch
+      npm-dev:
+        dependency-type: development
+        update-types:
+          - minor
+          - patch
     labels:
-      - "automated pr"
-      - "dependencies"
-      - "javascript"
+      - automated pr
+      - dependencies
+      - javascript
+    commit-message:
+      prefix: chore
+      include: scope
 
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: github-actions
+    directory: /
     schedule:
       interval: weekly
+    open-pull-requests-limit: 10
+    cooldown:
+      default-days: 3
     labels:
-      - "automated pr"
-      - "dependencies"
-      - "github actions"
+      - automated pr
+      - dependencies
+      - github actions
     commit-message:
-      prefix: "ci(deps): "
+      prefix: ci
+      include: scope
