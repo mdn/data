@@ -12141,6 +12141,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/will-change"
   },
+  "window-drag": {
+    "syntax": "none | move",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "CSS Basic User Interface"
+    ],
+    "initial": "none",
+    "appliesto": "allElements",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/window-drag"
+  },
   "word-break": {
     "syntax": "normal | break-all | keep-all | break-word | auto-phrase",
     "media": "visual",
