@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.37.0](https://github.com/mdn/data/compare/v2.36.0...v2.37.0) (2026-09-22)
+
+
+### Features
+
+* Add page-margin-safety descriptor ([#1103](https://github.com/mdn/data/issues/1103)) ([c96fb91](https://github.com/mdn/data/commit/c96fb91959932f580cf79ad5183fb999985942c9))
+* Add window-drag CSS property ([#1099](https://github.com/mdn/data/issues/1099)) ([bcc7ba1](https://github.com/mdn/data/commit/bcc7ba17bc86f7165be41e1cf19f715b1be4ed47))
+
 ## [2.36.0](https://github.com/mdn/data/compare/v2.35.0...v2.36.0) (2026-09-11)
 
 
