@@ -430,6 +430,19 @@
         "order": "orderOfAppearance",
         "status": "standard"
       },
+      "page-margin-safety": {
+        "syntax": "none | clamp | add",
+        "media": [
+          "visual",
+          "paged"
+        ],
+        "initial": "none",
+        "percentages": "no",
+        "computed": "asSpecified",
+        "order": "orderOfAppearance",
+        "status": "standard",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@page/page-margin-safety"
+      },
       "page-orientation": {
         "syntax": "upright | rotate-left | rotate-right",
         "media": [
