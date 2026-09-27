@@ -5,7 +5,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/abs"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/abs"
   },
   "acos()": {
     "syntax": "acos( <calc-sum> )",
@@ -13,7 +13,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/acos"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/acos"
   },
   "alpha()": {
     "syntax": "alpha( from <color> / [ <alpha-value> | none ] )",
@@ -29,7 +29,7 @@
       "CSS Anchor Positioning"
     ],
     "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/anchor"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/anchor"
   },
   "anchor-size()": {
     "syntax": "anchor-size( [ <anchor-name> || <anchor-size> ]? , <length-percentage>? )",
@@ -37,7 +37,7 @@
       "CSS Anchor Positioning"
     ],
     "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/anchor-size"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/anchor-size"
   },
   "asin()": {
     "syntax": "asin( <calc-sum> )",
@@ -45,7 +45,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/asin"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/asin"
   },
   "atan()": {
     "syntax": "atan( <calc-sum> )",
@@ -53,7 +53,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/atan"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/atan"
   },
   "atan2()": {
     "syntax": "atan2( <calc-sum>, <calc-sum> )",
@@ -61,7 +61,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/atan2"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/atan2"
   },
   "attr()": {
     "syntax": "attr( <attr-name> <attr-type>? , <declaration-value>? )",
@@ -69,7 +69,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/attr"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/attr"
   },
   "blur()": {
     "syntax": "blur( <length>? )",
@@ -77,7 +77,7 @@
       "Filter Effects"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/blur"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/blur"
   },
   "brightness()": {
     "syntax": "brightness( [ <number> | <percentage> ]? )",
@@ -85,7 +85,7 @@
       "Filter Effects"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/brightness"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/brightness"
   },
   "calc()": {
     "syntax": "calc( <calc-sum> )",
@@ -93,7 +93,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/calc"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/calc"
   },
   "calc-size()": {
     "syntax": "calc-size( <calc-size-basis>, <calc-sum> )",
@@ -101,7 +101,7 @@
       "CSS Values and Units"
     ],
     "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/calc-size"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/calc-size"
   },
   "circle()": {
     "syntax": "circle( <radial-size>? [ at <position> ]? )",
@@ -109,7 +109,7 @@
       "CSS Shapes"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/circle"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/circle"
   },
   "clamp()": {
     "syntax": "clamp( <calc-sum>#{3} )",
@@ -117,7 +117,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/clamp"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/clamp"
   },
   "color()": {
     "syntax": "color( [ from <color> ]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )",
@@ -125,7 +125,7 @@
       "CSS Color"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/color"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/color"
   },
   "color-mix()": {
     "syntax": "color-mix( <color-interpolation-method> , [ <color> && <percentage [0,100]>? ]#{2})",
@@ -133,7 +133,7 @@
       "CSS Color"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/color-mix"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/color-mix"
   },
   "conic-gradient()": {
     "syntax": "conic-gradient( [ <conic-gradient-syntax> ] )",
@@ -141,7 +141,7 @@
       "CSS Images"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/conic-gradient"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient/conic-gradient"
   },
   "contrast()": {
     "syntax": "contrast( [ <number> | <percentage> ]? )",
@@ -149,7 +149,7 @@
       "Filter Effects"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/contrast"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/contrast"
   },
   "cos()": {
     "syntax": "cos( <calc-sum> )",
@@ -157,7 +157,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/cos"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/cos"
   },
   "counter()": {
     "syntax": "counter( <counter-name>, <counter-style>? )",
@@ -165,7 +165,7 @@
       "CSS Lists and Counters"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/counter"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/counter"
   },
   "counters()": {
     "syntax": "counters( <counter-name>, <string>, <counter-style>? )",
@@ -173,7 +173,7 @@
       "CSS Lists and Counters"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/counters"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/counters"
   },
   "cross-fade()": {
     "syntax": "cross-fade( <cf-mixing-image> , <cf-final-image>? )",
@@ -181,7 +181,7 @@
       "CSS Images"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/cross-fade"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/cross-fade"
   },
   "cubic-bezier()": {
     "syntax": "cubic-bezier( [ <number [0,1]>, <number> ]#{2} )",
@@ -189,7 +189,7 @@
       "CSS Easing Functions"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/easing-function/cubic-bezier"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
   },
   "drop-shadow()": {
     "syntax": "drop-shadow( [ <color>? && <length>{2,3} ] )",
@@ -197,7 +197,7 @@
       "Filter Effects"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/drop-shadow"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/drop-shadow"
   },
   "element()": {
     "syntax": "element( <id-selector> )",
@@ -205,7 +205,7 @@
       "CSS Images"
     ],
     "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/element"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/element"
   },
   "ellipse()": {
     "syntax": "ellipse( <radial-size>? [ at <position> ]? )",
@@ -213,7 +213,7 @@
       "CSS Shapes"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/ellipse"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/ellipse"
   },
   "env()": {
     "syntax": "env( <custom-ident> , <declaration-value>? )",
@@ -221,7 +221,7 @@
       "CSS Environment Variables"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/env"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/env"
   },
   "exp()": {
     "syntax": "exp( <calc-sum> )",
@@ -229,7 +229,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/exp"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/exp"
   },
   "fit-content()": {
     "syntax": "fit-content( <length-percentage [0,∞]> )",
@@ -238,7 +238,7 @@
       "CSS Grid Layout"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fit-content_function"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/fit-content_function"
   },
   "grayscale()": {
     "syntax": "grayscale( [ <number> | <percentage> ]? )",
@@ -246,7 +246,7 @@
       "Filter Effects"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/grayscale"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/grayscale"
   },
   "hsl()": {
     "syntax": "hsl( <hue>, <percentage>, <percentage>, <alpha-value>? ) | hsl( [ <hue> | none ] [ <percentage> | <number> | none ] [ <percentage> | <number> | none ] [ / [ <alpha-value> | none ] ]? )",
@@ -254,7 +254,7 @@
       "CSS Color"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/hsl"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/hsl"
   },
   "hsla()": {
     "syntax": "hsla( <hue>, <percentage>, <percentage>, <alpha-value>? ) | hsla( [ <hue> | none ] [ <percentage> | <number> | none ] [ <percentage> | <number> | none ] [ / [ <alpha-value> | none ] ]? )",
@@ -262,7 +262,7 @@
       "CSS Color"
     ],
     "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/hsl"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/hsl"
   },
   "hue-rotate()": {
     "syntax": "hue-rotate( [ <angle> | <zero> ]? )",
@@ -270,7 +270,7 @@
       "Filter Effects"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/hue-rotate"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/hue-rotate"
   },
   "hwb()": {
     "syntax": "hwb( [ <hue> | none ] [ <percentage> | <number> | none ] [ <percentage> | <number> | none ] [ / [ <alpha-value> | none ] ]? )",
@@ -278,7 +278,7 @@
       "CSS Color"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/hwb"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/hwb"
   },
   "hypot()": {
     "syntax": "hypot( <calc-sum># )",
@@ -286,7 +286,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/hypot"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/hypot"
   },
   "image()": {
     "syntax": "image( <image-tags>? [ <image-src>? , <color>? ]! )",
@@ -294,7 +294,7 @@
       "CSS Images"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/image/image"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/image/image"
   },
   "image-set()": {
     "syntax": "image-set( <image-set-option># )",
@@ -302,7 +302,7 @@
       "CSS Images"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/image/image-set"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/image/image-set"
   },
   "inset()": {
     "syntax": "inset( <length-percentage>{1,4} [ round <'border-radius'> ]? )",
@@ -310,7 +310,7 @@
       "CSS Shapes"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/inset"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/inset"
   },
   "invert()": {
     "syntax": "invert( [ <number> | <percentage> ]? )",
@@ -318,7 +318,7 @@
       "Filter Effects"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/invert"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/invert"
   },
   "lab()": {
     "syntax": "lab( [<percentage> | <number> | none] [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ / [<alpha-value> | none] ]? )",
@@ -326,7 +326,7 @@
       "CSS Color"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/lab"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/lab"
   },
   "layer()": {
     "syntax": "layer( <layer-name> )",
@@ -334,7 +334,7 @@
       "CSS Cascading and Inheritance"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@import/layer_function"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/@import/layer_function"
   },
   "lch()": {
     "syntax": "lch( [<percentage> | <number> | none] [ <percentage> | <number> | none] [ <hue> | none] [ / [<alpha-value> | none] ]? )",
@@ -342,7 +342,7 @@
       "CSS Color"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/lch"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/lch"
   },
   "leader()": {
     "syntax": "leader( <leader-type> )",
@@ -357,7 +357,7 @@
       "CSS Color"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/light-dark"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/light-dark"
   },
   "linear()": {
     "syntax": "linear( [ <number> && <percentage>{0,2} ]# )",
@@ -365,7 +365,7 @@
       "CSS Easing Functions"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/easing-function/linear"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/easing-function/linear"
   },
   "linear-gradient()": {
     "syntax": "linear-gradient( [ <linear-gradient-syntax> ] )",
@@ -373,7 +373,7 @@
       "CSS Images"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/linear-gradient"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient/linear-gradient"
   },
   "log()": {
     "syntax": "log( <calc-sum>, <calc-sum>? )",
@@ -381,7 +381,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/log"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/log"
   },
   "matrix()": {
     "syntax": "matrix( <number>#{6} )",
@@ -389,7 +389,7 @@
       "CSS Transforms"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/matrix"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/matrix"
   },
   "matrix3d()": {
     "syntax": "matrix3d( <number>#{16} )",
@@ -397,7 +397,7 @@
       "CSS Transforms"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/matrix3d"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/matrix3d"
   },
   "max()": {
     "syntax": "max( <calc-sum># )",
@@ -405,7 +405,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/max"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/max"
   },
   "min()": {
     "syntax": "min( <calc-sum># )",
@@ -413,7 +413,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/min"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/min"
   },
   "minmax()": {
     "syntax": "minmax( [ <length-percentage> | min-content | max-content | auto ] , [ <length-percentage> | <flex> | min-content | max-content | auto ] )",
@@ -421,7 +421,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/minmax"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/minmax"
   },
   "mod()": {
     "syntax": "mod( <calc-sum>, <calc-sum> )",
@@ -429,7 +429,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/mod"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/mod"
   },
   "oklab()": {
     "syntax": "oklab( [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ / [<alpha-value> | none] ]? )",
@@ -437,7 +437,7 @@
       "CSS Color"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/oklab"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/oklab"
   },
   "oklch()": {
     "syntax": "oklch( [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ <hue> | none] [ / [<alpha-value> | none] ]? )",
@@ -445,7 +445,7 @@
       "CSS Color"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/oklch"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/oklch"
   },
   "opacity()": {
     "syntax": "opacity( [ <number> | <percentage> ]? )",
@@ -453,7 +453,7 @@
       "Filter Effects"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/opacity"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/opacity"
   },
   "paint()": {
     "syntax": "paint( <ident>, <declaration-value>? )",
@@ -461,7 +461,7 @@
       "CSS Houdini"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/image/paint"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/image/paint"
   },
   "palette-mix()": {
     "syntax": "palette-mix(<color-interpolation-method> , [ [normal | light | dark | <palette-identifier> | <palette-mix()> ] && <percentage [0,100]>? ]#{2})",
@@ -469,7 +469,7 @@
       "CSS Fonts"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/font-palette/palette-mix"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/font-palette/palette-mix"
   },
   "param()": {
     "syntax": "mod( <dashed-ident>, <declaration-value>? )",
@@ -477,7 +477,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/param"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/param"
   },
   "path()": {
     "syntax": "path( <'fill-rule'>? , <string> )",
@@ -485,7 +485,7 @@
       "CSS Shapes"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/path"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/path"
   },
   "perspective()": {
     "syntax": "perspective( [ <length [0,∞]> | none ] )",
@@ -493,7 +493,7 @@
       "CSS Transforms"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/perspective"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/perspective"
   },
   "polygon()": {
     "syntax": "polygon( <'fill-rule'>? , [ <length-percentage> <length-percentage> ]# )",
@@ -501,7 +501,7 @@
       "CSS Shapes"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/polygon"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/polygon"
   },
   "pow()": {
     "syntax": "pow( <calc-sum>, <calc-sum> )",
@@ -509,7 +509,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/pow"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/pow"
   },
   "radial-gradient()": {
     "syntax": "radial-gradient( [ <radial-gradient-syntax> ] )",
@@ -517,7 +517,7 @@
       "CSS Images"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/radial-gradient"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient/radial-gradient"
   },
   "ray()": {
     "syntax": "ray( <angle> && <ray-size>? && contain? && [at <position>]? )",
@@ -525,7 +525,7 @@
       "Motion Path"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ray"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/ray"
   },
   "rect()": {
     "syntax": "rect( [ <length-percentage> | auto ]{4} [ round <'border-radius'> ]? )",
@@ -533,7 +533,7 @@
       "CSS Shapes"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/rect"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/rect"
   },
   "rem()": {
     "syntax": "rem( <calc-sum>, <calc-sum> )",
@@ -541,7 +541,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/rem"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/rem"
   },
   "repeating-conic-gradient()": {
     "syntax": "repeating-conic-gradient( [ <conic-gradient-syntax> ] )",
@@ -549,7 +549,7 @@
       "CSS Images"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-conic-gradient"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient/repeating-conic-gradient"
   },
   "repeating-linear-gradient()": {
     "syntax": "repeating-linear-gradient( [ <linear-gradient-syntax> ] )",
@@ -557,7 +557,7 @@
       "CSS Images"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-linear-gradient"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient/repeating-linear-gradient"
   },
   "repeating-radial-gradient()": {
     "syntax": "repeating-radial-gradient( [ <radial-gradient-syntax> ] )",
@@ -565,7 +565,7 @@
       "CSS Images"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-radial-gradient"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient/repeating-radial-gradient"
   },
   "rgb()": {
     "syntax": "rgb( <percentage>#{3} , <alpha-value>? ) | rgb( <number>#{3} , <alpha-value>? ) | rgb( [ <number> | <percentage> | none ]{3} [ / [ <alpha-value> | none ] ]? )",
@@ -573,7 +573,7 @@
       "CSS Color"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/rgb"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/rgb"
   },
   "rgba()": {
     "syntax": "rgba( <percentage>#{3} , <alpha-value>? ) | rgba( <number>#{3} , <alpha-value>? ) | rgba( [ <number> | <percentage> | none ]{3} [ / [ <alpha-value> | none ] ]? )",
@@ -581,7 +581,7 @@
       "CSS Color"
     ],
     "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value/rgb"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/rgb"
   },
   "rotate()": {
     "syntax": "rotate( [ <angle> | <zero> ] )",
@@ -589,7 +589,7 @@
       "CSS Transforms"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/rotate"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/rotate"
   },
   "rotate3d()": {
     "syntax": "rotate3d( <number> , <number> , <number> , [ <angle> | <zero> ] )",
@@ -597,7 +597,7 @@
       "CSS Transforms"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/rotate3d"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/rotate3d"
   },
   "rotateX()": {
     "syntax": "rotateX( [ <angle> | <zero> ] )",
@@ -605,7 +605,7 @@
       "CSS Transforms"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/rotateX"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/rotateX"
   },
   "rotateY()": {
     "syntax": "rotateY( [ <angle> | <zero> ] )",
@@ -613,7 +613,7 @@
       "CSS Transforms"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/rotateY"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/rotateY"
   },
   "rotateZ()": {
     "syntax": "rotateZ( [ <angle> | <zero> ] )",
@@ -621,7 +621,7 @@
       "CSS Transforms"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/rotateZ"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/rotateZ"
   },
   "round()": {
     "syntax": "round( <rounding-strategy>?, <calc-sum>, <calc-sum> )",
@@ -629,7 +629,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/round"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/round"
   },
   "saturate()": {
     "syntax": "saturate( [ <number> | <percentage> ]? )",
@@ -637,7 +637,7 @@
       "Filter Effects"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/saturate"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/saturate"
   },
   "scale()": {
     "syntax": "scale( [ <number> | <percentage> ]#{1,2} )",
@@ -645,7 +645,7 @@
       "CSS Transforms"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scale"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/scale"
   },
   "scale3d()": {
     "syntax": "scale3d( [ <number> | <percentage> ]#{3} )",
@@ -653,7 +653,7 @@
       "CSS Transforms"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scale3d"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/scale3d"
   },
   "scaleX()": {
     "syntax": "scaleX( [ <number> | <percentage> ] )",
@@ -661,7 +661,7 @@
       "CSS Transforms"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scaleX"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/scaleX"
   },
   "scaleY()": {
     "syntax": "scaleY( [ <number> | <percentage> ] )",
@@ -669,7 +669,7 @@
       "CSS Transforms"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scaleY"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/scaleY"
   },
   "scaleZ()": {
     "syntax": "scaleZ( [ <number> | <percentage> ] )",
@@ -677,7 +677,7 @@
       "CSS Transforms"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scaleZ"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/scaleZ"
   },
   "scroll()": {
     "syntax": "scroll( [ <scroller> || <axis> ]? )",
@@ -685,7 +685,7 @@
       "Scroll-driven Animations"
     ],
     "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline/scroll"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/animation-timeline/scroll"
   },
   "sepia()": {
     "syntax": "sepia( [ <number> | <percentage> ]? )",
@@ -693,7 +693,7 @@
       "Filter Effects"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function/sepia"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/sepia"
   },
   "sign()": {
     "syntax": "sign( <calc-sum> )",
@@ -701,7 +701,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/sign"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/sign"
   },
   "sin()": {
     "syntax": "sin( <calc-sum> )",
@@ -709,7 +709,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/sin"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/sin"
   },
   "skew()": {
     "syntax": "skew( [ <angle> | <zero> ] , [ <angle> | <zero> ]? )",
@@ -717,7 +717,7 @@
       "CSS Transforms"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/skew"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/skew"
   },
   "skewX()": {
     "syntax": "skewX( [ <angle> | <zero> ] )",
@@ -725,7 +725,7 @@
       "CSS Transforms"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/skewX"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/skewX"
   },
   "skewY()": {
     "syntax": "skewY( [ <angle> | <zero> ] )",
@@ -733,7 +733,7 @@
       "CSS Transforms"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/skewY"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/skewY"
   },
   "sqrt()": {
     "syntax": "sqrt( <calc-sum> )",
@@ -741,7 +741,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/sqrt"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/sqrt"
   },
   "steps()": {
     "syntax": "steps( <integer>, <step-position>? )",
@@ -749,7 +749,7 @@
       "CSS Easing Functions"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/easing-function/steps"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/easing-function/steps"
   },
   "symbols()": {
     "syntax": "symbols( <symbols-type>? [ <string> | <image> ]+ )",
@@ -757,7 +757,7 @@
       "CSS Counter Styles"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/symbols"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/symbols"
   },
   "tan()": {
     "syntax": "tan( <calc-sum> )",
@@ -765,7 +765,7 @@
       "CSS Values and Units"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/tan"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/tan"
   },
   "target-counter()": {
     "syntax": "target-counter( [ <string> | <url> ] , <custom-ident> , <counter-style>? )",
@@ -794,7 +794,7 @@
       "CSS Transforms"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/translate"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/translate"
   },
   "translate3d()": {
     "syntax": "translate3d( <length-percentage> , <length-percentage> , <length> )",
@@ -802,7 +802,7 @@
       "CSS Transforms"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/translate3d"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/translate3d"
   },
   "translateX()": {
     "syntax": "translateX( <length-percentage> )",
@@ -810,7 +810,7 @@
       "CSS Transforms"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/translateX"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/translateX"
   },
   "translateY()": {
     "syntax": "translateY( <length-percentage> )",
@@ -818,7 +818,7 @@
       "CSS Transforms"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/translateY"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/translateY"
   },
   "translateZ()": {
     "syntax": "translateZ( <length> )",
@@ -826,7 +826,7 @@
       "CSS Transforms"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function/translateZ"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/translateZ"
   },
   "var()": {
     "syntax": "var( <custom-property-name> , <declaration-value>? )",
@@ -834,7 +834,7 @@
       "CSS Custom Properties for Cascading Variables"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/var"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/var"
   },
   "view()": {
     "syntax": "view([<axis> || <'view-timeline-inset'>]?)",
@@ -842,7 +842,7 @@
       "Scroll-driven Animations"
     ],
     "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline/view"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/animation-timeline/view"
   },
   "xywh()": {
     "syntax": "xywh( <length-percentage>{2} <length-percentage [0,∞]>{2} [ round <'border-radius'> ]? )",
@@ -850,6 +850,6 @@
       "CSS Shapes"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/xywh"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/xywh"
   }
 }

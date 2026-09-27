@@ -4,14 +4,14 @@
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/angle"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/angle"
   },
   "angle-percentage": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/angle-percentage"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/angle-percentage"
   },
   "basic-shape": {
     "groups": [
@@ -19,7 +19,7 @@
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/basic-shape"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape"
   },
   "blend-mode": {
     "groups": [
@@ -27,7 +27,7 @@
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/blend-mode"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/blend-mode"
   },
   "color": {
     "groups": [
@@ -35,7 +35,7 @@
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/color_value"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value"
   },
   "custom-ident": {
     "groups": [
@@ -45,77 +45,77 @@
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/custom-ident"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/custom-ident"
   },
   "dashed-ident": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/dashed-ident"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/dashed-ident"
   },
   "dimension": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/dimension"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/dimension"
   },
   "display-box": {
     "groups": [
       "CSS Display"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-box"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/display-box"
   },
   "display-inside": {
     "groups": [
       "CSS Display"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-inside"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/display-inside"
   },
   "display-internal": {
     "groups": [
       "CSS Display"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-internal"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/display-internal"
   },
   "display-legacy": {
     "groups": [
       "CSS Display"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-legacy"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/display-legacy"
   },
   "display-listitem": {
     "groups": [
       "CSS Display"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-listitem"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/display-listitem"
   },
   "display-outside": {
     "groups": [
       "CSS Display"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/display-outside"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/display-outside"
   },
   "easing-function": {
     "groups": [
       "CSS Easing Functions"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/easing-function"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/easing-function"
   },
   "filter-function": {
     "groups": [
       "Filter Effects"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/filter-function"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function"
   },
   "flex": {
     "groups": [
@@ -123,21 +123,21 @@
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/flex_value"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/flex_value"
   },
   "frequency": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/frequency"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/frequency"
   },
   "frequency-percentage": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/frequency-percentage"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/frequency-percentage"
   },
   "gradient": {
     "groups": [
@@ -145,14 +145,14 @@
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/gradient"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient"
   },
   "ident": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ident"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/ident"
   },
   "image": {
     "groups": [
@@ -160,91 +160,91 @@
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/image"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/image"
   },
   "integer": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/integer"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/integer"
   },
   "length": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/length"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/length"
   },
   "length-percentage": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/length-percentage"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/length-percentage"
   },
   "line-style": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/line-style"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/line-style"
   },
   "number": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/number"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/number"
   },
   "overflow": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/overflow_value"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/overflow_value"
   },
   "percentage": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/percentage"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/percentage"
   },
   "position": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/position_value"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/position_value"
   },
   "ratio": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/ratio"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/ratio"
   },
   "resolution": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/resolution"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/resolution"
   },
   "shape": {
     "groups": [
       "CSS Types"
     ],
     "status": "obsolete",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/shape"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/shape"
   },
   "string": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/string"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/string"
   },
   "text-edge": {
     "groups": [
@@ -252,21 +252,21 @@
       "CSS Inline"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/text-edge"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/text-edge"
   },
   "time": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/time"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/time"
   },
   "time-percentage": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/time-percentage"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/time-percentage"
   },
   "transform-function": {
     "groups": [
@@ -274,13 +274,13 @@
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/transform-function"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function"
   },
   "url": {
     "groups": [
       "CSS Types"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/url_value"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Values/url_value"
   }
 }
