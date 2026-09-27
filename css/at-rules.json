@@ -5,7 +5,7 @@
       "CSS Syntax"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@charset"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@charset"
   },
   "@counter-style": {
     "syntax": "@counter-style <counter-style-name> {\n  [ system: <counter-system>; ] ||\n  [ symbols: <counter-symbols>; ] ||\n  [ additive-symbols: <additive-symbols>; ] ||\n  [ negative: <negative-symbol>; ] ||\n  [ prefix: <prefix>; ] ||\n  [ suffix: <suffix>; ] ||\n  [ range: <range>; ] ||\n  [ pad: <padding>; ] ||\n  [ speak-as: <speak-as>; ] ||\n  [ fallback: <counter-style-name>; ]\n}",
@@ -24,7 +24,7 @@
         "computed": "asSpecified",
         "order": "orderOfAppearance",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/additive-symbols"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@counter-style/additive-symbols"
       },
       "fallback": {
         "syntax": "<counter-style-name>",
@@ -34,7 +34,7 @@
         "computed": "asSpecified",
         "order": "uniqueOrder",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/fallback"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@counter-style/fallback"
       },
       "negative": {
         "syntax": "<symbol> <symbol>?",
@@ -44,7 +44,7 @@
         "computed": "asSpecified",
         "order": "orderOfAppearance",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/negative"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@counter-style/negative"
       },
       "pad": {
         "syntax": "<integer [0,∞]> && <symbol>",
@@ -54,7 +54,7 @@
         "computed": "asSpecified",
         "order": "uniqueOrder",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/pad"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@counter-style/pad"
       },
       "prefix": {
         "syntax": "<symbol>",
@@ -64,7 +64,7 @@
         "computed": "asSpecified",
         "order": "uniqueOrder",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/prefix"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@counter-style/prefix"
       },
       "range": {
         "syntax": "[ [ <integer> | infinite ]{2} ]# | auto",
@@ -74,7 +74,7 @@
         "computed": "asSpecified",
         "order": "orderOfAppearance",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/range"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@counter-style/range"
       },
       "speak-as": {
         "syntax": "auto | bullets | numbers | words | spell-out | <counter-style-name>",
@@ -84,7 +84,7 @@
         "computed": "asSpecified",
         "order": "uniqueOrder",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/speak-as"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@counter-style/speak-as"
       },
       "suffix": {
         "syntax": "<symbol>",
@@ -94,7 +94,7 @@
         "computed": "asSpecified",
         "order": "uniqueOrder",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/suffix"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@counter-style/suffix"
       },
       "symbols": {
         "syntax": "<symbol>+",
@@ -104,7 +104,7 @@
         "computed": "asSpecified",
         "order": "orderOfAppearance",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/symbols"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@counter-style/symbols"
       },
       "system": {
         "syntax": "cyclic | numeric | alphabetic | symbolic | additive | [ fixed <integer>? ] | [ extends <counter-style-name> ]",
@@ -114,11 +114,11 @@
         "computed": "asSpecified",
         "order": "uniqueOrder",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/system"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@counter-style/system"
       }
     },
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@counter-style"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@counter-style"
   },
   "@container": {
     "syntax": "@container <container-condition># {\n  <block-contents>\n}",
@@ -129,7 +129,7 @@
       "CSS Conditional Rules"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@container"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@container"
   },
   "@document": {
     "syntax": "@document [ <url> | url-prefix(<string>) | domain(<string>) | media-document(<string>) | regexp(<string>) ]# {\n  <group-rule-body>\n}",
@@ -140,7 +140,7 @@
       "CSS Conditional Rules"
     ],
     "status": "nonstandard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@document"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@document"
   },
   "@font-face": {
     "syntax": "@font-face {\n  [ font-family: <family-name>; ] ||\n  [ src: <src>; ] ||\n  [ unicode-range: <unicode-range>; ] ||\n  [ font-variant: <font-variant>; ] ||\n  [ font-feature-settings: <font-feature-settings>; ] ||\n  [ font-variation-settings: <font-variation-settings>; ] ||\n  [ font-stretch: <font-stretch>; ] ||\n  [ font-weight: <font-weight>; ] ||\n  [ font-style: <font-style>; ] ||\n  [ size-adjust: <size-adjust>; ] ||\n  [ ascent-override: <ascent-override>; ] ||\n  [ descent-override: <descent-override>; ] ||\n  [ line-gap-override: <line-gap-override>; ]\n}",
@@ -159,7 +159,7 @@
         "computed": "asSpecified",
         "order": "orderOfAppearance",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/ascent-override"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/ascent-override"
       },
       "descent-override": {
         "syntax": "normal | <percentage>",
@@ -169,7 +169,7 @@
         "computed": "asSpecified",
         "order": "orderOfAppearance",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/descent-override"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/descent-override"
       },
       "font-display": {
         "syntax": "auto | block | swap | fallback | optional",
@@ -179,7 +179,7 @@
         "computed": "asSpecified",
         "order": "uniqueOrder",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-display"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/font-display"
       },
       "font-family": {
         "syntax": "<family-name>",
@@ -189,7 +189,7 @@
         "computed": "asSpecified",
         "order": "uniqueOrder",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-family"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/font-family"
       },
       "font-feature-settings": {
         "syntax": "normal | <feature-tag-value>#",
@@ -199,7 +199,7 @@
         "computed": "asSpecified",
         "order": "orderOfAppearance",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-feature-settings"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/font-feature-settings"
       },
       "font-stretch": {
         "syntax": "<font-stretch-absolute>{1,2}",
@@ -209,7 +209,7 @@
         "computed": "asSpecified",
         "order": "uniqueOrder",
         "status": "obsolete",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-stretch"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/font-stretch"
       },
       "font-style": {
         "syntax": "normal | italic | oblique <angle>{0,2}",
@@ -219,7 +219,7 @@
         "computed": "asSpecified",
         "order": "uniqueOrder",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-style"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/font-style"
       },
       "font-variation-settings": {
         "syntax": "normal | [ <string> <number> ]#",
@@ -229,7 +229,7 @@
         "computed": "asSpecified",
         "order": "orderOfAppearance",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-variation-settings"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/font-variation-settings"
       },
       "font-weight": {
         "syntax": "<font-weight-absolute>{1,2}",
@@ -239,7 +239,7 @@
         "computed": "asSpecified",
         "order": "uniqueOrder",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-weight"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/font-weight"
       },
       "line-gap-override": {
         "syntax": "normal | <percentage>",
@@ -249,7 +249,7 @@
         "computed": "asSpecified",
         "order": "orderOfAppearance",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/line-gap-override"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/line-gap-override"
       },
       "size-adjust": {
         "syntax": "<percentage>",
@@ -259,7 +259,7 @@
         "computed": "asSpecified",
         "order": "orderOfAppearance",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/size-adjust"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/size-adjust"
       },
       "src": {
         "syntax": "[ <url> [ format( <string># ) ]? | local( <family-name> ) ]#",
@@ -269,7 +269,7 @@
         "computed": "asSpecified",
         "order": "orderOfAppearance",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/src"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/src"
       },
       "unicode-range": {
         "syntax": "<unicode-range-token>#",
@@ -279,11 +279,11 @@
         "computed": "asSpecified",
         "order": "orderOfAppearance",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face/unicode-range"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/unicode-range"
       }
     },
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-face"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face"
   },
   "@font-feature-values": {
     "syntax": "@font-feature-values <family-name># {\n  <feature-value-block-list>\n}",
@@ -294,7 +294,7 @@
       "CSS Fonts"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-feature-values"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-feature-values"
   },
   "@font-palette-values": {
     "syntax": "@font-palette-values <dashed-ident> {\n  <declaration-list>\n}",
@@ -313,7 +313,7 @@
         "computed": "asSpecified",
         "order": "uniqueOrder",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-palette-values/base-palette"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-palette-values/base-palette"
       },
       "font-family": {
         "syntax": "<family-name>#",
@@ -323,7 +323,7 @@
         "computed": "asSpecified",
         "order": "orderOfAppearance",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-palette-values/font-family"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-palette-values/font-family"
       },
       "override-colors": {
         "syntax": "[ <integer [0,∞]> <color> ]#",
@@ -333,11 +333,11 @@
         "computed": "asSpecified",
         "order": "orderOfAppearance",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-palette-values/override-colors"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-palette-values/override-colors"
       }
     },
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@font-palette-values"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-palette-values"
   },
   "@import": {
     "syntax": "@import [ <string> | <url> ]\n        [ layer | layer(<layer-name>) ]?\n        [ supports( [ <supports-condition> | <declaration> ] ) ]?\n        <media-query-list>? ;",
@@ -348,7 +348,7 @@
       "CSS Cascading and Inheritance"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@import"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@import"
   },
   "@keyframes": {
     "syntax": "@keyframes <keyframes-name> {\n  <qualified-rule-list>\n}",
@@ -360,7 +360,7 @@
       "CSS Animations"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@keyframes"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@keyframes"
   },
   "@layer": {
     "syntax": "@layer [ <layer-name># | <layer-name>?  {\n  <stylesheet>\n} ]",
@@ -372,7 +372,7 @@
       "CSS Cascading and Inheritance"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@layer"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@layer"
   },
   "@media": {
     "syntax": "@media <media-query-list> {\n  <group-rule-body>\n}",
@@ -384,7 +384,7 @@
       "Media Queries"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@media"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media"
   },
   "@namespace": {
     "syntax": "@namespace <namespace-prefix>? [ <string> | <url> ];",
@@ -395,7 +395,7 @@
       "CSS Namespaces"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@namespace"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@namespace"
   },
   "@page": {
     "syntax": "@page <page-selector-list> {\n  <page-body>\n}",
@@ -441,7 +441,7 @@
         "computed": "asSpecified",
         "order": "orderOfAppearance",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@page/page-margin-safety"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@page/page-margin-safety"
       },
       "page-orientation": {
         "syntax": "upright | rotate-left | rotate-right",
@@ -454,7 +454,7 @@
         "computed": "asSpecified",
         "order": "orderOfAppearance",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@page/page-orientation"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@page/page-orientation"
       },
       "size": {
         "syntax": "<length [0,∞]>{1,2} | auto | [ <page-size> || [ portrait | landscape ] ]",
@@ -467,11 +467,11 @@
         "computed": "asSpecifiedRelativeToAbsoluteLengths",
         "order": "orderOfAppearance",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@page/size"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@page/size"
       }
     },
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@page"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@page"
   },
   "@position-try": {
     "syntax": "@position-try <dashed-ident> {\n  <declaration-list>\n}",
@@ -482,7 +482,7 @@
       "CSS Anchor Positioning"
     ],
     "status": "experimental",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@position-try"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@position-try"
   },
   "@property": {
     "syntax": "@property <custom-property-name> {\n  <declaration-list>\n}",
@@ -501,7 +501,7 @@
         "computed": "asSpecified",
         "order": "uniqueOrder",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property/inherits"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@property/inherits"
       },
       "initial-value": {
         "syntax": "<declaration-value>?",
@@ -511,7 +511,7 @@
         "computed": "asSpecified",
         "order": "uniqueOrder",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property/initial-value"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@property/initial-value"
       },
       "syntax": {
         "syntax": "<string>",
@@ -521,11 +521,11 @@
         "computed": "asSpecified",
         "order": "uniqueOrder",
         "status": "standard",
-        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property/syntax"
+        "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@property/syntax"
       }
     },
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@property"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@property"
   },
   "@scope": {
     "syntax": "@scope [(<scope-start>)]? [to (<scope-end>)]? {\n  <rule-list>\n}",
@@ -536,7 +536,7 @@
       "CSS Conditional Rules"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@scope"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@scope"
   },
   "@starting-style": {
     "syntax": "@starting-style {\n  <declaration-list> | <group-rule-body>\n}",
@@ -547,7 +547,7 @@
       "CSS Transitions"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@starting-style"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@starting-style"
   },
   "@supports": {
     "syntax": "@supports <supports-condition> {\n  <group-rule-body>\n}",
@@ -558,7 +558,7 @@
       "CSS Conditional Rules"
     ],
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@supports"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@supports"
   },
   "@view-transition": {
     "syntax": "@view-transition {\n  <declaration-list>\n}",
@@ -589,6 +589,6 @@
       }
     },
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/@view-transition"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@view-transition"
   }
 }
