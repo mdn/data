@@ -2252,7 +2252,7 @@
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/Reference/Properties/animation-trigger"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-trigger"
   },
   "appearance": {
     "syntax": "none | auto | <compat-auto> | <compat-special>",
@@ -6400,7 +6400,7 @@
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/Reference/Properties/frame-sizing"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/frame-sizing"
   },
   "gap": {
     "syntax": "<'row-gap'> <'column-gap'>?",
@@ -11467,7 +11467,7 @@
     ],
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/Reference/Properties/timeline-trigger"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger"
   },
   "timeline-trigger-activation-range": {
     "syntax": "[ <'timeline-trigger-activation-range-start'> <'timeline-trigger-activation-range-end'>? ]#",
@@ -11492,7 +11492,7 @@
     ],
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/Reference/Properties/timeline-trigger-activation-range"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-activation-range"
   },
   "timeline-trigger-activation-range-end": {
     "syntax": "[ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
@@ -11508,7 +11508,7 @@
     "computed": "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage",
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/Reference/Properties/timeline-trigger-activation-range-end"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-activation-range-end"
   },
   "timeline-trigger-activation-range-start": {
     "syntax": "[ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
@@ -11524,7 +11524,7 @@
     "computed": "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage",
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/Reference/Properties/timeline-trigger-activation-range-start"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-activation-range-start"
   },
   "timeline-trigger-active-range": {
     "syntax": "[ <'timeline-trigger-active-range-start'> <'timeline-trigger-active-range-end'>? ]#",
@@ -11549,7 +11549,7 @@
     ],
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/Reference/Properties/timeline-trigger-active-range"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-active-range"
   },
   "timeline-trigger-active-range-end": {
     "syntax": "[ auto | normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
@@ -11565,7 +11565,7 @@
     "computed": "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage",
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/Reference/Properties/timeline-trigger-active-range-end"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-active-range-end"
   },
   "timeline-trigger-active-range-start": {
     "syntax": "[ auto | normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
@@ -11581,7 +11581,7 @@
     "computed": "listEachItemConsistingOfNormalLengthPercentageOrNameLengthPercentage",
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/Reference/Properties/timeline-trigger-active-range-start"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-active-range-start"
   },
   "timeline-trigger-name": {
     "syntax": "none | <dashed-ident>#",
@@ -11597,7 +11597,7 @@
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/Reference/Properties/timeline-trigger-name"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-name"
   },
   "timeline-trigger-source": {
     "syntax": "<single-animation-timeline>#",
@@ -11613,7 +11613,7 @@
     "computed": "listOfNoneAutoIdentScrollOrView",
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/Reference/Properties/timeline-trigger-source"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/timeline-trigger-source"
   },
   "top": {
     "syntax": "auto | <length-percentage> | <anchor()> | <anchor-size()>",
@@ -11853,7 +11853,7 @@
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/Reference/Properties/trigger-scope"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/trigger-scope"
   },
   "unicode-bidi": {
     "syntax": "normal | embed | isolate | bidi-override | isolate-override | plaintext",
@@ -12155,7 +12155,7 @@
     "computed": "asSpecified",
     "order": "perGrammar",
     "status": "standard",
-    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/Reference/Properties/window-drag"
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/window-drag"
   },
   "word-break": {
     "syntax": "normal | break-all | keep-all | break-word | auto-phrase",
