@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.37.1](https://github.com/mdn/data/compare/v2.37.0...v2.37.1) (2026-09-29)
+
+
+### Bug Fixes
+
+* at-rules use old path instead of current ([#1104](https://github.com/mdn/data/issues/1104)) ([d5922fa](https://github.com/mdn/data/commit/d5922fa12d8ddb705964270772600d1e0bd99cd1))
+* **css:** remove an+b footnote markers ([#1109](https://github.com/mdn/data/issues/1109)) ([590fec0](https://github.com/mdn/data/commit/590fec0e01f00192913808ad831dd00d8ba69b41))
+* functions and types use old path instead of current ([#1107](https://github.com/mdn/data/issues/1107)) ([4bf6013](https://github.com/mdn/data/commit/4bf6013956b562e0309f779a20b5d3d25970e3fb))
+* properties use old path instead of current ([#1105](https://github.com/mdn/data/issues/1105)) ([43b872f](https://github.com/mdn/data/commit/43b872f9e86f030e9663811e1a9d95e79a88756c))
+* selectors use old path instead of current ([#1106](https://github.com/mdn/data/issues/1106)) ([35a639e](https://github.com/mdn/data/commit/35a639edae93e49860d7b804ad577aeea2c19c15))
+
 ## [2.37.0](https://github.com/mdn/data/compare/v2.36.0...v2.37.0) (2026-09-22)
 
 
