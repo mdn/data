@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.37.2](https://github.com/mdn/data/compare/v2.37.1...v2.37.2) (2026-10-03)
+
+
+### Miscellaneous
+
+* **github:** use `.md` extension for PR template ([#1110](https://github.com/mdn/data/issues/1110)) ([cea0057](https://github.com/mdn/data/commit/cea0057d5ea415a7455e7e32daf1c953f6ad68e7))
+
 ## [2.37.1](https://github.com/mdn/data/compare/v2.37.0...v2.37.1) (2026-09-29)
 
 
