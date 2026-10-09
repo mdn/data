@@ -263,6 +263,7 @@
         "inlineLevelBoxesFlexItemsGridItemsTableCellsAndSVGTextContentElements",
         "limitedSVGElements",
         "limitedSVGElementsCircle",
+        "limitedSVGElementsContainerGraphicsGradientUseAnimate",
         "limitedSVGElementsEllipse",
         "limitedSVGElementsEllipseRect",
         "limitedSVGElementsFilterPrimitives",
