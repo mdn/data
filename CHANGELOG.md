@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.38.0](https://github.com/mdn/data/compare/v2.37.2...v2.38.0) (2026-11-17)
+
+
+### Features
+
+* **css:** add color-interpolation property ([#1121](https://github.com/mdn/data/issues/1121)) ([19e202c](https://github.com/mdn/data/commit/19e202c1f9cb21b1abb7df0d8773567d086e3074))
+
 ## [2.37.2](https://github.com/mdn/data/compare/v2.37.1...v2.37.2) (2026-10-03)
 
 
