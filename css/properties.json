@@ -4429,6 +4429,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/color"
   },
+  "color-interpolation": {
+    "syntax": "auto | sRGB | linearRGB | <color-interpolation-method>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "discrete",
+    "percentages": "no",
+    "groups": [
+      "Scalable Vector Graphics"
+    ],
+    "initial": "sRGB",
+    "appliesto": "limitedSVGElementsContainerGraphicsGradientUseAnimate",
+    "computed": "asSpecified",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/color-interpolation"
+  },
   "color-interpolation-filters": {
     "syntax": "auto | sRGB | linearRGB",
     "media": "visual",
