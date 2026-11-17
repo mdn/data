@@ -1056,6 +1056,10 @@
     "en-US": "{{SVGElement(\"circle\")}} element in {{SVGElement(\"svg\")}}",
     "fr": "élément {{SVGElement(\"circle\")}} dans {{SVGElement(\"svg\")}}"
   },
+  "limitedSVGElementsContainerGraphicsGradientUseAnimate": {
+    "en-US": "Container elements, graphics elements, gradient elements, {{SVGElement(\"use\")}}, and {{SVGElement(\"animate\")}} in {{SVGElement(\"svg\")}}",
+    "fr": "éléments conteneurs, éléments graphiques, éléments de dégradé, {{SVGElement(\"use\")}} et {{SVGElement(\"animate\")}} dans {{SVGElement(\"svg\")}}"
+  },
   "limitedSVGElementsEllipse": {
     "en-US": "{{SVGElement(\"ellipse\")}} and {{SVGElement(\"circle\")}} elements in {{SVGElement(\"svg\")}}",
     "fr": "éléments {{SVGElement(\"ellipse\")}} et {{SVGElement(\"circle\")}} dans {{SVGElement(\"svg\")}}"
