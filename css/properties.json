@@ -7731,7 +7731,7 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-top"
   },
   "margin-trim": {
-    "syntax": "none | in-flow | all",
+    "syntax": "none | block | [ block-start || block-end ]",
     "media": "visual",
     "inherited": false,
     "animationType": "discrete",
