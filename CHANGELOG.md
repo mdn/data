@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.38.1](https://github.com/mdn/data/compare/v2.38.0...v2.38.1) (2026-11-18)
+
+
+### Bug Fixes
+
+* update the syntax for margin-trim ([#1123](https://github.com/mdn/data/issues/1123)) ([7d81f79](https://github.com/mdn/data/commit/7d81f7981cc1c7074b887bb2d16aab66b493dc13))
+
 ## [2.38.0](https://github.com/mdn/data/compare/v2.37.2...v2.38.0) (2026-11-17)
 
 
