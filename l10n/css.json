@@ -1949,6 +1949,9 @@
     "ru": "указанное значение, обрезается до диапозона <code>[0,1]</code>",
     "zh-TW": "指定的值，範圍限制在 <code>[0,1]</code>"
   },
+  "specifiedValueNumber": {
+    "en-US": "the specified {{cssxref(\"number\")}}"
+  },
   "specifiedValueNumberClipped0To1": {
     "de": "Derselbe wie der angegebene Wert nachdem die {{cssxref(\"number\")}} auf den Bereich [0.0, 1.0] zugeschnitten wurde.",
     "en-US": "The same as the specified value after clipping the {{cssxref(\"number\")}} to the range [0.0, 1.0].",

@@ -176,6 +176,7 @@
         "specifiedKeywordOrComputedFunction",
         "specifiedKeywordOrComputedPercentage",
         "specifiedValue",
+        "specifiedValueNumber",
         "specifiedValueClipped0To1",
         "specifiedValueNumberClipped0To1",
         "theComputedLengthAndVisualBox",
