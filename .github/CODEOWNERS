@@ -9,6 +9,6 @@
 
 /.github/workflows/ @mdn/engineering
 /.github/CODEOWNERS @mdn/content-team @mdn/engineering
-/SECURITY.md @mdn/engineering
-/package.json       @mdn/content-team @mdn-bot
-/package-lock.json  @mdn/content-team @mdn-bot
+/SECURITY.md        @mdn/engineering
+/package.json       @mdn/engineering @mdn-bot
+/package-lock.json  @mdn/engineering @mdn-bot
