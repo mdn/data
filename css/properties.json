@@ -10861,6 +10861,22 @@
     "status": "standard",
     "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-autospace"
   },
+  "text-autospace-size": {
+    "syntax": "<number [0,∞]>",
+    "media": "visual",
+    "inherited": true,
+    "animationType": "byComputedValueType",
+    "percentages": "no",
+    "groups": [
+      "CSS Text"
+    ],
+    "initial": "0.125",
+    "appliesto": "textElements",
+    "computed": "specifiedValueNumber",
+    "order": "perGrammar",
+    "status": "standard",
+    "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-autospace-size"
+  },
   "text-box": {
     "syntax": "normal | <'text-box-trim'> || <'text-box-edge'>",
     "media": "visual",
